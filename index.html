@@ -106,7 +106,7 @@ layout: default
 
                     <h2 class="green padding-bottom-40">Blog</h2>
 
-                    {% for post in site.posts limit:1 %}
+                    {% for post in site.blog limit:1 %}
 
                     <h2><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
                     <p>{{ post.date | date: "%d. %b %Y" }}</p>
