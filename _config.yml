@@ -7,8 +7,9 @@ collections:
     output: true
     permalink: "/news/:name"
   blog:
-    title: Posts
+    title: Blog
     output: true
+    permalink: "/blog/:name"
   posts:
     title: Posts
     output: true
