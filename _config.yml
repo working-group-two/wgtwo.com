@@ -6,6 +6,9 @@ collections:
     title: News
     output: true
     permalink: "/news/:name"
+  blog:
+    title: Posts
+    output: true
   posts:
     title: Posts
     output: true
