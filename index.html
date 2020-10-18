@@ -101,25 +101,28 @@ layout: default
 <div class="grey-gradient-bg">
     <div class="container padding-top-60 padding-bottom-60">
         <div class="row">
+
+            {% for post in site.posts limit:1 %}
+
             <div class="col-12 col-xl-7 offset-xl-1 d-flex align-items-center">
                 <div>
 
                     <h2 class="green padding-bottom-40">Blog</h2>
-
-                    {% for post in site.posts limit:1 %}
 
                     <h2><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
                     <p>{{ post.date | date: "%d. %b %Y" }}</p>
                     <p class="large">{{ post.excerpt }}</p>
                     <p class="large"><a href="{{ post.url }}">Read more</a></p>
 
-                    {% endfor %}
-
                 </div>
             </div>
+            
             <div class="col-12 col-xl-3 offset-xl-1 d-flex align-items-center">
                 <img src="assets/images/tmp_blog.jpg">
             </div>
+
+            {% endfor %}
+
         </div>
     </div>
 </div>

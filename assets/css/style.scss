@@ -149,18 +149,24 @@ header {
 
     div.logo {
         a {
+            margin: 20px 0 20px 0;
             display: block;
             text-decoration: none;
-            height: 100px;
+            height: 60px;
             background-image: url('../images/logo-colors.svg');
             background-repeat: no-repeat;
-            background-size: auto 60%;
+            background-size: contain;
             background-position: center left;
         }
     }
 
     div.toggle {
         cursor: pointer;
+        height: 100px;
+        background-image: url('../images/menu.svg');
+        background-repeat: no-repeat;
+        background-size: auto 60px;
+        background-position: center right;
     }
 
     div.nav {
