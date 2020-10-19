@@ -13,7 +13,9 @@ fadfadfafd
 
 * adfaf
 
-* adfafd
+* ![logo-farger.png](/uploads/logo-farger.png)adfafd 
+
+> > 
 
 ![mockup-referanser.jpg](/uploads/mockup-referanser.jpg)
 
