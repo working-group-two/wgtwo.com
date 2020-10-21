@@ -2,6 +2,10 @@
 title: Testpage
 date: 2020-10-21 14:47:00 Z
 permalink: "/testpage"
+top_heading: Mobile core network as a service
+top_text: Increase operator revenue by launching products that work out of the box
+  on top of a cloud native mobile core network that is cheap to integrate, and carefree
+  to operate.
 mcn_text: A versatile mobile core network built on top of AWS that works for MNOs,
   MVNOs, IoT players and Private networks.
 dev_text: We believe that subscribers have different needs and should be treated as
@@ -14,6 +18,4 @@ sfront_text: |-
 layout: testpage
 ---
 
-# Mobile core network as a service
-
-Increase operator revenue by launching products that work out of the box on top of a cloud native mobile core network that is cheap to integrate, and carefree to operate.
+# 
