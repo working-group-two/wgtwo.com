@@ -2,13 +2,10 @@
 title: WGTWO
 timezone: UTC
 collections:
-  news:
-    title: News
+  media:
+    title: media
     output: true
-    permalink: "/news/:name"
-  posts:
-    title: Posts
-    output: true
+    permalink: "/media/:name"
   uploads:
     title: Uploads
     output: true

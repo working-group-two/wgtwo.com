@@ -3644,11 +3644,12 @@ a.black {
 }
 
 a.button span {
+  font-size: 18px;
   display: inline;
   color: #fff;
   background-color: #EF5180;
-  padding: 15px 20px 15px 20px;
-  border-radius: 5px;
+  padding: 15px 35px 15px 35px;
+  border-radius: 60px;
   -webkit-box-shadow: 5px 5px 5px 0 #E8E8E8;
   box-shadow: 5px 5px 5px 0 #E8E8E8;
 }
@@ -3694,10 +3695,10 @@ header {
 }
 
 header div.logo a {
-  margin: 20px 0 20px 0;
+  margin: 30px 0 30px 0;
   display: block;
   text-decoration: none;
-  height: 60px;
+  height: 40px;
   background-image: url("../images/logo-colors.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -3707,15 +3708,19 @@ header div.logo a {
 header div.toggle {
   cursor: pointer;
   height: 100px;
-  background-image: url("../images/menu.svg");
+  background-image: url("../images/menu.png");
   background-repeat: no-repeat;
-  background-size: auto 60px;
+  background-size: auto 30px;
   background-position: center right;
 }
 
 @media (max-width: 1199.98px) {
   header div.nav {
     display: none;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
   }
   header div.nav.visible {
     display: block;
@@ -3759,7 +3764,7 @@ header div.nav ul li a {
 
 /* Footer */
 footer {
-  background: transparent linear-gradient(178deg, #274893 0%, #009197 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #009197 0%, #274893 100%) 0% 0% no-repeat padding-box;
   padding: 70px 0 70px 0;
 }
 

@@ -78,8 +78,8 @@ layout: default
             <div>
                 <p class="padding-bottom-20"><img src="assets/images/devportal.svg" style="height: 100px;"></p>
                 <p class="large padding-bottom-40">We believe that subscribers have different needs and should be treated as individuals, so we built the wgtwo developer portal to enable third party developers to create innovative products and to monetize them in the wgtwo marketplace.</p>
-                <p class="large float-xl-right"><a href="#" class="button"><span>Sign up and start building</span></a></p>
-                <p class="large"><a href="#" class="button">View documentation</a></p>
+                <p class="large float-xl-right"><a href="https://developer.wgtwo.com" class="button"><span>Sign up and start building</span></a></p>
+                <p class="large"><a href="https://docs.wgtwo.com" class="button">View documentation</a></p>
             </div>
         </div>
     </div>
@@ -88,11 +88,16 @@ layout: default
 <div class="greybg padding-top-60 padding-bottom-60">
     <div class="container">
         <div class="row">
-            <div class="col col-xl-8 offset-xl-2">
-                <p class="padding-bottom-20"><img src="assets/images/marketplace.svg" style="height: 100px;"></p>
-                <p class="large">All products created with the wgtwo developer portal works out of the box for every operator using the wgtwo mobile core network.</p>
-                <p class="large">Contact sales to get to know the products already available, and how they can grow an operators business.</p>
-                <p class="large padding-top-30"><a href="#" class="button"><span>Talk to an expert</span></a></p>
+            <div class="col-12 col-xl-6 d-flex align-items-center">
+                <div>
+                    <p class="padding-bottom-20"><img src="assets/images/storefront.svg" style="height: 100px;" alt="STOREFRONT LOGO MISSING"></p>
+                    <p class="large">All products created with the wgtwo developer portal works out of the box for every operator using the wgtwo mobile core network.</p>
+                    <p class="large">Contact sales to get to know the products already available, and how they can grow an operators business.</p>
+                    <p class="large padding-top-30"><a href="#" class="button"><span>Talk to an expert</span></a></p>
+                </div>
+            </div>
+            <div class="col-12 col-xl-5 offset-xl-1 d-flex align-items-center">
+                <img src="assets/images/laptop-woman.svg">
             </div>
         </div>
     </div>
@@ -104,7 +109,7 @@ layout: default
 
             {% for post in site.posts limit:1 %}
 
-            <div class="col-12 col-xl-7 offset-xl-1 d-flex align-items-center">
+            <div class="col-12 col-xl-7 d-flex align-items-center">
                 <div>
 
                     <h2 class="green padding-bottom-40">Blog</h2>
@@ -117,7 +122,7 @@ layout: default
                 </div>
             </div>
             
-            <div class="col-12 col-xl-3 offset-xl-1 d-flex align-items-center">
+            <div class="col-12 col-xl-4 offset-xl-1 d-flex align-items-center">
                 <img src="assets/images/tmp_blog.jpg">
             </div>
 
