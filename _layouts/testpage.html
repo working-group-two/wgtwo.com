@@ -1,7 +1,156 @@
-{% include header.html %}
+---
+title: Working Group Two
+layout: default
+---
 
-<h1>{{ page.title }}</h1>
+<div class="container padding-top-60 padding-bottom-100">
+    <div class="row">
+        <div class="col-12 col-xl-6 d-flex align-items-center">
+            <div>
+                {{ page.content }}
+            </div>
+        </div>
+        <div class="col-12 col-xl-5 offset-xl-1 d-flex align-items-center">
+            <img src="assets/images/mobile_woman.svg">
+        </div>
+    </div>
+</div>
 
-{{ content }}
+<div class="greybg padding-top-60 padding-bottom-60">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col">
+                
+                <div class="align-center padding-bottom-50">
+                    <img src="assets/images/mobile-core-network.svg" style="height: 80px;">
+                </div>
 
-{% include footer.html %}
+                <div class="box">
+                    <div class="row">
+                        <div class="col-12 col-xl-4 d-flex align-items-center">
+                            <img src="assets/images/mobile_woman.svg">
+                        </div>
+                        <div class="col-12 col-xl-7 d-flex align-items-center">
+                            <div>
+                                <p class="large padding-bottom-40">{{ page.mcn_text }}</p>
+                                <p class="large float-xl-right"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
+                                <p class="large"><a href="{{ site.url }}/mobile-core-network" class="button">Read about how it works</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-xl-4">
+                <div class="box align-center">
+                    <a href="#"><img src="assets/images/webinar.svg" style="height: 120px;"></a>
+                    <h3><a href="{{ site.url }}/webinar">Join webinar</a></h3>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="box align-center">
+                    <a href="#"><img src="assets/images/whitepaper.svg" style="height: 120px;"></a>
+                    <h3><a href="{{ site.url }}/whitepaper">Get whitepaper</a></h3>
+                </div>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="box align-center">
+                    <a href="#"><img src="assets/images/casestudy.svg" style="height: 120px;"></a>
+                    <h3><a href="{{ site.url }}/case-study">Read case study</a></h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container padding-top-80 padding-bottom-80">
+    <div class="row">
+        <div class="col-12 col-xl-5 d-flex align-items-center">
+            <img src="assets/images/laptop-woman.svg">
+        </div>
+        <div class="col-12 col-xl-6 offset-xl-1 d-flex align-items-center">
+            <div>
+                <p class="padding-bottom-20"><img src="assets/images/devportal.svg" style="height: 100px;"></p>
+                <p class="large padding-bottom-40">{{ page.dev_text }}</p>
+                <p class="large float-xl-right"><a href="https://developer.wgtwo.com" class="button"><span>Sign up and start building</span></a></p>
+                <p class="large"><a href="https://docs.wgtwo.com" class="button">View documentation</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="greybg padding-top-60 padding-bottom-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6 d-flex align-items-center">
+                <div>
+                    <!--<p class="padding-bottom-20"><img src="assets/images/storefront.svg" style="height: 100px;" alt="STOREFRONT LOGO MISSING"></p>-->
+                    <h2>MISSING STOREFRONT LOGO</h2>
+                    <p class="large">{{ page.sfront_text }}</p>
+                    <p class="large padding-top-30"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
+                </div>
+            </div>
+            <div class="col-12 col-xl-5 offset-xl-1 d-flex align-items-center">
+                <img src="assets/images/laptop-woman.svg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="grey-gradient-bg">
+    <div class="container padding-top-60 padding-bottom-60">
+        <div class="row">
+
+            {% for post in site.posts limit:1 %}
+
+            <div class="col-12 col-xl-7 d-flex align-items-center">
+                <div>
+
+                    <h2 class="green padding-bottom-40">Blog</h2>
+
+                    <h2><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
+                    <p>{{ post.date | date: "%d. %b %Y" }}</p>
+                    <p class="large">{{ post.excerpt }}</p>
+                    <p class="large"><a href="{{ post.url }}">Read more</a></p>
+
+                </div>
+            </div>
+            
+            <div class="col-12 col-xl-4 offset-xl-1 d-flex align-items-center">
+                <img src="{{ post.thumbnail }}">
+            </div>
+
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+
+<div class="container padding-top-60 padding-bottom-60">
+    <div class="row">
+        <div class="col">
+            <h2 class="green">Media</h2>
+        </div>
+    </div>
+    <div class="row">
+
+        {% for post in site.news limit:3 %}
+
+        <div class="col-12 col-xl-4">
+            <div style="padding: 25px;">
+                <p><a href="{{ post.url }}" class="image" style="background-image: url('{{ post.thumbnail }}');">&nbsp;</a></p>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt }}</p>
+                <p><a href="{{ post.url }}">Read more</a></p>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+</div>
