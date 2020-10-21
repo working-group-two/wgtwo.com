@@ -1,6 +1,7 @@
 ---
 title: Testpage
 date: 2020-10-21 14:47:00 Z
+permalink: "/testpage"
 mcn_text: A versatile mobile core network built on top of AWS that works for MNOs,
   MVNOs, IoT players and Private networks.
 dev_text: We believe that subscribers have different needs and should be treated as
