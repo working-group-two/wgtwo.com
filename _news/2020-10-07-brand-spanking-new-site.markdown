@@ -2,6 +2,7 @@
 title: Agreement  with Working Group Two
 date: 2020-10-07 11:58:50 Z
 layout: media
+thumbnail: /assets/images/tmp_blog.jpg
 ---
 
 This is the start of the news

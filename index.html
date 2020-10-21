@@ -35,8 +35,8 @@ layout: default
                         <div class="col-12 col-xl-7 d-flex align-items-center">
                             <div>
                                 <p class="large padding-bottom-40">A versatile mobile core network built on top of AWS that works for MNOs, MVNOs, IoT players and Private networks.</p>
-                                <p class="large float-xl-right"><a href="#" class="button"><span>Talk to an expert</span></a></p>
-                                <p class="large"><a href="#" class="button">Read about how it works</a></p>
+                                <p class="large float-xl-right"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
+                                <p class="large"><a href="{{ site.url }}/mobile-core-network" class="button">Read about how it works</a></p>
                             </div>
                         </div>
                     </div>
@@ -49,19 +49,19 @@ layout: default
             <div class="col-12 col-xl-4">
                 <div class="box align-center">
                     <a href="#"><img src="assets/images/webinar.svg" style="height: 120px;"></a>
-                    <h3><a href="#">Join webinar</a></h3>
+                    <h3><a href="{{ site.url }}/webinar">Join webinar</a></h3>
                 </div>
             </div>
             <div class="col-12 col-xl-4">
                 <div class="box align-center">
                     <a href="#"><img src="assets/images/whitepaper.svg" style="height: 120px;"></a>
-                    <h3><a href="#">Get whitepaper</a></h3>
+                    <h3><a href="{{ site.url }}/whitepaper">Get whitepaper</a></h3>
                 </div>
             </div>
             <div class="col-12 col-xl-4">
                 <div class="box align-center">
                     <a href="#"><img src="assets/images/casestudy.svg" style="height: 120px;"></a>
-                    <h3><a href="#">Read case study</a></h3>
+                    <h3><a href="{{ site.url }}/case-study">Read case study</a></h3>
                 </div>
             </div>
         </div>
@@ -90,10 +90,11 @@ layout: default
         <div class="row">
             <div class="col-12 col-xl-6 d-flex align-items-center">
                 <div>
-                    <p class="padding-bottom-20"><img src="assets/images/storefront.svg" style="height: 100px;" alt="STOREFRONT LOGO MISSING"></p>
+                    <!--<p class="padding-bottom-20"><img src="assets/images/storefront.svg" style="height: 100px;" alt="STOREFRONT LOGO MISSING"></p>-->
+                    <h2>MISSING STOREFRONT LOGO</h2>
                     <p class="large">All products created with the wgtwo developer portal works out of the box for every operator using the wgtwo mobile core network.</p>
                     <p class="large">Contact sales to get to know the products already available, and how they can grow an operators business.</p>
-                    <p class="large padding-top-30"><a href="#" class="button"><span>Talk to an expert</span></a></p>
+                    <p class="large padding-top-30"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
                 </div>
             </div>
             <div class="col-12 col-xl-5 offset-xl-1 d-flex align-items-center">
@@ -123,7 +124,7 @@ layout: default
             </div>
             
             <div class="col-12 col-xl-4 offset-xl-1 d-flex align-items-center">
-                <img src="assets/images/tmp_blog.jpg">
+                <img src="{{ post.thumbnail }}">
             </div>
 
             {% endfor %}
@@ -144,7 +145,7 @@ layout: default
 
         <div class="col-12 col-xl-4">
             <div style="padding: 25px;">
-                <p><a href="{{ post.url }}" class="image" style="background-image: url('assets/images/tmp_blog.jpg');">&nbsp;</a></p>
+                <p><a href="{{ post.url }}" class="image" style="background-image: url('{{ post.thumbnail }}');">&nbsp;</a></p>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <p>{{ post.excerpt }}</p>
                 <p><a href="{{ post.url }}">Read more</a></p>
