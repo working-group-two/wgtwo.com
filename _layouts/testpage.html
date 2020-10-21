@@ -7,7 +7,8 @@ layout: default
     <div class="row">
         <div class="col-12 col-xl-6 d-flex align-items-center">
             <div>
-                {{ page.content }}
+                <h1>{{ page.top_heading | newline_to_br }}</h1>
+                <p class="xlarge">{{ page.top_text | newline_to_br }}</p>
             </div>
         </div>
         <div class="col-12 col-xl-5 offset-xl-1 d-flex align-items-center">
@@ -33,7 +34,7 @@ layout: default
                         </div>
                         <div class="col-12 col-xl-7 d-flex align-items-center">
                             <div>
-                                <p class="large padding-bottom-40">{{ page.mcn_text }}</p>
+                                <p class="large padding-bottom-40">{{ page.mcn_text | newline_to_br }}</p>
                                 <p class="large float-xl-right"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
                                 <p class="large"><a href="{{ site.url }}/mobile-core-network" class="button">Read about how it works</a></p>
                             </div>
@@ -76,7 +77,7 @@ layout: default
         <div class="col-12 col-xl-6 offset-xl-1 d-flex align-items-center">
             <div>
                 <p class="padding-bottom-20"><img src="assets/images/devportal.svg" style="height: 100px;"></p>
-                <p class="large padding-bottom-40">{{ page.dev_text }}</p>
+                <p class="large padding-bottom-40">{{ page.dev_text | newline_to_br }}</p>
                 <p class="large float-xl-right"><a href="https://developer.wgtwo.com" class="button"><span>Sign up and start building</span></a></p>
                 <p class="large"><a href="https://docs.wgtwo.com" class="button">View documentation</a></p>
             </div>
@@ -91,7 +92,7 @@ layout: default
                 <div>
                     <!--<p class="padding-bottom-20"><img src="assets/images/storefront.svg" style="height: 100px;" alt="STOREFRONT LOGO MISSING"></p>-->
                     <h2>MISSING STOREFRONT LOGO</h2>
-                    <p class="large">{{ page.sfront_text }}</p>
+                    <p class="large">{{ page.sfront_text | newline_to_br }}</p>
                     <p class="large padding-top-30"><a href="{{ site.url }}/talk-to-an-expert" class="button"><span>Talk to an expert</span></a></p>
                 </div>
             </div>

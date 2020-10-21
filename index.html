@@ -117,7 +117,7 @@ layout: default
 
                     <h2><a href="{{ post.url }}" class="black">{{ post.title }}</a></h2>
                     <p>{{ post.date | date: "%d. %b %Y" }}</p>
-                    <p class="large">{{ post.excerpt }}</p>
+                    {{ post.excerpt | markdownify }}
                     <p class="large"><a href="{{ post.url }}">Read more</a></p>
 
                 </div>
@@ -147,7 +147,7 @@ layout: default
             <div style="padding: 25px;">
                 <p><a href="{{ post.url }}" class="image" style="background-image: url('{{ post.thumbnail }}');">&nbsp;</a></p>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt }}</p>
+                {{ post.excerpt | markdownify }}
                 <p><a href="{{ post.url }}">Read more</a></p>
             </div>
         </div>

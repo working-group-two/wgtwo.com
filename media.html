@@ -18,7 +18,7 @@ layout: default
         <div class="col-12 padding-bottom-30">
             <p><a href="{{ post.url }}" class="image" style="background-image: url('{{ post.thumbnail }}');">&nbsp;</a></p>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt }}</p>
+            {{ post.excerpt | markdownify }}
             <p><a href="{{ post.url }}">Read more</a></p>
         </div>
         
@@ -29,7 +29,7 @@ layout: default
         <div class="col-12 col-xl-4 padding-bottom-30">
             <p><a href="{{ post.url }}" class="image" style="background-image: url('{{ post.thumbnail }}');">&nbsp;</a></p>
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <p>{{ post.excerpt }}</p>
+            {{ post.excerpt | markdownify }}
             <p><a href="{{ post.url }}">Read more</a></p>
         </div>
         
