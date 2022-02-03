@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Docusaurus v2.0.0-beta.14">
+<link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Working Group Two RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Working Group Two Atom Feed">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","somethinghere","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script><title data-react-helmet="true">What the heck is a short message? | Working Group Two</title><meta data-react-helmet="true" property="og:title" content="What the heck is a short message? | Working Group Two"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" property="og:image" content="https://working-group-two.github.io//img/preview.png"><meta data-react-helmet="true" name="twitter:image" content="https://working-group-two.github.io//img/preview.png"><meta data-react-helmet="true" property="og:description" content="I will try as best as I can to give an explanation of what happens"><meta data-react-helmet="true" property="og:url" content="https://working-group-two.github.io//blog/what-is-a-short-message/"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><meta data-react-helmet="true" name="description" content="No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network."><meta data-react-helmet="true" name="og:description" content="No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network."><link data-react-helmet="true" rel="icon" href="/img/favicons/favicon.ico"><link data-react-helmet="true" rel="canonical" href="https://working-group-two.github.io//blog/what-is-a-short-message/"><link data-react-helmet="true" rel="alternate" href="https://working-group-two.github.io//blog/what-is-a-short-message/" hreflang="en"><link data-react-helmet="true" rel="alternate" href="https://working-group-two.github.io//blog/what-is-a-short-message/" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.bba16725.css">
+<link rel="preload" href="/assets/js/runtime~main.52060dce.js" as="script">
+<link rel="preload" href="/assets/js/main.a4aa7037.js" as="script">
+</head>
+<body data-theme="light">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
+<div><a href="#" class="skipToContent_1oUP">Skip to main content</a></div><nav class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn" type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" target="_self" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="wgtwo Logo" class="themedImage_1VuW themedImage--light_3UqQ" height="32px" width="191px"><img src="/img/logo_white.svg" alt="wgtwo Logo" class="themedImage_1VuW themedImage--dark_hz6m" height="32px" width="191px"></div></a><a class="navbar__item navbar__link" target="_self" href="/technology/">Technology</a><a class="navbar__item navbar__link" target="_self" href="/product-ecosystem/">Product Ecosystem</a></div><div class="navbar__items navbar__items--right"><a class="navbar__item navbar__link" href="/team/">Join the Team 🎉</a><a class="navbar__item navbar__link" href="/blog/">Blog</a><a class="navbar__item navbar__link sign-up" href="/request-demo/">Talk to an Expert</a><div class="dsla-search-wrapper"><div class="dsla-search-field" data-tags="default,docs-default-current"></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div class="main-wrapper blog-wrapper"><div class="container margin-vert--lg"><div class="row"><div class="col col--1"></div><main class="col col--8"><article><header><h1 class="margin-bottom--sm blogPostTitle_3kJS">What the heck is a short message?</h1><div class="margin-vert--md"><div class="heading_1SDJ"><div class="headingPhoto_1iKi"><a href="https://www.linkedin.com/in/sebastian-weddmark-olsson/" target="_blank" rel="noopener noreferrer" class="avatar__photo-link avatar__photo undefined"><img src="https://media-exp1.licdn.com/dms/image/C5603AQGKBPb8-fRQrw/profile-displayphoto-shrink_400_400/0/1552936055035?e=1648684800&amp;v=beta&amp;t=Um5M-sEowAYCYIc3uW4aXlzDM7pQSbK1SIEEJPcJD2M" alt="Sebastian Weddmark Olsson"></a></div><div><span><a href="https://www.linkedin.com/in/sebastian-weddmark-olsson/" target="_blank" rel="noopener noreferrer" class="authorName_3Kcr">Sebastian Weddmark Olsson</a>, <span>Software Engineer @ wgtwo</span></span><time datetime="2020-10-01T00:00:00.000Z" class="blogPostDate_247f"><br>October 1, 2020<!-- --> <!-- --> · <!-- -->14 min read</time></div></div></div></header><div class="markdown"><p>I will try as best as I can to give an explanation of what happens
+when you send an SMS from your phone.</p><p>Disclaimer: Telco stuff is hard.</p><p>Also disclaimer: this blog post will also contain alot of ackronyms,
+after all, it is telco.</p><p><em>Aaand down the rabbit hole we go...</em></p><header><h1>Where to even start</h1></header><p>In the <em>SS7</em> (telco/telecom/telecommunications) network there are many
+different nodes (servers), with different kinds of tasks.</p><p>The group of protocols that is used to send signals over <em>IP</em> between
+these nodes is called <em>SIGTRAN</em> (derived from &quot;signaling transport&quot;).
+Older networks that have not switched to <em>IP</em> do not use <em>SIGTRAN</em>.</p><p><em>SIGTRAN</em> protocols are the lower layer protocols used for signaling,
+they range from <em>SCTP</em> (Stream Control Transmission Protocol) to
+<em>M2PA</em> (Message Transfer Part 2 User Peer-to-Peer Adaptation Layer)
+and <em>M3UA</em> (Message Transfer Part 3 User Adaptation Layer).</p><p><em>SCTP</em> is like a mix between <em>UDP</em> and <em>TCP</em>. It is supposed to be
+quicker than <em>TCP</em>, but more reliable than <em>UDP</em>.</p><p>Both <em>M2PA</em> and <em>M3UA</em> support <em>SCTP</em> management, and the reporting of
+status changes of those, as well as providing transfer of <em>MTP3</em>
+(Message Transfer Part 3) messages.</p><p>On top of <em>SIGTRAN</em> are the <em>SS7</em> protocols.</p><p>What I&#x27;m going to talk about are the protocols on the very top of <em>SS7</em>,
+specifically the <em>MAP</em> (Mobile Application Part) as well as the <em>TCAP</em>
+(Transaction Capabilities Application Part). There are other protocols
+inbetween, for instance <em>SCCP</em> (Signalling Connection Control Part)
+which handles some handshaking, routing, and resilience.</p><p>The <em>MAP</em> layer is used when talking to some of the telco nodes such
+as <em>HLR</em> (Home location registry), <em>VLR</em> (Visitor location registry),
+<em>MSC</em> (Mobile switching centre), <em>SGSN</em> (Serving <em>GPRS</em> <!-- -->[ackronym in
+ackronyms; go telco!]<!-- --> support node) and the <em>SMSC</em> (Short message
+service centre).</p><header><h1>MAP versions and TCAP dialogues</h1></header><p>There are some iterations of <em>MAP</em> (v1, v2, v3, and v4) and messages
+almost always come in pairs, an acknowledgement (<code>ReturnResult</code> or
+<code>ReturnError</code>) for each sent message (<code>Invoke</code>).</p><p>To determine which version to use between two nodes, the sending node
+tries to start the transaction (called a dialogue) by sending a <em>TCAP</em>
+<code>Begin</code> message with the <em>MAP</em> message and it&#x27;s highest compatible
+version. If the receiving node cannot talk that version, it sends a
+<em>TCAP</em> <code>Abort</code> message with it&#x27;s highest compatible version. In v1
+there might not even be a reason, just an empty <code>Abort</code>; the sending
+node might then try to send the <em>MAP</em> message as v1 anyway.</p><p>In my head it goes like this:</p><div class="codeBlockContainer_K1bP theme-code-block"><div class="codeBlockContent_hGly"><pre tabindex="0" class="prism-code language-undefined codeBlock_23N8 thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_39YC"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 1: &quot;Hi, I want to talk version 3 to you about this&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 2: &quot;No I don&#x27;t understand you, but we can talk version 2 about it instead&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 1: &quot;Ok, then I want to talk version 2 to you about this instead&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 2: &quot;Aah, now I see...&quot;</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o clean-btn">Copy</button></div></div><p>Or maybe</p><div class="codeBlockContainer_K1bP theme-code-block"><div class="codeBlockContent_hGly"><pre tabindex="0" class="prism-code language-undefined codeBlock_23N8 thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_39YC"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 1: &quot;Hi, I want to talk version 3 to you about this&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 2: &quot;No&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 1: &quot;Ok, then I want to talk to you about this in version 1 instead&quot;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node 2: &quot;Maybe I will talk to you, maybe I will not&quot;</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_Ue-o clean-btn">Copy</button></div></div><p>For <em>TCAP</em> dialogues there are (mainly) four message types.  <code>Begin</code>,
+<code>Continue</code>, <code>End</code>, <code>Abort</code>. Each of the types have an ID (or two, as I
+said, telco is complicated), a component and a dialogue part. The
+component contains the <em>MAP</em> message. The dialogue part contains
+the version and application to use (that is <em>MAP</em> Application;
+i.e. which type of message it contains), but it is only used in the
+first message from both nodes for the version negotiation.</p><p><em>I think this covers most of it, let&#x27;s get back to the fun part.</em></p><header><h1>How does SMS work?</h1></header><p><em>SMS</em> was initally implemented because of the wish to send text
+messages to pagers using the phoneline when it was not in use for
+phonecalls. It was decided at a meeting in Oslo to be released to the
+public when some French and German company understood it&#x27;s
+value. (Don&#x27;t quote me on any of this).</p><p>When you send an <em>SMS</em>, the <em>SMS</em> is transfered to the <em>MSC</em> or the
+<em>SGSN</em> in your current (serving) network. The <em>MSC</em> or <em>SGSN</em> then
+sends an packet called <code>MO-Forward-SM</code> towards the <em>SMSC</em> in your
+current network. It stands for &quot;Mobile Originating Forward Short
+Message&quot; meaning it started from your (mobile-)phone.</p><p>The <em>SMSC</em> then asks the recipients HLR about the routing details for
+the <em>SMS</em>. It does so by sending another <em>MAP</em> message of type
+<code>sendRoutingInfoForSM</code> requesting the location of the recipients <em>MSC</em>
+or <em>SGSN</em>, or both.</p><p>The <em>SMSC</em> then sends another packet, this time a <code>MT-Forward-SM</code>,
+towards the <em>MSC</em> in the recipients network. In this case <em>MT</em> stands
+for Mobile Terminated, meaning it goes towards the recipients phone.</p><p><em>Dia have amazing icons:</em></p><div><img src="/img/blog/sms/forward-sm.svg" alt="You calling your mom"></div><p>The similarities in <em>MO</em> and <em>MT</em> requests are that they both contain
+a origin and destination address as well as the user data (your actual
+text message), and a possibly a correlation id which is basically a
+mapping between your SIM-card id and a temporary id and was originally
+used for making sure that the sending network paid for <em>SMS</em>s towards
+the receiving network.</p><p>For <em>MO</em> the origin address is your <em>MSISDN</em> (read telephone number),
+and the destination is the <em>GT</em> address (Global title; a way to route
+stuff) of the <em>SMSC</em>. For <em>MT</em> messages the origin address is the <em>GT</em>
+of the <em>SMSC</em> and the destination address is either the recipients
+<em>IMSI</em> (read SIM-card) or the recipients correlation id. It could also
+be a <em>LMSI</em> which is a 4-byte network location identifier if the
+recipient is also within the same network as the sender.</p><h2 class="anchor anchorWithStickyNavbar_31ik" id="ever-wondered-why-there-is-a-limit-to-the-size-of-the-text-message-you-are-sending">Ever wondered why there is a limit to the size of the text message you are sending?<a class="hash-link" href="#ever-wondered-why-there-is-a-limit-to-the-size-of-the-text-message-you-are-sending" title="Direct link to heading">​</a></h2><div class="left-right-row"><div class="text">Two characters left on a GSM7 encoded SMS.</div><img class="image" src="/img/blog/sms/160_chars.png" alt="Characters left: 2/160"></div><p>If you (god forbid) you would break the protocol and send a text
+message greater than 140 bytes, which translates to 160, 152, or 70
+characters depending on locale <!-- -->[1]<!-- -->, then your phone would break up the
+message into multiple text messages. This arbitrary size of 140 bytes
+is not really arbitrary at all. It was chosen because it would
+precisely fit into a single <em>MTP3</em> <em>SIF</em> (Signalling Information
+Field) when routing label, <em>SCCP</em>, <em>TCAP</em> and <em>MAP</em> layers were taken
+into account.</p><p>[1]<!-- --> There is something called <em>GSM7</em> bit-packing. Instead of using 1
+byte (8 bits) per character, <em>GSM7</em> uses 7 bits. This means that
+instead of 140 characters, you can get up to 160 characters per
+<em>SMS</em>. The drawback is that you will have a smaller subset of
+characters to use, only the most common is supported. If you include
+any non-<em>GSM7</em> characters in your <em>SMS</em> then the <em>SMS</em> will
+automatically be converted to use either <em>USC-2</em> or <em>GSM7</em> with a
+different charset instead. <em>USC-2</em> uses 2 bytes, or 16 bits, instead
+of <em>GSM7</em>s 7 bits. That leaves you with 70 characters per
+<em>SMS</em>. <em>USC-2</em> is similar for the basic multilingual plane (<em>BMP</em>) to
+<em>UTF-16</em>. In fact <em>UTF-16</em> is an extension of <em>UCS-2</em>. The main
+difference is that <em>USC-2</em> is fixed width and does not allow for the
+extended characters in the private use area of <em>BMP</em>. <em>UTF-16</em> is
+variable width of one or two 16-bits code points, and does allow the
+extended characters. For extended characters to work (for instance
+&quot;praying/folded hands&quot; <!-- -->🙏<!-- -->), phones might try to fake <em>UTF-16</em>
+by using two <em>USC-2</em> characters. New phones can handle this fine, but
+older phones might receive two question marks as they cannot decode it
+properly.</p><p>If <em>GSM7</em> have a modified charset (i.e. not the default <em>BMP</em>) then
+there will be a header in front that specifies that. That header will
+take up 7 bytes after packing (in other words 8 characters), making
+the maximum length of the <em>SMS</em> 152 characters.</p><div class="left-right-row"><img class="image" src="/img/blog/sms/67_chars.png" alt="Characters left: 45/67 (3)"><div class="text">Using emojis will convert the encoding to USC-2. Note the missing 3 characters and that there are multiple SMSes. When multiple messages are sent, the phone needs some way of telling how to reassemble the messages. The headers take up 6 bytes per message for this purpose.</div></div><p>However when <em>MAP</em> v2 started to use <em>TCAP</em> dialogues there was more
+information to put into the packet and 140 bytes might not be left for
+the <em>SMS</em>. The <em>SMSC</em> would then need to break up the message into
+chunks, and start the transaction an empty <em>TCAP</em> <code>Begin</code> message and
+set a flag in the <em>MT</em> request called <code>moreMessagesToSend</code>. It would
+then send the actual text inside <code>Continue</code> messages. In the end
+the <code>End</code> (<em>hehe</em>) message is transmitted as a response and the
+transaction is finished.</p><p>The response back to a <em>MO</em> request is, as previous stated, an
+acknowledgement if the <em>SMS</em> have been successfully submitted to the
+<em>SMSC</em> or not (again either <code>returnResult</code> or <code>returnError</code>). For <em>MT</em>
+requests the acknowledgement is if the <em>SMS</em> is successfully delivered
+or not.</p><p>If the <em>MT</em> request is not successful, the <em>SMSC</em> could ask the <em>HLR</em>
+(the Home Location Registry is basically a database containing user
+subscriptions and knowledge of which nodes the mobile talked to
+latest) to be notified when the user comes back online. A bunch of
+other <em>MAP</em> messages are then involved, such as</p><ul><li><code>reportSMDeliveryStatus</code>,</li><li><code>informServiceCentre</code>,</li><li><code>alterServiceCentre</code>, and</li><li><code>readyForSM</code>.</li></ul><p><em>At least this is main idea I think...</em></p><header><h1>Differences in MAP versions for SMS</h1></header><p>There are three <em>MAP</em> versions defined for <em>SMS</em>. The latest version
+(v4) is not used in the context of <em>SMS</em>.</p><p>In version 1, the dialogue portion was not invented and all chunks are
+sent in new <em>TCAP</em> dialogues. The size of the user data could then
+be 140 bytes.</p><p>In version 1 and version 2 there is no difference between <em>MT</em> and
+<em>MO</em>. Everything is sent as another type of message <code>Forward-SM</code>,
+which does not include any privacy correlation ids, and there are no
+fancy responses with delivery status. There is still an
+acknowledgement, but is in a form of an empty message.</p><p>Only way to see difference between an <em>MO</em> and a <em>MT</em> in version 1 is
+to look at the addresses and see if they are either coming from an
+<em>SMSC</em> or going to an <em>SMSC</em>.</p><p>The <code>moreMessagesToSend</code> flag was implemented in version 2, so it exist
+only for version 2 and version 3.</p><p>Ok, to recap, what do we have now</p><ul><li><code>Begin</code>, <code>Continue</code>, <code>End</code>, <code>Abort</code> messages.</li><li>Dialogue handshake in the first request/response messages sent.</li><li><code>MT-Forward-SM</code>, <code>MO-Forward-SM</code>, <code>Forward-SM</code></li><li>Involved parties: Mobile phones, <em>MSC</em> and <em>SMSC</em></li></ul><p><em>Wait we are missing something. I&#x27;ve only covered 2G,3G..</em></p><header><h1>What about 4G/LTE and beyond (5G)?</h1></header><p><em>Ouch.</em></p><p><em>LTE</em> networks does not use any of the <em>M3UA</em>, <em>SCCP</em>, <em>TCAP</em>, <em>MAP</em>
+protocols. In <em>LTE</em> networks the main message type is <em>Diameter</em> which
+doesn&#x27;t contain fragmentation and can contain larger
+messages. Everything is sent in one request and every request is
+answered with a response. <em>Diameter</em> could use either <em>TCP</em> or <em>SCTP</em> as
+transport layer.</p><p>To make <em>SMSes</em> work on <em>LTE</em> networks a new interface <em>SGs</em> was
+invented which translates <em>SS7</em> messages to <em>Diameter</em> messages.  This
+interface is in most cases used by the <em>MSC</em> to translate the messages
+to <em>Diameter</em> and forward it to the <em>MME</em> (Mobility Management Entity,
+similar to <em>SGSN</em> but in the <em>LTE</em> network). The <em>MME</em> then forwards
+it to the <em>UE</em> (user equipment, same as mobile subscriber or <em>MS</em> in
+<em>GSM</em>/<em>GPRS</em> networks).</p><p>There is also the <em>SM-over-IP</em> that does not use <em>Diameter</em>. Instead
+it uses the <em>SIP</em>-protocol (Session Initiation Protocol) to transfer
+messages over <em>IP</em> and <em>TCP</em> or <em>UDP</em> to the <em>IMS</em> (IP Multimedia
+Subsystem). <em>SIP</em> is also used to enable VoLTE (Voice over <em>LTE</em>).</p><p>For 5G the <em>SMSC</em> is called <em>SMSF</em>; The Centre becomes a Function. The
+signalling will be based on <em>HTTP2</em>/<em>JSON</em> ontop of <em>TCP</em>. The <em>SMSF</em>
+will still need to support both <em>MAP</em> and <em>Diameter</em>.</p><p>Relevant <a href="https://xkcd.com" target="_blank" rel="noopener noreferrer">xkcd</a>:</p><div class="left-right-row"><table class="text"><tr><td>Generation</td><td>2G/3G</td><td>4G</td><td>5G</td></tr><tr><td>Radio technology</td><td>GSM/GPRS</td><td>LTE</td><td>NR</td></tr><tr><td>Protocol group</td><td>SS7</td><td>Diameter</td><td>HTTP2/JSON</td></tr><tr><td></td><td>Node</td><td>Agent</td><td>Function</td></tr><tr><td>Session management</td><td>SGSN</td><td>MME</td><td>AMF</td></tr><tr><td>SM management</td><td>SMSC</td><td>SMSC</td><td>SMSF</td></tr><tr><td>User management</td><td>HLR</td><td>HSS</td><td>UDM</td></tr><tr><td>Device</td><td>MS</td><td>UE</td><td>UE</td></tr></table><a href="https://xkcd.com/2365/" target="_blank" rel="noopener noreferrer" class="image"><img src="https://imgs.xkcd.com/comics/messaging_systems.png"></a></div><header><h1>Headache</h1></header><p>Hopefully you did not get a (too severe) headache by reading this
+post.</p><p>I&#x27;ve spared you with <strong>a lot</strong> of details on the lower level of
+protocols. There are loads of implementation details that must match
+the specifications, otherwise you will get all kinds of aborts and
+possibly even dropped traffic.
+For instance we learned that we accidentally sent dialogue portions in
+more than the first response back, which seemed to work at first
+glance; at closer inspection we found out that some messages were
+dropped because the length of the packet became larger in size than an
+allowed value. We could still send them, but the other side was not
+able to receive them.</p><p>Remember: Telco is old and complex. However, it should still function
+with different setups and on different hardware, vendors and with
+environment.</p><p>Fun-fact: Sometimes a boolean value is not just encoded as a 1
+or 0. To save bandwith telco decided that you could also just define
+it as a <code>NULL OPTIONAL</code> meaning that if it is defined (but lacks a
+value), then it is considered true.  if it is not defined then it is
+considered false. This is the case for the <code>moreMessagesToSend</code> flag.</p><p>Hope you enjoy the reading as much as I enjoy digging into these
+protocols!</p><p>Special thanks to <em>Stein Eldar</em> and <em>Tobias</em> for giving me feedback
+and answering all my stupid questions on this subject, and <em>Atanas</em>
+for making me realize there are yet other protocols to carry <em>SMS</em>.
+Also <em>Bung</em> for this amazing addition:</p><h4 class="anchor anchorWithStickyNavbar_31ik" id="addition-from-bung">Addition from <em>Bung</em><a class="hash-link" href="#addition-from-bung" title="Direct link to heading">​</a></h4><p>&quot;I’ve spared you with a lot of details on the lower level of
+protocols&quot; needs a lot of emphasis.</p><p>Some funny extra complexities that just came into my mind while
+reading:</p><p>The actual <em>SMS</em> text goes into a field called &quot;user data&quot;. There is a
+field called &quot;user data length&quot;. When the message is <em>GSM7</em> encoded, the
+&quot;user data length&quot; is the number of characters in the text message,
+otherwise it&#x27;s the number of bytes in the user data.</p><p>Normally the user data only contains the (encoded) text of the
+message, but there is a field called &quot;user data header&quot; which
+indicates that there is a length prefixed TLV header in the &quot;user
+data&quot;. If the message is <em>GSM7</em> encoded, then the &quot;user data lenght&quot;
+field needs to be filled as if the &quot;user data header&quot; was really <em>GSM7</em>
+encoded, which it isn&#x27;t.</p><p><em>GSM7</em> is really a variably septet encoding, one character can consist
+of either 7 or 14 bits similar to how a <em>UTF-8</em> code point can be 8,
+16, 24, or 32 bits. Unlike <em>UTF-8</em> however, there are not multiple
+byte ranges corresponding to the different locales (called code pages
+in Unicode) but a single 7 bit shift character that says that
+following 7 bits should be interpreted as a character from a
+translation table which is communicated out of band.</p><p>So all that is only the complexities of a single field (the user data)
+for a single encoding (<em>GSM7</em>).</p><p>Then the real kicker: The protocol for <em>SMS</em> is really called <em>SM-TP</em>
+(Short Message Transfer Protocol). <em>SM-TP</em> is the same for 2G/3G (on top
+of <em>MAP</em>), 4G (on top of <em>SIP</em>), 5G (on top of <em>HTTP</em>). So the very
+same stupid &quot;length prefixed TLV encoded headers concatenated with
+encoded text with length either in characters or in bytes depending on
+encoding and actual meaning of the encoding communicated out of band
+but only sometimes&quot; field exists no matter if your talking over old
+legacy <em>MAP</em> or the modern <em>HTTP/XML</em> based 5G.</p></div><footer class="row margin-vert--lg"><div class="tags_2aeM"><strong>Tags:</strong><a class="tag_3Sf8" href="/blog/tags/telco/">telco</a><a class="tag_3Sf8" href="/blog/tags/map/">MAP</a><a class="tag_3Sf8" href="/blog/tags/tcap/">TCAP</a><a class="tag_3Sf8" href="/blog/tags/ss-7/">SS7</a><a class="tag_3Sf8" href="/blog/tags/forward-sm/">Forward-SM</a><a class="tag_3Sf8" href="/blog/tags/sms/">SMS</a></div></footer></article><div><a href="https://github.com/working-group-two/wgtwo.com/edit/main/blog/../blog/2020-10-01-what-is-short-messages.md" target="_blank" rel="noreferrer noopener" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_2_ui" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="margin-vert--xl"><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/blog/hackdays-october-2020/"><div class="pagination-nav__sublabel">Newer Post</div><div class="pagination-nav__label">« <!-- -->October Virtual Hackdays</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/blog/a-new-hope-for-products-in-telecom/"><div class="pagination-nav__sublabel">Older Post</div><div class="pagination-nav__label">A new hope for products in telecom<!-- --> »</div></a></div></nav></div></main><div class="col col--3"><div class="blog-sidebar"><div class="sidebar_2tcx thin-scrollbar"><h3 class="sidebarItemTitle_1XYP">Recent posts</h3><ul class="sidebarItemList_3OT0"><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/the-specs-behind-the-specs-part-1/">The specs behind the specs part 1</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/log4j-security-vulnerability/">Zero-day vulnerabilities - Log4j</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/ckh-iod-wg2-public-cloud/">CKH IOD selects Working Group Two for public cloud core network</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/mitsui-knowledge-industry-mki-private-networks-business/">Mitsui Knowledge Industry (MKI) to develop private networks business</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/kafka-timers/">Kafka timers</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/mqtt-event-bridge/">Changing the color of your bulbs: The fancy way</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/forbidden-lore-hacking-dns-routing-for-k8s/">Forbidden lore: hacking DNS routing for k8s</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/were-all-grownups-here/">We&#x27;re all grownups here</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/hackdays-october-2020/">October Virtual Hackdays</a></li><li class="sidebarItem_ic0g"><a aria-current="page" class="sidebarItemLink_3PPN sidebarItemLinkActive_23br" href="/blog/what-is-a-short-message/">What the heck is a short message?</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/a-new-hope-for-products-in-telecom/">A new hope for products in telecom</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/building-software-for-a-telecom-core-network/">Building software for a telecom core network</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/choosing-erlang-formatter/">Choosing an Erlang formatter</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/vowifi-imsi-leak/">VoWifi leaking IMSI</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/extending-k8s/">Extending Kubernetes for our needs</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/metrics-unlimited-thanos/">Towards observability nirvana: infinite metric retention with Thanos</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/replacing-jenkins-with-concourse/">We killed the butler: Replacing Jenkins with Concourse</a></li><li class="sidebarItem_ic0g"><a class="sidebarItemLink_3PPN" href="/blog/hacking-dark-themes-with-css-blend-modes/">Hacking dark themes with CSS blend modes</a></li></ul></div></div></div></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title"></div><ul class="footer__items"></ul></div><div class="col footer__col"><div class="footer__title">Product</div><ul class="footer__items"><li class="footer__item"><a href="https://docs.wgtwo.com" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>API Docs<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="https://console.wgtwo.com" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Console Login<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="https://support.wgtwo.com" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Customer Support<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li></ul></div><div class="col footer__col"><div class="footer__title">Company</div><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_self" href="/blog/">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/docs/about/introduction/">Docs</a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/team/">Team</a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/careers/">Careers</a></li><li class="footer__item"><a href="https://gk.wgtwo.com" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>gk.wgtwo.com 合同会社<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li></ul></div><div class="col footer__col"><div class="footer__title">Security</div><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_self" href="/security/">Security Overview</a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/docs/technology/security-whitepaper/">Security Whitepaper</a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/privacy/">Privacy Policy</a></li></ul></div><div class="col footer__col"><div class="footer__title">Connect</div><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_self" href="/docs/about/media-and-press/">Media &amp; Press</a></li><li class="footer__item"><a href="https://twitter.com/workinggrouptwo" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>Twitter<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="https://github.com/working-group-two" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a href="http://linkedin.com/company/wgtwo" target="_blank" rel="noopener noreferrer" class="footer__link-item"><span>LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_3J9K"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></span></a></li><li class="footer__item"><a class="footer__link-item" target="_self" href="/contact/">Contact Us</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">© 2022 Working Group Two AS</div></div></div></footer></div>
+<script src="/assets/js/runtime~main.52060dce.js"></script>
+<script src="/assets/js/main.a4aa7037.js"></script>
+</body>
+</html>
