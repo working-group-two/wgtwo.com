@@ -3,7 +3,7 @@ name: Build Website
 on:
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - "docs/**"
       - "blog/**"
