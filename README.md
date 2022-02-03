@@ -2,7 +2,7 @@
 
 ## Create a Blog
 
-- Upload images at [static/img/blog/](https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog)
+- Upload images at [static/img/blog/](https://github.com/working-group-two/wgtwo.com/tree/main/website/static/img/blog)
 - Add your blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
   - Keep the structure `yyyy-mm-dd-name-of-blog.md`
   - Ensure you add a `<!--truncate-->` after the first paragraph of your blogpost to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
