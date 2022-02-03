@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Working Group Two Blog</title>
-        <link>https://working-group-two.github.io/blog</link>
+        <link>https://www.wgtwo.com/blog</link>
         <description>Working Group Two Blog</description>
         <lastBuildDate>Tue, 11 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[The specs behind the specs part 1]]></title>
-            <link>https://working-group-two.github.io/blog/the-specs-behind-the-specs-part-1</link>
+            <link>https://www.wgtwo.com/blog/the-specs-behind-the-specs-part-1</link>
             <guid>the-specs-behind-the-specs-part-1</guid>
             <pubDate>Tue, 11 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA["Abstract Syntax Notation One (ASN.1) is a standard interface]]></description>
@@ -777,7 +777,7 @@ instead, which are much more straighforward.</p><p>Image from <a href="https://x
         </item>
         <item>
             <title><![CDATA[Zero-day vulnerabilities - Log4j]]></title>
-            <link>https://working-group-two.github.io/blog/log4j-security-vulnerability</link>
+            <link>https://www.wgtwo.com/blog/log4j-security-vulnerability</link>
             <guid>log4j-security-vulnerability</guid>
             <pubDate>Fri, 17 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[On Friday, December 10th, wgtwo and many others became aware of a critical severity zero-day exploit, CVE-2021-44228, known as “Log4Shell” in the Log4j library, which is widely used in numerous systems around the internet. We immediately opened a security incident and have been actively taking steps to mitigate and monitor the situation.]]></description>
@@ -843,7 +843,7 @@ done
         </item>
         <item>
             <title><![CDATA[CKH IOD selects Working Group Two for public cloud core network]]></title>
-            <link>https://working-group-two.github.io/blog/ckh-iod-wg2-public-cloud</link>
+            <link>https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud</link>
             <guid>ckh-iod-wg2-public-cloud</guid>
             <pubDate>Wed, 01 Dec 2021 12:00:00 GMT</pubDate>
             <description><![CDATA[CKH IOD migrates its core network to the cloud – delivered as a fully managed software-as-a-service by Working Group Two and deployed on AWS]]></description>
@@ -851,7 +851,7 @@ done
         </item>
         <item>
             <title><![CDATA[Mitsui Knowledge Industry (MKI) to develop private networks business]]></title>
-            <link>https://working-group-two.github.io/blog/mitsui-knowledge-industry-mki-private-networks-business</link>
+            <link>https://www.wgtwo.com/blog/mitsui-knowledge-industry-mki-private-networks-business</link>
             <guid>mitsui-knowledge-industry-mki-private-networks-business</guid>
             <pubDate>Tue, 01 Jun 2021 12:00:00 GMT</pubDate>
             <description><![CDATA[Drive the Private NWs Growth with its Fully-Managed Mobile Core NW SaaS]]></description>
@@ -859,7 +859,7 @@ done
         </item>
         <item>
             <title><![CDATA[Kafka timers]]></title>
-            <link>https://working-group-two.github.io/blog/kafka-timers</link>
+            <link>https://www.wgtwo.com/blog/kafka-timers</link>
             <guid>kafka-timers</guid>
             <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[A timer is a cornerstone of any software that communicates over the network. There are plenty of implementations]]></description>
@@ -960,7 +960,7 @@ if the state is using timers. It has its costs and benefits. </p><p>Check out op
         </item>
         <item>
             <title><![CDATA[Changing the color of your bulbs: The fancy way]]></title>
-            <link>https://working-group-two.github.io/blog/mqtt-event-bridge</link>
+            <link>https://www.wgtwo.com/blog/mqtt-event-bridge</link>
             <guid>mqtt-event-bridge</guid>
             <pubDate>Thu, 07 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Last hackathon I did setup a MQTT integration towards wgtwo's APIs to enable call notifications via my IKEA Trådfri bulb so I can finally notice my wife calling me. The bulb changes color when my phone is ringing and when I am in a call, without me needing to install anything to my phone.]]></description>
@@ -1007,7 +1007,7 @@ You could then setup bridging to not worry about credentials and TLS when consum
         </item>
         <item>
             <title><![CDATA[Forbidden lore: hacking DNS routing for k8s]]></title>
-            <link>https://working-group-two.github.io/blog/forbidden-lore-hacking-dns-routing-for-k8s</link>
+            <link>https://www.wgtwo.com/blog/forbidden-lore-hacking-dns-routing-for-k8s</link>
             <guid>forbidden-lore-hacking-dns-routing-for-k8s</guid>
             <pubDate>Fri, 11 Dec 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[At WG2 we’re coming close to having everything running in Kubernetes, which means that almost everything we deploy needs to be pulled from a registry. We have run our own local registry for some time now, to host both locally-built images and cached images from Docker Hub.]]></description>
@@ -1019,7 +1019,7 @@ We don’t do any config management on the nodes, we just let <a href="https://g
         </item>
         <item>
             <title><![CDATA[We're all grownups here]]></title>
-            <link>https://working-group-two.github.io/blog/were-all-grownups-here</link>
+            <link>https://www.wgtwo.com/blog/were-all-grownups-here</link>
             <guid>were-all-grownups-here</guid>
             <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[I have always struggled with company HR policies that make me not feel trusted. Why don’t HR and/or management trust who they hire? Why create HR processes for the very few people who don’t behave? Shouldn’t processes be designed for the vast majority of people who are to be trusted? I just don’t get it. If you are given freedom it comes with a lot of responsibility, isn’t that rather implicit?]]></description>
@@ -1029,7 +1029,7 @@ We don’t do any config management on the nodes, we just let <a href="https://g
         </item>
         <item>
             <title><![CDATA[October Virtual Hackdays]]></title>
-            <link>https://working-group-two.github.io/blog/hackdays-october-2020</link>
+            <link>https://www.wgtwo.com/blog/hackdays-october-2020</link>
             <guid>hackdays-october-2020</guid>
             <pubDate>Wed, 28 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[This week we started off with a three days hackathon!]]></description>
@@ -1037,7 +1037,7 @@ We don’t do any config management on the nodes, we just let <a href="https://g
         </item>
         <item>
             <title><![CDATA[What the heck is a short message?]]></title>
-            <link>https://working-group-two.github.io/blog/what-is-a-short-message</link>
+            <link>https://www.wgtwo.com/blog/what-is-a-short-message</link>
             <guid>what-is-a-short-message</guid>
             <pubDate>Thu, 01 Oct 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[I will try as best as I can to give an explanation of what happens]]></description>
@@ -1223,7 +1223,7 @@ legacy <em>MAP</em> or the modern <em>HTTP/XML</em> based 5G.</p>]]></content:en
         </item>
         <item>
             <title><![CDATA[A new hope for products in telecom]]></title>
-            <link>https://working-group-two.github.io/blog/a-new-hope-for-products-in-telecom</link>
+            <link>https://www.wgtwo.com/blog/a-new-hope-for-products-in-telecom</link>
             <guid>a-new-hope-for-products-in-telecom</guid>
             <pubDate>Fri, 28 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post will cover technology driven products that rely on telecom infrastructure, and not price plans, bundles, or marketing gimmicks. Anyone who has created a product and brought it to market more than once will tell you that it is hard.]]></description>
@@ -1233,7 +1233,7 @@ legacy <em>MAP</em> or the modern <em>HTTP/XML</em> based 5G.</p>]]></content:en
         </item>
         <item>
             <title><![CDATA[Building software for a telecom core network]]></title>
-            <link>https://working-group-two.github.io/blog/building-software-for-a-telecom-core-network</link>
+            <link>https://www.wgtwo.com/blog/building-software-for-a-telecom-core-network</link>
             <guid>building-software-for-a-telecom-core-network</guid>
             <pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[One of the goals of wgtwo is to enable operators and third parties to build products and services for the “core network” of the telecom stack. In short, this means providing API access to a subscription’s telecom functionality (messaging, calling, etc). In this article we will show how we built VoiceBox, a Voicemail forwarding application.]]></description>
@@ -1290,7 +1290,7 @@ Next we’ll look at using this access token to perform actions on the subscribe
         </item>
         <item>
             <title><![CDATA[Choosing an Erlang formatter]]></title>
-            <link>https://working-group-two.github.io/blog/choosing-erlang-formatter/</link>
+            <link>https://www.wgtwo.com/blog/choosing-erlang-formatter/</link>
             <guid>choosing-erlang-formatter/</guid>
             <pubDate>Mon, 18 May 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[There are many different Erlang formatters, and as a hack day project]]></description>
@@ -1501,7 +1501,7 @@ another hackday.</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[VoWifi leaking IMSI]]></title>
-            <link>https://working-group-two.github.io/blog/vowifi-imsi-leak/</link>
+            <link>https://www.wgtwo.com/blog/vowifi-imsi-leak/</link>
             <guid>vowifi-imsi-leak/</guid>
             <pubDate>Mon, 30 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[4G offers more services than the earlier generation such as 3G and 2G. One of]]></description>
@@ -1574,7 +1574,7 @@ support for eap-aka/sim.</p><p><img src="/img/blog/vowifi-imsi-leak/rpi4-batt.jp
         </item>
         <item>
             <title><![CDATA[Extending Kubernetes for our needs]]></title>
-            <link>https://working-group-two.github.io/blog/extending-k8s/</link>
+            <link>https://www.wgtwo.com/blog/extending-k8s/</link>
             <guid>extending-k8s/</guid>
             <pubDate>Fri, 21 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[We are using Kubernetes as our cluster scheduler and this serves us well. However we have a]]></description>
@@ -1716,7 +1716,7 @@ we think in the future Kubernetes operators will be the way how stateful compone
         </item>
         <item>
             <title><![CDATA[Towards observability nirvana: infinite metric retention with Thanos]]></title>
-            <link>https://working-group-two.github.io/blog/metrics-unlimited-thanos</link>
+            <link>https://www.wgtwo.com/blog/metrics-unlimited-thanos</link>
             <guid>metrics-unlimited-thanos</guid>
             <pubDate>Tue, 28 Jan 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and]]></description>
@@ -1761,7 +1761,7 @@ now be done gradually, which is also a great advantage for us!</p>]]></content:e
         </item>
         <item>
             <title><![CDATA[We killed the butler: Replacing Jenkins with Concourse]]></title>
-            <link>https://working-group-two.github.io/blog/replacing-jenkins-with-concourse</link>
+            <link>https://www.wgtwo.com/blog/replacing-jenkins-with-concourse</link>
             <guid>replacing-jenkins-with-concourse</guid>
             <pubDate>Fri, 20 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[At wgtwo, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:]]></description>
@@ -1798,7 +1798,7 @@ Similarly, it took some time to settle on how to allocate resources such that we
         </item>
         <item>
             <title><![CDATA[Hacking dark themes with CSS blend modes]]></title>
-            <link>https://working-group-two.github.io/blog/hacking-dark-themes-with-css-blend-modes/</link>
+            <link>https://www.wgtwo.com/blog/hacking-dark-themes-with-css-blend-modes/</link>
             <guid>hacking-dark-themes-with-css-blend-modes/</guid>
             <pubDate>Tue, 25 Jun 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Like many other companies, Working Group Two has a number of applications which are]]></description>
