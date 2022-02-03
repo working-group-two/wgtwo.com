@@ -1,0 +1,13 @@
+.image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 16px;
+}
+
+.buttons {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}

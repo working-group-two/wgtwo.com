@@ -1,0 +1,37 @@
+{
+  "name": "working-group-two-website",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^0.9.2",
+    "@docusaurus/core": "^2.0.0-beta.14",
+    "@docusaurus/plugin-client-redirects": "^2.0.0-beta.14",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.14",
+    "@docusaurus/preset-classic": "^2.0.0-beta.14",
+    "@types/node-fetch": "^3.0.3",
+    "axios": "^0.25.0",
+    "classnames": "^2.2.6",
+    "lucide-react": "^0.16.25",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
