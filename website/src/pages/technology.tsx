@@ -99,13 +99,13 @@ function Index() {
             <div>Real-time billing gateway</div>
             <div>DRA</div>
 
-            <div><a className={styles.link}href="/docs/auc">AuC</a></div>
+            <div><a className={styles.link}href="/docs/technology/auc">AuC</a></div>
             <div>CHF</div>
             <div>DEA</div>
 
             <div>UDM</div>
             <No />
-            <div><a className={styles.link}href="/docs/security-whitepaper#ss7-firewall">SS7 Firewall</a></div>
+            <div><a className={styles.link}href="/docs/technology/security-whitepaper#ss7-firewall">SS7 Firewall</a></div>
 
             <div>AUSF</div>
             <No />
