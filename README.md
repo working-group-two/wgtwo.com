@@ -1,6 +1,6 @@
 # Working Group Two (wgtwo.com) 
 
-## Blog
+## Create a Blog
 
 - Upload images at [static/img/blog/](https://github.com/working-group-two/wgtwo.com/tree/main/static/img/blog)
 - Add your blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
@@ -34,7 +34,7 @@ Now my real blog post begins
 </pre>
 </details>
 
-## Docs
+## Create a Docs
 
 - Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
 - Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
