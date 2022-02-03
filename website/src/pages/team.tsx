@@ -71,13 +71,13 @@ function Team() {
               <h2 className={styles.title}>Our investors</h2>
               <div className={styles.investors}>
                 <div>
-                  <Image img={require("../../static/img/telenor.png")} />
+                  <Image img={require("../../static/img/telenor.png")} style={{ padding: "20px 0", height: "90px" }} />
                 </div>
                 <div>
-                  <Image img={require("../../static/img/cisco.png")} />
+                  <Image img={require("../../static/img/cisco.png")} style={{ padding: "20px 0", height: "90px" }}/>
                 </div>
                 <div>
-                  <Image img={require("../../static/img/digital-alpha-logo.png")} />
+                  <Image img={require("../../static/img/digital-alpha-logo.png")} style={{ padding: "20px 0", height: "90px" }}/>
                 </div>
               </div>
             </div>
