@@ -71,13 +71,19 @@ function Team() {
               <h2 className={styles.title}>Our investors</h2>
               <div className={styles.investors}>
                 <div>
-                  <Image img={require("../../static/img/telenor.png")} style={{ padding: "20px 0", height: "90px" }} />
+                  <a href="https://www.telenor.com" target="_blank">
+                    <img alt="Telenor" src="/img/telenor.png" />
+                  </a>
                 </div>
                 <div>
-                  <Image img={require("../../static/img/cisco.png")} style={{ padding: "20px 0", height: "90px" }}/>
+                  <a href="https://www.cisco.com" target="_blank">
+                    <img alt="Cisco" src="/img/cisco.png" />
+                  </a>
                 </div>
                 <div>
-                  <Image img={require("../../static/img/digital-alpha-logo.png")} style={{ padding: "20px 0", height: "90px" }}/>
+                  <a href="https://www.https://www.digitalalpha.net/" target="_blank">
+                    <img alt="Digital Alpha" src="/img/digital-alpha-logo.png" />
+                  </a>
                 </div>
               </div>
             </div>
