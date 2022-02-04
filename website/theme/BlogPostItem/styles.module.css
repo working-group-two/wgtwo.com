@@ -51,3 +51,26 @@
   border: 1px solid #eee;
   border-radius: 8px;
 }
+
+.readMore {
+  background-color: transparent;
+  border: 1px solid #eee;
+  padding: 18px 32px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 300ms ease-in-out;
+}
+
+.readMore:hover {
+  background-color: #E7E7E7;
+  color: #fff;
+}
