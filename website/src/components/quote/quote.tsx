@@ -5,16 +5,16 @@ import styles from "./quote.module.css";
 function Component() {
   return (
     <div className={`${common.section} ${common.sectionDark} ${common.sectionRounded}`}>
-      <div className={`${common.container} ${styles.stats}`}>
+      {/* <div className={`${common.container} ${styles.stats}`}>
         <div className={styles.stat}>
           <div className={styles.statNumber}>10</div>
           <div className={styles.statTitle}>months of integration</div>
         </div>
         <div className={styles.stat}>
-          <div className={styles.statNumber}>80,000</div>
+          <div className={styles.statNumber}>XXXX</div>
           <div className={styles.statTitle}>SIMs</div>
         </div>
-      </div>
+      </div> */}
       <div className={common.container}>
         <div className={common.centeredText}>
           <h2 className={styles.quote}>
