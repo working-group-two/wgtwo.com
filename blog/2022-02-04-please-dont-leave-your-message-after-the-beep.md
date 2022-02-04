@@ -8,14 +8,11 @@ author_title: Head of Marketing
 author_url: https://www.linkedin.com/in/torodland/
 author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/profile-displayphoto-shrink_400_400/0/1624522450808?e=1648684800&v=beta&t=LZVAsE5hVp3T50zGPk0qkf8qPJCnsXBlBXfCosrTH5o
 ---
-## Please don’t leave your message after the beep
 
 Think quickly: When was the last time you dialed into your voicemail to listen to a message someone had left for you? Chances are, it’s been a while. The common view is that voicemail isn’t popular any longer. That’s both true and not true, depending on how you look at it. Find out where voicemail - loved by some and hated by others - is heading. 
 
 
 <!--truncate-->
-
-## Please don’t leave your message after the beep
 
 “Please leave your message after the beep” - you’ve probably heard it a million times, especially if you were born before 1982. Or you’ve repeated that sentence over and over as you tried to make an attractive recording of your own voice as your greeting to a missed caller. We knew it wasn’t necessary to say it (people knew what to do after the beep) but we still recorded it that way. Probably because we didn’t know what else to say. 
 
