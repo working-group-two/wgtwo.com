@@ -7,9 +7,6 @@ SMS = 13mill = 156 mil
 Voicecalls = 26.8mill = 321.6 mil
 mms = 694k = 8.32 mil
 
-https://grafana.dub.prod.wgtwo.com/d/bH_O4UVmk/working-group-two?viewPanel=27&orgId=1
-Total subscribers = 302583
-
 https://grafana.dub.prod.wgtwo.com/d/SkQilwJZz/packet-gateway-service?viewPanel=4&orgId=1
 Data Upload = 4.871tb (24 hours) = 1,753 petabyte
 https://grafana.dub.prod.wgtwo.com/d/SkQilwJZz/packet-gateway-service?viewPanel=3&orgId=1

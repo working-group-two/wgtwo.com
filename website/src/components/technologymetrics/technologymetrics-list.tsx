@@ -9,9 +9,6 @@ const technologyMetrics = [
   { name: "1.8 petabyte", description: "data upload",},
   { name: "18.9 petabyte", description: "data download",},
   { name: "6.3 billion", description: "connectivity events",},
-  { name: "1.34 million", description: "events blocked - SS7 Sigtran Firewall",},
-  { name: "2.56 million", description: "voicemails",},
-  { name: "302 583", description: "total subscribers",},
 
 ];
 
