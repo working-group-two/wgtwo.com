@@ -18,6 +18,15 @@ function Component() {
         <div className={styles.features}>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
+              <DownloadCloud />
+            </div>
+            <div className={styles.featureTitle}>Data</div>
+            <div className={styles.featureDescription}>
+              Fast, secure, geo-region, and reliable data connections serving all of your subscriber's requirements.
+            </div>
+          </div>
+          <div className={styles.feature}>
+            <div className={styles.featureIcon}>
               <MessageSquare />
             </div>
             <div className={styles.featureTitle}>Messaging</div>
@@ -32,15 +41,6 @@ function Component() {
             <div className={styles.featureTitle}>Voice</div>
             <div className={styles.featureDescription}>
               Reliable voice SIP traffic across 2G, 3G, 4G (VoLTE).
-            </div>
-          </div>
-          <div className={styles.feature}>
-            <div className={styles.featureIcon}>
-              <DownloadCloud />
-            </div>
-            <div className={styles.featureTitle}>Data</div>
-            <div className={styles.featureDescription}>
-              Fast, secure, geo-region, and reliable data connections serving all of your subscriber's requirements.
             </div>
           </div>
           <div className={styles.feature}>
