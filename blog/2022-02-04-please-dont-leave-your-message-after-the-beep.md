@@ -6,7 +6,7 @@ tags: [messaging, voicemail, api]
 author: Tor Odland
 author_title: Head of Marketing
 author_url: https://www.linkedin.com/in/torodland/
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/profile-displayphoto-shrink_400_400/0/1624522450808?e=1648684800&v=beta&t=LZVAsE5hVp3T50zGPk0qkf8qPJCnsXBlBXfCosrTH5o
+author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQEgj3-fVz-pYQ/profile-displayphoto-shrink_200_200/0/1575228382184?e=1649289600&v=beta&t=0sJfNa93C4MTEp0KNXsguLmbAgej0id0XJx7Li6ZN9Q
 ---
 
 Think quickly: When was the last time you dialed into your voicemail to listen to a message someone had left for you? Chances are, it’s been a while. The common view is that voicemail isn’t popular any longer. That’s both true and not true, depending on how you look at it. Find out where voicemail - loved by some and hated by others - is heading. 
