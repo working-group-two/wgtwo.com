@@ -53,24 +53,21 @@
 }
 
 .readMore {
-  background-color: transparent;
-  border: 1px solid #eee;
-  padding: 18px 32px;
-  border-radius: 6px;
-  font-weight: 600;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 26px;
-  cursor: pointer;
-  flex-grow: 1;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 300ms ease-in-out;
+  display: block;
+  width: 100%;
 }
 
-.readMore:hover {
+.readMore a {
+  display: block;
+  width: calc(100% - 32px);
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.readMore a:hover {
   background-color: #E7E7E7;
-  color: #fff;
 }
