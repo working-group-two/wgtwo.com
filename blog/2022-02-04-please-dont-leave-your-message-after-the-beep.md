@@ -8,6 +8,8 @@ author_title: Head of Marketing
 author_url: https://www.linkedin.com/in/torodland/
 author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/profile-displayphoto-shrink_400_400/0/1624522450808?e=1648684800&v=beta&t=LZVAsE5hVp3T50zGPk0qkf8qPJCnsXBlBXfCosrTH5o
 ---
+## Please don’t leave your message after the beep
+
 Think quickly: When was the last time you dialed into your voicemail to listen to a message someone had left for you? Chances are, it’s been a while. The common view is that voicemail isn’t popular any longer. That’s both true and not true, depending on how you look at it. Find out where voicemail - loved by some and hated by others - is heading. 
 
 
@@ -21,13 +23,13 @@ For many of us, those days are over. We just don’t bother with setting up our 
 
 To others, voicemail is really crucial. 
 
-“We see the importance of voicemail increasing or declining based on specific demographics,” says Luke Campbell, the CEO of Vxt, a communications technology company in New Zealand.
+“We see the importance of voicemail increasing or declining based on specific demographics,” says Luke Campbell, the CEO of [Vxt](https://www.vxt.co.nz), a communications technology company in New Zealand.
 
 Luke describes people working in transactional industries as particularly passionate about voicemail. Lawyers, real estate agents, plumbers - they might get dozens of calls every day. So where others turn off voicemail, these people might want to get their voicemails forwarded to their emails, be able to share their inbox with a colleague or assistant, have voicemails automatically translated to text and integrate their messages with productivity tools like Asana or an ERP system. Some need to have their messages stored for regulatory or security purposes. A real estate agent with (say) 10 000 contacts may want to customize the greetings so that every time one of the 200 Johns or Jessicas call, they get a personal message stating their name. To some, that might be a differentiator, to others a nuisance. 
 
 Besides, Luke tells me, how dying is voicemail really, when in New Zealand, there are two million voicemails left every day, in a population of 4,6 million? 
 
-Karel Bourgois paints a similar picture. He’s the CEO of Voxist, a voicemail and messaging app, based in France. He’s seen voicemail transform into more of a productivity tool for businesses. Young people might still play around with things like customizing their voicemail greetings to individual callers, but in general, they don’t like talking. 
+Karel Bourgois paints a similar picture. He’s the CEO of [Voxist](https://www.voxist.com), a voicemail and messaging app, based in France. He’s seen voicemail transform into more of a productivity tool for businesses. Young people might still play around with things like customizing their voicemail greetings to individual callers, but in general, they don’t like talking. 
 
 “I see voicemail becoming more like a vocal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation,” Karel says. 
 
@@ -39,7 +41,7 @@ If you want to improve the voicemail experience, one route you can go down is to
 
 Another route is to make the user experience simpler. To make it easier and faster to listen to voicemail. 
 
-That’s essentially what Working Group Two and the Swedish mobile operator challenger Vimla did. In response to a regulatory challenge by the Swedish Post & Telecom Authority (PTS), Vimla recently launched a voicemail service where messages get delivered to a user’s phone as an audio file (via MMS). The customer can listen to it whenever he/she wants without needing to dial into the messaging system. As a result, hackers can no longer get access to other people’s voicemails (which PTS had set out to stop) and customers get a better messaging experience. 
+That’s essentially what Working Group Two and the Swedish mobile operator challenger [Vimla](https://vimla.se) did. In response to a regulatory challenge by the Swedish Post & Telecom Authority (PTS), Vimla recently launched a voicemail service where messages get delivered to a user’s phone as an audio file (via MMS). The customer can listen to it whenever he/she wants without needing to dial into the messaging system. As a result, hackers can no longer get access to other people’s voicemails (which PTS had set out to stop) and customers get a better messaging experience. 
 
 This simple, yet elegant solution serves as a powerful example of another and more fundamental development in the telecom industry. For a few years, Working Group Two has developed and managed the mobile core network of Vimla as-a-service in the cloud, enabling Vimla to operate its network both more efficiently and taking advantage of micro innovation at scale. When this challenge came around from PTS it took Vimla only a few months to respond with this lightweight and efficient solution. Working Group Two’s developers used existing APIs to connect two otherwise separate systems (voicemail and MMS). The API-based bridge between them allowed voicemails to be sent as MMS. Today, tens of thousands messages are sent every day in the Vimla network. 
 
@@ -49,11 +51,6 @@ Other operators in Sweden responded to the PTS requirements by beefing up their 
 
 At the end of the day, voicemail must face the test of any other digital product, says Marius Waldum, the Head of Product at Working Group Two. He’s in charge of the effort of developing the company’s ecosystem platform - where third party digital products are developed to run and meet users across multiple operators worldwide. Working Group Two has developed a standardized voicemail product called Voicebox, from which Vimla’s solution took its inspiration. 
 
-You need to ask yourself four questions, Marius points out. 
-
-Is the product valuable to its users?
-Is it usable? 
-Is it possible to build?
-Is it economically viable?
+You need to ask yourself four questions, Marius points out. First, is the product **valuable** to its users? Is it **usable** for them? Is it **possible to build**? And is it **economically viable**? 
 
 “Voicemail is a powerful reminder that a product doesn’t need to be desired by everyone, but by someone,” Marius concludes. 
