@@ -206,7 +206,7 @@ module.exports = {
           blogTagsPostsComponent: "../theme/BlogTagsPostsPage",
         },
         googleAnalytics: {
-          trackingID: "somethinghere",
+          trackingID: "UA-114662288-1",
         },
         theme: {
           customCss: [
