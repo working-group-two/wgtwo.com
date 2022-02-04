@@ -7,6 +7,7 @@ import { Check } from "lucide-react";
 import Multig from "../components/multig/multig";
 import Ourservice from "../components/ourservice/ourservice";
 import contact from "./contact.module.css";
+import message from "../util/message";
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
