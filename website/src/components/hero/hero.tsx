@@ -10,7 +10,8 @@ function Component() {
         <div className={common.text}>
           <h1 className={styles.titleHeader}>
             Programmable. <br /> Scalable. <br /> Innovative. <br /> 
-            <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span>
+            Mobile core network.
+            {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
           <div className={common.subtitle}>
             No more boxes, no more end of life, no large upfront investments. With the <b>wgtwo</b> cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.
