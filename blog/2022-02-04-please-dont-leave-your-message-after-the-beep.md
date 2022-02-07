@@ -26,6 +26,8 @@ Luke describes people working in transactional industries as particularly passio
 
 Besides, Luke tells me, how dying is voicemail really, when in New Zealand, there are two million voicemails left every day, in a population of 4,6 million? 
 
+### A vocal assistant
+
 Karel Bourgois paints a similar picture. He’s the CEO of [Voxist](https://www.voxist.com), a voicemail and messaging app, based in France. He’s seen voicemail transform into more of a productivity tool for businesses. Young people might still play around with things like customizing their voicemail greetings to individual callers, but in general, they don’t like talking. 
 
 “I see voicemail becoming more like a vocal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation,” Karel says. 
@@ -33,6 +35,8 @@ Karel Bourgois paints a similar picture. He’s the CEO of [Voxist](https://www.
 So voicemail systems continue to evolve. Users either don’t want voicemail or they want a voicemail service that can travel with them across devices, operators and national borders. 
 
 To Luke Campbell, the very challenge of requiring people dial into a voicemail service and listen to a bunch of commands before you get to your messages was in itself a problem big enough to be solved for kickstarting his business. Vxt started as a voice messaging service and today has evolved into a communication automation company, echoing Karel’s observations. 
+
+### The routes you can go down
 
 If you want to improve the voicemail experience, one route you can go down is to add more features, to make it more flexible and powerful. 
 
@@ -44,7 +48,9 @@ This simple, yet elegant solution serves as a powerful example of another and mo
 
 “We genuinely think this is a better product for our customers,” says Viktor Georgsson, Head of Operations with Vimla. 
 
-Other operators in Sweden responded to the PTS requirements by beefing up their security systems and protecting voicemail inboxes with longer authentication codes and more rigorous encryption. Perhaps at the expense of the customer experience. 
+Other operators in Sweden responded to the PTS requirements by beefing up their security systems and protecting voicemail inboxes with longer authentication codes and more rigorous encryption. Perhaps at the expense of the customer experience.
+
+### Ask yourself four questions... 
 
 At the end of the day, voicemail must face the test of any other digital product, says Marius Waldum, the Head of Product at Working Group Two. He’s in charge of the effort of developing the company’s ecosystem platform - where third party digital products are developed to run and meet users across multiple operators worldwide. Working Group Two has developed a standardized voicemail product called Voicebox, from which Vimla’s solution took its inspiration. 
 
