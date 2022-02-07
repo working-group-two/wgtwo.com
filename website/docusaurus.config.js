@@ -200,10 +200,6 @@ module.exports = {
           showReadingTime: true,
           blogSidebarCount: 1000,
           editUrl: "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
-          blogPostComponent: "../theme/BlogPostPage",
-          blogListComponent: "../theme/BlogListPage",
-          blogTagsListComponent: "../theme/BlogTagsListPage",
-          blogTagsPostsComponent: "../theme/BlogTagsPostsPage",
         },
         googleAnalytics: {
           trackingID: "UA-114662288-1",

@@ -3,10 +3,7 @@ slug: replacing-jenkins-with-concourse
 title: "We killed the butler: Replacing Jenkins with Concourse"
 date: 2019-12-20
 tags: [infrastructure, CICD, devops]
-author: Anna Kennedy
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/annaken
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQG43m4lVjJm8g/profile-displayphoto-shrink_400_400/0/1517558635100?e=1648684800&v=beta&t=BXA0nV3ZTaID9m1UD7GMS87NhYZRsYPcrPiIg30SYRw
+authors: anna-kennedy
 ---
 
 At **wgtwo**, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
@@ -137,4 +134,3 @@ Overall, we're pretty pleased with Concourse. There are a few features we're eag
 * <https://github.com/karlkfi/concourse-dcind>
 * <https://github.com/concourse/docker-image-resource/blob/master/assets/common.sh>
 * <https://concoursetutorial.com>
-

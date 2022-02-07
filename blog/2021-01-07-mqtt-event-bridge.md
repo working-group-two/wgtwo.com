@@ -3,13 +3,10 @@ slug: mqtt-event-bridge
 title: "Changing the color of your bulbs: The fancy way"
 date: 2021-01-07
 tags: [api, grpc, mqtt, node-red]
-author: Gunnar Inge G. Sortland
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/gunnaringe/
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQFnInHIEXjS7w/profile-displayphoto-shrink_400_400/0/1516312934330?e=1648684800&v=beta&t=FafxE3bOUsOclBJCs5mN2iXXnu3ifBW83TbjDgItL0c
+authors: [gunnar-inge]
 ---
 
-Last hackathon I did setup a MQTT integration towards **wgtwo**'s APIs to enable call notifications via my IKEA Trådfri bulb so I can finally notice my wife calling me. The bulb changes color when my phone is ringing and when I am in a call, without me needing to install anything to my phone.
+last hackathon i did setup a mqtt integration towards **wgtwo**'s apis to enable call notifications via my ikea trådfri bulb so i can finally notice my wife calling me. the bulb changes color when my phone is ringing and when I am in a call, without me needing to install anything to my phone.
 
 <!--truncate-->
 

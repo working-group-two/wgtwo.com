@@ -3,10 +3,7 @@ slug: the-specs-behind-the-specs-part-1
 title: The specs behind the specs part 1
 date: 2022-01-11
 tags: [telco, ASN.1, dia]
-author: Sebastian Weddmark Olsson
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/sebastian-weddmark-olsson/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGKBPb8-fRQrw/profile-displayphoto-shrink_400_400/0/1552936055035?e=1648684800&v=beta&t=Um5M-sEowAYCYIc3uW4aXlzDM7pQSbK1SIEEJPcJD2M
+authors: seba
 ---
 
 "Abstract Syntax Notation One (ASN.1) is a standard interface
@@ -104,7 +101,7 @@ well as at least one specification per encoding rule (listed in the
 
 
 | ITU-T no                                                                               | ASN.1 specifications                                                           |
-|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | [X.680](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.680) | Abstract Syntax Notation One (ASN.1): Specification of basic notation          |
 | [X.681](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.681) | Abstract Syntax Notation One (ASN.1): Information object specification         |
 | [X.682](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.682) | Abstract Syntax Notation One (ASN.1): Constraint specification                 |
@@ -148,7 +145,7 @@ END
 as seen in an example
 
 ```asn.1
-CAP-operationcodes {itu-t(0) identified-organization(4) etsi(0) mobileDomain(0) umts-network(1) 
+CAP-operationcodes {itu-t(0) identified-organization(4) etsi(0) mobileDomain(0) umts-network(1)
 modules(3) cap-operationcodes(53) version8(7)}
 
 DEFINITIONS ::= BEGIN
@@ -309,7 +306,7 @@ X.680](https://www.itu.int/rec/T-REC-X.680/en)
 Here is a list of the most common types
 
 | Type                                    | Universal Tag Number |
-|-----------------------------------------|----------------------|
+| --------------------------------------- | -------------------- |
 | [BOOLEAN](#boolean)                     | 1                    |
 | [INTEGER](#integer)                     | 2                    |
 | [BIT STRING](#bit-string)               | 3                    |
@@ -515,7 +512,7 @@ and as can see in the `Modules` example version 8 of cap-datatypes is part of ET
 Other root arcs
 
 | Root | Organization    |
-| ---  | ---             |
+| ---- | --------------- |
 | 0    | ITU-T           |
 | 1    | ISO             |
 | 2    | joint-iso-itu-t |
@@ -582,7 +579,7 @@ lot of others that operate over character sets.
 
 
 | Type                         | Tag | Character set regex/comment                                                                                                                                                                   |
-|------------------------------|-----|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------------------- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | UTF8String                   | 12  | Synonymous with UniversalString at abstract level                                                                                                                                             |
 | NumericString                | 18  | `[0-9 ]`                                                                                                                                                                                      |
 | PrintableString              | 19  | `[A-Za-z0-9'()+,./:=? -]`                                                                                                                                                                     |
@@ -1301,7 +1298,7 @@ There are numerous codecs when transmitting the abstract syntax, all
 with different pros and cons.
 
 | Short name | Long name                    |
-|------------|------------------------------|
+| ---------- | ---------------------------- |
 | BER        | Basic encoding rules         |
 | DER        | Distinguished encoding rules |
 | CER        | Canonical encoding rules     |
@@ -1353,7 +1350,7 @@ There are probably a bunch of others as well, but these are the ones
 that have a specification.
 
 | ITU-T number                                                                           | Name                                                                                                                                     |
-|----------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [X.690](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.690) | ASN.1 encoding rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER) |
 | [X.691](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.691) | ASN.1 encoding rules: Specification of Packed Encoding Rules (PER)                                                                       |
 | [X.692](https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&parent=T-REC-X.692) | ASN.1 encoding rules: Specification of Encoding Control Notation (ECN)                                                                   |
@@ -1379,4 +1376,3 @@ instead, which are much more straighforward.
 
 Image from [xkcd](https://xkcd.com) describing how I feel with ASN.1:
 <a class="image" href="https://xkcd.com/208/"><img src="https://imgs.xkcd.com/comics/regular_expressions.png" /></a>
-
