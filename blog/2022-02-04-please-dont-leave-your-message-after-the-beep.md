@@ -30,6 +30,8 @@ Besides, Luke tells me, how dying is voicemail really, when in New Zealand, ther
 
 Karel Bourgois paints a similar picture. He’s the CEO of [Voxist](https://www.voxist.com), a voicemail and messaging app, based in France. He’s seen voicemail transform into more of a productivity tool for businesses. Young people might still play around with things like customizing their voicemail greetings to individual callers, but in general, they don’t like talking. 
 
+![Breaking up via voicemail](https://github.com/working-group-two/wgtwo.com/blob/main/website/static/img/blog/voicemail.jpeg) 
+
 “I see voicemail becoming more like a vocal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation,” Karel says. 
 
 So voicemail systems continue to evolve. Users either don’t want voicemail or they want a voicemail service that can travel with them across devices, operators and national borders. 
