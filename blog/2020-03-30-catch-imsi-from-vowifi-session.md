@@ -3,7 +3,7 @@ slug: vowifi-imsi-leak/
 title: VoWifi leaking IMSI
 date: 2020-03-30
 tags: [telco, 4G, ePDG, VoWifi, networking, security]
-
+authors: roger-skjetlein
 ---
 
 4G offers more services than the earlier generation such as 3G and 2G. One of
