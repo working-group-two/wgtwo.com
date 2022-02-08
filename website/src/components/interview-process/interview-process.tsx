@@ -101,7 +101,7 @@ function Component() {
   ];
 
   const processItems = accordionData.map((data) => (
-      <AccordionStyled accordionData={data} />
+      <AccordionStyled accordionData={data} key={data.card_number} />
   ));
 
   return (

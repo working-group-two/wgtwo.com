@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   title: "Working Group Two",
   tagline:
@@ -244,5 +246,18 @@ module.exports = {
         ],
       },
     ],
+    [
+      path.resolve(__dirname, 'plugins/dynamic-routes'),
+      { 
+        routes: [
+            { 
+                path: '/careers',
+                exact: false,
+                component: path.resolve(__dirname, 'src/pages/careers/_careers.tsx')
+            }
+        ]
+      }
+  ],
+ 
   ],
 };
