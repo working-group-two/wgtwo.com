@@ -3,10 +3,7 @@ slug: hacking-dark-themes-with-css-blend-modes/
 title: Hacking dark themes with CSS blend modes
 date: 2019-06-25
 tags: [CSS, frontend, design]
-author: David Åse
-author_title: Tech Lead @ wgtwo
-author_url: https://linkedin.com/in/davidaase
-author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQFD4dPSvm-pIg/profile-displayphoto-shrink_400_400/0/1541960720294?e=1648684800&v=beta&t=sj0aTz-Im1u46B5m3O5KMPMD-PydrJoewIoeII5zP1k
+authors: [david-åse]
 ---
 
 Like many other companies, [Working Group Two](/) has a number of applications which are

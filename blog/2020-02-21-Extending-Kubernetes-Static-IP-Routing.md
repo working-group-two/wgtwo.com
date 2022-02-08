@@ -3,13 +3,10 @@ slug: extending-k8s/
 title: "Extending Kubernetes for our needs"
 date: 2020-02-21
 tags: [infrastructure, kubernetes, networking, AWS]
-author: Holger Ihrig
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/hihrig/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGc3sG-ltGzlA/profile-displayphoto-shrink_400_400/0/1516250699138?e=1648684800&v=beta&t=qpxr39O2hNY54vsUcCbt1wH8fc2lMf07zW1etQD_gxY
+authors: holger-ihrig
 ---
 
-We are using Kubernetes as our cluster scheduler and this serves us well. However we have a 
+We are using Kubernetes as our cluster scheduler and this serves us well. However we have a
 few cases where we need to do some additional work.
 
 <!--truncate-->
@@ -21,7 +18,7 @@ using Elastic IPs and adding them to the services? Good idea, but Telecom operat
 an Elastic IP for you as there are no guarantees that it will belong to your company infrastructure forever. There
 are also additional challenges when it comes to using Elastic IP in private subnet over VPN or direct connect.
 
-We are a member of RIPE and do have a small subnet block for our own use, so we thought we could make use of 
+We are a member of RIPE and do have a small subnet block for our own use, so we thought we could make use of
 that. As we own the block and AWS supports BYOIP (Bring your own IP-range), we created a special subnet with
 some Kubernetes nodes in it. This was not enough to make this work since we depended on a service always having
 the same IP attached to it, as well as the node running a pod having some very specific Routes set.
@@ -49,9 +46,9 @@ are hard requirements, like cpu, memory and number of pods. Other requirements a
 be packed together or in which AZ they are going to run. All of those requirements are collected and points given to each
 node on how well they meet the requirements. The node that fits best, gets chosen.
 
-All of these are things the scheduler will do for you automatically, however it is also possible to give the cluster a 
+All of these are things the scheduler will do for you automatically, however it is also possible to give the cluster a
 `KubeSchedulerConfiguration` object that will tell the scheduler to also reach out to a service for additional point scoring.
-The SchedulerConfiguration is a JSON file and for further explanations, please have a look at this 
+The SchedulerConfiguration is a JSON file and for further explanations, please have a look at this
 excellent [blog post](https://developer.ibm.com/articles/creating-a-custom-kube-scheduler/).
 
 In our case, we could have written a service that checks which IP Addresses are assigned to the Nodes and moved the Pods
@@ -76,7 +73,7 @@ requested. So in the Redis example it will either create the pods, update the po
 deploy the pods or delete the pods. Basically things a human operator would do in this case, just in programmatic form, taking it
 from a declarative form into existing resources.
 
-As our initial problem was making services available on static IP addresses, we chose to explore this approach further, 
+As our initial problem was making services available on static IP addresses, we chose to explore this approach further,
 basically attaching additional IP addresses to the nodes running specific pods.
 
 ## Building an Operator/Controller
@@ -102,7 +99,7 @@ implement our operator in golang. We will be using the operator-sdk version 0.12
 
 ### What we want to do
 Looking at the problem again, we need some way to make sure that a node that runs a specific pod, needs to
-have an IP address attached to it. This IP address will be given to connecting parties as a entry point to our 
+have an IP address attached to it. This IP address will be given to connecting parties as a entry point to our
 system and thus cannot change.
 
 Features it needs to support
@@ -111,7 +108,7 @@ Features it needs to support
 - Detach IP address from node that is not running pod
 - Move IP addresses around in case of node failure
 
-This feature list already shows some things we will not and most likely cannot support. For example autoscaling of 
+This feature list already shows some things we will not and most likely cannot support. For example autoscaling of
 replica sets will not work as an IP address is bound to a node with an assigned pod. There is
 a 1-1 association here. However it is still possible to use the self-healing properties of Deployments
 in this case.
@@ -293,11 +290,11 @@ to actually give you an idea on how this can be accomplished.
 ## Summary
 
 We have been looking at how to expand Kubernetes to suit our needs better. Creating the Operator/Controller
-has taught us quite a bit about how Kubernetes works and has already saved us work in the past 
+has taught us quite a bit about how Kubernetes works and has already saved us work in the past
 few months, especially on node failures.
 
 The operator-sdk has been a great tool for us to solve this problem and we see that there is a lot of work
-going into it, making it simpler to create operators. It might look intimidating at first, but is worth the effort and 
+going into it, making it simpler to create operators. It might look intimidating at first, but is worth the effort and
 we think in the future Kubernetes operators will be the way how stateful components will be managed.
 
 

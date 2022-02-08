@@ -3,10 +3,7 @@ slug: choosing-erlang-formatter/
 title: Choosing an Erlang formatter
 date: 2020-05-18
 tags: [erlang, rebar3, coding, culture]
-author: Sebastian Weddmark Olsson
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/sebastian-weddmark-olsson/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGKBPb8-fRQrw/profile-displayphoto-shrink_400_400/0/1552936055035?e=1648684800&v=beta&t=Um5M-sEowAYCYIc3uW4aXlzDM7pQSbK1SIEEJPcJD2M
+authors: seba
 ---
 
 There are many different Erlang formatters, and as a hack day project
