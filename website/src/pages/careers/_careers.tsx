@@ -9,14 +9,14 @@ import styles from "./careers.module.css"
 import InterviewProcess from "../../components/interview-process/interview-process"
 import { ArrowRight, ArrowLeft, Loader2 } from "lucide-react"
 
-type JobPosistion = {
+type Job = {
   id: string,
   title: string,
   subtitle: string,
   jobDescriptions: string[],
 }
 
-const fetchAllPositions = async (): Promise<JobPosistion[]> => {
+const fetchAllPositions = async (): Promise<Job[]> => {
   const res = await fetch('https://wgtwo-jobs.personio.de/xml')
   const resBody = await res.text()
   const parser = new DOMParser()
@@ -30,14 +30,14 @@ const fetchAllPositions = async (): Promise<JobPosistion[]> => {
   }))
 }
 
-const JobPosting = ({ jobPosting }: { jobPosting: JobPosistion }) => <Link
+const JobPosting = ({ job }: { job: Job }) => <Link
   className={styles.job}
-  to={`/careers/job/${jobPosting.id}`}
+  to={`/careers/job/${job.id}`}
 >
   <div className="position-text">
-    <div className={styles.jobName}>{jobPosting.title}</div>
+    <div className={styles.jobName}>{job.title}</div>
     <div className={styles.jobLocation}>
-      {jobPosting.subtitle}
+      {job.subtitle}
     </div>
   </div>
   <div>
@@ -45,14 +45,14 @@ const JobPosting = ({ jobPosting }: { jobPosting: JobPosistion }) => <Link
   </div>
 </Link>
 
-const Careers = ({ jobPostings }: { jobPostings: JobPosistion[] }) => <div className={styles.jobs}>
+const Careers = ({ jobs }: { jobs: Job[] }) => <div className={styles.jobs}>
   <div className={common.title}>Careers</div>
-  {jobPostings.map((jp) => <JobPosting jobPosting={jp} key={jp.id} />)}
+  {jobs.map((j) => <JobPosting job={j} key={j.id} />)}
   <div id="personio-ads"></div>
 </div>
 
-const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }) => {
-  const jobPosting = jobPostings.find((j) => j.id == match.params.id)
+const Job = ({ match, allJobs }: { match: any, allJobs: Job[] }) => {
+  const jobPosting = allJobs.find((j) => j.id == match.params.id)
   const cleanCDATA = text => text.replace("<![CDATA[", "").replace("]]>", "")
   return jobPosting
     ? <>
@@ -72,11 +72,11 @@ const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }
 }
 
 export default () => {
-  const [jobPostings, setJobPostings] = useState<JobPosistion[]>([])
+  const [jobs, setJobs] = useState<Job[]>([])
   useEffect(() => {
     (async () => {
       const jobPostings = await fetchAllPositions()
-      setJobPostings(jobPostings)
+      setJobs(jobPostings)
     })()
   }, [])
   const match = useRouteMatch()
@@ -89,10 +89,10 @@ export default () => {
       <div className={common.container}>
         <div className={common.container}>
           {
-            jobPostings.length
+            jobs.length
               ? <Switch>
-                <Route exact path={match.path} component={() => <Careers jobPostings={jobPostings} />} />
-                <Route path={`${match.path}job/:id`} component={({ match }) => <Job jobPostings={jobPostings} match={match} />} />
+                <Route exact path={match.path} component={() => <Careers jobs={jobs} />} />
+                <Route path={`${match.path}job/:id`} component={({ match }) => <Job allJobs={jobs} match={match} />} />
               </Switch>
               : <Loader2 className={styles.loader} />
           }
