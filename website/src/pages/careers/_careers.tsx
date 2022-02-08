@@ -56,16 +56,16 @@ const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }
   const cleanCDATA = text => text.replace("<![CDATA[", "").replace("]]>", "")
   return jobPosting
     ? <>
-        <Link to="/careers"><ArrowLeft /></Link>
-        <div>
-          <h2>{jobPosting.title}</h2>
-          <h6>{jobPosting.subtitle}</h6>
-          <div dangerouslySetInnerHTML={{ __html: jobPosting.jobDescriptions.map(cleanCDATA).join("") }} />
-          <a
-            href={`https://wgtwo.jobs.personio.de/job/${jobPosting.id}#apply`}
-            className={`${common.button} ${common.buttonPrimary}`} target="_blank">
-            Apply now
-          </a>
+      <Link to="/careers"><ArrowLeft /></Link>
+      <div>
+        <h2>{jobPosting.title}</h2>
+        <h6>{jobPosting.subtitle}</h6>
+        <div dangerouslySetInnerHTML={{ __html: jobPosting.jobDescriptions.map(cleanCDATA).join("") }} />
+        <a
+          href={`https://wgtwo.jobs.personio.de/job/${jobPosting.id}#apply`}
+          className={`${common.button} ${common.buttonPrimary}`} target="_blank">
+          Apply now
+        </a>
       </div>
     </>
     : <h1>404 - Not found</h1>
