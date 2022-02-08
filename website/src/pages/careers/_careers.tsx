@@ -34,15 +34,15 @@ const fetchAllPositions = async (): Promise<JobPosistion[]> => {
   }))
 }
 
-const JobPosting = ({ jp }: { jp: JobPosistion }) => <Link
+const JobPosting = ({ jobPosting }: { jobPosting: JobPosistion }) => <Link
   className={styles.job}
-  to={`/careers/job/${jp.id}`}
+  to={`/careers/job/${jobPosting.id}`}
 >
   <div className="position-text">
-    <div className={styles.jobName}>{jp.name}</div>
+    <div className={styles.jobName}>{jobPosting.name}</div>
     <div className={styles.jobLocation}>
       {
-        `Permanent employee, ${jp.schedule} - ${jp.location}`
+        `Permanent employee, ${jobPosting.schedule} - ${jobPosting.location}`
       }
     </div>
   </div>
@@ -50,6 +50,12 @@ const JobPosting = ({ jp }: { jp: JobPosistion }) => <Link
     <ArrowRight />
   </div>
 </Link>
+
+const Careers = ({ jobPostings }: { jobPostings: JobPosistion[] }) => <div className={styles.jobs}>
+  <div className={common.title}>Careers</div>
+  {jobPostings.map((jp) => <JobPosting jobPosting={jp} key={jp.id} />)}
+  <div id="personio-ads"></div>
+</div>
 
 const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }) => {
   const jobPosting = jobPostings.find((j) => j.id == match.params.id)
@@ -66,13 +72,6 @@ const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }
     </>
     : <h1>404 - Not found</h1>
 }
-
-
-const Careers = ({ jobPostings }: { jobPostings: JobPosistion[] }) => <div className={styles.jobs}>
-  <div className={common.title}>Careers</div>
-  {jobPostings.map((jp) => <JobPosting jp={jp} key={jp.id} />)}
-  <div id="personio-ads"></div>
-</div>
 
 export default () => {
   const [jobPostings, setJobPostings] = useState<JobPosistion[]>([])
@@ -104,5 +103,4 @@ export default () => {
     </div>
     <InterviewProcess />
   </Layout>
-
 }
