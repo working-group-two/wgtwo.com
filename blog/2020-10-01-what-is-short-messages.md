@@ -3,10 +3,7 @@ slug: what-is-a-short-message
 title: What the heck is a short message?
 date: 2020-10-01
 tags: [telco, MAP, TCAP, SS7, Forward-SM, SMS]
-author: Sebastian Weddmark Olsson
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/sebastian-weddmark-olsson/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGKBPb8-fRQrw/profile-displayphoto-shrink_400_400/0/1552936055035?e=1648684800&v=beta&t=Um5M-sEowAYCYIc3uW4aXlzDM7pQSbK1SIEEJPcJD2M
+authors: seba
 ---
 
 I will try as best as I can to give an explanation of what happens
