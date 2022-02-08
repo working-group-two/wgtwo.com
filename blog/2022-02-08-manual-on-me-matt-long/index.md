@@ -1,7 +1,7 @@
 ---
 slug: manual-on-me-matt-long
 title: "Manual on Me: Matt Long"
-date: 2022-02-09
+date: 2022-02-08
 tags: [trust, culture, startup, manual-on-me]
 authors: [mtl]
 ---
@@ -35,7 +35,9 @@ Here's what I was asked to put into _my_ manual:
 * How to reach out and get in touch with me
 * How to give me feedback
 
-So how does this solve the problem on Reddit?  Assuming the OP's new supervisor really wanted to know their employees, they could just ask and probably find out just as much (or more) than having everyone take the MBTI.
+Although nobody in the company remembers how this practice actually started, this is not a completely new idea.  I see that there are a few references to this concept around the internet, including at least one [online version](https://www.manualof.me).  Their [about page](https://www.manualof.me/about) cites a few previous inspirations and sources for this "personal user manual."
+
+So how does this solve the problem on Reddit?  Assuming the OP's new supervisor really wanted to know their employees, they could *just ask* and probably find out just as much (or more) than having everyone take the MBTI.
 
 ## My "Manual on Me"
 
@@ -78,6 +80,8 @@ So what does my "Manual on Me" look like?  Here is what I wrote in the summer of
 - If it is serious, I like to have time to digest the feedback before I need to give a response, if possible.
 
 :::
+
+Most of this is still true, but maybe it is time for an update!
 
 ## A management perspective
 
