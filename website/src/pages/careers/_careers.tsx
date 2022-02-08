@@ -11,9 +11,8 @@ import { ArrowRight, ArrowLeft, Loader2 } from "lucide-react"
 
 type JobPosistion = {
   id: string,
-  name: string,
-  location: string,
-  schedule: string,
+  title: string,
+  subtitle: string,
   jobDescriptions: string[],
 }
 
@@ -24,9 +23,8 @@ const fetchAllPositions = async (): Promise<JobPosistion[]> => {
   const xml = parser.parseFromString(resBody, "text/xml")
 
   return Array.from(xml.querySelectorAll("position")).map((p, i) => ({
-    name: p.querySelector("name").innerHTML,
-    schedule: p.querySelector("schedule").innerHTML,
-    location: p.querySelector("office").innerHTML,
+    title: p.querySelector("name").innerHTML,
+    subtitle: `Permanent employee, ${p.querySelector("schedule").innerHTML} - ${p.querySelector("office").innerHTML}`,
     id: p.querySelector("id").innerHTML,
     jobDescriptions: Array.from(p.querySelectorAll("jobDescription")).map(el => el.innerHTML),
   }))
@@ -37,11 +35,9 @@ const JobPosting = ({ jobPosting }: { jobPosting: JobPosistion }) => <Link
   to={`/careers/job/${jobPosting.id}`}
 >
   <div className="position-text">
-    <div className={styles.jobName}>{jobPosting.name}</div>
+    <div className={styles.jobName}>{jobPosting.title}</div>
     <div className={styles.jobLocation}>
-      {
-        `Permanent employee, ${jobPosting.schedule} - ${jobPosting.location}`
-      }
+      {jobPosting.subtitle}
     </div>
   </div>
   <div>
@@ -60,13 +56,17 @@ const Job = ({ match, jobPostings }: { match: any, jobPostings: JobPosistion[] }
   const cleanCDATA = text => text.replace("<![CDATA[", "").replace("]]>", "")
   return jobPosting
     ? <>
-      <Link to="/careers"><ArrowLeft /></Link>,
-      <div dangerouslySetInnerHTML={{ __html: jobPosting.jobDescriptions.map(cleanCDATA).join("") }} />,
-      <a
-        href={`https://wgtwo.jobs.personio.de/job/${jobPosting.id}#apply`}
-        className={`${common.button} ${common.buttonPrimary}`} target="_blank">
-        Apply now
-      </a>
+        <Link to="/careers"><ArrowLeft /></Link>
+        <div>
+          <h2>{jobPosting.title}</h2>
+          <h6>{jobPosting.subtitle}</h6>
+          <div dangerouslySetInnerHTML={{ __html: jobPosting.jobDescriptions.map(cleanCDATA).join("") }} />
+          <a
+            href={`https://wgtwo.jobs.personio.de/job/${jobPosting.id}#apply`}
+            className={`${common.button} ${common.buttonPrimary}`} target="_blank">
+            Apply now
+          </a>
+      </div>
     </>
     : <h1>404 - Not found</h1>
 }
