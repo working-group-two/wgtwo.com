@@ -10,7 +10,6 @@ authors: naoya-ori
 
 # Working Group Two and Mitsui Knowledge Industry (MKI) to develop private networks business
 
-## PRESS RELEASE
 <img src="/img/mki.png" alt="mki" width="300"/>
 
 — Drive the Private NWs Growth with its Fully-Managed Mobile Core NW SaaS —
