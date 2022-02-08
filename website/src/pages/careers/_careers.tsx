@@ -8,7 +8,6 @@ import common from "../../css/common.module.css"
 import styles from "./careers.module.css"
 import InterviewProcess from "../../components/interview-process/interview-process"
 import { ArrowRight, ArrowLeft, Loader2 } from "lucide-react"
-import { partial } from "../../../../../../../../../root/.cache/typescript/4.5/node_modules/@types/lodash";
 
 type JobPosistion = {
   id: string,
@@ -17,7 +16,6 @@ type JobPosistion = {
   schedule: string,
   jobDescriptions: string[],
 }
-
 
 const fetchAllPositions = async (): Promise<JobPosistion[]> => {
   const res = await fetch('https://wgtwo-jobs.personio.de/xml')
