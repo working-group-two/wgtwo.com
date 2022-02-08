@@ -1,13 +1,12 @@
 ---
-slug: please-dont-leave-your-message-after-the-beep
-title: "Don't leave your message after the beep"
+slug: please-dont-leave-a-message-after-the-beep
+title: "Don't leave a message after the beep"
 date: 2022-02-04
 tags: [messaging, voicemail, api]
 authors: [tor-odland]
 ---
 
 Think quickly: When was the last time you dialed into your voicemail to listen to a message someone had left for you? Chances are, it’s been a while. The common view is that voicemail isn’t popular any longer. That’s both true and not true, depending on how you look at it. Find out where voicemail - loved by some and hated by others - is heading.
-
 
 <!--truncate-->
 
@@ -17,7 +16,7 @@ For many of us, those days are over. We just don’t bother with setting up our 
 
 To others, voicemail is really crucial.
 
-“We see the importance of voicemail increasing or declining based on specific demographics,” says Luke Campbell, the CEO of [Vxt](https://www.vxt.co.nz), a communications technology company in New Zealand.
+> “We see the importance of voicemail increasing or declining based on specific demographics,” says Luke Campbell, the CEO of [Vxt](https://www.vxt.co.nz), a communications technology company in New Zealand.
 
 Luke describes people working in transactional industries as particularly passionate about voicemail. Lawyers, real estate agents, plumbers - they might get dozens of calls every day. So where others turn off voicemail, these people might want to get their voicemails forwarded to their emails, be able to share their inbox with a colleague or assistant, have voicemails automatically translated to text and integrate their messages with productivity tools like Asana or an ERP system. Some need to have their messages stored for regulatory or security purposes. A real estate agent with (say) 10 000 contacts may want to customize the greetings so that every time one of the 200 Johns or Jessicas call, they get a personal message stating their name. To some, that might be a differentiator, to others a nuisance.
 
@@ -29,7 +28,7 @@ Karel Bourgois paints a similar picture. He’s the CEO of [Voxist](https://www.
 
 <img src="/img/blog/voicemail.jpeg" alt="Breaking up via voicemail" width="300"/>
 
-“I see voicemail becoming more like a vocal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation,” Karel says.
+> “I see voicemail becoming more like a vocal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation,” Karel says.
 
 So voicemail systems continue to evolve. Users either don’t want voicemail or they want a voicemail service that can travel with them across devices, operators and national borders.
 
@@ -45,7 +44,7 @@ That’s essentially what Working Group Two and the Swedish mobile operator chal
 
 This simple, yet elegant solution serves as a powerful example of another and more fundamental development in the telecom industry. For a few years, Working Group Two has developed and managed the mobile core network of Vimla as-a-service in the cloud, enabling Vimla to operate its network both more efficiently and taking advantage of micro innovation at scale. When this challenge came around from PTS it took Vimla only a few months to respond with this lightweight and efficient solution. Working Group Two’s developers used existing APIs to connect two otherwise separate systems (voicemail and MMS). The API-based bridge between them allowed voicemails to be sent as MMS. Today, tens of thousands messages are sent every day in the Vimla network.
 
-“We genuinely think this is a better product for our customers,” says Viktor Georgsson, Head of Operations with Vimla.
+> “We genuinely think this is a better product for our customers,” says Viktor Georgsson, Head of Operations with Vimla.
 
 Other operators in Sweden responded to the PTS requirements by beefing up their security systems and protecting voicemail inboxes with longer authentication codes and more rigorous encryption. Perhaps at the expense of the customer experience.
 
@@ -55,4 +54,4 @@ At the end of the day, voicemail must face the test of any other digital product
 
 You need to ask yourself four questions, Marius points out. First, is the product **valuable** to its users? Is it **usable** for them? Is it **possible to build**? And is it **economically viable**?
 
-“Voicemail is a powerful reminder that a product doesn’t need to be desired by everyone, but by someone,” Marius concludes.
+> “Voicemail is a powerful reminder that a product doesn’t need to be desired by everyone, but by someone,” Marius concludes.
