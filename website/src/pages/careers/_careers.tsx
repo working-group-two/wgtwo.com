@@ -61,12 +61,12 @@ const Job = ({ match, allJobs }: { match: any, allJobs: Job[] }) => {
         <h2>{jobPosting.title}</h2>
         <h6>{jobPosting.subtitle}</h6>
         <div dangerouslySetInnerHTML={{ __html: jobPosting.jobDescriptions.map(cleanCDATA).join("") }} />
-        <a
+      </div>
+      <a
           href={`https://wgtwo.jobs.personio.de/job/${jobPosting.id}#apply`}
           className={`${common.button} ${common.buttonPrimary}`} target="_blank">
           Apply now
         </a>
-      </div>
     </>
     : <h1>404 - Not found</h1>
 }
