@@ -4,6 +4,7 @@ import common from "../css/common.module.css";
 import styles from "./contact.module.css";
 import message from "../util/message";
 import { Calendar, HelpCircle, Mail } from "lucide-react";
+import Link from "@docusaurus/Link"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -36,9 +37,9 @@ function Contact() {
               <a href="mailto:contact@wgtwo.com">
                 <Mail /> Email us at contact@wgtwo.com
               </a>
-              <a href="/request-demo">
+              <Link to="/request-demo">
                 <Calendar /> Schedule a demo
-              </a>
+              </Link>
               <a href="https://support.wgtwo.com" target="_blank">
                 <HelpCircle /> Open a support ticket
               </a>

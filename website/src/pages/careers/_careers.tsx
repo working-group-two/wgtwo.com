@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react"
-import { Switch, Route, useRouteMatch } from '@docusaurus/router'
-import Link from '@docusaurus/Link'
-import Head from '@docusaurus/Head'
-
+import { Switch, Route, useRouteMatch } from "@docusaurus/router"
+import Link from "@docusaurus/Link"
+import Head from "@docusaurus/Head"
 import Layout from "@theme/Layout"
 import common from "../../css/common.module.css"
 import styles from "./careers.module.css"
@@ -16,9 +15,16 @@ type Job = {
   jobDescriptions: string[],
 }
 
-const fetchAllPositions = async (): Promise<Job[]> => {
-  const res = await fetch('https://wgtwo-jobs.personio.de/xml')
-  const resBody = await res.text()
+const fetchAllJobs = async (): Promise<Job[]> => {
+  let resBody = localStorage.getItem("jobs-xml")
+  let ttl = new Date(localStorage.getItem("jobs-xml-ttl"))
+  if (resBody == null || ttl < new Date()) {
+    const res = await fetch('https://wgtwo-jobs.personio.de/xml')
+    resBody = await res.text()
+    localStorage.setItem("jobs-xml", resBody)
+    ttl = new Date(new Date().setHours(new Date().getHours() + 1))
+    localStorage.setItem("jobs-xml-ttl", ttl.toString()) 
+  } 
   const parser = new DOMParser()
   const xml = parser.parseFromString(resBody, "text/xml")
 
@@ -75,7 +81,7 @@ export default () => {
   const [jobs, setJobs] = useState<Job[]>([])
   useEffect(() => {
     (async () => {
-      const jobPostings = await fetchAllPositions()
+      const jobPostings = await fetchAllJobs()
       setJobs(jobPostings)
     })()
   }, [])

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./logs.module.css";
 import common from "../../css/common.module.css";
 import Image from "@theme/IdealImage";
+import Link from "@docusaurus/Link";
 
 function Component() {
   return (
@@ -17,9 +18,9 @@ function Component() {
             to add the products that meets their needs.
           </div>
           <div className={styles.buttons}>
-            <a href="/product-ecosystem" className={`${common.button} ${common.buttonPrimary}`}>
+            <Link to="/product-ecosystem" className={`${common.button} ${common.buttonPrimary}`}>
               Learn more about our Product Ecosystem
-            </a>
+            </Link>
           </div>
         </div>
         <Image

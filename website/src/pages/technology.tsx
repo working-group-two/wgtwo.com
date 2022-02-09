@@ -8,6 +8,7 @@ import Multig from "../components/multig/multig";
 import Ourservice from "../components/ourservice/ourservice";
 import contact from "./contact.module.css";
 import message from "../util/message";
+import Link from "@docusaurus/Link";
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
@@ -100,13 +101,13 @@ function Index() {
             <div>Real-time billing gateway</div>
             <div>DRA</div>
 
-            <div><a className={styles.link}href="/docs/technology/auc">AuC</a></div>
+            <div><Link className={styles.link} to="/docs/technology/auc">AuC</Link></div>
             <div>CHF</div>
             <div>DEA</div>
 
             <div>UDM</div>
             <No />
-            <div><a className={styles.link}href="/docs/technology/security-whitepaper#ss7-firewall">SS7 Firewall</a></div>
+            <div><Link className={styles.link} to="/docs/technology/security-whitepaper#ss7-firewall">SS7 Firewall</Link></div>
 
             <div>AUSF</div>
             <No />
