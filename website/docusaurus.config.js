@@ -115,8 +115,8 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Docs",
-              href: "/docs/about/introduction",
+              label: "Case Studies",
+              href: "/docs/Case%20Studies/mvnx/",
               target: "_self",
             },
             {
