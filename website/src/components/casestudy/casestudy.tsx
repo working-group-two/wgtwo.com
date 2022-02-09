@@ -3,6 +3,7 @@ import common from "../../css/common.module.css";
 import styles from "./casestudy.module.css";
 import CaseStudyList from "./casestudy-list";
 import Image from "@theme/IdealImage";
+import Link from "@docusaurus/Link";
 
 function Component() {
   return (
@@ -24,9 +25,9 @@ function Component() {
         <CaseStudyList length={6} />
       </div>
       <div className={common.container}>
-        <a href="/case-studies" className={styles.caseStudyButton}>
+        <Link to="/case-studies" className={styles.caseStudyButton}>
           See all case studies
-        </a>
+        </Link>
       </div>
     </div>
   );
