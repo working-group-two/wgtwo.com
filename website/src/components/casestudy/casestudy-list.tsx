@@ -24,7 +24,7 @@ function Component(props) {
         <div className={styles.caseStudy} key={caseStudy.name}>
           <div className={styles.caseStudyTitle}>{caseStudy.name}</div>
           <div className={styles.caseStudyDescription}>{caseStudy.description}</div>
-          <a href={`/docs/case-studies/${caseStudy.name.replace(/ /g, "-")}`} className={styles.link}>
+          <a href={`/docs/case%20studies/${caseStudy.name.replace(/ /g, "-")}`} className={styles.link}>
             Learn more
           </a>
           <div className={common.spacer}></div>
