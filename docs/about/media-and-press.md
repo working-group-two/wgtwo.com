@@ -24,9 +24,9 @@ For all media enquiries, please contact Tor Odland, Chief Marketing Officer at t
 
 ### Logos
 
-[Landscape Black PNG](../images/wgtwo-logos/wgtwo-landscape-black.png)  
-[Landscape Black SVG](../images/wgtwo-logos/wgtwo-landscape-black.svg)  
-[Landscape Color PNG](../images/wgtwo-logos/wgtwo-landscape-color.png)  
-[Landscape Color SVG](../images/wgtwo-logos/wgtwo-landscape-color.svg)  
-[Landscape White PNG](../images/wgtwo-logos/wgtwo-landscape-white.png)   
-[Landscape White SVG](../images/wgtwo-logos/wgtwo-landscape-white.svg)  
+[Landscape Black PNG](images/wgtwo-logos/wgtwo-landscape-black.png)  
+[Landscape Black SVG](images/wgtwo-logos/wgtwo-landscape-black.svg)  
+[Landscape Color PNG](images/wgtwo-logos/wgtwo-landscape-color.png)  
+[Landscape Color SVG](images/wgtwo-logos/wgtwo-landscape-color.svg)  
+[Landscape White PNG](images/wgtwo-logos/wgtwo-landscape-white.png)   
+[Landscape White SVG](images/wgtwo-logos/wgtwo-landscape-white.svg)  
