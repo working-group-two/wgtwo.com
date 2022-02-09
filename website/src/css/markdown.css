@@ -3,7 +3,7 @@
   text-decoration: none;
   background-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="1" y2="1" stroke="rgba(84,110,122 ,1)" /></svg>');
   background-size: 1px 1px;
-  background-position: 0 calc(1em + 1px);
+  background-position: 0 1.2em;
   font-weight: 500;
   background-repeat: repeat-x;
 }
