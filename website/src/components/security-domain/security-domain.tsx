@@ -3,7 +3,7 @@ import common from "../../css/common.module.css";
 import styles from "./security-domain.module.css";
 import SecurityDomainList from "./security-domain-list";
 import Image from "@theme/IdealImage";
-import Link from "@docusaurus/Link"
+import Link from "@docusaurus/Link";
 
 function Component() {
   return (
@@ -26,7 +26,7 @@ function Component() {
         </div>
       </div>
       <div className={common.container}>
-        <Link to="/docs/security-whitepaper" className={styles.securityDomainButton}>
+        <Link to="/docs/technology/security-whitepaper" className={styles.securityDomainButton}>
           Read our security whitepaper
         </Link>
       </div>
