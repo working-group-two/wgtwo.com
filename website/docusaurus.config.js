@@ -236,11 +236,11 @@ module.exports = {
       {
         redirects: [
           {
-            to: "/docs/about/introduction",
+            to: "/docs/About/introduction",
             from: ["/faq"],
           },
           {
-            to: "/docs/about/introduction",
+            to: "/docs/About/introduction",
             from: ["/docs"],
           },
         ],
