@@ -1,14 +1,14 @@
 ---
 id: media-and-press
-title: Media and Press
-sidebar_label: Media and Press
+title: Media and Analysts
+sidebar_label: Media and Analysts
 ---
 
 :::info Hi there
-**wgtwo** enjoys working with journalists, helping to educate the market about our cloud-based telco core network. 
+**wgtwo** enjoys working with journalists and analysts, helping to educate the market about our cloud-based telco core network. 
 :::
 
-For all media enquiries, please contact Tor Odland, Chief Marketing Officer at tor@wgtwo.com. 
+For all enquiries, please contact Tor Odland, Head of Marketing, at tor@wgtwo.com. 
 
 - Contact our sales engineering team for more information about our technology at sales@wgtwo.com.
 - Press Releases www.wgtwo.com/blog/tags/press-release
