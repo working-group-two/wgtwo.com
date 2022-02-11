@@ -106,8 +106,8 @@ function Component() {
 
   return (
     <div className={`${common.section} ${common.sectionDark}`}>
-      <div className={`${common.container} ${common.splitContainer}`}>
-        <div className={common.text}>
+      <div className={`${common.container} ${styles.splitContainer} `}>
+        <div className={`${common.text} ${styles.sidebar}`}>
           <div className={common.pillTitle}>our culture</div>
           <h2 className={common.title}>Interview Process</h2>
           <div className={common.subtitle}>
