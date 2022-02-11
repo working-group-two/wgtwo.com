@@ -2,6 +2,7 @@
 id: demos
 title: Demos
 sidebar_label: Demos
+sidebar_position: 04
 ---
 
 The **wgtwo** platform provides a framework for innovation. Over the years, we have built a few demos to help showcase the power of **wgtwo** APIs. 

@@ -2,6 +2,7 @@
 id: introduction
 title: wgtwo - Working Group Two
 sidebar_label: Introduction
+sidebar_position: 01
 ---
 ## About Us
 Why **wgtwo**? It’s a question we frequently get asked. It’s a bit of an odd name. It has a history, though. In the mid-1980s the GSM standard was being developed, and the process was turning into a battle between the technology giants of the time, often supported by their respective governments.

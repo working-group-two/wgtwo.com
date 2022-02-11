@@ -110,6 +110,11 @@ module.exports = {
           title: "Company",
           items: [
             {
+              label: "About",
+              href: "/docs/about/introduction/",
+              target: "_self",
+            },
+            {
               label: "Blog",
               href: "/blog/",
               target: "_self",
