@@ -115,8 +115,8 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Docs",
-              href: "/docs/about/introduction",
+              label: "Case Studies",
+              href: "/docs/case-studies/mvnx/",
               target: "_self",
             },
             {
@@ -159,8 +159,8 @@ module.exports = {
           title: "Connect",
           items: [
             {
-              label: "Media & Press",
-              href: "/docs/about/media-and-press",
+              label: "Media & Analysts",
+              href: "/docs/about/media-and-analysts",
               target: "_self",
             },
             {
