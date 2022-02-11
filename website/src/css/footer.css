@@ -5,8 +5,9 @@
   font-weight: 600;
 }
 
-.footer__logo  {
-  margin-top: 124px;
+.footer-logo {
+  max-height: 32px;
+  padding-right: 90px;
   max-width: inherit;
 }
 
