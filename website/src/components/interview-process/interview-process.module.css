@@ -49,15 +49,11 @@
   font-weight: 400;
 }
 
-
-
 .splitContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
 }
-
-
 
 @media (max-width: 512px) {
   div.deploymentModel {
@@ -82,5 +78,3 @@
     top: 150px;
   }
 }
-
-
