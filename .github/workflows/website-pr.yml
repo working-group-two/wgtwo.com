@@ -21,4 +21,4 @@ jobs:
       - name: Build Website
         run: |
           cd website
-          yarn install && yarn build
+          yarn install && yarn build && yarn prettier:check
