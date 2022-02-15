@@ -2,6 +2,7 @@
 id: working-with-wgtwo
 title: Working with wgtwo
 sidebar_label: Working with wgtwo
+sidebar_position: 03
 ---
 
 We partner with our customers. Your use case and your business requirements add value to our Mobile Core Platform, and we in turn continuously build a network that provides increased value to our customers. The close interaction with our customers helps us understand how we can develop our future proposition to become even better and together with our customers we believe we can continue to build the most innovative Mobile Core Platform in the market. We give our operators a continuously evolving competitive edge.

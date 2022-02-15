@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./hero.module.css";
 import common from "../../css/common.module.css";
 import Image from "@theme/IdealImage";
+import Link from "@docusaurus/Link";
 
 function Component() {
   return (
@@ -18,12 +19,12 @@ function Component() {
             
           </div>
           <div className={styles.buttons}>
-            <a href="/technology" className={`${common.button} ${common.buttonPrimary}`}>
+            <Link to="/technology" className={`${common.button} ${common.buttonPrimary}`}>
               Our Technology
-            </a>
-            <a href="/request-demo" className={common.button}>
+            </Link>
+            <Link to="/request-demo" className={common.button}>
               Request a Demo
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -3,13 +3,10 @@ slug: metrics-unlimited-thanos
 title: "Towards observability nirvana: infinite metric retention with Thanos"
 date: 2020-01-28
 tags: [infrastructure, observability, prometheus, thanos, kubernetes]
-author: Holger Ihrig
-author_title: Software Engineer @ wgtwo
-author_url: https://www.linkedin.com/in/hihrig/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5603AQGc3sG-ltGzlA/profile-displayphoto-shrink_400_400/0/1516250699138?e=1648684800&v=beta&t=qpxr39O2hNY54vsUcCbt1wH8fc2lMf07zW1etQD_gxY
+authors: holger-ihrig
 ---
 
-In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and 
+In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and
 services. **wgtwo** is no exception here and as we are operating in the TelCo space
 we wanted to know more about the usage patterns of our platform over days, months and even years.
 
@@ -25,11 +22,11 @@ Thanos was originally developed by a company called [Improbable](https://improba
 for Prometheus. It evolved into a much more complicated component which wildly improved the scalability of the
 Prometheus monitoring Stack.
 
-The basic functionality however is that Thanos will upload the metrics collected by Prometheus onto any service with a 
+The basic functionality however is that Thanos will upload the metrics collected by Prometheus onto any service with a
 S3-compatible API or any other storage target supported by the Prometheus remote write feature. For readability we
 will only refer to it as S3 Storage as this is our storage target.
 
-We shall briefly look at all those components before describing how we are leveraging Thanos to obtain a higher metric 
+We shall briefly look at all those components before describing how we are leveraging Thanos to obtain a higher metric
 retention and higher reliability.
 
 ### Thanos Sidecar
@@ -49,7 +46,7 @@ Store API to all known Thanos Stores (discovered using service discovery) and aw
 stores, be it directly from Prometheus via the sidecar or metrics stored in S3 Object storage via Thanos Store.
 
 ### Thanos Compactor
-It does not make a lot of sense to keep old metrics that are scraped every 15 or 30 seconds forever. At some point these 
+It does not make a lot of sense to keep old metrics that are scraped every 15 or 30 seconds forever. At some point these
 metrics would no longer be useful to make sense of your metrics. This is where
 the Thanos Compactor comes in. It creates aggregates of old metrics based on rules. It will for example
 aggregate metrics that are older than 30 days into 5 minute chunks. This saves resources and still gives you
@@ -58,7 +55,7 @@ written back into the S3 bucket and the metadata gets updated.
 
 ### Thanos Ruler
 The Ruler component is the Thanos equivalent of Recording Rules. It can look at all Store APIs and generate new metrics
-according to the Recording Rules fed into the Ruler component. However since this rule processing is not done against a 
+according to the Recording Rules fed into the Ruler component. However since this rule processing is not done against a
 local datastore, it is possible that these new metric datapoints will not always be generated as it relies on a reliable
 data source to do this in the required intervals.
 
@@ -107,6 +104,6 @@ The most interesting features for us are to be able to:
 
 Even though Thanos comes with an increased architectural and operational complexity, we have to say after running it for a while, we think it is totally worth it. We can make architecture decisions by looking further
 back in time than before. It also has the additional advantage that a misconfiguration of a Prometheus deployment
-does not pull down the whole stack as Prometheus is HA and only updates one at a time. If the deployment fails, 
+does not pull down the whole stack as Prometheus is HA and only updates one at a time. If the deployment fails,
 we can get notified and the deployment can be aborted. Also upgrades of the whole monitoring stack, can
 now be done gradually, which is also a great advantage for us!

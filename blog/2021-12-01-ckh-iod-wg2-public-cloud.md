@@ -2,18 +2,14 @@
 slug: ckh-iod-wg2-public-cloud
 title: CKH IOD selects Working Group Two for public cloud core network
 description: CKH IOD migrates its core network to the cloud – delivered as a fully managed software-as-a-service by Working Group Two and deployed on AWS
-author: Erlend Prestgard
-author_title: CEO @ wgtwo
 date: 2021-12-01:12:00:00
-author_url: https://www.linkedin.com/in/erlend-prestgard-ab47101/
-author_image_url: https://media-exp1.licdn.com/dms/image/C5103AQH9UuKEbOXHNg/profile-displayphoto-shrink_400_400/0/1516307873887?e=1648684800&v=beta&t=a5hv6dDBFaF10p3Bk07W09IQjmXR1BWfTvhzED_tVXE
-# image: /img/blog/
 tags: [press release, telco]
+authors: erlend-prestgard
+# image: /img/blog/
 ---
 
 # CKH IOD selects Working Group Two for public cloud core network
 
-## PRESS RELEASE
 <img src="/img/ckh.png" alt="ckh" width="300"/>
 
 - As an industry-first, CKH IOD migrates its core network to the cloud – delivered as a fully managed software-as-a-service by Working Group Two and deployed on AWS

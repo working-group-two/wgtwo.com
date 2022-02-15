@@ -1,0 +1,19 @@
+name: "Sync personio jobs xml"
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+           node-version: '16'
+      - run: npm run fetch-personio-jobs
+      - name: Commit XML
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'your-username@users.noreply.github.com'
+          git commit -am "Sync personio jobs xml"
+          git push

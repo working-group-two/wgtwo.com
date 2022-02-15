@@ -41,7 +41,7 @@ Now my real blog post begins
 
 ## Markdown Tutorial
 
-For the Docs and Blog, markdown is used. Here is a great example https://markdownlivepreview.com/
+For the Docs and Blog, markdown is used. Here is a great example https://stackedit.io/
 
 In short, the main things to know for markdown
 
@@ -51,13 +51,22 @@ In short, the main things to know for markdown
 normal paragraph with then **bold** text and *italic* text
 
 Image for a docs
-![](../images/wgtwo-skier-1.png)  
+![](images/wgtwo-skier-1.png)  
 
 Image for a blog
 ![](/img/blog/log4j/01-canary-tokens.png)
 
 Normal link to a website
 [Description of your link](www.wgtwo.com)
+
+Image with set width
+
+Image on the right side
+<img width="50%" align="right" style="display: block; margin:40px auto;"
+     src="/img/blog/log4j/01-canary-tokens.png"/>
+
+Image with 300px
+<img src="/img/blog/voicemail.jpeg" alt="Breaking up via voicemail" width="300"/>
 ```
 
 ## Website Development
@@ -129,3 +138,9 @@ $  tree -d -L 4
         ├── BlogTagsListPage
         └── BlogTagsPostsPage
 ```
+
+## Deployment
+
+Commit to main branch -> github action to perform `yarn build` -> website deployed to `gh-pages` branch
+
+All PRs are also tested with a github action.

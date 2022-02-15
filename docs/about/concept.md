@@ -2,6 +2,7 @@
 id: concept
 title: The Concept Behind the Platform
 sidebar_label: Our Concept
+sidebar_position: 02
 ---
 
 <iframe

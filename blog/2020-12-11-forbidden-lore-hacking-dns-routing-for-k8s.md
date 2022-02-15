@@ -3,10 +3,7 @@ slug: forbidden-lore-hacking-dns-routing-for-k8s
 title: "Forbidden lore: hacking DNS routing for k8s"
 date: 2020-12-11
 tags: [dns, nginx, kubernetes, infrastructure]
-author: Anna Kennedy, Holger Ihrig, Matt Long, Yan Grunenberger
-author_title: Infrastructure Team @ wgtwo
-author_url: https://www.wgtwo.com
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQG43m4lVjJm8g/profile-displayphoto-shrink_400_400/0/1517558635100?e=1648684800&v=beta&t=BXA0nV3ZTaID9m1UD7GMS87NhYZRsYPcrPiIg30SYRw
+authors: [anna-kennedy, holger-ihrig, mtl, yan]
 ---
 
 At WG2 we’re coming close to having everything running in Kubernetes, which means that almost everything we deploy needs to be pulled from a registry. We have run our own local registry for some time now, to host both locally-built images and cached images from Docker Hub.
@@ -45,7 +42,7 @@ We initially deployed a DNS sidecar to the CI system, but with multiple Concours
 
 ![Sleight of hand](/img/blog/forbidden-lore-hacking-dns-routing-for-k8s/sleight-of-hand.gif)
 
-However at this point we realised that although we want to deploy pods into Kubernetes, the process that does the deploying lives on the Kubernetes nodes, outside of cluster scope. 
+However at this point we realised that although we want to deploy pods into Kubernetes, the process that does the deploying lives on the Kubernetes nodes, outside of cluster scope.
 We don’t do any config management on the nodes, we just let [kOps](https://github.com/kubernetes/kops) deploy everything that Kubernetes needs for a cluster, so we were reluctant to introduce an entirely different system just for managing one `resolv.conf` file. Also the concentric DNS setup would have a very wide scope and be somewhat difficult to debug. Maybe this was a problem better resolved using some clever nginx routing?
 
 # Solution 2: nginx
@@ -122,4 +119,3 @@ This would thus control configuration on the Kubernetes node from inside of Kube
 ![wheel change](/img/blog/forbidden-lore-hacking-dns-routing-for-k8s/wheelchange.gif)
 
 A future solution might be to implement some kind of local DNS server/cache on each node, but for now we’ll settle for a working system and a huge increase in knowledge about the inner workings of many of our components.
-
