@@ -10,15 +10,16 @@ function Component() {
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
           <h1 className={styles.titleHeader}>
-            Programmable. <br /> Scalable. <br /> Innovative. <br /> 
+            Programmable. <br /> Scalable. <br /> Innovative. <br />
             This is your new mobile core network.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
           <div className={common.subtitle}>
-            No more boxes, no more end-of-life, no large upfront investments. 
-            With <b>wgtwo's</b> cloud-native mobile core you get continuous innovation, 
-            reduced costs and real flexibility. To make it really simple for operators – it's 
-            delivered as-a-service and grows as you grow.
+            No more boxes, no more end-of-life, no large upfront investments.
+            With <b>wgtwo's</b> cloud-native mobile core you get continuous
+            innovation, reduced costs and real flexibility. To make it really
+            simple for operators – it's delivered as-a-service and grows as you
+            grow.
           </div>
           <div className={styles.buttons}>
             <Link

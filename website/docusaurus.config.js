@@ -26,7 +26,7 @@ module.exports = {
       {
         name: "og:image",
         content: "img/wgtwo-logo-white-bg.png",
-      }
+      },
     ],
     colorMode: {
       disableSwitch: true,

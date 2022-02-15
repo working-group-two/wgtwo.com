@@ -1,7 +1,7 @@
 name: "Sync personio jobs xml"
 on:
   schedule:
-    - cron:  '*/15 * * * *'
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
   push:
     branches:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Fetch & commit XML
+      - name: Fetch & Commit XML
         run: |
           if [ ! -n "$(git status --porcelain)" ]; then
             echo "No changes";
