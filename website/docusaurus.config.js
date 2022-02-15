@@ -19,6 +19,10 @@ module.exports = {
         name: "og:description",
         content: "We help mobile operators innovate at scale, reduce cost and dive into new revenue streams - by building a mobile core network from the ground up and delivering it as-a-service.",
       },
+      {
+        name: "og:image",
+        content: "img/wgtwo-logo-white-bg.png",
+      }
     ],
     colorMode: {
       disableSwitch: true,
