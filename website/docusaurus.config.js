@@ -2,8 +2,7 @@ const path = require('path')
 
 module.exports = {
   title: "Working Group Two",
-  tagline:
-    "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+  tagline: "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
   url: "https://www.wgtwo.com/",
   baseUrl: "/",
   favicon: "img/favicons/favicon.ico",
@@ -12,16 +11,13 @@ module.exports = {
   deploymentBranch: "gh-pages",
   trailingSlash: "true",
   themeConfig: {
-    metadata: [
-      {
+    metadata: [{
         name: "description",
-        content:
-          "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+        content: "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
       },
       {
         name: "og:description",
-        content:
-          "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+        content: "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
       },
     ],
     colorMode: {
@@ -45,8 +41,7 @@ module.exports = {
         width: "191px",
         height: "32px",
       },
-      items: [
-        {
+      items: [{
           href: "/technology",
           target: "_self",
           label: "Technology",
@@ -81,18 +76,14 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          items: [
-            {
-              html: `<a href="/"><img alt="wgtwo Logo" src="/img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
-            },
-          ],
+      links: [{
+          items: [{
+            html: `<a href="/"><img alt="wgtwo Logo" src="/img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
+          }, ],
         },
         {
           title: "Product",
-          items: [
-            {
+          items: [{
               label: "API Docs",
               href: "https://docs.wgtwo.com",
             },
@@ -108,8 +99,7 @@ module.exports = {
         },
         {
           title: "Company",
-          items: [
-            {
+          items: [{
               label: "About",
               href: "/docs/about/introduction/",
               target: "_self",
@@ -142,8 +132,7 @@ module.exports = {
         },
         {
           title: "Security",
-          items: [
-            {
+          items: [{
               label: "Security Overview",
               href: "/security",
               target: "_self",
@@ -162,8 +151,7 @@ module.exports = {
         },
         {
           title: "Connect",
-          items: [
-            {
+          items: [{
               label: "Media & Analysts",
               href: "/docs/about/media-and-analysts",
               target: "_self",
@@ -239,8 +227,7 @@ module.exports = {
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [
-          {
+        redirects: [{
             to: "/docs/about/introduction",
             from: ["/faq"],
           },
@@ -252,17 +239,17 @@ module.exports = {
       },
     ],
     [
-      path.resolve(__dirname, 'plugins/dynamic-routes'),
-      { 
-        routes: [
-            { 
-                path: '/careers',
-                exact: false,
-                component: path.resolve(__dirname, 'src/pages/careers/_careers.tsx')
-            }
-        ]
+      path.resolve(__dirname, 'plugins/personio-jobs.js'),
+      {
+        jobsOverviewRoute: {
+          path: '/careers',
+          component: path.resolve(__dirname, 'src/pages/jobs/_jobs-overview.tsx')
+        },
+        jobRoute: {
+          basePath: '/careers/job/',
+          component: path.resolve(__dirname, 'src/pages/jobs/_job.tsx')
+        }
       }
-  ],
- 
+    ],
   ],
 };
