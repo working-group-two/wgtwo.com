@@ -13,11 +13,11 @@ module.exports = {
   themeConfig: {
     metadata: [{
         name: "description",
-        content: "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+        content: "We help mobile operators innovate at scale, reduce cost and dive into new revenue streams - by building a mobile core network from the ground up and delivering it as-a-service.",
       },
       {
         name: "og:description",
-        content: "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+        content: "We help mobile operators innovate at scale, reduce cost and dive into new revenue streams - by building a mobile core network from the ground up and delivering it as-a-service.",
       },
     ],
     colorMode: {
