@@ -15,12 +15,12 @@ jobs:
       - run: cd website && yarn fetch-personio-jobs
       - name: Commit XML
         run: |
+          if [ ! -n "$(git status --porcelain)" ]; then
+            echo "No changes";
+            exit 0
+          fi
           curl https://wgtwo-jobs.personio.de/xml -o website/personio-jobs.xml
           git config --global user.name 'GitHub Action'
           git config --global user.email 'your-username@users.noreply.github.com'
           git commit -am "Sync personio jobs xml"
-          if [ -n "$(git status --porcelain)" ]; then
-             git push
-          else
-            echo "No changes";
-          fi
+          git push
