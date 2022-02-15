@@ -1,11 +1,13 @@
-import React from "react";
-import common from "../../css/common.module.css";
-import styles from "./integrations.module.css";
-import Image from "@theme/IdealImage";
+import React from "react"
+import common from "../../css/common.module.css"
+import styles from "./integrations.module.css"
+import Image from "@theme/IdealImage"
 
 function Component() {
   return (
-    <div className={`${common.section} ${common.sectionGray} ${styles.integrationSection}`}>
+    <div
+      className={`${common.section} ${common.sectionGray} ${styles.integrationSection}`}
+    >
       <div className={common.container}>
         <div className={styles.text}>
           <h2 className={styles.title}>Customers and collaborators</h2>
@@ -16,7 +18,7 @@ function Component() {
           <Image
             alt="Vimla"
             className={styles.logo}
-            style={{ padding: "20px 0"}}
+            style={{ padding: "20px 0" }}
             img={require("../../../static/img/vimla.png")}
           />
           <Image
@@ -64,7 +66,7 @@ function Component() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Component;
+export default Component

@@ -1,21 +1,21 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import styles from "./technology.module.css";
-import common from "../css/common.module.css";
-import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list";
-import { Check } from "lucide-react";
-import Multig from "../components/multig/multig";
-import Ourservice from "../components/ourservice/ourservice";
-import contact from "./contact.module.css";
-import message from "../util/message";
-import Link from "@docusaurus/Link";
+import React from "react"
+import Layout from "@theme/Layout"
+import styles from "./technology.module.css"
+import common from "../css/common.module.css"
+import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list"
+import { Check } from "lucide-react"
+import Multig from "../components/multig/multig"
+import Ourservice from "../components/ourservice/ourservice"
+import contact from "./contact.module.css"
+import message from "../util/message"
+import Link from "@docusaurus/Link"
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
   email: React.createRef<HTMLInputElement>(),
   message: React.createRef<HTMLInputElement>(),
   button: React.createRef<HTMLButtonElement>(),
-};
+}
 
 function Index() {
   return (
@@ -28,16 +28,24 @@ function Index() {
               <div className={common.subtitle}>
                 <br />
                 <b>wgtwo</b> is building a future proof technology that reduces
-                 cost and complexity while radically enhancing innovation potential in the telecom industry.
-                Our core is continuously evolving. We improve its security, scalability, redundancy, features, and integrations every day. Leveraging a modern DevSecOps approach, our customers get a continuously improving core network.
+                cost and complexity while radically enhancing innovation
+                potential in the telecom industry. Our core is continuously
+                evolving. We improve its security, scalability, redundancy,
+                features, and integrations every day. Leveraging a modern
+                DevSecOps approach, our customers get a continuously improving
+                core network.
               </div>
             </div>
           </div>
         </div>
-        
-        <div className={`${common.section} ${common.sectionDark} ${styles.technologyMetricsSection}`}>
+
+        <div
+          className={`${common.section} ${common.sectionDark} ${styles.technologyMetricsSection}`}
+        >
           <div className={common.container}>
-            <h1>In {new Date().getFullYear()-1}, we helped our customers deliver</h1>
+            <h1>
+              In {new Date().getFullYear() - 1}, we helped our customers deliver
+            </h1>
             <TechnologyMetricList />
           </div>
         </div>
@@ -68,7 +76,7 @@ function Index() {
             <div>IP-SM-GW</div>
             <div>XCAP</div>
             <div>ePDG</div>
-            
+
             <div>MMS proxy</div>
             <div>LI-GW</div>
             <div>CGNAT</div>
@@ -101,13 +109,24 @@ function Index() {
             <div>Real-time billing gateway</div>
             <div>DRA</div>
 
-            <div><Link className={styles.link} to="/docs/technology/auc">AuC</Link></div>
+            <div>
+              <Link className={styles.link} to="/docs/technology/auc">
+                AuC
+              </Link>
+            </div>
             <div>CHF</div>
             <div>DEA</div>
 
             <div>UDM</div>
             <No />
-            <div><Link className={styles.link} to="/docs/technology/security-whitepaper#ss7-firewall">SS7 Firewall</Link></div>
+            <div>
+              <Link
+                className={styles.link}
+                to="/docs/technology/security-whitepaper#ss7-firewall"
+              >
+                SS7 Firewall
+              </Link>
+            </div>
 
             <div>AUSF</div>
             <No />
@@ -152,15 +171,14 @@ function Index() {
             <div>PCF</div>
             <div>24/7 Level 3 On-call</div>
             <No />
-
           </div>
         </div>
 
         <Ourservice />
-        <br />  
-        <br />  
-        <br />  
-        <br />  
+        <br />
+        <br />
+        <br />
+        <br />
         <div className={common.container}>
           <div className={common.centeredText}>
             <div className={common.title}>Questions & Answers</div>
@@ -169,21 +187,47 @@ function Index() {
         <div className={common.container}>
           <div className={styles.questions}>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>Q: What do I gain when migrating my subscribers to wgtwo?</div>
-              <div className={styles.answerAnswer}>
-              <u>Operational simplicity</u>: Operators get the services in a managed SaaS model. This implies that we take care of operations, 24/7, upgrades, tickets, moving the operator to the next generation of technology  and more.
-              <br /><u>Architectural simplicity</u>: The core is built with inspiration from hyperscalers and modern technology companies. We terminate telco complexity at the edge of the network, which drives simplicity and efficiency on the inside of the network.
-              <br /><u>Financial simplicity</u>: A set-up fee and a SIM fee. Those two elements generally cover our main agreement. We aim for a simple and transparent price annex.
-              <br /><u>Affordability</u>: The choice of operating model, architecture and technology drive radical cost savings that are passed on to our customers.
-              <br /><u>Faster and lower risk delivery</u>: Through pre-integrating all the various functions and nodes, we reduce cost, complexity and time involved in integration and deployment.
-              <br /><u>Innovation</u>: The next “G” in telecom is always significant, but it doesn’t allow one operator to stand out from the rest. We provide operators the ability to do micro-innovation at scale, allowing the launch of many products to fit many segments.              
+              <div className={styles.questionQuestion}>
+                Q: What do I gain when migrating my subscribers to wgtwo?
               </div>
-
+              <div className={styles.answerAnswer}>
+                <u>Operational simplicity</u>: Operators get the services in a
+                managed SaaS model. This implies that we take care of
+                operations, 24/7, upgrades, tickets, moving the operator to the
+                next generation of technology and more.
+                <br />
+                <u>Architectural simplicity</u>: The core is built with
+                inspiration from hyperscalers and modern technology companies.
+                We terminate telco complexity at the edge of the network, which
+                drives simplicity and efficiency on the inside of the network.
+                <br />
+                <u>Financial simplicity</u>: A set-up fee and a SIM fee. Those
+                two elements generally cover our main agreement. We aim for a
+                simple and transparent price annex.
+                <br />
+                <u>Affordability</u>: The choice of operating model,
+                architecture and technology drive radical cost savings that are
+                passed on to our customers.
+                <br />
+                <u>Faster and lower risk delivery</u>: Through pre-integrating
+                all the various functions and nodes, we reduce cost, complexity
+                and time involved in integration and deployment.
+                <br />
+                <u>Innovation</u>: The next “G” in telecom is always
+                significant, but it doesn’t allow one operator to stand out from
+                the rest. We provide operators the ability to do
+                micro-innovation at scale, allowing the launch of many products
+                to fit many segments.
+              </div>
             </div>
             <div className={styles.question}>
-              <div className={styles.questionQuestion}>Q: How many subscribers does wgtwo core support?</div>
+              <div className={styles.questionQuestion}>
+                Q: How many subscribers does wgtwo core support?
+              </div>
               <div className={styles.answerAnswer}>
-              Our core provides operators with a flexible, affordable, fully featured MNO-grade core that can scale down to small private network deployments, and up to multi-million operators.
+                Our core provides operators with a flexible, affordable, fully
+                featured MNO-grade core that can scale down to small private
+                network deployments, and up to multi-million operators.
               </div>
             </div>
           </div>
@@ -194,17 +238,24 @@ function Index() {
         <div className={`${common.section} ${common.sectionDark}`}>
           <div className={`${common.container} ${common.splitContainer}`}>
             <div className={common.text}>
-              <div className={common.title}>You still have a question in mind?</div>
+              <div className={common.title}>
+                You still have a question in mind?
+              </div>
               <div className={common.subtitle}>We love to tell you more!</div>
             </div>
             <div className={contact.form}>
               <input ref={form.name} placeholder="Name" />
               <input ref={form.email} placeholder="Email address" />
-              <input ref={form.message} placeholder="Message" className={contact.span2} />
+              <input
+                ref={form.message}
+                placeholder="Message"
+                className={contact.span2}
+              />
               <button
                 ref={form.button}
                 onClick={() => sendMessage()}
-                className={`${common.button} ${common.buttonPrimary} ${contact.span2}`}>
+                className={`${common.button} ${common.buttonPrimary} ${contact.span2}`}
+              >
                 Submit your message
               </button>
             </div>
@@ -212,11 +263,11 @@ function Index() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 function No() {
-  return <div></div>;
+  return <div></div>
 }
 
 function Yes() {
@@ -224,20 +275,20 @@ function Yes() {
     <div className={styles.check}>
       <Check color="#4CAF50" />
     </div>
-  );
+  )
 }
 
 function sendMessage() {
   message(
     `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
-  );
+  )
 
-  form.name.current.disabled = true;
-  form.email.current.disabled = true;
-  form.message.current.disabled = true;
+  form.name.current.disabled = true
+  form.email.current.disabled = true
+  form.message.current.disabled = true
 
-  form.button.current.innerText = "New Case Study Submitted!";
-  form.button.current.disabled = true;
+  form.button.current.innerText = "New Case Study Submitted!"
+  form.button.current.disabled = true
 }
 
-export default Index;
+export default Index

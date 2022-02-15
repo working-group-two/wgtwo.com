@@ -70,7 +70,8 @@ html[data-theme="dark"] .menu {
 }
 
 .aa-Form:focus-within {
-  box-shadow: rgba(38, 50, 56, 0.1) 0 0 0 2px, inset rgba(38, 50, 56, 0.1) 0 0 0 2px !important;
+  box-shadow: rgba(38, 50, 56, 0.1) 0 0 0 2px,
+    inset rgba(38, 50, 56, 0.1) 0 0 0 2px !important;
 }
 
 .dsla-search-wrapper {

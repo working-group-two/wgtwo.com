@@ -1,7 +1,14 @@
-import React from "react";
-import styles from "./enterprise.module.css";
-import common from "../../css/common.module.css";
-import { PhoneCall, MessageSquare, BarChart, DownloadCloud, Slack, Laptop2 } from "lucide-react";
+import React from "react"
+import styles from "./enterprise.module.css"
+import common from "../../css/common.module.css"
+import {
+  PhoneCall,
+  MessageSquare,
+  BarChart,
+  DownloadCloud,
+  Slack,
+  Laptop2,
+} from "lucide-react"
 
 function Component() {
   return (
@@ -10,7 +17,9 @@ function Component() {
         <div className={common.centeredText}>
           <h2 className={common.title}>Your next generation core</h2>
           <div className={common.subtitle}>
-          <b>wgtwo</b> core offers the full set of capabilities related to authentication, provisioning, voice, messaging and data services - transforming your existing business to the next level.
+            <b>wgtwo</b> core offers the full set of capabilities related to
+            authentication, provisioning, voice, messaging and data services -
+            transforming your existing business to the next level.
           </div>
         </div>
       </div>
@@ -22,7 +31,8 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Data</div>
             <div className={styles.featureDescription}>
-              Fast, secure, geo-region, and reliable data connections serving all of your subscriber's requirements.
+              Fast, secure, geo-region, and reliable data connections serving
+              all of your subscriber's requirements.
             </div>
           </div>
           <div className={styles.feature}>
@@ -58,7 +68,8 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Console</div>
             <div className={styles.featureDescription}>
-              Provision new subscribers, enable new features, customer service requests.
+              Provision new subscribers, enable new features, customer service
+              requests.
             </div>
           </div>
           <div className={styles.feature}>
@@ -73,7 +84,7 @@ function Component() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Component;
+export default Component

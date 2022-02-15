@@ -1,13 +1,13 @@
-import common from "../../css/common.module.css";
-import styles from "./interview-process.module.css";
-import React, { useState } from "react";
+import common from "../../css/common.module.css"
+import styles from "./interview-process.module.css"
+import React, { useState } from "react"
 
 // component for your styled accordion
-const AccordionStyled = (props) => {
+const AccordionStyled = props => {
   // state variable
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false)
   // props
-  const { card_number, title, content } = props.accordionData;
+  const { card_number, title, content } = props.accordionData
 
   return (
     <>
@@ -22,13 +22,13 @@ const AccordionStyled = (props) => {
         {isActive && <div className="accordion-content">{content}</div>}
       </div>
     </>
-  );
-};
+  )
+}
 
 // wrap that up with the styled parent div
-const AccordionParent = (props) => {
-  return <div className={styles.deploymentModels}>{props.processItems}</div>;
-};
+const AccordionParent = props => {
+  return <div className={styles.deploymentModels}>{props.processItems}</div>
+}
 
 function Component() {
   const accordionData = [
@@ -98,11 +98,11 @@ function Component() {
       Even if we don’t feel like it’s a good fit right now, we would still like to keep in touch. Things change fast, and who knows what the future holds for us!
       `,
     },
-  ];
+  ]
 
-  const processItems = accordionData.map((data) => (
-      <AccordionStyled accordionData={data} key={data.card_number} />
-  ));
+  const processItems = accordionData.map(data => (
+    <AccordionStyled accordionData={data} key={data.card_number} />
+  ))
 
   return (
     <div className={`${common.section} ${common.sectionDark}`}>
@@ -112,7 +112,8 @@ function Component() {
           <h2 className={common.title}>Interview Process</h2>
           <div className={common.subtitle}>
             At <b>wgtwo</b> we believe in transparency and enabling our teams to
-            work in the way that best suits them - even if that means working remotely from home five days a week. We see this as a strength in
+            work in the way that best suits them - even if that means working
+            remotely from home five days a week. We see this as a strength in
             our company and want to apply the same principles to our recruitment
             process.
             <br />
@@ -127,7 +128,7 @@ function Component() {
         <AccordionParent processItems={processItems} />
       </div>
     </div>
-  );
+  )
 }
 
-export default Component;
+export default Component
