@@ -2,6 +2,11 @@ name: "Sync personio jobs xml"
 on:
   schedule:
     - cron:  '*/15 * * * *'
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
 jobs:
   report:
     runs-on: ubuntu-latest
