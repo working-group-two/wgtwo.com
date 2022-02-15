@@ -19,4 +19,8 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'your-username@users.noreply.github.com'
           git commit -am "Sync personio jobs xml"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+             git push
+          else
+            echo "No changes";
+          fi
