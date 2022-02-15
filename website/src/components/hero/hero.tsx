@@ -11,7 +11,7 @@ function Component() {
         <div className={common.text}>
           <h1 className={styles.titleHeader}>
             Programmable. <br /> Scalable. <br /> Innovative. <br /> 
-            Your new mobile core network.
+            This is your new mobile core network.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
           <div className={common.subtitle}>
