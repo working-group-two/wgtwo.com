@@ -8,7 +8,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "fetch-personio-jobs": "node -e \"require('./plugins/personio-jobs')({},{}).loadContent()\""
+    "fetch-personio-jobs": "curl https://wgtwo-jobs.personio.de/xml -o personio-jobs.xml"
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.10.0",
