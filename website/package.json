@@ -8,6 +8,8 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
     "fetch-personio-jobs": "curl https://wgtwo-jobs.personio.de/xml -o personio-jobs.xml"
   },
   "dependencies": {
@@ -35,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.5.1"
+  },
+  "prettier": {
+    "semi": false,
+    "arrowParens": "avoid"
   }
 }

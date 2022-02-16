@@ -7,35 +7,41 @@ import styles from "./jobs.module.css"
 import InterviewProcess from "../../components/interview-process/interview-process"
 import { ArrowRight } from "lucide-react"
 
-const JobPosting = ({ job }) => <Link
-  className={styles.job}
-  to={`/careers/job/${job.id}`}
->
-  <div className="position-text">
-    <div className={styles.jobName}>{job.title}</div>
-    <div className={styles.jobLocation}>
-      {job.subtitle}
+const JobPosting = ({ job }) => (
+  <Link className={styles.job} to={`/careers/job/${job.id}`}>
+    <div className="position-text">
+      <div className={styles.jobName}>{job.title}</div>
+      <div className={styles.jobLocation}>{job.subtitle}</div>
     </div>
-  </div>
-  <div>
-    <ArrowRight />
-  </div>
-</Link>
+    <div>
+      <ArrowRight />
+    </div>
+  </Link>
+)
 
-export default ({ jobs }) => <Layout title="Careers">
-<Head>
-  <link rel="preload" href="https://wgtwo-jobs.personio.de/xml" as="fetch" crossOrigin="anonymous" />
-</Head>
-<div className={common.section}>
-  <div className={common.container}>
-    <div className={common.container}>
-    <div className={styles.jobs}>
-      <div className={common.title}>Careers</div>
-      {jobs.map((j) => <JobPosting job={j} key={j.id} />)}
-      <div id="personio-ads"></div>
+export default ({ jobs }) => (
+  <Layout title="Careers">
+    <Head>
+      <link
+        rel="preload"
+        href="https://wgtwo-jobs.personio.de/xml"
+        as="fetch"
+        crossOrigin="anonymous"
+      />
+    </Head>
+    <div className={common.section}>
+      <div className={common.container}>
+        <div className={common.container}>
+          <div className={styles.jobs}>
+            <div className={common.title}>Careers</div>
+            {jobs.map(j => (
+              <JobPosting job={j} key={j.id} />
+            ))}
+            <div id="personio-ads"></div>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
-</div>
-<InterviewProcess />
-</Layout>
+    <InterviewProcess />
+  </Layout>
+)

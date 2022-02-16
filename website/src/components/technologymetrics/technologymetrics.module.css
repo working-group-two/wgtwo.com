@@ -79,7 +79,7 @@ div.technologymetricsContainer.technologymetricsContainer {
 
 @media (max-width: 800px) {
   div.technologyMetrics {
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -109,7 +109,7 @@ div.technologymetricsContainer.technologymetricsContainer {
   line-height: 100%;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #B3E5FC;
+  color: #b3e5fc;
 }
 
 .technologymetricsDescription {

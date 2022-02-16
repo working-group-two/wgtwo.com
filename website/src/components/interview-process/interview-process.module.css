@@ -1,7 +1,6 @@
-
-
-.active, .deploymentModel:hover {
-  background-color: #B3E5FC;
+.active,
+.deploymentModel:hover {
+  background-color: #b3e5fc;
   color: #263238;
   cursor: pointer;
 }
@@ -59,7 +58,6 @@
   div.deploymentModel {
     padding: 36px 36px;
   }
-
 }
 
 @media (max-width: 1200px) {

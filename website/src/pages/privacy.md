@@ -24,8 +24,10 @@ We automatically log information about you and your computer. For example, when 
 
 We may log information using "cookies." Cookies are small data files stored on your hard drive by a website. We may use both session Cookies (which expire once you close your web browser) and persistent Cookies (which stay on your computer until you delete them) to provide you with a more personal and interactive experience on our Site. This type of information is collected to make the Site more useful to you and to tailor the experience with us to meet your special interests and needs.
 
-The following cookies are enabled so we can improve the site. All data is anonymize. 
+The following cookies are enabled so we can improve the site. All data is anonymize.
+
 - [Google Analytics](https://analytics.google.com/analytics/web/)
+
 ## Use of Personal Information
 
 We use your personal information as follows:

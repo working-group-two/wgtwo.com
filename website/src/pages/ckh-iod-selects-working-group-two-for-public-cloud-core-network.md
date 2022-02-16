@@ -5,6 +5,7 @@ title: CKH IOD selects Working Group Two for public cloud core network
 # CKH IOD selects Working Group Two for public cloud core network
 
 ## PRESS RELEASE
+
 <img src="/img/ckh.png" alt="ckh" width="300"/>
 
 - As an industry-first, CKH IOD migrates its core network to the cloud – delivered as a fully managed software-as-a-service by Working Group Two and deployed on AWS
@@ -29,10 +30,13 @@ Working Group Two leverages the proven infrastructure and breadth of services fr
 “With CKH IOD deciding to host its core network on the public cloud and have it fully managed by a third party under a managed SaaS model, we are witnessing a significant technology shift. By opting for a full set of capabilities from AWS, CKH IOD and Working Group Two can leverage the full benefits of the public cloud, including opening up for new business models. This will allow CKH IOD to scale their services and offerings with superior visibility and control. They will be stimulating a rapid pace of innovation with the highest levels of security and performance,” says Fabio Cerone, Managing Director EMEA, Telco Business Unit at AWS.
 
 ### About CKH Innovations Opportunities Development
+
 CKH Innovations Opportunities Development is a telecom unit and international development hub of CK Hutchison, creating international and global technological innovations that are built on one of CK Hutchison’s strongest assets, our mobile networks. We offer customised global mobile communications and data solutions that create new digital value and unprecedented opportunities for business. Our collaborative approach combined with our world-class network and experience means we are best placed to help our customers design, adapt, develop and scale solutions faster. Read more at https://www.ckhiod.com
 
 ### About Working Group Two
+
 Working Group Two has rebuilt the mobile core for simplicity, innovation, and efficiency – leveraging the web-scale playbook and operating models. Today, Working Group Two innovation enables MVNO, MNO, and Private Network Operators a secure, scalable, and reliable telco connectivity backbone that scales across all generations of mobile technologies. Our mission is to create programmable mobile networks to allow our customers and their end users to create more valuable and useful products and services. Read more at https://wgtwo.com
 
 ### For more information
+
 Erlend Prestgard, CEO, Working Group Two, +47 4542 9555, erlend@wgtwo.com

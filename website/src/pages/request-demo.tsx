@@ -1,8 +1,8 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import common from "../css/common.module.css";
-import styles from "./contact.module.css";
-import message from "../util/message";
+import React from "react"
+import Layout from "@theme/Layout"
+import common from "../css/common.module.css"
+import styles from "./contact.module.css"
+import message from "../util/message"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -11,7 +11,7 @@ let form = {
   subscriptionCount: React.createRef<HTMLInputElement>(),
   message: React.createRef<HTMLInputElement>(),
   button: React.createRef<HTMLButtonElement>(),
-};
+}
 
 function RequestDemo() {
   return (
@@ -32,12 +32,20 @@ function RequestDemo() {
               <input ref={form.company} placeholder="Company" />
               <input ref={form.email} placeholder="Work email address" />
               <input ref={form.name} placeholder="Name" />
-              <input ref={form.subscriptionCount} placeholder="Subscription count" />
-              <input ref={form.message} placeholder="Most interested in ..." className={styles.span2} />
+              <input
+                ref={form.subscriptionCount}
+                placeholder="Subscription count"
+              />
+              <input
+                ref={form.message}
+                placeholder="Most interested in ..."
+                className={styles.span2}
+              />
               <button
                 ref={form.button}
                 onClick={() => sendMessage()}
-                className={`${common.button} ${common.buttonPrimary} ${styles.span2}`}>
+                className={`${common.button} ${common.buttonPrimary} ${styles.span2}`}
+              >
                 Request a Demo
               </button>
             </div>
@@ -45,22 +53,22 @@ function RequestDemo() {
         </div>
       </div>
     </Layout>
-  );
+  )
 }
 
 function sendMessage() {
   message(
     `Message from wgtwo.com/request-demo\nName: ${form.name.current.value} \nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nNumber of Subscribers: ${form.subscriptionCount.current.value}\nMessage - Most Interested in: ${form.message.current.value}`
-  );
+  )
 
-  form.company.current.disabled = true;
-  form.email.current.disabled = true;
-  form.name.current.disabled = true;
-  form.subscriptionCount.current.disabled = true;
-  form.message.current.disabled = true;
+  form.company.current.disabled = true
+  form.email.current.disabled = true
+  form.name.current.disabled = true
+  form.subscriptionCount.current.disabled = true
+  form.message.current.disabled = true
 
-  form.button.current.innerText = "Request Sent!";
-  form.button.current.disabled = true;
+  form.button.current.innerText = "Request Sent!"
+  form.button.current.disabled = true
 }
 
-export default RequestDemo;
+export default RequestDemo

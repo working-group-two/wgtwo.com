@@ -39,10 +39,9 @@
 }
 .av {
   --tw-gradient-from: #338cf5;
-  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,rgb(51 140 245/0));
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, rgb(51 140 245/0));
 }
 .ah {
-  background-image: linear-gradient(
-90deg
-,var(--tw-gradient-stops));
+  background-image: linear-gradient(90deg, var(--tw-gradient-stops));
 }
