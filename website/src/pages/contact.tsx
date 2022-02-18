@@ -48,7 +48,7 @@ function Contact() {
               </Link>
             </div>
           </div>
-          
+
           <div className={common.container}>
             <div className={styles.form}>
               <input ref={form.company} placeholder="Company" />
