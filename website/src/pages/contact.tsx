@@ -3,7 +3,7 @@ import Layout from "@theme/Layout"
 import common from "../css/common.module.css"
 import styles from "./contact.module.css"
 import message from "../util/message"
-import { Calendar, HelpCircle, Mail } from "lucide-react"
+import { Calendar, HelpCircle, Mail, Building } from "lucide-react"
 import Link from "@docusaurus/Link"
 
 let form = {
@@ -43,8 +43,12 @@ function Contact() {
               <a href="https://support.wgtwo.com" target="_blank">
                 <HelpCircle /> Open a support ticket
               </a>
+              <Link to="/docs/about/offices">
+                <Building /> Meet us in person
+              </Link>
             </div>
           </div>
+          
           <div className={common.container}>
             <div className={styles.form}>
               <input ref={form.company} placeholder="Company" />

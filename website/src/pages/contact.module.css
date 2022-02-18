@@ -28,7 +28,7 @@
 
 .contactMethods {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 32px;
   margin-bottom: 32px;
   gap: 48px;
