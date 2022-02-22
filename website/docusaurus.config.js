@@ -77,7 +77,7 @@ module.exports = {
         {
           href: "/request-demo/",
           activeBasePath: "/request-demo/",
-          label: "Talk to an Expert",
+          label: "Work with us",
           position: "right",
           className: "sign-up",
         },
