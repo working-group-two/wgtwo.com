@@ -88,7 +88,10 @@ Before pushing to prod, it is recommended to test with `yarn build`. There can b
 cd website
 yarn build
 yarn run serve
+yarn prettier
 ```
+
+Note: If making a PR, a `yarn prettier` check is performed and will fail the PR if issues. 
 
 Website structure
 ```bash
