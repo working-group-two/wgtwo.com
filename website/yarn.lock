@@ -1626,6 +1626,13 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@img-comparison-slider/react@^7.4.3":
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@img-comparison-slider/react/-/react-7.4.3.tgz#3e832a79a1409a30b2cb17f88c10dd3759f90a56"
+  integrity sha512-9nk4Q7QBCmoBiRJvR4Qrnf/gA07VfB8tbBm2axvTZXXAfWCNn74f2LcFCcc++ZOjZ4Ctf3+AYzL41dpqx3p5Zw==
+  dependencies:
+    img-comparison-slider "^7.4.3"
+
 "@jimp/bmp@^0.16.1":
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.16.1.tgz#6e2da655b2ba22e721df0795423f34e92ef13768"
@@ -4885,6 +4892,11 @@ image-size@^1.0.1:
   integrity sha512-VAwkvNSNGClRw9mDHhc5Efax8PLlsOGcUTh0T/LIriC8vPA3U5PdqXWqkz406MoYHMKW8Uf9gWr05T/rYB44kQ==
   dependencies:
     queue "6.0.2"
+
+img-comparison-slider@^7.4.3:
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/img-comparison-slider/-/img-comparison-slider-7.4.3.tgz#2fc32fdd51f2f3620f7924008df7dc2bf6fcf3a7"
+  integrity sha512-hFwZ+644VbpPraAbJk9upCN8luI/ejd0YLOxI+8WP43A+zPj6nma3H411qAEBwhD8XBpFobJdkOq/r/TGU5udg==
 
 immer@^9.0.7:
   version "9.0.12"
