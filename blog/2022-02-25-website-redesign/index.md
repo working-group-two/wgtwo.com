@@ -206,7 +206,7 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
 
 ### <Highlight color="#000">Content organization</Highlight>
 **Problem**: Hidden content (too long paths)  
-**Approach**: [Miro](www.mirco.com) board chart to understand the existing website structure and content  
+**Approach**: [Miro](https://www.mirco.com) board chart to understand the existing website structure and content  
 **Solution**: everything accessible via <ins>one click</ins>, make more use out of the header and footer of the page
 (Example: find the interview process page) 
 
