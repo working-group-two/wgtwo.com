@@ -136,11 +136,11 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
   <summary>Homepage - Landing Page</summary>
   <div>
     <div>
-        The old homepage displayed on the left and new on the right. The homepage here took the most about of time to complete, as this is the key page for the website. 
-        <li><Highlight color="#ef507f">The header did not say what the product is selling</Highlight> => <Highlight color="#000">Stated Mobile Core Network</Highlight></li>
-        <li><Highlight color="#ef507f">No details on what the product is</Highlight> => <Highlight color="#000">Added a section of Console</Highlight></li>
-        <li><Highlight color="#ef507f">No information from existing customers</Highlight> => <Highlight color="#000">Added a testimonial</Highlight></li>
-        <li><Highlight color="#ef507f">No sense of credibility</Highlight> => <Highlight color="#000">Logos with external links to business deals</Highlight></li>
+        The old homepage displayed on the left and new on the right. The homepage here took the most about of time to complete, as this is the key page for the website. <br/><br/>
+        <Highlight color="#ef507f">What are we selling</Highlight> => <br/><Highlight color="#000">Mobile Core Network</Highlight><br/><br/>
+        <Highlight color="#ef507f">No details on what the product is</Highlight> => <br/><Highlight color="#000">Added a section of Console</Highlight><br/><br/>
+        <Highlight color="#ef507f">No information from existing customers</Highlight> => <br/><Highlight color="#000">Added a testimonial</Highlight><br/><br/>
+        <Highlight color="#ef507f">No sense of credibility</Highlight> => <br/><Highlight color="#000">Logos with external links to business deals</Highlight><br/><br/>
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
@@ -175,12 +175,12 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
   <summary>What's our company name?</summary>
   <div>
     <div>
-        The old website had five different ways of writing our company name. 5. If we can't even get it right, how could someone else? Let's start and create a new standard for our name - as shown below!
-        <li><Highlight color="#ef507f">Working Group 2</Highlight> => <Highlight color="#000">Working Group Two AS</Highlight></li>
-        <li><Highlight color="#ef507f">Working Group 2 As</Highlight> => <Highlight color="#000">Working Group Two AS</Highlight></li>
-        <li><Highlight color="#ef507f">WorkingGroup2</Highlight> => <Highlight color="#000">Working Group Two AS</Highlight></li>
-        <li><Highlight color="#ef507f">WGTWO</Highlight> => <Highlight color="#000">wgtwo</Highlight></li>
-        <li><Highlight color="#ef507f">WG2</Highlight> => <Highlight color="#000">wgtwo</Highlight></li>
+        The old website had five different ways of writing our company name. 5. If we can't even get it right, how could someone else? Let's start and create a new standard for our name - as shown below!<br/><br/>
+        <Highlight color="#ef507f">Working Group 2</Highlight> => <br/><Highlight color="#000">Working Group Two AS</Highlight><br/><br/>
+        <Highlight color="#ef507f">Working Group 2 As</Highlight> => <br/><Highlight color="#000">Working Group Two AS</Highlight><br/><br/>
+        <Highlight color="#ef507f">WorkingGroup2</Highlight> => <br/><Highlight color="#000">Working Group Two AS</Highlight><br/><br/>
+        <Highlight color="#ef507f">WGTWO</Highlight> => <br/><Highlight color="#000">wgtwo</Highlight><br/><br/>
+        <Highlight color="#ef507f">WG2</Highlight> => <br/><Highlight color="#000">wgtwo</Highlight><br/><br/>
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
