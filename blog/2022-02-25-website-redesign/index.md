@@ -6,6 +6,7 @@ authors: [jonny-griffin]
 ---
 
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
+import Image from "@theme/IdealImage";
 import styles from "./styles.css";
 import Highlight from '@site/src/components/highlight/Highlight';
 
@@ -19,8 +20,8 @@ Let's see what I can achieve with one self-initiative, saying yes, and tackle bu
 <center><i>before and after</i></center>
 
 <ImgComparisonSlider class="slider" hover="hover">
-    <img slot="first" src={require('./wgtwo-home-2.0.png').default} />
-    <img slot="second" src={require('./wgtwo-home-3.0.png').default} />
+    <img slot="first" src={require('!file-loader!./wgtwo-home-2.0.png').default} />
+    <img slot="second" src={require('!file-loader!./wgtwo-home-3.0.png').default} />
 </ImgComparisonSlider>
 
 #### Background
@@ -143,8 +144,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./wgtwo-homepage-2.0-full.png').default} />
-        <img slot="second" src={require('./wgtwo-homepage-3.0-full.png').default} />
+        <img slot="first" src={require('!file-loader!./wgtwo-homepage-2.0-full.png').default} />
+        <img slot="second" src={require('!file-loader!./wgtwo-homepage-3.0-full.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -158,8 +159,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./facebook-messenger.png').default} />
-        <img slot="second" src={require('./ipad-mini.png').default} />
+        <img slot="first" src={require('!file-loader!./facebook-messenger.png').default} />
+        <img slot="second" src={require('!file-loader!./ipad-mini.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -183,8 +184,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./branding-wg2.png').default} />
-        <img slot="second" src={require('./branding-wgtwo.png').default} />
+        <img slot="first" src={require('!file-loader!./branding-wg2.png').default} />
+        <img slot="second" src={require('!file-loader!./branding-wgtwo.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -199,7 +200,7 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
         <code>wget --recursive --page-requisites --adjust-extension --span-hosts --convert-links --restrict-file-names=windows --domains wgtwo.com --no-parent wgtwo.com</code>
       </div>
     <br/>
-    <img src={require('./innovation-25.png').default} />
+    <img src={require('!file-loader!./innovation-25.png').default} />
     <br/>
   </div>
 </details>
@@ -220,8 +221,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
     </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./structure-2.0.png').default} />
-        <img slot="second" src={require('./structure-3.0.png').default} />
+        <img slot="first" src={require('!file-loader!./structure-2.0.png').default} />
+        <img slot="second" src={require('!file-loader!./structure-3.0.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -236,8 +237,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
       </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./pe-2.0.png').default} />
-        <img slot="second" src={require('./pe-3.0.png').default} />
+        <img slot="first" src={require('!file-loader!./pe-2.0.png').default} />
+        <img slot="second" src={require('!file-loader!./pe-3.0.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -257,8 +258,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
       </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./shutterstock.png').default} />
-        <img slot="second" src={require('./vision.png').default} />
+        <img slot="first" src={require('!file-loader!./shutterstock.png').default} />
+        <img slot="second" src={require('!file-loader!./vision.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -274,8 +275,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
       </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./mobile-friendly-2.0.png').default} />
-        <img slot="second" src={require('./mobile-friendly-3.0.png').default} />
+        <img slot="first" src={require('!file-loader!./mobile-friendly-2.0.png').default} />
+        <img slot="second" src={require('!file-loader!./mobile-friendly-3.0.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -290,8 +291,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
       </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./interview-process-2.0.png').default} />
-        <img slot="second" src={require('./interview-process-3.0.png').default} />
+        <img slot="first" src={require('!file-loader!./interview-process-2.0.png').default} />
+        <img slot="second" src={require('!file-loader!./interview-process-3.0.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -313,8 +314,8 @@ Ok, I am starting to get somewhere. Let's jump into some identified problem doma
       </div>
     <br/>
     <ImgComparisonSlider class="slider" hover="hover">
-        <img slot="first" src={require('./request-email.png').default} />
-        <img slot="second" src={require('./github-repo.png').default} />
+        <img slot="first" src={require('!file-loader!./request-email.png').default} />
+        <img slot="second" src={require('!file-loader!./github-repo.png').default} />
     </ImgComparisonSlider>
     <br/>
   </div>
@@ -363,7 +364,7 @@ People from within the company (technical and non-technical) are interested and 
 
 A website is an identity for the employees and without identity, we are lost. I hope that my effort and time to do this for **wgtwo** is appreciated for the time to come.
 
-Our old website was a <Highlight color="#000">dieing, end-of-life machine</Highlight>.   
+Our old website was a <Highlight color="#000">dying, end-of-life machine</Highlight>.   
 Our new website is a <Highlight color="#000">living, breathing machine</Highlight>.   
 
 If you made it this far in the blog post I commend you!

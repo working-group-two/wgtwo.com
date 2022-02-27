@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "prettier": "2.5.1"
   },
   "prettier": {
