@@ -10,9 +10,8 @@ import Image from "@theme/IdealImage";
 import styles from "./styles.css";
 import Highlight from '@site/src/components/highlight/Highlight';
 
-For a company that provides an innovative solution across the telecommunication sector, I believe it is essential to have a web presence that effectively communicates our technology. This blog post illustrates my approach to taking our existing (old) website and transforming it into what it is today. 
-
-Let's see what I can achieve with one self-initiative, saying yes, and tackle building a new website by adopting a common methodology, the Pareto 80/20 Principle.
+For a company that provides an innovative solution across the telecommunication sector, I believe it is essential to have a web presence that effectively communicates our vision. 
+This blog post illustrates my approach to taking the content of our existing website and transforming it into a completely new online presence, what it is today. This is the story of leveraging the Pareto 80/20 Principle to effectively portray **wgtwo** as the innovative telco brand it is.
 
 <!--truncate-->
 
@@ -26,13 +25,16 @@ Let's see what I can achieve with one self-initiative, saying yes, and tackle bu
 
 #### Background
 
-The old wgtwo.com website did not fully communicate the **wgtwo** initiatives, technology, and culture in a way that is beneficial for sharing content, inspiring the industry, and securing new engineering and business talent. Working Group Two has had a website that has been non-operational for over a year and it is time to bring it to an end. While there were many problems with the old website, in short, a few were related to no operational owner within our company, was built and maintained by a 3rd party company, and lastly, was never completed as there were broken links, bad CSS.
+I recently [listened to a podcast](https://open.spotify.com/episode/0MIeRQGAUcVW2qx2YrO7nn?si=c5d127ab6181434d) about a CEO making her biggest mistake - not promoting within her company. She was pressured into hiring an external CEO to fill her position while she could focus on leading the design initiatives. Long story short, this was her biggest mistake and she learned that promoting people from within the company leads to better results.
 
-While I could have a blog post in entirely of the old website, let's skip over that and instead focus on how I built the new and improved wgtwo.com. To tackle this growing problem, I created the following mental outline to spend one week, 7 days, to create a better wgtwo.com. The outline was as follows:
+Outsourcing the design of our website, this podcast made it clear to me why it failed to show the true identity of **wgtwo**. What we needed was a clear storyline, dialogue, and understanding of the Insider to simplify and structure the content, giving the viewer an intuitive understanding. 
 
+At **wgtwo** we have a startup culture where we build initiatives from the ground up - self-doing and empowering the developer. The company promotes this concept on a semi-quarterly basis through hackdays - where we creatively solve complex problems and build new solutions for our telco core network or learn a new programming language.
+
+Knowing the inner workings of our technology and services and having a hidden passion for creating websites I was in the perfect position to change reality. One day during a daily standup, the inner spark was lit and it was go time.
 :::tip Steps taken for building a new website
 Step 1: setting the objectives  
-Step 2: understand the current issues of the wgtwo online presence   
+Step 2: understand the 5 main issues of the wgtwo online presence   
 Step 3: come up with strategies to solve  
 Step 4: organize important content and design away - tell a story  
 Step 5: code it up  
