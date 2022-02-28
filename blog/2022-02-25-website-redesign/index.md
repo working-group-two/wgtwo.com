@@ -338,15 +338,15 @@ As mentioned in the Internal audience, I needed to cater to personas inside our 
 
 ## Lessons learned
 ### What went well
-- 80/20 model was critical to get progress made in a week. Mentally saying no to a weird CSS bug or.
-- Scoping the project with a defined time (1 week) helped. The key mechanism for scoping the website. I scoped it in several ways such as the header, footer links, not adding anything new but focusing on replacing the existing website.
+- 80/20 model was critical to get progress made in a week.
+- Scoping the project with a defined time (1 week) helped. I scoped it in several ways such as focusing what links to include in the header and footer, as well as, keeping the original text as much as possible from the previous website. 
 - Keeping this initiative small. The fewer people, the faster one can move and make decisions and get stuff done.
 - Accepting that a website is never complete and focus on getting something out of the door.
 - Using React with live reload was a breeze for quickly testing and demoing out new component designs
 
 ### The bad
-- Starting this initiative I received push back from several people. However, I never let this get to me mentally and instead just followed my gut and kept pushing forward.
 - Don't waste time on illustrations. Illustrations are tricky because it is a love/hate relationship. Some will love, and others will dislike - and seldom a full agreement. Crafting good text will tell a better story than a cheap illustration that people remember. All in all, I probably wasted 5 hours trying to come up with solutions and doing research that ended with the original text I had in about 5 minutes of thinking.
+- Handling a company-wide iniative, several people have opinions in how things can be best done. This critique and push back can be hard for some people but I never let this get to me mentally and instead followed my gut and kept pushing forward. 
 
 ### What I learned
 - I learned a new framework and language - React, Typescript, Docusaurus
@@ -358,17 +358,8 @@ As mentioned in the Internal audience, I needed to cater to personas inside our 
 
 ## Today
 
-After building the site, I demoed it on our company's Friday demos, and, there was only applause and excitement! The journey it took me to rebuild the website and retell our story was appreciated by many.
+After the week was up, it was time to present this new website in our company-wide Friday demos. After a short 15 minute walkthrough, the excitement I bottled up has now been spread across the company. Several hip hip hoorays and smiles around. People feel like wgtwo's identity is now represented. Some that were never interested before are now providing feedback and are inspired to write blog posts.
 
-Before this website, we had three blog posts in the past year. Already within three weeks, we have three blog posts. 
-
-People from within the company (technical and non-technical) are interested and have already made improvements to the website! 
-
-A website is an identity for the employees and without identity, we are lost. I hope that my effort and time to do this for **wgtwo** is appreciated for the time to come.
-
-Our old website was a <Highlight color="#000">dying, end-of-life machine</Highlight>.   
-Our new website is a <Highlight color="#000">living, breathing machine</Highlight>.   
-
-If you made it this far in the blog post I commend you!
+Our new website is a living, breathing machine telling our company's story one day at a time.
 
 *Overall, I want to say a special thanks to my little Senja Mae and my wife Sophia for chilling on the couch with me while I spent countless hours using Apple airplay to cast my computer screen on the tv while coding away.*
