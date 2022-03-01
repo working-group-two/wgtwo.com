@@ -1,7 +1,7 @@
 ---
 slug: releasing-our-first-grpc-apis
 title: "We are releasing our first production-ready gRPC APIs!"
-date: 2022-02-28
+date: 2022-03-01
 tags: [api]
 authors: [gunnar-inge, noy]
 ---
