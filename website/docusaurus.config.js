@@ -27,6 +27,11 @@ module.exports = {
         name: "og:image",
         content: "img/wgtwo-logo-white-bg.png",
       },
+      {
+        name: "keywords",
+        content:
+          "mvne, private network, epc, 5G core, mvno, IMS core, mobile core, evolved packet core epc, mvno core, core as a service'",
+      },
     ],
     colorMode: {
       disableSwitch: true,
