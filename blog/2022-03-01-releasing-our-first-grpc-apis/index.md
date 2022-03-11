@@ -13,11 +13,11 @@ They have been great for playing around getting and we have learned a lot about 
 We are releasing our first production ready gRPC APIs!
 
 <!--truncate-->
-Have you ever received a welcome SMS when toggling flight mode off as you were on your way out of a plane starting off your awesome vacation? In this blog post we will describe our approach to supporting that vacation-feeling SMS, and how we transitioned to using gRPC streams to support it and greatly improve the flexibility of our platform. 
+Have you ever received a welcome SMS when toggling flight mode off as you were on your way out of a plane starting off your awesome vacation? In this blog post we will describe our approach to supporting that vacation-feeling SMS, and how we transitioned to using gRPC streams to support it and greatly improve the flexibility of our platform.
 
 ![](./welcome.png)
 
-As a quick first version, we have implemented a service that listens to location update events happening in our core and decides whether a user has changed country or not according to our records of your previous and new location. If a user did change country, we would fire a simple POST request to a configured endpoint hosted by the operator with this information. This has for most parts been good enough to get the job done, but it creates an explicit dependency between our core and our partner operator service being up and responsive, which makes the solution prone to errors and makes the system less flexible. 
+As a quick first version, we have implemented a service that listens to location update events happening in our core and decides whether a user has changed country or not according to our records of your previous and new location. If a user did change country, we would fire a simple POST request to a configured endpoint hosted by the operator with this information. This has for most parts been good enough to get the job done, but it creates an explicit dependency between our core and our partner operator service being up and responsive, which makes the solution prone to errors and makes the system less flexible.
 
 At **wgtwo**, we are relying heavily on gRPC APIs, and we are now ready to officially release our first gRPC API after playing around with our v0 APIs for a long time.
 
@@ -59,8 +59,7 @@ This one is explained in the intro section and will let you listen to a stream o
 }
 ```
 
-Read the docs: [Get country change events](
-https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-country-change-events.html)
+Read the docs: [Get country change events]( https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-country-change-events.html)
 
 
 #### StreamHandsetChangeEvents
