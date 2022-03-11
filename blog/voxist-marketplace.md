@@ -3,7 +3,7 @@ slug: voxist-to-join-marketplace
 title: "Voxist to join the Working Group Two marketplace"
 date: 2022-03-14
 tags: [marketplace, voicemail, partners]
-author: [waldum]
+author: marius-waldum
 author_title: Head of Product
 author_url: https://www.linkedin.com/in/mariuswaldum
 author_image_url: https://media-exp1.licdn.com/dms/image/C4D03AQEBVz5L0pV2Rg/profile-displayphoto-shrink_200_200/0/1517238318977?e=1652313600&v=beta&t=_4r_BIJ8AuO1zgci95b389OTEe84H1Oseylw2RY4XHU
