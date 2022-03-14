@@ -59,7 +59,7 @@ This one is explained in the intro section and will let you listen to a stream o
 }
 ```
 
-Read the docs: [Get country change events]( https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-country-change-events.html)
+Read the docs: [Get country change events](https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-country-change-events.html)
 
 
 #### StreamHandsetChangeEvents
@@ -90,8 +90,7 @@ This lets you listen to a stream of events for when a SIM attaches via a new han
 }
 ```
 
-Read the docs: [Get handset change events](
-https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-handset-change-events.html)
+Read the docs: [Get handset change events](https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-handset-change-events.html)
 
 
 #### StreamFirstAttachmentEvents
@@ -114,8 +113,7 @@ This lets you listen to a stream of events for when the SIM attaches to the netw
 ```
 
 Read the docs: [Get first attachment events
-](
-https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-first-attachment-events.html)
+](https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-first-attachment-events.html)
 
 
 #### StreamPeriodicCountryEvents
@@ -143,8 +141,7 @@ This may be used if you want a message to be sent out when a user has a longer s
 }
 ```
 
-Read the docs: [Get periodic country events](
-https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-periodic-country-events.html)
+Read the docs: [Get periodic country events](https://v1.docs.wgtwo.com/guide/subscription/v1/how-to-get-periodic-country-events.html)
 
 
 #### SMS APIs
