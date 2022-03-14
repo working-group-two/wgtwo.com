@@ -16,15 +16,23 @@ The company, based in France, sees voicemail transforming into a productivity to
 
 _“I see voicemail becoming more like a personal assistant. A restaurant, for example, can let patrons reserve tables directly into the booking system just using their voices. A law firm or a bank can integrate voicemail with their CRM systems. A big movement now is to move voice messaging into core automation”_ says Karel Bourgois, the CEO of Voxist.
 
-![](./voxist.png)
+<img
+  width="50%"
+  align="right"
+  style={{
+    display: "block",
+    margin:"40px auto"
+  }}
+  src={require("!file-loader!./voxist.png").default}
+/>
 
 The Working Group Two marketplace is an integrated part of the company’s ambition to deliver value for operators, product developers, and mobile customers alike. Working Group Two’s cloud-native mobile network brings radical simplification, cost efficiency and a platform to leverage a developer community - to drive innovation and capitalize on disruptive technologies.
 
-_“By building product distribution mechanisms outside the typical mobile app stores we allow for new ways of thinking about value propositions, features, bundling and pricing. An operator can offer developers a more granular distribution agreement, based on marketing efforts and expected volumes. A Voxist user benefits from tight integration with functionality in the mobile core network,” says Karel Bourgois._
+_“By building product distribution mechanisms outside the typical mobile app stores we allow for new ways of thinking about value propositions, features, bundling and pricing. An operator can offer developers a more granular distribution agreement, based on marketing efforts and expected volumes. A Voxist user benefits from tight integration with functionality in the mobile core network,”_ says Karel Bourgois.
 
 Working Group Two is building an ecosystem for a new category of products and services that can thrive in the interface between the communication and the connectivity layers. This means that products on the platform can take advantage of functionality deeper in the technology stack via APIs - such as event and media streams that are only available through a mobile core network.
 
-_“We’re excited to be working with the Voxist team to drive distribution of their voicemail product. The operators can address new segments and uncover new revenue streams. Ultimately, mobile customers get access to new and exciting products that take advantage of capabilities in the mobile network they may never have seen before,” says Marius Waldum, Head of Product at Working Group Two._
+_“We’re excited to be working with the Voxist team to drive distribution of their voicemail product. The operators can address new segments and uncover new revenue streams. Ultimately, mobile customers get access to new and exciting products that take advantage of capabilities in the mobile network they may never have seen before,”_ says Marius Waldum, Head of Product at Working Group Two.
 
 The Voxist personalized voicemail product will become available to operators in the near future.
 
