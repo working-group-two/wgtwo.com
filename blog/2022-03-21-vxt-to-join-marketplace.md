@@ -24,7 +24,7 @@ _“It’s exciting to work with companies like Vxt. They have set out to solve 
 
 The Working Group Two marketplace is an integrated part of the company’s ambition to deliver value for operators, product developers, and mobile customers alike. Working Group Two’s cloud-native mobile network brings radical simplification, cost efficiency and a platform to leverage a developer community - to drive innovation and capitalize on disruptive technologies.
 
-To learn more, visit https://www.wgtwo.com/product-ecosystem/ or get in touch with us at products@wgtwo.com.
+To learn more, visit [our products ecosystem page](https://www.wgtwo.com/product-ecosystem/) or get in touch with us at [products@wgtwo.com](mailto:products@wgtwo.com).
 
 ## About Vxt
 Vxt leverages communications data to automate the worlds admin. Vxt provides a platform with powerful communications tools that connect to a businesses key management software. People use Vxt for phone calls, video meetings, note taking, voicemail and more to automate hours of administrative every day.
