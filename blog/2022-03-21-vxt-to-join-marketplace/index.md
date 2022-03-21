@@ -10,7 +10,7 @@ authors: [marius-waldum]
 
 <!--truncate-->
 
-The passionate [Vxt](https://www.vxt.co.nz/) Vxt team is on a mission to leverage communications data to automate the most boring work in the world, namely administrative tasks. They’ve made voicemail both simpler and smarter by offering instant transcriptions, smart greetings, email integration, and the ability to access your messages from anywhere.
+The passionate [Vxt](https://www.vxt.co.nz/) team is on a mission to leverage communications data to automate the most boring work in the world, namely administrative tasks. They’ve made voicemail both simpler and smarter by offering instant transcriptions, smart greetings, email integration, and the ability to access your messages from anywhere.
 
 <img
   width="40%"
@@ -24,7 +24,7 @@ The passionate [Vxt](https://www.vxt.co.nz/) Vxt team is on a mission to leverag
 
 But wait, isn’t voicemail a thing of the past?
 
-_We see the importance of voicemail increasing or declining based on specific demographics,”_ says Luke Campbell, the CEO of Vxt.
+_"We see the importance of voicemail increasing or declining based on specific demographics,”_ says Luke Campbell, the CEO of Vxt.
 
 Vxt describes people who are highly dependent on their phones for their work as being particularly passionate about voicemail. Lawyers, real estate agents, plumbers - they might get dozens of calls every day. So where others turn off voicemail, these people might want to get their voicemails forwarded to their emails, be able to share their inbox with a colleague or assistant, have voicemails automatically translated to text, and integrate their messages with productivity tools like Asana or an ERP system. Some may also need to have their messages stored for regulatory or security purposes. A real estate agent with (say) 10,000 contacts, may want to customize the greetings so that every time one of the 200 Johns or Jessicas call, they get a personal message stating their name.
 
