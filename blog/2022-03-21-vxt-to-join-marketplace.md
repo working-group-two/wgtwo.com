@@ -10,7 +10,7 @@ authors: [marius-waldum]
 
 <!--truncate-->
 
-The passionate [Vxt](www.vxt.co.nz) Vxt team is on a mission to leverage communications data to automate the most boring work in the world, namely administrative tasks. They’ve made voicemail both simpler and smarter by offering instant transcriptions, smart greetings, email integration, and the ability to access your messages from anywhere. 
+The passionate [Vxt](https://www.vxt.co.nz/) Vxt team is on a mission to leverage communications data to automate the most boring work in the world, namely administrative tasks. They’ve made voicemail both simpler and smarter by offering instant transcriptions, smart greetings, email integration, and the ability to access your messages from anywhere. 
 
 But wait, isn’t voicemail a thing of the past? 
 
