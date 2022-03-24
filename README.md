@@ -1,38 +1,42 @@
-# Working Group Two (wgtwo.com) 
+# Working Group Two (wgtwo.com)
 
 ## Create a Blog
 
-- Upload images at [static/img/blog/](https://github.com/working-group-two/wgtwo.com/tree/main/website/static/img/blog)
-- Add your blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
-  - Keep the structure `yyyy-mm-dd-name-of-blog.md`
-  - Ensure you add a `<!--truncate-->` after the first paragraph of your blogpost to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
+- Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
+  - Name the directory `yyyy-mm-dd-name-of-blog`
+  - Add a file called `index.md` and add your content here
+  - Ensure you add a `<!--truncate-->` after the first paragraph of your blog post to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
+  - Add images to this directory
 
-Example simple blogpost
+Example simple blog post in `/blog/2021-12-17-log4j-security-vulnerability/index.md`:
 
-<details>
-<summary>2022-02-02-how-to-write-a-blog-post.md</summary>
-<br>
-<pre>
+```
 ---
 slug: log4j-security-vulnerability
 title: "Zero-day vulnerabilities - Log4j"
 date: 2021-12-17
 tags: [security, infrastructure, vulnerability]
-author: Jonnathan Griffin
-author_title: Security Engineer
-author_url: https://www.linkedin.com/in/jonnathangriffin/
-author_image_url: https://media-exp1.licdn.com/dms/image/C4E03AQEjrF7PC8veoQ/profile-displayphoto-shrink_400_400/0/1624522450808?e=1648684800&v=beta&t=LZVAsE5hVp3T50zGPk0qkf8qPJCnsXBlBXfCosrTH5o
+authors: [jonny-griffin]
 ---
 
 This will be viewed from wgtwo.com/blog and should be short.
 
-\<!--truncate-->
+<!--truncate-->
 
-Now my real blog post begins 
+Now my real blog post begins
 ...
 ...
-</pre>
-</details>
+```
+
+Add author information in `blog/authors.yml`.  E.g.
+
+```
+mtl:
+  name: Matt Long
+  title: Engineering Manager for Edge, Cloud and Security
+  url: https://www.linkedin.com/in/mattlong/
+  image_url: /img/author-photos/mtl-li.jpg
+```
 
 ## Create a Docs
 
@@ -50,30 +54,43 @@ In short, the main things to know for markdown
 
 normal paragraph with then **bold** text and *italic* text
 
-Image for a docs
-![](images/wgtwo-skier-1.png)  
+You can do various types of lists:
 
-Image for a blog
-![](/img/blog/log4j/01-canary-tokens.png)
+* Bulleted
+* Lists
+
+1. Numbered
+2. Lists
 
 Normal link to a website
-[Description of your link](www.wgtwo.com)
+[Description of your link](https://www.wgtwo.com)
+```
 
-Image with set width
+Images can be inserted with standard markdown image inclusion:
 
-Image on the right side
-<img width="50%" align="right" style="display: block; margin:40px auto;"
-     src="/img/blog/log4j/01-canary-tokens.png"/>
+```
+![](./my_image.png)
+```
 
-Image with 300px
-<img src="/img/blog/voicemail.jpeg" alt="Breaking up via voicemail" width="300"/>
+This will add a full-sized image.  If you want fine-grained control of image parameters, you need to use MDX (JSX in Markdown).  For images, this syntax looks like this:
+
+```
+<img
+  width="40%"
+  align="right"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  src={require("!file-loader!./my_image.png").default}
+/>
 ```
 
 ## Website Development
 
 **Expert**
 
-The website is built using Docusaurus, React, and Typescript. This allows for custom complex integrations using APIs, as well as, the simple updating docs and blogs with markdown. 
+The website is built using Docusaurus, React, and Typescript. This allows for custom complex integrations using APIs, as well as, the simple updating docs and blogs with markdown.
 
 To run the website locally with hot reload:
 ```bash
@@ -91,7 +108,7 @@ yarn run serve
 yarn prettier
 ```
 
-Note: If making a PR, a `yarn prettier` check is performed and will fail the PR if issues. 
+Note: If making a PR, a `yarn prettier` check is performed and will fail the PR if issues.
 
 Website structure
 ```bash
