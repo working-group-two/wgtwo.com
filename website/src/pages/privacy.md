@@ -4,7 +4,7 @@ title: Privacy Notice
 
 # Privacy Notice
 
-<div class="pill">Updated March 23, 2022</div>
+<div class="pill">Updated March 24, 2022</div>
 
 Working Group Two will, as part of our business, process personal data. We will do our best to ensure that personal data is handled and processed reassuringly and trustworthily.
 
