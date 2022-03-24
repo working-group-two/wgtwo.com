@@ -163,7 +163,7 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Privacy Policy",
+              label: "Privacy Notice",
               href: "/privacy",
               target: "_self",
             },
