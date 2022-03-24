@@ -172,7 +172,7 @@ If you suspect that our processing of personal data is not in accordance with wh
 
 We use the Norwegian Supervisory Authority (Datatilsynet) in Norway as the leading supervisory authority for cross-border processing under GDPR Article 56. You can therefore direct any complaint to the Norwegian Data Protection Authority.
 
-You will find information about your rights and how to contact the Norwegian Data Protection Authority on their website: [www.datatilsynet.no](www.datatilsynet.no).
+You will find information about your rights and how to contact the Norwegian Data Protection Authority on their website: [https://www.datatilsynet.no](https://www.datatilsynet.no).
 
 ## 10 AMENDMENTS
 
@@ -190,4 +190,4 @@ All cookies expire after 12 months.
 
 You can opt-out of having made your activity on the website available to Google Analytics by disabling cookies in your browser, see above for instructions.
 
-For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [www.google.com/intl/en/policies/privacy/](www.google.com/intl/en/policies/privacy/)
+For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [https://www.google.com/intl/en/policies/privacy/](https://www.google.com/intl/en/policies/privacy/)
