@@ -11,6 +11,7 @@ Working Group Two will, as part of our business, process personal data. We will 
 If you have questions about the processing of your personal data, you can contact us, see our contact details below.
 
 ## 1 RESPONSIBLE FOR THE PROCESSING OF PERSONAL DATA
+
 Working Group Two is responsible for processing personal data described here, i.e. decides why and how the personal data is processed (the data controller).
 
 We may also process personal data in other ways mentioned below, but we will inform the personal data that applies in other ways than through this notice.
@@ -25,6 +26,7 @@ Norway
 For questions you may have about our processing of your personal data, please direct them to privacy@wgtwo.com.
 
 ## 2 WHY AND WHAT KIND OF PERSONAL DATA WE COLLECT AND USE
+
 We collect and use your personal data for different purposes depending on who you are and how we get in touch with you.
 All processing of personal data will be in accordance with this Privacy Notice, the privacy regulation in force at any given time, including the local privacy regulation and the General Data Protection Regulation (GDPR).
 
@@ -85,27 +87,32 @@ We process the personal data mentioned above on the basis of our necessary legit
 The cookies etc., we use are listed at the end of this Privacy Notice.
 
 ## 3 RETENTION AND DELETION OF PERSONAL DATA
-We keep and store personal data for as long as is necessary for the purpose for which the personal data was collected, and we delete the data under requirements in regulations. The timeframe for how long we keep and store personal data is covered above where the usage areas are covered. 
+
+We keep and store personal data for as long as is necessary for the purpose for which the personal data was collected, and we delete the data under requirements in regulations. The timeframe for how long we keep and store personal data is covered above where the usage areas are covered.
 
 Instead of deleting the personal data, it may be relevant to anonymise the personal data in some cases. By anonymisation, all data that may identify or potentially identify data subjects (individual persons) are removed from data sets.
 
 This means, for example, that personal data that we process based on your consent will be deleted if you withdraw your consent. Personal data that we process in connection with sales or purchase agreements you have with us is deleted when the agreement is fulfilled, and all obligations arising from the contractual relationship are fulfilled, such as legal obligations related to accounting, follow-up of the customer related to complaints, etc. Personal data related to our fulfillment of legal obligations is deleted as soon as the legal obligations have been fulfilled, such as the obligation to keep accounts.
 
 ## 4 PROCESSING PERSONAL DATA AS PART OF SERVICES
+
 Customers who use our services are data controllers for the personal data processed by use of the services and are then responsible for the processing of the personal data processed when using the services. We will then process personal data on behalf of the customer and are then the data processor. A data processor agreement has been entered into between the customers and us to regulate our processing of personal data on behalf of the customers.
 As it is our customers whoare then responsible for the processing (data controller), and you must contact our customer to enforce your rights, see below.
 The information in this privacy notice will also apply to our processing of personal data about our customers’ customers with regard to the disclosure and transfer of personal data and security/technical matters. For deletion of personal data, it depends on when our customer chooses to delete the information. We will never use information or information from our services without this being instructed or approved by our customers.
 
-## 5    	DISCLOSURE OR TRANSFER OF PERSONAL DATA
+## 5 DISCLOSURE OR TRANSFER OF PERSONAL DATA
+
 We do not disclose or transfer personal data to others in cases other than those mentioned in this notice and unless there is a legal basis for such disclosure/transfer. Examples of such a basis will typically be an agreement with or consent from the data subject or a legal basis that requires us to publish the information. The latter applies to public activities such as tax collection (if necessary), accountant/auditor, as well as others that we need in our business as a bank connection.
 We use data processors to process personal data on our behalf. In such cases, we have entered into data processing agreements with the data processors to safeguard your rights and security for your personal data at all stages of the processing.
 If it is required by law or there is a suspicion that a crime has been committed in connection with the use of our services, personal data may be disclosed to public authorities.
 If personal data may be subject to transfer to another organization in connection with a merger, financing, reorganization or dissolution transaction of all or part of us, we will only do so if the parties involved have entered into an agreement where the collection, use and sharing of personal data is limited to the purposes of the transaction, including a provision as to whether or not the transaction will proceed, and the personal data shall only be used by the parties involved to complete and complete the transaction. If another company buys our business or assets, this company will have access to the personal data collected by us and will assume the rights and obligations regarding your personal data as described in this privacy notice.
 
 ## 6 TRANSFER OF PERSONAL DATA TO RECIPIENTS IN COUNTRIES OUTSIDE THE EEA
+
 It is an objective that all processing of personal data shall be carried out within the EEA, but it may be that we use suppliers or process personal data outside the EEA, see above. In such cases, transfer and processing outside the EEA will take place in countries approved by the EU Commission or under a valid legal basis for the transfer of personal data under GDPR Chapter V. If transfer to countries approved by the EU Commission does not take place, the transfer will only take place after guarantees set out in Article 46 (2) of the GDPR. You can get information on the lawful basis used for the transfer if you contact us.
 
 ## 7 SECURITY OF PROCESSING
+
 We prioritize the security of personal data in our business and will implement all required technical and organizational measures to secure your personal data. All processing will, if possible, be encrypted and not available to anyone other than those who need personal data for performing their tasks (“need-to-know”).
 
 We ensure that the personal data is correct, accessible and handled according to the degree of sensitivity of the information. We also use a variety of security technologies and information security procedures to protect your personal data from unauthorized access, use or disclosure. Where necessary, risk assessments are carried out.
@@ -117,6 +124,7 @@ We restrict access to personal data to the staff or third parties who process th
 Routines have been established for handling breaches of information security and routines, and we will, if there are breaches that pose a risk for personal data, notify the supervisory authority (Datatilsynet) as soon as possible and no later than 72 hours after the breach is discovered. If the breach entails a high probability of the privacy of the data subjects affected by the breach, they will also be notified.
 
 ## 8 YOUR RIGHTS WHEN WE PROCESS PERSONAL DATA ABOUT YOU
+
 You will find a description of your rights when we process personal data about you. To exercise your rights, you must contact us, see contact information above.
 
 We strive to respond to your inquiry as soon as possible and no later than 30 days. If it takes longer than 30 days, you will be notified.
@@ -131,7 +139,7 @@ You have the right to get information about the personal data we process about y
 **8.2 Access to your personal data**
 You have the right to request access to the personal data we processed about you. Contact us if you want such access.
 
-**8.3	Correction and deletion**
+**8.3 Correction and deletion**
 You can also ask us to correct any personal data or ask us to delete personal data. [EVENTUELT: Du kan også rette eller slette dine opplysninger gjennom tjenesten om du er registrert bruker]. We will as far as possibly accommodate a request to delete personal data, but we cannot do this if the data is necessary for us.
 
 **8.4 Processing based on your consent**
@@ -147,6 +155,7 @@ For personal data that you have provided to us, which is necessary to carry out 
 There will be no automated processing, including profiling, based on your personal data that may have legal effects or that significantly affect those to whom personal data applies. See GDPR Article 22 no. 1 and 4.
 
 ## 9 COMPLAINTS
+
 If you suspect that our processing of personal data is not in accordance with what we have described here or that we, in other ways, violate the privacy legislation. In that case, you can complain to the Norwegian Data Protection Authority. However, we ask you to contact us first to correct the matter as soon as possible.
 
 We use the Norwegian Supervisory Authority (Datatilsynet) in Norway as the leading supervisory authority for cross-border processing under GDPR Article 56. You can therefore direct any complaint to the Norwegian Data Protection Authority.
@@ -154,18 +163,18 @@ We use the Norwegian Supervisory Authority (Datatilsynet) in Norway as the leadi
 You will find information about your rights and how to contact the Norwegian Data Protection Authority on the website: www.datatilsynet.no.
 
 ## 10 AMENDMENTS
+
 Should there be a change in our services or changes in the regulations on the processing of personal data, it may change the information you have provided here. You will find the updated privacy notice readily available on our website.
 
 We use cookies and services related to Google Analytics. Google Analytics is a web analytics service offered by Google that tracks and reports website traffic enabling us to track and monitor the use of our webpage. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
 The following cookies are used:
-_ga      
-_gid     
-_gat    
+\_ga  
+\_gid  
+\_gat
 
 All cookies expires after 12 months.
 
 You can opt-out of having made your activity on the website available to Google Analytics by disabling cookies in your browser, see above for instructions.
 
 For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: www.google.com/intl/en/policies/privacy/
-
