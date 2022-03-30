@@ -11,3 +11,14 @@ authors: [tor-odland]
 <!--truncate-->
 
 I am writing something here because I got feedback
+voxist.png
+
+<img
+  width="40%"
+  align="right"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  src={require("!file-loader!./voxist3.png").default}
+/>
