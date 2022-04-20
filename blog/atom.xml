@@ -964,7 +964,7 @@ trusted CA.</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="raspberry-pi-4
 other platforms that can run dnsmasq, tshark and strongswan for ipsec with
 support for eap-aka/sim.</p><p><img alt="rpi4 and battery" src="/assets/images/rpi4-batt-331b622857ead4ba1f8081397efe866f.jpg" width="640" height="480"></p><p><em>white box is the rpi4 in a original casing and gray box is a battery bank</em></p>]]></content>
         <author>
-            <name/>
+            <name>Roger Skjetlein</name>
             <uri>https://www.linkedin.com/in/rskjetlein/</uri>
         </author>
         <category label="telco" term="telco"/>
