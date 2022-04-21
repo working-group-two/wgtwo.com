@@ -9,6 +9,7 @@ import Logs from "../components/logs/logs"
 import Enterprise from "../components/enterprise/enterprise"
 import Quote from "../components/quote/quote"
 import Integrations from "../components/integrations/integrations"
+import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 import CaseStudies from "../components/casestudy/casestudy"
 import CTA from "../components/cta/cta"
 
@@ -23,6 +24,7 @@ function Index() {
         <Enterprise />
         <Quote />
         <Integrations />
+        <NewsletterSignup />
         <CaseStudies />
         <CTA />
       </div>
