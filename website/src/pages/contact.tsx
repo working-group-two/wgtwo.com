@@ -5,6 +5,7 @@ import styles from "./contact.module.css"
 import message from "../util/message"
 import { Calendar, HelpCircle, Mail, Building } from "lucide-react"
 import Link from "@docusaurus/Link"
+import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -73,6 +74,8 @@ function Contact() {
             </div>
           </div>
         </div>
+
+        <NewsletterSignup />
       </div>
     </Layout>
   )
