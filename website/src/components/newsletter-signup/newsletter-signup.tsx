@@ -49,7 +49,7 @@ const NewsletterSignup = () => {
           </form>
           <p>
             <Link to="/privacy" className={styles.privacyPolicyLink}>
-              Privacy policy
+              Privacy notice
             </Link>
           </p>
         </div>
