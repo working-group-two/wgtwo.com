@@ -8,7 +8,7 @@ authors: [gunnar-inge, noy]
 
 At **wgtwo** we have been offering public APIs for a long time using major version zero.
 
-They have been great for playing around getting and we have learned a lot about what we actually need. So now its time to step up our game.
+They have been great for playing around with and we have learned a lot about what we actually need. So now its time to step up our game.
 
 We are releasing our first production ready gRPC APIs!
 
