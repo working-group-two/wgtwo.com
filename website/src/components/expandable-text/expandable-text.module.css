@@ -1,0 +1,13 @@
+.expandableText {
+	width: 100%;
+}
+
+.expandButton {
+	font-weight: 700;
+	text-align: right;
+}
+
+.expandButton span {
+	cursor: pointer;
+	user-select: none;
+}
