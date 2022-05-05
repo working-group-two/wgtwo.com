@@ -266,7 +266,7 @@ module.exports = {
       path.resolve(__dirname, "plugins/personio-jobs.js"),
       {
         jobsOverviewRoute: {
-          path: "/careers",
+          path: "/jobs",
           component: path.resolve(
             __dirname,
             "src/pages/jobs/_jobs-overview.tsx"
