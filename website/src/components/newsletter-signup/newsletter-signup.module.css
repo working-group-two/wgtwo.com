@@ -52,3 +52,19 @@
     border-radius: 8px;
   }
 }
+
+.onBlog {
+  margin-top: 40px;
+}
+
+.onBlog h2 {
+  font-size: 28px;
+}
+
+.onBlog p {
+  font-size: 18px;
+}
+
+.onBlogContainer {
+  padding: 0;
+}

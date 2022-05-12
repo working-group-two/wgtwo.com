@@ -4,10 +4,18 @@ import Link from "@docusaurus/Link"
 import Head from "@docusaurus/Head"
 import React from "react"
 
-const NewsletterSignup = () => {
+const NewsletterSignup = ({ onBlogPost }) => {
   return (
-    <div className={`${common.section} ${styles.newsletterSignup}`}>
-      <div className={common.container}>
+    <div
+      className={`${!onBlogPost && common.section} ${styles.newsletterSignup} ${
+        onBlogPost && styles.onBlog
+      }`}
+    >
+      <div
+        className={`${common.container} ${
+          onBlogPost && styles.onBlogContainer
+        }`}
+      >
         <Head>
           <script
             type="text/javascript"
