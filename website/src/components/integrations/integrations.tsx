@@ -63,6 +63,12 @@ function Component() {
             style={{ padding: "24px 0" }}
             img={require("../../../static/img/mki.png")}
           />
+          <Image
+            alt="Atos Logo"
+            className={styles.logo}
+            style={{ padding: "24px 0" }}
+            img={require("../../../static/img/atos.png")}
+          />
         </div>
       </div>
     </div>
