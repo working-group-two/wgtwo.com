@@ -5,6 +5,8 @@ import styles from "./careers.module.css"
 import Link from "@docusaurus/Link"
 import Image from "@theme/IdealImage"
 import ExpandableText from "../components/expandable-text/expandable-text"
+import EmployeeQuote from "../components/employee-quote/employee-quote"
+import ContactCard from "../components/contact-card/contact-card"
 
 const Careers = () => {
 
@@ -13,9 +15,8 @@ const Careers = () => {
 			<div className={common.section}>
 				<div className={common.container}>
 					<div className={common.centeredText}>
-						<h1 className={common.title}>
-							Solving hard problems requires a lot of freedom. Join us and get ready to do the best work of your life.
-						</h1>
+						<h1 className={common.title}>We're on a mission</h1>
+            <h2>Solving hard problems requires a lot of freedom. Join us and get ready to do the best work of your life.</h2>
 						<Link
               to="/jobs"
               target="_self"
@@ -26,14 +27,14 @@ const Careers = () => {
 					</div>
 
           <Image
-            img={require("../../static/img/group-image.jpeg")}
+            img={require("../../static/img/careers/AE8A5301.jpg")}
           />
 
           <div className={common.text}>
             <h2 className={styles.subtitle}>What does it mean to have freedom to solve hard problems?</h2>
-            <p>We are challenging the telecom industry to take a giant step into the future. Mobile connectivity has existed for decades, has billions of subscribers and &gt; 1000 operators around the world. It is a well-financed and profitable industry that societies fundamentally depend on. But it is not growing. It is not innovating. And it leaves value on the table for other industries to leverage.</p>
-
             <ExpandableText>
+              <p>We are challenging the telecom industry to take a giant step into the future. Mobile connectivity has existed for decades, has billions of subscribers and &gt;1000 operators around the world. It is a well-financed and profitable industry that societies fundamentally depend on. But it is not growing. It is not innovating. And it leaves value on the table for other industries to Leverage.</p>
+
               <p>The pace of innovation and investment from adjacent industries, be it hyperscalers, device manufacturers or content providers is different - and drives higher performance.</p>
 
               <p>Instead of being constantly challenged by the technology and operating model choices of these tech giants, we believe operators have an opportunity to leverage the same principles they employ. To do so, they need to be willing to change their approach. In return they will significantly lower cost and complexity, and be radically more innovative.</p>
@@ -53,6 +54,65 @@ const Careers = () => {
           <div className={common.centeredText}>
             <h2 className={styles.subtitle}>The impossible just takes a bit more time. Meet our freedom fighters and problem solvers</h2>
           </div>
+          <div className={styles.employeeQuotes}>
+            <EmployeeQuote
+              image={require("../../static/img/careers/MattLong.jpg")}
+              quote="I am the engineering manager for teams that work with our edge sites and networking, security and AWS cloud infrastructure. I try to keep the team members happy, and help plan and organize the technical work that we do. I spend a lot of time dealing with blocking issues that are important but mostly just distract our engineers from their daily work."
+              name="Matt"
+              title="Egnineering manager"
+            />
+            <div className={styles.spacer} />
+            <EmployeeQuote
+              image={require("../../static/img/careers/VictoriaAlsen.jpg")}
+              quote="I work on the main subscriber state database - where we keep track of subscriptions in the mobile networks of operators on our platform. The applications we write, primarily in Kotlin and Java, towards this database make sure people get the services they signed up for."
+              name="Victoria"
+              title="Software developer"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className={common.section}>
+        <div className={common.container}>
+          <div className={common.centeredText}>
+            <h2 className={styles.subtitle}>Contact real people</h2>
+            <p>Got a question? Talk to our friendly folks.</p>
+          </div>
+          <div className={styles.contacts}>
+            <ContactCard
+              image={require("../../static/img/careers/VictoriaHicks.jpg")}
+              name="Victoria Hicks"
+              title="Head of People"
+              email="victoria@wgtwo.com"
+              phone="+47 468 01 000"
+            />
+            <ContactCard
+              image={require("../../static/img/careers/TheresaGuanio.jpg")}
+              name="Theresa Guanio"
+              title="Talent Lead"
+              email="theresa@wgtwo.com"
+            />
+          </div>
+          <div className={common.centeredText}>
+            <Link
+              to="/contact"
+              target="_self"
+              className={`${common.button} ${common.buttonPrimary}`}
+            >
+              Or just send us a message
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className={`${common.section} ${styles.gallerySection}`}>
+        <div className={common.container}>
+          <div className={common.centeredText}>
+            <h2 className={styles.subtitle}>
+              It takes a culture of friendly people and deep expertise to disrupt the telecom industry.
+            </h2>
+          </div>
+          {/* TODO: Image gallery */}
         </div>
       </div>
 		</Layout>

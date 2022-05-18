@@ -68,8 +68,8 @@ module.exports = {
           position: "left",
         },
         {
-          href: "/team/",
-          activeBasePath: "/team/",
+          href: "/careers/",
+          activeBasePath: "/careers/",
           label: "Join the Team 🎉",
           position: "right",
         },

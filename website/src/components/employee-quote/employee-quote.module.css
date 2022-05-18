@@ -1,0 +1,33 @@
+.employeeQuote {
+	border: 0;
+	color: inherit;
+	line-height: 1.3;
+	padding: 0;
+	text-align: left;
+}
+
+.employeeQuote img {
+	border-radius: 99px;
+	margin-bottom: 16px;
+	width: 120px;
+}
+
+.employeeQuote p {
+	font-size: 20px;
+}
+
+.employeeQuote p::before {
+	content: open-quote;
+}
+
+.employeeQuote p::after {
+	content: close-quote;
+}
+
+.employeeQuote cite {
+	font-style: normal;
+}
+
+.name {
+	font-weight: bold;
+}

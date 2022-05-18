@@ -9,5 +9,34 @@
 
 .expandButton span {
 	cursor: pointer;
+	display: inline-block;
+	margin-top: 8px;
 	user-select: none;
+}
+
+.textWrapper {
+	max-height: 140px;
+	overflow: hidden;
+	position: relative;
+	transition: max-height .2s;
+}
+
+.textWrapper::after {
+	background-image: linear-gradient(to bottom, transparent, #fff);
+	bottom: 0;
+	content: "";
+	height: 100px;
+	left: 0;
+	pointer-events: none;
+	position: absolute;
+	transition: opacity .2s;
+	width: 100%;
+}
+
+.textWrapper.expanded {
+	max-height: none;
+}
+
+.textWrapper.expanded::after {
+	opacity: 0;
 }
