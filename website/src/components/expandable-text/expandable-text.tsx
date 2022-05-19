@@ -2,12 +2,12 @@ import React, { useState, useRef } from "react"
 import style from "./expandable-text.module.css"
 
 const ExpandableText = ({
-	expandText = "Continue reading",
-	collapseText = "Collapse",
-	initiallyExpanded = false,
-	children,
+  expandText = "Continue reading",
+  collapseText = "Collapse",
+  initiallyExpanded = false,
+  children,
 }) => {
-	const [expanded, setExpanded] = useState(initiallyExpanded);
+  const [expanded, setExpanded] = useState(initiallyExpanded)
 
   const wrapper = useRef(null)
 
@@ -20,20 +20,19 @@ const ExpandableText = ({
     }
   }
 
-	return (
-		<div className={style.expandableText}>
-      <div className={`${style.textWrapper} ${expanded && style.expanded}`} ref={wrapper}>
-        <div>
-          { children }
-        </div>
+  return (
+    <div className={style.expandableText}>
+      <div
+        className={`${style.textWrapper} ${expanded && style.expanded}`}
+        ref={wrapper}
+      >
+        <div>{children}</div>
       </div>
-			<div className={style.expandButton}>
-				<span onClick={toggle}>
-					{ expanded ? collapseText : expandText }
-				</span>
-			</div>
-		</div>
-	)
+      <div className={style.expandButton}>
+        <span onClick={toggle}>{expanded ? collapseText : expandText}</span>
+      </div>
+    </div>
+  )
 }
 
-export default ExpandableText;
+export default ExpandableText

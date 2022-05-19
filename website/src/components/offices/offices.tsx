@@ -43,11 +43,11 @@ const shuffle = arr =>
 export default () => (
   <div className={styles.team}>
     {shuffle(teamMembers).map(teamMember => (
-    <div className={styles.teamMember} key={teamMember.name}>
-      <h1>{teamMember.letter}</h1>
-      <div className={styles.teamMemberName}>{teamMember.name}</div>
-      <div className={styles.teamMemberslogan}>{teamMember.slogan}</div>
-    </div>
+      <div className={styles.teamMember} key={teamMember.name}>
+        <h1>{teamMember.letter}</h1>
+        <div className={styles.teamMemberName}>{teamMember.name}</div>
+        <div className={styles.teamMemberslogan}>{teamMember.slogan}</div>
+      </div>
     ))}
   </div>
 )
