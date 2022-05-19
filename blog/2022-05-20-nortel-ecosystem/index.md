@@ -1,6 +1,6 @@
 ---
-slug: vxt-joins-marketplace
-title: "Vxt is on a mission to eradicate boring tasks. Now they’re joining Working Group Two’s product marketplace."
+slug: nortel-ecosystem
+title: "This is an amazing blogpost about the Nortel ecosystem"
 date: 2022-03-21
 tags: [marketplace, voicemail, partners]
 authors: [marius-waldum]
