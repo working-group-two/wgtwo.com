@@ -33,6 +33,10 @@
   background: #f8f8f8;
 }
 
+.officesContainer {
+  padding-top: 64px;
+}
+
 @media (max-width: 1200px) {
   .spacer {
     margin: 136px 24px 0;

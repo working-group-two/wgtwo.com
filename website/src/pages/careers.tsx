@@ -9,6 +9,7 @@ import EmployeeQuote from "../components/employee-quote/employee-quote"
 import ContactCard from "../components/contact-card/contact-card"
 import ImageGallery from "../components/image-gallery/image-gallery"
 import galleryPhotos from "../util/image-gallery-images"
+import Offices from "../components/offices/offices"
 
 const Careers = () => {
   return (
@@ -160,6 +161,32 @@ const Careers = () => {
             </h2>
           </div>
           <ImageGallery photos={galleryPhotos} targetRowHeight={200} />
+        </div>
+      </div>
+
+      <div className={common.section}>
+        <div className={common.container}>
+          <div className={common.centeredText}>
+            <div className={common.subtitle}>
+              <br />
+              <b>60+</b> engineers, <b>19+</b> different nationalities make up
+              the <b>wgtwo</b> team. We collectively have spent centuries at
+              Telenor, Telia, Ice, Google, PWC, Ericsson, Cisco, and more.
+            </div>
+          </div>
+        </div>
+        <div className={`${common.container} ${styles.officesContainer}`}>
+          <Offices />
+
+          <div className={common.centeredText}>
+            <Link
+              to="/jobs"
+              target="_self"
+              className={`${common.button} ${common.buttonPrimary} ${styles.button}`}
+            >
+              Explore our open jobs
+            </Link>
+          </div>
         </div>
       </div>
     </Layout>
