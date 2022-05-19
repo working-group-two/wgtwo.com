@@ -3,7 +3,7 @@ slug: nortel-ecosystem
 title: "This is an amazing blogpost about the Nortel ecosystem"
 date: 2022-03-21
 tags: [marketplace, voicemail, partners]
-authors: [marius-waldum]
+authors: [brian-godkin]
 ---
 
 **Vxt**, a technology communications company in New Zealand, will be adding their voicemail product to Working Group Two’s marketplace. Their aim is to increase visibility and distribution with mobile operators on Working Group Two’s platform.
