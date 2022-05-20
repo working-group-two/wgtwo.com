@@ -1,40 +1,30 @@
-import React, { useCallback, useState } from "react"
+import React from "react"
 import Gallery from "react-photo-gallery"
-import Carousel, { Modal, ModalGateway } from "react-images"
+import Image from "@theme/IdealImage"
 import style from "./image-gallery.module.css"
 
-const ImageGallery = props => {
-  const [currentImage, setCurrentImage] = useState(0)
-  const [viewerIsOpen, setViewerIsOpen] = useState(false)
-
-  const openLightbox = useCallback((e, { photo, index }) => {
-    setCurrentImage(index)
-    setViewerIsOpen(true)
-  }, [])
-
-  const closeLightBox = () => {
-    setViewerIsOpen(false)
-  }
-
+const imageRenderer = ({ photo }) => {
   return (
-    <div className={style.imageGallery}>
-      <Gallery {...props} onClick={openLightbox} />
-      <ModalGateway>
-        {viewerIsOpen && (
-          <Modal onClose={closeLightBox}>
-            <Carousel
-              currentIndex={currentImage}
-              views={props.photos.map(x => ({
-                ...x,
-                srcset: x.srcset,
-                caption: x.title,
-              }))}
-            />
-          </Modal>
-        )}
-      </ModalGateway>
+    <div
+      key={photo.src}
+      style={{
+        margin: "2px",
+        height: photo.height,
+        width: photo.width,
+        overflow: "hidden",
+      }}
+    >
+      <Image
+        img={require(`../../../static/img/careers/gallery/${photo.src}`)}
+      />
     </div>
   )
 }
+
+const ImageGallery = props => (
+  <div className={style.imageGallery}>
+    <Gallery {...props} renderImage={imageRenderer} />
+  </div>
+)
 
 export default ImageGallery

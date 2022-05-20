@@ -30,7 +30,10 @@ const Careers = () => {
             </Link>
           </div>
 
-          <Image className={styles.mainImage} img={require("../../static/img/careers/AE8A5301.jpg")} />
+          <Image
+            className={styles.mainImage}
+            img={require("../../static/img/careers/AE8A5301.jpg")}
+          />
 
           <div className={common.text}>
             <h2 className={styles.subtitle}>

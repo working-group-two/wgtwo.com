@@ -1,184 +1,131 @@
-import AE8A5108 from "../../static/img/careers/gallery/AE8A5108.jpg"
-import AE8A5128 from "../../static/img/careers/gallery/AE8A5128.jpg"
-import AE8A5132 from "../../static/img/careers/gallery/AE8A5132.jpg"
-import AE8A5244 from "../../static/img/careers/gallery/AE8A5244.jpg"
-import AE8A5283 from "../../static/img/careers/gallery/AE8A5283.jpg"
-import AE8A5301 from "../../static/img/careers/gallery/AE8A5301.jpg"
-import AE8A5354 from "../../static/img/careers/gallery/AE8A5354.jpg"
-import AE8A5357 from "../../static/img/careers/gallery/AE8A5357.jpg"
-import AE8A5425 from "../../static/img/careers/gallery/AE8A5425.jpg"
-import AE8A5482 from "../../static/img/careers/gallery/AE8A5482.jpg"
-import AE8A5496 from "../../static/img/careers/gallery/AE8A5496.jpg"
-import AE8A5519 from "../../static/img/careers/gallery/AE8A5519.jpg"
-import AE8A5535 from "../../static/img/careers/gallery/AE8A5535.jpg"
-import AE8A5541 from "../../static/img/careers/gallery/AE8A5541.jpg"
-import AE8A5544 from "../../static/img/careers/gallery/AE8A5544.jpg"
-import AE8A5586 from "../../static/img/careers/gallery/AE8A5586.jpg"
-import AE8A5595 from "../../static/img/careers/gallery/AE8A5595.jpg"
-import AE8A5664 from "../../static/img/careers/gallery/AE8A5664.jpg"
-import AE8A5669 from "../../static/img/careers/gallery/AE8A5669.jpg"
-import AE8A5714 from "../../static/img/careers/gallery/AE8A5714.jpg"
-import AE8A5716 from "../../static/img/careers/gallery/AE8A5716.jpg"
-import AE8A5773 from "../../static/img/careers/gallery/AE8A5773.jpg"
-import AE8A5854 from "../../static/img/careers/gallery/AE8A5854.jpg"
-import AE8A5958 from "../../static/img/careers/gallery/AE8A5958.jpg"
-import AE8A6607 from "../../static/img/careers/gallery/AE8A6607.jpg"
-import AE8A6669 from "../../static/img/careers/gallery/AE8A6669.jpg"
-
 export default [
   {
-    src: AE8A5108,
-    key: "AE8A5108",
+    src: "AE8A5108.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5128,
-    key: "AE8A5128",
+    src: "AE8A5128.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5132,
-    key: "AE8A5132",
+    src: "AE8A5132.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5244,
-    key: "AE8A5244",
+    src: "AE8A5244.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5283,
-    key: "AE8A5283",
+    src: "AE8A5283.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5301,
-    key: "AE8A5301",
+    src: "AE8A5301.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5354,
-    key: "AE8A5354",
+    src: "AE8A5354.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5357,
-    key: "AE8A5357",
+    src: "AE8A5357.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5425,
-    key: "AE8A5425",
+    src: "AE8A5425.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5482,
-    key: "AE8A5482",
+    src: "AE8A5482.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5496,
-    key: "AE8A5496",
+    src: "AE8A5496.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5519,
-    key: "AE8A5519",
+    src: "AE8A5519.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5535,
-    key: "AE8A5535",
+    src: "AE8A5535.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5541,
-    key: "AE8A5541",
+    src: "AE8A5541.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5544,
-    key: "AE8A5544",
+    src: "AE8A5544.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5586,
-    key: "AE8A5586",
+    src: "AE8A5586.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5595,
-    key: "AE8A5595",
+    src: "AE8A5595.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5664,
-    key: "AE8A5664",
+    src: "AE8A5664.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5669,
-    key: "AE8A5669",
+    src: "AE8A5669.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5714,
-    key: "AE8A5714",
+    src: "AE8A5714.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5716,
-    key: "AE8A5716",
+    src: "AE8A5716.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5773,
-    key: "AE8A5773",
+    src: "AE8A5773.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5854,
-    key: "AE8A5854",
+    src: "AE8A5854.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A5958,
-    key: "AE8A5958",
+    src: "AE8A5958.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A6607,
-    key: "AE8A6607",
+    src: "AE8A6607.jpg",
     width: 800,
     height: 500,
   },
   {
-    src: AE8A6669,
-    key: "AE8A6669",
+    src: "AE8A6669.jpg",
     width: 800,
     height: 500,
   },
