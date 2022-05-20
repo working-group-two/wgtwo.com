@@ -10,7 +10,7 @@ export default ({ job }) => (
     <div className={common.section}>
       <div className={common.container}>
         <div className={common.container}>
-          <Link to="/careers">
+          <Link to="/jobs">
             <ArrowLeft />
           </Link>
           <div>
