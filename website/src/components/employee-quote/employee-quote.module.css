@@ -6,9 +6,10 @@
   text-align: left;
 }
 
-.employeeQuote img {
+.employeeImage {
   border-radius: 99px;
   margin-bottom: 16px;
+  overflow: hidden;
   width: 120px;
 }
 

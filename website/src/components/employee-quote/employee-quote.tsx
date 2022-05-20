@@ -5,7 +5,7 @@ import Image from "@theme/IdealImage"
 const EmployeeQuote = ({ image, name = null, title = null, quote }) => {
   return (
     <blockquote className={style.employeeQuote}>
-      <Image img={image} />
+      <Image className={style.employeeImage} img={image} />
       <p>{quote}</p>
       {name && (
         <cite>

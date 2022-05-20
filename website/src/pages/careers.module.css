@@ -13,6 +13,10 @@
   width: 1px;
 }
 
+.mainImage {
+  width: 100%;
+}
+
 .employeeQuotes {
   display: flex;
 }
