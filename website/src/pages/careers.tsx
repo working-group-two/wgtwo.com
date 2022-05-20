@@ -109,7 +109,7 @@ const Careers = () => {
               image={require("../../static/img/careers/MattLong.jpg")}
               quote="I am the engineering manager for teams that work with our edge sites and networking, security and AWS cloud infrastructure. I try to keep the team members happy, and help plan and organize the technical work that we do. I spend a lot of time dealing with blocking issues that are important but mostly just distract our engineers from their daily work."
               name="Matt"
-              title="Egnineering manager"
+              title="Engineering manager"
             />
             <div className={styles.spacer} />
             <EmployeeQuote
