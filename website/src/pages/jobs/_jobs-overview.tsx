@@ -20,7 +20,7 @@ const JobPosting = ({ job }) => (
 )
 
 export default ({ jobs }) => (
-  <Layout title="Jobs">
+  <Layout title="Careers">
     <Head>
       <link
         rel="preload"
@@ -33,7 +33,7 @@ export default ({ jobs }) => (
       <div className={common.container}>
         <div className={common.container}>
           <div className={styles.jobs}>
-            <div className={common.title}>Jobs</div>
+            <div className={common.title}>Careers</div>
             {jobs.map(j => (
               <JobPosting job={j} key={j.id} />
             ))}

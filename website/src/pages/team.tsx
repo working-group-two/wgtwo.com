@@ -108,7 +108,7 @@ export default () => (
               Interested in joining our growing team?
             </h2>
             <Link
-              to="/jobs"
+              to="/careers"
               target="_self"
               className={`${common.button} ${common.buttonPrimary} ${styles.button}`}
             >
