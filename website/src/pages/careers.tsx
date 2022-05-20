@@ -17,11 +17,10 @@ const Careers = () => {
       <div className={common.section}>
         <div className={common.container}>
           <div className={common.centeredText}>
-            <h1 className={common.title}>We're on a mission</h1>
-            <h2>
+            <h1 className={common.title}>
               Solving hard problems requires a lot of freedom. Join us and get
               ready to do the best work of your life.
-            </h2>
+            </h1>
             <Link
               to="/jobs"
               target="_self"
@@ -98,8 +97,8 @@ const Careers = () => {
         <div className={common.container}>
           <div className={common.centeredText}>
             <h2 className={styles.subtitle}>
-              The impossible just takes a bit more time. Meet our freedom
-              fighters and problem solvers
+              The impossible just takes a bit more time. Meet our problem
+              solvers.
             </h2>
           </div>
           <div className={styles.employeeQuotes}>
@@ -123,8 +122,9 @@ const Careers = () => {
       <div className={common.section}>
         <div className={common.container}>
           <div className={common.centeredText}>
-            <h2 className={styles.subtitle}>Contact real people</h2>
-            <p>Got a question? Talk to our friendly folks.</p>
+            <h2 className={styles.subtitle}>
+              Got a question? Talk to our friendly folks.
+            </h2>
           </div>
           <div className={styles.contacts}>
             <ContactCard
