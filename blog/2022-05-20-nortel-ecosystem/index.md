@@ -10,7 +10,7 @@ authors: [brian-godkin]
 
 <!--truncate-->
 
-Why [Nortel?](https://www.nortel.no)? Well we learned from their MVNe, eRate, that our product ecosystem will "be music to Nortel's ears". In a crowded market with established players, Nortel has been on the lookout for something that could differentiate them from their competitors - the product ecosystem is that differentiator, where according to Nortel’s COO:  “That's where we want to go, and we want to be unique. We want to be a step ahead.”
+Why [Nortel?](https://www.nortel.no) Well we learned from their MVNe, eRate, that our product ecosystem will "be music to Nortel's ears". In a crowded market with established players, Nortel has been on the lookout for something that could differentiate them from their competitors - the product ecosystem is that differentiator, where according to Nortel’s COO:  “That's where we want to go, and we want to be unique. We want to be a step ahead.”
 
 But to really understand why our ecosystem was going to be 'music to Nortel's ears', we needed to get a much deeper understanding of Nortel and their customers - enter user research. We could have chosen to take this easy, short-term route down *Assumption Avenue*:
 
@@ -24,7 +24,7 @@ But to really understand why our ecosystem was going to be 'music to Nortel's ea
   src={require("!file-loader!./dilbert.jpg").default}
 />
 
-But with 20+ years of user research under my belt, I knew that direct collaboration with our target audience, though more time-consuming, will result in more useful, easy to use, and desirable products and experiences - thus the initial two-hour meeting request. Being an operator, Nortel is one of our three target audiences (along with subscribers and product developers). And while Nortel may not be the actual target audience for the customer journey work we are doing with them  - their subscribers are - their deep knowledge of their user base, coupled with their ability to ultimately give us access to them, was a much more appealing option than taking a wrong turn on Assumption Ave.
+With 20+ years of user research under my belt, I knew that direct collaboration with our target audience, though more time-consuming, will result in more useful, easy to use, and desirable products and experiences - thus the initial two-hour meeting request. Being an operator, Nortel is one of our three target audiences (along with subscribers and product developers). And while Nortel may not be the actual target audience for the customer journey work we are doing with them  - their subscribers are - their deep knowledge of their user base, coupled with their ability to ultimately give us access to them, was a much more appealing option than taking a wrong turn on Assumption Ave.
 
 ## Customer journey mapping with Nortel
 Can you tell us a bit about your customers? What are the typical stages of their journey when they interact with you? What are they doing during each of the stages? What challenges are they facing? What opportunities do Nortel and wgtwo have together to address these challenges? These are some of the key questions we posed to Robert (CPO), Espen (COO), and Sigrid (Sales Ops/HR mgr).
