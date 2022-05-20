@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8375],{52896:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vo-wifi","name":"VoWifi","count":1,"permalink":"/blog/tags/vo-wifi"}')}}]);
