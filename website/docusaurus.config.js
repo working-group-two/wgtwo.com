@@ -68,8 +68,8 @@ module.exports = {
           position: "left",
         },
         {
-          href: "/team/",
-          activeBasePath: "/team/",
+          href: "/careers/",
+          activeBasePath: "/careers/",
           label: "Join the Team 🎉",
           position: "right",
         },
@@ -266,7 +266,7 @@ module.exports = {
       path.resolve(__dirname, "plugins/personio-jobs.js"),
       {
         jobsOverviewRoute: {
-          path: "/careers",
+          path: "/jobs",
           component: path.resolve(
             __dirname,
             "src/pages/jobs/_jobs-overview.tsx"

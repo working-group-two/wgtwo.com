@@ -1,0 +1,72 @@
+.button {
+  margin-top: 24px;
+}
+
+.subtitle {
+  font-size: 40px;
+}
+
+.spacer {
+  background: #b4e6fb;
+  flex-shrink: 0;
+  margin: 136px 120px 0;
+  width: 1px;
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.employeeQuotes {
+  display: flex;
+}
+
+.employeeQuotes blockquote {
+  width: 50%;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts > div {
+  margin: 0 40px 24px;
+}
+
+.gallerySection {
+  background: #f8f8f8;
+}
+
+.officesContainer {
+  padding-top: 64px;
+}
+
+@media (max-width: 1200px) {
+  .spacer {
+    margin: 136px 24px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .subtitle {
+    font-size: 28px;
+  }
+
+  .spacer {
+    height: 1px;
+    margin: 40px 0;
+    width: 100%;
+  }
+
+  .employeeQuotes {
+    display: block;
+  }
+
+  .employeeQuotes blockquote {
+    width: 100%;
+  }
+
+  .contacts {
+    display: block;
+  }
+}
