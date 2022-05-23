@@ -10,6 +10,14 @@
   border-radius: 50%;
 }
 
+.contactImage > img {
+  border-radius: 50%;
+  /*
+    @docusaurus/plugin-ideal-image produces an <img> in dev mode,
+    but in prod a div>img. So this is needed to always get round images.
+  */
+}
+
 .name {
   font-size: 20px;
   font-weight: 600;
