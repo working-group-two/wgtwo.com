@@ -7,6 +7,7 @@
 .contactImage {
   margin-bottom: 6px;
   width: 220px;
+  border-radius: 50%;
 }
 
 .name {
