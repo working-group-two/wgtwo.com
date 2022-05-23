@@ -9,7 +9,7 @@
 .spacer {
   background: #b4e6fb;
   flex-shrink: 0;
-  margin: 136px 120px 0;
+  margin: 0 120px 0;
   width: 1px;
 }
 
@@ -43,7 +43,7 @@
 
 @media (max-width: 1200px) {
   .spacer {
-    margin: 136px 24px 0;
+    margin: 0 24px 0;
   }
 }
 

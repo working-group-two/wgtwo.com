@@ -7,10 +7,12 @@
 }
 
 .employeeImage {
-  border-radius: 99px;
+  border-radius: 50%;
   margin-bottom: 16px;
+  margin-left: 16px;
   overflow: hidden;
   width: 120px;
+  float: right;
 }
 
 .employeeQuote p {
