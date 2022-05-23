@@ -238,6 +238,7 @@ module.exports = {
       "@docusaurus/plugin-ideal-image",
       {
         sizes: [100, 400, 800, 1200],
+        disableInDev: false, // to avoid different behaviours
       },
     ],
     [
