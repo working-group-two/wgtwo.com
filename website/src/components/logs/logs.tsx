@@ -16,7 +16,7 @@ function Component() {
           <div className={common.subtitle}>
             Telecom operators on the <b>wgtwo</b> platform are able to configure
             their own subscriptions, giving them the freedom to add the products
-            that meets their needs.
+            that meet their needs.
           </div>
           <div className={styles.buttons}>
             <Link

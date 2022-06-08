@@ -44,7 +44,7 @@ function Component() {
             <div className={styles.deploymentModelDescription}>
               Secure, developer friendly, next generation, and service-rich
               telecommunication platform that enables your business to succeed.
-              End of life is the thing of the past.
+              End of life is a thing of the past.
             </div>
           </div>
         </div>
