@@ -12,7 +12,7 @@ You’ve heard these terms a million times: *Managed services* and *software-as-
 
 <!--truncate-->
 
-Consider CKH IOD, an innovation unit of CK Hutchison, one of the world's leading mobile operator groups. When they announced [they announced?](https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud/) a few months ago that they will be moving their mobile core network to the public cloud - and have it delivered as-a-service by Working Group Two -  they benefit from more than a new technology platform. They enter a new way of thinking about incentives - where vendors and operators truly share the benefits of growing together. More importantly, CKH IOD proves that they both can and want to innovate. 
+Consider CKH IOD, an innovation unit of CK Hutchison, one of the world's leading mobile operator groups. When [they announced](https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud/) a few months ago that they will be moving their mobile core network to the public cloud - and have it delivered as-a-service by Working Group Two -  they benefit from more than a new technology platform. They enter a new way of thinking about incentives - where vendors and operators truly share the benefits of growing together. More importantly, CKH IOD proves that they both can and want to innovate. 
 
 One of their main ambitions is to reduce complexity. The value of reducing complexity is to be able to make changes faster - and more affordably. 
 
