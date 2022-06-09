@@ -65,18 +65,6 @@ Operators should encourage them to get better at what they are doing at lower co
 You want to enable and incentivize them to increase your topline. It’s by connecting the vendor’s economic goals to your own by sharing revenue from more users and increased usage. With revenue share, the vendor wants to make the solution as good as possible. With a change request, the vendor wants to create the solution as cheaply as possible. 
 So at the end of the day it is about aligning incentives. 
 
-<img
-  width="60%"
-  align="right"
-  style={{
-    display: "block",
-    margin:"auto 10px"
-  }}
-  alt="Let the RFP burn. Give your vendor a service-level agreement instead and let them figure out how to solve your business needs."
-  src={require("!file-loader!./RFP_illustration_20pst.jpg").default}
-/>
-
 **At Working Group Two we don’t want to charge for change requests.** We want to deliver micro innovation as a service at scale and win when our customers and their customers win. That’s the only business case you should ever need to make. 
 
 We believe in a future where there are a smaller number of global mobile core platforms to which operators - big and small - can connect their radio networks. We think this will drive down the total cost of  core networks down by 30-50% and the pace of innovation up orders of magnitude. 
-
