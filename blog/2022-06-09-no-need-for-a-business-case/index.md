@@ -8,16 +8,7 @@ authors: [erlend-prestgard]
 
 You’ve heard these terms a million times: *Managed services* and *software-as-a-service*. At first glance, they appear deceptively similar. You wonder, how are they different again? Understanding the difference between them unlocks a perspective on where the telecom industry is heading. 
 
-![](./RFP_illustration_large)
-<!-- <img
-  width="40%"
-  align="left"
-  style={{
-    display: "block",
-    margin:"auto 10px"
-  }}
-  src={require("!file-loader!./RFP_illustration_large").default}
-/> -->
+![](./RFP_illustration_large.jpg)
 
 <!--truncate-->
 
@@ -47,16 +38,15 @@ Instead, operators should give them a service-level agreement (SLA) with what th
 
 Here’s how Robert Curran at Appledore Research broke it down in his recent report on the significance of the deal between Working Group Two and CKH IOD. 
 
-![](./bizcase.png)
-<!-- <img
-  width="40%"
-  align="left"
-  style={{
-    display: "block",
-    margin:"auto 10px"
-  }}
-  src={require("!file-loader!./bizcase.png").default}
-/> -->
+|                       |                                      **Managed Service**                                      |                                         **As-a-Service**                                         |
+|:---------------------:|:---------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
+|     **Deployment**    |                                       Customer specific                                       |                               Common platform used by all customers                              |
+|      **Support**      |                                    Customer-specific team                                     |                                            Shared team                                           |
+| **Change Management** |              Contractual negotiation – change  Requests and specification cycles              |                   Frequent platform updates, constant  feedback from customers                   |
+|        **SLA**        |    Process-defined – requires extensive list of activities to be defined, targets and costs   |                Service-defined – availability and quality of the service provided                |
+|      **Contract**     | High upfront cost to define scope and  terms; difficult and expensive to change  subsequently |                  Standardized contract terms, based on simple to understand SLAs                 |
+|   **Business Model**  |                         Fixed cost envelope, no incentive to  innovate                        | Usage-based model, incentivized to make changes that improve customer experience/service quality |
+|        **R&D**        |                             No dedicated resources to support R&D                             |                       Direct flow through from core R&D to in-use platform                       |
 
 Which column feels more exciting to you? 
 
@@ -75,16 +65,7 @@ Operators should encourage them to get better at what they are doing at lower co
 You want to enable and incentivize them to increase your topline. It’s by connecting the vendor’s economic goals to your own by sharing revenue from more users and increased usage. With revenue share, the vendor wants to make the solution as good as possible. With a change request, the vendor wants to create the solution as cheaply as possible. 
 So at the end of the day it is about aligning incentives. 
 
-![](./RFP_illustration_20pst.png)
-<!-- <img
-  width="40%"
-  align="left"
-  style={{
-    display: "block",
-    margin:"auto 10px"
-  }}
-  src={require("!file-loader!./RFP_illustration_20pst").default}
-/> -->
+![](./RFP_illustration_20pst.jpg)
 
 **At Working Group Two we don’t want to charge for change requests.** We want to deliver micro innovation as a service at scale and win when our customers and their customers win. That’s the only business case you should ever need to make. 
 
