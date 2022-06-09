@@ -1,7 +1,7 @@
 ---
 slug: no-need-for-a-business-case
 title: "The business case for not needing a business case"
-date: 2022-05-24
+date: 2022-06-09
 tags: [saas, operators, managed services,]
 authors: [erlend-prestgard]
 ---
