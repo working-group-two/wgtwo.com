@@ -8,7 +8,7 @@ authors: [erlend-prestgard]
 
 You’ve heard these terms a million times: *Managed services* and *software-as-a-service*. At first glance, they appear deceptively similar. You wonder, how are they different again? Understanding the difference between them unlocks a perspective on where the telecom industry is heading. 
 
-![](./RFP_illustration_large.jpg)
+![Let the RFP burn. Give your vendor a service-level agreement instead and let them figure out how to solve your business needs](./RFP_illustration_large.jpg)
 
 <!--truncate-->
 
@@ -65,7 +65,16 @@ Operators should encourage them to get better at what they are doing at lower co
 You want to enable and incentivize them to increase your topline. It’s by connecting the vendor’s economic goals to your own by sharing revenue from more users and increased usage. With revenue share, the vendor wants to make the solution as good as possible. With a change request, the vendor wants to create the solution as cheaply as possible. 
 So at the end of the day it is about aligning incentives. 
 
-![](./RFP_illustration_20pst.jpg)
+<img
+  width="60%"
+  align="right"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  alt="Let the RFP burn. Give your vendor a service-level agreement instead and let them figure out how to solve your business needs."
+  src={require("!file-loader!./RFP_illustration_20pst.jpg").default}
+/>
 
 **At Working Group Two we don’t want to charge for change requests.** We want to deliver micro innovation as a service at scale and win when our customers and their customers win. That’s the only business case you should ever need to make. 
 
