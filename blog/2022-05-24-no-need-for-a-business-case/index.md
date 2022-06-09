@@ -8,9 +8,20 @@ authors: [erlend-prestgard]
 
 You’ve heard these terms a million times: *Managed services* and *software-as-a-service*. At first glance, they appear deceptively similar. You wonder, how are they different again? Understanding the difference between them unlocks a perspective on where the telecom industry is heading. 
 
+![](./RFP_illustration_large)
+<!-- <img
+  width="40%"
+  align="left"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  src={require("!file-loader!./RFP_illustration_large").default}
+/> -->
+
 <!--truncate-->
 
-Consider CKH IOD, an innovation unit of CK Hutchison. When they announced a few months ago that they will be moving their mobile core network to the public cloud - and have it delivered as-a-service by Working Group Two -  they benefit from more than a new technology platform. They enter a new way of thinking about incentives - where vendors and operators truly share the benefits of growing together. More importantly, CKH IOD proves that they both can and want to innovate. 
+Consider CKH IOD, an innovation unit of CK Hutchison, one of the world's leading mobile operator groups. When they announced [they announced?](https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud/) a few months ago that they will be moving their mobile core network to the public cloud - and have it delivered as-a-service by Working Group Two -  they benefit from more than a new technology platform. They enter a new way of thinking about incentives - where vendors and operators truly share the benefits of growing together. More importantly, CKH IOD proves that they both can and want to innovate. 
 
 One of their main ambitions is to reduce complexity. The value of reducing complexity is to be able to make changes faster - and more affordably. 
 
@@ -36,4 +47,46 @@ Instead, operators should give them a service-level agreement (SLA) with what th
 
 Here’s how Robert Curran at Appledore Research broke it down in his recent report on the significance of the deal between Working Group Two and CKH IOD. 
 
+![](./bizcase.png)
+<!-- <img
+  width="40%"
+  align="left"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  src={require("!file-loader!./bizcase.png").default}
+/> -->
+
+Which column feels more exciting to you? 
+
+Clearly, Joe Parker, the CEO of CKH IOD, leans heavily to the right when he says this about taking the step of moving their core network to the public cloud:
+
+> “Our collaboration with Working Group Two to deploy our core network on the public cloud delivers simplicity, improved operational efficiency, and the ability to quickly develop new initiatives to meet market needs, with particular focus on the MVNO, IoT, and Private Network space. It’s about achieving scale and the highest levels of security while reducing complexity – to the benefit of our customers and ultimately, end-users in our markets.”
+
+Ok, so there’s a historical perspective with regards to managed services  to consider. Telecom workloads used to be considered extremely demanding, so you made hardware specifically for it - and then bundled the software. There was no such thing as the cloud, so you had to put your technology in every mobile operator basement. Making a change was almost impossible. Forget about driving micro innovations at scale. 
+
+In the modern day, where we do have a cloud - in all its varieties - and where the toolbox for change is available, there is still a lot of conservative thinking. Security and regulatory challenges are critical - but you need to find a way to frame and work with those challenges. 
+
+Better yet, think about the vendor of the future.
+
+Operators should encourage them to get better at what they are doing at lower costs. 
+
+You want to enable and incentivize them to increase your topline. It’s by connecting the vendor’s economic goals to your own by sharing revenue from more users and increased usage. With revenue share, the vendor wants to make the solution as good as possible. With a change request, the vendor wants to create the solution as cheaply as possible. 
+So at the end of the day it is about aligning incentives. 
+
+![](./RFP_illustration_20pst.png)
+<!-- <img
+  width="40%"
+  align="left"
+  style={{
+    display: "block",
+    margin:"auto 10px"
+  }}
+  src={require("!file-loader!./RFP_illustration_20pst").default}
+/> -->
+
+**At Working Group Two we don’t want to charge for change requests.** We want to deliver micro innovation as a service at scale and win when our customers and their customers win. That’s the only business case you should ever need to make. 
+
+We believe in a future where there are a smaller number of global mobile core platforms to which operators - big and small - can connect their radio networks. We think this will drive down the total cost of  core networks down by 30-50% and the pace of innovation up orders of magnitude. 
 
