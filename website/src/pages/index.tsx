@@ -12,8 +12,11 @@ import Integrations from "../components/integrations/integrations"
 import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 import CaseStudies from "../components/casestudy/casestudy"
 import CTA from "../components/cta/cta"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Index() {
+  const { i18n } = useDocusaurusContext()
+
   return (
     <Layout title="Working Group Two">
       <div className={common.page}>
@@ -24,7 +27,7 @@ function Index() {
         <Enterprise />
         <Quote />
         <Integrations />
-        <NewsletterSignup />
+        <NewsletterSignup hidden={i18n.currentLocale !== "en"} />
         <CaseStudies />
         <CTA />
       </div>

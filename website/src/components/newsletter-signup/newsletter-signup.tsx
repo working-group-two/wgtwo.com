@@ -4,7 +4,13 @@ import Link from "@docusaurus/Link"
 import Head from "@docusaurus/Head"
 import React from "react"
 
-const NewsletterSignup = ({ onBlogPost = false }) => {
+const NewsletterSignup = ({ onBlogPost = false, hidden = false }) => {
+  if (hidden) {
+    if (onBlogPost) return null
+
+    return <div className={`${styles.newsletterSignup} ${styles.hidden}`} />
+  }
+
   return (
     <div
       className={`${!onBlogPost && common.section} ${styles.newsletterSignup} ${
