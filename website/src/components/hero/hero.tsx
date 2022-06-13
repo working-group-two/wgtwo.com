@@ -1,7 +1,7 @@
 import React from "react"
 import styles from "./hero.module.css"
 import common from "../../css/common.module.css"
-import Image from "@theme/IdealImage"
+import Translate from "@docusaurus/Translate"
 import Link from "@docusaurus/Link"
 
 function Component() {
@@ -15,11 +15,16 @@ function Component() {
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
           <div className={common.subtitle}>
-            No more boxes, no more end-of-life, no large upfront investments.
-            With <b>wgtwo's</b> cloud-native mobile core you get continuous
-            innovation, reduced costs and real flexibility. To make it really
-            simple for operators – it's delivered as-a-service and grows as you
-            grow.
+            <Translate
+              id="home.hero.subtitle"
+              description="Subtitle for the hero section"
+            >
+              No more boxes, no more end-of-life, no large upfront investments.
+              With wgtwo's cloud-native mobile core you get continuous
+              innovation, reduced costs and real flexibility. To make it really
+              simple for operators – it's delivered as-a-service and grows as
+              you grow.
+            </Translate>
           </div>
           <div className={styles.buttons}>
             <Link

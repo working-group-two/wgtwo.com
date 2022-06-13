@@ -11,6 +11,15 @@ module.exports = {
   projectName: "wgtwo.com",
   deploymentBranch: "gh-pages",
   trailingSlash: "true",
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "jp"],
+    localeConfigs: {
+      jp: {
+        label: "日本語",
+      },
+    },
+  },
   themeConfig: {
     metadata: [
       {
@@ -85,6 +94,10 @@ module.exports = {
           label: "Talk to us",
           position: "right",
           className: "sign-up",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
       ],
     },

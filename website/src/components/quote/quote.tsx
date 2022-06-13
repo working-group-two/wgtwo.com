@@ -1,6 +1,7 @@
 import React from "react"
 import common from "../../css/common.module.css"
 import styles from "./quote.module.css"
+import Translate from "@docusaurus/Translate"
 
 function Component() {
   return (
@@ -20,16 +21,29 @@ function Component() {
       <div className={common.container}>
         <div className={common.centeredText}>
           <h2 className={styles.quote}>
-            "Our collaboration with Working Group Two to deploy our core network
-            on the public cloud delivers simplicity, improved operational
-            efficiency and the ability to quickly develop new initiatives to
-            meet market needs, with particular focus on the MVNO, IoT and
-            Private Network space. It’s about achieving scale and the highest
-            levels of security while reducing complexity – to the benefit of our
-            customers and ultimately, end-users in our markets.”
+            <Translate
+              id="home.quote.title"
+              description="The main quote for the customer quote component"
+            >
+              "Our collaboration with Working Group Two to deploy our core
+              network on the public cloud delivers simplicity, improved
+              operational efficiency and the ability to quickly develop new
+              initiatives to meet market needs, with particular focus on the
+              MVNO, IoT and Private Network space. It’s about achieving scale
+              and the highest levels of security while reducing complexity – to
+              the benefit of our customers and ultimately, end-users in our
+              markets.”
+            </Translate>
           </h2>
           <div className={styles.attribution}>
-            <b>Joe Parker, CEO of CKH IOD </b>
+            <b>
+              <Translate
+                id="home.quote.attribution"
+                description="The attribution for the customer quote"
+              >
+                Joe Parker, CEO of CKH IOD
+              </Translate>
+            </b>
             <br />
           </div>
         </div>

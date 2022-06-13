@@ -1,0 +1,362 @@
+{
+  "home.casestudy.adjacentcores.description": {
+    "message": "モバイル事業者は、日々スケーラビリティという課題に直面しています。高度に複雑なネットワークは、新たなユースケース導入を制限し、導入してもさらに複雑性を増すのがが一般的です。",
+    "description": "Description for the adjacent cores for operators case study"
+  },
+  "home.casestudy.mvnx.description": {
+    "message": "あらゆる種類のMVNO事業者が、同一な課題に直面しています。自社でコアを構築し、運用するのは大変でコストがかかり、そこから競争優位を得るのは非常に困難です。より良い方法が今、可能になりました。",
+    "description": "Description for the MVNx case study"
+  },
+  "home.casestudy.smalloperators.description": {
+    "message": "特に小規模な事業者は、基本サービスさえも手頃なコストで実現することが難しいことがあります。VoLTEを動作させたり、通話を腕時計型デバイスとスマートフォンに分岐させたり、またSMSのホームルーティング、法的傍受ソリューションとの統合、CSフォールバック処理、データ接続のポリシーマネジメント、ローミング対応、PBXの統合などは、従来型のネットワークでは実現に浪費する機能の一例です。",
+    "description": "Description for the small operators case study"
+  },
+  "home.casestudy.hybridnetworks.description": {
+    "message": "全国カバレッジを手に入れたい地域事業者や、従業員が所有する端末を流用して工場内ネットワークと接続させたい企業、全国ネットワークへの橋渡しをしたいグリーンフィールドMNO - これらはすべて、ハイブリッドネットワークのユースケースとなります。",
+    "description": "Description for the hybrid networks case study"
+  },
+  "home.casestudy.privatenetworkcore.description": {
+    "message": "プライベートネットワークは、通信業界において急成長している分野です。遅延、セキュリティ、安定性に関連するユースケースが、モバイルネットワークの小型化への要求を後押ししています。しかし、モバイルネットワークは管理が複雑です。Omdiaの調査によると、10社中9社の企業が、これらのネットワークを管理するためのパートナーを求めています。",
+    "description": "Description for the private network core case study"
+  },
+  "home.casestudy.greenfieldoperators.description": {
+    "message": "モバイル事業者、特に規模が限られ、技術チームが十分ではない新規参入事業者は、基本的なサービスさえも手頃なコストで動作させることにも苦労しています。",
+    "description": "Description for the greenfield operators case study"
+  },
+  "home.casestudy.subtitle": {
+    "message": "wgtwoはAPIを実装したプラットフォームを提供し、すべての顧客セグメントが当社のコアネットワークをご利用できるように取り組んでいます。私どもの改革については、ケーススタディをご覧いただき、どのようにお客様の会社を支援できるかをご確認ください。私たちの目標は、お客様のビジネスのイノベーションと成長を促進することです。",
+    "description": "Subtitle for the casestudy section"
+  },
+  "home.enterprise.subtitle": {
+    "message": "wgtwoコアは、認証、プロビジョニング、音声、メッセージングおよびデータサービスに関連するフルセットの機能を提供し、お客様のビジネスをトランスフォームさせます。",
+    "description": "Subtitle for the enterprise section"
+  },
+  "home.enterprise.data.description": {
+    "message": "高速でセキュア、かつ地理的な制約がなく、信頼性の高いデータ接続により、エンドユーザーのあらゆるニーズにお応えします。",
+    "description": "Description for the data feature"
+  },
+  "home.enterprise.messaging.description": {
+    "message": "SMS/MMSサービス、ボイスメールの提供。",
+    "description": "Description for the messaging feature"
+  },
+  "home.enterprise.voice.description": {
+    "message": "2G、3G、4G（VoLTE）のキャリアグレードな音声サービスを提供します。",
+    "description": "Description for the voice feature"
+  },
+  "home.enterprise.connectivity.description": {
+    "message": "セキュアな認証とSIMカードのプロビジョニング機能を提供します。",
+    "description": "Description for the connectivity feature"
+  },
+  "home.enterprise.console.description": {
+    "message": "新規契約者のプロビジョニング、新機能の有効化、カスタマーサービスのリクエスト対応を実施します。",
+    "description": "Description for the console feature"
+  },
+  "home.enterprise.support.description": {
+    "message": "24時間365日の3rd line 監視・保守サポート。",
+    "description": "Description for the support feature"
+  },
+  "home.hero.subtitle": {
+    "message": "ボックスは現場にありませんし、EOLも心配なし、多額の先行投資の障壁もありません。wgtwoのクラウドコアは、継続的なイノベーション、破壊的なコスト削減、そして真の柔軟性を提供します。シンプルにお使いいただくためにサービスとして提供され、お客様の成長に合わせて拡張することができます。",
+    "description": "Subtitle for the hero section"
+  },
+  "home.logs.subtitle": {
+    "message": "wgtwoプラットフォームを利用する事業者は、提供する回線を自ら設定することができ、ニーズに合ったイノベーション・プロダクトを自由に追加できる仕組みを得ます。",
+    "description": "Subtitle for the logs section"
+  },
+  "home.quote.title": {
+    "message": "「Working Group Twoとの協業により、当社のコアネットワークをパブリッククラウド上に展開することで、事業をよりシンプルに戻し、運用効率の改善、市場ニーズに基づく新サービスの迅速な導入が可能になることを期待しています。特にMVNO、IoT、プライベートネットワークの分野に重点を置いています。これは、複雑さを軽減しながら、規模と最高レベルのセキュリティを実現することであり、当社のお客様、ひいては当社の市場のエンドユーザーに利益をもたらすものです。\"",
+    "description": "The main quote for the customer quote component"
+  },
+  "home.quote.attribution": {
+    "message": "CKH IODのCEO、Joe Parker氏",
+    "description": "The attribution for the customer quote"
+  },
+  "home.rbe.subtitle": {
+    "message": "通信事業者とエンドユーザーは、ユーザーに価値を提供するエコシステムを備えたモバイルネットワークが必要です。その実現のために、私たちはプログラマブルなモバイルコアネットワークを構築しました。APIをフル実装したプラットフォームを、As-a-Serviceで提供します。そして、通信事業者、ディベロッパー、エンドユーザーが出会い、交流することができるマーケットプレイスを構築することを目指しています。",
+    "description": "Subtitle for the RBE section"
+  },
+  "home.rbe.cloud.description": {
+    "message": "クラウドにモバイルコアを。そして、イノベーションをコアネットワークへ呼び戻します。",
+    "description": "Description for the cloud deployment model"
+  },
+  "home.rbe.api.description": {
+    "message": "wgtwo APIを利用して加入者のプロビジョニングを柔軟に実施",
+    "description": "Description for the API deployment model"
+  },
+  "home.rbe.telco.description": {
+    "message": "セキュアで、開発しやすい、次世代の、そしてサービス豊富な通信プラットフォームで、お客様のビジネスを成功に導きます。End-of-Lifeは過去のものです。",
+    "description": "Description for the telco deployment model"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to heading",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Loading...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Click to load{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Your browser is offline. Image not loaded",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Image not found",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Error. Click to reload",
+    "description": "When the image fails to load for unknown error"
+  },
+  "cmfcmf/d-s-l.searchBar.placeholder": {
+    "message": "cmfcmf/d-s-l.searchBar.placeholder",
+    "description": "Placeholder shown in the searchbar"
+  },
+  "cmfcmf/d-s-l.searchBar.clearButtonTitle": {
+    "message": "cmfcmf/d-s-l.searchBar.clearButtonTitle",
+    "description": "Title of the button to clear the current search input"
+  },
+  "cmfcmf/d-s-l.searchBar.detachedCancelButtonText": {
+    "message": "cmfcmf/d-s-l.searchBar.detachedCancelButtonText",
+    "description": "Text of the button to close the detached search window"
+  },
+  "cmfcmf/d-s-l.searchBar.submitButtonTitle": {
+    "message": "cmfcmf/d-s-l.searchBar.submitButtonTitle",
+    "description": "Title of the button to submit a new search"
+  },
+  "cmfcmf/d-s-l.searchBar.noResults": {
+    "message": "cmfcmf/d-s-l.searchBar.noResults",
+    "description": "message shown if no results are found"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "home.casestudy.learnmore": {
+    "message": "詳細はこちら",
+    "description": "Learn more about the case study"
+  },
+  "contact.title1": {
+    "message": "Get in touch,",
+    "description": "Title for the first line of the contact section"
+  },
+  "contact.title2": {
+    "message": "we love to chat.",
+    "description": "Title for the second line of the contact section"
+  },
+  "contact.subtitle": {
+    "message": "ご質問、ご要望、その他アイデアなど、お問い合わせください。",
+    "description": "Subtitle for the contact section"
+  },
+  "contact.form.company": {
+    "message": "企業名",
+    "description": "Placeholder for the company field"
+  },
+  "contact.form.email": {
+    "message": "ビジネス email address",
+    "description": "Placeholder for the email field"
+  },
+  "contact.form.name": {
+    "message": "お名前",
+    "description": "Placeholder for the name field"
+  },
+  "contact.form.message": {
+    "message": "問い合わせ内容",
+    "description": "Placeholder for the message field"
+  },
+  "contact.form.button": {
+    "message": "送信",
+    "description": "Button for the contact form"
+  }
+}
