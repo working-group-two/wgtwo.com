@@ -95,10 +95,6 @@ module.exports = {
           position: "right",
           className: "sign-up",
         },
-        {
-          type: "localeDropdown",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -158,7 +154,7 @@ module.exports = {
             },
             {
               label: "gk.wgtwo.com 合同会社",
-              href: "https://gk.wgtwo.com",
+              href: "https://www.wgtwo.com/jp",
             },
           ],
         },
