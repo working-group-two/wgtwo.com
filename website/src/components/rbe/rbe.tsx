@@ -63,8 +63,8 @@ function Component() {
                 description="Description for the telco deployment model"
               >
                 Secure, developer friendly, next generation, and service-rich
-                telecommunication platform that enables your business to succeed.
-                End of life is a thing of the past.
+                telecommunication platform that enables your business to
+                succeed. End of life is a thing of the past.
               </Translate>
             </div>
           </div>
