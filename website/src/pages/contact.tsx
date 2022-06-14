@@ -18,8 +18,6 @@ let form = {
 }
 
 function Contact() {
-  console.log(useLocation())
-
   return (
     <Layout title="Contact Us">
       <div className={common.page}>
