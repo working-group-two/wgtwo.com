@@ -103,14 +103,14 @@ module.exports = {
     },
     footer: {
       style: "dark",
+      logo: {
+        alt: "wgtwo Logo",
+        src: "img/logo_white.svg",
+        href: "/",
+        width: "191px",
+        height: "32px",
+      },
       links: [
-        {
-          items: [
-            {
-              html: `<a href="/"><img alt="wgtwo Logo" src="/img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
-            },
-          ],
-        },
         {
           title: "Product",
           items: [

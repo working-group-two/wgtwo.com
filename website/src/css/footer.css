@@ -5,17 +5,10 @@
   font-weight: 600;
 }
 
-.footer-logo {
-  max-height: 32px;
-  padding-right: 90px;
-  max-width: inherit;
+.footer__logo {
+  margin-top: 48px;
 }
 
 .footer__copyright {
-  margin-top: 124px;
   color: rgba(255, 255, 255, 0.5);
-}
-
-.footer .col:first-of-type .footer__title {
-  display: none;
 }
