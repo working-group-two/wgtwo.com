@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom")
 const path = require("path")
 
 module.exports = (
-  _,
+  { i18n },
   {
     jobsXMLPath = path.resolve(__dirname, "../personio-jobs.xml"),
     jobsXMLURL = "https://wgtwo-jobs.personio.de/xml",
@@ -36,11 +36,16 @@ module.exports = (
       ),
     }))
 
+    const localePrefix =
+      i18n?.currentLocale && i18n.currentLocale !== "en"
+        ? `/${i18n.currentLocale}`
+        : ""
+
     for (const job of jobsData) {
       addRoute({
         ...jobRoute,
         exact: true,
-        path: jobRoute.basePath + job.id,
+        path: localePrefix + jobRoute.basePath + job.id,
         modules: {
           job: await createData(`job-${job.id}.json`, JSON.stringify(job)),
         },
@@ -50,6 +55,7 @@ module.exports = (
     addRoute({
       ...jobsOverviewRoute,
       exact: true,
+      path: localePrefix + jobsOverviewRoute.path,
       modules: {
         jobs: await createData(`jobs.json`, JSON.stringify(jobsData)),
       },

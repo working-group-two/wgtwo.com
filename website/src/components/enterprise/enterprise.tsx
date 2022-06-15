@@ -9,6 +9,7 @@ import {
   Slack,
   Laptop2,
 } from "lucide-react"
+import Translate from "@docusaurus/Translate"
 
 function Component() {
   return (
@@ -17,9 +18,14 @@ function Component() {
         <div className={common.centeredText}>
           <h2 className={common.title}>Your next generation core</h2>
           <div className={common.subtitle}>
-            <b>wgtwo</b> core offers the full set of capabilities related to
-            authentication, provisioning, voice, messaging and data services -
-            transforming your existing business to the next level.
+            <Translate
+              id="home.enterprise.subtitle"
+              description="Subtitle for the enterprise section"
+            >
+              wgtwo core offers the full set of capabilities related to
+              authentication, provisioning, voice, messaging and data services -
+              transforming your existing business to the next level.
+            </Translate>
           </div>
         </div>
       </div>
@@ -31,8 +37,13 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Data</div>
             <div className={styles.featureDescription}>
-              Fast, secure, geo-region, and reliable data connections serving
-              all of your subscriber's requirements.
+              <Translate
+                id="home.enterprise.data.description"
+                description="Description for the data feature"
+              >
+                Fast, secure, geo-region, and reliable data connections serving
+                all of your subscriber's requirements.
+              </Translate>
             </div>
           </div>
           <div className={styles.feature}>
@@ -41,7 +52,12 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Messaging</div>
             <div className={styles.featureDescription}>
-              SMS, MMS traffic and serving secure voicemail.
+              <Translate
+                id="home.enterprise.messaging.description"
+                description="Description for the messaging feature"
+              >
+                SMS, MMS traffic and serving secure voicemail.
+              </Translate>
             </div>
           </div>
           <div className={styles.feature}>
@@ -50,7 +66,12 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Voice</div>
             <div className={styles.featureDescription}>
-              Reliable voice SIP traffic across 2G, 3G, 4G (VoLTE).
+              <Translate
+                id="home.enterprise.voice.description"
+                description="Description for the voice feature"
+              >
+                Reliable voice SIP traffic across 2G, 3G, 4G (VoLTE).
+              </Translate>
             </div>
           </div>
           <div className={styles.feature}>
@@ -59,7 +80,12 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Connectivity</div>
             <div className={styles.featureDescription}>
-              Secure authentication and provisioning SIM cards.
+              <Translate
+                id="home.enterprise.connectivity.description"
+                description="Description for the connectivity feature"
+              >
+                Secure authentication and provisioning SIM cards.
+              </Translate>
             </div>
           </div>
           <div className={styles.feature}>
@@ -68,8 +94,13 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Console</div>
             <div className={styles.featureDescription}>
-              Provision new subscribers, enable new features, customer service
-              requests.
+              <Translate
+                id="home.enterprise.console.description"
+                description="Description for the console feature"
+              >
+                Provision new subscribers, enable new features, customer service
+                requests.
+              </Translate>
             </div>
           </div>
           <div className={styles.feature}>
@@ -78,7 +109,12 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>Support</div>
             <div className={styles.featureDescription}>
-              24/7 Level 3 Support.
+              <Translate
+                id="home.enterprise.support.description"
+                description="Description for the support feature"
+              >
+                24/7 Level 3 Support.
+              </Translate>
             </div>
           </div>
         </div>

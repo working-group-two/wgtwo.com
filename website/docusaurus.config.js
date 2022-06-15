@@ -11,6 +11,15 @@ module.exports = {
   projectName: "wgtwo.com",
   deploymentBranch: "gh-pages",
   trailingSlash: "true",
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "jp"],
+    localeConfigs: {
+      jp: {
+        label: "日本語",
+      },
+    },
+  },
   themeConfig: {
     metadata: [
       {
@@ -90,14 +99,14 @@ module.exports = {
     },
     footer: {
       style: "dark",
+      logo: {
+        alt: "wgtwo Logo",
+        src: "img/logo_white.svg",
+        href: "/",
+        width: "191px",
+        height: "32px",
+      },
       links: [
-        {
-          items: [
-            {
-              html: `<a href="/"><img alt="wgtwo Logo" src="/img/logo_white.svg" width="281px" height="32px" class="footer-logo" /></a>`,
-            },
-          ],
-        },
         {
           title: "Product",
           items: [
@@ -145,7 +154,7 @@ module.exports = {
             },
             {
               label: "gk.wgtwo.com 合同会社",
-              href: "https://gk.wgtwo.com",
+              href: "https://www.wgtwo.com/jp",
             },
           ],
         },

@@ -3,6 +3,7 @@ import styles from "./logs.module.css"
 import common from "../../css/common.module.css"
 import Image from "@theme/IdealImage"
 import Link from "@docusaurus/Link"
+import Translate from "@docusaurus/Translate"
 
 function Component() {
   return (
@@ -14,9 +15,14 @@ function Component() {
             <br /> operator console
           </h2>
           <div className={common.subtitle}>
-            Telecom operators on the <b>wgtwo</b> platform are able to configure
-            their own subscriptions, giving them the freedom to add the products
-            that meet their needs.
+            <Translate
+              id="home.logs.subtitle"
+              description="Subtitle for the logs section"
+            >
+              Telecom operators on the wgtwo platform are able to configure
+              their own subscriptions, giving them the freedom to add the
+              products that meet their needs.
+            </Translate>
           </div>
           <div className={styles.buttons}>
             <Link

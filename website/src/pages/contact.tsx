@@ -6,6 +6,8 @@ import message from "../util/message"
 import { Calendar, HelpCircle, Mail, Building } from "lucide-react"
 import Link from "@docusaurus/Link"
 import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
+import Translate, { translate } from "@docusaurus/Translate"
+import { useLocation } from "@docusaurus/router"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -23,13 +25,28 @@ function Contact() {
           <div className={common.container}>
             <div className={common.centeredText}>
               <div className={common.title}>
-                Get in touch,
+                <Translate
+                  id="contact.title1"
+                  description="Title for the first line of the contact section"
+                >
+                  Get in touch,
+                </Translate>
                 <br />
-                we love to chat.
+                <Translate
+                  id="contact.title2"
+                  description="Title for the second line of the contact section"
+                >
+                  we love to chat.
+                </Translate>
               </div>
               <div className={common.subtitle}>
                 <br />
-                Questions, feature requests, and ideas welcome!
+                <Translate
+                  id="contact.subtitle"
+                  description="Subtitle for the contact section"
+                >
+                  Questions, feature requests, and ideas welcome!
+                </Translate>
               </div>
             </div>
           </div>
@@ -52,16 +69,38 @@ function Contact() {
 
           <div className={common.container}>
             <div className={styles.form}>
-              <input ref={form.company} placeholder="Company" />
-              <input ref={form.email} placeholder="Work email address" />
+              <input
+                ref={form.company}
+                placeholder={translate({
+                  message: "Company",
+                  id: "contact.form.company",
+                  description: "Placeholder for the company field",
+                })}
+              />
+              <input
+                ref={form.email}
+                placeholder={translate({
+                  message: "Work email address",
+                  id: "contact.form.email",
+                  description: "Placeholder for the email field",
+                })}
+              />
               <input
                 ref={form.name}
-                placeholder="Name"
+                placeholder={translate({
+                  message: "Name",
+                  id: "contact.form.name",
+                  description: "Placeholder for the name field",
+                })}
                 className={styles.span2}
               />
               <textarea
                 ref={form.message}
-                placeholder="Your message"
+                placeholder={translate({
+                  message: "Your message",
+                  id: "contact.form.message",
+                  description: "Placeholder for the message field",
+                })}
                 className={styles.span2}
               />
               <button
@@ -69,7 +108,12 @@ function Contact() {
                 onClick={() => sendMessage()}
                 className={`${common.button} ${common.buttonPrimary} ${styles.span2}`}
               >
-                Send message
+                <Translate
+                  id="contact.form.button"
+                  description="Button for the contact form"
+                >
+                  Send message
+                </Translate>
               </button>
             </div>
           </div>
