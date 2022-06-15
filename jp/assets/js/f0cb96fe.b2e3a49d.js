@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[564],{2940:function(a){a.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/hackathon","name":"hackathon","count":1,"permalink":"/jp/blog/tags/hackathon"}')}}]);

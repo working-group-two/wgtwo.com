@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b1d80bf1-400d-48e7-8d96-f4f9d95f39cb" x1="229.91" y1="426.57" x2="229.91" y2="426.57" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009da5"/>
+      <stop offset="1" stop-color="#2a4292"/>
+    </linearGradient>
+  </defs>
+  <path class="be1d7996-9d2d-4228-835a-33a22dca5001" d="M257.25,401.71a2.42,2.42,0,0,0-2.1-1.22H238.31a2.41,2.41,0,0,0-2.09,1.21l-14.77,25.57-12.59-22H220.1l5.27,9.22,2.89-4.71-4.65-8.13a2.43,2.43,0,0,0-2.11-1.22H204.68a2.43,2.43,0,0,0-2.11,3.63l16.77,29.26a2.43,2.43,0,0,0,2.1,1.22h0a2.41,2.41,0,0,0,2.09-1.21l16.17-28H251l-12.68,21.93-3.93-6.86-2.89,4.71,4.7,8.21a2.44,2.44,0,0,0,2.1,1.22h0a2.41,2.41,0,0,0,2.09-1.21l16.9-29.21A2.43,2.43,0,0,0,257.25,401.71Z" transform="matrix(1, 0, 0, 1, -61.736484, -41.259503)"/>
+  <path class="aae8a3bc-53a7-4da6-934d-3eb6b86b3368" d="M229.91,426.57" style="stroke: url(#b1d80bf1-400d-48e7-8d96-f4f9d95f39cb); stroke-linecap: round; stroke-linejoin: round; stroke-width: 5.5px;" transform="matrix(1, 0, 0, 1, -61.736484, -41.259503)"/>
+  <path class="be1d7996-9d2d-4228-835a-33a22dca5001" d="M 268.15 411.4 L 268.53 410.88 L 268.15 411.4 Z" transform="matrix(1, 0, 0, 1, -61.736484, -41.259503)"/>
+</svg>

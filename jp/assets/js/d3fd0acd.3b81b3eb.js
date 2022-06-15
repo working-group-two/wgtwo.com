@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8613],{5082:function(e){e.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/e-pdg","name":"ePDG","count":1,"permalink":"/jp/blog/tags/e-pdg"}')}}]);

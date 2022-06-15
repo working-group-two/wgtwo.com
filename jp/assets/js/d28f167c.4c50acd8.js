@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7362],{7636:function(g){g.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/grpc","name":"grpc","count":1,"permalink":"/jp/blog/tags/grpc"}')}}]);

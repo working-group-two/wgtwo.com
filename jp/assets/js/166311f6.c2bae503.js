@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2333],{4490:function(g){g.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/nginx","name":"nginx","count":1,"permalink":"/jp/blog/tags/nginx"}')}}]);

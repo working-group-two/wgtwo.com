@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9949],{8824:function(e){e.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/managed-services","name":"managed services","count":1,"permalink":"/jp/blog/tags/managed-services"}')}}]);

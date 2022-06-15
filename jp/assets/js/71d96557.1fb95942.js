@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[808],{8635:function(s){s.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/ecosystem","name":"ecosystem","count":1,"permalink":"/jp/blog/tags/ecosystem"}')}}]);

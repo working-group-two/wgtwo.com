@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7986],{2984:function(e){e.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/frontend","name":"frontend","count":1,"permalink":"/jp/blog/tags/frontend"}')}}]);

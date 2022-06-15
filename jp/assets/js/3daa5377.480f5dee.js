@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7864],{3995:function(e){e.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/prometheus","name":"prometheus","count":1,"permalink":"/jp/blog/tags/prometheus"}')}}]);
