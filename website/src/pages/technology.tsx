@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "@theme/Layout"
 import styles from "./technology.module.css"
 import common from "../css/common.module.css"
@@ -9,6 +9,8 @@ import Ourservice from "../components/ourservice/ourservice"
 import contact from "./contact.module.css"
 import message from "../util/message"
 import Link from "@docusaurus/Link"
+import { translate } from "@docusaurus/Translate"
+import { validEmail } from "../util/helpers"
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
@@ -18,6 +20,34 @@ let form = {
 }
 
 function Index() {
+  const [formError, setFormError] = useState("")
+
+  function sendMessage() {
+    setFormError("")
+
+    if (!validEmail(form.email.current.value)) {
+      setFormError(
+        translate({
+          message: "Email address is invalid",
+          id: "contact.form.invalidEmail",
+          description: "Error message when the email address is invalid",
+        })
+      )
+      return
+    }
+
+    message(
+      `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
+    )
+
+    form.name.current.disabled = true
+    form.email.current.disabled = true
+    form.message.current.disabled = true
+
+    form.button.current.innerText = "New Case Study Submitted!"
+    form.button.current.disabled = true
+  }
+
   return (
     <Layout title="Technology">
       <div className={common.page}>
@@ -245,7 +275,11 @@ function Index() {
             </div>
             <div className={contact.form}>
               <input ref={form.name} placeholder="Name" />
-              <input ref={form.email} placeholder="Email address" />
+              <input
+                className={formError && contact.hasError}
+                ref={form.email}
+                placeholder="Email address"
+              />
               <input
                 ref={form.message}
                 placeholder="Message"
@@ -258,6 +292,9 @@ function Index() {
               >
                 Submit your message
               </button>
+              {formError && (
+                <div className={contact.formError}>{formError}</div>
+              )}
             </div>
           </div>
         </div>
@@ -276,19 +313,6 @@ function Yes() {
       <Check color="#4CAF50" />
     </div>
   )
-}
-
-function sendMessage() {
-  message(
-    `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
-  )
-
-  form.name.current.disabled = true
-  form.email.current.disabled = true
-  form.message.current.disabled = true
-
-  form.button.current.innerText = "New Case Study Submitted!"
-  form.button.current.disabled = true
 }
 
 export default Index
