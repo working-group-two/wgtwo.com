@@ -11,7 +11,7 @@ Our global mobile core platform is rapidly evolving. Here's what we're building 
 <!--truncate-->
 
 ### Action on the platform
-* We’ve completed end-to-end testing for 5G Standalone (5G SA) - both for large scale MNOs as well as for Fixed Wireless Access and Private Networks. Our as-a-service model and programmable core capabilities allow for high performance, operational simplicity and reduced costs for 5G SA.
+* We’ve completed end-to-end testing for **5G Standalone** (5G SA) - both for large scale MNOs as well as for Fixed Wireless Access and Private Networks. Our as-a-service model and programmable core capabilities allow for high performance, operational simplicity and reduced costs for 5G SA.
  
 * **5G Non-Standalone** (5G NSA) is in production. NSA makes it easier for operators to deploy a 5G network - because they can reuse current 4G facilities. Together with 2G/3G full-MVNO/national roaming capabilities and full 4G/5G capabilities operators can now get a “G-neutral” core network.
  
