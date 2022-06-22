@@ -31,7 +31,7 @@ We’ve completed end-to-end testing for **5G Standalone** (5G SA) - both for la
 
 We have developed interfaces that enable **real-time online charging control** (Gy/Ro) and have gone live with this capability with our first OCS/BSS partners.
  
-Want to control content? This spring, we enabled **content filtering** on our platform, providing control on a per-subscriber basis. The integration uses the Internet Content Adaptation Protocol ([ICAP])(https://en.wikipedia.org/wiki/Internet_Content_Adaptation_Protocol) for inspecting HTTP-based traffic and DNS-based filtering of data traffic. This system can be used for everything from parental control to enforcing corporate policies.
+Want to control content? This spring, we enabled **content filtering** on our platform, providing control on a per-subscriber basis. The integration uses the Internet Content Adaptation Protocol [(ICAP)](https://en.wikipedia.org/wiki/Internet_Content_Adaptation_Protocol) for inspecting HTTP-based traffic and DNS-based filtering of data traffic. This system can be used for everything from parental control to enforcing corporate policies.
 
 
 ### Voice is on your lips
