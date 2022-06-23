@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/blog</id>
     <title>Working Group Two Blog</title>
-    <updated>2022-06-09T00:00:00.000Z</updated>
+    <updated>2022-06-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/blog"/>
     <subtitle>Working Group Two Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[What we're building on the platform right now: 5GSA, 5GNSA, OCS, content filtering, VoNR, VoLTE on sXGP, VoLTE roaming, support for PBX from Telavox... and more ]]></title>
+        <id>what-we-build-right-now-june22</id>
+        <link href="https://www.wgtwo.com/blog/what-we-build-right-now-june22"/>
+        <updated>2022-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our global mobile core platform is rapidly evolving. Here's what the team is building right now.]]></summary>
+        <content type="html"><![CDATA[<p>Our global mobile core platform is rapidly evolving. Here's what the team is building right now.</p><p><img alt="Working Group Two team talking" src="/assets/images/teamtalking-1530b6b8a315a1aae2916a742cb523ba.jpg" width="500" height="270"></p><h3 class="anchor anchorWithStickyNavbar_mojV" id="action-on-the-platform">Action on the platform<a class="hash-link" href="#action-on-the-platform" title="Direct link to heading">​</a></h3><p>We’ve completed end-to-end testing for <strong>5G Standalone</strong> (5G SA) - both for large scale MNOs as well as for Fixed Wireless Access and Private Networks. Our as-a-service model and programmable core capabilities allow for high performance, operational simplicity and reduced costs for 5G SA.</p><p><strong>5G Non-Standalone</strong> (5G NSA) is in production. NSA makes it easier for operators to deploy a 5G network - because they can reuse current 4G facilities. Together with 2G/3G full-MVNO/national roaming capabilities and full 4G/5G capabilities operators can now get a “G-neutral” core network.</p><p><strong>Telavox</strong>, a leading UCaaS provider from the Nordics, is now live on the Working Group Two platform - which means that we have integrated their mobile unified comms technology and PBX on our platform via an API. <a href="https://telavox.com" target="_blank" rel="noopener noreferrer">Telavox</a> is known for an excellent user experience and a strong feature set and we believe they are one of the most attractive global providers of UCaaS and PBX services.</p><img width="40%" align="right" style="display:block;margin:auto 10px" src="/d2cbfb2b2ba5308f9477d1a88cc2337d.jpg"><p>We have developed interfaces that enable <strong>real-time online charging control</strong> (Gy/Ro) and have gone live with this capability with our first OCS/BSS partners.</p><p>Want to control content? This spring, we enabled <strong>content filtering</strong> on our platform, providing control on a per-subscriber basis. The integration uses the Internet Content Adaptation Protocol <a href="https://en.wikipedia.org/wiki/Internet_Content_Adaptation_Protocol" target="_blank" rel="noopener noreferrer">(ICAP)</a> for inspecting HTTP-based traffic and DNS-based filtering of data traffic. This system can be used for everything from parental control to enforcing corporate policies.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="voice-is-on-your-lips">Voice is on your lips<a class="hash-link" href="#voice-is-on-your-lips" title="Direct link to heading">​</a></h3><p>Voice continues to be relevant across “Gs”, usage areas and handset types. With our unique approach, we can rapidly adapt our voice stack to emerging needs - such as:</p><p>Enabling voice for <strong>5G Standalone</strong> (VoNR) is in the works. We see the strong effects of taking a platform approach, where adding VoNR becomes a relatively straightforward exercise.</p><p>We continue getting our <strong>IMS stack certified for an increasing number of handsets</strong> across several markets and operator codes. We can see the effects of our platform approach here as well, where each device, operator and market becomes easier. A new operator on the platform can with confidence know that certifications will be passed and carrier bundles issued.</p><img width="40%" align="right" style="display:block;margin:auto 10px" src="/43428765d54f8e22487a1fbeac67cd13.jpg"><p>In <strong>Japan</strong> we have a fantastic demo where the customer can plug in a base station, and minutes later be able to make VoLTE calls between devices in a private network setting. Japan has for a long time had what they call sXGP (a standard for unlicensed 4G  spectrum). At Working Group Two we are building a complete private network solution that in addition to data, also includes includes communication services.</p><p>We’re <strong>rolling out VoLTE roaming</strong> with a major IoT player. Voice might not be the biggest business area for IoT, but without it, many IoT players will struggle to satisfy customer demands. We can offer speed, simplicity and affordability for operators that require VoLTE-as-a-service.</p>]]></content>
+        <author>
+            <name>Tor Odland</name>
+            <uri>https://www.linkedin.com/in/torodland/</uri>
+        </author>
+        <category label="saas" term="saas"/>
+        <category label="operators" term="operators"/>
+        <category label="5g" term="5g"/>
+        <category label="ocs" term="ocs"/>
+        <category label="vonr" term="vonr"/>
+        <category label="volte" term="volte"/>
+        <category label="pbx" term="pbx"/>
+        <category label="building-now" term="building-now"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The business case for not needing a business case]]></title>
         <id>no-need-for-a-business-case</id>
