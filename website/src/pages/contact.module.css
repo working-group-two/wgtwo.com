@@ -26,6 +26,17 @@
   min-height: 100px;
 }
 
+.form input.hasError {
+  border-color: #e22;
+  box-shadow: inset 0 0 0 2px #e22;
+}
+
+.formError {
+  color: #e22;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .contactMethods {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

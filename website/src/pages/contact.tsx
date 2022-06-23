@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "@theme/Layout"
 import common from "../css/common.module.css"
 import styles from "./contact.module.css"
@@ -7,7 +7,7 @@ import { Calendar, HelpCircle, Mail, Building } from "lucide-react"
 import Link from "@docusaurus/Link"
 import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 import Translate, { translate } from "@docusaurus/Translate"
-import { useLocation } from "@docusaurus/router"
+import { validEmail } from "../util/helpers"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -18,6 +18,35 @@ let form = {
 }
 
 function Contact() {
+  const [formError, setFormError] = useState("")
+
+  function sendMessage() {
+    setFormError("")
+
+    if (!validEmail(form.email.current.value)) {
+      setFormError(
+        translate({
+          message: "Email address is invalid",
+          id: "contact.form.invalidEmail",
+          description: "Error message when the email address is invalid",
+        })
+      )
+      return
+    }
+
+    message(
+      `Message from wgtwo.com/contact\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
+    )
+
+    form.name.current.disabled = true
+    form.email.current.disabled = true
+    form.company.current.disabled = true
+    form.message.current.disabled = true
+
+    form.button.current.innerText = "Message Sent!"
+    form.button.current.disabled = true
+  }
+
   return (
     <Layout title="Contact Us">
       <div className={common.page}>
@@ -78,6 +107,7 @@ function Contact() {
                 })}
               />
               <input
+                className={formError && styles.hasError}
                 ref={form.email}
                 placeholder={translate({
                   message: "Work email address",
@@ -115,6 +145,7 @@ function Contact() {
                   Send message
                 </Translate>
               </button>
+              {formError && <div className={styles.formError}>{formError}</div>}
             </div>
           </div>
         </div>
@@ -123,20 +154,6 @@ function Contact() {
       </div>
     </Layout>
   )
-}
-
-function sendMessage() {
-  message(
-    `Message from wgtwo.com/contact\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
-  )
-
-  form.name.current.disabled = true
-  form.email.current.disabled = true
-  form.company.current.disabled = true
-  form.message.current.disabled = true
-
-  form.button.current.innerText = "Message Sent!"
-  form.button.current.disabled = true
 }
 
 export default Contact
