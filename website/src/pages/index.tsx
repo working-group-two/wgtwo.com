@@ -12,6 +12,7 @@ import Integrations from "../components/integrations/integrations"
 import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 import CaseStudies from "../components/casestudy/casestudy"
 import CTA from "../components/cta/cta"
+import CompanyProfile from "../components/company-profile/company-profile"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Index() {
@@ -30,6 +31,7 @@ function Index() {
         <NewsletterSignup hidden={i18n.currentLocale !== "en"} />
         <CaseStudies />
         <CTA />
+        {i18n.currentLocale === "jp" && <CompanyProfile />}
       </div>
     </Layout>
   )
