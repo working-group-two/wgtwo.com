@@ -31,7 +31,7 @@ const caseStudies = [
     ),
   },
   {
-    name: "Small Operators",
+    name: "Mobile Network Operators",
     description: (
       <Translate
         id="home.casestudy.smalloperators.description"
