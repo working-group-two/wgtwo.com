@@ -7,8 +7,6 @@ authors: [noy]
 ---
 We love making telecom easier and scalable. This week we’ve released [SIP Breakout](https://v1.docs.wgtwo.com/guide/sipbreakout/v1/how-to-use-sipbreakout-api.html#prerequisites), a new public API from Working Group Two. It simplifies the process of deploying SIP-enabled services, such as a PBX.
 
-[Telavox](https://telavox.com)
-
 ![Abundance of fruit in market stall](./fruit-landscape.png)
 
 <!--truncate-->
