@@ -1,8 +1,10 @@
 import React from "react"
 import styles from "./hero.module.css"
 import common from "../../css/common.module.css"
+import celltowerstyle from "./celltower.module.css"
 import Translate from "@docusaurus/Translate"
 import Link from "@docusaurus/Link"
+import CellTowerSvg from "./celltower-svg/celltower-svg"
 
 function Component() {
   return (
@@ -37,6 +39,9 @@ function Component() {
               Request a Demo
             </Link>
           </div>
+        </div>
+        <div>
+          <CellTowerSvg />
         </div>
       </div>
     </div>

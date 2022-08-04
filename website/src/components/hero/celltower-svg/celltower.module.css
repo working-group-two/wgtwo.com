@@ -1,0 +1,102 @@
+.celltower-svg {
+  --line-color: #27343a;
+  --wave-color: #b3e5fc;
+  --thickness-wave-1: 1.8267;
+  --thickness-wave-2: 3;
+  --thickness-wave-3: 4.16159;
+
+  min-height: 300px;
+}
+
+.celltower-svg :global(#waves) {
+  border: 5px solid blue !important;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-opacity: 1;
+  display: inline;
+  fill: none;
+  paint-order: normal;
+}
+
+.celltower-svg :global(#w1) {
+  stroke: var(--wave-color);
+  stroke-width: var(--thickness-wave-1);
+}
+
+.celltower-svg :global(#w2) {
+  stroke: var(--wave-color);
+  stroke-width: var(--thickness-wave-2);
+}
+
+.celltower-svg :global(#w3) {
+  stroke: var(--wave-color);
+  stroke-width: var(--thickness-wave-3);
+}
+
+.celltower-svg :global(#wave_l1) {
+  opacity: 0;
+  transform: translate(5px, -4px);
+  animation: wave-anim-left 3s ease forwards infinite;
+  animation-delay: 0s;
+}
+
+.celltower-svg :global(#wave_l2) {
+  opacity: 0;
+  transform: translate(5px, -4px);
+  animation: wave-anim-left 3s ease forwards infinite;
+  animation-delay: 500ms;
+}
+
+.celltower-svg :global(#wave_l3) {
+  opacity: 0;
+  transform: translate(5px, -4px);
+  animation: wave-anim-left 3s ease forwards infinite;
+  animation-delay: 1000ms;
+}
+
+.celltower-svg :global(#wave_r1) {
+  opacity: 0;
+  transform: matrix(-1, 0, 0, 1, 206.43, -4);
+  animation: wave-anim-right 3s ease forwards infinite;
+  animation-delay: 0s;
+}
+
+.celltower-svg :global(#wave_r2) {
+  opacity: 0;
+  transform: matrix(-1, 0, 0, 1, 206.43, -4);
+  animation: wave-anim-right 3s ease forwards infinite;
+  animation-delay: 500ms;
+}
+
+.celltower-svg :global(#wave_r3) {
+  opacity: 0;
+  transform: matrix(-1, 0, 0, 1, 206.43, -4);
+  animation: wave-anim-right 3s ease forwards infinite;
+  animation-delay: 1000ms;
+}
+
+@keyframes wave-anim-left {
+  50% {
+    transform: translate(3px, -4px);
+    opacity: 1;
+  }
+
+  70%,
+  100% {
+    transform: translate(0px, -4px);
+    opacity: 0;
+  }
+}
+
+@keyframes wave-anim-right {
+  50% {
+    transform: matrix(-1, 0, 0, 1, 208.43, -4);
+    opacity: 1;
+  }
+
+  70%,
+  100% {
+    transform: matrix(-1, 0, 0, 1, 211.43, -4);
+    opacity: 0;
+  }
+}
