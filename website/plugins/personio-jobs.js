@@ -7,7 +7,7 @@ module.exports = (
   { i18n },
   {
     jobsXMLPath = path.resolve(__dirname, "../personio-jobs.xml"),
-    jobsXMLURL = "https://wgtwo-jobs.personio.de/xml",
+    jobsXMLURL = "https://wgtwo.jobs.personio.de/xml",
     jobRoute,
     jobsOverviewRoute,
   }
