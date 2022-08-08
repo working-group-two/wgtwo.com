@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2626],{6509:function(e){e.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/rebar-3","name":"rebar3","count":1,"permalink":"/jp/blog/tags/rebar-3"}')}}]);

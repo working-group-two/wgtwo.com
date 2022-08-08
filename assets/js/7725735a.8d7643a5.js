@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3464],{83046:function(e){e.exports=JSON.parse('{"label":"manual-on-me","permalink":"/blog/tags/manual-on-me","allTagsPath":"/blog/tags","count":1}')}}]);

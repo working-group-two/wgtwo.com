@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5423],{60383:function(e){e.exports=JSON.parse('{"label":"CICD","permalink":"/jp/blog/tags/cicd","allTagsPath":"/jp/blog/tags","count":1}')}}]);

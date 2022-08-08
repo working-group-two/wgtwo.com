@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8392],{61709:function(e){e.exports=JSON.parse('{"label":"core-network","permalink":"/blog/tags/core-network","allTagsPath":"/blog/tags","count":2}')}}]);

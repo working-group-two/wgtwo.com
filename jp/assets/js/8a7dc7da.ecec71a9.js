@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9178],{437:function(g){g.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/building-now","name":"building-now","count":1,"permalink":"/jp/blog/tags/building-now"}')}}]);

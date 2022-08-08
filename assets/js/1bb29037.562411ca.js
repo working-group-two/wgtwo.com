@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[946],{51531:function(s){s.exports=JSON.parse('{"label":"dns","permalink":"/blog/tags/dns","allTagsPath":"/blog/tags","count":1}')}}]);

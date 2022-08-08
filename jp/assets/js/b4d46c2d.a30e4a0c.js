@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5154],{29165:function(a){a.exports=JSON.parse('{"label":"kafka","permalink":"/jp/blog/tags/kafka","allTagsPath":"/jp/blog/tags","count":1}')}}]);

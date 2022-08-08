@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4419],{78543:function(e){e.exports=JSON.parse('{"label":"mki","permalink":"/blog/tags/mki","allTagsPath":"/blog/tags","count":1}')}}]);

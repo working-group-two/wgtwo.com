@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9274],{17373:function(s){s.exports=JSON.parse('{"label":"CSS","permalink":"/blog/tags/css","allTagsPath":"/blog/tags","count":1}')}}]);

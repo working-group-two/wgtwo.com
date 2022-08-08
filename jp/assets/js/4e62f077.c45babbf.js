@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2525],{3605:function(g){g.exports=JSON.parse('{"allTagsPath":"/jp/blog/tags","slug":"/jp/blog/tags/coding","name":"coding","count":1,"permalink":"/jp/blog/tags/coding"}')}}]);

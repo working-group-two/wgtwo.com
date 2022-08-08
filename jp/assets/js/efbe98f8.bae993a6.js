@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5786],{9955:function(e){e.exports=JSON.parse('{"label":"press release","permalink":"/jp/blog/tags/press-release","allTagsPath":"/jp/blog/tags","count":2}')}}]);

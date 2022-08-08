@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1371],{5342:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/app-ecosystem","name":"app-ecosystem","count":2,"permalink":"/blog/tags/app-ecosystem"}')}}]);

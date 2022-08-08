@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5382],{90997:function(e){e.exports=JSON.parse('{"label":"voicemail","permalink":"/jp/blog/tags/voicemail","allTagsPath":"/jp/blog/tags","count":3}')}}]);
