@@ -24,7 +24,7 @@ export default ({ jobs }) => (
     <Head>
       <link
         rel="preload"
-        href="https://wgtwo-jobs.personio.de/xml"
+        href="https://wgtwo.jobs.personio.de/xml"
         as="fetch"
         crossOrigin="anonymous"
       />

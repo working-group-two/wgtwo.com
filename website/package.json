@@ -10,7 +10,7 @@
     "serve": "docusaurus serve",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "fetch-personio-jobs": "curl https://wgtwo-jobs.personio.de/xml -o personio-jobs.xml"
+    "fetch-personio-jobs": "curl https://wgtwo.jobs.personio.de/xml -o personio-jobs.xml"
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.10.0",
