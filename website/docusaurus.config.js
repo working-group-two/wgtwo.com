@@ -44,10 +44,6 @@ module.exports = {
     ],
     colorMode: {
       disableSwitch: true,
-      switchConfig: {
-        darkIcon: " ",
-        lightIcon: " ",
-      },
     },
     prism: {
       additionalLanguages: ["promql", "protobuf"],
