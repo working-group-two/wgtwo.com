@@ -164,3 +164,20 @@ $  tree -d -L 4
 Commit to main branch -> github action to perform `yarn build` -> website deployed to `gh-pages` branch
 
 All PRs are also tested with a github action.
+
+## Upgrading the site 
+It is good to keep the site updated to ensure we get the latest features from docusaurus and to ensure the site stays secure from vulnerabilities. 
+
+Upgrading the dependencies and docusaurus core platform
+```
+cd website
+yarn upgrade @docusaurus/core@latest @docusaurus/plugin-client-redirects@latest @docusaurus/plugin-ideal-image@latest  @docusaurus/preset-classic@latest docusaurus-theme-classic@latest
+yarn upgrade
+```
+
+Resolve upgrade errors and test locally:
+Then we need to test to make sure the website still builds. Because of upgrading we might come into some errors. 
+```
+yarn build
+yarn run serve
+```
