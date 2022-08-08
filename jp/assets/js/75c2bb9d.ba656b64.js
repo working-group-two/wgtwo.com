@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[230],{75485:function(e){e.exports=JSON.parse('{"title":"Software Engineer - Media Processing","subtitle":"Permanent employee, full-time - Sweden","id":"261072","jobDescriptions":[]}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5502],{44519:function(e){e.exports=JSON.parse('{"title":"Frontend Developer with a good eye for design - Product Team","subtitle":"Permanent employee, full-time - Norway, Oslo","id":"592326","jobDescriptions":[]}')}}]);
