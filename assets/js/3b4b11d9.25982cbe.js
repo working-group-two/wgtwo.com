@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1570],{17979:function(e){e.exports=JSON.parse('{"title":"Software Engineer","subtitle":"Permanent employee, full-time - Sweden","id":"139167","jobDescriptions":[]}')}}]);
