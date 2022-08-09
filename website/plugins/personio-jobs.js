@@ -31,7 +31,7 @@ module.exports = (
         p.querySelector("schedule").innerHTML
       } - ${p.querySelector("office").innerHTML}`,
       id: p.querySelector("id").innerHTML,
-      jobDescriptions: Array.from(p.querySelectorAll("jobDescription")).map(
+      jobDescriptions: Array.from(p.querySelectorAll("jobdescription")).map(
         el => el.innerHTML
       ),
     }))
