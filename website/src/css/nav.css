@@ -75,13 +75,13 @@ html[data-theme="dark"] .menu {
 }
 
 .dsla-search-wrapper {
-  width: 47px;
+  width: 27px;
   height: 44px;
 }
 
 @media (max-width: 996px) {
   .dsla-search-wrapper {
-    margin-right: 48px;
+    margin-right: 24px;
   }
 }
 
@@ -92,7 +92,7 @@ html[data-theme="dark"] .menu {
 
 .navbar__toggle {
   position: absolute;
-  right: 24px;
+  right: 98px;
   margin: 0;
 }
 
