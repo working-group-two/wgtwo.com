@@ -157,6 +157,63 @@ AWS ──────╝</pre><br><br><br>You don’t have to know everything f
 
     
         <position>
+            <id>262020</id>
+                                        <office>Norway, Oslo</office>
+                                        <department>Ecosystem</department>
+                                        <recruitingCategory>Permanent Employee ENG</recruitingCategory>
+            
+            <name>Motivated Full-stack Developer</name>
+
+                            <jobDescriptions>
+                                                                    <jobDescription>
+                            <name>The team and your role </name>
+                            <value>
+<![CDATA[
+                                <strong><br></strong><p><strong>OUR VISION FOR THE FUTURE</strong></p><p>Up until now all mobile subscriptions have been the same, but we are changing this. People with a subscription from a Working Group Two powered mobile operator will soon enjoy a much richer set of features, and will be able to personalize their subscription by enabling products from our product marketplace. We will make this happen by enabling third party developers to create products that people love, and by helping operators distribute these products to their subscribers.</p><p>Our goal is to create a product ecosystem, which consists of three main components:</p><ul><li><p><strong>A developer portal: </strong>Enabling developers to use APIs and media streams for Messaging, Data, and Voice, and to submit their product to our marketplace. </p></li><li><p><strong>An operator marketplace:</strong> Allowing mobile operators to buy, manage, and distribute products to their subscribers.</p></li><li><strong>A subscriber marketplace:</strong> Letting mobile subscribers find, activate and launch the products they want to add to their subscription.<br><br></li></ul><p><strong>THE PRODUCT ECOSYSTEM TEAM</strong></p><p>The product ecosystem team as a whole consists of eight engineers, one product designer, one UX researcher, and one product owner. We’re a remote-friendly and distributed team with most members located in Trondheim, Norway, and all current members are within one hour of the CET timezone (UK, Denmark, France). We do daily morning stand ups, retros and 1:1s every other week, and backlog grooming when necessary. Other than that, we just work. We’re open to adjusting the way <br>we work if you have any suggestions that you think could make it better. </p><br><pre>Sketch
+Buefy ────╗
+Vue       ║
+REST      ║
+gRPC      ║
+Javalin   ║─── This position
+Jetty     ║
+Kotlin    ║
+JDBI      ║
+SQL ──────╝
+K8S
+AWS</pre>You don’t have to know everything from Buefy to SQL. Maybe you’ve worked with React instead of Vue, maybe you’re familiar with Tomcat but not Jetty? Picking up Kotlin should be doable if you know Java or C#. It’s not expected that you know our entire stack before you join, as long as you’re willing to learn (the stack might also change). We do, however, expect you to have some web backend and database experience.<br><br><br>
+]]>
+                            </value>
+                        </jobDescription>
+                                                                                            <jobDescription>
+                            <name>Our company culture</name>
+                            <value>
+<![CDATA[
+                                We’re a challenger in a well established multi-billion dollar industry. To succeed as a company, we need to deliver the high quality core services that subscribers are used to, while also adding value through the way that we operate. We believe our people and our culture will be a key differentiator in achieving this.<br><br>If you join us, you’ll get the trust and freedom needed to make a big impact in the telco industry. Since we’re solving telco problems in a modern way, we recruit from various industries and have people that used to work at Telenor, Google, Microsoft, and AWS. We promise that you’ll be surrounded by friendly, motivated and highly skilled coworkers. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together.<br><br>We’re a distributed company with offices in Oslo, Trondheim and Stockholm, a hub in Germany, as well as some remote colleagues in other locations (a total of 8 countries). We’ll pay for your phone and internet, as well as your lunch and office snacks. The Covid-19 pandemic forced a lot of companies to change how they think, but for us it confirmed that our remote-friendly and transparent approach goes a long way. We frequently host company wide activities online, like tech talks, demos, and failure fridays. This year we’ve replaced our quarterly offsites with online HackDays. We also have Monday-kick offs, virtual lunches and fikas, and online gaming groups to keep the workday fun.
+]]>
+                            </value>
+                        </jobDescription>
+                                                            </jobDescriptions>
+            
+                            <employmentType>permanent</employmentType>
+            
+                            <seniority>experienced</seniority>
+            
+                            <schedule>full-time</schedule>
+            
+                            <yearsOfExperience>5-7</yearsOfExperience>
+            
+            
+                            <occupation>software_and_system_architecture</occupation>
+            
+                            <occupationCategory>it_software</occupationCategory>
+            
+                            <createdAt>2020-10-01T12:28:14+00:00</createdAt>
+            
+        </position>
+
+
+    
+        <position>
             <id>182944</id>
                                         <office>Sweden</office>
                                         <department>Cloud and Edge Infrastructure</department>
