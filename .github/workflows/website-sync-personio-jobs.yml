@@ -28,3 +28,25 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
+      #--- start copy from website-deploy.yml
+      - uses: actions/cache@v2
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Build Website
+        run: |
+          cd website
+          yarn install && yarn prettier
+          if [ ! -n "$(git status --porcelain)" ]; then
+            yarn build
+            exit 0
+          fi
+          exit 1
+
+      - name: Deploy Website 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages
+          folder: website/build
+      #--- end copy from website-deploy.yml
