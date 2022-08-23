@@ -28,7 +28,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
-      #--- start copy from website.deploy.yml
+      #--- start copy from website-deploy.yml
       - uses: actions/cache@v2
         with:
           path: '**/node_modules'
@@ -49,4 +49,4 @@ jobs:
         with:
           branch: gh-pages
           folder: website/build
-      #--- end copy from website.deploy.yml
+      #--- end copy from website-deploy.yml
