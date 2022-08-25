@@ -45,12 +45,7 @@ function Index() {
 
               <div className={styles.price}>Create your API key today </div>
               <a
-                style={{
-                  backgroundColor: "#607D8B",
-                  border: "0",
-                  color: "#fff",
-                }}
-                className={common.button}
+                className={`${common.button} ${styles.altButton}`}
                 href="https://developer.wgtwo.com"
                 target="_self"
               >

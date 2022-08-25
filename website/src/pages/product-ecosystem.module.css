@@ -43,6 +43,16 @@
   margin-bottom: 16px;
 }
 
+.altButton {
+  background-color: #607D8B !important;
+  border: 0 !important;
+  color: #fff;
+}
+.altButton:hover {
+  background-color: #7d96a3 !important;
+  color: #fff;
+}
+
 .featureGrid {
   margin-top: 32px;
   margin-bottom: 96px;

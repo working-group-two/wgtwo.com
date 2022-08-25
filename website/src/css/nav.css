@@ -7,6 +7,7 @@
     margin-left: 16px;
     font-weight: 600;
     color: #000;
+    transition: background-color 150ms ease;
   }
 }
 
