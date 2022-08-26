@@ -156,12 +156,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 300ms ease-in-out;
+  transition: background-color 150ms ease;
+}
+.button:hover {
+  background-color: #e7e7e7;
 }
 
 .button.buttonPrimary {
   background-color: #263238;
   color: #fff;
+}
+.button.buttonPrimary:hover {
+  background-color: #495154;
 }
 
 .button.buttonPrimary:disabled {

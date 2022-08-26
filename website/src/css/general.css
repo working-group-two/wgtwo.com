@@ -120,3 +120,13 @@ svg[aria-hidden="true"] {
     font-weight: 600;
   }
 }
+
+/* Override Search Local Button */
+.aa-DetachedCancelButton {
+  transition: background 150ms ease, box-shadow 150ms ease;
+}
+
+.aa-DetachedCancelButton:hover {
+  background: #e7e7e7 !important;
+  box-shadow: none !important; /* negate default hover effect */
+}
