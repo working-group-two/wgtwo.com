@@ -73,13 +73,17 @@
 /* Results Screen */
 
 .fadeTransition {
-  animation-name:opacity;
-  animation-duration:1s;
-  animation-timing-function: cubic-bezier(1,.01,0,-0.08);
+  animation-name: opacity;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(1, 0.01, 0, -0.08);
 }
-@keyframes opacity{
-  0%{opacity:0;}
-  100%{opacity:1;}
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .loading {
@@ -108,7 +112,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.grayButton, .blueButton {
+.grayButton,
+.blueButton {
   flex-direction: column;
 }
 .grayButton {
@@ -119,12 +124,14 @@
   background-color: #dde9f5 !important;
   border: 1px solid gainsboro !important;
 }
-  .grayButton:hover, .blueButton:hover {
-    background-color: #ffffff !important;
-  }
-  .grayButton:active, .blueButton:active {
-    border: 1px solid #a3a3a3 !important;
-  }
+.grayButton:hover,
+.blueButton:hover {
+  background-color: #ffffff !important;
+}
+.grayButton:active,
+.blueButton:active {
+  border: 1px solid #a3a3a3 !important;
+}
 
 .contactSection {
   font-size: 1.2em;
