@@ -112,10 +112,10 @@ function Component() {
               </div>
             </div>
           </div>
-          <div className={styles.subheader} style={{fontWeight: 'bold'}}>
-            Welcome to the TechCoWannabeGenerator
-          </div>
-          <div className={common.container}>
+          <div className={`${common.container} ${styles.formContainer}`}>
+            <div className={`${styles.subheader} ${common.centeredText}`}>
+              Welcome to the TechCoWannabeGenerator
+            </div>
             <form className={styles.form} onSubmit={showResultsPage}>
               <input
                 ref={form.name}
