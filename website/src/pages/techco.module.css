@@ -155,3 +155,53 @@
 .footerSection blockquote a:hover {
   color: #006dd3;
 }
+
+/* Twitter-styled Headline */
+
+.twitterContainer {
+  max-width: 800px !important;
+  gap: 10px !important;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px #d8e1eb94;
+  border: 1px solid gainsboro;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.twitterHeader {
+  justify-content: space-around !important;
+  padding-top: 30px !important;
+  gap: 10px !important;
+}
+
+.avatarCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: grey;
+}
+
+.twitterUsernameBlock {
+  flex-grow: 1;
+}
+.twitterUsernameBlock > div:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.twitterUsernameBlock > div:first-child {
+  margin-top: -5px;
+}
+
+.twitterText {
+  font-size: 1.4em;
+  padding: 0px 30px;
+}
+
+.twitterButtons {
+  justify-content: space-around !important;
+  padding-bottom: 30px !important;
+}
+
+.blueText {
+  color: #00aaff;
+}
