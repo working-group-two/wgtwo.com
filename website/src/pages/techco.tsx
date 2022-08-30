@@ -5,7 +5,17 @@ import styles from "./techco.module.css"
 import common from "../css/common.module.css"
 import * as HeadlineDictionary from "../util/HeadlineDictionary"
 import Link from "@docusaurus/Link"
-import { Lightbulb, RotateCcw, Copy, Share2, Twitter, MessageCircle, Repeat, Heart, Share } from "lucide-react"
+import {
+  Lightbulb,
+  RotateCcw,
+  Copy,
+  Share2,
+  Twitter,
+  MessageCircle,
+  Repeat,
+  Heart,
+  Share,
+} from "lucide-react"
 import Image from "@theme/IdealImage"
 import LoadingImg from "../../static/img/spinning_gear.gif"
 
@@ -142,30 +152,33 @@ function Component() {
           className={`${common.page} ${styles.fadeTransition}`}
           style={{ background: "white" }}
         >
-          {sharingDisplay === false &&
+          {sharingDisplay === false && (
             <div className={common.container}>
               <h3 className={styles.headline}>{text}</h3>
             </div>
-          }
-          {sharingDisplay === true &&
+          )}
+          {sharingDisplay === true && (
             <div className={`${common.container} ${styles.twitterContainer}`}>
               <div className={`${common.container} ${styles.twitterHeader}`}>
                 <div className={styles.avatarCircle}></div>
                 <div className={styles.twitterUsernameBlock}>
-                  <div>{ formData.name }</div>
-                  <div>@{ formData.name }</div>
+                  <div>{formData.name}</div>
+                  <div>@{formData.name}</div>
                 </div>
                 <Twitter color="#008cff" />
               </div>
               <p className={styles.twitterText}>
-                So you wanna be a TechCo? Become one instantly with the headline generator 
-                from <span className={styles.blueText}>@workinggrouptwo</span>.
+                So you wanna be a TechCo? Become one instantly with the headline
+                generator from{" "}
+                <span className={styles.blueText}>@workinggrouptwo</span>.
                 <br />
                 Here's mine:
                 <br />
-                { text }
+                {text}
                 <br />
-                <span className={styles.blueText}>#TechCo #mobile #telcocloud #generator</span>
+                <span className={styles.blueText}>
+                  #TechCo #mobile #telcocloud #generator
+                </span>
               </p>
               <div className={`${common.container} ${styles.twitterButtons}`}>
                 <MessageCircle />
@@ -174,7 +187,7 @@ function Component() {
                 <Share />
               </div>
             </div>
-          }
+          )}
 
           <div className={common.container} style={{ marginBottom: "50px" }}>
             <div className={`${styles.form} ${styles.fourColumnGrid}`}>
