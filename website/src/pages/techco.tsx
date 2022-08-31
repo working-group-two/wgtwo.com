@@ -93,19 +93,19 @@ function Component() {
         <div className={common.page} style={{ marginBottom: "30px" }}>
           <div className={common.container}>
             <div className={common.centeredText}>
-              <div className={styles.header}>So you wanna be a TechCo?</div>
+              <div className={styles.header}>The Instant TechCo Generator</div>
               <br />
               <div className={styles.subtitle}>
-                Many telecom operators strive to become tech companies. The
-                journey might seem hard and arduous. It doesn’t have to be! Take
-                a shortcut with our TechCoWannabeGenerator. Create that perfect
+                Many telecom operators strive to work and operate like tech companies. The
+                journey might seem like a challenge. It doesn’t have to be! Take
+                a shortcut with our Instant TechCo Generator. Create that perfect
                 headline for your webpage, blog post or late-night tweet.
               </div>
             </div>
           </div>
           <div className={`${common.container} ${styles.formContainer}`}>
             <div className={`${styles.subheader} ${common.centeredText}`}>
-              Welcome to the TechCoWannabeGenerator
+              Welcome to The Instant TechCo Generator
             </div>
             <form className={styles.form} onSubmit={showResultsPage}>
               <input
@@ -244,6 +244,7 @@ function Component() {
             <div className={`${common.container} ${styles.footerSection}`}>
               <h2 className={common.centeredText}>
                 *What’s a TechCo anyway?
+                <br />
                 <br />
                 According to the folks over at STL Partners (an analyst
                 company), it’s:
