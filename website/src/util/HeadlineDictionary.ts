@@ -1,19 +1,11 @@
-/* DO NOT CHANGE ORDER OF ELEMENTS!!, add new ones at the end only.
-  Order is very important for shareable permalinks */
-
 export const actions = [
   "launches",
-  "partners",
   "acquires",
   "discovers",
   "introduces",
-  "joins forces with",
-  "raises",
   "accelerates",
   "integrates",
-  "wins",
   "unveils",
-  "awards",
 ]
 
 export const outcomes = [
@@ -24,7 +16,7 @@ export const outcomes = [
   "to gain innovation power",
   "to speed up time-to-market",
   "to radically simplify",
-  "to dominate the world 😈",
+  "to dominate the world",
 ]
 
 export const adjectives = [
