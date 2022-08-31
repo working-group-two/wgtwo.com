@@ -9,7 +9,6 @@ import {
   Lightbulb,
   RotateCcw,
   Copy,
-  Share2,
   Twitter,
   MessageCircle,
   Repeat,
@@ -20,6 +19,7 @@ import Image from "@theme/IdealImage"
 import LoadingImg from "../../static/img/spinning_gear.gif"
 
 function generateHeadline(name, action, outcome) {
+  // this can probably be moved outside the function:
   const adjectives = HeadlineDictionary.adjectives
   const nouns = HeadlineDictionary.nouns
   const endings = HeadlineDictionary.endings
@@ -43,6 +43,7 @@ function Component() {
   const [showResults, setShowResults] = useState(false)
   const [sharingDisplay, setSharingDisplay] = useState(false)
   const [text, setText] = useState("")
+  const [tweetText, setTweetText] = useState("")
   const [formData, setFormData] = useState({})
 
   let form = {
@@ -52,6 +53,8 @@ function Component() {
   }
 
   useEffect(() => {
+    generateTweetText()
+
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
   })
 
@@ -87,6 +90,24 @@ function Component() {
     navigator.clipboard.writeText(text)
   }
 
+  const generateTweetText = () => {
+    let tweetTemplate = `
+    So you wanna be a TechCo? Become one instantly with the headline generator 
+    from @workinggrouptwo.
+    Here's mine:
+    {text}
+    #TechCo #mobile #telcocloud #generator
+    `
+
+    tweetTemplate = formatString(tweetTemplate, { text })
+
+    tweetTemplate = tweetTemplate.replace(/\s\s+/g, " ")
+    tweetTemplate = tweetTemplate.trim()
+    tweetTemplate = encodeURIComponent(tweetTemplate)
+
+    setTweetText(tweetTemplate)
+  }
+
   if (!showResults) {
     return (
       <Layout title="TechCo Headline Generator">
@@ -96,10 +117,11 @@ function Component() {
               <div className={styles.header}>The Instant TechCo Generator</div>
               <br />
               <div className={styles.subtitle}>
-                Many telecom operators strive to work and operate like tech companies. The
-                journey might seem like a challenge. It doesn’t have to be! Take
-                a shortcut with our Instant TechCo Generator. Create that perfect
-                headline for your webpage, blog post or late-night tweet.
+                Many telecom operators strive to work and operate like tech
+                companies. The journey might seem like a challenge. It doesn’t
+                have to be! Take a shortcut with our Instant TechCo Generator.
+                Create that perfect headline for your webpage, blog post or
+                late-night tweet.
               </div>
             </div>
           </div>
@@ -212,13 +234,15 @@ function Component() {
                 <Copy />
                 Copy
               </button>
-              <button
+              <a
+                href={"https://twitter.com/intent/tweet?text=" + tweetText}
+                target="_blank"
                 className={`${common.button} ${styles.grayButton}`}
                 onClick={() => setSharingDisplay(true)}
               >
-                <Share2 />
-                Share
-              </button>
+                <Twitter />
+                Tweet
+              </a>
             </div>
           </div>
 
