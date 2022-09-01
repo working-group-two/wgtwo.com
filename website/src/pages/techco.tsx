@@ -96,7 +96,7 @@ function Component() {
     from @workinggrouptwo.
     Here's mine:
     "{text}"
-    #TechCo #mobile #telcocloud #generator
+    https://www.wgtwo.com/techco #TechCo #telcocloud 
     `
 
     tweetTemplate = formatString(tweetTemplate, { text })
