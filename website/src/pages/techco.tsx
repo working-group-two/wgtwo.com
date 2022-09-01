@@ -92,10 +92,10 @@ function Component() {
 
   const generateTweetText = () => {
     let tweetTemplate = `
-    So you wanna be a TechCo? Become one instantly with the headline generator 
+    Wanna jump over all the hard telco tech stuff? Try the Instant TechCo Generator
     from @workinggrouptwo.
     Here's mine:
-    {text}
+    "{text}"
     #TechCo #mobile #telcocloud #generator
     `
 
