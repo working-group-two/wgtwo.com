@@ -1,6 +1,5 @@
 export const actions = [
   "launches",
-  "acquires",
   "discovers",
   "introduces",
   "accelerates",
@@ -38,7 +37,7 @@ export const adjectives = [
   "Intelligent",
   "dynamic",
   "G-neutral",
-  "g-agnostic",
+  "G-agnostic",
   "future-proof",
 ]
 
