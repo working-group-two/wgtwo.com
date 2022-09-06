@@ -36,6 +36,14 @@ function generateHeadline(name, action, outcome) {
   })
 }
 
+const tweetTemplate = `
+  Wanna jump over all the hard telco tech stuff? Try the Instant TechCo Generator
+  from @workinggrouptwo.
+  Here's mine:
+  "{text}"
+  https://www.wgtwo.com/techco #TechCo #telcocloud 
+`
+
 function Component() {
   const actions = HeadlineDictionary.actions
   const outcomes = HeadlineDictionary.outcomes
@@ -44,6 +52,7 @@ function Component() {
   const [sharingDisplay, setSharingDisplay] = useState(false)
   const [text, setText] = useState("")
   const [tweetText, setTweetText] = useState("")
+  const [tweetTextHtml, setTweetTextHtml] = useState("")
   const [formData, setFormData] = useState({})
 
   let form = {
@@ -91,21 +100,42 @@ function Component() {
   }
 
   const generateTweetText = () => {
-    let tweetTemplate = `
-    Wanna jump over all the hard telco tech stuff? Try the Instant TechCo Generator
-    from @workinggrouptwo.
-    Here's mine:
-    "{text}"
-    https://www.wgtwo.com/techco #TechCo #telcocloud 
-    `
+    let tweetTemplateStr = tweetTemplate
+    tweetTemplateStr = tweetTemplateStr.replace(/\s\s+/g, " ")
+    tweetTemplateStr = tweetTemplateStr.trim()
 
-    tweetTemplate = formatString(tweetTemplate, { text })
+    const tweetTemplateStrBold = formatString(tweetTemplateStr, {
+      text: `<b>${text}</b>`,
+    })
+    tweetTemplateStr = formatString(tweetTemplateStr, { text })
 
-    tweetTemplate = tweetTemplate.replace(/\s\s+/g, " ")
-    tweetTemplate = tweetTemplate.trim()
-    tweetTemplate = encodeURIComponent(tweetTemplate)
+    setTweetTextHtml(getTweetTextAsHtml(tweetTemplateStrBold))
 
-    setTweetText(tweetTemplate)
+    tweetTemplateStr = encodeURIComponent(tweetTemplateStr)
+
+    setTweetText(tweetTemplateStr)
+  }
+
+  const getTweetTextAsHtml = tweetString => {
+    let str = tweetString
+
+    // @username -> blue-colored text
+    str = str.replace(/@\w+/g, function (match, key) {
+      return `<span class="${styles.blueText}">${match}</span>`
+    })
+    // #trending -> blue-colored text
+    str = str.replace(/#\w+/g, function (match, key) {
+      return `<span class="${styles.blueText}">${match}</span>`
+    })
+    // https://web.site -> blue-colored text
+    str = str.replace(
+      /(https?:\/\/)?([\w\-])+\.{1}([a-zA-Z]{2,63})([\/\w-]*)*\/?\??([^#\n\r]*)?#?([^\n\r]*)/g,
+      function (match, key) {
+        return `<span class="${styles.blueText}">${match}</span>`
+      }
+    )
+
+    return str
   }
 
   if (!showResults) {
@@ -189,19 +219,10 @@ function Component() {
                 </div>
                 <Twitter color="#008cff" />
               </div>
-              <p className={styles.twitterText}>
-                So you wanna be a TechCo? Become one instantly with the headline
-                generator from{" "}
-                <span className={styles.blueText}>@workinggrouptwo</span>.
-                <br />
-                Here's mine:
-                <br />
-                {text}
-                <br />
-                <span className={styles.blueText}>
-                  #TechCo #mobile #telcocloud #generator
-                </span>
-              </p>
+              <p
+                className={styles.twitterText}
+                dangerouslySetInnerHTML={{ __html: tweetTextHtml }}
+              ></p>
               <div className={`${common.container} ${styles.twitterButtons}`}>
                 <MessageCircle />
                 <Repeat />
