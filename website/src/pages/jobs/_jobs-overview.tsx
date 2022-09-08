@@ -7,8 +7,10 @@ import styles from "./jobs.module.css"
 import InterviewProcess from "../../components/interview-process/interview-process"
 import { ArrowRight } from "lucide-react"
 
+import { slugify } from '../../util/helpers'
+
 const JobPosting = ({ job }) => (
-  <Link className={styles.job} to={`/careers/job/${job.id}`}>
+  <Link className={styles.job} to={`/careers/job/${job.id}/${slugify(job.title)}`}>
     <div className="position-text">
       <div className={styles.jobName}>{job.title}</div>
       <div className={styles.jobLocation}>{job.subtitle}</div>
