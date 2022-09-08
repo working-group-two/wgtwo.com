@@ -2,7 +2,7 @@ require("isomorphic-fetch")
 const { writeFileSync, readFileSync } = require("fs")
 const { JSDOM } = require("jsdom")
 const path = require("path")
-const { slugify } = require('../src/util/helpers')
+const { slugify } = require("../src/util/helpers")
 
 module.exports = (
   { i18n },
@@ -46,7 +46,9 @@ module.exports = (
       addRoute({
         ...jobRoute,
         exact: true,
-        path: `${localePrefix}${jobRoute.basePath}${job.id}/${slugify(job.title)}`,
+        path: `${localePrefix}${jobRoute.basePath}${job.id}/${slugify(
+          job.title
+        )}`,
         modules: {
           job: await createData(`job-${job.id}.json`, JSON.stringify(job)),
         },
@@ -63,5 +65,3 @@ module.exports = (
     })
   },
 })
-
-module.exports.slugify = slugify
