@@ -151,13 +151,13 @@ function Component() {
                 companies. The journey might seem like a challenge. It doesn’t
                 have to be! Take a shortcut with our Instant TechCo Generator.
                 Create that perfect headline for your webpage, blog post or
-                late-night tweet.
+                late-night tweet. Use with caution! 😉
               </div>
             </div>
           </div>
           <div className={`${common.container} ${styles.formContainer}`}>
             <div className={`${styles.subheader} ${common.centeredText}`}>
-              Welcome to The Instant TechCo Generator
+              Create your instant headline 
             </div>
             <form className={styles.form} onSubmit={showResultsPage}>
               <input
