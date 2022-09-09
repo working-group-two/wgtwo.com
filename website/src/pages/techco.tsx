@@ -157,7 +157,7 @@ function Component() {
           </div>
           <div className={`${common.container} ${styles.formContainer}`}>
             <div className={`${styles.subheader} ${common.centeredText}`}>
-              Create your instant headline 
+              Create your instant headline
             </div>
             <form className={styles.form} onSubmit={showResultsPage}>
               <input
