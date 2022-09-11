@@ -173,6 +173,19 @@ Additional security controls include:
     - Diameter Application ID / Command Code filtering and consistency check
     - Verify address fields consistency, limit message length / grouped AVPs nesting depth
     - Validate protocol consistency through input validation (e.g. doubled address AVPs, wrong AVP address, AVP Type, and format checks)
+    - 
+### Automated SS7 and Diameter Interconnect Pentesting
+In addition to regular interconnect pentesting by external consulting firms, **wgtwo** runs continuous automated SS7 and Diameter interconnect pentests of its own infrastructure. The pentests consist of attacks like they would be performed by an outside attacker.
+
+The results of these attacks are automatically evaluated. Should these results deviate from what is expected, **wgtwo** staff will be immediately alerted. 
+
+Running these automated pentests ensures that after config changes, code updates or even the onboarding of a new operator, the signaling firewall always operates as expected.
+
+The tests include:
+- Sending different types of Routing-Info messages: make sure that retrieval of subscriber's IMSIs and network location is blocked
+- Cross-layer spoofing / inconsistent addresses: check that messages with inconsistent addresses on different layers are blocked
+- Illegal/unusual encoding of message structure and data: ensure that **wgtwo** network nodes can cope with malformed messages
+- Sending messages with different Diameter Application Id: testing proper interface separation
 
 ### SMS 
 In 2021, Android-based spyware named Flubot propagated via SMS across handsets, infecting hundreds of thousands of phones. **wgtwo** was able to protect its customers and limit the propagation through  advanced controls and spam alerting through advanced metrics and alerting.
