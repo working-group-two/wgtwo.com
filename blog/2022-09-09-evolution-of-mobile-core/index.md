@@ -65,5 +65,5 @@ But the as-a-service model also introduces new challenges for mobile service pro
 - They need to be able to shift the focus from merely operating their core to offering innovative, new services to their customers. 
 
 
-*Want to learn more about Working Group Two’s cloud-native and programmable mobile core platform? Get in touch with us. [Get in touch with us](https://www.wgtwo.com/contact/)*
+*Want to learn more about Working Group Two’s cloud-native and programmable mobile core platform? [Get in touch with us](https://www.wgtwo.com/contact/)*
 
