@@ -5,6 +5,9 @@ date: 2022-09-09
 tags: [saas, operators, core, BBS, cloud, virtualization]
 authors: [wgtwo]
 ---
+
+import ImgWithCaption from '../components/imgWithCaption'
+
 What’s the past, present and future of the mobile core? We threw three quick questions at Stephane Savonitto, a Core Network Engineer at Working Group Two. He has significant mobile core experience, from major mobile network operators and equipment manufacturers. 
 
 ![Flower punching through](./flower.jpg)
@@ -14,27 +17,27 @@ What’s the past, present and future of the mobile core? We threw three quick q
 ### 1. What was your first meeting with a live mobile core? 
 I started working for Bouygues Telecom, the third French mobile operator, in 1995. This was during their initial rollout. I was working as a BSS field technician and I participated in the deployment of the first Mobile Switching Center (MSC) in the south of France.
 
+<ImgWithCaption
+  style={{
+    width: "50%",
+    float: "right",
+    marginLeft:"20px"
+  }}
+  caption="General illustration, courtesy Ericsson"
+  src={require("!file-loader!./ericsson1.jpg").default}
+  />
+
 This node entity alone completely filled a 400m2 room with three rows, hundreds of racks back to back and thousands of specific boards and items... This was very impressive and scary! This equipment was able to handle 100 000 subscribers to make voice calls. SMS had not been introduced by that time 🙂
 
-<img
-  width="50%"
-  align="right"
+<ImgWithCaption
   style={{
-    display: "block",
-    margin:"40px auto"
+    width: "50%",
+    float: "left",
+    marginRight: "20px"
   }}
-  src={require("!file-loader!./ericsson1.jpg").default}
-/>
-
-<img
-  width="50%"
-  align="right"
-  style={{
-    display: "block",
-    margin:"40px auto"
-  }}
+  caption="General illustration, courtesy Ericsson"
   src={require("!file-loader!./ericsson2.jpg").default}
-/>
+  />
 
 After that we’ve seen the telecom world developing rapidly. First we saw smaller room sizes with more compact boards and shelves. The cores could handle more functions, had more capacity and could support more subscribers. This was the last step of pure telecom hardware using common vendor boards (also known as Advanced Telecommunications Computing Architecture - or ATCA). This was also the end of Time-division Multiplexing (TDM) and the start of Internet Protocol (IP) transport. Then virtualization arrived, first on dedicated blades on-premises and today on the public cloud.
 
@@ -44,13 +47,13 @@ Today network technology and standards are going through rapid evolution. This i
 ### 3. What are the main challenges with making mobile cores programmable and running them as-a-service? 
 Running a mobile network as-a-service has many benefits for operators. Networks are increasingly complex so it is difficult to retain the competent people you need to operate, to maintain network performance, and to deploy the latest technology updates. It is also attractive with the shift to a pay-per-use subscription model and the possibility to scale up or down as needed.
 
-<img
-  width="50%"
-  align="right"
+<ImgWithCaption
   style={{
-    display: "block",
+    width: "50%",
+    float: "right",
     margin:"40px auto"
   }}
+  caption="Stephane Savonitto"
   src={require("!file-loader!./stephane.jpg").default}
 />
 
