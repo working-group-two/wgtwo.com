@@ -5,6 +5,7 @@ on:
     types: [opened, synchronize, reopened, labeled]
     branches:
       - main
+      - "dev-pages-actions"
     paths:
       - "docs/**"
       - "blog/**"
