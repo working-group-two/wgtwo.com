@@ -5,7 +5,6 @@ on:
     types: [opened, synchronize, reopened, labeled]
     branches:
       - main
-      - "dev-pages-actions"
     paths:
       - "docs/**"
       - "blog/**"
@@ -16,9 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, 'devpages')
     steps:
-      - uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
