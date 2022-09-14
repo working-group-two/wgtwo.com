@@ -10,7 +10,7 @@ function Component() {
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
           <h1 className={styles.titleHeader}>
-            Test. <br /> Scalable. <br /> Innovative. <br />
+            Test.. <br /> Scalable. <br /> Innovative. <br />
             This is your new mobile core network.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
