@@ -11,7 +11,7 @@ function Component() {
         <div className={common.text}>
           <h1 className={styles.titleHeader}>
             This. <br /> Is. <br /> A. <br />
-            Test. 
+            Test.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
           <div className={common.subtitle}>
