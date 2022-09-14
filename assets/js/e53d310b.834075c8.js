@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[735],{26956:function(t){t.exports=JSON.parse('{"label":"trust","permalink":"/blog/tags/trust","allTagsPath":"/blog/tags","count":2}')}}]);

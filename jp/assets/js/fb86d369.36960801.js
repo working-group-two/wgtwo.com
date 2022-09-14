@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9824],{56648:function(s){s.exports=JSON.parse('{"label":"SS7","permalink":"/jp/blog/tags/ss-7","allTagsPath":"/jp/blog/tags","count":1}')}}]);

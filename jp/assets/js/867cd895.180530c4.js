@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9886],{47719:function(t){t.exports=JSON.parse('{"label":"virtualization","permalink":"/jp/blog/tags/virtualization","allTagsPath":"/jp/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8872],{3930:function(e){e.exports=JSON.parse('{"label":"TCAP","permalink":"/jp/blog/tags/tcap","allTagsPath":"/jp/blog/tags","count":1}')}}]);

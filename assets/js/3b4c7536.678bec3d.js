@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9643],{57415:function(e){e.exports=JSON.parse('{"label":"node-red","permalink":"/blog/tags/node-red","allTagsPath":"/blog/tags","count":1}')}}]);

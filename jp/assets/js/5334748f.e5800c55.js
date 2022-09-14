@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9315],{12368:function(e){e.exports=JSON.parse('{"label":"app-ecosystem","permalink":"/jp/blog/tags/app-ecosystem","allTagsPath":"/jp/blog/tags","count":2}')}}]);

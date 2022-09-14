@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[824],{14728:function(t){t.exports=JSON.parse('{"label":"mqtt","permalink":"/blog/tags/mqtt","allTagsPath":"/blog/tags","count":1}')}}]);

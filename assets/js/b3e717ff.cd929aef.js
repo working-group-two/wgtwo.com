@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8882],{70880:function(e){e.exports=JSON.parse('{"label":"vulnerability","permalink":"/blog/tags/vulnerability","allTagsPath":"/blog/tags","count":1}')}}]);

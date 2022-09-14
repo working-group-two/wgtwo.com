@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3130],{79198:function(a){a.exports=JSON.parse('{"label":"hackathon","permalink":"/blog/tags/hackathon","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6833],{99828:function(e){e.exports=JSON.parse('{"label":"managed services","permalink":"/blog/tags/managed-services","allTagsPath":"/blog/tags","count":1}')}}]);

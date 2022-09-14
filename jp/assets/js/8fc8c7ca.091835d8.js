@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1957],{84186:function(e){e.exports=JSON.parse('{"label":"dia","permalink":"/jp/blog/tags/dia","allTagsPath":"/jp/blog/tags","count":1}')}}]);

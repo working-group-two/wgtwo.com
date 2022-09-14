@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5162],{35333:function(e){e.exports=JSON.parse('{"label":"pbx","permalink":"/jp/blog/tags/pbx","allTagsPath":"/jp/blog/tags","count":2}')}}]);

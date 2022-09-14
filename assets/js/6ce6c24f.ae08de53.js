@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5125],{13106:function(e){e.exports=JSON.parse('{"label":"building-now","permalink":"/blog/tags/building-now","allTagsPath":"/blog/tags","count":1}')}}]);

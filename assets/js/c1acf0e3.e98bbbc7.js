@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3969],{35475:function(e){e.exports=JSON.parse('{"label":"prometheus","permalink":"/blog/tags/prometheus","allTagsPath":"/blog/tags","count":1}')}}]);

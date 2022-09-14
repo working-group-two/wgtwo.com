@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2923],{16536:function(e){e.exports=JSON.parse('{"label":"marketplace","permalink":"/jp/blog/tags/marketplace","allTagsPath":"/jp/blog/tags","count":3}')}}]);
