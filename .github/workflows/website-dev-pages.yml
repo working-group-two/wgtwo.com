@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'website skip')"
+    if: contains(github.event.pull_request.labels.*.name, 'devpage') && "!contains(github.event.head_commit.message, 'website skip')"
     steps:
       - uses: actions/checkout@v2
         with:
@@ -27,6 +27,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'github-action@users.noreply.github.com'
+          git remote
           git rebase ${{ github.head_ref }}
           git push --force
           exit 1
