@@ -31,7 +31,7 @@ jobs:
           git branch
           git branch -r
           git branch -v -a
-          git rebase ${{ github.head_ref }}
+          git rebase origin/${{ github.head_ref }}
           git push --force
       - name: Prettier & Build
         run: |
