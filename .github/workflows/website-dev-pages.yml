@@ -14,7 +14,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: contains(github.event.pull_request.labels.*.name, 'devpage') && "!contains(github.event.head_commit.message, 'website skip')"
+    if: contains(github.event.pull_request.labels.*.name, 'devpage')
     steps:
       - uses: actions/checkout@v2
         with:
