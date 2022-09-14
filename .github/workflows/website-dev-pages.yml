@@ -31,9 +31,8 @@ jobs:
           git branch
           git branch -r
           git branch -v -a
-          git rebase origin/${{ github.head_ref }}
+          git rebase ${{ github.head_ref }}
           git push --force
-          exit 1
       - name: Prettier & Build
         run: |
           cd website
