@@ -27,6 +27,8 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'github-action@users.noreply.github.com'
+          git branch
+          git branch -r
           git rebase origin/${{ github.head_ref }}
           git push --force
           exit 1
