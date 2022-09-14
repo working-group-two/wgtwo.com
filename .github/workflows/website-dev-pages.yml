@@ -1,4 +1,4 @@
-name: PR Previewer (Dev Site) 
+name: PR Previewer (Dev Site)
 
 on:
   pull_request:
@@ -12,8 +12,9 @@ on:
 
 jobs:
   build:
+    if: contains(github.event.pull_request.labels.*.name, 'devpage')
     runs-on: ubuntu-latest
-    if: contains(github.event.pull_request.labels.*.name, 'devpages')
+    if: "!contains(github.event.head_commit.message, 'website skip')"
     steps:
       - uses: actions/checkout@v2
         with:
