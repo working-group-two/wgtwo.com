@@ -6,6 +6,8 @@ tags: [saas, operators, core, cloud, culture, disruption]
 authors: [tor-odland]
 ---
 
+import ImgWithCaption from '../components/imgWithCaption'
+
 Meet Sigve Brekke (CEO, Telenor Group), Adam Selipsky (CEO, Amazon Web Services) and Erlend Prestgard (CEO, Working Group Two). They recently sat down to discuss questions like: How do you build a strong technology culture in tandem with a customer-centric culture? How do you think long-term but execute in the short term? How can companies in legacy industries transform themselves? 
 
 ![CEOs in Telco Tech Talk](./allthreeceos.png)
