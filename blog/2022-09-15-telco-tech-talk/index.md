@@ -8,12 +8,11 @@ authors: [tor-odland]
 
 Meet Sigve Brekke (CEO, Telenor Group), Adam Selipsky (CEO, Amazon Web Services) and Erlend Prestgard (CEO, Working Group Two). They recently sat down to discuss questions like: How do you build a strong technology culture in tandem with a customer-centric culture? How do you think long-term but execute in the short term? How can companies in legacy industries transform themselves? 
 
-
 ![CEOs in Telco Tech Talk](./allthreeceos.png)
 
 <!--truncate-->
 
-*(This is based on a transcript from a published video conversation called “Telco Tech Talk” - hosted by the Telenor Group. The text is edited for length and clarity.)*
+*(This is based on a transcript from a published video conversation called ["Telco Tech Talk"](https://www.linkedin.com/posts/sigvebrekke_telcotechtalks-activity-6976078836174106625-pX3U/?utm_source=share&utm_medium=member_desktop) - hosted by the Telenor Group. The text is edited for length and clarity. Errors may have occurred)*
 
 **Sigve Brekke (CEO, Telenor Group):**
 Hello, everyone. I'm Sigve Brekke, the Group CEO of the Telenor Group. We are a mobile operator operating across the Nordics and in Asia. We have called this the Telco Tech Talk and this is a second episode where we invite guests to talk about how technology is changing the landscape and how technology companies and telecom companies are coming together and what that really means. Today, I'm very pleased to have two guests with me to discuss that topic.
