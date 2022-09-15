@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3382],{5642:function(s){s.exports=JSON.parse('{"label":"disruption","permalink":"/blog/tags/disruption","allTagsPath":"/blog/tags","count":1}')}}]);
