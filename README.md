@@ -1,5 +1,10 @@
 # Working Group Two (wgtwo.com)
 
+![wgtwo.com](
+https://github.com/working-group-two/wgtwo.com/actions/workflows/website-deploy.yml/badge.svg?event=push) (https://www.wgtwo.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dc3b0e4-626a-4e64-ac3c-aa83f11b6790/deploy-status?branch=dev-pages)](https://app.netlify.com/sites/wgtwo-dev/deploys) (https://wgtwo-dev.netlify.app/)
+
 ## Create a Blog
 
 - Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
@@ -159,7 +164,20 @@ $  tree -d -L 4
         └── BlogTagsPostsPage
 ```
 
-## Deployment
+## Development Deployment from your PR
+
+@jonny-wg2 setup the netlify account using his github credentials. https://app.netlify.com/sites/wgtwo-dev/overview 
+
+To work better together and showcase a future PR, we needed the ability to deploy pre-production changes to a development website. Here are the steps required to get your changes live on https://wgtwo-dev.netlify.app/
+
+1. Create a PR with your changes and add the label `devpages`
+2. The [website-dev-pages GH action](https://github.com/working-group-two/wgtwo.com/actions/workflows/website-dev-pages.yml) will build the PR and push it on the [dev-pages branch](https://github.com/working-group-two/wgtwo.com/tree/dev-pages)
+3. Your changes will soon be live on https://wgtwo-dev.netlify.app/. The netlify badge on top will update.
+
+- [example pr using the devpage label](https://github.com/working-group-two/wgtwo.com/pull/131)  
+- [github issue with details](https://github.com/working-group-two/wgtwo.com/issues/124)  
+
+## Production Deployment
 
 Commit to main branch -> github action to perform `yarn build` -> website deployed to `gh-pages` branch
 
