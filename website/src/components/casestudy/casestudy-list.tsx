@@ -31,7 +31,7 @@ const caseStudies = [
     ),
   },
   {
-    name: "Mobile Network Operators",
+    name: "Small Operators",
     description: (
       <Translate
         id="home.casestudy.smalloperators.description"
@@ -102,7 +102,9 @@ function Component(props) {
             {caseStudy.description}
           </div>
           <a
-            href={`/docs/case-studies/${caseStudy.name.replace(/ /g, "-")}`}
+            href={`/docs/case-studies/${caseStudy.name
+              .toLowerCase()
+              .replace(/ /g, "-")}`}
             className={styles.link}
           >
             <Translate
