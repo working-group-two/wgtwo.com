@@ -102,7 +102,9 @@ function Component(props) {
             {caseStudy.description}
           </div>
           <a
-            href={`/docs/case-studies/${caseStudy.name.toLowerCase().replace(/ /g, "-")}`}
+            href={`/docs/case-studies/${caseStudy.name
+              .toLowerCase()
+              .replace(/ /g, "-")}`}
             className={styles.link}
           >
             <Translate
