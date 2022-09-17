@@ -89,10 +89,7 @@ export default () => (
                 </a>
               </div>
               <div>
-                <a
-                  href="https://www.digitalalpha.net/"
-                  target="_blank"
-                >
+                <a href="https://www.digitalalpha.net/" target="_blank">
                   <img alt="Digital Alpha" src="/img/digital-alpha-logo.png" />
                 </a>
               </div>
