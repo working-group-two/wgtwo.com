@@ -112,7 +112,7 @@ function Index() {
               <div className={styles.price}>Find a new app today</div>
               <a
                 className={`${common.button} ${common.buttonPrimary}`}
-                href="http://storefront.wgtwo.com"
+                href="https://storefront.wgtwo.com"
                 target="_self"
               >
                 Storefront

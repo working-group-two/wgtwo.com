@@ -192,7 +192,7 @@ module.exports = {
             },
             {
               label: "LinkedIn",
-              href: "http://linkedin.com/company/wgtwo",
+              href: "https://linkedin.com/company/wgtwo",
             },
             {
               label: "Contact Us",
