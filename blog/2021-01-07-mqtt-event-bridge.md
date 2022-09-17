@@ -35,7 +35,12 @@ Note that nothing of this requires any setup on your phone, so it would work equ
 
 As I'll explain in more detail below, I did setup a quick Node-RED flow to consume these events as shown in the video below:
 
-# [video](/video/blog/mqtt-event-bridge/calling.mp4)
+## Video
+
+<video width="100%" controls>
+  <source src={require('../website/static/video/blog/mqtt-event-bridge/calling.mp4').default} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 Here you can see that:
 1. The light changes to cool white when the call is initiated (phone not yet ringing)

@@ -75,7 +75,7 @@ Our company got started because of this pain. Getting access to a mobile core ne
 
 If you are lucky enough to actually get access, what you will see is a closed, uniquely configured core network built on top of nodes from external vendors. Add to the mix that you need people who actually know how to build anything on top of old telecom protocols and you have a perfect storm. If you have all of this and somehow are able to build a successful product, guess what? It doesn’t scale to any other operator because they also have their own uniquely configured core network. And the privilege of getting access is reserved for employees and an exclusive list of vendors. If you are an independent product company who wants to build something cool you can forget about it!
 
-This is why we built a mobile core network from scratch on top of AWS. Long story short this means that every operator using our core can use any product that is built with the [wgtwo developer portal](http://developer.wgtwo.com/).
+This is why we built a mobile core network from scratch on top of AWS. Long story short this means that every operator using our core can use any product that is built with the [wgtwo developer portal](https://developer.wgtwo.com/).
 
 We believe that subscribers will start to expect that they can add a range of valuable products to their subscription. This means going from a world where everyone gets the same standardized service from their operator - to a world where subscribers are treated as individuals who are free to activate the products that they want.
 

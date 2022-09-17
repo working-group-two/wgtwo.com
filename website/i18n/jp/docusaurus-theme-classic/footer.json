@@ -77,7 +77,7 @@
   },
   "link.item.label.LinkedIn": {
     "message": "LinkedIn",
-    "description": "The label of footer link with label=LinkedIn linking to http://linkedin.com/company/wgtwo"
+    "description": "The label of footer link with label=LinkedIn linking to https://linkedin.com/company/wgtwo"
   },
   "link.item.label.Contact Us": {
     "message": "Contact Us",
