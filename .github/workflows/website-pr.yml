@@ -19,7 +19,7 @@ jobs:
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - name: Prettier & Build & Check broken links
+      - name: Prettier & Build & Test for broken links
         run: |
           cd website 
-          yarn && yarn prettier:check && yarn build && yarn links:check
+          yarn && yarn prettier:check && yarn build && yarn links:test
