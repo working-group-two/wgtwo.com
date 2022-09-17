@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         name: "og:image",
-        content: "img/wgtwo-logo-white-bg.png",
+        content: "/img/wgtwo-logo-white-bg.png",
       },
       {
         name: "keywords",
@@ -48,7 +48,7 @@ module.exports = {
     prism: {
       additionalLanguages: ["promql", "protobuf"],
     },
-    image: "img/preview.png",
+    image: "/img/wgtwo-logo-white-bg.png",
     navbar: {
       logo: {
         alt: "wgtwo Logo",
