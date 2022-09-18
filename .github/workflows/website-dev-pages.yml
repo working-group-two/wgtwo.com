@@ -15,12 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.pull_request.labels.*.name, 'devpages')
     steps:
-
+      - name: Prettier & Build Website
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-
-      - name: Prettier & Build Website
         run: |
           cd website
           yarn install && yarn prettier
