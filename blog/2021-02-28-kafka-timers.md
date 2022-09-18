@@ -165,4 +165,4 @@ There are many options to export application state to the data tier layer. Timer
 state. Above we showed how to apply Kafka primitives to achieve a goal of making application "stateless" even
 if the state is using timers. It has its costs and benefits.
 
-Check out openings on the [Careers page](https://wgtwo.com/career) if you’re interested in building the future Telco backbone.
+Check out openings on the [Careers page](/careers/) if you’re interested in building the future Telco backbone.

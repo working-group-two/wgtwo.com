@@ -10,7 +10,10 @@
     "serve": "docusaurus serve",
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
-    "fetch-personio-jobs": "curl https://wgtwo.jobs.personio.de/xml -o personio-jobs.xml"
+    "fetch-personio-jobs": "curl https://wgtwo.jobs.personio.de/xml -o personio-jobs.xml",
+    "links:check": "linkinator -r http://localhost:3000",
+    "links:check:json": "linkinator -r --format JSON http://localhost:3000 | jq '.links | .[] | select(.state | contains(\"BROKEN\"))'",
+    "links:test": "start-server-and-test serve 3000 links:check"
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^0.10.0",
@@ -24,10 +27,12 @@
     "img-comparison-slider": "^7.4.3",
     "isomorphic-fetch": "^3.0.0",
     "jsdom": "^19.0.0",
+    "linkinator": "^4.0.3",
     "lucide-react": "^0.16.25",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-photo-gallery": "^8.0.0"
+    "react-photo-gallery": "^8.0.0",
+    "start-server-and-test": "^1.14.0"
   },
   "browserslist": {
     "production": [

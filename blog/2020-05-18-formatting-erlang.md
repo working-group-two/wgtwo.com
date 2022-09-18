@@ -156,7 +156,7 @@ I can't say that I easily understand what the parameters are and which
 the values are with this formatting. It burns in my eyes.
 
 
-## [erl_tidy](https://github.com/tsloughter/erl_tidy) and [erl_tidy](http://erlang.org/doc/man/erl_tidy.html)
+## [erl_tidy](https://github.com/tsloughter/erl_tidy) and [erl_tidy](https://erlang.org/documentation/doc-11.2/lib/syntax_tools-2.5/doc/html/erl_tidy.html)
 
 So I found two `erl_tidy` projects, one is included in the Erlang/OTP
 libraries. The other one seems just to be a rebar3 wrapper around the

@@ -72,7 +72,7 @@ There were some challenges in figuring out what resources needed to be allocated
 ## Debugging
 
 Since the tasks all run in containers, it's easy to debug issues locally by running the same image on the laptop as is running in Concourse.
-Alternatively, the [fly execute](https://concourse-ci.org/running-tasks.html#fly-execute) cli tool runs a local project in a container in Concourse, a nice interim step when trying to get a deploy working.
+Alternatively, the [fly execute](https://concourse-ci.org/tasks.html#running-tasks) cli tool runs a local project in a container in Concourse, a nice interim step when trying to get a deploy working.
 
 The [fly intercept](https://concourse-ci.org/builds.html#fly-intercept) tool offers a way to log into a running container in concourse to troubleshoot:
 

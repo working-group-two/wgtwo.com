@@ -18,5 +18,5 @@ A cross functional team takes responsibility for a smooth implementation process
 When in Operations mode our Operations team will handle your mobile core for you. We monitor performance of the network and we will handle incident management.
 
 :::info Let's connect
-We want to help you succeed, let's chat and we can give a demo and/or develop a solution for your business needs https://www.wgtwo.com/request-a-demo
+We want to help you succeed, let's chat and we can give a demo and/or develop a solution for your business needs https://www.wgtwo.com/request-demo
 :::
