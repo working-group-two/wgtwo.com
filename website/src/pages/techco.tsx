@@ -232,7 +232,7 @@ function Component() {
             </div>
           )}
 
-          <div className={common.container} style={{ marginBottom: "50px" }}>
+          <div className={`${common.container} ${styles.buttonContainer}`}>
             <div className={`${styles.form} ${styles.fourColumnGrid}`}>
               <button
                 className={`${common.button} ${styles.blueButton}`}
