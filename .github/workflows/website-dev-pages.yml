@@ -25,7 +25,7 @@ jobs:
           cd website
           yarn install && yarn prettier
           if [ ! -n "$(git status --porcelain)" ]; then
-            yarn build
+            yarn buildDevpage
             exit 0
           fi
           git config --global user.name 'GitHub Action'
