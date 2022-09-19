@@ -85,10 +85,6 @@ module.exports = {
           position: "right",
         },
         {
-          type: "localeDropdown",
-          position: "right"
-        },
-        {
           href: "/contact/",
           activeBasePath: "/contact/",
           label: "Talk to us",
