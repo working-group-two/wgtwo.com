@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8584],{4576:function(e){e.exports=JSON.parse('{"label":"cloud","permalink":"/jp/blog/tags/cloud","allTagsPath":"/jp/blog/tags","count":3}')}}]);
