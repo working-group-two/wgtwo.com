@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4324],{62151:function(e,t,n){n.r(t);var u=n(67294);t.default=function(){return u.createElement("h1",null,"Test \u2b50")}}}]);
