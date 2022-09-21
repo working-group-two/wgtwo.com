@@ -5,6 +5,7 @@ import common from "../css/common.module.css"
 import { Check } from "lucide-react"
 import SecurityHeader from "../components/security-header/security-header"
 import SecurityDomains from "../components/security-domain/security-domain"
+import SecurityLinks from "../components/security-links/security-links"
 import contact from "./contact.module.css"
 import message from "../util/message"
 
@@ -22,6 +23,7 @@ function Index() {
         <SecurityHeader />
         {/* <hr className={styles.hr} /> */}
         <SecurityDomains />
+        <SecurityLinks />
 
         <div className={`${common.section} ${common.sectionDark}`}>
           <div className={`${common.container} ${common.splitContainer}`}>

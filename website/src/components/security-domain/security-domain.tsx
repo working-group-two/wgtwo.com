@@ -2,8 +2,6 @@ import React from "react"
 import common from "../../css/common.module.css"
 import styles from "./security-domain.module.css"
 import SecurityDomainList from "./security-domain-list"
-import Image from "@theme/IdealImage"
-import Link from "@docusaurus/Link"
 
 function Component() {
   return (
@@ -24,20 +22,10 @@ function Component() {
           </div>
         </div>
       </div>
-      {/* <hr className={styles.hr} /> */}
-
       <div className={styles.SecurityDomainList}>
         <div className={common.container}>
           <SecurityDomainList length={6} />
         </div>
-      </div>
-      <div className={common.container}>
-        <Link
-          to="/docs/technology/security-whitepaper"
-          className={styles.securityDomainButton}
-        >
-          Read our security whitepaper
-        </Link>
       </div>
     </div>
   )

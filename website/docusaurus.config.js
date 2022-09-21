@@ -168,6 +168,10 @@ module.exports = {
               target: "_self",
             },
             {
+              label: "Trust Report",
+              href: "https://trust.wgtwo.com",
+            },
+            {
               label: "Privacy Notice",
               href: "/privacy",
               target: "_self",

@@ -43,6 +43,9 @@ function Component() {
             <li>
               <Yes /> Data centre / power
             </li>
+            <li>
+              <Yes /> Security
+            </li>
           </div>
         </div>
       </div>

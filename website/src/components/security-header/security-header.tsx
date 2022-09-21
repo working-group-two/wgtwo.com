@@ -1,18 +1,8 @@
 import React from "react"
 import styles from "./security-header.module.css"
 import common from "../../css/common.module.css"
-import {
-  PhoneCall,
-  MessageSquare,
-  BarChart,
-  DownloadCloud,
-  Slack,
-  Laptop2,
-  ShieldCheck,
-  Lock,
-  Search,
-} from "lucide-react"
 import Image from "@theme/IdealImage"
+import Link from "@docusaurus/Link"
 
 function Component() {
   return (
@@ -35,7 +25,6 @@ function Component() {
         <div className={styles.features}>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <ShieldCheck /> */}
               <Image
                 alt="GDPR Logo"
                 className={styles.logo}
@@ -51,7 +40,6 @@ function Component() {
           </div>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <Search /> */}
               <Image
                 alt="CSA Norway Logo"
                 className={styles.logo}
@@ -67,7 +55,6 @@ function Component() {
           </div>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <Lock /> */}
               <Image
                 alt="ISO Logo"
                 className={styles.logo}
@@ -76,16 +63,20 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>ISO 27001</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> has been aligning security to ISO 27001 standards and
-              now began the process of obtaining the certification in 2022.
+              ISO 27001 process is managed with{" "}
+              <Link to="https://www.vanta.com" className={styles.link}>
+                Vanta
+              </Link>{" "}
+              and includes ISO 27001 Annex A controls as a realization of ISO
+              27002. View our{" "}
+              <Link to="https://trust.wgtwo.com" className={styles.link}>
+                Trust Report
+              </Link>{" "}
+              to see our controls in action.
             </div>
           </div>
         </div>
       </div>
-      {/* <br />
-      <br />
-      <br />
-      <hr className={styles.hr} /> */}
     </div>
   )
 }
