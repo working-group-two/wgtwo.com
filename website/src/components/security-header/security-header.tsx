@@ -1,17 +1,6 @@
 import React from "react"
 import styles from "./security-header.module.css"
 import common from "../../css/common.module.css"
-import {
-  PhoneCall,
-  MessageSquare,
-  BarChart,
-  DownloadCloud,
-  Slack,
-  Laptop2,
-  ShieldCheck,
-  Lock,
-  Search,
-} from "lucide-react"
 import Image from "@theme/IdealImage"
 
 function Component() {
@@ -35,7 +24,6 @@ function Component() {
         <div className={styles.features}>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <ShieldCheck /> */}
               <Image
                 alt="GDPR Logo"
                 className={styles.logo}
@@ -51,7 +39,6 @@ function Component() {
           </div>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <Search /> */}
               <Image
                 alt="CSA Norway Logo"
                 className={styles.logo}
@@ -67,7 +54,6 @@ function Component() {
           </div>
           <div className={styles.feature}>
             <div className={styles.featureIcon}>
-              {/* <Lock /> */}
               <Image
                 alt="ISO Logo"
                 className={styles.logo}
@@ -82,10 +68,6 @@ function Component() {
           </div>
         </div>
       </div>
-      {/* <br />
-      <br />
-      <br />
-      <hr className={styles.hr} /> */}
     </div>
   )
 }
