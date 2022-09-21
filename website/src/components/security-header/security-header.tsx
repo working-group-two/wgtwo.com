@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./security-header.module.css"
 import common from "../../css/common.module.css"
 import Image from "@theme/IdealImage"
+import Link from "@docusaurus/Link"
 
 function Component() {
   return (
@@ -62,8 +63,16 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>ISO 27001</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> has been aligning security to ISO 27001 standards and
-              now began the process of obtaining the certification in 2022.
+              ISO 27001 process is managed with{" "}
+              <Link to="https://www.vanta.com" className={styles.link}>
+                Vanta
+              </Link>{" "}
+              and includes ISO 27001 Annex A controls as a realization of ISO
+              27002. View our{" "}
+              <Link to="https://trust.wgtwo.com" className={styles.link}>
+                Trust Report
+              </Link>{" "}
+              to see our controls in action.
             </div>
           </div>
         </div>
