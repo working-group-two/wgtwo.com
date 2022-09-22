@@ -46,6 +46,17 @@
   transition: opacity 300ms ease-in-out;
 }
 
+.form select {
+  /* credit: https://stackoverflow.com/a/67297063/3705191 */
+  background: url("data:image/svg+xml,<svg height='12px' width='12px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+    no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding-right: 2rem !important;
+}
+
 .form input:disabled,
 .form textarea:disabled {
   opacity: 0.2;
@@ -112,6 +123,20 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.buttonContainer {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .fourColumnGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .buttonContainer {
+    margin-bottom: 30px;
+  }
+}
+
 .grayButton,
 .blueButton {
   flex-direction: column;
@@ -138,6 +163,13 @@
   margin-bottom: 40px;
   align-items: stretch !important;
   gap: 20px !important;
+}
+
+@media (max-width: 600px) {
+  .contactSection {
+    text-align: center;
+    gap: 25px !important;
+  }
 }
 
 .footerSection {
