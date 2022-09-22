@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/blog</id>
-    <title>Test PR (#143) Blog</title>
+    <title>Working Group Two Blog</title>
     <updated>2022-09-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/blog"/>
-    <subtitle>Test PR (#143) Blog</subtitle>
+    <subtitle>Working Group Two Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Atos and Working Group Two to deliver core-as-a-service to mobile operators worldwide]]></title>
