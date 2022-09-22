@@ -23,19 +23,17 @@ jobs:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
 
+      - name: Replace Title with PR Name
+        run: |
+          num="${{ github.event.pull_request.number }}"
+          title="${{ github.event.pull_request.title }}"
+          sed -Ei "s/title:.*\"(.*)\"/title: \"$title (#$num)\"/" website/docusaurus.config.js
+
       - name: Prettier & Build Website
         run: |
           cd website
           yarn install && yarn prettier
-          if [ ! -n "$(git status --porcelain)" ]; then
-            yarn buildDevpage
-            exit 0
-          fi
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'github-action@users.noreply.github.com'
-          git commit -am "[Prettier] Fix formatting"
-          git push
-          exit 1
+          yarn buildDevpage
 
       - name: Deploy Website 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
