@@ -1,6 +1,13 @@
 # Working Group Two (wgtwo.com)
 
-## Create a Blog
+![wgtwo.com](
+https://github.com/working-group-two/wgtwo.com/actions/workflows/website-deploy.yml/badge.svg?event=push) (https://www.wgtwo.com)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dc3b0e4-626a-4e64-ac3c-aa83f11b6790/deploy-status?branch=dev-pages)](https://app.netlify.com/sites/wgtwo-dev/deploys) (https://wgtwo-dev.netlify.app/)
+
+## Adding content to the website
+<details>
+<summary> Create a Blog</summary>
 
 - Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
   - Name the directory `yyyy-mm-dd-name-of-blog`
@@ -37,13 +44,18 @@ mtl:
   url: https://www.linkedin.com/in/mattlong/
   image_url: /img/author-photos/mtl-li.jpg
 ```
+</details>
 
-## Create a Docs
+<details>
+<summary> Create a doc</summary>
 
 - Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
 - Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
 
-## Markdown Tutorial
+</details>
+
+<details>
+<summary> Markdown tutorial</summary>
 
 For the Docs and Blog, markdown is used. Here is a great example https://stackedit.io/
 
@@ -85,10 +97,12 @@ This will add a full-sized image.  If you want fine-grained control of image par
   src={require("!file-loader!./my_image.png").default}
 />
 ```
+</details>
 
 ## Website Development
 
-**Expert**
+<details>
+<summary>Expert</summary>
 
 The website is built using Docusaurus, React, and Typescript. This allows for custom complex integrations using APIs, as well as, the simple updating docs and blogs with markdown.
 
@@ -158,12 +172,36 @@ $  tree -d -L 4
         ├── BlogTagsListPage
         └── BlogTagsPostsPage
 ```
+</details>
 
-## Deployment
+<details>
+<summary>Deploy to dev website</summary>
+
+@jonny-wg2 setup the netlify account using his github credentials. https://app.netlify.com/sites/wgtwo-dev/overview 
+
+To work better together and showcase a future PR, we needed the ability to deploy pre-production changes to a development website. Here are the steps required to get your changes live on https://wgtwo-dev.netlify.app/
+
+1. Create a PR with your changes and add the label `devpages`
+2. The [website-dev-pages GH action](https://github.com/working-group-two/wgtwo.com/actions/workflows/website-dev-pages.yml) will build the PR and push it on the [dev-pages branch](https://github.com/working-group-two/wgtwo.com/tree/dev-pages)
+3. Your changes will soon be live on https://wgtwo-dev.netlify.app/. The netlify badge on top will update.
+
+- [example pr using the devpage label](https://github.com/working-group-two/wgtwo.com/pull/131)  
+- [github issue with details](https://github.com/working-group-two/wgtwo.com/issues/124)  
+
+</details>
+
+<details>
+<summary>Production Deployment</summary>
+
+## Production Deployment
 
 Commit to main branch -> github action to perform `yarn build` -> website deployed to `gh-pages` branch
 
 All PRs are also tested with a github action.
+</details>
+
+<details>
+<summary>Upgrading the site</summary>
 
 ## Upgrading the site 
 It is good to keep the site updated to ensure we get the latest features from docusaurus and to ensure the site stays secure from vulnerabilities. 
@@ -181,3 +219,4 @@ Then we need to test to make sure the website still builds. Because of upgrading
 yarn build
 yarn run serve
 ```
+</details>
