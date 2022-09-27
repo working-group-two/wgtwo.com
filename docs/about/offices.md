@@ -9,6 +9,10 @@ sidebar_position: 06
 **wgtwo** is a fully remote company with people around the globe. Here are some of our fixed offices. 
 :::
 
+## Norway
+
+Org nr 918 470 638
+
 ### Oslo, Norway (HQ)
 
 ```
@@ -27,6 +31,8 @@ Krambugata 2
 7011 Trondheim
 Norway
 ```
+
+## Sweden
 
 ### Stockholm, Sweden
 
