@@ -257,7 +257,7 @@ function Index() {
               <div className={styles.answerAnswer}>
                 Our core provides operators with a flexible, affordable, fully
                 featured MNO-grade core that can scale down to small private
-                network deployments, and up to multi-million operators.
+                network deployments, and up to operators with millions of subscribers.
               </div>
             </div>
           </div>
