@@ -158,6 +158,11 @@
   border: 1px solid #a3a3a3 !important;
 }
 
+.anotherButton {
+  gap: 5px;
+  line-height: 1.2em !important;
+}
+
 .contactSection {
   font-size: 1.2em;
   margin-bottom: 40px;

@@ -235,11 +235,11 @@ function Component() {
           <div className={`${common.container} ${styles.buttonContainer}`}>
             <div className={`${styles.form} ${styles.fourColumnGrid}`}>
               <button
-                className={`${common.button} ${styles.blueButton}`}
+                className={`${common.button} ${styles.blueButton} ${styles.anotherButton}`}
                 onClick={generateNewText}
               >
                 <Lightbulb />
-                Another
+                Generate Again
               </button>
               <button
                 className={`${common.button} ${styles.blueButton}`}
