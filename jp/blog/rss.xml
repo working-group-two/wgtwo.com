@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Working Group Two Blog</title>
+        <title>Generate Again Button - Text Fixed (#155) Blog</title>
         <link>https://www.wgtwo.com/jp/blog</link>
-        <description>Working Group Two Blog</description>
+        <description>Generate Again Button - Text Fixed (#155) Blog</description>
         <lastBuildDate>Mon, 19 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
