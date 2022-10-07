@@ -1,4 +1,5 @@
 const path = require("path")
+const mdxMermaid = require('mdx-mermaid')
 
 module.exports = {
   title: "Working Group Two",
@@ -220,6 +221,7 @@ module.exports = {
             "https://github.com/working-group-two/wgtwo.com/edit/main/docs/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
+          remarkPlugins: [mdxMermaid],
         },
         blog: {
           path: "../blog",
