@@ -1,5 +1,5 @@
 const path = require("path")
-const mdxMermaid = require('mdx-mermaid')
+const mdxMermaid = require("mdx-mermaid")
 
 module.exports = {
   title: "Working Group Two",
