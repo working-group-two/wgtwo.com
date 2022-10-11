@@ -51,4 +51,6 @@ jobs:
         with:
           branch: gh-pages
           folder: website/build
+          git-config-name: github-actions[bot]
+          git-config-email: github-actions[bot]@users.noreply.github.com
       #--- end copy from website-deploy.yml
