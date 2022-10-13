@@ -3,7 +3,7 @@ slug: how-product-bundling-simplifies-distribution
 title: "How product bundling simplifies the distribution challenge"
 date: 2022-10-13
 tags: [saas, operators, bundling, products, distribution, ecosystem]
-authors: [odd-tronrud]
+authors: [odd-trondrud]
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
