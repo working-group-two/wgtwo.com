@@ -6,6 +6,8 @@ tags: [saas, operators, bundling, products, distribution, ecosystem]
 authors: [odd-tronrud]
 ---
 
+import ImgWithCaption from '../components/imgWithCaption'
+
 Our big belief is that the telecom industry should start building global platforms with the aim of achieving network effects - like many of the adjacent industries in devices and apps.To enable this, we’re building a mobile core from the ground up, running it in the public cloud and offering it as-a-service globally. To make it even harder (and fun) for ourselves, we’re also developing a full, API-based global product ecosystem to give telecom operators new revenue and differentiation opportunities. 
 
 One of the questions we get from operators is how to distribute products to their subscribers. There are multiple ways to go about it, but in this post, we'll show how an operator can enable products for their subscribers in what we call bundling.
@@ -54,6 +56,16 @@ Using the same API, they can send a list of which products should be bundled as 
 These bundled products may be selected as part of the users price plan, as e.g. enabling web filtering for kids for the subscriptions in the kids segment, or it can be additional products that the operators offer through their portal.
 
 This concept of offering more tailored subscriptions to specific segments of the market is not new, but with the addition of products that leverage the Working Group Two ecosystem, the possibilities could go beyond most subscribers’ current expectations of what a mobile subscription can offer.
+
+<ImgWithCaption
+  style={{
+    width: "50%",
+    float: "right",
+    marginLeft:"20px"
+  }}
+  caption="The team is testing out bundling in the physical world"
+  src={require("!file-loader!./peoplebundle.jpg").default}
+  />
 
 Operators using the Working Group Two mobile core can already select products from our product portfolio to bundle into their various price plans via our product marketplace. All it takes is a couple of mouse clicks. And yes, of course it can be integrated with their BSS (that’s a Business Support System, for things like billing, order management and revenue management). 
 
