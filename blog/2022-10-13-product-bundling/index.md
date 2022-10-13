@@ -16,7 +16,7 @@ One of the questions we get from operators is how to distribute products to thei
 
 ### Part one: What is bundling?
 
-Bundling. What is bundling? Probably something like “to group together and sell for one price". Why would you want to group something together in a bundle? How do you bundle something abstract like a “product” and what would you even bundle that together with? These are all good questions.
+Bundling. What is bundling? Probably something like “to group together and sell for one price." Why would you want to group something together in a bundle? How do you bundle something abstract like a “product” and what would you even bundle that together with? These are all good questions.
 
 Most people are probably familiar with the concept of "pre-installed applications," like how your smartphone comes out of the box with software to handle SMS and MMS messages, or a web browser that might not be the one you personally prefer. You could think of this as a type of bundling -- including a product or service within another product. At Working Group Two we do not make phones, or applications that run on phones. We are creating an ecosystem for products that run on top of or adjacent to mobile subscriptions by using our mobile core platform (which is also a thing we are doing, as we mentioned earlier).
 
