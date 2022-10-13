@@ -74,6 +74,17 @@ module.exports = {
           position: "left",
         },
         {
+          label: "Customers",
+          position: "left",
+          type: "dropdown",
+          to: "features",
+          items: [
+            { label: "Vimla", href: "/" },
+            { label: "CKH IOD", href: "/" },
+            { label: "MKI", href: "/" },
+          ],
+        },
+        {
           href: "/careers/",
           activeBasePath: "/careers/",
           label: "Join the Team 🎉",
@@ -93,6 +104,7 @@ module.exports = {
           className: "sign-up",
         },
       ],
+      
     },
     footer: {
       style: "dark",
