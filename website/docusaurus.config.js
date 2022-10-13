@@ -104,7 +104,6 @@ module.exports = {
           className: "sign-up",
         },
       ],
-      
     },
     footer: {
       style: "dark",
