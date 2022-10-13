@@ -36,9 +36,9 @@ Here are some examples:
 
 |  |  |  |  |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|---|---|
-| B2B mobile operators | An operator might realize that not all of their potential customers need a full switchboard solution (known in telco language as a PBX), and decide to offer that as an “add-on” or a bundled part of a higher-priced subscription package. |  |  |  |  |  |  |  |  |
+| **B2B mobile operators** | An operator might realize that not all of their potential customers need a full switchboard solution (known in telco language as a PBX), and decide to offer that as an “add-on” or a bundled part of a higher-priced subscription package. |  |  |  |  |  |  |  |  |
 |  | An operator could offer advanced speech-to-text solutions to lawyers, real estate agents and translation companies to help them automate their workflows. |  |  |  |  |  |  |  |  |
-| B2C mobile operators | An operator could bundle a web content filtering product along with a subscription package aimed at kids (or rather the parents of kids – who in some market segments have their own smartphones by the age of eight). |  |  |  |  |  |  |  |  |
+| **B2C mobile operators** | An operator could bundle a web content filtering product along with a subscription package aimed at kids (or rather the parents of kids – who in some market segments have their own smartphones by the age of eight). |  |  |  |  |  |  |  |  |
 |  | An operator could offer a subscription aimed towards groups of people most likely to become victims of malicious text message scams, including additional anti-scam measures. |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
