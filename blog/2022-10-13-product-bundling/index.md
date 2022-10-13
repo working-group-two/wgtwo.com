@@ -3,7 +3,7 @@ slug: how-product-bundling-simplifies-distribution
 title: "How product bundling simplifies the distribution challenge"
 date: 2022-10-13
 tags: [saas, operators, bundling, products, distribution, ecosystem]
-authors: [wgtwo]
+authors: [odd-tronrud]
 ---
 
 Our big belief is that the telecom industry should start building global platforms with the aim of achieving network effects - like many of the adjacent industries in devices and apps.To enable this, we’re building a mobile core from the ground up, running it in the public cloud and offering it as-a-service globally. To make it even harder (and fun) for ourselves, we’re also developing a full, API-based global product ecosystem to give telecom operators new revenue and differentiation opportunities. 
@@ -34,14 +34,18 @@ Option 3 (bundling) solves the information distribution problem of the marketpla
 
 Here are some examples:
 
-\begin{table}[]
-\begin{tabular}{ll}
-B2B mobile operators & An operator might realize that not all of their potential customers need a full switchboard solution (known in telco language as a PBX), and decide to offer that as an “add-on” or a bundled part of a higher-priced subscription package.               \\
-                     & An operator could offer advanced speech-to-text solutions to lawyers, real estate agents and translation companies to help them automate their workflows                                                               \\
-B2C mobile operators & An operator could bundle a web content filtering product along with a subscription package aimed at kids (or rather the parents of kids – who in some market segments have their own smartphones by the age of eight). \\
-                     & An operator could offer a subscription aimed towards groups of people most likely to become victims of malicious text message scams, including additional anti-scam measures.                                         
-\end{tabular}
-\end{table} 
+|  |  |  |  |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|---|---|
+| B2B mobile operators | An operator might realize that not all of their potential customers need a full switchboard solution (known in telco language as a PBX), and decide to offer that as an “add-on” or a bundled part of a higher-priced subscription package. |  |  |  |  |  |  |  |  |
+|  | An operator could offer advanced speech-to-text solutions to lawyers, real estate agents and translation companies to help them automate their workflows. |  |  |  |  |  |  |  |  |
+| B2C mobile operators | An operator could bundle a web content filtering product along with a subscription package aimed at kids (or rather the parents of kids – who in some market segments have their own smartphones by the age of eight). |  |  |  |  |  |  |  |  |
+|  | An operator could offer a subscription aimed towards groups of people most likely to become victims of malicious text message scams, including additional anti-scam measures. |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
 
 The operators will be using an API where they manage their subscriptions. This is where they can activate new subscriptions, toggle high-speed data based on the users quota, and other operations.
 
