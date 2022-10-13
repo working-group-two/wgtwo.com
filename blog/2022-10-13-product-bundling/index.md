@@ -44,10 +44,7 @@ Here are some examples:
 |  | An operator could offer a subscription aimed towards groups of people most likely to become victims of malicious text message scams, including additional anti-scam measures. |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
+
 
 The operators will be using an API where they manage their subscriptions. This is where they can activate new subscriptions, toggle high-speed data based on the users quota, and other operations.
 
