@@ -77,7 +77,7 @@ module.exports = {
           label: "Customers",
           position: "left",
           type: "dropdown",
-          to: "features",
+          to: "customers",
           items: [
             { label: "Vimla", href: "/" },
             { label: "CKH IOD", href: "/" },
