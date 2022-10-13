@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2871],{77187:function(e){e.exports=JSON.parse('{"permalink":"/jp/blog/page/3","page":3,"postsPerPage":10,"totalPages":4,"totalCount":32,"previousPage":"/jp/blog/page/2","nextPage":"/jp/blog/page/4","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
