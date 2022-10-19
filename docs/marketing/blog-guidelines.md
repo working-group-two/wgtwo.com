@@ -6,7 +6,7 @@ sidebar_position: 01
 ---
 
 Working Group Two 
-## **Content and blogging guidelines** 
+**Content and blogging guidelines** 
 Updated March 21, 2022
 
 **Why do we have a blog?**
@@ -27,7 +27,7 @@ To stimulate positive, constructive, high-quality and collaboration-oriented pos
 - Steal with pride, but respect copyrights and other legal constraints. 
 - Be mindful about stuff like financial info, customer data, strategies, upcoming feature/products, religion, politics, and sexual references.
 
-3- Get reviewed and get help
+3. Get reviewed and get help
 - Just like our software updates are peer-reviewed for quality, so must content and blog posts. 
 - The marketing function is ultimately responsible for our external communications and is here to help with language, angles and general QA - as well as being the brand police to enforce all of the above. 
 
