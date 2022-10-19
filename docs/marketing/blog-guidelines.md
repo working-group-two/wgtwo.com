@@ -1,7 +1,7 @@
 ---
 id: Blog Guidelines
-title: Blog Guidelines
-sidebar_label: Blog Guidelines
+title: Content and blogging guidelines
+sidebar_label: Content and blogging guidelines
 sidebar_position: 01
 ---
 
