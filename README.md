@@ -8,24 +8,34 @@ https://github.com/working-group-two/wgtwo.com/actions/workflows/website-deploy.
 ## Adding content to the website
 <details>
 <summary>Creating a pull request</summary>
-You can create pull requests directly from the repo - or - from your forked repository. Essentially you can follow any git workflow. 
+You can create pull requests directly from the repo - or - from your forked repository. Essentially you can follow any git workflow.
+
 Clone the repo
+
 ```
 git clone https://github.com/working-group-two/wgtwo.com.git
 ```
+
 Create your new branch
+
 ```
 git checkout -b yourname/your-branch-name
 ```
+
 Do you development and then add the updated files to your branch
+
 ```
 git add .
 ```
-Crate your commit message
+
+Create your commit message
+
 ```
 git add -m "your commit message"
 ```
+
 Push your changes 
+
 ```
 git push --set-upstream origin yourname/your-branch-name
 ````
