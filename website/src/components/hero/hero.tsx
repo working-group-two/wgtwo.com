@@ -3,8 +3,10 @@ import styles from "./hero.module.css"
 import common from "../../css/common.module.css"
 import Translate from "@docusaurus/Translate"
 import Link from "@docusaurus/Link"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Component() {
+  const { i18n } = useDocusaurusContext()
   return (
     <div className={common.section}>
       <div className={`${common.container} ${common.splitContainer}`}>
@@ -14,7 +16,7 @@ function Component() {
             This is your new mobile core network.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
-          <div className={common.subtitle}>
+          <div className={i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp}>
             <Translate
               id="home.hero.subtitle"
               description="Subtitle for the hero section"
@@ -31,10 +33,20 @@ function Component() {
               to="/technology"
               className={`${common.button} ${common.buttonPrimary}`}
             >
-              Our Technology
+              <Translate
+              id="home.hero.techButton"
+              description="techButton for the hero section"
+              >
+                Our Technology
+              </Translate>
             </Link>
             <Link to="/request-demo" className={common.button}>
-              Request a Demo
+              <Translate
+                id="home.hero.contactButton"
+                description="contactButton for the hero section"
+              >
+                Request a Demo
+              </Translate>
             </Link>
           </div>
         </div>

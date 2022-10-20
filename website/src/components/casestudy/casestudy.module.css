@@ -19,6 +19,12 @@ div.caseStudyContainer.caseStudyContainer {
   font-weight: 400;
 }
 
+.subtitleJp {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
 @media (max-width: 460px) {
   div.heart {
     display: block;
