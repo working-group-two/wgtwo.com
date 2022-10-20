@@ -74,7 +74,7 @@ module.exports = {
           position: "left",
         },
         {
-          label: "Customers",
+          label: "Showcase",
           position: "left",
           type: "dropdown",
           to: "/",
