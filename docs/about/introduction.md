@@ -23,6 +23,11 @@ The overarching goal has always been to create a radically innovative, radically
 
 Since the start in 2017 the company has gone through several steps of development, and already in five months after launching we took our concept commercially live. Since then we have expanded scope to now offer a full mobile MNO core. We take a unique approach of building a platform for mobile operators where they can share in the benefits of an ecosystem. We are also one of the few operators in the world operating a mobile core at commercial scale out of hyper-scaler infrastructure.
 
+We have been expanding, and alot of people are getting more interested in our technology. In September 2022, Working Group Two partnered with Atos to offer operators a simplified, end-to-end mobile network solution. It is built on Working Group Two's 4/5G cloud-native mobile core and Atos' whole portfolio of Next Generation Telecom Network technologies, including cloud computing, edge, and Open RAN. Together, they will provide "core-network-as-a-service" solutions.
+
+This partnership will target key prospects such as IoT, Private Networks, and Enterprise for Tier 1 operators while expanding the service to public MNO core networks for Tier 2 and Tier 3 operators. The solution will allow operators to maximize capacity, save costs, and streamline operations.
+
+
 ## The man behind the name
 ![](../images/wgtwo-skier-1.png)  
 [Torleiv Maseng](https://en.wikipedia.org/wiki/Torleiv_Maseng) - 1980s Norwegian researcher, developing a radio sub-system for GSM.
