@@ -1,0 +1,78 @@
+.active,
+.deploymentModel:hover {
+  background-color: #b3e5fc;
+  color: #263238;
+  cursor: pointer;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.deploymentModels {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.deploymentModel {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  padding: 36px 56px;
+  border-radius: 8px;
+  max-width: 560px;
+  min-width: 100%;
+  transition: 0.4s;
+}
+
+.deploymentModelTitle {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.deploymentModelIcon {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.deploymentModelDescription {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.splitContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
+
+@media (max-width: 512px) {
+  div.deploymentModel {
+    padding: 36px 36px;
+  }
+}
+
+@media (max-width: 1200px) {
+  div.splitContainer {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px;
+  }
+}
