@@ -16,7 +16,11 @@ function Component() {
             This is your new mobile core network.
             {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
           </h1>
-          <div className={i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+            }
+          >
             <Translate
               id="home.hero.subtitle"
               description="Subtitle for the hero section"
@@ -34,8 +38,8 @@ function Component() {
               className={`${common.button} ${common.buttonPrimary}`}
             >
               <Translate
-              id="home.hero.techButton"
-              description="techButton for the hero section"
+                id="home.hero.techButton"
+                description="techButton for the hero section"
               >
                 Our Technology
               </Translate>

@@ -21,7 +21,11 @@ function Component() {
             Adapting to your use case{" "}
             <span className={styles.heart}>&hearts;</span>
           </div>
-          <div className={i18n.currentLocale === "en" ? styles.subtitle : styles.subtitleJp}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? styles.subtitle : styles.subtitleJp
+            }
+          >
             <Translate
               id="home.casestudy.subtitle"
               description="Subtitle for the casestudy section"

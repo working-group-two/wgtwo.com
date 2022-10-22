@@ -16,7 +16,11 @@ function Component() {
             Self-service
             <br /> operator console
           </h2>
-          <div className={i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+            }
+          >
             <Translate
               id="home.logs.subtitle"
               description="Subtitle for the logs section"

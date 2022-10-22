@@ -22,7 +22,11 @@ function Component() {
       </div> */}
       <div className={common.container}>
         <div className={common.centeredText}>
-          <h2 className={i18n.currentLocale === "en" ? styles.quote : styles.quoteJp}>
+          <h2
+            className={
+              i18n.currentLocale === "en" ? styles.quote : styles.quoteJp
+            }
+          >
             <Translate
               id="home.quote.title"
               description="The main quote for the customer quote component"
