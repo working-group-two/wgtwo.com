@@ -34,11 +34,11 @@
   border-radius: 5px;
 }
 
-.menuContainer li[role=menuitem] {
+.menuContainer li[role="menuitem"] {
   padding: 0.5rem 1.5rem;
 }
 
-.menuContainer li[role=separator] {
+.menuContainer li[role="separator"] {
   margin: 5px 0;
 }
 
