@@ -6,16 +6,8 @@ function Component({ label, title, children }) {
   return (
     <>
       <div className={styles.deploymentModel}>
-        <div
-          className={styles.deploymentModelLabel}
-        >
-          {label}
-        </div>
-        <div
-          className={styles.deploymentModelTitle}
-        >
-          {title}
-        </div>
+        <div className={styles.deploymentModelLabel}>{label}</div>
+        <div className={styles.deploymentModelTitle}>{title}</div>
         <div className="accordion-content">{children}</div>
       </div>
     </>

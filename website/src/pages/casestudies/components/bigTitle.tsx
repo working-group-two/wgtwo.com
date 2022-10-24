@@ -6,9 +6,7 @@ function Component({ pillText, titleText, children }) {
     <div>
       <div className={common.pillTitle}>{pillText}</div>
       <h2 className={common.title}>{titleText}</h2>
-      <div className={common.subtitle}>
-        {children}
-      </div>
+      <div className={common.subtitle}>{children}</div>
     </div>
   )
 }

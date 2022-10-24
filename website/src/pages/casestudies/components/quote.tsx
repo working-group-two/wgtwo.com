@@ -1,10 +1,10 @@
 import React from "react"
 import styles from "./quote.module.css"
-import { Quote } from "lucide-react";
+import { Quote } from "lucide-react"
 
 function Component({ by, children }) {
-  let quoteBy;
-  if(by) quoteBy = <p className={styles.quoteBy}>- {by}</p>;
+  let quoteBy
+  if (by) quoteBy = <p className={styles.quoteBy}>- {by}</p>
 
   return (
     <div className={styles.quoteContainer}>

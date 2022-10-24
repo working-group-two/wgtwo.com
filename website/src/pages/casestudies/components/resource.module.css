@@ -6,7 +6,8 @@
   border: 1px solid #acbac4; /* #cad7e1; /* #ced2d5; */
   border-radius: 6px;
   box-shadow: 0px 6px 10px rgb(176 190 196 / 33%);
-  transition: transform 300ms ease, box-shadow 300ms ease, border-color 100ms ease;
+  transition: transform 300ms ease, box-shadow 300ms ease,
+    border-color 100ms ease;
 }
 
 .resourceBlock:hover {
@@ -14,9 +15,9 @@
   box-shadow: 0px 10px 12px rgb(176 190 196 / 20%);
   border-color: #7c91a0;
 }
-  .resourceBlock:hover .footer {
-    color: #1e86d0;
-  }
+.resourceBlock:hover .footer {
+  color: #1e86d0;
+}
 
 .title {
   font-size: 1.3em;
