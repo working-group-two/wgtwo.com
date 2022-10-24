@@ -1,7 +1,7 @@
 ---
-slug: casestudies
-title: Case Studies
-description: Case Studies MDX page
+slug: vimla
+title: Case Studies - Vimla
+description: Vimla
 advancedPage: true
 ---
 
@@ -51,11 +51,4 @@ import Card from "./components/card";
 
 <ResourcesSection>
   <Resource title="Website" link="https://vimla.se">Visit the official page of Vimla</Resource>
-  <Resource title="Website" link="https://vimla.se">Visit the official page of Vimla, and check out the Vimla Filter app and other upcoming projects!</Resource>
 </ResourcesSection>
-
-<Section bgColor="#f6f6f6">
-  <Quote>
-    “Our collaboration with Working Group Two to deploy our core network on the public cloud delivers simplicity, improved operational efficiency and the ability to quickly develop new initiatives to meet market needs, with particular focus on the MVNO, IoT and Private Network space. It’s about achieving scale and the highest levels of security while reducing complexity – to the benefit of our customers and ultimately, end-users in our markets,” says Joe Parker, CEO of CKH IOD.
-  </Quote>
-</Section>

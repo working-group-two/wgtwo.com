@@ -49,9 +49,13 @@
 }
 
 .splitContainer {
-  display: grid;
+  display: grid !important;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
+  align-items: start !important;
+}
+
+.sectionStyle {
+  padding-bottom: 60px;
 }
 
 @media (max-width: 512px) {
@@ -76,3 +80,9 @@
     top: 150px;
   }
 }
+
+/* Override default MDX style */
+h2 {
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0 !important;
+}
+

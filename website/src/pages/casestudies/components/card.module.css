@@ -15,9 +15,20 @@
   transition: 0.4s;
 }
 
-.deploymentModelTitle {
-  font-size: 28px;
+.deploymentModelLabel {
+  color: #cad9e2;
+  font-size: 20px;
   font-weight: 700;
   display: flex;
   align-items: center;
+  margin-bottom: 7px;
+}
+
+.deploymentModelTitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: var(--ifm-heading-line-height);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }

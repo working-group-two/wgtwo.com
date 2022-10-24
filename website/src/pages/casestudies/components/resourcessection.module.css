@@ -1,0 +1,17 @@
+.sectionStyle {
+  padding-top: 50px;
+}
+
+.gridContainer {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  align-items: start !important;
+}
+
+/* TODO: mobile responsive grids!!! */
+
+h2.title {
+  color: #232e33;
+  margin-bottom: 50px !important;
+}
