@@ -24,3 +24,7 @@
   font-weight: 700;
   margin-bottom: 12px;
 }
+
+.featureDescriptionJp {
+  white-space: pre-wrap;
+}
