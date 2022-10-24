@@ -1,0 +1,23 @@
+.deploymentModels {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.deploymentModel {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  padding: 36px 56px;
+  border-radius: 8px;
+  max-width: 560px;
+  min-width: 100%;
+  transition: 0.4s;
+}
+
+.deploymentModelTitle {
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
