@@ -56,7 +56,7 @@ function Component(props) {
           <div className={styles.showcaseDescription}>
             {showcase.description}
           </div>
-          <Link to={`/showcase/${showcase.name}`} className={styles.link}>
+          <Link to={`/showcase/${showcase.slug}`} className={styles.link}>
             <Translate
               id="home.casestudy.learnmore"
               description="Learn more about the showcase"
