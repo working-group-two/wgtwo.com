@@ -7,7 +7,7 @@ authors: [jonny-griffin]
 
 import Image from "@theme/IdealImage";
 import styles from "./styles.css";
-import Tooltip from '@site/src/components/tooltip/Tooltip';
+import Tooltip from '../components/tooltip/Tooltip'
 
 <div class="email">
 
