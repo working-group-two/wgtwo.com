@@ -25,7 +25,7 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="MVNE" titleText="CKH IOD">
+    <BigTitle pillText="MVNE" titleText="CKH IOD" logoUrl="/img/ckh.svg">
       There should be something here -- feels rather empty
     </BigTitle>
   </Column>

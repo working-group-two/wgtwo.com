@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--ifm-heading-margin-bottom);
+}
+
+.header h2 {
+  margin: 0 !important;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 60px;
+}

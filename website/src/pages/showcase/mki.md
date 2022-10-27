@@ -25,7 +25,7 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="Private Networks" titleText="MKI">
+    <BigTitle pillText="Private Networks" titleText="MKI" logoUrl="/img/mki.png">
       Pixie dust ✨
     </BigTitle>
   </Column>

@@ -25,7 +25,7 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="MVNO" titleText="Vimla">
+    <BigTitle pillText="MVNO" titleText="Vimla" logoUrl="/img/vimla.png">
       There is nothing like a good Vulma, chirping quietly and soothingly through the morning atmosphere
     </BigTitle>
   </Column>
