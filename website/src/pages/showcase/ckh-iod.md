@@ -18,7 +18,6 @@ import Section from "./components/section";
 import Quote from "./components/quote";
 
 import BigTitle from "./components/bigTitle";
-import CenteredTitle from "./components/centeredTitle";
 import Cards from "./components/cardContainer";
 import Card from "./components/card";
 
