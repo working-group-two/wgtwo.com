@@ -102,3 +102,7 @@ html[data-theme="dark"] .menu {
   right: 0;
   left: initial;
 }
+
+.dropdown > .navbar__link:after {
+  display: none;
+}

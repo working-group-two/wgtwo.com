@@ -74,6 +74,17 @@ module.exports = {
           position: "left",
         },
         {
+          label: "Showcase",
+          position: "left",
+          type: "dropdown",
+          to: "/showcase",
+          items: [
+            { label: "Vimla", href: "/showcase/vimla" },
+            { label: "CKH IOD", href: "/showcase/ckh-iod" },
+            { label: "MKI", href: "/showcase/mki" },
+          ],
+        },
+        {
           href: "/careers/",
           activeBasePath: "/careers/",
           label: "Join the Team 🎉",
