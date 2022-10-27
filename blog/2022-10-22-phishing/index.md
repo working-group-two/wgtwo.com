@@ -49,7 +49,7 @@ Date: Oct 21, 2022, 6:29 PM
 
 Hi! 
 
-<Tooltip text="Working Group 2" subtext="Mispelling of the company name" /> is celebrating the holidays. To do so we need all <Tooltip text="WGTWO" subtext="Mispelling of the company name" /> employees to sign up if they would like to receive a <Tooltip text="FREE" subtext="nothing in life is for free ;)" /> gift. We have a limited number so need to here from you <Tooltip text="quickly" subtext="Sense of urgency to trick you" />. The wgtwo HR needs to know your answer by the <Tooltip text="end of this week" subtext="Sense of urgency to trick you" /> so please signup on the link <Tooltip text="immediately" subtext="Sense of urgency to trick you" /> <a href ="https://www.wgtwo.com/blog/internal-phishing-campaigns-done-right">HERE</a>.  
+<Tooltip text="Working Group 2" subtext="Mispelling of the company name" /> is celebrating the holidays. To do so we need all <Tooltip text="WGTWO" subtext="Mispelling of the company name" /> employees to sign up if they would like to receive a <Tooltip text="FREE" subtext="nothing in life is for free ;)" /> gift. We have a limited number so need to here from you <Tooltip text="quickly" subtext="Sense of urgency to trick you" />. The wgtwo HR needs to know your answer by the <Tooltip text="end of this week" subtext="Sense of urgency to trick you" /> so please signup on the link <Tooltip text="immediately" subtext="Sense of urgency to trick you" /> <a href ="">HERE</a>.  
 <br />
 <br />
 Thanks for your participation and patience. HR and <Tooltip text="CEO" subtext="Using authority to drive action" /> of <Tooltip text="WG2" subtext="Mispelling of the company name" />
