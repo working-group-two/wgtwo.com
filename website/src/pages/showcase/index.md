@@ -1,5 +1,5 @@
 ---
-slug: casestudies
+slug: showcase
 title: Case Studies
 description: Case Studies MDX page
 advancedPage: true
