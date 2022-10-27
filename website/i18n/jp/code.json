@@ -1,14 +1,18 @@
 {
+  "home.cta.contact": {
+    "message": "お問い合わせ",
+    "description": "contact for the cta section"
+  },
   "home.casestudy.adjacentcores.description": {
-    "message": "モバイル事業者は、日々スケーラビリティという課題に直面しています。高度に複雑なネットワークは、新たなユースケース導入を制限し、導入してもさらに複雑性を増すのがが一般的です。",
+    "message": "モバイル事業者のコアネットワークは複数世代の規格と複数のユースケースをおおきな唯一のシステムで対応しており、日々の運用はもちろんのこと、事故や災害時の復旧に要する時間を不必要に増加させる要因となっています。わたしたちは、Adjacent Core = ユースケース毎のコアネットワーク、を分散型に配置することを提案しています。",
     "description": "Description for the adjacent cores for operators case study"
   },
   "home.casestudy.mvnx.description": {
-    "message": "あらゆる種類のMVNO事業者が、同一な課題に直面しています。自社でコアを構築し、運用するのは大変でコストがかかり、そこから競争優位を得るのは非常に困難です。より良い方法が今、可能になりました。",
+    "message": "MVNO事業者はその事業構造上、自社でコアを構築・運用することのコスト面の課題があります。その課題を克服しない限り、競争優位性を獲得することは困難です。私どものSaaSコアは皆様のTCO (Total Cost of Ownership)を劇的に低減し、事業性を高める一助となります。",
     "description": "Description for the MVNx case study"
   },
   "home.casestudy.smalloperators.description": {
-    "message": "特に小規模な事業者は、基本サービスさえも手頃なコストで実現することが難しいことがあります。VoLTEを動作させたり、通話を腕時計型デバイスとスマートフォンに分岐させたり、またSMSのホームルーティング、法的傍受ソリューションとの統合、CSフォールバック処理、データ接続のポリシーマネジメント、ローミング対応、PBXの統合などは、従来型のネットワークでは実現に浪費する機能の一例です。",
+    "message": "小規模事業者は、基本サービスさえも手頃なコストで実現することが難しい現実があります。VoLTEを動作させること、通話を腕時計型デバイスとスマートフォンに分岐させたり、データ接続のポリシーマネジメント、ローミング対応、PBXとの統合などは、従来型のネットワークでは実現するのに時間とコストを浪費する一例です。わたしたちのマルチテナント機能およびAPIを駆使したインテグレーション手法を利用すれば、解決の糸口が見つかるかもしれません。",
     "description": "Description for the small operators case study"
   },
   "home.casestudy.hybridnetworks.description": {
@@ -16,75 +20,91 @@
     "description": "Description for the hybrid networks case study"
   },
   "home.casestudy.privatenetworkcore.description": {
-    "message": "プライベートネットワークは、通信業界において急成長している分野です。遅延、セキュリティ、安定性に関連するユースケースが、モバイルネットワークの小型化への要求を後押ししています。しかし、モバイルネットワークは管理が複雑です。Omdiaの調査によると、10社中9社の企業が、これらのネットワークを管理するためのパートナーを求めています。",
+    "message": "プライベートネットワークは、通信業界において急成長している分野です。遅延、セキュリティ、安定性に関連するユースケースが、モバイルネットワークの小型化への要求を後押ししています。一方で、コスト面の課題が生じたり、自営化のメリットを見出せないケースも多々あります。私どものコアネットワークはMNOが利用するフル機能を有しながら、小規模展開を可能とします。また、SaaS方式によって導入障壁を下げ、より多くの企業・団体が自営網を利用することを助長します。",
     "description": "Description for the private network core case study"
   },
   "home.casestudy.greenfieldoperators.description": {
-    "message": "モバイル事業者、特に規模が限られ、技術チームが十分ではない新規参入事業者は、基本的なサービスさえも手頃なコストで動作させることにも苦労しています。",
+    "message": "モバイル事業へ新規参入する事業者は特に規模が限られ、技術チームが十分ではない場合、基本的なサービスさえも手頃なコストで動作させることに苦労します。わたしたちのコアにプラグインすることを提案します。",
     "description": "Description for the greenfield operators case study"
   },
   "home.casestudy.subtitle": {
-    "message": "wgtwoはAPIを実装したプラットフォームを提供し、すべての顧客セグメントが当社のコアネットワークをご利用できるように取り組んでいます。私どもの改革については、ケーススタディをご覧いただき、どのようにお客様の会社を支援できるかをご確認ください。私たちの目標は、お客様のビジネスのイノベーションと成長を促進することです。",
+    "message": "wgtwoはAPIを実装したプラットフォームと開発者向けのオープンな環境を提供しています。私たちの目標はお客様のビジネスのイノベーションと成長を促進することです。モバイルコア能力とコラボレーションすることでよりよい製品やサービスになるものを一緒に探していければと考えています。",
     "description": "Subtitle for the casestudy section"
   },
+  "home.casestudy.more": {
+    "message": "もっとみる",
+    "description": "more for the casestudy section"
+  },
   "home.enterprise.subtitle": {
-    "message": "wgtwoコアは、認証、プロビジョニング、音声、メッセージングおよびデータサービスに関連するフルセットの機能を提供し、お客様のビジネスをトランスフォームさせます。",
+    "message": "認証、プロビジョニング、音声、データ、メッセージングなど、モバイルに必要なフル機能を実装しています。",
     "description": "Subtitle for the enterprise section"
   },
   "home.enterprise.data.description": {
-    "message": "高速でセキュア、かつ地理的な制約がなく、信頼性の高いデータ接続により、エンドユーザーのあらゆるニーズにお応えします。",
+    "message": "フルコアネットワーク、MVNO向け、\nプライベートネットワークなどあらゆる\nアーキテクチャーに対応します。",
     "description": "Description for the data feature"
   },
   "home.enterprise.messaging.description": {
-    "message": "SMS/MMSサービス、ボイスメールの提供。",
+    "message": "SMS/MMSサービス、\nボイスメールの提供。",
     "description": "Description for the messaging feature"
   },
   "home.enterprise.voice.description": {
-    "message": "2G、3G、4G（VoLTE）のキャリアグレードな音声サービスを提供します。",
+    "message": "2G、3G、4G（VoLTE）の\nキャリアグレードな音声サービス\nを提供します。",
     "description": "Description for the voice feature"
   },
   "home.enterprise.connectivity.description": {
-    "message": "セキュアな認証とSIMカードのプロビジョニング機能を提供します。",
+    "message": "セキュアな認証とSIMカードの\nプロビジョニング機能を提供します。",
     "description": "Description for the connectivity feature"
   },
   "home.enterprise.console.description": {
-    "message": "新規契約者のプロビジョニング、新機能の有効化、カスタマーサービスのリクエスト対応を実施します。",
+    "message": "新規契約者のプロビジョニング、\n新機能の有効化、カスタマーサービスの\nリクエスト対応を実施します。",
     "description": "Description for the console feature"
   },
   "home.enterprise.support.description": {
-    "message": "24時間365日の3rd line 監視・保守サポート。",
+    "message": "24時間365日DevOps担当者による\n遠隔監視・保守サポートを実施します。",
     "description": "Description for the support feature"
   },
   "home.hero.subtitle": {
-    "message": "ボックスは現場にありませんし、EOLも心配なし、多額の先行投資の障壁もありません。wgtwoのクラウドコアは、継続的なイノベーション、破壊的なコスト削減、そして真の柔軟性を提供します。シンプルにお使いいただくためにサービスとして提供され、お客様の成長に合わせて拡張することができます。",
+    "message": "データセンターリソースや 、ハードウェアなどシステム立ち上げに必要な先行投資の心配はいりません。またハードウェアやソフトウェアの保障切れによる追加投資も必要ありません。wgtwoのクラウドコアは、続的なコード追加、大幅なコスト削減、そして柔軟性を提供します。シンプルにお使いいただくためにサブスクリプションサービスとして提供され、お客様の成長に合わせて拡張することができます。",
     "description": "Subtitle for the hero section"
   },
+  "home.hero.techButton": {
+    "message": "詳しく見る",
+    "description": "techButton for the hero section"
+  },
+  "home.hero.contactButton": {
+    "message": "お問い合わせ",
+    "description": "contactButton for the hero section"
+  },
   "home.logs.subtitle": {
-    "message": "wgtwoプラットフォームを利用する事業者は、提供する回線を自ら設定することができ、ニーズに合ったイノベーション・プロダクトを自由に追加できる仕組みを得ます。",
+    "message": "SaaSとはいえ、お客様自身で気軽に設定変更できる機能をそなえています。",
     "description": "Subtitle for the logs section"
   },
+  "home.logs.ecosystemButton": {
+    "message": "詳しく見る",
+    "description": "ecosystemButton for the logs section"
+  },
   "home.quote.title": {
-    "message": "「Working Group Twoとの協業により、当社のコアネットワークをパブリッククラウド上に展開することで、事業をよりシンプルに戻し、運用効率の改善、市場ニーズに基づく新サービスの迅速な導入が可能になることを期待しています。特にMVNO、IoT、プライベートネットワークの分野に重点を置いています。これは、複雑さを軽減しながら、規模と最高レベルのセキュリティを実現することであり、当社のお客様、ひいては当社の市場のエンドユーザーに利益をもたらすものです。\"",
+    "message": "\"Working Group Twoとの協業により、当社コアネットワークをパブリッククラウド上に展開することに成功しました。これによって、事業の簡易化、運用の最適化、市場ニーズに基づく新サービスの迅速な導入が可能になることを期待しています。特にMVNO、IoT、プライベートネットワークのB-to-B分野に重点を置いています。また、コアネットワークの複雑さを軽減しながらもシステムの拡張を容易にし、最高レベルのセキュリティを実現したと実感しています。\"",
     "description": "The main quote for the customer quote component"
   },
   "home.quote.attribution": {
-    "message": "CKH IODのCEO、Joe Parker氏",
+    "message": "CKH IOD社 CEO、Joe Parker氏",
     "description": "The attribution for the customer quote"
   },
   "home.rbe.subtitle": {
-    "message": "通信事業者とエンドユーザーは、ユーザーに価値を提供するエコシステムを備えたモバイルネットワークが必要です。その実現のために、私たちはプログラマブルなモバイルコアネットワークを構築しました。APIをフル実装したプラットフォームを、As-a-Serviceで提供します。そして、通信事業者、ディベロッパー、エンドユーザーが出会い、交流することができるマーケットプレイスを構築することを目指しています。",
+    "message": "わたしたちは柔軟性を求めるため、モバイルコアネットワークを再構築しました。APIを実装したプラットフォームを、アズ・ア・サービスとして提供します。そして、通信事業者・ディベロッパー・エンドユーザーが交流することができるマーケットプレイスを構築することを目指しています。",
     "description": "Subtitle for the RBE section"
   },
   "home.rbe.cloud.description": {
-    "message": "クラウドにモバイルコアを。そして、イノベーションをコアネットワークへ呼び戻します。",
+    "message": "モバイルコアをパブリッククラウド上に再構築しました。",
     "description": "Description for the cloud deployment model"
   },
   "home.rbe.api.description": {
-    "message": "wgtwo APIを利用して加入者のプロビジョニングを柔軟に実施",
+    "message": "APIを利用して、お客様のシステム運用を最適化します。",
     "description": "Description for the API deployment model"
   },
   "home.rbe.telco.description": {
-    "message": "セキュアで、開発しやすい、次世代の、そしてサービス豊富な通信プラットフォームで、お客様のビジネスを成功に導きます。End-of-Lifeは過去のものです。",
+    "message": "モバイル回線のプラットフォームと第3者が開発しやすいAPIプラットフォームどちらも兼ね備えた、サービスを提供します。",
     "description": "Description for the telco deployment model"
   },
   "theme.ErrorPageContent.title": {

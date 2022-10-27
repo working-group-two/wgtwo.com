@@ -10,14 +10,20 @@ import {
   Laptop2,
 } from "lucide-react"
 import Translate from "@docusaurus/Translate"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Component() {
+  const { i18n } = useDocusaurusContext()
   return (
     <div className={common.section}>
       <div className={common.container}>
         <div className={common.centeredText}>
           <h2 className={common.title}>Your next generation core</h2>
-          <div className={common.subtitle}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+            }
+          >
             <Translate
               id="home.enterprise.subtitle"
               description="Subtitle for the enterprise section"
@@ -36,7 +42,13 @@ function Component() {
               <DownloadCloud />
             </div>
             <div className={styles.featureTitle}>Data</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.data.description"
                 description="Description for the data feature"
@@ -51,7 +63,13 @@ function Component() {
               <MessageSquare />
             </div>
             <div className={styles.featureTitle}>Messaging</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.messaging.description"
                 description="Description for the messaging feature"
@@ -65,7 +83,13 @@ function Component() {
               <PhoneCall />
             </div>
             <div className={styles.featureTitle}>Voice</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.voice.description"
                 description="Description for the voice feature"
@@ -79,7 +103,13 @@ function Component() {
               <BarChart />
             </div>
             <div className={styles.featureTitle}>Connectivity</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.connectivity.description"
                 description="Description for the connectivity feature"
@@ -93,7 +123,13 @@ function Component() {
               <Laptop2 />
             </div>
             <div className={styles.featureTitle}>Console</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.console.description"
                 description="Description for the console feature"
@@ -108,7 +144,13 @@ function Component() {
               <Slack />
             </div>
             <div className={styles.featureTitle}>Support</div>
-            <div className={styles.featureDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.featureDescription
+                  : styles.featureDescriptionJp
+              }
+            >
               <Translate
                 id="home.enterprise.support.description"
                 description="Description for the support feature"

@@ -3,15 +3,21 @@ import common from "../../css/common.module.css"
 import styles from "./rbe.module.css"
 import { Cloud, LayoutTemplate, Globe2 } from "lucide-react"
 import Translate from "@docusaurus/Translate"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Component() {
+  const { i18n } = useDocusaurusContext()
   return (
     <div className={`${common.section} ${common.sectionDark}`}>
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
           <div className={common.pillTitle}>vision</div>
           <h2 className={common.title}>wgtwo</h2>
-          <div className={common.subtitle}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+            }
+          >
             <Translate
               id="home.rbe.subtitle"
               description="Subtitle for the RBE section"
@@ -30,7 +36,13 @@ function Component() {
             <div className={styles.deploymentModelTitle}>
               <Cloud className={styles.deploymentModelIcon} /> Cloud
             </div>
-            <div className={styles.deploymentModelDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.deploymentModelDescription
+                  : styles.deploymentModelDescriptionJp
+              }
+            >
               <Translate
                 id="home.rbe.cloud.description"
                 description="Description for the cloud deployment model"
@@ -43,7 +55,13 @@ function Component() {
             <div className={styles.deploymentModelTitle}>
               <LayoutTemplate className={styles.deploymentModelIcon} /> APIs
             </div>
-            <div className={styles.deploymentModelDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.deploymentModelDescription
+                  : styles.deploymentModelDescriptionJp
+              }
+            >
               <Translate
                 id="home.rbe.api.description"
                 description="Description for the API deployment model"
@@ -57,7 +75,13 @@ function Component() {
             <div className={styles.deploymentModelTitle}>
               <Globe2 className={styles.deploymentModelIcon} /> Telco SaaS
             </div>
-            <div className={styles.deploymentModelDescription}>
+            <div
+              className={
+                i18n.currentLocale === "en"
+                  ? styles.deploymentModelDescription
+                  : styles.deploymentModelDescriptionJp
+              }
+            >
               <Translate
                 id="home.rbe.telco.description"
                 description="Description for the telco deployment model"

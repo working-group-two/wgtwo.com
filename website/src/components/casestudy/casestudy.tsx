@@ -5,8 +5,10 @@ import CaseStudyList from "./casestudy-list"
 import Image from "@theme/IdealImage"
 import Link from "@docusaurus/Link"
 import Translate from "@docusaurus/Translate"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Component() {
+  const { i18n } = useDocusaurusContext()
   return (
     <div
       className={`${common.section} ${common.sectionDark} ${common.sectionRounded}`}
@@ -19,7 +21,11 @@ function Component() {
             Adapting to your use case{" "}
             <span className={styles.heart}>&hearts;</span>
           </div>
-          <div className={styles.subtitle}>
+          <div
+            className={
+              i18n.currentLocale === "en" ? styles.subtitle : styles.subtitleJp
+            }
+          >
             <Translate
               id="home.casestudy.subtitle"
               description="Subtitle for the casestudy section"
@@ -39,7 +45,12 @@ function Component() {
       </div>
       <div className={common.container}>
         <Link to="/case-studies" className={styles.caseStudyButton}>
-          See all case studies
+          <Translate
+            id="home.casestudy.more"
+            description="more for the casestudy section"
+          >
+            See all case studies
+          </Translate>
         </Link>
       </div>
     </div>

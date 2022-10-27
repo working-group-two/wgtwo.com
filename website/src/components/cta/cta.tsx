@@ -2,6 +2,7 @@ import React from "react"
 import common from "../../css/common.module.css"
 import styles from "./cta.module.css"
 import Link from "@docusaurus/Link"
+import Translate from "@docusaurus/Translate"
 
 function Component() {
   return (
@@ -13,7 +14,12 @@ function Component() {
             to="/contact"
             className={`${common.button} ${common.buttonPrimary} ${styles.button}`}
           >
-            Request a Demo
+            <Translate
+              id="home.cta.contact"
+              description="contact for the cta section"
+            >
+              Request a Demo
+            </Translate>
           </Link>
         </div>
       </div>

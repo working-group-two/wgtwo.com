@@ -2,8 +2,10 @@ import React from "react"
 import common from "../../css/common.module.css"
 import styles from "./quote.module.css"
 import Translate from "@docusaurus/Translate"
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 
 function Component() {
+  const { i18n } = useDocusaurusContext()
   return (
     <div
       className={`${common.section} ${common.sectionDark} ${common.sectionRounded}`}
@@ -20,7 +22,11 @@ function Component() {
       </div> */}
       <div className={common.container}>
         <div className={common.centeredText}>
-          <h2 className={styles.quote}>
+          <h2
+            className={
+              i18n.currentLocale === "en" ? styles.quote : styles.quoteJp
+            }
+          >
             <Translate
               id="home.quote.title"
               description="The main quote for the customer quote component"

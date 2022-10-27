@@ -34,11 +34,11 @@ const CompanyProfile = () => {
             <tr>
               <th>所在地</th>
               <td>
-                〒2210052
+                〒220-0012
                 <br />
-                神奈川県横浜市神奈川区栄町5-1
+                神奈川県横浜市西区みなとみらい3-7-2
                 <br />
-                横浜クリエーションスクエア14F
+                Ocean Gate Minatomirai 8階
               </td>
             </tr>
           </table>
