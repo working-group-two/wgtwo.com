@@ -35,7 +35,7 @@
   .gridCell {
     padding: 25px 10px;
   }
-  
+
   .gridCell:not(:last-child) {
     border: none;
     border-bottom: 1px solid #474d50;
