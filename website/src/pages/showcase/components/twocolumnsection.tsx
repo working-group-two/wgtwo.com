@@ -5,7 +5,7 @@ import styles from "./twocolumnsection.module.css"
 function Component({ bgColor, children }) {
   return (
     <div
-      className={`${common.section} ${common.sectionDark} ${styles.secionStyle}`}
+      className={`${common.section} ${common.sectionDark} ${styles.sectionStyle}`}
       style={{ backgroundColor: bgColor }}
     >
       <div className={`${common.container} ${styles.splitContainer} `}>

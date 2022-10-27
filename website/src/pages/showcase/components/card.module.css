@@ -32,3 +32,9 @@
   align-items: center;
   margin-bottom: 10px;
 }
+
+@media (max-width: 512px) {
+  div.deploymentModel {
+    padding: 36px 36px !important;
+  }
+}

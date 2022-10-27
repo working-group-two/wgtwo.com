@@ -12,4 +12,18 @@
   align-items: start !important;
 }
 
-/* TODO: mobile responsive grids!!! */
+@media (max-width: 600px) {
+  .gridContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch !important;
+  }
+
+  .sectionStyle {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+}

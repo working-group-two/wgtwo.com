@@ -24,3 +24,20 @@
 .gridCell:not(:last-child) {
   border-right: 1px solid #474d50;
 }
+
+@media (max-width: 1200px) {
+  .bigText {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .gridCell {
+    padding: 25px 10px;
+  }
+  
+  .gridCell:not(:last-child) {
+    border: none;
+    border-bottom: 1px solid #474d50;
+  }
+}
