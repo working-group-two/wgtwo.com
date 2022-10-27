@@ -4,9 +4,9 @@ import styles from "./showcase-list.module.css"
 import Translate from "@docusaurus/Translate"
 import Link from "@docusaurus/Link"
 
-import { frontMatter as Vimla } from "./vimla.md";
-import { frontMatter as CKH_IOD } from "./ckh-iod.md";
-import { frontMatter as MKI } from "./mki.md";
+import { frontMatter as Vimla } from "./vimla.md"
+import { frontMatter as CKH_IOD } from "./ckh-iod.md"
+import { frontMatter as MKI } from "./mki.md"
 
 const showcases = [
   {
