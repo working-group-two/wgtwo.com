@@ -62,7 +62,7 @@ export default function BlogPostItemFooter() {
   return (
     <footer className="row docusaurus-mt-lg">
       {tagsExists && (
-        <div className="col--9">
+        <div className="col col--9">
           <TagsListInline tags={tags} />
         </div>
       )}
