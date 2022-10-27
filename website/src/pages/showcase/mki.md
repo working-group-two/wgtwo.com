@@ -1,7 +1,7 @@
 ---
 slug: mki
 title: Case Studies - MKI
-description: MKI
+description: MKI description
 advancedPage: true
 ---
 

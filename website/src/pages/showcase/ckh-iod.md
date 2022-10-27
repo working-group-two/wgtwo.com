@@ -1,7 +1,7 @@
 ---
 slug: ckh-iod
 title: Case Studies - CKH IOD
-description: CKH IOD
+description: CKH IOD description
 advancedPage: true
 ---
 

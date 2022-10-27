@@ -1,7 +1,7 @@
 ---
 slug: vimla
 title: Case Studies - Vimla
-description: Vimla
+description: Vimla wanted to provide a solution to our customers that could block these phone calls for their subscribers but wasn’t able to do this on their existing core network.
 advancedPage: true
 ---
 
