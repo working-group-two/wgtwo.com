@@ -75,11 +75,22 @@ Thanks for your participation and patience. HR and <Tooltip text="CEO" subtext="
 Social engineering is an efficient way of stealing personal information and compromising internet resources making it such an effective way for “hacking” companies. 
 
 From the perspective of a malicious actor, why would they try to exploit a vulnerability in a single system when they can just phish an employee into sharing their credentials who already have access to several systems?
-### Effective, easy, and free
+> ## Effective, easy, and free
 
 Today anyone can set up a new email account and begin sending emails from a verified, reputable email server - FOR FREE!
 
 In addition, several websites configured with email authentication can be stolen and leveraged to send phishing malware from compromised devices and portals. 
+
+## Phishing attacks
+Generally, when people mention phishing, we are talking about email phishing. However, we have other types.
+
+:::caution phishing
+## Types of phishing attacks
+- **Email Phishing**: sent via email
+- **Spear phishing**: sent via email and targeted attack towards a company or set of people
+- **Smishing**: sent via SMS
+- **Vishing**: sent via voicecalls 
+:::
 ### Spear phishing 
 Spear phishing is a social engineering attack that targets a specific entity, company, or person. Generally speaking, these are targeted phishing attacks as they will alter the message to make it more relevant for the victim. For example, in a spear phishing email, the malicious actor would use the company logo, and other employee names within the company, leverage the company CSS and UI, and/or purchase a domain that resembles the target’s entity in all efforts for tricking the victim into sharing personal information such as login credentials.
 
@@ -142,8 +153,6 @@ Gophish is helpful for us because it has an API to help automate the process, wi
 
 As part of our process of adopting Gophish we contributed back upstream   
 - Build and publish to ghcr.io on merge https://github.com/gophish/gophish/pull/2644
-
-#### Deployment
 
 #### Procedure
 For every internal phishing campaign we take the following steps:
