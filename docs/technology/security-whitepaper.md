@@ -234,6 +234,9 @@ Additional security controls include:
 ### Policies and Procedures
 **wgtwo** maintains an ISO 27001 policy packet to ensure security governance is followed across the organization; available upon request. **wgtwo** has also started the process to get the ISO 27001 certification.
 
+### Internal Phishing Campaigns
+**wgtwo** performs internal phishing campaigns on a continual basis across all employees. To learn more about how wgtwo performs phishing, visit our [blog post](/blog/internal-email-phishing-campaigns).
+
 ## Privacy
 ### Privacy Regulation
 **wgtwo** aligns with local and regional regulations on behalf of our customers. This includes but is not limited to regional data protection laws and privacy protection laws. **wgtwo** as a company operates within the scope of GDPR within the EU.
