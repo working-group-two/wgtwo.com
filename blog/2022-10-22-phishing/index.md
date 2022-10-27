@@ -1,6 +1,6 @@
 ---
 slug: internal-email-phishing-campaigns
-title: "Internal phishing campaigns"
+title: "Our guide to internal phishing campaigns"
 tags: [security]
 authors: [jonny-griffin]
 ---
