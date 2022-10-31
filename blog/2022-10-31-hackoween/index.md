@@ -70,7 +70,7 @@ WTP and WebRTC-based minimalist PBX (no SIP)
 
 ## Explore Vite+Bazel(+Javalin/VuePress) for instant development feedback
 
-*Team: Jørun, Tibor*
+*Team: Jørund, Tibor*
 
 Seeking a smoother developer experience. The goal: instant changes (without reloading the page). 
 
