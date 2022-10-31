@@ -99,12 +99,6 @@ Data management in *wgtwo*
 To scale up Hussar to 10m sims, we need to be smarter in how we do authentication.
 Pre-compute vectors ahead of time, so we just need to fetch and return them. 
 
-## SLOs and Sloth
-
-*Team: John C*
-
-Investigate implementing Service Level Objectives (SLO) for tracking service health and automating these using Sloth. 
-
 ## Hackoween for beginners
 
 *Team: Theresa, Oda*
