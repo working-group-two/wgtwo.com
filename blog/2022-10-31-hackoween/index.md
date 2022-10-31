@@ -20,7 +20,7 @@ This time, we had the joy of having a three-day hackday that included 15+ teams 
 
 # Hackday Presentations
 
-## Building a system overview for *wgtwo*
+## Building a system overview for wgtwo
 
 *Team: Karl Johan, Anders, Tor, Oliver, Tobias*
 
