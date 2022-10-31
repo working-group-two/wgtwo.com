@@ -92,13 +92,6 @@ Dashboard showing subscriber activity and be able to drill down and filter the a
 
 Data management in *wgtwo*
 
-## Handle a 10M SIM signal storm
-
-*Team: Barry*
-
-To scale up Hussar to 10m sims, we need to be smarter in how we do authentication.
-Pre-compute vectors ahead of time, so we just need to fetch and return them. 
-
 ## Hackoween for beginners
 
 *Team: Theresa, Oda*
