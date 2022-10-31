@@ -6,13 +6,13 @@ tags: [hackathon]
 authors: wgtwo
 ---
 
+import ImgWithCaption from '../components/imgWithCaption'
+
 Just as October was about to close, we ran a 3-day hackathon, aptly named "Hackoween" 🎃
 
 Hackdays are a great way for everyone in the company to work together in creating new innovative solutions for everyday problems.
 
-<img class="image"
-    src="/img/blog/Hackoween.png"
-    alt="Hackoween"/>
+![Hackoween](./Hackoween.png)
 
 <!--truncate-->
 
@@ -117,6 +117,4 @@ What two non-hackers can achieve in three days (building an onboarding website)
 
 POC of scripts to add/remove a canary pod to k8s services dynamically.
 
-<img class="image"
-    src="/img/blog/hackdays-october-2020/hackday.jpeg"
-    alt="hackday logo stickers" />
+
