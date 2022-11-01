@@ -1,7 +1,7 @@
 ---
 slug: hackoween-october-2022
 title: Here's what happened at Hackoween 🎃
-date: 2022-10-31
+date: 2022-11-01
 tags: [hackathon]
 authors: wgtwo
 ---
@@ -54,7 +54,7 @@ Write a library / sidecar to use wasm to implement policy resolving.
 
 *Team: Konstantin, Yan, Anton, Fabricio*
 
-To build our own garage ePDG to enable Voice-over-WiFi!
+To build our own cloud ePDG to enable Voice-over-WiFi!
 
 ## Handover Machine 2000 (Hammer2000)
 
@@ -85,12 +85,6 @@ Stop doing night deploys in voice by sticking the ip-operator and the static ip 
 *Team: Tech support team, Nicholas, Pavel, Fabricio*
 
 Dashboard showing subscriber activity and be able to drill down and filter the activity in a variety of ways. 
-
-## Data Mesh Workshop
-
-*Team: Lukas, Stein Eldar*
-
-Data management in *wgtwo*
 
 ## Hackoween for beginners
 
