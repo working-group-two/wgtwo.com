@@ -30,13 +30,13 @@ Building a new "Telco 102" visualization of our system architecture - used for b
 
 *Team: Karl Johan*
 
-Side-project to see what we could get out of our Java/Kotlin services by utilizing existing projects. Utilize the setup the Infrastructure team has made in dev around opentelemetry and XRay. The idea is to improve tracing across the stack (CHECK). 
+Side-project to see what we could get out of our Java/Kotlin services by utilizing existing projects. Utilize the setup the Infrastructure team has made in dev around opentelemetry and XRay. The idea is to improve tracing across the stack. 
 
 ## Gophish - for internal anti-phishing campaign
 
 *Team: Jonny, Gunnar Inge*
 
-The goal of this project is to deploy Gophish and setup a phishing campaign - to develop internal resilience against phishing attacks. Check out their guide to developing internal phishing campaigns [on our blog](https://www.wgtwo.com/blog/internal-email-phishing-campaigns/)
+The goal of this project is to deploy Gophish and setup a phishing campaign - to develop internal resilience against phishing attacks. Check out their guide to developing internal phishing campaigns [on our blog.](https://www.wgtwo.com/blog/internal-email-phishing-campaigns/)
 
 ## Walicy - (wasm policy resolving)
 
