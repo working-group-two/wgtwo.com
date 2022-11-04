@@ -62,6 +62,8 @@ To build our own garage ePDG to enable Voice-over-WiFi!
 
 For testing handover between 2 physical Antennas a phone needs to move between the coverage of two antennas. This has historically been done by moving a human holding a phone between two antennas. In a bright future, we want a physical contraption that will move a phone between the coverage areas of the antennas
 
+![The Hammer 2000](./hammer2000.jpg)
+
 ## Cloud PBX - call center
 
 *Team: Sergey*
