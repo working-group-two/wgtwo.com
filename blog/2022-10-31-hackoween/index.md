@@ -54,7 +54,9 @@ To build a more cloud-native ePDG to enable Voice-over-WiFi.
 
 *Team: Holger, Sindre, Rune, Alain, Jacob*
 
-For testing handover between 2 physical Antennas a phone needs to move between the coverage of two antennas. This has historically been done by moving a human holding a phone between two antennas. In a bright future, we want a physical contraption that will move a phone between the coverage areas of the antennas
+For testing handover between two physical antennas a phone needs to move between the coverage of two antennas. This has historically been done by moving a human holding a phone between two antennas. We attenuenated the radio signal with a rotating BLANDA BLANK serving bowl from Ikea - remotely controlled, of course! 
+
+In a bright future, we want a physical contraption that will move a phone between the coverage areas of the antennas. 
 
 ![The Hammer 2000](./hammer2000.jpg)
 
