@@ -134,7 +134,7 @@ const Careers = () => {
               image={require("../../static/img/careers/VictoriaHicks.jpg")}
               name="Victoria Hicks"
               title="Head of People"
-              email="victoria@wgtwo.com"
+              email="hicks@wgtwo.com"
             />
             <ContactCard
               image={require("../../static/img/careers/TheresaGuanio.jpg")}
@@ -172,7 +172,7 @@ const Careers = () => {
           <div className={common.centeredText}>
             <div className={common.subtitle}>
               <br />
-              <b>60+</b> engineers, <b>19+</b> different nationalities make up
+              <b>75+</b> engineers, <b>25+</b> different nationalities make up
               the <b>wgtwo</b> team. We collectively have spent centuries at
               Telenor, Telia, Ice, Google, PWC, Ericsson, Cisco, and more.
             </div>
