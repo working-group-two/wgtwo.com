@@ -35,7 +35,7 @@ Safety and data security is of utmost priority for Working Group Two. If you are
 - Please refrain from requesting compensation for reporting vulnerabilities.
 - We will acknowledge receipt of your vulnerability report and send you regular updates about our progress.
 - If your report is reproducible as an exploit and results in a change to the code base or documentation of a Working Group Two product, we will, at your option, publicly acknowledge your responsible disclosure in our [Hall of Fame](https://www.wgtwo.com/security/bugbounty#security-research-hall-of-fame) after a fix is applied.
-- After the fix, we ask security researchers to wait 30 days after a release before announcing the specific details of a vulnerability and to provide Working Group Two with a link to any such announcements. 
+- After the fix, we ask security researchers to wait 30 days after a release before announcing the specific details of a vulnerability and to provide Working Group Two with a link to any such announcements.
 
 Many thanks to the security researchers who have responsibly contributed their findings to make the Working Group Two products and services more secure.
 
