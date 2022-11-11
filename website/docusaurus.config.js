@@ -119,6 +119,11 @@ module.exports = {
               label: "Customer Support",
               href: "https://support.wgtwo.com",
             },
+            {
+              label: "Privacy Notice",
+              href: "/privacy",
+              target: "_self",
+            },
           ],
         },
         {
@@ -150,7 +155,7 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "gk.wgtwo.com 合同会社",
+              label: "wgtwo.com/jp 合同会社",
               href: "https://www.wgtwo.com/jp",
             },
           ],
@@ -173,8 +178,8 @@ module.exports = {
               href: "https://trust.wgtwo.com",
             },
             {
-              label: "Privacy Notice",
-              href: "/privacy",
+              label: "Bug Bounty",
+              href: "/security/bug-bounty",
               target: "_self",
             },
           ],
