@@ -174,13 +174,13 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Trust Report",
-              href: "https://trust.wgtwo.com",
+              label: "Vulnerability Disclosure",
+              href: "/security/vdp",
+              target: "_self",
             },
             {
-              label: "Bug Bounty",
-              href: "/security/bug-bounty",
-              target: "_self",
+              label: "Trust Report",
+              href: "https://trust.wgtwo.com",
             },
           ],
         },

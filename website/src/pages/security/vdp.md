@@ -1,12 +1,12 @@
 ---
-title: Bug Bounty Program
+title: Vulnerability Disclosure Program (VDP)
 ---
 
-# Bug Bounty Program
+# Vulnerability Disclosure Program (VDP)
 
-<div class="pill">Updated November 11, 2022</div>
+<div class="pill">Updated November 14, 2022</div>
 
-If you believe you have discovered a vulnerability in a Working Group Two product please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information. For true positive findings, a bounty reward can be given based on the severity, criticality, and industry pay scale.
+If you believe you have discovered a vulnerability in a Working Group Two product please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information. 
 
 ## Services in scope
 
@@ -32,7 +32,7 @@ Any design or implementation issue that substantially affects the confidentialit
 
 Safety and data security is of utmost priority for Working Group Two. If you are a security researcher and have discovered a security vulnerability in our code base, application, or API, we appreciate your help in disclosing it to us in a responsible manner.
 
-- For true positive findings, a bounty reward can be given based on the severity, criticality, and industry pay scale.
+- Please refrain from requesting compensation for reporting vulnerabilities.
 - We will acknowledge receipt of your vulnerability report and send you regular updates about our progress.
 - If your report is reproducible as an exploit and results in a change to the code base or documentation of a Working Group Two product, we will, at your option, publicly acknowledge your responsible disclosure in our [Hall of Fame](https://www.wgtwo.com/security/bugbounty#security-research-hall-of-fame) after a fix is applied.
 - After the fix, we ask security researchers to wait 30 days after a release before announcing the specific details of a vulnerability and to provide Working Group Two with a link to any such announcements.
