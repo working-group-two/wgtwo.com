@@ -6,7 +6,7 @@ title: Vulnerability Disclosure Program (VDP)
 
 <div class="pill">Updated November 14, 2022</div>
 
-If you believe you have discovered a vulnerability in a Working Group Two product please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information. 
+If you believe you have discovered a vulnerability in a Working Group Two product please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information.
 
 ## Services in scope
 
