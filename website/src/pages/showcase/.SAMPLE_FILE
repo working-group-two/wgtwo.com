@@ -38,10 +38,10 @@ import Quote from "./components/quote";
 
   <Column>
     <Cards>
-      <Card label="Challenge" title="Title of Card">
-        Challenge text
+      <Card label="CHALLENGE" title="Title of Card">
+        CHALLENGE text
       </Card>
-      <Card label="Solution" title="Title of Card">
+      <Card label="SOLUTION" title="Title of Card">
         Solution text
       </Card>
     </Cards>

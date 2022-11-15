@@ -24,18 +24,17 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="MVNO" titleText="Vimla" logoUrl="/img/vimla.png">
-      There is nothing like a good Vulma, chirping quietly and soothingly through the morning atmosphere
+    <BigTitle pillText="MVNO" logoUrl="/img/vimla.png">
     </BigTitle>
   </Column>
 
   <Column>
     <Cards>
-      <Card label="Challenge" title="Limited technology resources make it difficult to innovate and build solutions for customers.">
+      <Card label="CHALLENGE" title="Limited technology resources make it difficult to innovate and build solutions for customers.">
         Through customer feedback Vimla’s customers did not want to receive phone calls from unknown contacts. Vimla wanted to provide a solution to our customers that could block these phone calls for their subscribers but wasn’t able to do this on their existing core network.
       </Card>
-      <Card label="Solution" title="An advanced API that enables Vimla to build a custom application,  allowing their customers to filter phone calls on the network level.">
-        wgtwo has made a telco core service that grows as your company grows. As Vimla is a fast-growing MVNO they required such a platform to meet their customer’s demands. Through wgtwo APIs Vimla built an innovative mobile app (apple / android) to block voice calls on behalf of the telco network. This allowed Vimla to win awards as the best operator for five-plus years.
+      <Card label="SOLUTION" title="An advanced API that enables Vimla to build a custom application,  allowing their customers to filter phone calls on the network level.">
+        wgtwo has made a telco core service that grows as your company grows. As Vimla is a fast-growing MVNO they required such a platform to meet their customer’s demands. Through wgtwo APIs Vimla built an innovative mobile app <a href="https://apps.apple.com/us/app/vimla-filter/id1435063008" target="_blank">apple</a> / <a href="https://play.google.com/store/apps/details?id=com.vimlafilterapp&hl=en&gl=US&pli=1" target="_blank"> android</a> to block voice calls on behalf of the telco network. This allowed Vimla to win awards as the best operator for five-plus years.
       </Card>
     </Cards>
   </Column>
@@ -49,5 +48,7 @@ import Card from "./components/card";
 </GridSection>
 
 <ResourcesSection>
-  <Resource title="Website" link="https://vimla.se">Visit the official page of Vimla</Resource>
+  <Resource title="vimla.se" link="https://vimla.se">Visit the official page of Vimla</Resource>
+  <Resource title="Apple App" link="https://apps.apple.com/us/app/vimla-filter/id1435063008">Apple iPhone app that blocks phone calls using wgtwo APIs</Resource>
+  <Resource title="Android App" link="https://play.google.com/store/apps/details?id=com.vimlafilterapp&hl=en&gl=US&pli=1">Android app that blocks phone calls using wgtwo APIs</Resource>
 </ResourcesSection>

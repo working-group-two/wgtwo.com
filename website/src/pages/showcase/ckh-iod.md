@@ -1,7 +1,7 @@
 ---
 slug: ckh-iod
 title: Case Studies - CKH IOD
-description: CKH IOD description
+description: CKH IOD maintains a multi-country MVNE platform. CKH IOD's original platform had unforeseen complexities reducing the ability to innovate and provide a scalable solution. The aged platform was not able to scale with its growth and required a future-proof mobile core network for its multi-tenancy business model.
 advancedPage: true
 ---
 
@@ -24,17 +24,16 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="MVNE" titleText="CKH IOD" logoUrl="/img/ckh.svg">
-      There should be something here -- feels rather empty
+    <BigTitle pillText="MVNE" logoUrl="/img/ckh.svg">
     </BigTitle>
   </Column>
 
   <Column>
     <Cards>
-      <Card label="Challenge" title="CKH IOD maintains a multi-country MVNE platform that inherently has complexities and is difficult to scale operationally.">
+      <Card label="CHALLENGE" title="CKH IOD maintains a multi-country MVNE platform that inherently has complexities and is difficult to scale operationally.">
         To enable the best service for MVNOs, CKH IOD's original platform had unforeseen complexities reducing the ability to innovate and provide a scalable solution. The aged platform was not able to scale with its growth and required a future-proof mobile core network for its multi-tenancy business model.
       </Card>
-      <Card label="Solution" title="One mobile telco core solution that is secure and future-proof and enables business growth.">
+      <Card label="SOLUTION" title="One mobile telco core solution that is secure and future-proof and enables business growth.">
         Leveraging the wgtwo mobile core telco platform, this cloud-based solution is future-proof to ensure CKH IOD’s business continuity. As growth is important for their solution, the core is flexible to reduce CKH IOD’s vendor portfolio, reduce MVNO onboarding time and enable business growth year-over-year, while offering the latest services such as VoLTE.
       </Card>
     </Cards>
@@ -43,14 +42,14 @@ import Card from "./components/card";
 </TwoColumnSection>
 
 <GridSection bgColor="#232e33">
-  <Metric title="26 to 5">reduce CKH IOD vendor portfolio from 26 to 5</Metric>
+  <Metric title="26 to 5">reduce CKH IOD vendor portfolio</Metric>
   <Metric title="8 months to 8 weeks">time reduction for MVNO onboarding</Metric>
   <Metric title="100%">MVNO growth year-over-year</Metric>
 </GridSection>
 
 <ResourcesSection>
+  <Resource title="hthkh.com" link="https://www.hthkh.com/en/global/home.php">Visit the official page of CHK IOD</Resource>
   <Resource title="Press Release" link="https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud/"><em>Published 2021-12-01</em></Resource>
-  <Resource title="Website" link="https://www.hthkh.com/en/global/home.php">Visit the official page of CHK IOD</Resource>
 </ResourcesSection>
 
 <Section bgColor="#f6f6f6">

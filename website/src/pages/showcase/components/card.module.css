@@ -1,3 +1,12 @@
+.deploymentModels a {
+  font-weight: 600;
+  color: white;
+}
+
+.deploymentModelText {
+  color: #b0c2c8;
+}
+
 .deploymentModels {
   display: flex;
   flex-direction: column;

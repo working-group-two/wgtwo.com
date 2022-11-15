@@ -8,7 +8,7 @@ function Component({ label, title, children }) {
       <div className={styles.deploymentModel}>
         <div className={styles.deploymentModelLabel}>{label}</div>
         <div className={styles.deploymentModelTitle}>{title}</div>
-        <div className="accordion-content">{children}</div>
+        <div className={styles.deploymentModelText}>{children}</div>
       </div>
     </>
   )
