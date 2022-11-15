@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  /* justify-content: space-between; */
   margin-bottom: var(--ifm-heading-margin-bottom);
 }
 

@@ -24,7 +24,7 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="Private Networks" logoUrl="/img/mki-logo-white-showcase.png" websiteLink="https://www.mki.co.jp/">
+    <BigTitle pillText="Private Networks" logoUrl="/img/mki-logo-white-showcase.png">
     </BigTitle>
   </Column>
 

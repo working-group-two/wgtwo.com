@@ -2,7 +2,7 @@ import React from "react"
 import common from "../../../css/common.module.css"
 import styles from "./bigTitle.module.css"
 
-function Component({ pillText, websiteLink, logoUrl, children }) {
+function Component({ pillText, logoUrl, children }) {
   let logo
 
   if (logoUrl) logo = <img className={styles.logo} src={logoUrl} />
