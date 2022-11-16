@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4450],{71690:function(e){e.exports=JSON.parse('{"label":"4G","permalink":"/jp/blog/tags/4-g","allTagsPath":"/jp/blog/tags","count":1}')}}]);
