@@ -3,7 +3,7 @@ slug: first-voice-calls-on-5g
 title: We have just completed our first VoNR (5G) calls in a multi-handset environment
 date: 2022-11-17
 tags: [vonr, 5G, 4G, core, IMS, volte]
-authors: yan, db
+authors: [yan, db]
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
