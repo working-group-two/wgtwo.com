@@ -1,11 +1,14 @@
 .markdown a {
-  color: #546e7a;
-  text-decoration: none;
-  background-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" viewBox="0 0 1 1" xmlns="http://www.w3.org/2000/svg"><line x1="0" y1="0" x2="1" y2="1" stroke="rgba(84,110,122 ,1)" /></svg>');
-  background-size: 1px 1px;
-  background-position: 0 1.2em;
-  font-weight: 500;
-  background-repeat: repeat-x;
+  color: black;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+}
+
+.markdown a:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid black;
 }
 
 html[data-theme="dark"] .markdown a {

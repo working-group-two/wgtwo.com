@@ -119,6 +119,11 @@ module.exports = {
               label: "Customer Support",
               href: "https://support.wgtwo.com",
             },
+            {
+              label: "Privacy Notice",
+              href: "/privacy",
+              target: "_self",
+            },
           ],
         },
         {
@@ -150,7 +155,7 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "gk.wgtwo.com 合同会社",
+              label: "wgtwo.com/jp 合同会社",
               href: "https://www.wgtwo.com/jp",
             },
           ],
@@ -169,13 +174,13 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Trust Report",
-              href: "https://trust.wgtwo.com",
+              label: "Responsible Disclosure",
+              href: "/security/responsible-disclosure",
+              target: "_self",
             },
             {
-              label: "Privacy Notice",
-              href: "/privacy",
-              target: "_self",
+              label: "Trust Report",
+              href: "https://trust.wgtwo.com",
             },
           ],
         },
