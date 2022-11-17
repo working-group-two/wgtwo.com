@@ -1,8 +1,8 @@
 ---
-title: Vulnerability Disclosure Program (VDP)
+title: Responsible Disclosure
 ---
 
-# Vulnerability Disclosure Program (VDP)
+# Responsible Disclosure
 
 <div class="pill">Updated November 14, 2022</div>
 

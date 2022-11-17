@@ -174,8 +174,8 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Vulnerability Disclosure",
-              href: "/security/vdp",
+              label: "Responsible Disclosure",
+              href: "/security/responsible-disclosure",
               target: "_self",
             },
             {
