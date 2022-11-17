@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4364],{71859:function(e){e.exports=JSON.parse('{"label":"vonr","permalink":"/blog/tags/vonr","allTagsPath":"/blog/tags","count":2}')}}]);

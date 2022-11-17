@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3720],{50628:function(e){e.exports=JSON.parse('{"label":"IMS","permalink":"/jp/blog/tags/ims","allTagsPath":"/jp/blog/tags","count":1}')}}]);
