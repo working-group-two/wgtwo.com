@@ -3,7 +3,7 @@ slug: exploring-aws-snowcone
 title: Exploring an AWS snowcone and using it as a local UPF
 date: 2022-11-21
 tags: [5G, aws, snowcone]
-authors: [holger]
+authors: [holger-ihrig]
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
