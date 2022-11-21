@@ -7,7 +7,6 @@ authors: [holger-ihrig]
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
-import OpsHubStart from './OpsHub_Start.png'
 
 
 The AWS Snowcone is a small form factor server that was originally meant for data transport to AWS data centers. 
@@ -35,7 +34,7 @@ a flap at the back of the unit and the power switch including two LEDs are at th
 Upon powering it on, the Display will show the IP address of the Snowcone along with a message that the device is Locked
 and needs to be unlocked using the AWS OpsHub Software which is available for Windows, OSx and Linux (AppImage).
 
-<img src={OpsHubStart} width="400"/>
+![AWS OpsHub Start](OpsHub_Start.png)
 
 In our case we wanted to use a local device, so we selected this option
 
