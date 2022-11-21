@@ -7,7 +7,7 @@ authors: [holger-ihrig]
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
-import OpsHubStart from './OpsHub_start.png'
+import OpsHubStart from './OpsHub_Start.png'
 
 
 The AWS Snowcone is a small form factor server that was originally meant for data transport to AWS data centers. 
