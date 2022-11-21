@@ -11,8 +11,8 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 The AWS Snowcone is a small form factor server that was originally meant for data transport to AWS data centers. 
 However it can also be used as a small device running compute workloads. We wanted to evaluate the performance of the 
-Snowcone as it is a quite intriguing piece of technology which we might want to use as a UPF (User Plane Function) in low
-throughput 5G networks (think IoT or Proof of Concept deployments).
+Snowcone as it is a quite intriguing piece of technology which we might want to use as a on premise UPF (User Plane 
+Function) in low throughput 5G networks (think IoT or Proof of Concept deployments).
 
 <!--truncate-->
 
@@ -94,7 +94,7 @@ Since the Snowcone is very limited in resources, there are special Instance type
 - snc1.small (1 vCPU, 2 GB RAM)
 - snc1.medium (2 vCPU, 4GB RAM)
 
-Also there are only two AMIs available for it now. However it is possible to import EBS Snapshots onto the Snowball, 
+Also there are only two AMIs available for it now. However it is possible to import EBS Snapshots onto the Snowcone, 
 which we have not done as the procedure was too long and we could do with the AMIs provided.
 
 <img
