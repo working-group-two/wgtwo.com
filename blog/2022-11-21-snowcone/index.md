@@ -10,7 +10,9 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 
 The AWS Snowcone is a small form factor server that was originally meant for data transport to AWS data centers. 
-However it can also be used as a small device running compute workloads.
+However it can also be used as a small device running compute workloads. We wanted to evaluate the performance of the 
+Snowcone as it is a quite intriguing piece of technology which we might want to use as a UPF (User Plane Function) in low
+throughput 5G networks (think IoT or Proof of Concept deployments).
 
 <!--truncate-->
 
@@ -34,21 +36,53 @@ a flap at the back of the unit and the power switch including two LEDs are at th
 Upon powering it on, the Display will show the IP address of the Snowcone along with a message that the device is Locked
 and needs to be unlocked using the AWS OpsHub Software which is available for Windows, OSx and Linux (AppImage).
 
-![AWS OpsHub Start](OpsHub_Start.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./OpsHub_Start.png").default}
+/>
 
 In our case we wanted to use a local device, so we selected this option
 
-![AWS OpsHub Signin](OpsHub_Signin.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./OpsHub_Signin.png").default}
+/>
 
 Next up was selecting a Snowcone Device followed by the following login screen
 
-![AWS OpsHub Signin for Snowcone](Opshub_Signin_configure.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./Opshub_Signin_configure.png").default}
+/>
 
 At this point you have to login to your AWS Console and navigate to the “Snow Family” Service where you should see 
 a so-called JobID for a snowcone. The Snowcone Job Details will let you get your Unlock Code and the Manifest File, 
 which are both needed to sign into the Snowcone device.
 
-![AWS OpsHub Signin for Snowcone](OpsHub_Local_Devices.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./OpsHub_Local_Devices.png").default}
+/>
 
 From that point on the Snowcone is usable. It did take a few more minutes though until it downloaded the AMI images 
 that will run on the snowcone.
@@ -63,7 +97,15 @@ Since the Snowcone is very limited in resources, there are special Instance type
 Also there are only two AMIs available for it now. However it is possible to import EBS Snapshots onto the Snowball, 
 which we have not done as the procedure was too long and we could do with the AMIs provided.
 
-![AWS OpsHub - Launching an Instance](OpsHub_Launch_Instance.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./OpsHub_Launch_Instance.png").default}
+/>
 
 ## Instance
 
@@ -82,9 +124,25 @@ Second time's the charm though and we did have a working instance with a 5.15 ke
 device key for SSH changed when upgrading from 4.14 to 5.4, but that was only a minor nuisance.
 So we thought let's do some exploring what we actually have here.
 
-![PCI Devices](Instance_lspci.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./Instance_lspci.png").default}
+/>
 
-![CPU Information](lscpu.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./lscpu.png").default}
+/>
 
 So a CPU from the Xeon E3-12xx v2 line. Even though this might be the virtualization engine telling us that this is 
 the CPU, we are assuming that it will be something from the Ivy Bridge line. Furthermore we are assuming that it will 
@@ -92,7 +150,15 @@ be a low-powered 4 Core CPU working there, where only 2 CPUs are available for t
 
 After digging a bit through dmidecode (we are engineers right?) we also found this additional piece of information
 
-![DMI Decode Information](dmidecode.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./dmidecode.png").default}
+/>
 
 The interesting part here is that the Manufacturer is designated as Bochs, which is a x86 and AMD64 emulator. 
 So maybe it's not a virtualization engine driving the Instance, but an emulator?
@@ -131,11 +197,27 @@ For this we are mainly using iperf3 to evaluate the throughput. The Snowcone as 
 
 When the Snowcone snc1.medium instance is the iperf Server:
 
-![Snowcone as iperf3 server](iperf-server.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./iperf-server.png").default}
+/>
 
 When the Snowcone snc1.medium instance is the iperf Client:
 
-![Snowcone as iperf3 client](iperf-client.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./iperf-client.png").default}
+/>
 
 From these very simple benchmarks we can already see that the EC2 instance is struggling with pushing out anywhere 
 near line speed. In other words it seems like it is CPU bottlenecked. When running a htop while running this speedtest 
@@ -145,7 +227,15 @@ single-threaded by design.
 We then did run a speedtest to a local speedtest server using our userland UPF from a UE and this is basically 
 the result.
 
-![Snowcone instance with userland UPF](userland-speedtest.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./userland-speedtest.png").default}
+/>
 
 Looking at htop again, we can see that now both CPU cores are pegged at 100% since the UPF is actually multithreaded. 
 So even if the EC2 instance in Snowcone can push about 6 Gbit/s on iperf3, with the additional overhead of 
@@ -158,7 +248,15 @@ With the DPDK based UPF however we are able to have higher throughput. DPDK will
 a poll-mode driver for packet processing. So one CPU core will always be pinned at 100% and the NIC will 
 disappear from the instance.
 
-![Snowcone instance with DPDK-based UPF](vpp-speedtest.png)
+<img
+width="40%"
+align="center"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./vpp-speedtest.png").default}
+/>
 
 This is actually the maximum speed we can get out of our gNodeB. So we are pretty happy with the result.
 
