@@ -124,26 +124,10 @@ Second time's the charm though and we did have a working instance with a 5.15 ke
 device key for SSH changed when upgrading from 4.14 to 5.4, but that was only a minor nuisance.
 So we thought let's do some exploring what we actually have here.
 
-<img
-width="60%"
-align="middle"
-style={{
-display: "block",
-margin:"auto 10px"
-}}
-src={require("!file-loader!./Instance_lspci.png").default}
-/>
+![PCI Devices on the instance](Instance_lspci.png)
 
 
-<img
-width="80%"
-align="middle"
-style={{
-display: "block",
-margin:"auto 10px"
-}}
-src={require("!file-loader!./lscpu.png").default}
-/>
+![CPU Information on the instance](lscpu.png)
 
 So a CPU from the Xeon E3-12xx v2 line. Even though this might be the virtualization engine telling us that this is 
 the CPU, we are assuming that it will be something from the Ivy Bridge line. Furthermore we are assuming that it will 
