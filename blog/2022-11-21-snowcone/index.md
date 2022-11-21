@@ -1,6 +1,6 @@
 ---
 slug: exploring-aws-snowcone
-title: Exploring an AWS snowcone and using it as a local UPF
+title: Unbundling the AWS Snowcone and using it as a local UPF
 date: 2022-11-21
 tags: [5G, aws, snowcone]
 authors: [holger-ihrig]
@@ -71,7 +71,7 @@ src={require("!file-loader!./Opshub_Signin_configure.png").default}
 />
 
 At this point you have to login to your AWS Console and navigate to the “Snow Family” Service where you should see 
-a so-called JobID for a snowcone. The Snowcone Job Details will let you get your Unlock Code and the Manifest File, 
+a so-called JobID for a Snowcone. The Snowcone Job Details will let you get your Unlock Code and the Manifest File, 
 which are both needed to sign into the Snowcone device.
 
 <img
@@ -85,7 +85,7 @@ src={require("!file-loader!./OpsHub_Local_Devices.png").default}
 />
 
 From that point on the Snowcone is usable. It did take a few more minutes though until it downloaded the AMI images 
-that will run on the snowcone.
+that will run on the Snowcone.
 
 ## Compute
 
@@ -112,7 +112,7 @@ src={require("!file-loader!./OpsHub_Launch_Instance.png").default}
 Since our use case was to run a UPF on it, we started the largest instance type the Snowcone would allow us and 
 started exploring.
 
-Since the available AMI is an Amazon Linux 2 AMI we were not super familiar with it, however since it is Redhat based 
+Since the available AMI is an Amazon Linux 2 AMI we were not super familiar with it. However, since it is Red Hat-based 
 we kind of knew what to expect.
 
 The kernel coming with that AMI was a 4.14 kernel, which was too old for us, so the first thing was updating to 
@@ -134,7 +134,7 @@ margin:"auto 10px"
 src={require("!file-loader!./Instance_lspci.png").default}
 />
 
-That was not a lot of information here. So let's have a look at the CPU Information.
+There was not too much information here. So let's have a look at the CPU Information.
 
 <img
 width="80%"
@@ -167,7 +167,7 @@ So maybe it's not a virtualization engine driving the Instance, but an emulator?
 
 But now back to our original plan to run a UPF (User Plane Function for 5G) on the Snowcone. For this to work we 
 needed 2 network interfaces as our original plan was to use DPDK to run it. This is where we quickly found out that 
-an Instance on Snowcone can only have 1 Virtual Network Interface (VNI)
+an Instance on Snowcone can only have 1 Virtual Network Interface (VNI).
 
 After scouring through the documentation about Snowcone, we however found out that first of all there is another way 
 to configure the Snowcone. You can also configure the Snowcone with a CLI, the [SnowballEdgeClient](https://aws.amazon.com/snowball/resources/).
@@ -179,8 +179,8 @@ To our surprise it showed up as an Intel X553 Virtual Network Function(VNF), so 
 Single-Root IO-Virtualization (SRIOV) at work here. Which also makes sense because the X500 series supports up 
 to 64 VNFs (minus the one used by the snowcone itself).
 
-So we started deploying our DPDK based UPF on the snowcone. Creating a DNI and attaching it to an instance was fairly 
-easy with the SnowballEdgeClient. However when restarting the instance, it would not come back. After talking to AWS 
+So we started deploying our DPDK-based UPF on the snowcone. Creating a DNI and attaching it to an instance was fairly 
+easy with the SnowballEdgeClient. However, when restarting the instance, it would not come back. After talking to AWS 
 we found out that this is a known behavior and should simply detach the DNI before each reboot. This solved the problem 
 even though it brings some operational problems with it in the long run. Hopefully this will be fixed in a future 
 software release.
@@ -189,7 +189,7 @@ Once the DNI is attached to the instance, one has to do some additional configur
 the VNI and DNI to get IP addresses. We found the relevant [guide](https://docs.aws.amazon.com/snowball/latest/developer-guide/network-config-ec2.html) 
 in the AWS Documentation and our DNI got an IP Address.
 
-With those parts out of the way, we could deploy our DPDK based UPF on the snowcone and could use it as a UPF.
+With those parts out of the way, we could deploy our DPDK-based UPF on the Snowcone and could use it as a UPF.
 
 ## Performance
 
@@ -264,4 +264,4 @@ This is actually the maximum speed we can get out of our gNodeB. So we are prett
 
 We hope you liked this short look at the AWS Snowcone, and we will for sure explore the Snowcone further. It's a 
 nice little device that will be especially useful for smaller deployments or PoCs of our Packet Core as it can be easily 
-remote managed and transported everywhere.
+remote-managed and transported everywhere.
