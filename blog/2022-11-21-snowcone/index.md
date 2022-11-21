@@ -134,7 +134,6 @@ margin:"auto 10px"
 src={require("!file-loader!./Instance_lspci.png").default}
 />
 
-<br>
 
 <img
 width="80%"
