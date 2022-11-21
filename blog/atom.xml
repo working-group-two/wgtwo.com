@@ -8,7 +8,7 @@
     <subtitle>[blog] AWS Snowcone as a UPF (#186) Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Unbundling the AWS Snowcone and using it as a local UPF]]></title>
+        <title type="html"><![CDATA[Unboxing the AWS Snowcone and using it as a local UPF]]></title>
         <id>exploring-aws-snowcone</id>
         <link href="https://www.wgtwo.com/blog/exploring-aws-snowcone"/>
         <updated>2022-11-21T00:00:00.000Z</updated>
