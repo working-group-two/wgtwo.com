@@ -1,6 +1,6 @@
 ---
 slug: exploring-aws-snowcone
-title: Unbundling the AWS Snowcone and using it as a local UPF
+title: Unboxing the AWS Snowcone and using it as a local UPF
 date: 2022-11-21
 tags: [5G, aws, snowcone]
 authors: [holger-ihrig]
