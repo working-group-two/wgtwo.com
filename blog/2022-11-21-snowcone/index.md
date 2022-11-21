@@ -37,8 +37,8 @@ Upon powering it on, the Display will show the IP address of the Snowcone along 
 and needs to be unlocked using the AWS OpsHub Software which is available for Windows, OSx and Linux (AppImage).
 
 <img
-width="40%"
-align="center"
+width="80%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -49,8 +49,8 @@ src={require("!file-loader!./OpsHub_Start.png").default}
 In our case we wanted to use a local device, so we selected this option
 
 <img
-width="40%"
-align="center"
+width="60%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -61,8 +61,8 @@ src={require("!file-loader!./OpsHub_Signin.png").default}
 Next up was selecting a Snowcone Device followed by the following login screen
 
 <img
-width="40%"
-align="center"
+width="60%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -75,8 +75,8 @@ a so-called JobID for a snowcone. The Snowcone Job Details will let you get your
 which are both needed to sign into the Snowcone device.
 
 <img
-width="40%"
-align="center"
+width="100%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -98,8 +98,8 @@ Also there are only two AMIs available for it now. However it is possible to imp
 which we have not done as the procedure was too long and we could do with the AMIs provided.
 
 <img
-width="40%"
-align="center"
+width="60%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -125,8 +125,8 @@ device key for SSH changed when upgrading from 4.14 to 5.4, but that was only a 
 So we thought let's do some exploring what we actually have here.
 
 <img
-width="40%"
-align="center"
+width="80%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -135,8 +135,8 @@ src={require("!file-loader!./Instance_lspci.png").default}
 />
 
 <img
-width="40%"
-align="center"
+width="60%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -151,8 +151,8 @@ be a low-powered 4 Core CPU working there, where only 2 CPUs are available for t
 After digging a bit through dmidecode (we are engineers right?) we also found this additional piece of information
 
 <img
-width="40%"
-align="center"
+width="80%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -198,8 +198,8 @@ For this we are mainly using iperf3 to evaluate the throughput. The Snowcone as 
 When the Snowcone snc1.medium instance is the iperf Server:
 
 <img
-width="40%"
-align="center"
+width="80%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -210,8 +210,8 @@ src={require("!file-loader!./iperf-server.png").default}
 When the Snowcone snc1.medium instance is the iperf Client:
 
 <img
-width="40%"
-align="center"
+width="80%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -228,8 +228,8 @@ We then did run a speedtest to a local speedtest server using our userland UPF f
 the result.
 
 <img
-width="40%"
-align="center"
+width="50%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
@@ -249,8 +249,8 @@ a poll-mode driver for packet processing. So one CPU core will always be pinned 
 disappear from the instance.
 
 <img
-width="40%"
-align="center"
+width="50%"
+align="middle"
 style={{
 display: "block",
 margin:"auto 10px"
