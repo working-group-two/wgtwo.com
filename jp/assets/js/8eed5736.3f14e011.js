@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[82],{92099:function(e){e.exports=JSON.parse('{"label":"snowcone","permalink":"/jp/blog/tags/snowcone","allTagsPath":"/jp/blog/tags","count":1}')}}]);
