@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - main
-      - test-gh-branch
+      - 'test-gh-branch'
     paths:
       - "docs/**"
       - "blog/**"
