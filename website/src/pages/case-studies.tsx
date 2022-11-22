@@ -71,9 +71,8 @@ function CaseStudies() {
   )
 }
 
-function sendMessage(){
+function  sendMessage(){
   message(
-    
     `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
   )
 
