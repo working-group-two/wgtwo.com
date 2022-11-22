@@ -7,7 +7,8 @@ import CaseStudyList from "../components/casestudy/casestudy-list"
 import message from "../util/message"
 
 let form = { name: React.createRef<HTMLInputElement>(), email: React.createRef<HTMLInputElement>(),
-  message: React.createRef<HTMLInputElement>(), button: React.createRef<HTMLButtonElement>(),
+  message: React.createRef<HTMLInputElement>(),
+  button: React.createRef<HTMLButtonElement>(),
 }
 
 function CaseStudies() {
