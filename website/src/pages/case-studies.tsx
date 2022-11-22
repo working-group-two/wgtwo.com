@@ -6,7 +6,11 @@ import contact from "./contact.module.css"
 import CaseStudyList from "../components/casestudy/casestudy-list"
 import message from "../util/message"
 
-let form = { name: React.createRef<HTMLInputElement>(), email: React.createRef<HTMLInputElement>(), message: React.createRef<HTMLInputElement>(), button: React.createRef<HTMLButtonElement>(),
+let form = {
+  name: React.createRef<HTMLInputElement>(),
+  email: React.createRef<HTMLInputElement>(),
+  message: React.createRef<HTMLInputElement>(),
+  button: React.createRef<HTMLButtonElement>(),
 }
 
 function CaseStudies() {
@@ -68,7 +72,8 @@ function CaseStudies() {
 }
 
 function sendMessage() {
-  message( `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
+  message(
+    `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
   )
 
   form.name.current.disabled = true
