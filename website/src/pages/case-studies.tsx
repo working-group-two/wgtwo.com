@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "@theme/Layout"
 import common from "../css/common.module.css"
 import styles from "./case-studies.module.css"
-import contact from  './contact.module.css'
-import CaseStudyList from  "../components/casestudy/casestudy-list"
+import contact from "./contact.module.css"
+import CaseStudyList from "../components/casestudy/casestudy-list"
 import message from "../util/message"
 
 let form = {
@@ -13,7 +13,7 @@ let form = {
   button: React.createRef<HTMLButtonElement>(),
 }
 
-function CaseStudies(){
+function CaseStudies() {
   return (
     <Layout title="wgtwo">
       <div className={common.page}>
@@ -75,7 +75,7 @@ function sendMessage() {
   message(
     
     `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
-  );
+  )
 
   form.name.current.disabled = true
   form.email.current.disabled = true
