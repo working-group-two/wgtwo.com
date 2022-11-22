@@ -21,12 +21,5 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - name: Prettier & Build & Test for broken links
         run: |
-          cd website
-          yarn prettier
-          if [ -n "$(git status --porcelain)" ]; then
-            git config --global user.name 'GitHub Action'
-            git config --global user.email 'github-action@users.noreply.github.com'
-            git commit -am "[Prettier] Fix formatting"
-            git push
-          fi
-          yarn && yarn build && yarn links:test
+          cd website 
+          yarn && yarn prettier:check && yarn build && yarn links:test
