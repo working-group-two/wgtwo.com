@@ -236,7 +236,11 @@ module.exports = {
             "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
         },
         googleAnalytics: {
-          trackingID: "G-V4G7J729LY",
+          trackingID: "UA-114662288-1",
+        },
+        gtag: {
+          trackingID: 'GTM-N4969FH',
+          anonymizeIP: true,
         },
         theme: {
           customCss: [
