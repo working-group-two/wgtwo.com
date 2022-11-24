@@ -11,8 +11,8 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 The AWS Snowcone is a small form factor server that was originally meant for data transport to AWS data centers. 
 However it can also be used as a small device running compute workloads. We wanted to evaluate the performance of the 
-Snowcone as it is a quite intriguing piece of technology which we might want to use as a on premise UPF (User Plane 
-Function) in low throughput 5G networks (think IoT or Proof of Concept deployments).
+Snowcone as it is a quite intriguing piece of technology which we might want to use as a an on-premise UPF (User Plane 
+Function) in low-throughput 5G networks (think IoT or Proof of Concept deployments).
 
 <!--truncate-->
 
