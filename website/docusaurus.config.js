@@ -239,7 +239,7 @@ module.exports = {
           trackingID: "UA-114662288-1",
         },
         gtag: {
-          trackingID: 'GTM-N4969FH',
+          trackingID: "GTM-N4969FH",
           anonymizeIP: true,
         },
         theme: {
