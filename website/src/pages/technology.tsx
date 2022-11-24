@@ -25,7 +25,7 @@ function Index() {
   function sendMessage() {
     setFormError("")
 
-    if (!validEmail(form.email.current.value)){
+    if (!validEmail(form.email.current.value)) {
       setFormError(
         translate({
           message: "Email address is invalid",
