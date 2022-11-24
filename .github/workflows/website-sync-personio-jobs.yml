@@ -47,7 +47,7 @@ jobs:
           exit 1
 
       - name: Deploy Website 🚀
-        uses: JamesIves/github-pages-deploy-action@4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: website/build
