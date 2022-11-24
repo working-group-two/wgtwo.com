@@ -70,7 +70,3 @@ If this sounds exciting to you as an operator, do not hesitate to [reach out.](h
 
 Perhaps you’re not an operator, but instead a developer of sorts already working within the mobile products space or just have an idea for a product within this space? You could check out our [Developer Portal](https://developer.wgtwo.com) and 
 [API documentation](https://v1.docs.wgtwo.com). You could also [reach out to us on Slack](https://developer.wgtwo.com/join-us-on-slack) if you have any questions.
-
-
-
-
