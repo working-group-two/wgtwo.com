@@ -33,7 +33,6 @@ Working Group Two has partnered with Atos, a global systems integrator, to offer
 
 Vimla, a challenger MVNO brand in Sweden, repeatedly wins "operator of the year" awards in their market - as voted by subscribers. Their core is developed and managed by Working Group Two. 
 
-
 ## The man behind the name
 ![](../images/wgtwo-skier-1.png)  
 [Torleiv Maseng](https://en.wikipedia.org/wiki/Torleiv_Maseng) - 1980s Norwegian researcher, developing a radio sub-system for GSM.
