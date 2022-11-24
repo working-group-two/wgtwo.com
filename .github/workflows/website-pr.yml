@@ -25,6 +25,9 @@ jobs:
       - name: Prettier & Build & Test for broken links
         run: |
           cd website
+          # install prettier
+          yarn
+          # run yarn prettier and commit back to github if fixes are required
           yarn prettier
           if [ -n "$(git status --porcelain)" ]; then
             git config --global user.name 'GitHub Action'
