@@ -36,7 +36,7 @@ jobs:
           yarn buildDevpage
 
       - name: Deploy Website 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: JamesIves/github-pages-deploy-action@4.4.1
         with:
           branch: dev-pages
           folder: website/build
