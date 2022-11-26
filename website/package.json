@@ -27,6 +27,7 @@
     "@szhsin/react-menu": "^3.2.0",
     "@types/node-fetch": "^3.0.3",
     "classnames": "^2.2.6",
+    "docusaurus-gtm-plugin": "^0.0.2",
     "img-comparison-slider": "^7.4.3",
     "isomorphic-fetch": "^3.0.0",
     "jsdom": "^19.0.0",

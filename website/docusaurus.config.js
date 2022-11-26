@@ -238,10 +238,6 @@ module.exports = {
         googleAnalytics: {
           trackingID: "UA-114662288-1",
         },
-        gtag: {
-          trackingID: "GTM-N4969FH",
-          anonymizeIP: true,
-        },
         theme: {
           customCss: [
             require.resolve("./src/css/footer.css"),
@@ -254,6 +250,12 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      require.resolve("docusaurus-gtm-plugin"),
+      {
+        id: "GTM-N4969FH",
+      },
+    ],
     [
       "@docusaurus/plugin-ideal-image",
       {
