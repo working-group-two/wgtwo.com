@@ -43,6 +43,97 @@
   margin-bottom: 16px;
 }
 
+/* TIDY THE BELOW! */
+
+.featureListGrid {
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.featureListContainer h4 {
+  margin-bottom: -10px;
+  margin-left: 15px;
+  background: white;
+  position: relative;
+  width: fit-content;
+  padding: 0 10px;
+  font-size: 1.4em;
+}
+
+.featureListContainer svg {
+  vertical-align: bottom;
+}
+
+.featureList {
+  height: 100%;
+  border: 2px solid #77858c;
+  border-radius: 10px;
+  padding: 15px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.featureList > li {
+  list-style-type: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+  .featureList > li:last-child {
+    border-bottom: none;
+  }
+
+.featureList > li > a {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 0px 5px;
+  padding-right: 0;
+  transition: background-color 100ms ease-in-out;
+}
+.featureList > li > a:hover {
+  background-color: #ebebeb;
+}
+
+.featureList > li > a > span {
+  padding: 6px 0;
+  padding-left: 4px;
+}
+
+.featureBtnIcons svg {
+  padding: 0px 5px;
+  box-sizing: content-box;
+}
+
+.featureBtnIcons .featureViewIcon {
+  color: rgb(200, 200, 200);
+  height: 100%;
+  transition: background-color 100ms ease-in-out;
+}
+.featureList > li > a:hover .featureViewIcon {
+  color: gray;
+  background-color: #dfdfdf;
+  stroke-width: 3px;
+}
+
+.featureBtnIcons .featureAddIcon {
+  color: rgba(225, 225, 225, 0.536);
+  padding: 0px 8px;
+  height: 100%;
+  border-radius: 3px;
+  transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+}
+.featureBtnIcons .featureAddIcon:hover {
+  color: gray !important;
+  background-color: #f5f5f5;
+}
+.featureList > li > a:hover .featureAddIcon {
+  color: rgb(172, 172, 172);
+}
+
+
 .featureGrid {
   margin-top: 32px;
   margin-bottom: 96px;
