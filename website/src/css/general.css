@@ -76,7 +76,7 @@ html[data-theme="dark"] .footer--dark {
   text-align: center;
 }
 
-.docs-wrapper {
+.docs-wrapper .main-wrapper {
   width: 100%;
   max-width: 1296px;
   margin: 0 auto;
