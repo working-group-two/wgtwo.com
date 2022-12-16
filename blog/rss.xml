@@ -42,10 +42,9 @@ So we created a DNI and attached it to our instance.
 To our surprise it showed up as an Intel X553 Virtual Network Function(VNF), so this is basically
 Single-Root IO-Virtualization (SRIOV) at work here. Which also makes sense because the X500 series supports up
 to 64 VNFs (minus the one used by the snowcone itself).</p><p>So we started deploying our DPDK-based UPF on the snowcone. Creating a DNI and attaching it to an instance was fairly
-easy with the SnowballEdgeClient. However, when restarting the instance, it would not come back. After talking to AWS
-we found out that this is a known behavior and should simply detach the DNI before each reboot. This solved the problem
-even though it brings some operational problems with it in the long run. Hopefully this will be fixed in a future
-software release.</p><p>Once the DNI is attached to the instance, one has to do some additional configuration on the instance for both
+easy with the SnowballEdgeClient. However, when restarting the instance, it would not come back.
+After talking to AWS we were informed that this is a bug that is related with the interface naming and
+should be fixed in a future release.</p><p>For the meantime it can be circumvented by switching to <a href="https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/" target="_blank" rel="noopener noreferrer">Predictable Network Interface Names</a>.</p><img loading="lazy" width="80%" align="middle" style="display:block;margin:auto 10px" src="/69fce8ddf8fe909599ae567925f1b4a9.png" class="img_ev3q"><p>Once the DNI is attached to the instance, one has to do some additional configuration on the instance for both
 the VNI and DNI to get IP addresses. We found the relevant <a href="https://docs.aws.amazon.com/snowball/latest/developer-guide/network-config-ec2.html" target="_blank" rel="noopener noreferrer">guide</a>
 in the AWS Documentation and our DNI got an IP Address.</p><p>With those parts out of the way, we could deploy our DPDK-based UPF on the Snowcone and could use it as a UPF.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="performance">Performance<a class="hash-link" href="#performance" title="Direct link to heading">​</a></h2><p>Evaluating the performance of the Snowcone device was actually what triggered this whole exploration. So let's look mainly at the networking performance and also slightly at the cpu performance.</p><p>For this we are mainly using iperf3 to evaluate the throughput. The Snowcone as well as our test machine here in the lab have a Intel X55x 10Gbit NIC.</p><p>When the Snowcone snc1.medium instance is the iperf Server:</p><img loading="lazy" width="80%" align="middle" style="display:block;margin:auto 10px" src="/494c7b1581c6b71594c5104a274b5911.png" class="img_ev3q"><p>When the Snowcone snc1.medium instance is the iperf Client:</p><img loading="lazy" width="80%" align="middle" style="display:block;margin:auto 10px" src="/93d63f2c994532e36653bf5d8010cb69.png" class="img_ev3q"><p>From these very simple benchmarks we can already see that the EC2 instance is struggling with pushing out anywhere
 near line speed. In other words it seems like it is CPU bottlenecked. When running a htop while running this speedtest
@@ -58,7 +57,9 @@ of the Snowcone.</p><p>With the DPDK based UPF however we are able to have highe
 a poll-mode driver for packet processing. So one CPU core will always be pinned at 100% and the NIC will
 disappear from the instance.</p><img loading="lazy" width="50%" align="middle" style="display:block;margin:auto 10px" src="/5fad862c769c4ccdb51a613a4fca714d.png" class="img_ev3q"><p>This is actually the maximum speed we can get out of our gNodeB. So we are pretty happy with the result.</p><p>We hope you liked this short look at the AWS Snowcone, and we will for sure explore the Snowcone further. It's a
 nice little device that will be especially useful for smaller deployments or PoCs of our Packet Core as it can be easily
-remote-managed and transported everywhere.</p>]]></content:encoded>
+remote-managed and transported everywhere.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="update">Update<a class="hash-link" href="#update" title="Direct link to heading">​</a></h2><p>Since the original Blog Post about Snowcone we were able to debug the problem with the DNI detach process further
+and with help from AWS were able to resolve it. The fix for this should be released with an updated version of
+Amazon Linux in the future according to AWS.</p>]]></content:encoded>
             <category>5G</category>
             <category>aws</category>
             <category>snowcone</category>
