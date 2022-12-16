@@ -1,3 +1,60 @@
+/* ROADMAP CSS */
+
+.roadmapSection {
+  flex-direction: column;
+}
+
+.roadmapContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.roadmapColumn {
+}
+
+.roadmapColumnTitle {
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.roadmapItemContainer {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.roadmapItemContainer > div {
+  width: 100%;
+  font-size: 0.85em;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 3px;
+  padding: 8px 15px;
+  margin: 3px 0px;
+  border-left: 5px solid rgb(202, 202, 202);
+}
+
+.live > div {
+  border-left-color: rgb(84, 207, 92);
+}
+.comingSoon > div {
+  border-left-color: #4cabe7;
+}
+.backlog > div {
+  border-left-color: #97cfbe;
+}
+.opportunities > div {
+  border-left-color: #d7ad91;
+  font-size: 0.7em;
+  padding: 4px 15px;
+}
+
+/*****/
+
 .priceTiers {
   display: grid;
   margin: 0 auto;

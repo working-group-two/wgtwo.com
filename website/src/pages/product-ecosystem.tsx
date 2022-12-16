@@ -6,6 +6,8 @@ import { CheckCircle2 } from "lucide-react"
 import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
 
+import * as RoadmapItems from "../util/RoadmapItems"
+
 function Index() {
   return (
     <Layout title="Technology">
@@ -25,6 +27,55 @@ function Index() {
                 and services from 3rd party developers that join the platform.
                 All products are available and ready to get launched, monetized,
                 and supported at the click of a button.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={common.section} style={{paddingTop: 0}}>
+          <div className={`${common.container} ${styles.roadmapSection}`}>
+            <div className={common.title}>Roadmap</div>
+            <div className={styles.roadmapContainer}>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>Live</div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.live}`}
+                >
+                  {RoadmapItems.live.map((item, index) => {
+                    return (<div key={index}>{item[0]}</div>)
+                  })}
+                </div>
+              </div>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>Coming soon</div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
+                >
+                  {RoadmapItems.coming_soon.map((item, index) => {
+                    return (<div key={index}>{item[0]}</div>)
+                  })}
+                </div>
+              </div>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>Backlog</div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.backlog}`}
+                >
+                  {RoadmapItems.backlog.map((item, index) => {
+                    return (<div key={index}>{item[0]}</div>)
+                  })}
+                </div>
+              </div>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>
+                  Product opportunities
+                </div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.opportunities}`}
+                >
+                  {RoadmapItems.opportunities.map((item, index) => {
+                    return (<div key={index}>{item[0]}</div>)
+                  })}
+                </div>
               </div>
             </div>
           </div>
