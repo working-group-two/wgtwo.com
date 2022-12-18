@@ -15,42 +15,73 @@
 }
 
 .roadmapColumnTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-size: 1.2em;
-  font-weight: 500;
+  font-weight: 700;
+  color: #555555;
   text-align: center;
   margin-bottom: 10px;
 }
 
+.titleIcon {
+  width: 16px;
+  vertical-align: sub;
+  margin-right: 5px;
+  color: grey;
+}
+
+  .offCenterBalance {
+    width: 16px;
+  }
+
 .roadmapItemContainer {
   display: flex;
   flex-direction: column;
-  max-height: 500px;
-  overflow-y: auto;
 }
 
-.roadmapItemContainer > div {
+.roadmapItemContainer .item {
   width: 100%;
   font-size: 0.85em;
-  border: 1px solid rgb(200, 200, 200);
-  border-radius: 3px;
+  font-weight: 500;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 4px;
+  background-color: white;
   padding: 8px 15px;
   margin: 3px 0px;
   border-left: 5px solid rgb(202, 202, 202);
+  box-shadow: 0px 2px 3px #c7c7c740;
+  transition: background-color 150ms ease, border-color 150ms ease;
 }
+  .roadmapItemContainer .item:hover {
+    background-color: rgb(248, 248, 248);
+    border-top-color: rgb(185, 185, 185);
+    border-bottom-color: rgb(185, 185, 185);
+    border-right-color: rgb(185, 185, 185);
+  }
 
-.live > div {
+.live .item {
   border-left-color: rgb(84, 207, 92);
 }
-.comingSoon > div {
+.comingSoon .item {
   border-left-color: #4cabe7;
 }
-.backlog > div {
-  border-left-color: #97cfbe;
+.backlog .item {
+  border-left-color: rgb(206 189 228); /* #92d8c3; */
 }
-.opportunities > div {
-  border-left-color: #d7ad91;
-  font-size: 0.7em;
-  padding: 4px 15px;
+.opportunities .item {
+  border-left-color: rgb(242, 201, 145);
+  
+}
+
+/* fix margin between list items */
+.scrollbar > div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #cfcfcf95;
 }
 
 /*****/

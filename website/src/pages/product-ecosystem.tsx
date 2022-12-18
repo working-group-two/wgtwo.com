@@ -2,9 +2,10 @@ import React from "react"
 import Layout from "@theme/Layout"
 import styles from "./product-ecosystem.module.css"
 import common from "../css/common.module.css"
-import { CheckCircle2 } from "lucide-react"
+import { CheckCircle, CheckCircle2, FlagTriangleRight, Layers, Timer } from "lucide-react"
 import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
+import { Scrollbars } from 'react-custom-scrollbars';
 
 import * as RoadmapItems from "../util/RoadmapItems"
 
@@ -31,56 +32,87 @@ function Index() {
             </div>
           </div>
         </div>
-        <div className={common.section} style={{paddingTop: 0}}>
+        <div className={common.section}
+          style={{paddingTop: "48px", paddingBottom: "76px", backgroundImage: "url('https://www.toptal.com/designers/subtlepatterns/uploads/whirlpool.png')"}}>
           <div className={`${common.container} ${styles.roadmapSection}`}>
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
               <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>Live</div>
+                <div className={styles.roadmapColumnTitle}>
+                  <CheckCircle className={styles.titleIcon} /> Live <div className={styles.offCenterBalance}></div>
+                </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.live}`}
                 >
-                  {RoadmapItems.live.map((item, index) => {
-                    return (<div key={index}>{item[0]}</div>)
-                  })}
-                </div>
-              </div>
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>Coming soon</div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
-                >
-                  {RoadmapItems.coming_soon.map((item, index) => {
-                    return (<div key={index}>{item[0]}</div>)
-                  })}
-                </div>
-              </div>
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>Backlog</div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.backlog}`}
-                >
-                  {RoadmapItems.backlog.map((item, index) => {
-                    return (<div key={index}>{item[0]}</div>)
-                  })}
+                  <Scrollbars
+                    autoHeight
+                    autoHeightMax={500}
+                    className={styles.scrollbar}
+                  >
+                    {RoadmapItems.live.map((item, index) => {
+                      return (<div key={index} className={styles.item}>{item[0]}</div>)
+                    })}
+                  </Scrollbars>
                 </div>
               </div>
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
-                  Product opportunities
+                  <Timer className={styles.titleIcon} /> Coming soon <div className={styles.offCenterBalance}></div>
+                </div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
+                >
+                  <Scrollbars
+                    autoHeight
+                    autoHeightMax={500}
+                    className={styles.scrollbar}
+                  >
+                    {RoadmapItems.coming_soon.map((item, index) => {
+                      return (<div key={index} className={styles.item}>{item[0]}</div>)
+                    })}
+                  </Scrollbars>
+                </div>
+              </div>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>
+                  <Layers className={styles.titleIcon} /> Backlog <div className={styles.offCenterBalance}></div>
+                </div>
+                <div
+                  className={`${styles.roadmapItemContainer} ${styles.backlog}`}
+                >
+                  <Scrollbars
+                    autoHeight
+                    autoHeightMax={500}
+                    className={styles.scrollbar}
+                  >
+                    {RoadmapItems.backlog.map((item, index) => {
+                      return (<div key={index} className={styles.item}>{item[0]}</div>)
+                    })}
+                  </Scrollbars>
+                </div>
+              </div>
+              <div className={styles.roadmapColumn}>
+                <div className={styles.roadmapColumnTitle}>
+                  <FlagTriangleRight className={styles.titleIcon} /> Product opportunities <div className={styles.offCenterBalance}></div>
                 </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.opportunities}`}
                 >
-                  {RoadmapItems.opportunities.map((item, index) => {
-                    return (<div key={index}>{item[0]}</div>)
-                  })}
+                  <Scrollbars
+                    autoHeight
+                    autoHeightMax={500}
+                    className={styles.scrollbar}
+                  >
+                    {RoadmapItems.opportunities.map((item, index) => {
+                      return (<div key={index} className={styles.item}>{item[0]}</div>)
+                    })}
+                  </Scrollbars>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className={common.container}>
+        <div className={common.container} style={{paddingTop: "86px"}}>
           <div className={styles.priceTiers}>
             <div className={styles.priceTier}>
               <div className={styles.priceTierTitle}>Developer Portal</div>
