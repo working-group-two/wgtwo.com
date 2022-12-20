@@ -1,44 +1,49 @@
 import React, { useState } from "react"
-import ReactDOMServer from 'react-dom/server'
+import ReactDOMServer from "react-dom/server"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
 import styles from "./product-ecosystem.module.css"
 import common from "../css/common.module.css"
-import { CheckCircle, CheckCircle2, FlagTriangleRight, Layers, LocateFixed, Timer } from "lucide-react"
+import {
+  CheckCircle,
+  CheckCircle2,
+  FlagTriangleRight,
+  Layers,
+  LocateFixed,
+  Timer,
+} from "lucide-react"
 import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
 
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from "react-custom-scrollbars"
 import MicroModal from "react-micro-modal"
 import ReactTooltip from "react-tooltip"
 
 import * as RoadmapItems from "../util/RoadmapItems"
 
 function Index() {
-  const [modalVisible, setModalVisible] = useState(false);
-  const [modalContent, setModalContent] = useState([]);
+  const [modalVisible, setModalVisible] = useState(false)
+  const [modalContent, setModalContent] = useState([])
 
-  const formatTooltipContent = (data) => {
+  const formatTooltipContent = data => {
     // ReactTooltip doesn't accept JSX, so have to format the content this way (as string)
 
-    if(data) {
-      const name = data[0];
-      const desc = data[1];
-      const source = data[2];
+    if (data) {
+      const name = data[0]
+      const desc = data[1]
+      const source = data[2]
 
       return ReactDOMServer.renderToStaticMarkup(
         <div className={styles.tooltipContent}>
           <b>{name}</b>
-          {desc &&
-            <div style={{lineHeight: "1.4em", marginTop: "1px"}}>
-              {desc}
-            </div>
-          }
-          {source &&
-            <small style={{margin: "6px 0", display: "block", color: "#ccc"}}>
+          {desc && (
+            <div style={{ lineHeight: "1.4em", marginTop: "1px" }}>{desc}</div>
+          )}
+          {source && (
+            <small style={{ margin: "6px 0", display: "block", color: "#ccc" }}>
               ({source})
             </small>
-          }
+          )}
         </div>
       )
     }
@@ -48,34 +53,32 @@ function Index() {
 
   // Modal content Template -- "modalContent" state variable holds the actual data
   function ModalContent({ handleClose }) {
-    const name = modalContent[0];
-    const desc = modalContent[1];
-    const source = modalContent[2];
-    const link = modalContent[3];
+    const name = modalContent[0]
+    const desc = modalContent[1]
+    const source = modalContent[2]
+    const link = modalContent[3]
 
-    let linkRender;
+    let linkRender
 
-    if(link)
+    if (link)
       linkRender = (
-        <a href={link} target="_blank" style={{color: "#1872ff"}}>
+        <a href={link} target="_blank" style={{ color: "#1872ff" }}>
           {source}
         </a>
       )
-    else
-      linkRender = source
+    else linkRender = source
 
     return (
       <div>
         <h3>{name}</h3>
-        <div style={{marginBottom: "0.5em"}}>
-          {desc}
-        </div>
+        <div style={{ marginBottom: "0.5em" }}>{desc}</div>
         <div>
-          <small>
-            {linkRender}
-          </small>
+          <small>{linkRender}</small>
         </div>
-        <button onClick={handleClose} className={`${common.button} ${styles.modalCloseBtn}`}>
+        <button
+          onClick={handleClose}
+          className={`${common.button} ${styles.modalCloseBtn}`}
+        >
           Close
         </button>
       </div>
@@ -106,16 +109,22 @@ function Index() {
         </div>
 
         {/* Background image Credit: https://www.toptal.com/designers/subtlepatterns/whirlpool/ */}
-        <div className={common.section}
-          style={{paddingTop: "48px", paddingBottom: "60px", backgroundImage: "url('/img/whirlpool.webp')"}}>
+        <div
+          className={common.section}
+          style={{
+            paddingTop: "48px",
+            paddingBottom: "60px",
+            backgroundImage: "url('/img/whirlpool.webp')",
+          }}
+        >
           <div className={`${common.container} ${styles.roadmapSection}`}>
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
-
               {/* Products on Radar */}
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
-                  <LocateFixed className={styles.titleIcon} /> Products on our Radar <div className={styles.offCenterBalance}></div>
+                  <LocateFixed className={styles.titleIcon} /> Products on our
+                  Radar <div className={styles.offCenterBalance}></div>
                 </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.productsOnRadar}`}
@@ -127,12 +136,16 @@ function Index() {
                   >
                     {RoadmapItems.products_on_radar.map((item, index) => {
                       return (
-                        <button key={index} className={styles.itemBtn}
-                        data-tip={formatTooltipContent(item)} data-for="rightTip"
-                        onClick={() => {
-                          setModalVisible(true);
-                          setModalContent(item);
-                        }}>
+                        <button
+                          key={index}
+                          className={styles.itemBtn}
+                          data-tip={formatTooltipContent(item)}
+                          data-for="rightTip"
+                          onClick={() => {
+                            setModalVisible(true)
+                            setModalContent(item)
+                          }}
+                        >
                           {item[0]}
                         </button>
                       )
@@ -144,7 +157,8 @@ function Index() {
               {/* Backlog */}
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
-                  <Layers className={styles.titleIcon} /> Backlog <div className={styles.offCenterBalance}></div>
+                  <Layers className={styles.titleIcon} /> Backlog{" "}
+                  <div className={styles.offCenterBalance}></div>
                 </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.backlog}`}
@@ -156,12 +170,16 @@ function Index() {
                   >
                     {RoadmapItems.backlog.map((item, index) => {
                       return (
-                        <button key={index} className={styles.itemBtn}
-                        data-tip={formatTooltipContent(item)} data-for="rightTip"
-                        onClick={() => {
-                          setModalVisible(true);
-                          setModalContent(item);
-                        }}>
+                        <button
+                          key={index}
+                          className={styles.itemBtn}
+                          data-tip={formatTooltipContent(item)}
+                          data-for="rightTip"
+                          onClick={() => {
+                            setModalVisible(true)
+                            setModalContent(item)
+                          }}
+                        >
                           {item[0]}
                         </button>
                       )
@@ -169,11 +187,12 @@ function Index() {
                   </Scrollbars>
                 </div>
               </div>
-              
+
               {/* Coming soon */}
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
-                  <Timer className={styles.titleIcon} /> Coming soon <div className={styles.offCenterBalance}></div>
+                  <Timer className={styles.titleIcon} /> Coming soon{" "}
+                  <div className={styles.offCenterBalance}></div>
                 </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
@@ -185,12 +204,16 @@ function Index() {
                   >
                     {RoadmapItems.coming_soon.map((item, index) => {
                       return (
-                        <button key={index} className={styles.itemBtn}
-                        data-tip={formatTooltipContent(item)} data-for="rightTip"
-                        onClick={() => {
-                          setModalVisible(true);
-                          setModalContent(item);
-                        }}>
+                        <button
+                          key={index}
+                          className={styles.itemBtn}
+                          data-tip={formatTooltipContent(item)}
+                          data-for="rightTip"
+                          onClick={() => {
+                            setModalVisible(true)
+                            setModalContent(item)
+                          }}
+                        >
                           {item[0]}
                         </button>
                       )
@@ -202,7 +225,8 @@ function Index() {
               {/* Live */}
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
-                  <CheckCircle className={styles.titleIcon} /> Live <div className={styles.offCenterBalance}></div>
+                  <CheckCircle className={styles.titleIcon} /> Live{" "}
+                  <div className={styles.offCenterBalance}></div>
                 </div>
                 <div
                   className={`${styles.roadmapItemContainer} ${styles.live}`}
@@ -214,12 +238,16 @@ function Index() {
                   >
                     {RoadmapItems.live.map((item, index) => {
                       return (
-                        <button key={index} className={styles.itemBtn}
-                        data-tip={formatTooltipContent(item)} data-for="leftTip"
+                        <button
+                          key={index}
+                          className={styles.itemBtn}
+                          data-tip={formatTooltipContent(item)}
+                          data-for="leftTip"
                           onClick={() => {
-                          setModalVisible(true);
-                          setModalContent(item);
-                        }}>
+                            setModalVisible(true)
+                            setModalContent(item)
+                          }}
+                        >
                           {item[0]}
                         </button>
                       )
@@ -227,7 +255,6 @@ function Index() {
                   </Scrollbars>
                 </div>
               </div>
-
             </div>
 
             {/* Roadmap Call-to-Action Buttons */}
@@ -261,7 +288,7 @@ function Index() {
           </div>
         </div>
 
-        <div className={common.container} style={{paddingTop: "86px"}}>
+        <div className={common.container} style={{ paddingTop: "86px" }}>
           <div className={styles.priceTiers}>
             <div className={styles.priceTier}>
               <div className={styles.priceTierTitle}>Developer Portal</div>
@@ -378,18 +405,48 @@ function Index() {
         closeOnAnimationEnd
         overrides={{
           Root: { className: styles.modalRoot },
-          Overlay: { className: `${styles.modalOverlay} ${styles.modalAnimation}` },
-          Dialog: { className: styles.modalDialog }
-        }}>
-        {(close) => {
+          Overlay: {
+            className: `${styles.modalOverlay} ${styles.modalAnimation}`,
+          },
+          Dialog: { className: styles.modalDialog },
+        }}
+      >
+        {close => {
           return <ModalContent handleClose={close} />
         }}
       </MicroModal>
 
-      <ReactTooltip id="rightTip" place="right" type="dark" effect="solid" html getContent={(html) => html} className={styles.tooltipStyling} event="mouseenter" eventOff="mouseleave focusout"/>
-      <ReactTooltip id="leftTip" place="left" type="dark" effect="solid" html getContent={(html) => html} className={styles.tooltipStyling} event="mouseenter" eventOff="mouseleave focusout"/>
-      <ReactTooltip id="mobileTip" place="top" type="dark" effect="solid" html getContent={(html) => html} className={styles.tooltipStyling}/>
-      
+      <ReactTooltip
+        id="rightTip"
+        place="right"
+        type="dark"
+        effect="solid"
+        html
+        getContent={html => html}
+        className={styles.tooltipStyling}
+        event="mouseenter"
+        eventOff="mouseleave focusout"
+      />
+      <ReactTooltip
+        id="leftTip"
+        place="left"
+        type="dark"
+        effect="solid"
+        html
+        getContent={html => html}
+        className={styles.tooltipStyling}
+        event="mouseenter"
+        eventOff="mouseleave focusout"
+      />
+      <ReactTooltip
+        id="mobileTip"
+        place="top"
+        type="dark"
+        effect="solid"
+        html
+        getContent={html => html}
+        className={styles.tooltipStyling}
+      />
     </Layout>
   )
 }

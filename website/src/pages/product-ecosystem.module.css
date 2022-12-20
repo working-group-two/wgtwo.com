@@ -34,9 +34,9 @@
   color: grey;
 }
 
-  .offCenterBalance {
-    width: 16px;
-  }
+.offCenterBalance {
+  width: 16px;
+}
 
 .roadmapItemContainer {
   display: flex;
@@ -59,12 +59,12 @@
   cursor: pointer;
   transition: background-color 150ms ease, border-color 150ms ease;
 }
-  .roadmapItemContainer .itemBtn:hover {
-    background-color: rgb(240, 240, 240);
-    border-top-color: rgb(180, 180, 180);
-    border-bottom-color: rgb(180, 180, 180);
-    border-right-color: rgb(180, 180, 180);
-  }
+.roadmapItemContainer .itemBtn:hover {
+  background-color: rgb(240, 240, 240);
+  border-top-color: rgb(180, 180, 180);
+  border-bottom-color: rgb(180, 180, 180);
+  border-right-color: rgb(180, 180, 180);
+}
 
 .live .itemBtn {
   border-left-color: rgb(84, 207, 92);
@@ -316,11 +316,10 @@ div.featureGridHeader {
 
 /* MODAL CSS */
 .modalRoot {
-
 }
 
 .modalOverlay {
-  background:rgba(0, 0, 0, 0.4) !important;
+  background: rgba(0, 0, 0, 0.4) !important;
 }
 
 .modalDialog {
@@ -339,19 +338,19 @@ div.featureGridHeader {
   background-color: #c8c8c8 !important;
 }
 
-.modalRoot[aria-hidden='false'] .modalAnimation {
+.modalRoot[aria-hidden="false"] .modalAnimation {
   animation: modal-fade-in 100ms cubic-bezier(0, 0, 0.5, 1) !important;
 }
 
-.modalRoot[aria-hidden='true'] .modalAnimation {
+.modalRoot[aria-hidden="true"] .modalAnimation {
   animation: modal-fade-out 50ms cubic-bezier(0, 0, 0.5, 1) !important;
 }
 
-.modalRoot[aria-hidden='false'] .modalAnimation > .modalDialog {
+.modalRoot[aria-hidden="false"] .modalAnimation > .modalDialog {
   animation: modal-slide-in 100ms cubic-bezier(0, 0, 0.5, 1) !important;
 }
 
-.modalRoot[aria-hidden='true'] .modalAnimation > .modalDialog {
+.modalRoot[aria-hidden="true"] .modalAnimation > .modalDialog {
   animation: modal-fade-out 50ms cubic-bezier(0, 0, 0.5, 1) !important;
 }
 

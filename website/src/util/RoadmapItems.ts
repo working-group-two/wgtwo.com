@@ -47,30 +47,35 @@ export const backlog = [
     "Telavox",
     "Telephony, PBX, messaging, meetings, and contact center in one simple platform",
     "Telavox",
-    "https://telavox.com/"
+    "https://telavox.com/",
   ],
   [
     "VXT",
     "Drive revenue and save time with integrated VoIP, video, and chat to make record keeping automatic",
     "VXT",
-    "https://www.vxt.co.nz/"
+    "https://www.vxt.co.nz/",
   ],
   [
     "Enghouse DMS",
     "Sends the right handset settings to newly ported subscriptions",
     "Enghouse",
-    "https://www.enghouse.com/"
+    "https://www.enghouse.com/",
   ],
-  ["Churn prevention", "Identify what subscriptions are at risk of churning", "Tech Batallion", "https://thetechbattalion.com/"],
+  [
+    "Churn prevention",
+    "Identify what subscriptions are at risk of churning",
+    "Tech Batallion",
+    "https://thetechbattalion.com/",
+  ],
   [
     "Web Filtering Safe Surf",
     "Make sure your not able to enter harmful websites",
-    "WG2"
+    "WG2",
   ],
   [
     "Spam Preventer",
     "Protect your subscribers from getting taken advantage of",
-    "WG2"
+    "WG2",
   ],
 ]
 
@@ -80,11 +85,20 @@ export const coming_soon = [
     "Smart & Personalized Voicemail",
     "Read your voicemail and custom-greet your contacts",
     "Voxist",
-    "https://www.voxist.com/"
+    "https://www.voxist.com/",
   ],
-  ["Web Filtering for Kids", "Filter out website that contain harmful content", "WG2"],
+  [
+    "Web Filtering for Kids",
+    "Filter out website that contain harmful content",
+    "WG2",
+  ],
   ["SMS Spam Alert", "Get an alert when you receive SMS spam", "WG2"],
-  ["Voice Anti-spam", "Block or warn subscribers about unwanted calls", "Elitnet", "https://elitnet.eu/"],
+  [
+    "Voice Anti-spam",
+    "Block or warn subscribers about unwanted calls",
+    "Elitnet",
+    "https://elitnet.eu/",
+  ],
 ]
 
 // Live (or at least somewhat)
@@ -95,7 +109,6 @@ export const live = [
   [
     "Security Notification",
     "Get notified if your SIM is used by another device",
-    "WG2"
+    "WG2",
   ],
 ]
-
