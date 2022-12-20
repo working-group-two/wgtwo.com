@@ -2,6 +2,7 @@
 
 .roadmapSection {
   flex-direction: column;
+  gap: 50px !important;
 }
 
 .roadmapContainer {
@@ -42,38 +43,53 @@
   flex-direction: column;
 }
 
-.roadmapItemContainer .item {
+.roadmapItemContainer .itemBtn {
   width: 100%;
   font-size: 0.85em;
   font-weight: 500;
+  font-family: var(--aa-font-family);
+  text-align: left;
   border: 1px solid rgb(205, 205, 205);
   border-radius: 4px;
   background-color: white;
-  padding: 8px 15px;
+  padding: 10px 15px;
   margin: 3px 0px;
   border-left: 5px solid rgb(202, 202, 202);
   box-shadow: 0px 2px 3px #c7c7c740;
+  cursor: pointer;
   transition: background-color 150ms ease, border-color 150ms ease;
 }
-  .roadmapItemContainer .item:hover {
-    background-color: rgb(248, 248, 248);
-    border-top-color: rgb(185, 185, 185);
-    border-bottom-color: rgb(185, 185, 185);
-    border-right-color: rgb(185, 185, 185);
+  .roadmapItemContainer .itemBtn:hover {
+    background-color: rgb(240, 240, 240);
+    border-top-color: rgb(180, 180, 180);
+    border-bottom-color: rgb(180, 180, 180);
+    border-right-color: rgb(180, 180, 180);
   }
 
-.live .item {
+.live .itemBtn {
   border-left-color: rgb(84, 207, 92);
 }
-.comingSoon .item {
+.comingSoon .itemBtn {
   border-left-color: #4cabe7;
 }
-.backlog .item {
-  border-left-color: rgb(206 189 228); /* #92d8c3; */
+.backlog .itemBtn {
+  border-left-color: rgb(205, 183, 233); /* #92d8c3; */
 }
-.opportunities .item {
-  border-left-color: rgb(242, 201, 145);
-  
+.productsOnRadar .itemBtn {
+  border-left-color: rgb(240, 193, 127);
+}
+
+.tooltipContent {
+  max-width: 300px;
+}
+
+.tooltipStyling {
+  background: #263238 !important;
+  color: white !important;
+  box-shadow: 0px 3px 10px rgba(138, 138, 138, 0.602);
+}
+.tooltipStyling::after {
+  background-color: #263238 !important;
 }
 
 /* fix margin between list items */
@@ -81,7 +97,57 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 6px;
+}
+
+.scrollbar {
   border-bottom: 2px solid #cfcfcf95;
+  padding-bottom: 1px;
+}
+
+.roadmapCTAGrid {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 1fr;
+
+  border: 1px solid #d1dde3;
+  border-radius: 7px;
+  padding: 30px;
+
+  box-shadow: 0px 5px 20px #63727921;
+  background: #f5f5f5;
+}
+
+.roadmapCTAColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.roadmapCTAColumn:nth-child(odd) {
+  border-right: 4px dotted #d1dde3;
+  padding-right: 24px;
+}
+.roadmapCTAColumn:nth-child(even) {
+  padding-left: 24px;
+}
+
+.roadmapCTATitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.roadmapCTAText {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.roadmapCTABtn {
+  flex-grow: 0 !important;
 }
 
 /*****/
@@ -201,10 +267,126 @@ div.featureGridHeader {
 /* Responsiveness */
 
 @media (max-width: 900px) {
+  .roadmapContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .roadmapColumnTitle {
+    margin-top: 10px;
+  }
+
   .priceTiers {
     grid-template-columns: 1fr;
   }
   .questions {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .roadmapCTAGrid {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .roadmapCTAColumn:nth-child(odd) {
+    border-right: none;
+    padding-right: 0;
+
+    border-bottom: 4px dotted #d1dde3;
+    padding-bottom: 36px;
+  }
+  .roadmapCTAColumn:nth-child(even) {
+    padding-left: 0;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 512px) {
+  .roadmapContainer {
+    grid-template-columns: 1fr;
+  }
+  .roadmapColumnTitle {
+    font-size: 1.5em;
+  }
+
+  .modalDialog {
+    max-width: 90% !important;
+  }
+}
+
+/* MODAL CSS */
+.modalRoot {
+
+}
+
+.modalOverlay {
+  background:rgba(0, 0, 0, 0.4) !important;
+}
+
+.modalDialog {
+  min-width: 400px;
+  box-shadow: 0px 5px 16px #43434361;
+}
+
+.modalCloseBtn {
+  margin-left: auto;
+  padding: 10px 15px !important;
+  color: rgb(65, 65, 65);
+  background-color: #e8e8e8 !important;
+}
+.modalCloseBtn:hover {
+  color: black;
+  background-color: #c8c8c8 !important;
+}
+
+.modalRoot[aria-hidden='false'] .modalAnimation {
+  animation: modal-fade-in 100ms cubic-bezier(0, 0, 0.5, 1) !important;
+}
+
+.modalRoot[aria-hidden='true'] .modalAnimation {
+  animation: modal-fade-out 50ms cubic-bezier(0, 0, 0.5, 1) !important;
+}
+
+.modalRoot[aria-hidden='false'] .modalAnimation > .modalDialog {
+  animation: modal-slide-in 100ms cubic-bezier(0, 0, 0.5, 1) !important;
+}
+
+.modalRoot[aria-hidden='true'] .modalAnimation > .modalDialog {
+  animation: modal-fade-out 50ms cubic-bezier(0, 0, 0.5, 1) !important;
+}
+
+@keyframes modal-slide-in {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes modal-slide-out {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }
