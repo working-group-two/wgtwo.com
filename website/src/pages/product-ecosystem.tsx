@@ -16,8 +16,10 @@ import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
 
 import { Scrollbars } from "react-custom-scrollbars"
-import MicroModal from "react-micro-modal"
 import ReactTooltip from "react-tooltip"
+
+import "react-responsive-modal/styles.css";
+import { Modal } from 'react-responsive-modal';
 
 import * as RoadmapItems from "../util/RoadmapItems"
 
@@ -52,7 +54,7 @@ function Index() {
   }
 
   // Modal content Template -- "modalContent" state variable holds the actual data
-  function ModalContent({ handleClose }) {
+  function ModalContent() {
     const name = modalContent[0]
     const desc = modalContent[1]
     const source = modalContent[2]
@@ -69,21 +71,18 @@ function Index() {
     else linkRender = source
 
     return (
-      <div>
+      <div style={{width: "95%"}}>
         <h3>{name}</h3>
         <div style={{ marginBottom: "0.5em" }}>{desc}</div>
         <div>
           <small>{linkRender}</small>
         </div>
-        <button
-          onClick={handleClose}
-          className={`${common.button} ${styles.modalCloseBtn}`}
-        >
-          Close
-        </button>
       </div>
     )
   }
+
+  const onOpenModal = () => setModalVisible(true);
+  const onCloseModal = () => setModalVisible(false);
 
   return (
     <Layout title="Technology">
@@ -399,28 +398,25 @@ function Index() {
         <CTA />
       </div>
 
-      <MicroModal
+      <Modal
         open={modalVisible}
-        handleClose={() => setModalVisible(false)}
-        closeOnAnimationEnd
-        overrides={{
-          Root: { className: styles.modalRoot },
-          Overlay: {
-            className: `${styles.modalOverlay} ${styles.modalAnimation}`,
-          },
-          Dialog: { className: styles.modalDialog },
-        }}
-      >
-        {close => {
-          return <ModalContent handleClose={close} />
-        }}
-      </MicroModal>
+        onClose={onCloseModal}
+        center
+        blockScroll={false}
+        classNames={{
+          modal: styles.modalDialog,
+          overlay: styles.modalOverlay,
+          modalAnimationIn: styles.modalSlideIn
+        }}>
+        <ModalContent />
+      </Modal>
 
       <ReactTooltip
         id="rightTip"
         place="right"
         type="dark"
         effect="solid"
+        delayShow={0}
         html
         getContent={html => html}
         className={styles.tooltipStyling}
@@ -432,20 +428,12 @@ function Index() {
         place="left"
         type="dark"
         effect="solid"
+        delayShow={0}
         html
         getContent={html => html}
         className={styles.tooltipStyling}
         event="mouseenter"
         eventOff="mouseleave focusout"
-      />
-      <ReactTooltip
-        id="mobileTip"
-        place="top"
-        type="dark"
-        effect="solid"
-        html
-        getContent={html => html}
-        className={styles.tooltipStyling}
       />
     </Layout>
   )

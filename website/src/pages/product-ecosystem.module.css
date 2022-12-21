@@ -84,6 +84,7 @@
 }
 
 .tooltipStyling {
+  transition: opacity 150ms ease-out !important;
   background: #263238 !important;
   color: white !important;
   box-shadow: 0px 3px 10px rgba(138, 138, 138, 0.602);
@@ -114,7 +115,7 @@
   padding: 30px;
 
   box-shadow: 0px 5px 20px #63727921;
-  background: #f5f5f5;
+  background: #f8f8f8;
 }
 
 .roadmapCTAColumn {
@@ -315,16 +316,15 @@ div.featureGridHeader {
 }
 
 /* MODAL CSS */
-.modalRoot {
+.modalDialog {
+  min-width: 400px;
+  max-width: 600px !important;
+  border-radius: 6px;
+  padding: 25px !important;
 }
 
 .modalOverlay {
   background: rgba(0, 0, 0, 0.4) !important;
-}
-
-.modalDialog {
-  min-width: 400px;
-  box-shadow: 0px 5px 16px #43434361;
 }
 
 .modalCloseBtn {
@@ -354,7 +354,7 @@ div.featureGridHeader {
   animation: modal-fade-out 50ms cubic-bezier(0, 0, 0.5, 1) !important;
 }
 
-@keyframes modal-slide-in {
+@keyframes modalSlideIn {
   from {
     transform: translateY(15%);
   }
