@@ -18,8 +18,8 @@ import Image from "@theme/IdealImage"
 import { Scrollbars } from "react-custom-scrollbars"
 import ReactTooltip from "react-tooltip"
 
-import "react-responsive-modal/styles.css";
-import { Modal } from 'react-responsive-modal';
+import "react-responsive-modal/styles.css"
+import { Modal } from "react-responsive-modal"
 
 import * as RoadmapItems from "../util/RoadmapItems"
 
@@ -71,7 +71,7 @@ function Index() {
     else linkRender = source
 
     return (
-      <div style={{width: "95%"}}>
+      <div style={{ width: "95%" }}>
         <h3>{name}</h3>
         <div style={{ marginBottom: "0.5em" }}>{desc}</div>
         <div>
@@ -81,8 +81,8 @@ function Index() {
     )
   }
 
-  const onOpenModal = () => setModalVisible(true);
-  const onCloseModal = () => setModalVisible(false);
+  const onOpenModal = () => setModalVisible(true)
+  const onCloseModal = () => setModalVisible(false)
 
   return (
     <Layout title="Technology">
@@ -406,8 +406,9 @@ function Index() {
         classNames={{
           modal: styles.modalDialog,
           overlay: styles.modalOverlay,
-          modalAnimationIn: styles.modalSlideIn
-        }}>
+          modalAnimationIn: styles.modalSlideIn,
+        }}
+      >
         <ModalContent />
       </Modal>
 
