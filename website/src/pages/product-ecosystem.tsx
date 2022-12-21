@@ -25,12 +25,11 @@ import * as RoadmapItems from "../util/RoadmapItems"
 // declaring last to easily override the styles of everything imported above
 import styles from "./product-ecosystem.module.css"
 
-
 // Tooltip Template -- moved out here bc <RoadmapColumn> (declared at bottom) uses it
 const formatTooltipContent = data => {
   // ReactTooltip doesn't accept JSX, so have to format the content this way (as string)
 
-  if (!data) return "";
+  if (!data) return ""
 
   const name = data[0]
   const desc = data[1]
@@ -38,19 +37,9 @@ const formatTooltipContent = data => {
 
   return ReactDOMServer.renderToStaticMarkup(
     <div className={styles.tooltipContent}>
-      <div className={styles.tooltipTitle}>
-        { name }
-      </div>
-      {desc && (
-        <div className={styles.tooltipDescription}>
-          { desc }
-        </div>
-      )}
-      {source && (
-        <small className={styles.tooltipSmallText}>
-          ({ source })
-        </small>
-      )}
+      <div className={styles.tooltipTitle}>{name}</div>
+      {desc && <div className={styles.tooltipDescription}>{desc}</div>}
+      {source && <small className={styles.tooltipSmallText}>({source})</small>}
     </div>
   )
 }
@@ -84,17 +73,15 @@ function Index() {
     if (link)
       linkRender = (
         <a href={link} target="_blank" className={styles.modalLink}>
-          { source }
+          {source}
         </a>
       )
     else linkRender = source
 
     return (
       <div className={styles.modalContent}>
-        <h3>{ name }</h3>
-        <div className={styles.modalText}>
-          { desc }
-        </div>
+        <h3>{name}</h3>
+        <div className={styles.modalText}>{desc}</div>
         <div>
           <small>{linkRender}</small>
         </div>
@@ -137,24 +124,23 @@ function Index() {
           <div className={`${common.container} ${styles.roadmapSection}`}>
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
-              
               <RoadmapColumn
                 title="Products on our Radar"
                 icon={<LocateFixed className={styles.titleIcon} />}
                 className={styles.productsOnRadar}
                 items={RoadmapItems.products_on_radar}
-                clickFn={(item) => {
+                clickFn={item => {
                   onOpenModal()
                   setModalContent(item)
                 }}
               />
-              
+
               <RoadmapColumn
                 title="Backlog"
                 icon={<Layers className={styles.titleIcon} />}
                 className={styles.backlog}
                 items={RoadmapItems.backlog}
-                clickFn={(item) => {
+                clickFn={item => {
                   onOpenModal()
                   setModalContent(item)
                 }}
@@ -165,7 +151,7 @@ function Index() {
                 icon={<Timer className={styles.titleIcon} />}
                 className={styles.comingSoon}
                 items={RoadmapItems.coming_soon}
-                clickFn={(item) => {
+                clickFn={item => {
                   onOpenModal()
                   setModalContent(item)
                 }}
@@ -176,12 +162,11 @@ function Index() {
                 icon={<CheckCircle className={styles.titleIcon} />}
                 className={styles.live}
                 items={RoadmapItems.live}
-                clickFn={(item) => {
+                clickFn={item => {
                   onOpenModal()
                   setModalContent(item)
                 }}
               />
-              
             </div>
 
             {/* Roadmap Call-to-Action Buttons */}
@@ -375,12 +360,10 @@ function RoadmapColumn({ icon, title, className, items, clickFn }) {
     <div className={styles.roadmapColumn}>
       <div className={styles.roadmapColumnTitle}>
         {icon}
-          {title}
+        {title}
         <div className={styles.offCenterBalance}></div>
       </div>
-      <div
-        className={`${styles.roadmapItemContainer} ${className}`}
-      >
+      <div className={`${styles.roadmapItemContainer} ${className}`}>
         <Scrollbars
           universal
           autoHeight

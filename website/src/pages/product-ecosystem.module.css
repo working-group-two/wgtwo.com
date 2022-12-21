@@ -79,7 +79,7 @@
   border-left-color: rgb(240, 193, 127);
 }
 
-  /* override ReactTooltip styling with custom */
+/* override ReactTooltip styling with custom */
 .tooltipStyling {
   transition: opacity 150ms ease-out !important;
   background: #263238 !important;
@@ -89,7 +89,7 @@
 .tooltipStyling::after {
   background-color: #263238 !important;
 }
-  /***/
+/***/
 
 .tooltipContent {
   max-width: 300px;
