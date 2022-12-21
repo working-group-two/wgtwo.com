@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/blog</id>
-    <title>[blog][snowcone] Update with DNI fix (#203) Blog</title>
+    <title>Roadmap Development Completed! (#205) Blog</title>
     <updated>2022-11-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/blog"/>
-    <subtitle>[blog][snowcone] Update with DNI fix (#203) Blog</subtitle>
+    <subtitle>Roadmap Development Completed! (#205) Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Unboxing the AWS Snowcone and using it as a local UPF]]></title>
