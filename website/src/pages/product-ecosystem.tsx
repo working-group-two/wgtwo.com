@@ -69,7 +69,7 @@ function Index() {
   const onCloseModal = () => {
     setModalDialogAnimation(styles.modalDialogFadeOut)
     setModalOverlayAnimation(styles.modalOverlayFadeOut)
-    setModalVisible(false);
+    setModalVisible(false)
   }
 
   // Modal content Template -- "modalContent" state variable holds the actual data
