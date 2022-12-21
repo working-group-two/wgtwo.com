@@ -338,8 +338,18 @@ div.featureGridHeader {
   background-color: #c8c8c8 !important;
 }
 
-.modalRoot[aria-hidden="false"] .modalAnimation > .modalDialog {
-  animation: modalSlideIn 100ms cubic-bezier(0, 0, 0.5, 1) !important;
+.modalDialogSlideIn {
+  animation: 200ms ease 0s 1 normal none running modalSlideIn !important;
+}
+.modalDialogFadeOut {
+  animation: 200ms ease 0s 1 normal none running modalFadeOut !important;
+}
+
+.modalOverlayFadeIn {
+  animation: 200ms ease 0s 1 normal none running overlayFadeIn !important;
+}
+.modalOverlayFadeOut {
+  animation: 200ms ease 0s 1 normal none running overlayFadeOut !important;
 }
 
 @keyframes modalSlideIn {
@@ -348,5 +358,34 @@ div.featureGridHeader {
   }
   to {
     transform: translateY(0);
+  }
+}
+
+@keyframes modalFadeOut {
+  0% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.96);
+    opacity: 0;
+  }
+}
+
+@keyframes overlayFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes overlayFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

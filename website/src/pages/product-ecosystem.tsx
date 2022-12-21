@@ -15,7 +15,7 @@ import {
 import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
 
-import { Scrollbars } from "react-custom-scrollbars"
+import { Scrollbars } from "rc-scrollbars"
 import ReactTooltip from "react-tooltip"
 
 import "react-responsive-modal/styles.css"
@@ -26,6 +26,19 @@ import * as RoadmapItems from "../util/RoadmapItems"
 function Index() {
   const [modalVisible, setModalVisible] = useState(false)
   const [modalContent, setModalContent] = useState([])
+  const [modalOverlayAnimation, setModalOverlayAnimation] = useState("")
+  const [modalDialogAnimation, setModalDialogAnimation] = useState("")
+
+  const onOpenModal = () => {
+    setModalDialogAnimation(styles.modalDialogSlideIn)
+    setModalOverlayAnimation(styles.modalOverlayFadeIn)
+    setModalVisible(true)
+  }
+  const onCloseModal = () => {
+    setModalDialogAnimation(styles.modalDialogFadeOut)
+    setModalOverlayAnimation(styles.modalOverlayFadeOut)
+    setModalVisible(false);
+  }
 
   const formatTooltipContent = data => {
     // ReactTooltip doesn't accept JSX, so have to format the content this way (as string)
@@ -81,9 +94,6 @@ function Index() {
     )
   }
 
-  const onOpenModal = () => setModalVisible(true)
-  const onCloseModal = () => setModalVisible(false)
-
   return (
     <Layout title="Technology">
       <div className={common.page}>
@@ -129,6 +139,7 @@ function Index() {
                   className={`${styles.roadmapItemContainer} ${styles.productsOnRadar}`}
                 >
                   <Scrollbars
+                    universal
                     autoHeight
                     autoHeightMax={500}
                     className={styles.scrollbar}
@@ -141,7 +152,7 @@ function Index() {
                           data-tip={formatTooltipContent(item)}
                           data-for="rightTip"
                           onClick={() => {
-                            setModalVisible(true)
+                            onOpenModal()
                             setModalContent(item)
                           }}
                         >
@@ -163,6 +174,7 @@ function Index() {
                   className={`${styles.roadmapItemContainer} ${styles.backlog}`}
                 >
                   <Scrollbars
+                    universal
                     autoHeight
                     autoHeightMax={500}
                     className={styles.scrollbar}
@@ -175,7 +187,7 @@ function Index() {
                           data-tip={formatTooltipContent(item)}
                           data-for="rightTip"
                           onClick={() => {
-                            setModalVisible(true)
+                            onOpenModal()
                             setModalContent(item)
                           }}
                         >
@@ -197,6 +209,7 @@ function Index() {
                   className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
                 >
                   <Scrollbars
+                    universal
                     autoHeight
                     autoHeightMax={500}
                     className={styles.scrollbar}
@@ -209,7 +222,7 @@ function Index() {
                           data-tip={formatTooltipContent(item)}
                           data-for="rightTip"
                           onClick={() => {
-                            setModalVisible(true)
+                            onOpenModal()
                             setModalContent(item)
                           }}
                         >
@@ -231,6 +244,7 @@ function Index() {
                   className={`${styles.roadmapItemContainer} ${styles.live}`}
                 >
                   <Scrollbars
+                    universal
                     autoHeight
                     autoHeightMax={500}
                     className={styles.scrollbar}
@@ -243,7 +257,7 @@ function Index() {
                           data-tip={formatTooltipContent(item)}
                           data-for="leftTip"
                           onClick={() => {
-                            setModalVisible(true)
+                            onOpenModal()
                             setModalContent(item)
                           }}
                         >
@@ -404,8 +418,8 @@ function Index() {
         center
         blockScroll={false}
         classNames={{
-          modal: styles.modalDialog,
-          overlay: styles.modalOverlay,
+          modal: `${styles.modalDialog} ${modalDialogAnimation}`,
+          overlay: `${styles.modalOverlay} ${modalOverlayAnimation}`,
           modalAnimationIn: styles.modalSlideIn,
         }}
       >
