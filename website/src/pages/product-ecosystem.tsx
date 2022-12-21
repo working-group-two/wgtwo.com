@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import ReactDOMServer from "react-dom/server"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
-import styles from "./product-ecosystem.module.css"
 import common from "../css/common.module.css"
 import {
   CheckCircle,
@@ -23,6 +22,39 @@ import { Modal } from "react-responsive-modal"
 
 import * as RoadmapItems from "../util/RoadmapItems"
 
+// declaring last to easily override the styles of everything imported above
+import styles from "./product-ecosystem.module.css"
+
+
+// Tooltip Template -- moved out here bc <RoadmapColumn> (declared at bottom) uses it
+const formatTooltipContent = data => {
+  // ReactTooltip doesn't accept JSX, so have to format the content this way (as string)
+
+  if (!data) return "";
+
+  const name = data[0]
+  const desc = data[1]
+  const source = data[2]
+
+  return ReactDOMServer.renderToStaticMarkup(
+    <div className={styles.tooltipContent}>
+      <div className={styles.tooltipTitle}>
+        { name }
+      </div>
+      {desc && (
+        <div className={styles.tooltipDescription}>
+          { desc }
+        </div>
+      )}
+      {source && (
+        <small className={styles.tooltipSmallText}>
+          ({ source })
+        </small>
+      )}
+    </div>
+  )
+}
+
 function Index() {
   const [modalVisible, setModalVisible] = useState(false)
   const [modalContent, setModalContent] = useState([])
@@ -40,32 +72,6 @@ function Index() {
     setModalVisible(false);
   }
 
-  const formatTooltipContent = data => {
-    // ReactTooltip doesn't accept JSX, so have to format the content this way (as string)
-
-    if (data) {
-      const name = data[0]
-      const desc = data[1]
-      const source = data[2]
-
-      return ReactDOMServer.renderToStaticMarkup(
-        <div className={styles.tooltipContent}>
-          <b>{name}</b>
-          {desc && (
-            <div style={{ lineHeight: "1.4em", marginTop: "1px" }}>{desc}</div>
-          )}
-          {source && (
-            <small style={{ margin: "6px 0", display: "block", color: "#ccc" }}>
-              ({source})
-            </small>
-          )}
-        </div>
-      )
-    }
-
-    return ""
-  }
-
   // Modal content Template -- "modalContent" state variable holds the actual data
   function ModalContent() {
     const name = modalContent[0]
@@ -77,16 +83,18 @@ function Index() {
 
     if (link)
       linkRender = (
-        <a href={link} target="_blank" style={{ color: "#1872ff" }}>
-          {source}
+        <a href={link} target="_blank" className={styles.modalLink}>
+          { source }
         </a>
       )
     else linkRender = source
 
     return (
-      <div style={{ width: "95%" }}>
-        <h3>{name}</h3>
-        <div style={{ marginBottom: "0.5em" }}>{desc}</div>
+      <div className={styles.modalContent}>
+        <h3>{ name }</h3>
+        <div className={styles.modalText}>
+          { desc }
+        </div>
         <div>
           <small>{linkRender}</small>
         </div>
@@ -129,145 +137,51 @@ function Index() {
           <div className={`${common.container} ${styles.roadmapSection}`}>
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
-              {/* Products on Radar */}
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>
-                  <LocateFixed className={styles.titleIcon} /> Products on our
-                  Radar <div className={styles.offCenterBalance}></div>
-                </div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.productsOnRadar}`}
-                >
-                  <Scrollbars
-                    universal
-                    autoHeight
-                    autoHeightMax={500}
-                    className={styles.scrollbar}
-                  >
-                    {RoadmapItems.products_on_radar.map((item, index) => {
-                      return (
-                        <button
-                          key={index}
-                          className={styles.itemBtn}
-                          data-tip={formatTooltipContent(item)}
-                          data-for="rightTip"
-                          onClick={() => {
-                            onOpenModal()
-                            setModalContent(item)
-                          }}
-                        >
-                          {item[0]}
-                        </button>
-                      )
-                    })}
-                  </Scrollbars>
-                </div>
-              </div>
+              
+              <RoadmapColumn
+                title="Products on our Radar"
+                icon={<LocateFixed className={styles.titleIcon} />}
+                className={styles.productsOnRadar}
+                items={RoadmapItems.products_on_radar}
+                clickFn={(item) => {
+                  onOpenModal()
+                  setModalContent(item)
+                }}
+              />
+              
+              <RoadmapColumn
+                title="Backlog"
+                icon={<Layers className={styles.titleIcon} />}
+                className={styles.backlog}
+                items={RoadmapItems.backlog}
+                clickFn={(item) => {
+                  onOpenModal()
+                  setModalContent(item)
+                }}
+              />
 
-              {/* Backlog */}
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>
-                  <Layers className={styles.titleIcon} /> Backlog{" "}
-                  <div className={styles.offCenterBalance}></div>
-                </div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.backlog}`}
-                >
-                  <Scrollbars
-                    universal
-                    autoHeight
-                    autoHeightMax={500}
-                    className={styles.scrollbar}
-                  >
-                    {RoadmapItems.backlog.map((item, index) => {
-                      return (
-                        <button
-                          key={index}
-                          className={styles.itemBtn}
-                          data-tip={formatTooltipContent(item)}
-                          data-for="rightTip"
-                          onClick={() => {
-                            onOpenModal()
-                            setModalContent(item)
-                          }}
-                        >
-                          {item[0]}
-                        </button>
-                      )
-                    })}
-                  </Scrollbars>
-                </div>
-              </div>
+              <RoadmapColumn
+                title="Coming soon"
+                icon={<Timer className={styles.titleIcon} />}
+                className={styles.comingSoon}
+                items={RoadmapItems.coming_soon}
+                clickFn={(item) => {
+                  onOpenModal()
+                  setModalContent(item)
+                }}
+              />
 
-              {/* Coming soon */}
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>
-                  <Timer className={styles.titleIcon} /> Coming soon{" "}
-                  <div className={styles.offCenterBalance}></div>
-                </div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.comingSoon}`}
-                >
-                  <Scrollbars
-                    universal
-                    autoHeight
-                    autoHeightMax={500}
-                    className={styles.scrollbar}
-                  >
-                    {RoadmapItems.coming_soon.map((item, index) => {
-                      return (
-                        <button
-                          key={index}
-                          className={styles.itemBtn}
-                          data-tip={formatTooltipContent(item)}
-                          data-for="rightTip"
-                          onClick={() => {
-                            onOpenModal()
-                            setModalContent(item)
-                          }}
-                        >
-                          {item[0]}
-                        </button>
-                      )
-                    })}
-                  </Scrollbars>
-                </div>
-              </div>
-
-              {/* Live */}
-              <div className={styles.roadmapColumn}>
-                <div className={styles.roadmapColumnTitle}>
-                  <CheckCircle className={styles.titleIcon} /> Live{" "}
-                  <div className={styles.offCenterBalance}></div>
-                </div>
-                <div
-                  className={`${styles.roadmapItemContainer} ${styles.live}`}
-                >
-                  <Scrollbars
-                    universal
-                    autoHeight
-                    autoHeightMax={500}
-                    className={styles.scrollbar}
-                  >
-                    {RoadmapItems.live.map((item, index) => {
-                      return (
-                        <button
-                          key={index}
-                          className={styles.itemBtn}
-                          data-tip={formatTooltipContent(item)}
-                          data-for="leftTip"
-                          onClick={() => {
-                            onOpenModal()
-                            setModalContent(item)
-                          }}
-                        >
-                          {item[0]}
-                        </button>
-                      )
-                    })}
-                  </Scrollbars>
-                </div>
-              </div>
+              <RoadmapColumn
+                title="Live"
+                icon={<CheckCircle className={styles.titleIcon} />}
+                className={styles.live}
+                items={RoadmapItems.live}
+                clickFn={(item) => {
+                  onOpenModal()
+                  setModalContent(item)
+                }}
+              />
+              
             </div>
 
             {/* Roadmap Call-to-Action Buttons */}
@@ -455,3 +369,41 @@ function Index() {
 }
 
 export default Index
+
+function RoadmapColumn({ icon, title, className, items, clickFn }) {
+  return (
+    <div className={styles.roadmapColumn}>
+      <div className={styles.roadmapColumnTitle}>
+        {icon}
+          {title}
+        <div className={styles.offCenterBalance}></div>
+      </div>
+      <div
+        className={`${styles.roadmapItemContainer} ${className}`}
+      >
+        <Scrollbars
+          universal
+          autoHeight
+          autoHeightMax={500}
+          className={styles.scrollbar}
+        >
+          {items.map((item, index) => {
+            return (
+              <button
+                key={index}
+                className={styles.itemBtn}
+                data-tip={formatTooltipContent(item)}
+                data-for="rightTip"
+                onClick={() => {
+                  clickFn(item)
+                }}
+              >
+                {item[0]}
+              </button>
+            )
+          })}
+        </Scrollbars>
+      </div>
+    </div>
+  )
+}

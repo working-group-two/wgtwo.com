@@ -2,7 +2,7 @@
 
 .roadmapSection {
   flex-direction: column;
-  gap: 50px !important;
+  gap: 50px;
 }
 
 .roadmapContainer {
@@ -79,10 +79,7 @@
   border-left-color: rgb(240, 193, 127);
 }
 
-.tooltipContent {
-  max-width: 300px;
-}
-
+  /* override ReactTooltip styling with custom */
 .tooltipStyling {
   transition: opacity 150ms ease-out !important;
   background: #263238 !important;
@@ -91,6 +88,24 @@
 }
 .tooltipStyling::after {
   background-color: #263238 !important;
+}
+  /***/
+
+.tooltipContent {
+  max-width: 300px;
+}
+
+.tooltipTitle {
+  font-weight: bold;
+}
+.tooltipDescription {
+  line-height: 1.4em;
+  margin-top: 1px;
+}
+.tooltipSmallText {
+  margin: 6px 0;
+  display: block;
+  color: #ccc;
 }
 
 /* fix margin between list items */
@@ -103,6 +118,23 @@
 .scrollbar {
   border-bottom: 2px solid #cfcfcf95;
   padding-bottom: 1px;
+}
+
+.modalDialog {
+  min-width: 400px;
+  max-width: 600px;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.modalContent {
+  width: 95%;
+}
+.modalText {
+  margin-bottom: 0.5em;
+}
+.modalLink {
+  color: #1872ff;
 }
 
 .roadmapCTAGrid {
@@ -148,7 +180,7 @@
 }
 
 .roadmapCTABtn {
-  flex-grow: 0 !important;
+  flex-grow: 0;
 }
 
 /*****/
@@ -199,12 +231,12 @@
 }
 
 .altButton {
-  background-color: #607d8b !important;
-  border: 0 !important;
+  background-color: #607d8b;
+  border: 0;
   color: #fff;
 }
 .altButton:hover {
-  background-color: #7d96a3 !important;
+  background-color: #7d96a3;
   color: #fff;
 }
 
@@ -311,31 +343,13 @@ div.featureGridHeader {
   }
 
   .modalDialog {
-    max-width: 90% !important;
+    max-width: 90%;
   }
 }
 
-/* MODAL CSS */
-.modalDialog {
-  min-width: 400px;
-  max-width: 600px !important;
-  border-radius: 6px;
-  padding: 25px !important;
-}
-
+/* GENERAL MODAL CSS */
 .modalOverlay {
-  background: rgba(0, 0, 0, 0.4) !important;
-}
-
-.modalCloseBtn {
-  margin-left: auto;
-  padding: 10px 15px !important;
-  color: rgb(65, 65, 65);
-  background-color: #e8e8e8 !important;
-}
-.modalCloseBtn:hover {
-  color: black;
-  background-color: #c8c8c8 !important;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .modalDialogSlideIn {
