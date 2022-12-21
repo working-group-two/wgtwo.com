@@ -119,7 +119,6 @@ function Index() {
           <div className={`${common.container} ${styles.roadmapSection}`}>
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
-              
               {/* Products on Radar */}
               <div className={styles.roadmapColumn}>
                 <div className={styles.roadmapColumnTitle}>
