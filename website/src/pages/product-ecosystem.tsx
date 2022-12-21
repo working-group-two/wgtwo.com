@@ -37,7 +37,7 @@ function Index() {
   const onCloseModal = () => {
     setModalDialogAnimation(styles.modalDialogFadeOut)
     setModalOverlayAnimation(styles.modalOverlayFadeOut)
-    setModalVisible(false);
+    setModalVisible(false)
   }
 
   const formatTooltipContent = data => {
