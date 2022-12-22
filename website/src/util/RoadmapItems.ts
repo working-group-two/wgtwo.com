@@ -13,98 +13,98 @@
 // Product opportunities on our radar
 export const products_on_radar = [
   {
-      title: "Automatic caller ID lookup"
+    title: "Automatic caller ID lookup",
   },
   {
-      title: "Call recording"
+    title: "Call recording",
   },
   {
-      title: "Call sentiment analysis for private"
+    title: "Call sentiment analysis for private",
   },
   {
-      title: "Call restriction"
+    title: "Call restriction",
   },
   {
-      title: "Call screening"
+    title: "Call screening",
   },
   {
-      title: "Push to talk"
+    title: "Push to talk",
   },
   {
-      title: "Enterprise reputation scoring"
+    title: "Enterprise reputation scoring",
   },
   {
-      title: "Parental controls for kids"
+    title: "Parental controls for kids",
   },
   {
-      title: "Family controls for elderly"
+    title: "Family controls for elderly",
   },
   {
-      title: "Custom dial up tones"
+    title: "Custom dial up tones",
   },
   {
-      title: "Noise cancellation"
+    title: "Noise cancellation",
   },
   {
-      title: "Automatic translation between numbers with different country codes"
+    title: "Automatic translation between numbers with different country codes",
   },
   {
-      title: "Burner number"
+    title: "Burner number",
   },
   {
-      title: "Virtual landline"
+    title: "Virtual landline",
   },
   {
-      title: "Voice recognition keys as password"
+    title: "Voice recognition keys as password",
   },
   {
-      title: "SMS scheduler"
+    title: "SMS scheduler",
   },
   {
-      title: "Custom APN settings"
+    title: "Custom APN settings",
   },
   {
-      title: "Pre-integrated BSS"
+    title: "Pre-integrated BSS",
   },
   {
-      title: "Pre-integrated customer portal"
+    title: "Pre-integrated customer portal",
   },
   {
-      title: "Virtual assistant to answer dial ups"
+    title: "Virtual assistant to answer dial ups",
   },
   {
-      title: "Virtual assistant in calls "
+    title: "Virtual assistant in calls ",
   },
   {
-      title: "Corporate compliance on calls and texts"
+    title: "Corporate compliance on calls and texts",
   },
   {
-      title: "SMS Web client"
+    title: "SMS Web client",
   },
   {
-      title: "Phone status"
+    title: "Phone status",
   },
   {
-      title: "Live network updates"
+    title: "Live network updates",
   },
   {
-      title: "Subscription insights"
+    title: "Subscription insights",
   },
   {
-      title: "Personalized carrier name"
+    title: "Personalized carrier name",
   },
   {
-      title: "Time tracking"
+    title: "Time tracking",
   },
   {
-      title: "Travel roaming history"
+    title: "Travel roaming history",
   },
   {
-      title: "Secure OTP"
+    title: "Secure OTP",
   },
   {
-      title: "Private Mobile Data Access"
-  }
+    title: "Private Mobile Data Access",
+  },
 ]
 
 // Backlog (products we want to / are working to get on our platform)

@@ -30,9 +30,9 @@ const formatTooltipContent = data => {
 
   if (!data) return ""
 
-  const name = data[0]
-  const desc = data[1]
-  const source = data[2]
+  const name = data.title
+  const desc = data.text
+  const source = data.source
 
   return ReactDOMServer.renderToStaticMarkup(
     <div className={styles.tooltipContent}>
@@ -62,10 +62,10 @@ function Index() {
 
   // Modal content Template -- "modalContent" state variable holds the actual data
   function ModalContent() {
-    const name = modalContent[0]
-    const desc = modalContent[1]
-    const source = modalContent[2]
-    const link = modalContent[3]
+    const name = modalContent.title
+    const desc = modalContent.text
+    const source = modalContent.source
+    const link = modalContent.link
 
     let linkRender
 
@@ -385,7 +385,7 @@ function RoadmapColumn({
                 clickFn(item)
               }}
             >
-              {item[0]}
+              {item.title}
             </button>
           )
         })}
