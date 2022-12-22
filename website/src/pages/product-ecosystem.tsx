@@ -124,7 +124,7 @@ function Index() {
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
               <RoadmapColumn
-                title="Products we Want but aren't really Sure About"
+                title="Products on our Radar"
                 icon={<LocateFixed className={styles.titleIcon} />}
                 titleClass={styles.productsOnRadarTitle}
                 itemsClass={styles.productsOnRadar}
