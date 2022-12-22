@@ -7614,11 +7614,6 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   dependencies:
     "@babel/runtime" "^7.10.3"
 
-react-micro-modal@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/react-micro-modal/-/react-micro-modal-2.0.2.tgz#79831de326babd0dd3c4b3c9f9e16378a9971e27"
-  integrity sha512-PucE/ap3NiTBdeZXsrYFr0JKXjVMV5cdwaB2g/pHzMg8KKcERAaEhBnRyCxGR6G5ZfnPoE0cnFrNf4+TY+gf2A==
-
 react-photo-gallery@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/react-photo-gallery/-/react-photo-gallery-8.0.0.tgz#04ff9f902a2342660e63e6817b4f010488db02b8"

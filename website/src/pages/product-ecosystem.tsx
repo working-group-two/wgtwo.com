@@ -14,7 +14,6 @@ import {
 import CTA from "../components/cta/cta"
 import Image from "@theme/IdealImage"
 
-import { Scrollbars } from "rc-scrollbars"
 import ReactTooltip from "react-tooltip"
 
 import "react-responsive-modal/styles.css"
@@ -125,9 +124,10 @@ function Index() {
             <div className={common.title}>Roadmap</div>
             <div className={styles.roadmapContainer}>
               <RoadmapColumn
-                title="Products on our Radar"
+                title="Products we Want but aren't really Sure About"
                 icon={<LocateFixed className={styles.titleIcon} />}
-                className={styles.productsOnRadar}
+                titleClass={styles.productsOnRadarTitle}
+                itemsClass={styles.productsOnRadar}
                 items={RoadmapItems.products_on_radar}
                 clickFn={item => {
                   onOpenModal()
@@ -138,7 +138,8 @@ function Index() {
               <RoadmapColumn
                 title="Backlog"
                 icon={<Layers className={styles.titleIcon} />}
-                className={styles.backlog}
+                titleClass={styles.backlogTitle}
+                itemsClass={styles.backlog}
                 items={RoadmapItems.backlog}
                 clickFn={item => {
                   onOpenModal()
@@ -149,7 +150,8 @@ function Index() {
               <RoadmapColumn
                 title="Coming soon"
                 icon={<Timer className={styles.titleIcon} />}
-                className={styles.comingSoon}
+                titleClass={styles.comingSoonTitle}
+                itemsClass={styles.comingSoon}
                 items={RoadmapItems.coming_soon}
                 clickFn={item => {
                   onOpenModal()
@@ -160,7 +162,8 @@ function Index() {
               <RoadmapColumn
                 title="Live"
                 icon={<CheckCircle className={styles.titleIcon} />}
-                className={styles.live}
+                titleClass={styles.liveTitle}
+                itemsClass={styles.live}
                 items={RoadmapItems.live}
                 clickFn={item => {
                   onOpenModal()
@@ -355,38 +358,31 @@ function Index() {
 
 export default Index
 
-function RoadmapColumn({ icon, title, className, items, clickFn }) {
+function RoadmapColumn({ icon, title, titleClass, itemsClass, items, clickFn }) {
   return (
-    <div className={styles.roadmapColumn}>
-      <div className={styles.roadmapColumnTitle}>
+    <>
+      <div className={`${styles.roadmapColumnTitle} ${titleClass}`}>
         {icon}
-        {title}
+        <h3>{title}</h3>
         <div className={styles.offCenterBalance}></div>
       </div>
-      <div className={`${styles.roadmapItemContainer} ${className}`}>
-        <Scrollbars
-          universal
-          autoHeight
-          autoHeightMax={500}
-          className={styles.scrollbar}
-        >
-          {items.map((item, index) => {
-            return (
-              <button
-                key={index}
-                className={styles.itemBtn}
-                data-tip={formatTooltipContent(item)}
-                data-for="rightTip"
-                onClick={() => {
-                  clickFn(item)
-                }}
-              >
-                {item[0]}
-              </button>
-            )
-          })}
-        </Scrollbars>
+      <div className={`${styles.roadmapItemContainer} ${itemsClass}`}>
+        {items.map((item, index) => {
+          return (
+            <button
+              key={index}
+              className={styles.itemBtn}
+              data-tip={formatTooltipContent(item)}
+              data-for="rightTip"
+              onClick={() => {
+                clickFn(item)
+              }}
+            >
+              {item[0]}
+            </button>
+          )
+        })}
       </div>
-    </div>
+    </>
   )
 }
