@@ -12,7 +12,7 @@ import {
   Timer,
 } from "lucide-react"
 import CTA from "../components/cta/cta"
-import Image from "@theme/IdealImage";
+import Image from "@theme/IdealImage"
 
 import ReactTooltip from "react-tooltip"
 
