@@ -358,7 +358,14 @@ function Index() {
 
 export default Index
 
-function RoadmapColumn({ icon, title, titleClass, itemsClass, items, clickFn }) {
+function RoadmapColumn({
+  icon,
+  title,
+  titleClass,
+  itemsClass,
+  items,
+  clickFn,
+}) {
   return (
     <>
       <div className={`${styles.roadmapColumnTitle} ${titleClass}`}>
