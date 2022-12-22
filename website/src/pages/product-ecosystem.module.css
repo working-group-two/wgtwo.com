@@ -115,7 +115,6 @@
   overflow-x: hidden;
 }
 
-
 /* override ReactTooltip styling with custom */
 .tooltipStyling {
   transition: opacity 150ms ease-out !important;
@@ -340,10 +339,10 @@ div.featureGridHeader {
   .roadmapContainer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-    "title1 title2"
-    "items1 items2"
-    "title3 title4"
-    "items3 items4";
+      "title1 title2"
+      "items1 items2"
+      "title3 title4"
+      "items3 items4";
   }
   .roadmapColumnTitle {
     margin-top: 10px;
@@ -380,14 +379,14 @@ div.featureGridHeader {
   .roadmapContainer {
     grid-template-columns: 1fr;
     grid-template-areas:
-    "title1"
-    "items1"
-    "title2"
-    "items2"
-    "title3"
-    "items3"
-    "title4"
-    "items4";
+      "title1"
+      "items1"
+      "title2"
+      "items2"
+      "title3"
+      "items3"
+      "title4"
+      "items4";
   }
   .roadmapColumnTitle {
     font-size: 1.5em;
