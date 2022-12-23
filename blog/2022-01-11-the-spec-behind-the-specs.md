@@ -132,8 +132,10 @@ file endings are `.asn` and `.asn1`. One
 that can be used to circumvent this Erlang specific problem is to list
 multiple ASN.1 files in a new file ending with `set.asn`.
 
+<!-- THIS LINK IS/WAS BROKEN 2022-12-23 AND IS THUS COMMENTED OUT
 One example of a file with many modules exist in the CAP specification
 [3GPP TS 29.078](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1597)
+-->
 
 The ASN.1 template for a module
 ```asn.1
