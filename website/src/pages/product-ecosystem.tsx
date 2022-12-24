@@ -128,6 +128,7 @@ function Index() {
                 icon={<LocateFixed className={styles.titleIcon} />}
                 titleClass={styles.productsOnRadarTitle}
                 itemsClass={styles.productsOnRadar}
+                tooltipId="rightTip"
                 items={RoadmapItems.products_on_radar}
                 clickFn={item => {
                   onOpenModal()
@@ -140,6 +141,7 @@ function Index() {
                 icon={<Layers className={styles.titleIcon} />}
                 titleClass={styles.backlogTitle}
                 itemsClass={styles.backlog}
+                tooltipId="rightTip"
                 items={RoadmapItems.backlog}
                 clickFn={item => {
                   onOpenModal()
@@ -152,6 +154,7 @@ function Index() {
                 icon={<Timer className={styles.titleIcon} />}
                 titleClass={styles.comingSoonTitle}
                 itemsClass={styles.comingSoon}
+                tooltipId="rightTip"
                 items={RoadmapItems.coming_soon}
                 clickFn={item => {
                   onOpenModal()
@@ -164,6 +167,7 @@ function Index() {
                 icon={<CheckCircle className={styles.titleIcon} />}
                 titleClass={styles.liveTitle}
                 itemsClass={styles.live}
+                tooltipId="leftTip"
                 items={RoadmapItems.live}
                 clickFn={item => {
                   onOpenModal()
@@ -363,6 +367,7 @@ function RoadmapColumn({
   title,
   titleClass,
   itemsClass,
+  tooltipId,
   items,
   clickFn,
 }) {
@@ -380,7 +385,7 @@ function RoadmapColumn({
               key={index}
               className={styles.itemBtn}
               data-tip={formatTooltipContent(item)}
-              data-for="rightTip"
+              data-for={tooltipId}
               onClick={() => {
                 clickFn(item)
               }}
