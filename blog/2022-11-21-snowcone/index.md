@@ -180,10 +180,21 @@ Single-Root IO-Virtualization (SRIOV) at work here. Which also makes sense becau
 to 64 VNFs (minus the one used by the snowcone itself).
 
 So we started deploying our DPDK-based UPF on the snowcone. Creating a DNI and attaching it to an instance was fairly 
-easy with the SnowballEdgeClient. However, when restarting the instance, it would not come back. After talking to AWS 
-we found out that this is a known behavior and should simply detach the DNI before each reboot. This solved the problem 
-even though it brings some operational problems with it in the long run. Hopefully this will be fixed in a future 
-software release.
+easy with the SnowballEdgeClient. However, when restarting the instance, it would not come back. 
+After talking to AWS we were informed that this is a bug that is related with the interface naming and 
+should be fixed in a future release.
+
+For the meantime it can be circumvented by switching to [Predictable Network Interface Names](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/).
+
+<img
+width="80%"
+align="middle"
+style={{
+display: "block",
+margin:"auto 10px"
+}}
+src={require("!file-loader!./change_to_predictable_NIC_Names.png").default}
+/>
 
 Once the DNI is attached to the instance, one has to do some additional configuration on the instance for both 
 the VNI and DNI to get IP addresses. We found the relevant [guide](https://docs.aws.amazon.com/snowball/latest/developer-guide/network-config-ec2.html) 
@@ -265,3 +276,8 @@ This is actually the maximum speed we can get out of our gNodeB. So we are prett
 We hope you liked this short look at the AWS Snowcone, and we will for sure explore the Snowcone further. It's a 
 nice little device that will be especially useful for smaller deployments or PoCs of our Packet Core as it can be easily 
 remote-managed and transported everywhere.
+
+## Update
+Since the original Blog Post about Snowcone we were able to debug the problem with the DNI detach process further 
+and with help from AWS were able to resolve it. The fix for this should be released with an updated version of 
+Amazon Linux in the future according to AWS.
