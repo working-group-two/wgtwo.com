@@ -89,7 +89,7 @@ function Index() {
   }
 
   return (
-    <Layout title="Technology">
+    <Layout title="Product ecosystem">
       <div className={common.page}>
         <div className={common.section}>
           <div className={common.container}>
