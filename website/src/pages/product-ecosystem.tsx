@@ -30,9 +30,11 @@ const formatTooltipContent = data => {
 
   if (!data) return ""
 
-  const name = data.title
-  const desc = data.text
-  const source = data.source
+  const {
+    title: name,
+    text: desc,
+    source,
+  } = data
 
   return ReactDOMServer.renderToStaticMarkup(
     <div className={styles.tooltipContent}>
@@ -62,20 +64,20 @@ function Index() {
 
   // Modal content Template -- "modalContent" state variable holds the actual data
   function ModalContent() {
-    const name = modalContent.title
-    const desc = modalContent.text
-    const source = modalContent.source
-    const link = modalContent.link
+    const {
+      title: name,
+      text: desc,
+      source,
+      link
+    } = modalContent
 
-    let linkRender
-
-    if (link)
-      linkRender = (
+    let linkRender = link ?
+      (
         <a href={link} target="_blank" className={styles.modalLink}>
           {source}
         </a>
       )
-    else linkRender = source
+      : source
 
     return (
       <div className={styles.modalContent}>
