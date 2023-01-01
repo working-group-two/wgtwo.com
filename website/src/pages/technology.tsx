@@ -3,7 +3,7 @@ import Layout from "@theme/Layout"
 import styles from "./technology.module.css"
 import common from "../css/common.module.css"
 import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list"
-import { Binary, Check, ChevronRight, Phone, Plus, ShoppingCart } from "lucide-react"
+import { Binary, Check, ChevronRight, MousePointer, MousePointerClick, Phone, Plus, ShoppingCart } from "lucide-react"
 import Multig from "../components/multig/multig"
 import Ourservice from "../components/ourservice/ourservice"
 import contact from "./contact.module.css"
@@ -11,6 +11,9 @@ import message from "../util/message"
 import Link from "@docusaurus/Link"
 import { translate } from "@docusaurus/Translate"
 import { validEmail } from "../util/helpers"
+import ReactTooltip from "react-tooltip"
+
+import FeaturesSidebar from "../features.sidebar"
 
 import {
   MessageSquare,
@@ -23,6 +26,8 @@ let form = {
   message: React.createRef<HTMLInputElement>(),
   button: React.createRef<HTMLButtonElement>(),
 }
+
+const basePathToFeatures = "/technology/features/"
 
 function Index() {
   const [formError, setFormError] = useState("")
@@ -89,129 +94,31 @@ function Index() {
         <div className={common.container} style={{gap: "0"}}>
           <div style={{marginTop: "40px", textAlign: "center"}}>
             <h1>Features</h1>
-            <p>Build-a-Network: Assemble your parts by clicking on the <Plus size={12} /> sign</p>
+            <p>
+              <MousePointer size={14} color="#999" style={{marginRight: "5px"}} />
+              Hover over features for quick definitions.
+              <MousePointerClick size={16} color="#999" style={{margin: "0 5px"}} />
+              Click for more details
+            </p>
           </div>
           <div className={styles.featureListGrid}>
 
             <div className={styles.featureListContainer}>
-              <ShoppingCart />
               <h4><MessageSquare /> Messaging</h4>
-              <ul className={styles.featureList}>
-                <li>
-                  <a href="#">
-                    <span>SMSC</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div>
-                  </a>
-                </li>
-                <li><Link href={'/customPage'}><span>SMS Router</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></Link></li>
-                <li><a href="#"><span>SMS GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMPP GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>IP-SM-GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMS Proxy</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMSC</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMSC-GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>Voicemail</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMSF (roadmap)</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-              </ul>
+              <FeatureItemsColumn
+                categoryLabel={FeaturesSidebar[0].label}
+                items={FeaturesSidebar[0].items}
+                tooltipId="topTip"
+                />
             </div>
 
             <div className={styles.featureListContainer}>
               <h4><PhoneCall /> Voice</h4>
-              <ul className={styles.featureList}>
-              <li>
-                  <a href="#">
-                    <span>SMSC</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div>
-                  </a>
-                </li>
-                <li><a href="#"><span>SMS Router</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMS GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMPP GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>IP-SM-GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMS Proxy</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMSC</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>MMSC-GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>Voicemail</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMSF (roadmap)</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-              </ul>
+              <FeatureItemsColumn
+                categoryLabel={FeaturesSidebar[1].label}
+                items={FeaturesSidebar[1].items}
+                tooltipId="leftTip"
+                />
             </div>
 
             <div className={styles.featureListContainer}>
@@ -471,6 +378,24 @@ function Index() {
           </div>
         </div>
       </div>
+
+      <ReactTooltip
+        id="topTip"
+        place="top"
+        type="dark"
+        effect="solid"
+        delayShow={0}
+        className={`${common.tooltipStyling} ${styles.tooltipStyling}`}
+      />
+      <ReactTooltip
+        id="leftTip"
+        place="left"
+        type="dark"
+        effect="solid"
+        delayShow={0}
+        className={`${common.tooltipStyling} ${styles.tooltipStyling}`}
+      />
+
     </Layout>
   )
 }
@@ -488,3 +413,25 @@ function Yes() {
 }
 
 export default Index
+
+function FeatureItemsColumn({ categoryLabel, items, tooltipId }) {
+  const category = categoryLabel.toLowerCase()
+
+  return (
+    <ul className={styles.featureList}>
+    {items.map((item, index) => {
+      return (
+        <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
+          <Link href={`${basePathToFeatures}${category}${item.href}`}>
+            <span>{item.name}</span>
+            <div className={styles.featureBtnIcons}>
+              {/*<Plus className={styles.featureAddIcon} />*/}
+              <ChevronRight className={styles.featureViewIcon} />
+            </div>
+          </Link>
+        </li>
+      )
+    })}
+    </ul>
+  )
+}

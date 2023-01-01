@@ -336,7 +336,7 @@ function Index() {
         delayShow={0}
         html
         getContent={html => html}
-        className={styles.tooltipStyling}
+        className={common.tooltipStyling}
         event="mouseenter"
         eventOff="mouseleave focusout"
       />
@@ -348,7 +348,7 @@ function Index() {
         delayShow={0}
         html
         getContent={html => html}
-        className={styles.tooltipStyling}
+        className={common.tooltipStyling}
         event="mouseenter"
         eventOff="mouseleave focusout"
       />

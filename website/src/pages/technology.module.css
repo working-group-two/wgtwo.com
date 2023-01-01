@@ -102,6 +102,11 @@
   padding-left: 4px;
 }
 
+.featureList > li > a > span > .infoIcon {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
 .featureBtnIcons svg {
   padding: 0px 5px;
   box-sizing: content-box;
@@ -132,6 +137,13 @@
 .featureList > li > a:hover .featureAddIcon {
   color: rgb(172, 172, 172);
 }
+
+/* override ReactTooltip styling with custom */
+.tooltipStyling {
+  max-width: 400px;
+  padding: 15px 20px !important;
+}
+/***/
 
 
 .featureGrid {

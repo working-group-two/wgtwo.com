@@ -6,6 +6,9 @@ import DocSidebar from '@theme/DocSidebar';
 import { ThemeClassNames } from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import PaginatorNavLink from '@theme/PaginatorNavLink';
+import Tag from '@theme/Tag';
+import Translate from '@docusaurus/Translate';
 
 import MainStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/Main/styles.module.css';
 import DocPageStyles from '@docusaurus/theme-classic/lib/theme/DocPage/Layout/styles.module.css';
@@ -20,17 +23,19 @@ import TagsListInline, {
   type Props as TagsListInlineProps,
 } from '@theme/TagsListInline';
 
+import tagsStyles from './tagsStyle.module.css'
+
 import MDXContent from '@theme/MDXContent';
 import TOC from "@theme/TOC"
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-import Sidebars from '../../sidebars'
+import FeaturesSidebar from '../../features.sidebar'
 
 /**
  * CREDIT: https://github.com/facebook/docusaurus/discussions/8267
 */
 
-function TagsRow(props: TagsListInlineProps) {
+function TagsRow({ tags }) {
   return (
     <div
       className={clsx(
@@ -38,11 +43,29 @@ function TagsRow(props: TagsListInlineProps) {
         'row margin-bottom--sm',
       )}>
       <div className="col">
-        <TagsListInline {...props} />
+        <b>
+          <Translate
+            id="theme.tags.tagsListLabel"
+            description="The label alongside a tag list">
+            Tags:
+          </Translate>
+        </b>
+        <ul className={clsx(tagsStyles.tags, 'padding--none', 'margin-left--sm')}>
+          {tags.map(
+            /*({label, permalink: tagPermalink}) => (*/
+            (tag) => (
+            <li key={tag} className={tagsStyles.tag}>
+              <Tag label={tag} /> {/* permalink={tagPermalink} */}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
 }
+
+
+const basePathToFeatures = "/technology/features/"
 
 export default function CustomPageContainer(props) {
   const {siteConfig} = useDocusaurusContext();
@@ -52,42 +75,64 @@ export default function CustomPageContainer(props) {
   let breadcrumbs = [
     {type: 'link', href: '/technology', label: 'Technology'}
   ]
-  let tags = []
 
-  const fixSidebar = (sidebarItems) => {
+  const fixSidebar = (sidebarItems, category = null) => {
     sidebarItems = JSON.parse(JSON.stringify(sidebarItems))
+
     sidebarItems.map((sidebarItem, idx) => {
       if (sidebarItem.type === 'category') {
+
+        const categoryName = sidebarItem.label.toLowerCase()
         sidebarItem.collapsed = true
         sidebarItem.collapsible = true
-        if (sidebarItem.link?.slug)
-          sidebarItem.href = `/docs${sidebarItem.link?.slug}`
-        if (location.pathname.includes(sidebarItem.href)) {
+        
+        // extract second last part of URL (/cat/endpoint/ => cat)
+        const urlParts = location.pathname.split('/')
+        const urlEndpoint = urlParts[ urlParts.length-1 ]
+        const categoryInUrl = urlEndpoint === "" ? urlParts[ urlParts.length - 3 ] : urlParts[ urlParts.length - 2 ]
+
+        if (categoryInUrl == categoryName) {
           sidebarItem.collapsed = false
           breadcrumbs.push(sidebarItem)
         }
-        sidebarItem.items = fixSidebar(sidebarItem.items)
-      }
-      if (sidebarItem.type === 'doc') {
-        sidebarItem.href = `/docs/${sidebarItem.id}`
-        if (location.pathname.includes(sidebarItem.href))
+        sidebarItem.items = fixSidebar(sidebarItem.items, categoryName)
+
+      } else {
+
+        // extract last part of URL (/endpoint/ => endpoint)
+        const urlParts = location.pathname.split('/')
+        let urlEndpoint = urlParts[ urlParts.length-1 ]
+        urlEndpoint = urlEndpoint === "" ? urlParts[ urlParts.length - 2 ] : urlEndpoint
+
+        const itemHref = sidebarItem.href.split('/')[1] // error-prone!
+
+        if (urlEndpoint == itemHref) {
+          pageHit = true
+          title = sidebarItem.name
           sidebarItem.className = 'menu__link--active'
-      }
-      if (sidebarItem.type === 'link') {
-        if (location.pathname.includes(sidebarItem.href)) {
-          title = sidebarItem.label
-          sidebarItem.className = 'menu__link--active'
+        } else {
+          // handle Paginator (next/prev items at bottom)
+          if(!pageHit)
+            prevItem = sidebarItem
+          else if(!nextItem)
+            nextItem = sidebarItem
         }
+        // convert relative path to full path to link:
+        sidebarItem.href = `${basePathToFeatures}${category}${sidebarItem.href}`
+        // duplicate .name to .label for extended compatibility with internal Docusaurus:
+        sidebarItem.label = sidebarItem.name
+
       }
     })
     return sidebarItems
   }
 
-  const sidebarItems = fixSidebar(Sidebars.docs)
+  let prevItem = null
+  let pageHit = false
+  let nextItem = null
+  const sidebarItems = fixSidebar(FeaturesSidebar)
 
-  tags = [
-    {label: '4G', permalink: '4G'}
-  ]
+  console.log(prevItem, nextItem)
 
   return (
 
@@ -142,9 +187,28 @@ export default function CustomPageContainer(props) {
                     </div>
 
                     <footer className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
-                      <TagsRow tags={tags} />
+                      <TagsRow tags={props.tags} />
                     </footer>
                   </article>
+                  <nav
+                    className="pagination-nav docusaurus-mt-lg"
+                    >
+                     {prevItem && (
+                        <PaginatorNavLink
+                          subLabel="Prev Feature"
+                          title={prevItem.name}
+                          permalink={prevItem.href}
+                        />
+                     )}
+                     {nextItem && (
+                        <PaginatorNavLink
+                          subLabel="Next Feature"
+                          title={nextItem.name}
+                          permalink={nextItem.href}
+                          isNext
+                        />
+                     )}
+                  </nav>
                 </div>
               </div>
               <div className="col col--3">

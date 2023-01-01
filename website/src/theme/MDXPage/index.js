@@ -40,8 +40,10 @@ export default function MDXPage(props) {
       </HtmlClassNameProvider>
     )
   } else if (MDXPageContent.metadata.frontMatter.techFeaturePage) {
+    const toc = MDXPageContent.toc
+    const tags = MDXPageContent.metadata.frontMatter.tags
     return (
-      <CustomPageContainer toc={MDXPageContent.toc}>
+      <CustomPageContainer toc={toc} tags={tags}>
         <MDXPageContent />
       </CustomPageContainer>
     )
