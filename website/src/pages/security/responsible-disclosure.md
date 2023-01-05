@@ -41,4 +41,4 @@ Many thanks to the security researchers who have responsibly contributed their f
 
 ## Security Research Hall of Fame
 
-- YOUR NAME HERE
+- Rajat Waghade
