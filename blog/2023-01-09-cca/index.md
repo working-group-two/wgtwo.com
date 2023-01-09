@@ -19,7 +19,7 @@ Erlend Prestgard, CEO of Working Group Two, said:
 
 As examples, some operators will want to move quickly to 5G, while others are focused on new service delivery such as multi-IMSI for watches with calls and messages. Other use cases include offering B2B products such as PBXs and customized network security products. 
 
-WG2 has a proven track record of customer deployments in Europe, including CK Hutchison (multi-country), Telenor in Sweden and eRate in Norway. As perhaps the only vendor, it has been running its core live in the public cloud since 2018. The company is also delivering private networks in Japan in collaboration with Mitsui Knowledge Industry Co,. Lted. KI. WG2’s global core platform and product ecosystem runs on infrastructure from Amazon Web Services (AWS). 
+WG2 has a proven track record of customer deployments in Europe, including CK Hutchison (multi-country), Telenor in Sweden and eRate in Norway. As perhaps the only vendor, it has been running its core live in the public cloud since 2018. The company is also delivering private networks in Japan in collaboration with Mitsui Knowledge Industry Co,. Ltd. KI. WG2’s global core platform and product ecosystem runs on infrastructure from Amazon Web Services (AWS). 
 
 Tim Donovan, President and CEO of CCA, said:
 > “We are delighted to welcome WG2 to CCA. CCA’s associate members play an integral role in the competitive carrier ecosystem, and WG2’s expertise and innovative solutions will certainly be a valuable addition for the entire membership.” 
