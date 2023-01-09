@@ -10,17 +10,6 @@ function Contact() {
     <Layout title="Newsletter Signup">
       <div className={common.page}>
         <div className={`${common.container} ${styles.section}`}>
-          <div className={`${common.container} ${styles.container}`}>
-            <div className={`${common.title} ${styles.title}`}>
-              <Translate
-                id="newsletter.title"
-                description="Title for the newsletter signup page"
-              >
-                Newsletter
-              </Translate>
-            </div>
-          </div>
-
           <NewsletterSignup className={styles.newsletterComponent} />
         </div>
       </div>
