@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5606],{90238:function(e){e.exports=JSON.parse('{"label":"cca","permalink":"/jp/blog/tags/cca","allTagsPath":"/jp/blog/tags","count":1}')}}]);
