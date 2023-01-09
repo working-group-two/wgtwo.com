@@ -4,7 +4,7 @@ export default [
   {
     label: 'Messaging',
     icon: 'MessageSquare',
-    color: '#0e37b4',
+    color: '#5d3cc8',
     type: 'category',
     items: [
       {
@@ -54,7 +54,7 @@ export default [
   {
     label: 'Voice',
     icon: 'PhoneCall',
-    color: '#6117b8',
+    color: '#1e51d8',
     type: 'category',
     items: [
       { name: 'G-MSC', href: '/g-msc' },
@@ -73,7 +73,7 @@ export default [
   {
     label: 'Data',
     icon: 'Binary',
-    color: '#7d069c',
+    color: '#0c7be6',
     type: 'category',
     items: [
       {
@@ -125,7 +125,7 @@ export default [
   },
   {
     label: "Connectivity",
-    color: '#2e06ae',
+    color: '#3456be',
     type: "category",
     items: [
       {
@@ -182,7 +182,7 @@ export default [
   },
   {
     label: "Charging",
-    color: '#792993',
+    color: '#3e5cce',
     type: "category",
     items: [
       {
@@ -204,7 +204,7 @@ export default [
   },
   {
     label: "Signaling",
-    color: '#800059',
+    color: '#117a9b',
     type: "category",
     items: [
       {
@@ -230,6 +230,7 @@ export default [
   },
   {
     label: "Policy",
+    color: '#3371b8',
     type: "category",
     items: [
       {
@@ -255,6 +256,7 @@ export default [
   },
   {
     label: "Support",
+    color: '#408eb8',
     type: "category",
     items: [
       {
@@ -273,6 +275,7 @@ export default [
   },
   {
     label: "APIs",
+    color: '#419e98',
     type: "category",
     items: [
       {
