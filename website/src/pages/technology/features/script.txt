@@ -1,0 +1,36 @@
+// script to automate creation of files from features.sidebar.js.
+//   used with "template.txt"
+
+const fs = require('fs');
+
+const data = [
+  {
+    name: 'PCEF',
+    href: '/pcef',
+    tooltipText: "The Policy and Charging Enforcement Function (PCEF) is a DPI (Deep Packet Inspection) device responsible for the enforcement of rules which have been configured statically or supplied to the PCEF dynamically from the PCRF (Policy and Charging Rules Function)."
+  },
+  {
+    name: 'PCRF',
+    href: '/pcrf',
+    tooltipText: "Policy and Charging Rules Function is the software node designated in real-time to determine policy rules in a multimedia network."
+  },
+];
+
+data.forEach((item) => {
+  const name = item.name;
+  const slug = item.href.replace("/", "");
+  const text = item.tooltipText;
+
+  fs.copyFileSync('template.txt', `${slug}.md`);
+
+  const fileContent = fs.readFileSync(`${slug}.md`, 'utf-8');
+
+  const newContent = fileContent
+    .replace(/%slug%/g, slug)
+    .replace(/%title%/g, name)
+    .replace(/%description%/g, text);
+
+  fs.writeFileSync(`${slug}.md`, newContent, 'utf-8', (err) => {
+    if (err) return console.log(err);
+  });
+})

@@ -19,10 +19,6 @@ import DocBreadcrumbs from '@docusaurus/theme-classic/lib/theme/DocBreadcrumbs/s
 
 import IconHome from '@theme/Icon/Home';
 
-import TagsListInline, {
-  type Props as TagsListInlineProps,
-} from '@theme/TagsListInline';
-
 import tagsStyles from './tagsStyle.module.css'
 
 import MDXContent from '@theme/MDXContent';
@@ -79,8 +75,10 @@ export default function CustomPageContainer(props) {
   const fixSidebar = (sidebarItems, category = null) => {
     sidebarItems = JSON.parse(JSON.stringify(sidebarItems))
 
+    // for each sidebar item from "features.sidebar.js" file, transform the data appropriately
     sidebarItems.map((sidebarItem, idx) => {
       if (sidebarItem.type === 'category') {
+        // if Category, parse URL and fix Category items
 
         const categoryName = sidebarItem.label.toLowerCase()
         sidebarItem.collapsed = true
@@ -98,11 +96,19 @@ export default function CustomPageContainer(props) {
         sidebarItem.items = fixSidebar(sidebarItem.items, categoryName)
 
       } else {
+        // if Feature item, parse URL, set active link, calculate next/prev items, set label
+
+        // skip non-links
+        if( !sidebarItem.href ) {
+          sidebarItem.label = sidebarItem.name
+          return;
+        }
 
         // extract last part of URL (/endpoint/ => endpoint)
         const urlParts = location.pathname.split('/')
         let urlEndpoint = urlParts[ urlParts.length-1 ]
         urlEndpoint = urlEndpoint === "" ? urlParts[ urlParts.length - 2 ] : urlEndpoint
+        console.log(sidebarItem);
 
         const itemHref = sidebarItem.href.split('/')[1] // error-prone!
 
@@ -132,19 +138,17 @@ export default function CustomPageContainer(props) {
   let nextItem = null
   const sidebarItems = fixSidebar(FeaturesSidebar)
 
-  console.log(prevItem, nextItem)
-
   return (
 
     <Layout
-      title={`${title} | ${siteConfig.title}`}
+      title={`${title}`}
     >
       <div className={`${DocPageStyles.docPage} container margin-vert--lg`}>
         <aside className={clsx(
           ThemeClassNames.docs.docSidebarContainer,
           SidebarStyles.docSidebarContainer
         )}>
-          <DocSidebar sidebar={sidebarItems} path="/myCustomPage">
+          <DocSidebar sidebar={sidebarItems} path="/technology/features">
           </DocSidebar>
         </aside>
         <main className={clsx(MainStyles.docMainContainer)}>

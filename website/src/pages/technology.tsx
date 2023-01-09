@@ -3,7 +3,6 @@ import Layout from "@theme/Layout"
 import styles from "./technology.module.css"
 import common from "../css/common.module.css"
 import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list"
-import { Binary, Check, ChevronRight, MousePointer, MousePointerClick, Phone, Plus, ShoppingCart } from "lucide-react"
 import Multig from "../components/multig/multig"
 import Ourservice from "../components/ourservice/ourservice"
 import contact from "./contact.module.css"
@@ -17,7 +16,13 @@ import FeaturesSidebar from "../features.sidebar"
 
 import {
   MessageSquare,
-  PhoneCall
+  PhoneCall,
+  Binary,
+  Check,
+  ChevronRight,
+  Info,
+  MousePointer,
+  MousePointerClick
 } from "lucide-react"
 
 let form = {
@@ -91,194 +96,33 @@ function Index() {
         </div>
         <Multig />
 
-        <div className={common.container} style={{gap: "0"}}>
-          <div style={{marginTop: "40px", textAlign: "center"}}>
-            <h1>Features</h1>
-            <p>
-              <MousePointer size={14} color="#999" style={{marginRight: "5px"}} />
-              Hover over features for quick definitions.
-              <MousePointerClick size={16} color="#999" style={{margin: "0 5px"}} />
-              Click for more details
-            </p>
-          </div>
-          <div className={styles.featureListGrid}>
-
-            <div className={styles.featureListContainer}>
-              <h4><MessageSquare /> Messaging</h4>
-              <FeatureItemsColumn
-                categoryLabel={FeaturesSidebar[0].label}
-                items={FeaturesSidebar[0].items}
-                tooltipId="topTip"
-                />
+        <div className={common.section} style={{marginTop: "0px", paddingTop: "80px", paddingBottom: "120px"}}>
+          <div className={common.container} style={{gap: "0"}}>
+            <div style={{textAlign: "center"}}>
+              <h1>Features</h1>
+              <p>
+                <MousePointer size={14} color="#999" style={{marginRight: "5px"}} />
+                Hover over features for quick definitions.
+                <MousePointerClick size={16} color="#999" style={{margin: "0 5px"}} />
+                Click for more details
+              </p>
             </div>
+            <div className={styles.featureListGrid}>
 
-            <div className={styles.featureListContainer}>
-              <h4><PhoneCall /> Voice</h4>
-              <FeatureItemsColumn
-                categoryLabel={FeaturesSidebar[1].label}
-                items={FeaturesSidebar[1].items}
-                tooltipId="leftTip"
-                />
+              {FeaturesSidebar.map((category, index) => {
+                return (
+                  <FeatureItemsColumn
+                    categoryLabel={category.label}
+                    color={category.color}
+                    iconName={category.icon}
+                    items={category.items}
+                    tooltipId="leftTip"
+                    key={index}
+                    />
+                )
+              })}
+
             </div>
-
-            <div className={styles.featureListContainer}>
-              <h4><Binary /> Data</h4>
-              <ul className={styles.featureList}>
-              <li>
-                  <a href="#">
-                    <span>SMSC</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div>
-                  </a>
-                </li>
-                <li><a href="#"><span>SMS Router</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMS GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>SMPP GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-                <li><a href="#"><span>IP-SM-GW</span>
-                    <div className={styles.featureBtnIcons}>
-                      <Plus className={styles.featureAddIcon} />
-                      <ChevronRight className={styles.featureViewIcon} />
-                    </div></a></li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
-
-        <div className={common.container}>
-          <div className={styles.featureGrid}>
-            <div className={styles.featureGridHeader}>Messaging</div>
-            <div className={styles.featureGridHeader}>Voice</div>
-            <div className={styles.featureGridHeader}>Data</div>
-
-            <div>SMSC</div>
-            <div>G-MSC</div>
-            <div>GGSN/PGW</div>
-
-            <div>SMS router</div>
-            <div>SBC</div>
-            <div>S-GW</div>
-
-            <div>SMS GW</div>
-            <div>MTAS/SCC-AS</div>
-            <div>MME</div>
-
-            <div>SMPP GW</div>
-            <div>MRF</div>
-            <div>DNS</div>
-
-            <div>IP-SM-GW</div>
-            <div>XCAP</div>
-            <div>ePDG</div>
-
-            <div>MMS proxy</div>
-            <div>LI-GW</div>
-            <div>CGNAT</div>
-
-            <div>MMSC</div>
-            <div>SCP/IM-SSF</div>
-            <div>AMF</div>
-
-            <div>MMSC-GW</div>
-            <div>WebRTC</div>
-            <div>SMF</div>
-
-            <div>Voicemail</div>
-            <div>ePDG</div>
-            <div>UPF</div>
-
-            <div>SMSF (roadmap)</div>
-            <div>VoNR (roadmap)</div>
-            <No />
-
-            <div className={styles.featureGridHeader}>Connectivity</div>
-            <div className={styles.featureGridHeader}>Charging</div>
-            <div className={styles.featureGridHeader}>Signaling</div>
-
-            <div>HLR/HSS</div>
-            <div>Charging gateway</div>
-            <div>STP</div>
-
-            <div>UDR</div>
-            <div>Real-time billing gateway</div>
-            <div>DRA</div>
-
-            <div>
-              <Link className={styles.link} to="/docs/technology/auc">
-                AuC
-              </Link>
-            </div>
-            <div>CHF</div>
-            <div>DEA</div>
-
-            <div>UDM</div>
-            <No />
-            <div>
-              <Link
-                className={styles.link}
-                to="/docs/technology/security-whitepaper#ss7-firewall"
-              >
-                SS7 Firewall
-              </Link>
-            </div>
-
-            <div>AUSF</div>
-            <No />
-            <No />
-
-            <div>AAA</div>
-            <No />
-            <No />
-
-            <div>AAA proxy</div>
-            <No />
-            <No />
-
-            <div>MNP/ENUM</div>
-            <No />
-            <No />
-
-            <div>XCAP</div>
-            <No />
-            <No />
-
-            <div>Entitlement server</div>
-            <No />
-            <No />
-
-            <div className={styles.featureGridHeader}>Policy</div>
-            <div className={styles.featureGridHeader}>Support</div>
-            <div className={styles.featureGridHeader}>API´s</div>
-
-            <div>Radius</div>
-            <div>Orchestration and automation</div>
-            <div>APIs for developers</div>
-
-            <div>PCEF</div>
-            <div>Monitoring and alerting</div>
-            <div>Develop platform for 3rd party developers</div>
-
-            <div>PCRF</div>
-            <div>Customer service tools and portals</div>
-            <div>Storefront for operators</div>
-
-            <div>PCF</div>
-            <div>24/7 Level 3 On-call</div>
-            <No />
           </div>
         </div>
 
@@ -414,24 +258,58 @@ function Yes() {
 
 export default Index
 
-function FeatureItemsColumn({ categoryLabel, items, tooltipId }) {
-  const category = categoryLabel.toLowerCase()
+function FeatureItemsColumn({ categoryLabel, color, iconName, items, tooltipId }) {
+  let Icon = ChevronRight;
+
+  if( iconName )
+    switch( iconName.toLowerCase() ) {
+      case "messagesquare": Icon = MessageSquare; break;
+      case "phonecall": Icon = PhoneCall; break;
+      case "binary": Icon = Binary; break;
+    }
 
   return (
-    <ul className={styles.featureList}>
-    {items.map((item, index) => {
-      return (
-        <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
-          <Link href={`${basePathToFeatures}${category}${item.href}`}>
-            <span>{item.name}</span>
-            <div className={styles.featureBtnIcons}>
-              {/*<Plus className={styles.featureAddIcon} />*/}
-              <ChevronRight className={styles.featureViewIcon} />
-            </div>
-          </Link>
-        </li>
-      )
-    })}
-    </ul>
+    <div className={styles.featureListContainer}>
+      <h4 style={{ color }}>
+        <Icon /> {categoryLabel}
+      </h4>
+      <ul className={styles.featureList}>
+        {items && items.map((item, index) => {
+          return (
+            <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
+              <LinkToFeature category={categoryLabel} item={item} />
+            </li>
+          )
+        })}
+      </ul>
+    </div>
   )
+}
+
+// If href is defined return <Link>, else return non-link element <div>
+function LinkToFeature({ children, category, item }) {
+  const categorySlug = category.toLowerCase();
+
+  const InfoIcon = item.tooltipText ? <Info className={styles.featureInfoIcon} /> : <></>;
+
+  if( item.href )
+    return (
+      <Link href={`${basePathToFeatures}${categorySlug}${item.href}`} className={styles.featureItemLink}>
+        <span>{item.name}</span>
+        <div className={styles.featureBtnIcons}>
+          {/*<Plus className={styles.featureAddIcon} />*/}
+          {InfoIcon}
+          <ChevronRight className={styles.featureViewIcon} />
+        </div>
+      </Link>
+    )
+  else
+    return (
+      <div className={styles.featureItemNonLink}>
+        <span>{item.name}</span>
+        <div className={styles.featureBtnIcons}>
+          {InfoIcon}
+        </div>   
+      </div>
+    )
 }

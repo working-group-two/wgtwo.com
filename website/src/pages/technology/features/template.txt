@@ -1,0 +1,10 @@
+---
+slug: %slug%
+title: %title%
+tags: [4G, 5G]
+techFeaturePage: true
+---
+
+# %title%
+
+%description%
