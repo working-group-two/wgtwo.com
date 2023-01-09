@@ -26,19 +26,19 @@ Tim Donovan, President and CEO of CCA, said:
 
 [CCA](https://www.ccamobile.org) is the nation’s leading association for competitive wireless providers and stakeholders across the United States. 
 
-WG2 will be present at the [CCA Mobile Carriers Show](https://www.ccamobile.org/cca-events#CCAEvents)in Pittsburgh, PA, May 2-4, 2023. 
+WG2 will be present at the [CCA Mobile Carriers Show](https://www.ccamobile.org/cca-events#CCAEvents) in Pittsburgh, PA, May 2-4, 2023. 
 
-*About Working Group Two*
+**About Working Group Two**
 Working Group Two has rebuilt the mobile core for simplicity, innovation, and efficiency – leveraging the web-scale playbook and operating models. Today, Working Group Two innovation enables MVNO, MNO, and Private Network Operators a secure, scalable, and reliable telco connectivity backbone that scales across all generations of mobile technologies. Our mission is to create programmable mobile networks to allow our customers and their end users to create more valuable and useful products and services. Read more at https://wgtwo.com
 
-*About CCA*
+**About CCA**
 CCA is the nation’s leading association for competitive wireless providers and stakeholders across the United States. Members range from small, rural carriers serving fewer than 5,000 customers to regional and nationwide providers serving millions of customers, as well as vendors and suppliers that provide products and services throughout the wireless communications ecosystem.
 
-*Media Contact:* 
+**Media Contact:** 
 Tor Odland
 Working Group Two
 +47 9909 0872
-tor@wgtwo.com
+tor(at)wgtwo.com
 
 
 
