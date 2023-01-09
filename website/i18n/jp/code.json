@@ -378,5 +378,9 @@
   "contact.form.button": {
     "message": "送信",
     "description": "Button for the contact form"
+  },
+  "newsletter.title": {
+    "message": "Newsletter",
+    "description": "Title for the newsletter signup page"
   }
 }

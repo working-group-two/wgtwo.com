@@ -30,9 +30,7 @@ const formatTooltipContent = data => {
 
   if (!data) return ""
 
-  const name = data.title
-  const desc = data.text
-  const source = data.source
+  const { title: name, text: desc, source } = data
 
   return ReactDOMServer.renderToStaticMarkup(
     <div className={styles.tooltipContent}>
@@ -62,20 +60,15 @@ function Index() {
 
   // Modal content Template -- "modalContent" state variable holds the actual data
   function ModalContent() {
-    const name = modalContent.title
-    const desc = modalContent.text
-    const source = modalContent.source
-    const link = modalContent.link
+    const { title: name, text: desc, source, link } = modalContent
 
-    let linkRender
-
-    if (link)
-      linkRender = (
-        <a href={link} target="_blank" className={styles.modalLink}>
-          {source}
-        </a>
-      )
-    else linkRender = source
+    let linkRender = link ? (
+      <a href={link} target="_blank" className={styles.modalLink}>
+        {source}
+      </a>
+    ) : (
+      source
+    )
 
     return (
       <div className={styles.modalContent}>
@@ -89,7 +82,7 @@ function Index() {
   }
 
   return (
-    <Layout title="Technology">
+    <Layout title="Product ecosystem">
       <div className={common.page}>
         <div className={common.section}>
           <div className={common.container}>
@@ -128,6 +121,7 @@ function Index() {
                 icon={<LocateFixed className={styles.titleIcon} />}
                 titleClass={styles.productsOnRadarTitle}
                 itemsClass={styles.productsOnRadar}
+                tooltipId="rightTip"
                 items={RoadmapItems.products_on_radar}
                 clickFn={item => {
                   onOpenModal()
@@ -140,6 +134,7 @@ function Index() {
                 icon={<Layers className={styles.titleIcon} />}
                 titleClass={styles.backlogTitle}
                 itemsClass={styles.backlog}
+                tooltipId="rightTip"
                 items={RoadmapItems.backlog}
                 clickFn={item => {
                   onOpenModal()
@@ -152,6 +147,7 @@ function Index() {
                 icon={<Timer className={styles.titleIcon} />}
                 titleClass={styles.comingSoonTitle}
                 itemsClass={styles.comingSoon}
+                tooltipId="rightTip"
                 items={RoadmapItems.coming_soon}
                 clickFn={item => {
                   onOpenModal()
@@ -164,6 +160,7 @@ function Index() {
                 icon={<CheckCircle className={styles.titleIcon} />}
                 titleClass={styles.liveTitle}
                 itemsClass={styles.live}
+                tooltipId="leftTip"
                 items={RoadmapItems.live}
                 clickFn={item => {
                   onOpenModal()
@@ -363,6 +360,7 @@ function RoadmapColumn({
   title,
   titleClass,
   itemsClass,
+  tooltipId,
   items,
   clickFn,
 }) {
@@ -380,7 +378,7 @@ function RoadmapColumn({
               key={index}
               className={styles.itemBtn}
               data-tip={formatTooltipContent(item)}
-              data-for="rightTip"
+              data-for={tooltipId}
               onClick={() => {
                 clickFn(item)
               }}

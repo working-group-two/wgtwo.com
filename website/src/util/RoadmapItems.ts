@@ -1,11 +1,11 @@
 /*****************************************************************/
 /**                                                              */
-/** FORMAT:
+/** FORMAT EXAMPLE:
  *  {
- *    title: "Title",
- *    text: "Description",
- *    source: "Source",
- *    link: "Link to source",
+ *    title: "Enghouse DMS",
+ *    text: "Sends the right handset settings to newly ported subscriptions",
+ *    source: "Enghouse",
+ *    link: "https://www.enghouse.com/",
  *  }
 /**                                                              */
 /*****************************************************************/
