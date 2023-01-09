@@ -1,0 +1,16 @@
+.section {
+  padding-top: 40px;
+}
+
+.container {
+  border-bottom: 1px solid #ddd;
+}
+
+.title {
+  padding-bottom: 30px;
+  color: rgb(68, 68, 68);
+}
+
+.newsletterComponent {
+  padding-top: 30px;
+}
