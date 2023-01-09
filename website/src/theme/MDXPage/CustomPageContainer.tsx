@@ -154,7 +154,7 @@ export default function CustomPageContainer(props) {
         <main className={clsx(MainStyles.docMainContainer)}>
           <div className={clsx('container', 'padding-top--md', 'padding-bottom--lg')}>
             <div className="row">
-              <div className={clsx('col', DocItemColStyles.docItemCol)}>
+              <div className={clsx('col', DocItemColStyles.docItemCol)} style={{padding: "0 25px"}}>
                 <div className={DocItemStyles.docItemContainer}>
                   <article>
 

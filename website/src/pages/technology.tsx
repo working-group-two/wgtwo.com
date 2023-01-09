@@ -22,7 +22,8 @@ import {
   ChevronRight,
   Info,
   MousePointer,
-  MousePointerClick
+  MousePointerClick,
+  Asterisk
 } from "lucide-react"
 
 let form = {
@@ -101,9 +102,9 @@ function Index() {
             <div style={{textAlign: "center"}}>
               <h1>Features</h1>
               <p>
-                <MousePointer size={14} color="#999" style={{marginRight: "5px"}} />
+                <MousePointer size={16} color="#999" style={{marginRight: "5px"}} />
                 Hover over features for quick definitions.
-                <MousePointerClick size={16} color="#999" style={{margin: "0 5px"}} />
+                <MousePointerClick size={19} color="#999" style={{margin: "0 5px"}} />
                 Click for more details
               </p>
             </div>
@@ -295,17 +296,22 @@ function LinkToFeature({ children, category, item }) {
   if( item.href )
     return (
       <Link href={`${basePathToFeatures}${categorySlug}${item.href}`} className={styles.featureItemLink}>
+        <div className={styles.featureBtnIcons}>
+          <ChevronRight className={styles.featureViewIcon} />
+        </div>
         <span>{item.name}</span>
         <div className={styles.featureBtnIcons}>
           {/*<Plus className={styles.featureAddIcon} />*/}
           {InfoIcon}
-          <ChevronRight className={styles.featureViewIcon} />
         </div>
       </Link>
     )
   else
     return (
       <div className={styles.featureItemNonLink}>
+        <div className={styles.featureBtnIcons}>
+          <Asterisk className={styles.featureViewIcon} />
+        </div>
         <span>{item.name}</span>
         <div className={styles.featureBtnIcons}>
           {InfoIcon}

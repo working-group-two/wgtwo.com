@@ -4,7 +4,7 @@ export default [
   {
     label: 'Messaging',
     icon: 'MessageSquare',
-    color: '#5d3cc8',
+    color: '#4457a1',
     type: 'category',
     items: [
       {
@@ -54,7 +54,7 @@ export default [
   {
     label: 'Voice',
     icon: 'PhoneCall',
-    color: '#1e51d8',
+    color: '#4e6ab6',
     type: 'category',
     items: [
       { name: 'G-MSC', href: '/g-msc' },
@@ -73,7 +73,7 @@ export default [
   {
     label: 'Data',
     icon: 'Binary',
-    color: '#0c7be6',
+    color: '#2874bc',
     type: 'category',
     items: [
       {

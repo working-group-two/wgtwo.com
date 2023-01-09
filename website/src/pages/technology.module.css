@@ -75,6 +75,7 @@
   padding-bottom: 0px;
   padding-top: 20px;
   margin: 0;
+  box-shadow: 0px 4px 20px #a2aec83b;
 }
 
 .featureList > li {
@@ -90,7 +91,6 @@
   display: flex;
   justify-content: space-between;
   border-radius: 5px;
-  padding: 0px 5px;
   padding-right: 0;
   transition: background-color 100ms ease-in-out;
 }
@@ -101,7 +101,12 @@
 .featureList > li > .featureItemLink > span,
 .featureList > li > .featureItemNonLink > span {
   padding: 6px 0;
-  padding-left: 4px;
+  padding-left: 0;
+  flex-grow: 1;
+  transition: padding-left 100ms ease;
+}
+.featureList > li > .featureItemLink:hover > span {
+  padding-left: 5px;
 }
 
 .featureBtnIcons svg {
@@ -118,6 +123,9 @@
   color: gray;
   background-color: #dfdfdf;
   stroke-width: 3px;
+}
+.featureList > li > .featureItemNonLink .featureViewIcon {
+  stroke-width: 1;
 }
 
 .featureBtnIcons .featureInfoIcon {
@@ -217,6 +225,15 @@ div.featureGridHeader {
     grid-template-columns: 1fr;
   }
   .questions {
+    grid-template-columns: 1fr;
+  }
+  .featureListGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 512px) {
+  .featureListGrid {
     grid-template-columns: 1fr;
   }
 }
