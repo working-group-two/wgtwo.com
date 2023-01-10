@@ -107,18 +107,19 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
 
     
         <position>
-            <id>139167</id>
-                                        <office>Sweden - Stockholm</office>
-                                                    <recruitingCategory>Permanent Employee ENG</recruitingCategory>
+            <id>961376</id>
+                                        <office>Norway - Oslo</office>
+                                        <department>Customer Success</department>
+                                        <recruitingCategory>Permanent Employee ENG</recruitingCategory>
             
-            <name>Software Engineer</name>
+            <name>Service Manager</name>
 
                             <jobDescriptions>
                                                                     <jobDescription>
                             <name>The team and your role </name>
                             <value>
 <![CDATA[
-                                <p>We are now looking to welcome an experienced software engineer to join our office in Stockholm, and continue to develop our platform with new key features. </p><p>Most of our components are in-house developed in Java/Kotlin, Go, or Erlang, and are deployed on our self-managed Kubernetes cluster running on AWS. We are however language agnostic and believe in using the right tool for the job. </p><p>We are firmly rooted in having people own their own work. This means that you are allowed a lot of freedom when it comes to planning and which features to build. However, our engineers who develop the code are also responsible for operating the code once in production. We adhere to principles that include the use of continuous integration, continuous delivery, microservices and infrastructure as code. </p><p>We believe you have experience with: </p><ul><li><p>Writing distributed, well designed services in a JVM language such as Kotlin or Java, and at least one other programming language, such as Go, C#, C++, Erlang, Python, Rust or Javascript.</p></li><li><p>Building large scalable solutions. </p></li><li><p>Caring about and shipping quality code.</p></li><li><p>Scalable cloud services (AWS, or other cloud infrastructure providers). </p></li><li><p>It is an added bonus if you have knowledge of the telco industry, telco protocols, VoIP systems or know networking by heart, but it is not required.</p></li></ul>
+                                <p>Our vision is to create programmable mobile networks to allow our customers and their end-users to create more valuable and useful products and services. We do this by deploying a programmable core network, making it accessible through developer-friendly APIs, and then creating a marketplace where customers and developers can meet. On the journey there we create a consistent, cloud-based, highly efficient core network delivered as-a-service. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together.</p><p>We are in an exciting expansion phase and in addition to scaling up all our engineering teams we are growing our world-class <em>Customer Success Team</em>.</p><p>So, if you have a passion for customers and tech, this is a great opportunity to join a strong international team. We are looking for a <strong>Service Manage</strong>r with excellent communication and interpersonal skills, who knows how to build positive and productive working relationships with customers for business growth. You will work in a dedicated Customer Success Team consisting of Service Managers, Delivery Managers, and Technical Support Engineers.</p><p>As our <strong>Service Manager </strong>you will play a key role as the orchestrator of the technical relationship with the customer.</p><p><br></p><p>Who are you? We believe you: </p><ul><li><p>Most likely have a solid experience in a customer facing role within telecom. </p></li><li><p>You are familiar with terms like IPSec, Sigtran, SS7, Diameter, SIP, BGP, LTE, UMTS, GSM, EPC, IMS. </p></li><li><p>Deeply understand customer’s end to end solutions and requirements.</p></li><li><p>Prioritize tasks based on customer feedback and business impact.</p></li></ul><br><br><br><p>In this role you will: </p><ul><li><p>Drive operational relationships, including periodic check-in calls or meetings to review overall architecture and operational health of our business with the customer. </p></li><li><p>Be the liaison towards Engineering for the coordination of customer requested changes.</p></li><li><p>Oversee service implementation plans and timelines.</p></li><li><p>Track and report business and operational metrics for the assigned accounts. </p></li><li><p>Lead training and technical advice to the customer, in combination with Product Management, Customer Service and Operations organizations.</p></li><li><p>Promote WGTWO service roadmap to assigned accounts to maximize value.</p></li><li><p>Act as first level escalation contact.</p></li><li><p>Act as the customers advocate into WGTWO.</p></li></ul>
 ]]>
                             </value>
                         </jobDescription>
@@ -126,7 +127,7 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
                             <name>Our company culture</name>
                             <value>
 <![CDATA[
-                                <p>We are challenging a well-established multi-billion dollar industry, and this is not a trivial task.  In order to do so, we need to continue delivering high-quality solutions on par with the existing standards, while embedding innovation in the way we operate and create value for the end-users. This is why we believe our people and culture is our key differentiator. </p><p>Joining us, you will get a lot of freedom and responsibility to create a big impact in the telco industry and you will be surrounded by friendly colleagues with high expertise. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we are going, and with a lot of trust in each other, we co-create the path to get there. </p><p>You will be part of a distributed team with main offices in Oslo, Trondheim and Stockholm as well as some remote colleagues in other locations. We believe in doing things together and that is why we frequently host company wide activities like tech talks, demos, and Failure Fridays. We also make sure everyone can get together at an offsite three times a year to have fun, discuss important topics and hack on crazy projects.</p><br>WHAT’S NEXT?<br>If you’re interested in working with us, please apply through the link below, or contact Theresa for any questions on theresa@wgtwo.com. We’re looking forward to getting to know you! 
+                                <p>What's it like to work at Working Group Two?</p><ul><li><p>We are a small team that values getting things done in a professional manner.</p></li><li><p>We encourage curiosity and creativity.</p></li><li><p>We aim to create a warm and welcoming work environment.</p></li><li><p>We treat our coworkers well and offer competitive benefits to employees.</p></li><li><p>We work remotely, hybrid and on-site, basically the way each prefers, and have offices in Norway (Oslo and Trondheim) and Sweden, engineering hubs in Germany and Japan, and employees in 13 countries.</p></li><li><p>To learn more about “the way we roll” we suggest you have a quick read through <a href="https://www.wgtwo.com/blog/were-all-grownups-here" target="_blank" rel="noreferrer noopener">here.</a></p></li></ul><p><br></p><p><strong>What's next?</strong></p>If you're interested in working with us, please apply though the link below, or contact Theresa (theresa@wgtwo.com) or Marietta (marietta@wgtwo.com) for any questions. 
 ]]>
                             </value>
                         </jobDescription>
@@ -140,12 +141,13 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
             
                             <yearsOfExperience>5-7</yearsOfExperience>
             
+                            <keywords>IPSec,Sigtran,SS7,Diameter,BGP,EPC,IMS</keywords>
             
-                            <occupation>systems_and_process_engineering</occupation>
+                            <occupation>general_and_other_engineering</occupation>
             
                             <occupationCategory>engineering</occupationCategory>
             
-                            <createdAt>2019-08-30T10:34:02+00:00</createdAt>
+                            <createdAt>2023-01-10T12:24:21+00:00</createdAt>
             
         </position>
 
@@ -156,7 +158,7 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
                                         <office>Sweden - Stockholm</office>
                                                     <recruitingCategory>Permanent Employee ENG</recruitingCategory>
             
-            <name>Software engineer -Norway/Sweden/Remote - Europe</name>
+            <name>Software engineer - Norway/Sweden/Remote - Europe</name>
 
                             <jobDescriptions>
                                                                     <jobDescription>
