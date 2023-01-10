@@ -82,9 +82,9 @@
   list-style-type: none;
   border-bottom: 1px solid #eaeaea; /* #f3f3f3; */
 }
-  .featureList > li:last-child {
-    border-bottom: none;
-  }
+.featureList > li:last-child {
+  border-bottom: none;
+}
 
 .featureList > li > .featureItemLink,
 .featureList > li > .featureItemNonLink {
@@ -163,7 +163,6 @@
   padding: 15px 20px !important;
 }
 /***/
-
 
 .featureGrid {
   margin-top: 32px;

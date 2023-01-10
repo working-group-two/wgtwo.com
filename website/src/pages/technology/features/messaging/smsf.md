@@ -7,7 +7,6 @@ techFeaturePage: true
 
 # SMSF
 
-*NB: This feature is planned as part of the roadmap and is not available at the moment*
+_NB: This feature is planned as part of the roadmap and is not available at the moment_
 
 The short message service function SMSF supports the transfer of SMS over NAS. The SMSF will conduct subscription checking and relay between the device and the SMSC.
-

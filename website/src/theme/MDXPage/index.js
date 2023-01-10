@@ -11,7 +11,7 @@ import TOC from "@theme/TOC"
 import common from "@site/src/css/common.module.css"
 import styles from "./styles.module.css"
 
-import CustomPageContainer from './CustomPageContainer'; // Location of CustomPageContainer
+import CustomPageContainer from "./CustomPageContainer" // Location of CustomPageContainer
 
 export default function MDXPage(props) {
   const { content: MDXPageContent } = props

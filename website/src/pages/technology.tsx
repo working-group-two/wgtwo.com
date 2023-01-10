@@ -23,7 +23,7 @@ import {
   Info,
   MousePointer,
   MousePointerClick,
-  Asterisk
+  Asterisk,
 } from "lucide-react"
 
 let form = {
@@ -97,19 +97,33 @@ function Index() {
         </div>
         <Multig />
 
-        <div className={common.section} style={{marginTop: "0px", paddingTop: "80px", paddingBottom: "120px"}}>
-          <div className={common.container} style={{gap: "0"}}>
-            <div style={{textAlign: "center"}}>
+        <div
+          className={common.section}
+          style={{
+            marginTop: "0px",
+            paddingTop: "80px",
+            paddingBottom: "120px",
+          }}
+        >
+          <div className={common.container} style={{ gap: "0" }}>
+            <div style={{ textAlign: "center" }}>
               <h1>Features</h1>
               <p>
-                <MousePointer size={16} color="#999" style={{marginRight: "5px"}} />
+                <MousePointer
+                  size={16}
+                  color="#999"
+                  style={{ marginRight: "5px" }}
+                />
                 Hover over features for quick definitions.
-                <MousePointerClick size={19} color="#999" style={{margin: "0 5px"}} />
+                <MousePointerClick
+                  size={19}
+                  color="#999"
+                  style={{ margin: "0 5px" }}
+                />
                 Click for more details
               </p>
             </div>
             <div className={styles.featureListGrid}>
-
               {FeaturesSidebar.map((category, index) => {
                 return (
                   <FeatureItemsColumn
@@ -119,10 +133,9 @@ function Index() {
                     items={category.items}
                     tooltipId="leftTip"
                     key={index}
-                    />
+                  />
                 )
               })}
-
             </div>
           </div>
         </div>
@@ -240,7 +253,6 @@ function Index() {
         delayShow={0}
         className={`${common.tooltipStyling} ${styles.tooltipStyling}`}
       />
-
     </Layout>
   )
 }
@@ -259,14 +271,26 @@ function Yes() {
 
 export default Index
 
-function FeatureItemsColumn({ categoryLabel, color, iconName, items, tooltipId }) {
-  let Icon = ChevronRight;
+function FeatureItemsColumn({
+  categoryLabel,
+  color,
+  iconName,
+  items,
+  tooltipId,
+}) {
+  let Icon = ChevronRight
 
-  if( iconName )
-    switch( iconName.toLowerCase() ) {
-      case "messagesquare": Icon = MessageSquare; break;
-      case "phonecall": Icon = PhoneCall; break;
-      case "binary": Icon = Binary; break;
+  if (iconName)
+    switch (iconName.toLowerCase()) {
+      case "messagesquare":
+        Icon = MessageSquare
+        break
+      case "phonecall":
+        Icon = PhoneCall
+        break
+      case "binary":
+        Icon = Binary
+        break
     }
 
   return (
@@ -275,13 +299,14 @@ function FeatureItemsColumn({ categoryLabel, color, iconName, items, tooltipId }
         <Icon /> {categoryLabel}
       </h4>
       <ul className={styles.featureList}>
-        {items && items.map((item, index) => {
-          return (
-            <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
-              <LinkToFeature category={categoryLabel} item={item} />
-            </li>
-          )
-        })}
+        {items &&
+          items.map((item, index) => {
+            return (
+              <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
+                <LinkToFeature category={categoryLabel} item={item} />
+              </li>
+            )
+          })}
       </ul>
     </div>
   )
@@ -289,13 +314,20 @@ function FeatureItemsColumn({ categoryLabel, color, iconName, items, tooltipId }
 
 // If href is defined return <Link>, else return non-link element <div>
 function LinkToFeature({ children, category, item }) {
-  const categorySlug = category.toLowerCase();
+  const categorySlug = category.toLowerCase()
 
-  const InfoIcon = item.tooltipText ? <Info className={styles.featureInfoIcon} /> : <></>;
+  const InfoIcon = item.tooltipText ? (
+    <Info className={styles.featureInfoIcon} />
+  ) : (
+    <></>
+  )
 
-  if( item.href )
+  if (item.href)
     return (
-      <Link href={`${basePathToFeatures}${categorySlug}${item.href}`} className={styles.featureItemLink}>
+      <Link
+        href={`${basePathToFeatures}${categorySlug}${item.href}`}
+        className={styles.featureItemLink}
+      >
         <div className={styles.featureBtnIcons}>
           <ChevronRight className={styles.featureViewIcon} />
         </div>
@@ -313,9 +345,7 @@ function LinkToFeature({ children, category, item }) {
           <Asterisk className={styles.featureViewIcon} />
         </div>
         <span>{item.name}</span>
-        <div className={styles.featureBtnIcons}>
-          {InfoIcon}
-        </div>   
+        <div className={styles.featureBtnIcons}>{InfoIcon}</div>
       </div>
     )
 }
