@@ -36,12 +36,10 @@ Said Fabio Cerone, Managing Director EMEA, Telco Business Unit at AWS:
 
 As an app-first company, wholly focused on user experience, Mobi embraces an open, API-enabled core network approach. Access to WG2's global ecosystem of developers offers Mobi a selection of pre-integrated, ready-to-deploy applications for voice, messaging and data services, built by WG2’s development partners from all over the world. Following the continental U.S. rollout, Mobi also plans to leverage the same model to expand to markets including Canada, Puerto Rico and the U.S. Virgin Islands.
 
-**About Mobi**
-
+**About Mobi**  
 Mobi has helped connect families, friends, and colleagues since 2005 as the largest wireless provider based in Hawaiʻi. The company was the first to offer no contract, credit check, no nonsense plans and pricing throughout the Islands. Mobi is a member of the Competitive Carriers Association (CCA), the Pacific Telecommunications Council (PTC), the Alliance for Telecommunications Industry Solutions (ATIS), and the 3rd Generation Partnership Project (3GPP). Learn more at [mobi.com](https://www.mobi.com) or follow us on [twitter.com/mobi](https://twitter.com/Mobi)
 
-**About Working Group Two**
-
+**About Working Group Two**  
 Working Group Two has rebuilt the mobile core for simplicity, innovation, and efficiency – leveraging the web-scale playbook and operating models. Today, Working Group Two innovation enables MVNO, MNO, and Private Network Operators a secure, scalable, and reliable telco connectivity backbone that scales across all generations of mobile technologies. Our mission is to create programmable mobile networks to allow our customers and their end users to create more valuable and useful products and services. 
 
 **Media Contact:**  
