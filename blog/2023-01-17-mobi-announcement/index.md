@@ -8,8 +8,6 @@ authors: wgtwo
 
 import ImgWithCaption from '../components/imgWithCaption'
 
-<!--truncate-->
-
 ![](./logos.png)
 
 * Hawaiian carrier Mobi is set to leverage the largest 5G network in the US 
