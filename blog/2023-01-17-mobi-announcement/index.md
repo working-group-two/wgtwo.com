@@ -10,6 +10,8 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 <!--truncate-->
 
+![](./logos.png)
+
 * Hawaiian carrier Mobi is set to leverage the largest 5G network in the US 
 * Mobi makes strategic shift from legacy networks to deploy a cloud-native mobile core, fully managed as-a-Service
 * Mobi selects WG2 for 4G/5G/IMS mobile core network deployed on infrastructure from AWS to realize rapid commercial launch 
@@ -44,3 +46,5 @@ Tor Odland
 Working Group Two
 +47 9909 0872
 tor(at)wgtwo.com
+
+
