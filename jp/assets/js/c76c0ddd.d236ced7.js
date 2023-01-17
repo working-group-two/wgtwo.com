@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8211],{87507:function(e){e.exports=JSON.parse('{"label":"regional","permalink":"/jp/blog/tags/regional","allTagsPath":"/jp/blog/tags","count":1}')}}]);

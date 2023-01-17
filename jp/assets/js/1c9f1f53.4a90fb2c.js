@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1771],{5807:function(e){e.exports=JSON.parse('{"label":"mobi","permalink":"/jp/blog/tags/mobi","allTagsPath":"/jp/blog/tags","count":1}')}}]);
