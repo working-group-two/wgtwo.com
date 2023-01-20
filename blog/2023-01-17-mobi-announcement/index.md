@@ -2,7 +2,7 @@
 slug: mobi-expansion-with-wg2-aws 
 title: Mobi gears up for expansion delivered by Working Group Two on AWS
 date: 2023-01-17
-tags: [mobi, operators, 5G, regional, USA]
+tags: [mobi, operators, 5G, regional, USA, press release]
 authors: wgtwo
 ---
 
