@@ -2,7 +2,7 @@
 slug: joining-cca
 title: Working Group Two steps up to support regional carriers in the United States
 date: 2023-01-09
-tags: [cca, operators, 5G, regional, USA]
+tags: [cca, operators, 5G, regional, USA, press release]
 authors: wgtwo
 ---
 
