@@ -2,7 +2,7 @@
 slug: atos-teams-with-wgtwo
 title: "Atos and Working Group Two to deliver core-as-a-service to mobile operators worldwide"
 date: 2022-09-19
-tags: [saas, operators, core, cloud, partners, iot, private networks]
+tags: [saas, operators, core, cloud, partners, iot, private networks, press release]
 authors: [wgtwo]
 ---
 
