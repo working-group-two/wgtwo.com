@@ -27,11 +27,13 @@ We have been expanding, and alot of people are getting more interested in our te
 
 We were selected by CKH IOD for their public cloud core network. We have migrated their core network to the cloud – delivering it as a fully managed software-as-a-service, deployed on AWS infrastructure. CKH IOD is a telecoms unit and international development hub of CK Hutchison,
 
-We've teamed up with MKI in Japan to jointly deliver private networks in the local market. 
+We've teamed up with MKI Knowledge Industries in Japan to jointly deliver private networks in the local market. 
 
 Working Group Two has partnered with Atos, a global systems integrator, to offer operators a simplified, end-to-end mobile network solution. It is built on Working Group Two's 4/5G cloud-native mobile core and Atos' whole portfolio of Next Generation Telecom Network technologies, including cloud computing, edge, and Open RAN. Together, we will provide "core-network-as-a-service" solutions.
 
 Vimla, a challenger MVNO brand in Sweden, repeatedly wins "operator of the year" awards in their market - as voted by subscribers. Their core is developed and managed by Working Group Two. 
+
+In January 2023, we announced that Mobi, a leading mobile operator in Hawaiʻi, had selected Working Group Two to help them further expand into continental United States and beyond. Mobi made a strategic shift from legacy networks to deploy a cloud-native mobile core, fully managed as-a-service. This support their cost-effective, scalable and innovation-friendly expansion strategy. 
 
 ## The man behind the name
 ![](../images/wgtwo-skier-1.png)  
