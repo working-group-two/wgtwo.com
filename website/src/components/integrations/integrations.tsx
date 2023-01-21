@@ -52,6 +52,12 @@ function Component() {
             img={require("../../../static/img/enghouse-networks.png")}
           />
           <Image
+            alt="Mobi Logo"
+            className={styles.logo}
+            style={{ padding: "24px 0" }}
+            img={require("../../../static/img/mobi.png")}
+          />
+          <Image
             alt="Telenor Logo"
             className={styles.logo}
             style={{ padding: "24px 0" }}
