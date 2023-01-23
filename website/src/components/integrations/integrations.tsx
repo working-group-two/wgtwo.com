@@ -28,16 +28,16 @@ function Component() {
             img={require("../../../static/img/cisco.png")}
           />
           <Image
+            alt="Telavox Logo"
+            className={styles.logo}
+            style={{ padding: "0px 0" }}
+            img={require("../../../static/img/telavox.png")}
+          />
+          <Image
             alt="Hutch CKH Logo"
             className={styles.logo}
             style={{ padding: "20px 0" }}
             img={require("../../../static/img/ckh.png")}
-          />
-          <Image
-            alt="e-Rate Logo"
-            className={styles.logo}
-            style={{ padding: "20px 0" }}
-            img={require("../../../static/img/e-rate.png")}
           />
           <Image
             alt="AWS Integration"
@@ -46,15 +46,9 @@ function Component() {
             img={require("../../../static/img/aws.png")}
           />
           <Image
-            alt="Enghouse-Networks Logo"
-            className={styles.logo}
-            style={{ padding: "24px 0" }}
-            img={require("../../../static/img/enghouse-networks.png")}
-          />
-          <Image
             alt="Mobi Logo"
             className={styles.logo}
-            style={{ padding: "24px 0" }}
+            style={{ padding: "12px 0" }}
             img={require("../../../static/img/mobi.png")}
           />
           <Image
