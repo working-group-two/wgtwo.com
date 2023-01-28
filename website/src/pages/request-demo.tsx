@@ -20,7 +20,8 @@ function RequestDemo() {
   const [formErrorCompany, setFormErrorCompany] = useState(false)
   const [formErrorEmail, setFormErrorEmail] = useState(false)
   const [formErrorName, setFormErrorName] = useState(false)
-  const [formErrorSubscriptionCount, setFormErrorSubscriptionCount] = useState(false)
+  const [formErrorSubscriptionCount, setFormErrorSubscriptionCount] =
+    useState(false)
   const [formErrorMessage, setFormErrorMessage] = useState(false)
 
   function sendMessage() {
@@ -34,7 +35,7 @@ function RequestDemo() {
     // ERROR CHECK 1: INVALID EMAIL
 
     if (!validEmail(form.email.current.value)) {
-      setFormErrorEmail(true);
+      setFormErrorEmail(true)
       setFormError(
         translate({
           message: "Email address is invalid",
@@ -45,33 +46,32 @@ function RequestDemo() {
       return
     }
 
-
     // ERROR CHECK 2: ANGLE BRACKETS < > IN ANY FIELD
-    
-    let angleBracketErrorHit = false;
 
-    if (containsAngleBrackets(form.company.current.value)){
+    let angleBracketErrorHit = false
+
+    if (containsAngleBrackets(form.company.current.value)) {
       setFormErrorCompany(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.email.current.value)){
+    if (containsAngleBrackets(form.email.current.value)) {
       setFormErrorEmail(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.name.current.value)){
+    if (containsAngleBrackets(form.name.current.value)) {
       setFormErrorName(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.subscriptionCount.current.value)){
+    if (containsAngleBrackets(form.subscriptionCount.current.value)) {
       setFormErrorSubscriptionCount(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.message.current.value)){
+    if (containsAngleBrackets(form.message.current.value)) {
       setFormErrorMessage(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
 
-    if(angleBracketErrorHit){
+    if (angleBracketErrorHit) {
       setFormError(
         translate({
           message: "Text cannot contain < or >",
@@ -79,10 +79,9 @@ function RequestDemo() {
           description: "Error message when a text field contains < or >",
         })
       )
-      
+
       return
     }
-
 
     // SEND MESSAGE
 
@@ -118,7 +117,8 @@ function RequestDemo() {
               <input
                 className={formErrorCompany ? styles.hasError : ""}
                 ref={form.company}
-                placeholder="Company" />
+                placeholder="Company"
+              />
               <input
                 className={formErrorEmail ? styles.hasError : ""}
                 ref={form.email}
@@ -127,14 +127,17 @@ function RequestDemo() {
               <input
                 className={formErrorName ? styles.hasError : ""}
                 ref={form.name}
-                placeholder="Name" />
+                placeholder="Name"
+              />
               <input
                 className={formErrorSubscriptionCount ? styles.hasError : ""}
                 ref={form.subscriptionCount}
                 placeholder="Subscription count"
               />
               <input
-                className={`${formErrorMessage ? styles.hasError : ""} ${styles.span2}`}
+                className={`${formErrorMessage ? styles.hasError : ""} ${
+                  styles.span2
+                }`}
                 ref={form.message}
                 placeholder="Most interested in ..."
               />

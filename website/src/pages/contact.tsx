@@ -34,7 +34,7 @@ function Contact() {
     // ERROR CHECK 1: INVALID EMAIL
 
     if (!validEmail(form.email.current.value)) {
-      setFormErrorEmail(true);
+      setFormErrorEmail(true)
       setFormError(
         translate({
           message: "Email address is invalid",
@@ -45,29 +45,28 @@ function Contact() {
       return
     }
 
-
     // ERROR CHECK 2: ANGLE BRACKETS < > IN ANY FIELD
-    
-    let angleBracketErrorHit = false;
 
-    if (containsAngleBrackets(form.company.current.value)){
+    let angleBracketErrorHit = false
+
+    if (containsAngleBrackets(form.company.current.value)) {
       setFormErrorCompany(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.email.current.value)){
+    if (containsAngleBrackets(form.email.current.value)) {
       setFormErrorEmail(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.name.current.value)){
+    if (containsAngleBrackets(form.name.current.value)) {
       setFormErrorName(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.message.current.value)){
+    if (containsAngleBrackets(form.message.current.value)) {
       setFormErrorMessage(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
 
-    if(angleBracketErrorHit){
+    if (angleBracketErrorHit) {
       setFormError(
         translate({
           message: "Text cannot contain < or >",
@@ -75,10 +74,9 @@ function Contact() {
           description: "Error message when a text field contains < or >",
         })
       )
-      
+
       return
     }
-
 
     // SEND MESSAGE
 
@@ -165,7 +163,9 @@ function Contact() {
                 })}
               />
               <input
-                className={`${formErrorName ? styles.hasError : ""} ${styles.span2}`}
+                className={`${formErrorName ? styles.hasError : ""} ${
+                  styles.span2
+                }`}
                 ref={form.name}
                 placeholder={translate({
                   message: "Name",
@@ -174,7 +174,9 @@ function Contact() {
                 })}
               />
               <textarea
-                className={`${formErrorMessage ? styles.hasError : ""} ${styles.span2}`}
+                className={`${formErrorMessage ? styles.hasError : ""} ${
+                  styles.span2
+                }`}
                 ref={form.message}
                 placeholder={translate({
                   message: "Your message",

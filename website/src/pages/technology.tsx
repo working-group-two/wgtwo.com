@@ -34,7 +34,7 @@ function Index() {
     // ERROR CHECK 1: INVALID EMAIL
 
     if (!validEmail(form.email.current.value)) {
-      setFormErrorEmail(true);
+      setFormErrorEmail(true)
       setFormError(
         translate({
           message: "Email address is invalid",
@@ -45,25 +45,24 @@ function Index() {
       return
     }
 
-
     // ERROR CHECK 2: ANGLE BRACKETS < > IN ANY FIELD
-    
-    let angleBracketErrorHit = false;
 
-    if (containsAngleBrackets(form.name.current.value)){
+    let angleBracketErrorHit = false
+
+    if (containsAngleBrackets(form.name.current.value)) {
       setFormErrorName(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.email.current.value)){
+    if (containsAngleBrackets(form.email.current.value)) {
       setFormErrorEmail(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
-    if (containsAngleBrackets(form.message.current.value)){
+    if (containsAngleBrackets(form.message.current.value)) {
       setFormErrorMessage(true)
-      angleBracketErrorHit = true;
+      angleBracketErrorHit = true
     }
 
-    if(angleBracketErrorHit){
+    if (angleBracketErrorHit) {
       setFormError(
         translate({
           message: "Text cannot contain < or >",
@@ -71,13 +70,12 @@ function Index() {
           description: "Error message when a text field contains < or >",
         })
       )
-      
+
       return
     }
 
-
     // SEND MESSAGE
-    
+
     message(
       `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
     )
@@ -320,14 +318,17 @@ function Index() {
               <input
                 className={formErrorName ? contact.hasError : ""}
                 ref={form.name}
-                placeholder="Name" />
+                placeholder="Name"
+              />
               <input
                 className={formErrorEmail ? contact.hasError : ""}
                 ref={form.email}
                 placeholder="Email address"
               />
               <input
-                className={`${formErrorMessage ? contact.hasError : ""} ${contact.span2}`}
+                className={`${formErrorMessage ? contact.hasError : ""} ${
+                  contact.span2
+                }`}
                 ref={form.message}
                 placeholder="Message"
               />
