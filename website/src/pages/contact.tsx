@@ -36,11 +36,11 @@ function Contact() {
     if (!validEmail(form.email.current.value)) {
       setFormErrorEmail(true);
       setFormError(
-          translate({
-            message: "Email address is invalid",
-            id: "contact.form.invalidEmail",
-            description: "Error message when the email address is invalid",
-          })
+        translate({
+          message: "Email address is invalid",
+          id: "contact.form.invalidEmail",
+          description: "Error message when the email address is invalid",
+        })
       )
       return
     }
@@ -71,15 +71,15 @@ function Contact() {
       setFormError(
         translate({
           message: "Text cannot contain < or >",
-          id: "contact.form.invalidEmail",
-          description: "Error message when the email address is invalid",
+          id: "contact.form.angleBracketsInField",
+          description: "Error message when a text field contains < or >",
         })
       )
       
       return
     }
 
-    
+
     // SEND MESSAGE
 
     message(
