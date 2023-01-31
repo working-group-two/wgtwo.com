@@ -3,7 +3,7 @@ import common from "../../css/common.module.css"
 import styles from "./technologymetrics.module.css"
 
 const technologyMetrics = [
-  { name: "156 million", description: "SMSs" },
+  { name: "527 million", description: "SMSs" },
   { name: "354 million", description: "voice calls" },
   { name: "32 million", description: "MMSs" },
   { name: "3.07 petabyte", description: "data upload" },
