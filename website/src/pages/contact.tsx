@@ -7,7 +7,7 @@ import { Calendar, HelpCircle, Mail, Building } from "lucide-react"
 import Link from "@docusaurus/Link"
 import NewsletterSignup from "../components/newsletter-signup/newsletter-signup"
 import Translate, { translate } from "@docusaurus/Translate"
-import { validEmail } from "../util/helpers"
+import { validEmail, containsAngleBrackets } from "../util/helpers"
 
 let form = {
   company: React.createRef<HTMLInputElement>(),
@@ -19,11 +19,22 @@ let form = {
 
 function Contact() {
   const [formError, setFormError] = useState("")
+  const [formErrorCompany, setFormErrorCompany] = useState(false)
+  const [formErrorEmail, setFormErrorEmail] = useState(false)
+  const [formErrorName, setFormErrorName] = useState(false)
+  const [formErrorMessage, setFormErrorMessage] = useState(false)
 
   function sendMessage() {
     setFormError("")
+    setFormErrorCompany(false)
+    setFormErrorEmail(false)
+    setFormErrorName(false)
+    setFormErrorMessage(false)
+
+    // ERROR CHECK 1: INVALID EMAIL
 
     if (!validEmail(form.email.current.value)) {
+      setFormErrorEmail(true)
       setFormError(
         translate({
           message: "Email address is invalid",
@@ -33,6 +44,41 @@ function Contact() {
       )
       return
     }
+
+    // ERROR CHECK 2: ANGLE BRACKETS < > IN ANY FIELD
+
+    let angleBracketErrorHit = false
+
+    if (containsAngleBrackets(form.company.current.value)) {
+      setFormErrorCompany(true)
+      angleBracketErrorHit = true
+    }
+    if (containsAngleBrackets(form.email.current.value)) {
+      setFormErrorEmail(true)
+      angleBracketErrorHit = true
+    }
+    if (containsAngleBrackets(form.name.current.value)) {
+      setFormErrorName(true)
+      angleBracketErrorHit = true
+    }
+    if (containsAngleBrackets(form.message.current.value)) {
+      setFormErrorMessage(true)
+      angleBracketErrorHit = true
+    }
+
+    if (angleBracketErrorHit) {
+      setFormError(
+        translate({
+          message: "Text cannot contain < or >",
+          id: "contact.form.angleBracketsInField",
+          description: "Error message when a text field contains < or >",
+        })
+      )
+
+      return
+    }
+
+    // SEND MESSAGE
 
     message(
       `Message from wgtwo.com/contact\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
@@ -99,6 +145,7 @@ function Contact() {
           <div className={common.container}>
             <div className={styles.form}>
               <input
+                className={formErrorCompany ? styles.hasError : ""}
                 ref={form.company}
                 placeholder={translate({
                   message: "Company",
@@ -107,7 +154,7 @@ function Contact() {
                 })}
               />
               <input
-                className={formError && styles.hasError}
+                className={formErrorEmail ? styles.hasError : ""}
                 ref={form.email}
                 placeholder={translate({
                   message: "Work email address",
@@ -116,22 +163,26 @@ function Contact() {
                 })}
               />
               <input
+                className={`${formErrorName ? styles.hasError : ""} ${
+                  styles.span2
+                }`}
                 ref={form.name}
                 placeholder={translate({
                   message: "Name",
                   id: "contact.form.name",
                   description: "Placeholder for the name field",
                 })}
-                className={styles.span2}
               />
               <textarea
+                className={`${formErrorMessage ? styles.hasError : ""} ${
+                  styles.span2
+                }`}
                 ref={form.message}
                 placeholder={translate({
                   message: "Your message",
                   id: "contact.form.message",
                   description: "Placeholder for the message field",
                 })}
-                className={styles.span2}
               />
               <button
                 ref={form.button}
