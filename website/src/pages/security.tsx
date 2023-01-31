@@ -74,7 +74,7 @@ function Index() {
     }
 
     // SEND MESSAGE
-    
+
     message(
       `Message from wgtwo.com/security\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
     )
@@ -86,7 +86,7 @@ function Index() {
     form.button.current.innerText = "Your message was sent!"
     form.button.current.disabled = true
   }
-  
+
   return (
     <Layout title="Security">
       <div className={common.page}>
