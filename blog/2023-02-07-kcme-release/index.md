@@ -51,7 +51,7 @@ Company name: Kyocera Mirai Envision Ltd.
 Location: Mita 43 MT Building, 3-13-16 Mita, Minato-ku, Tokyo 108-0073, Japan  
 Representative: President & CEO Hyungbae Kim  
 Established: 1 April 2011  
-[KCME URL](https://www.kcme.jp/)  
+URL: [https://www.kcme.jp/](https://www.kcme.jp/)  
 
 **About Working Group Two**  
 Working Group Two has rebuilt the mobile core for simplicity, innovation, and efficiency – leveraging the web-scale playbook and operating models. Today, Working Group Two innovation enables MVNO, MNO, and Private Network Operators a secure, scalable, and reliable telco connectivity backbone that scales across all generations of mobile technologies. Our mission is to create programmable mobile networks to allow our customers and their end users to create more valuable and useful products and services. 
