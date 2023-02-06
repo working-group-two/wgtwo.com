@@ -1,6 +1,6 @@
 ---
 slug: kcme-teams-up-with-wg2-for-private-networks
-title: "Kyocera Mirai Envision and Working Group Two unveil a differentiated private network offering in Japan"
+title: "We're teaming up with Kyocera Mirai Envision to build private networks in Japan"
 date: 2023-02-07
 tags: [saas, operators, core, cloud, partners, private networks, press release]
 authors: [wgtwo]
@@ -10,9 +10,13 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 ![](./Kyocera_logo_sm.svg.png)
 
-Kyocera Mirai Envision Co., Ltd. (KCME) and Working Group Two (WG2) have signed an agreement to jointly develop and offer an end-to-end solution for private networks in Japan. The two companies aim to serve customers across the business and public sectors with a highly differentiated offering that tackles current industry challenges, such as high initial cost, difficulty of deploying cloud-based solutions, and slow adoption. 
+* Kyocera Mirai Envision Co., Ltd. (KCME) and Working Group Two (WG2) have signed an agreement to jointly develop and offer an end-to-end solution for private networks in Japan. 
+* The two companies aim to serve customers across the business and public sectors with a highly differentiated offering that tackles current industry challenges, such as high initial cost, difficulty of deploying cloud-based solutions, and slow adoption. 
+* Announcing first on-the-ground project with Sakaue Co. Ltd.
 
 <!--truncate-->
+
+**Kyocera Mirai Envision and Working Group Two unveil a differentiated private network offering in Japan.**
 
 [KCME](https://www.kcme.jp/), based in Japan, delivers solutions that integrate mobile and information communication technologies (ICT) in business areas, such as mobile internet, AI, IoT, big data, and virtual cloud. As part of the signed reseller agreement, KCME will leverage WG2’s mobile-core-as-a-service to deliver private networks that rely on sXGP (a local standard for unlicensed LTE spectrum), pLTE (so-called Broadband Wireless Access, or BWA), and local 5G capabilities. WG2 offers a rebuilt, modern core network delivered as a hosted service. It drives the dual benefits of cost savings and revenue growth for KCME and their private network customers. Instead of using complex and subscale core networks, WG2 allows operators to attach their radio networks to a global, common mobile core platform powered by infrastructure from AWS. 
 
