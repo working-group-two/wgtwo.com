@@ -22,7 +22,7 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 WG2’s API-based product ecosystem relies on the programmability of the core network to offer KCME and their customers a marketplace of products and services they can bring to market without the need of building or integrating every product for each network.
 
-Potential customers include businesses using sXGP and/or local 5G. For sXGP, the offering from KCME and WG2 will mainly replace PHS systems that are currently phasing out. Unlike PHS, which is a voice-only system, the LTE-based sXGP provides mobile broadband and IoT capabilities as part of the use cases. With local 5G, end customers would be able to start a radio DX with 5G capabilities. 
+Potential customers include businesses using sXGP and/or local 5G. For sXGP, the offering from KCME and WG2 will mainly replace PHS systems (Personal Handyphone Systems) that are currently phasing out. Unlike PHS, which is a voice-only system, the LTE-based sXGP provides mobile broadband and IoT capabilities as part of the use cases. With local 5G, end customers would be able to start a radio DX with 5G capabilities. 
 
 KCME and WG2’s joint solution is also relevant for secondary integrators as part of their solution portfolio. [Synapse Co. Ltd.](https://www.synapse.jp), a local service provider based in Kagoshima City, has deployed the KCME-WG2 cloud solution on sXGP to an agricultural firm, [Sakaue Co. Ltd.](https://sakaue-farm.co.jp), based in Shibushi City, Kagoshima. This solution not only facilitates smartphone-based voice calls among employees, but also supports agricultural IoT sensing for temperature and soil conditions. 
 
