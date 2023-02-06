@@ -20,7 +20,7 @@ WG2’s API-based product ecosystem relies on the programmability of the core ne
 
 Potential customers include businesses using sXGP and/or local 5G. For sXGP, the offering from KCME and WG2 will mainly replace PHS systems that are currently phasing out. Unlike PHS, which is a voice-only system, the LTE-based sXGP provides mobile broadband and IoT capabilities as part of the use cases. With local 5G, end customers would be able to start a radio DX with 5G capabilities. 
 
-KCME and WG2’s joint solution is also relevant for secondary integrators as part of their solution portfolio. [Synapse Co. Ltd.](https://www.synapse.jp), a local service provider based in Kagoshima City, has deployed the KCME-WG2 cloud solution on sXGP to an agricultural firm, [Sakaue Co. Ltd.](https://sakaue-farm.co.jp), based in Shibushi City, Kagoshima. This solution not only facilitates smartphone-based voice calls among employees, but also supports agricultural IoT sensing for temperature and soil conditions. With KCME-WG2’s sXGP services, the customer has established a stable communication network across hundreds of different locations, even in areas that are not well-covered by national mobile network operators. This has enabled the implementation of Agricultural DX (digital technology to improve the efficiency and productivity of agricultural operations) within the same sXGP network.
+KCME and WG2’s joint solution is also relevant for secondary integrators as part of their solution portfolio. [Synapse Co. Ltd.](https://www.synapse.jp), a local service provider based in Kagoshima City, has deployed the KCME-WG2 cloud solution on sXGP to an agricultural firm, [Sakaue Co. Ltd.](https://sakaue-farm.co.jp), based in Shibushi City, Kagoshima. This solution not only facilitates smartphone-based voice calls among employees, but also supports agricultural IoT sensing for temperature and soil conditions. 
 
 <ImgWithCaption
   style={{
@@ -31,6 +31,8 @@ KCME and WG2’s joint solution is also relevant for secondary integrators as pa
   caption="Agricultural illustration, courtesy [Sakaue Co. Ltd.](https://sakaue-farm.co.jp/business/)"
   src={require("!file-loader!./sakaue-sm.png").default}
   />
+
+With KCME-WG2’s sXGP services, the customer has established a stable communication network across hundreds of different locations, even in areas that are not well-covered by national mobile network operators. This has enabled the implementation of Agricultural DX (digital technology to improve the efficiency and productivity of agricultural operations) within the same sXGP network.
 
 Said Erlend Prestgard, CEO, Working Group Two:
 > “We are excited to team up with KCME to jointly develop the market for private networks in Japan. By lowering the cost, reducing complexity, and speeding up the time to market, we can truly contribute to a differentiated solution in Japan. Utilizing a variety of spectrum options across multiple generations of telecommunications and multi-tenancy on AWS, we can support a wide range of customer needs," 
