@@ -1,7 +1,7 @@
 ---
 slug: kcme-teams-up-with-wg2-for-private-networks
 title: "Kyocera Mirai Envision and Working Group Two unveil a differentiated private network offering in Japan"
-date: 2022-02-07
+date: 2023-02-07
 tags: [saas, operators, core, cloud, partners, private networks, press release]
 authors: [wgtwo]
 ---
