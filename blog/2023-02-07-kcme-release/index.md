@@ -32,7 +32,7 @@ KCME and WG2’s joint solution is also relevant for secondary integrators as pa
     float: "right",
     marginLeft:"20px"
   }}
-  caption="Agricultural illustration, courtesy [Sakaue Co. Ltd.](https://sakaue-farm.co.jp/business/)"
+  caption="Agricultural illustration, courtesy Sakaue Co. Ltd."
   src={require("!file-loader!./sakaue-sm.png").default}
   />
 
