@@ -1,6 +1,7 @@
 .section {
   background: #e2eef7;
-  background: linear-gradient(180deg, #ffffffeb, #e8edf2de), url(https://thumbs.dreamstime.com/b/wave-particles-white-background-network-connection-dots-lines-digital-d-rendering-178602862.jpg);
+  background: linear-gradient(180deg, #ffffffeb, #e8edf2de),
+    url(https://thumbs.dreamstime.com/b/wave-particles-white-background-network-connection-dots-lines-digital-d-rendering-178602862.jpg);
   background-size: cover;
   background-position: 0% 26%;
 }
