@@ -42,7 +42,7 @@ function Component() {
                 id="home.hero.techButton"
                 description="techButton for the hero section"
               >
-                Our Technology
+                Show me how
               </Translate>
             </Link>
           </div>
