@@ -1,9 +1,8 @@
-.buttons {
-  margin-top: 48px;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: stretch;
+.section {
+  background: #e2eef7;
+  background: linear-gradient(180deg, #ffffffeb, #e8edf2de), url(https://thumbs.dreamstime.com/b/wave-particles-white-background-network-connection-dots-lines-digital-d-rendering-178602862.jpg);
+  background-size: cover;
+  background-position: 0% 26%;
 }
 
 .image {
@@ -20,10 +19,38 @@
   }
 }
 
+.heroTextContainer {
+  max-width: 860px;
+  align-items: center;
+}
+
 .titleHeader {
-  font-size: 48px;
+  color: #003062;
+  text-align: center;
+  font-size: 42px;
   line-height: 64px;
   font-weight: 700;
+}
+
+.subtitle {
+  color: #001f3f;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.buttons {
+  margin-top: 48px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heroButton {
+  background-color: #1d3148 !important;
+}
+.heroButton:hover {
+  background-color: #2f455e !important;
 }
 
 .hn {
