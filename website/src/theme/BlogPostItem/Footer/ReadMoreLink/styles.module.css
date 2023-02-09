@@ -1,0 +1,21 @@
+.readMoreButton {
+  width: 100%;
+  background-color: #f3f7fc;
+  border-bottom-right-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+
+  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+.readMoreButton:hover {
+  background-color: #e9f2fa;
+}
+
+.readMoreButton > b {
+  color: #034181;
+  font-weight: 700;
+  font-size: 0.85em;
+}

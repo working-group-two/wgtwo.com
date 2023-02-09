@@ -1,0 +1,20 @@
+.avatarContainer {
+  flex-direction: row-reverse;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.avatarPhoto {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avatarName, .avatarName > a {
+  text-align: right;
+}
+
+.avatarSubtitle {
+  font-size: 0.7em;
+  text-align: right;
+  margin-top: 0;
+}

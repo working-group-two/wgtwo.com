@@ -78,7 +78,7 @@ export default function BlogPostItemHeaderInfo({ className }) {
   const { siteConfig } = useDocusaurusContext()
   const baseUrl = siteConfig.url
 
-  const { metadata } = useBlogPost()
+  const { metadata, isBlogPostPage } = useBlogPost()
   const { date, formattedDate, readingTime } = metadata
   return (
     <div className={clsx(styles.container, "margin-vert--md", className)}>
@@ -91,7 +91,10 @@ export default function BlogPostItemHeaderInfo({ className }) {
           </>
         )}
       </div>
-      <div className={styles.iconsContainer}>
+      <div className={clsx({
+          [styles.iconsContainer]: isBlogPostPage,
+          [styles.noIcons]: !isBlogPostPage
+        })}>
         <button
           className={styles.button}
           onClick={() => onLinkedinClick(baseUrl, metadata)}

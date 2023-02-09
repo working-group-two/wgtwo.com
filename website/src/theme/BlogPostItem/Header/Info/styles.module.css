@@ -1,7 +1,10 @@
 .container {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   display: flex;
   justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 0px !important;
+  margin-bottom: 15px !important;
 }
 
 .dateContainer {
@@ -10,6 +13,10 @@
 }
 
 .iconsContainer {
+}
+
+.noIcons {
+  display: none;
 }
 
 .button {

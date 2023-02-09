@@ -1,0 +1,18 @@
+.blogBackground {
+  background-color: #f7f7f7;
+}
+
+/* BLOG OVERVIEW - CARD LIST VIEW */
+
+.cardListView {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+
+/* SINGLE BLOG POST PAGE VIEW */
+
+.singleBlogPageView {
+
+}

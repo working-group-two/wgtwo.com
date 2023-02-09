@@ -1,0 +1,15 @@
+.featuredImage {
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+  /*background: linear-gradient(transparent 62%, #19202aef 80%);*/
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 4px dotted white;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

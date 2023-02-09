@@ -1,0 +1,30 @@
+.articleCard {
+  box-shadow: 0px 6px 20px #7b8c9d21;
+  border-radius: 10px;
+  border: 1px solid #9bb1c0e0;
+  background: linear-gradient(180deg, white 92%, #f6f6f6);
+  background: white;
+  /* padding-top: 34px; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.articleCard > .markdown {
+  padding: 13px 39px;
+  margin-bottom: 23px;
+  margin-top: 0px;
+  padding-bottom: 0;
+  /* flex-grow: 1; */
+  /* display: none; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  background: #ffffff;
+  /* border-top: 1px solid #e9e9e9; */
+}
+
+a.avatar__photo-link {
+  /* display: none; */
+}
