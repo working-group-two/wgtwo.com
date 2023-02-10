@@ -1,7 +1,6 @@
 .section {
+  padding: 120px 0;
   background: #e2eef7;
-  background: linear-gradient(180deg, #ffffffeb, #e8edf2de),
-    url(https://thumbs.dreamstime.com/b/wave-particles-white-background-network-connection-dots-lines-digital-d-rendering-178602862.jpg);
   background-size: cover;
   background-position: 0% 26%;
 }
@@ -26,7 +25,7 @@
 }
 
 .titleHeader {
-  color: #003062;
+  color: #002c59;
   text-align: center;
   font-size: 42px;
   line-height: 64px;

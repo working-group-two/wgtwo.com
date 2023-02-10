@@ -35,7 +35,7 @@ function Component() {
           </div>
           <div className={styles.buttons}>
             <Link
-              to="/technology"
+              to="/contact"
               className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
             >
               <Translate
