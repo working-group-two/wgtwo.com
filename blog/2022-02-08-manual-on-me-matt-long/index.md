@@ -4,6 +4,7 @@ title: "Manual on Me: Matt Long"
 date: 2022-02-08
 tags: [trust, culture, startup, manual-on-me]
 authors: [mtl]
+image: ./mtl-grayscale.png
 ---
 
 As I was waking up this morning, I started surfing Reddit.  One post, in particular, jumped out at me.  In this post, the writer (OP in Reddit parlance) had been asked to take a personality test at work by a new supervisor.   The OP was asking if this was something they should agree to do.

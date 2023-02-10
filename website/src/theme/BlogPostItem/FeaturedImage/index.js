@@ -8,7 +8,8 @@ import {useBlogPost} from '@docusaurus/theme-common/internal';
 import MDXContent from '@theme/MDXContent';
 export default function BlogPostItemContent({children, className}) {
   const {assets, metadata, isBlogPostPage} = useBlogPost();
-  const image = assets.image;
+  const {frontMatter} = metadata;
+  const image = assets.image ?? frontMatter.image;
   const linearGradient = "linear-gradient(transparent 62%, #242c37cc 85%)";
   return (
     <div

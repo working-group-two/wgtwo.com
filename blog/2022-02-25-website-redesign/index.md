@@ -3,6 +3,7 @@ slug: new-website
 title: "How I leveraged the 80/20 principle to rebuild wgtwo.com"
 tags: [website, react]
 authors: [jonny-griffin]
+image: ./wgtwo-home-3.0.png
 ---
 
 import { ImgComparisonSlider } from '@img-comparison-slider/react';

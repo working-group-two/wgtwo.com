@@ -12,8 +12,9 @@ function MaybeLink(props) {
 export default function BlogPostItemHeaderAuthor({author, className}) {
   const {name, title, url, imageURL, email} = author;
   const link = url || (email && `mailto:${email}`) || undefined;
-  const {assets, isBlogPostPage} = useBlogPost();
-  const hasImage = assets.image !== undefined;
+  const {assets, metadata, isBlogPostPage} = useBlogPost();
+  const {frontMatter} = metadata;
+  const hasImage = assets.image !== undefined || frontMatter.image !== undefined;
   return (
     <div
       className={clsx(
