@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5370],{54729:function(e){e.exports=JSON.parse('{"permalink":"/jp/blog/tags/private-networks","page":1,"postsPerPage":9,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
