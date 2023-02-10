@@ -8,7 +8,8 @@
   align-items: center;
   padding: 15px 10px;
 
-  transition: background-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
 }
 .readMoreButton:hover {
   background-color: #e9f2fa;

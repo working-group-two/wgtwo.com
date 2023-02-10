@@ -9,13 +9,15 @@
   height: 2rem;
 }
 
-.avatarName, .avatarName > a {
+.avatarName,
+.avatarName > a {
   color: rgb(30, 30, 30);
   text-align: right;
   font-weight: 500;
   font-size: 0.95em;
 }
-.avatarName.hasImageBackground, .avatarName.hasImageBackground > a {
+.avatarName.hasImageBackground,
+.avatarName.hasImageBackground > a {
   color: rgb(247, 247, 247);
 }
 

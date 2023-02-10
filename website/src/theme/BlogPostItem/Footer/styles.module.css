@@ -50,7 +50,7 @@
   background: #f3f7fc;
   position: absolute;
   border-bottom-right-radius: 10px;
-  content: '';
+  content: "";
   z-index: 3;
 }
 
@@ -59,7 +59,7 @@
   right: -2px;
   position: absolute;
   border-bottom-right-radius: 10px;
-  content: 'Read more';
+  content: "Read more";
   z-index: 7;
   font-weight: 700;
   font-size: 0.85em;
@@ -67,7 +67,8 @@
 }
 
 /* empty tag to make it available in JSX */
-.tagsContainer {}
+.tagsContainer {
+}
 
 .tagsContainer > b:first-child {
   display: none; /* hide "Tags: " label */
@@ -100,7 +101,6 @@
   padding: 0;
   color: grey;
 }
-
 
 /* Default CSS */
 

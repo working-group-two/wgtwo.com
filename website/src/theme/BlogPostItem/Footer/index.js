@@ -60,15 +60,19 @@ export default function BlogPostItemFooter() {
     return null
   }
   return (
-    <footer className={clsx({
+    <footer
+      className={clsx({
         [styles.articleCardFooter]: !isBlogPostPage,
-        'row docusaurus-mt-lg': isBlogPostPage
-      })}>
+        "row docusaurus-mt-lg": isBlogPostPage,
+      })}
+    >
       {tagsExists && (
-        <div className={clsx({
-          [styles.tagsContainer]: !isBlogPostPage,
-          'col col--9': isBlogPostPage
-          })}>
+        <div
+          className={clsx({
+            [styles.tagsContainer]: !isBlogPostPage,
+            "col col--9": isBlogPostPage,
+          })}
+        >
           <TagsListInline tags={tags} />
         </div>
       )}
@@ -119,9 +123,7 @@ export default function BlogPostItemFooter() {
       )}
 
       {!isBlogPostPage && (
-        <div
-          className={`col col--3 ${styles.readMoreContainer}`}
-        >
+        <div className={`col col--3 ${styles.readMoreContainer}`}>
           <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
         </div>
       )}

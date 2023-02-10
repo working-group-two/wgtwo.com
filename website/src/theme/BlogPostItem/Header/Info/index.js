@@ -81,12 +81,14 @@ export default function BlogPostItemHeaderInfo({ className }) {
   const { metadata, isBlogPostPage } = useBlogPost()
   const { date, formattedDate, readingTime } = metadata
   return (
-    <div className={clsx(
-        {[styles.container]: isBlogPostPage},
-        {[styles.containerCardView]: !isBlogPostPage},
+    <div
+      className={clsx(
+        { [styles.container]: isBlogPostPage },
+        { [styles.containerCardView]: !isBlogPostPage },
         "margin-vert--md",
         className
-      )}>
+      )}
+    >
       <div className={styles.dateContainer}>
         <Date date={date} formattedDate={formattedDate} />
         {typeof readingTime !== "undefined" && (
@@ -96,10 +98,12 @@ export default function BlogPostItemHeaderInfo({ className }) {
           </>
         )}
       </div>
-      <div className={clsx({
+      <div
+        className={clsx({
           [styles.iconsContainer]: isBlogPostPage,
-          [styles.noIcons]: !isBlogPostPage
-        })}>
+          [styles.noIcons]: !isBlogPostPage,
+        })}
+      >
         <button
           className={styles.button}
           onClick={() => onLinkedinClick(baseUrl, metadata)}
