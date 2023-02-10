@@ -8,7 +8,11 @@ export default function BlogPostItemHeaderTitle({className}) {
   const {permalink, title} = metadata;
   const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
   return (
-    <TitleHeading className={clsx(styles.title, className)} itemProp="headline">
+    <TitleHeading className={clsx(
+        {[styles.title]: isBlogPostPage},
+        {[styles.titleCardView]: !isBlogPostPage},
+        className
+      )} itemProp="headline">
       {isBlogPostPage ? (
         title
       ) : (

@@ -1,4 +1,10 @@
 .container {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerCardView {
   font-size: 0.7rem;
   display: flex;
   justify-content: space-between;

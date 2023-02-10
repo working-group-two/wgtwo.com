@@ -12,7 +12,8 @@ function MaybeLink(props) {
 export default function BlogPostItemHeaderAuthor({author, className}) {
   const {name, title, url, imageURL, email} = author;
   const link = url || (email && `mailto:${email}`) || undefined;
-  const {isBlogPostPage} = useBlogPost();
+  const {assets, isBlogPostPage} = useBlogPost();
+  const hasImage = assets.image !== undefined;
   return (
     <div
       className={clsx(
@@ -38,19 +39,24 @@ export default function BlogPostItemHeaderAuthor({author, className}) {
           itemProp="author"
           itemScope
           itemType="https://schema.org/Person">
+
           <div className={clsx("avatar__name", {
-            [styles.avatarName]: !isBlogPostPage
+            [styles.avatarName]: !isBlogPostPage,
+            [styles.hasImageBackground]: hasImage
           })}>
             <MaybeLink href={link} itemProp="url">
               <span itemProp="name">{name}</span>
             </MaybeLink>
           </div>
+
           {title && (
             <small
               className={clsx("avatar__subtitle", {
-                [styles.avatarSubtitle]: !isBlogPostPage
+                [styles.avatarSubtitle]: !isBlogPostPage,
+                [styles.hasImageBackground]: hasImage
               })}
-              itemProp="description">
+              itemProp="description"
+              title={title}>
               {title}
             </small>
           )}

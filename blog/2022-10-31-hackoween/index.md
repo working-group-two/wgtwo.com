@@ -4,6 +4,7 @@ title: Here's what happened at Hackoween 🎃
 date: 2022-11-03
 tags: [hackathon]
 authors: wgtwo
+image: ./Hackoween.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'

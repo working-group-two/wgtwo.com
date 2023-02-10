@@ -13,7 +13,8 @@ export default function BlogPostItemContainer({children, className}) {
   return (
     <article
       className={clsx({
-        [styles.articleCard]: !isBlogPostPage
+        [styles.articleCard]: !isBlogPostPage,
+        [styles.articleContainer]: isBlogPostPage
       })}
       itemProp="blogPost"
       itemScope

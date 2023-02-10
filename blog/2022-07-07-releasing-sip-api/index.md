@@ -4,6 +4,7 @@ title: "Hello abundance, bye-bye complexity: With this new public API you can pl
 date: 2022-07-07
 tags: [saas, operators, api, sip, pbx, developers]
 authors: [noy]
+image: ./fruit-landscape.png
 ---
 We love making telecom easier and scalable. This week we’ve released [SIP Breakout](https://v1.docs.wgtwo.com/guide/sipbreakout/v1/how-to-use-sipbreakout-api.html#prerequisites), a new public API from Working Group Two. It simplifies the process of deploying SIP-enabled services, such as a PBX.
 

@@ -16,3 +16,9 @@
 .singleBlogPageView {
 
 }
+
+
+/* NAV OVERRIDE - NEXT/PREV ARTICLE BTNS */
+.singleBlogPageView > nav > a {
+  background-color: #fefefe;
+}

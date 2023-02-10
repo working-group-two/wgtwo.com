@@ -111,6 +111,7 @@
 .sharingSection {
   display: flex;
   justify-content: end;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -118,6 +119,7 @@
   border: 0;
   background: transparent;
   border-radius: 5px;
+  padding: 8px;
 }
 .sharingButton:hover {
   background: rgb(239, 239, 239);

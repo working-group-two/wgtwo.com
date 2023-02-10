@@ -65,7 +65,8 @@ export default function BlogPostItemFooter() {
         'row docusaurus-mt-lg': isBlogPostPage
       })}>
       {tagsExists && (
-        <div className={clsx(styles.tagsContainer, {
+        <div className={clsx({
+          [styles.tagsContainer]: !isBlogPostPage,
           'col col--9': isBlogPostPage
           })}>
           <TagsListInline tags={tags} />

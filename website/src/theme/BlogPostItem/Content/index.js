@@ -11,7 +11,8 @@ export default function BlogPostItemContent({children, className}) {
       // This ID is used for the feed generation to locate the main content
       id={isBlogPostPage ? blogPostContainerID : undefined}
       className={clsx('markdown', className, {
-        [styles.articleCardContent]: !isBlogPostPage
+        [styles.articleCardContent]: !isBlogPostPage,
+        [styles.articleContent]: isBlogPostPage
       })}
       itemProp="articleBody">
       <MDXContent>{children}</MDXContent>

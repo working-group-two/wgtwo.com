@@ -4,6 +4,7 @@ title: "The business case for not needing a business case"
 date: 2022-06-09
 tags: [saas, operators, managed services,]
 authors: [erlend-prestgard]
+image: ./RFP_illustration_large.jpg
 ---
 
 You’ve heard these terms a million times: *Managed services* and *software-as-a-service*. At first glance, they appear deceptively similar. You wonder, how are they different again? Understanding the difference between them unlocks a perspective on where the telecom industry is heading. 

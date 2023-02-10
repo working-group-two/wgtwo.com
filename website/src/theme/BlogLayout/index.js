@@ -4,8 +4,9 @@ import styles from './styles.module.css';
 import Layout from '@theme/Layout';
 import BlogSidebar from '@theme/BlogSidebar';
 export default function BlogLayout(props) {
-  const {sidebar, toc, children, isListView, ...layoutProps} = props;
+  const {sidebar, toc, children, isListView, isTagsPostPage, ...layoutProps} = props;
   const hasSidebar = sidebar && sidebar.items.length > 0;
+  const isBlogPostPage = !isListView && !isTagsPostPage;
   return (
     <Layout {...layoutProps} wrapperClassName={styles.blogBackground}>
       <div className="container margin-vert--lg">
@@ -13,8 +14,11 @@ export default function BlogLayout(props) {
           {/* <BlogSidebar sidebar={sidebar} /> */}
           <main
             className={clsx('col', {
-              [styles.cardListView]: isListView === true,
-              [styles.singleBlogPageView]: !isListView,
+              'col--8': isBlogPostPage,
+              'col--offset-1': toc && isBlogPostPage,
+              'col--offset-2': !toc && isBlogPostPage,
+              [styles.cardListView]: isListView === true || isTagsPostPage === true,
+              [styles.singleBlogPageView]: isBlogPostPage
             })}
             itemScope
             itemType="http://schema.org/Blog">

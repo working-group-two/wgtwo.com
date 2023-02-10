@@ -14,6 +14,19 @@
 }
 
 .authorsContainerCardView {
-  flex-direction: row-reverse;
+  /*flex-direction: row-reverse;*/
   margin: 0 !important;
+  width: 100%;
+}
+
+.authorItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.avatarPhoto {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 6px;
 }

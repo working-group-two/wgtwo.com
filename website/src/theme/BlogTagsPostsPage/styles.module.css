@@ -1,0 +1,3 @@
+.tagsHeader {
+  grid-column: 1 / 4; /* span whole row */
+}

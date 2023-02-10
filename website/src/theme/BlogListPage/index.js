@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import styles from './styles.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import {
   PageMetadata,
@@ -27,8 +28,12 @@ function BlogListPageMetadata(props) {
 }
 function BlogListPageContent(props) {
   const {metadata, items, sidebar} = props;
+  const pageNumberText = metadata.page > 1 ? ` - Page ${metadata.page}` : '';
   return (
     <BlogLayout isListView={true}>
+      <h2 className={styles.blogHeader}>
+        Blog {pageNumberText}
+      </h2>
       <BlogPostItems items={items} /> {/* ONLY ITEM OF INTEREST HERE */}
       <BlogListPaginator metadata={metadata} />
     </BlogLayout>

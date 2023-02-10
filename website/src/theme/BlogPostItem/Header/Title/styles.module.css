@@ -1,4 +1,8 @@
 .title {
+  font-size: 2.5rem;
+}
+
+.titleCardView {
   font-size: 1.5rem;
   /*line-height: 0.9em;*/
   margin-bottom: 10px;

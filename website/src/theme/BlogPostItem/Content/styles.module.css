@@ -13,7 +13,7 @@
   /* border-top: 1px solid #e9e9e9; */
 }
 
-/* re-format certain elements to better fit card view */
+/* re-format certain elements to better fit CARD VIEW */
 
 .articleCardContent img {
   display: none;
@@ -25,4 +25,9 @@
 
 .articleCardContent ul {
   padding-left: 20px;
+}
+
+/* re-format certain elements to better fit the design */
+.articleContent img {
+  border-radius: 5px;
 }
