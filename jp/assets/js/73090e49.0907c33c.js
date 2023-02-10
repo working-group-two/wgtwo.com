@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2122],{94996:function(e){e.exports=JSON.parse('{"permalink":"/jp/blog/tags/operators","page":1,"postsPerPage":9,"totalPages":2,"totalCount":10,"nextPage":"/jp/blog/tags/operators/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
