@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6066],{10056:function(e){e.exports=JSON.parse('{"permalink":"/jp/blog/tags/culture","page":1,"postsPerPage":9,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

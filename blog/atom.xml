@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/blog</id>
-    <title>[Test] Hero Redesign Test (#244) Blog</title>
+    <title>Blog Layout Redesign (#247) Blog</title>
     <updated>2023-02-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/blog"/>
-    <subtitle>[Test] Hero Redesign Test (#244) Blog</subtitle>
+    <subtitle>Blog Layout Redesign (#247) Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[We're teaming up with Kyocera Mirai Envision to build private networks in Japan]]></title>
