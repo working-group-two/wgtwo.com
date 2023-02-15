@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7517],{82062:function(o){o.exports=JSON.parse('{"permalink":"/jp/blog/tags/cloud","page":1,"postsPerPage":9,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
