@@ -7,7 +7,7 @@ function Component() {
     <div className={styles.brands}>
       <a
         target="_blank"
-        href="https://www.telenor.com/media/press-release/telenor-and-cisco-strengthen-partnership-to-support-critical-infrastructure-transitions-for-telcos-scale-joint-venture-wg2-for-global-operations"
+        href="https://www.telenor.com/media/newsroom/archive/working-group-two-readies-commercial-launch/"
       >
         <Image
           alt="Telenor Logo"
