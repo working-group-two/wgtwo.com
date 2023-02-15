@@ -1,7 +1,7 @@
 ---
 slug: wg2-teams-up-with-aws-strategic-partnership
 title: "Working Group Two Announces Strategic Collaboration with Amazon Web Services"
-date: 2023-02-07
+date: 2023-02-015
 tags: [saas, operators, core, cloud, partners, aws, press release]
 authors: [wgtwo]
 ---
