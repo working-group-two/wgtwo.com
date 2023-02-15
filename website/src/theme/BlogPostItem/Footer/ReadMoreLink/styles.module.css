@@ -24,11 +24,14 @@
 @media (max-width: 600px) {
   .readMoreButton {
     width: 100%;
-    background-color: #e7edf4;
+    background-color: #eaf1f9;
     border-bottom-left-radius: 10px;
     /*border-top: 1px solid #d6dfeb;*/
     padding: 16px 10px;
     padding-top: 14px;
+  }
+  .readMoreButton:hover {
+    background-color: #dee9f5;
   }
 
   .readMoreButton > b {
