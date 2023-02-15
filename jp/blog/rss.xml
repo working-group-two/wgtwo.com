@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>First draft - AWS SCA (#251) Blog</title>
+        <title>Blog Layout Redesign (#247) Blog</title>
         <link>https://www.wgtwo.com/jp/blog</link>
-        <description>First draft - AWS SCA (#251) Blog</description>
+        <description>Blog Layout Redesign (#247) Blog</description>
         <lastBuildDate>Wed, 15 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>jp</language>
         <item>
-            <title><![CDATA[Working Group Two Announces Strategic Collaboration with Amazon Web Services]]></title>
+            <title><![CDATA[Working Group Two announces strategic collaboration with Amazon Web Services]]></title>
             <link>https://www.wgtwo.com/jp/blog/wg2-teams-up-with-aws-strategic-partnership</link>
             <guid>wg2-teams-up-with-aws-strategic-partnership</guid>
             <pubDate>Wed, 15 Feb 2023 00:00:00 GMT</pubDate>
