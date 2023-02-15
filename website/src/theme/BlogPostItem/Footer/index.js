@@ -123,7 +123,7 @@ export default function BlogPostItemFooter() {
       )}
 
       {!isBlogPostPage && (
-        <div className={`col col--3 ${styles.readMoreContainer}`}>
+        <div className={`${styles.readMoreContainer}`}>
           <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
         </div>
       )}

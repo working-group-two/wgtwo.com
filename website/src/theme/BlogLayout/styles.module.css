@@ -10,6 +10,20 @@
   gap: 30px;
 }
 
+@media (max-width: 900px) {
+  .cardListView {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardListView {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
 /* SINGLE BLOG POST PAGE VIEW */
 
 .singleBlogPageView {

@@ -16,11 +16,19 @@
   overflow: hidden;
 }
 
+/* Card View - Mobile View */
+@media (max-width: 600px) {
+  .titleCardView {
+    padding: 0px 25px;
+    padding-top: 20px;
+  }
+}
+
 /**
   Blog post title should be smaller on smaller devices
 **/
 @media (max-width: 576px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }

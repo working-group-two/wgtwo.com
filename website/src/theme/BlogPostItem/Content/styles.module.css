@@ -31,3 +31,10 @@
 .articleContent img {
   border-radius: 5px;
 }
+
+/* Card View - Mobile View */
+@media (max-width: 600px) {
+  .articleCardContent {
+    padding: 0 25px;
+  }
+}

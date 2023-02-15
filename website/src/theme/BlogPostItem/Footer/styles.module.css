@@ -157,3 +157,19 @@
   color: #5b6476;
   fill: #5b6476;
 }
+
+@media (max-width: 600px) {
+  .articleCardFooter {
+    flex-direction: column;
+    height: auto;
+    border-top: none;
+  }
+
+  .tagsContainer > ul {
+    padding-top: 8px !important;
+    padding-bottom: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-top: 1px solid rgb(234, 234, 234);
+  }
+}

@@ -1,5 +1,5 @@
 .readMoreButton {
-  width: 100%;
+  width: 100px;
   background-color: #f3f7fc;
   border-bottom-right-radius: 10px;
 
@@ -19,4 +19,19 @@
   color: #034181;
   font-weight: 700;
   font-size: 0.85em;
+}
+
+@media (max-width: 600px) {
+  .readMoreButton {
+    width: 100%;
+    background-color: #e7edf4;
+    border-bottom-left-radius: 10px;
+    /*border-top: 1px solid #d6dfeb;*/
+    padding: 16px 10px;
+    padding-top: 14px;
+  }
+
+  .readMoreButton > b {
+    font-size: 1em;
+  }
 }
