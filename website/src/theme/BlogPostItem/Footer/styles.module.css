@@ -165,7 +165,11 @@
     border-top: none;
   }
 
-  .tagsContainer > ul {
+  .tagsContainer {
+    display: none;
+  }
+
+  /*.tagsContainer > ul {
     padding-top: 8px !important;
     padding-bottom: 10px !important;
     margin-left: 10px !important;
@@ -175,5 +179,5 @@
 
   .tagsContainer > ul > li > a {
     color: rgb(176, 176, 176);
-  }
+  }*/
 }

@@ -30,3 +30,9 @@
   height: 2rem;
   margin-left: 6px;
 }
+
+@media (max-width: 600px) {
+  .authorItem {
+    padding-left: 30px;
+  }
+}
