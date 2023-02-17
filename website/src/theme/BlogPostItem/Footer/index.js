@@ -60,9 +60,19 @@ export default function BlogPostItemFooter() {
     return null
   }
   return (
-    <footer className="row docusaurus-mt-lg">
+    <footer
+      className={clsx({
+        [styles.articleCardFooter]: !isBlogPostPage,
+        "row docusaurus-mt-lg": isBlogPostPage,
+      })}
+    >
       {tagsExists && (
-        <div className="col col--9">
+        <div
+          className={clsx({
+            [styles.tagsContainer]: !isBlogPostPage,
+            "col col--9": isBlogPostPage,
+          })}
+        >
           <TagsListInline tags={tags} />
         </div>
       )}
@@ -112,12 +122,8 @@ export default function BlogPostItemFooter() {
         </div>
       )}
 
-      {truncatedPost && (
-        <div
-          className={clsx("col text--right", {
-            "col--3": tagsExists,
-          })}
-        >
+      {!isBlogPostPage && (
+        <div className={`${styles.readMoreContainer}`}>
           <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
         </div>
       )}

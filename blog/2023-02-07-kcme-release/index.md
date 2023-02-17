@@ -4,6 +4,7 @@ title: "We're teaming up with Kyocera Mirai Envision to build private networks i
 date: 2023-02-07
 tags: [saas, operators, core, cloud, partners, private networks, press release]
 authors: [wgtwo]
+image: ./kyocera_featured_img.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'

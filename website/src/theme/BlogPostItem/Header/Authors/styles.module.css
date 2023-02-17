@@ -1,0 +1,38 @@
+.authorCol {
+  max-width: inherit !important;
+  flex-grow: 1 !important;
+}
+
+.imageOnlyAuthorRow {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.imageOnlyAuthorCol {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.authorsContainerCardView {
+  /*flex-direction: row-reverse;*/
+  margin: 0 !important;
+  width: 100%;
+}
+
+.authorItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.avatarPhoto {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 6px;
+}
+
+@media (max-width: 600px) {
+  .authorItem {
+    padding-left: 30px;
+  }
+}

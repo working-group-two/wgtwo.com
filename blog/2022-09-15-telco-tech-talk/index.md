@@ -4,6 +4,7 @@ title: "Telco Tech Talk: Three CEOs on the future of the telecom industry, movin
 date: 2022-09-15
 tags: [saas, operators, core, cloud, culture, disruption]
 authors: [tor-odland]
+image: ./allthreeceos.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'

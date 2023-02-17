@@ -1,0 +1,15 @@
+.blogHeader {
+  grid-column: 1 / 4; /* span whole row */
+}
+
+@media (max-width: 900px) {
+  .blogHeader {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .blogHeader {
+    grid-column: auto;
+  }
+}
