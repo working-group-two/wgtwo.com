@@ -27,6 +27,10 @@
   padding-left: 20px;
 }
 
+.articleCardContent p {
+  display: inline;
+}
+
 /* re-format certain elements to better fit the design */
 .articleContent img {
   border-radius: 5px;
