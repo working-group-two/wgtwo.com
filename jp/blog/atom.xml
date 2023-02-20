@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/jp/blog</id>
-    <title>Blog Layout Redesign (#247) Blog</title>
+    <title>fix: sarfari line-clamp on blogpost cards, refs #253 (#254) Blog</title>
     <updated>2023-02-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/jp/blog"/>
-    <subtitle>Blog Layout Redesign (#247) Blog</subtitle>
+    <subtitle>fix: sarfari line-clamp on blogpost cards, refs #253 (#254) Blog</subtitle>
     <icon>https://www.wgtwo.com/jp/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Working Group Two announces strategic collaboration with Amazon Web Services]]></title>
