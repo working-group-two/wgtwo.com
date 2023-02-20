@@ -11,14 +11,10 @@
 
 .avatarName,
 .avatarName > a {
-  color: rgb(30, 30, 30);
+  color: rgb(247, 247, 247);
   text-align: right;
   font-weight: 500;
   font-size: 0.95em;
-}
-.avatarName.hasImageBackground,
-.avatarName.hasImageBackground > a {
-  color: rgb(247, 247, 247);
 }
 
 .avatarSubtitle {
@@ -35,6 +31,7 @@
   overflow: hidden;
   line-break: anywhere; /* force ellipsis */
 }
-.avatarSubtitle.hasImageBackground {
+
+.avatarSubtitle {
   color: rgb(207, 207, 207);
 }
