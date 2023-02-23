@@ -4,51 +4,6 @@
 
     
         <position>
-            <id>844793</id>
-                                        <office>Norway - Oslo</office>
-                                                    <recruitingCategory>Permanent Employee ENG</recruitingCategory>
-            
-            <name>Erlang/Elixir engineer</name>
-
-                            <jobDescriptions>
-                                                                    <jobDescription>
-                            <name>The team and your role </name>
-                            <value>
-<![CDATA[
-                                <p><em><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;">As new license free spectrum is becoming available, there are a lot of new use cases that are opening up in the world and we are especially seeing an increase in the 5G, IoT and private network space. We in WGTWO want to cater our programmable network for these new and exciting use cases and we are currently actively exploring this area.</span></em></p><p><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;">This means that we are also looking for more people to join our explorations!<br><br>We are now looking to welcome an experienced Erlang/Elixir engineer to continue to develop our platform with new key features. A background in telco systems is a plus, but not a requirement.</span></p><p><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;">Most of our components are in-house developed in Java/Kotlin, Go, or Erlang, and are deployed on our self-managed Kubernetes cluster running on AWS. We are however language agnostic and believe in using the right tool for the job.</span></p><p><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;">We are firmly rooted in having people own their own work. This means that the team you will become a part of has a lot of freedom when it comes to planning and which features to build. At the same time the team is also responsible for operating the service once in production. We adhere to principles that include the use of continuous integration, continuous delivery, microservices and infrastructure as code.</span></p><p><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><strong>We believe you have experience with:</strong></span></p><ul><li style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><p>Writing code for distributed systems in Erlang or Elixir</p></li><li style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><p>A plus if you have worked on the design and development of one or several core network functions such as MME, SGW, PGW, AMF, UPF. </p></li><li style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><p>Building large scalable solutions</p></li><li style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><p>Caring about and shipping quality code</p></li><li style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><p>Scalable containerized applications (Kubernetes or similar)</p></li></ul><p><span style="font-family:Arial, Helvetica, sans-serif;font-size:14px;">The role is based in either of our offices in Trondheim, Stockholm or Oslo, but we are also open for remote colleagues. </span></p>
-]]>
-                            </value>
-                        </jobDescription>
-                                                                                            <jobDescription>
-                            <name>Our company culture</name>
-                            <value>
-<![CDATA[
-                                <span style="font-family:Arial, Helvetica, sans-serif;font-size:14px;">We’re a challenger in a well established multi-billion dollar industry. To succeed as a company, we need to deliver the high quality core services that subscribers are used to, while also adding value through the way that we operate. We believe our people and our culture will be a key differentiator in achieving this.<br><br>If you join us, you’ll get the trust and freedom needed to make a big impact in the telco industry. Since we’re solving telco problems in a modern way, we recruit from various industries and have people that used to work at Telenor, Google, Microsoft, and AWS. We promise that you’ll be surrounded by friendly, motivated and highly skilled coworkers. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together.<br><br>We’re a distributed company with offices in Oslo, Trondheim and Stockholm, as well as some remote colleagues in other locations (a total of 10 countries). We’ll pay for your phone and internet, as well as your lunch and office snacks. We’ll even pay you for your work! The Covid-19 pandemic forced a lot of companies to change how they think, but for us it confirmed that our remote-friendly and transparent approach goes a long way. We frequently host company wide activities online, like tech talks, demos, and failure fridays. We have Monday-kick offs, virtual lunches and fikas, and online gaming groups to keep the workday fun. Every year we also have a company wide off-site where we spend a whole week together share ideas and have fun. <br><br><strong>What's next?</strong><br>If you’re interested in working with us, please apply through the link below, or you can contact Marietta for any questions on marietta@wgtwo.com</span>
-]]>
-                            </value>
-                        </jobDescription>
-                                                            </jobDescriptions>
-            
-                            <employmentType>permanent</employmentType>
-            
-                            <seniority>experienced</seniority>
-            
-                            <schedule>full-time</schedule>
-            
-                            <yearsOfExperience>5-7</yearsOfExperience>
-            
-            
-                            <occupation>general_and_other_it_software</occupation>
-            
-                            <occupationCategory>it_software</occupationCategory>
-            
-                            <createdAt>2022-10-06T13:22:32+00:00</createdAt>
-            
-        </position>
-
-
-    
-        <position>
             <id>451724</id>
                                         <office>Norway - Oslo</office>
                                         <department>Cloud and Edge Infrastructure</department>
@@ -90,52 +45,6 @@
                             <occupationCategory>engineering</occupationCategory>
             
                             <createdAt>2021-09-15T15:24:10+00:00</createdAt>
-            
-        </position>
-
-
-    
-        <position>
-            <id>592326</id>
-                                        <office>Norway - Oslo</office>
-                                        <department>Ecosystem</department>
-                                        <recruitingCategory>Permanent Employee ENG</recruitingCategory>
-            
-            <name>Frontend Developer with a good eye for design - Product Team</name>
-
-                            <jobDescriptions>
-                                                                    <jobDescription>
-                            <name>The team and your role </name>
-                            <value>
-<![CDATA[
-                                <br><p><strong>THE PRODUCT TEAM</strong></p><p>The product team consists of eight engineers, one product designer, one UX researcher, and one product manager. We’re a remote-friendly and distributed team with most members located in Trondheim, Norway, and all current members are within one hour of the CET timezone (UK, Denmark, France). We do daily morning stand ups, retros every other week, and backlog grooming when necessary. And that’s it. We’re open to adjusting the way we work if you have any suggestions that you think could make it better.</p><p><strong>THE POSITION</strong></p><p>We need you to implement designs, and in doing so to spar with our designer, user researcher and product manager! We expect you to be very comfortable with CSS, HTML, and JavaScript. We use Vue, but if you’re more experienced with React we don’t think that will be a problem (we won’t switch to React though). The position is primarily frontend oriented, but you can also write some web controller code if you want to. Our servers are written in Javalin/Kotlin, which is very similar to Express/Typescript, so if you’re familiar with that it shouldn’t be a problem.</p><p>Most of our projects use this tech.stack, and for this position the first seven are most relevant:</p><p>Figma<br>HTML      <br>CSS       <br>JS     <br>Buefy     <br>Vuetify<br>Vue</p><p>Javalin<br>Kotlin<br>JOOQ/SQL<br>K8S<br>AWS</p>
-]]>
-                            </value>
-                        </jobDescription>
-                                                                                            <jobDescription>
-                            <name>Our company culture</name>
-                            <value>
-<![CDATA[
-                                <p>We’re a challenger in a well established multi-billion dollar industry. To succeed as a company, we need to deliver the high quality core services that subscribers are used to, while also adding value through the way that we operate. We believe our people and our culture will be a key differentiator in achieving this.</p><p>If you join us, you’ll get the trust and freedom needed to make a big impact in the telco industry. Since we’re solving telco problems in a modern way, we recruit from various industries and have people that used to work at Telenor, Google, Microsoft, Spotify, and AWS. We promise that you’ll be surrounded by friendly, motivated and highly skilled coworkers. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together.</p><p>We’re a distributed company with offices in Oslo, Trondheim and Stockholm, as well as some remote colleagues in other locations (a total of 10 countries). We’ll pay for your phone and internet, as well as your lunch and office snacks. We’ll even pay you for your work! The Covid-19 pandemic forced a lot of companies to change how they think, but for us it confirmed that our remote-friendly and transparent approach goes a long way. We frequently host company wide activities online, like tech talks, demos, and failure fridays. During covid we replaced our quarterly offsites with online HackDays. We also have Monday-kick offs, virtual lunches and fikas, and online gaming groups to keep the workday fun.</p><p><strong>WHAT’S NEXT?</strong></p><p>If you’re interested in working with us, please apply through the link below, or contact Theresa for any questions on Theresa@wgtwo.com. We’re looking forward to getting to know you! </p>
-]]>
-                            </value>
-                        </jobDescription>
-                                                            </jobDescriptions>
-            
-                            <employmentType>permanent</employmentType>
-            
-                            <seniority>experienced</seniority>
-            
-                            <schedule>full-time</schedule>
-            
-                            <yearsOfExperience>5-7</yearsOfExperience>
-            
-            
-                            <occupation>general_and_other_it_software</occupation>
-            
-                            <occupationCategory>it_software</occupationCategory>
-            
-                            <createdAt>2022-02-14T14:52:31+00:00</createdAt>
             
         </position>
 
@@ -200,65 +109,19 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
 
     
         <position>
-            <id>182944</id>
-                                        <office>Sweden - Stockholm</office>
-                                        <department>Cloud and Edge Infrastructure</department>
-                                        <recruitingCategory>Permanent Employee ENG</recruitingCategory>
-            
-            <name>Network Engineer</name>
-
-                            <jobDescriptions>
-                                                                    <jobDescription>
-                            <name>The team and your role </name>
-                            <value>
-<![CDATA[
-                                We are now looking for a network engineer to join our team that is realising the vision of a telecom network on a global scale. We work with customers and partners to ensure that our networking solution is of a world class standard. You will contribute to designing, deploying and operating the IP and telco networks around the world. You need to enjoy working independently, see rapid changes as an opportunity and want to create an impact together with the team.<br><br>Experiences we believe you have:<br><br><ul><li>Highly experienced in dynamic routing and switching, IPSEC &amp; VPNs, netflow, DNS, HTTP/2, NAT.</li><li>Involvement in projects with customers and vendors.</li><li>Strong GNU/Linux skills and be able to automate tasks in Python, Perl, Shell or similar.</li><li>Familiarity with revision control, hybrid and cloud technologies and automation in DevOps style.</li><li>Interested in open source network technologies.</li></ul>This position is based in either of our locations in Oslo, Trondheim, Stockholm or remotely in Germany, however we are open to discuss other alternatives.
-]]>
-                            </value>
-                        </jobDescription>
-                                                                                            <jobDescription>
-                            <name>Our company culture</name>
-                            <value>
-<![CDATA[
-                                <p>We’re a challenger in a well established multi-billion dollar industry. To succeed as a company, we need to deliver the high quality core services that subscribers are used to, while also adding value through the way that we operate. We believe our people and our culture will be a key differentiator in achieving this.</p>If you join us, you’ll get the trust and freedom needed to make a big impact in the telco industry. Since we’re solving telco problems in a modern way, we recruit from various industries. We have people that used to work at unknown startups, large tech companies like Google, Spotify, and AWS, as well as telecoms like Telenor. We promise that you’ll be surrounded by friendly, motivated and highly skilled coworkers. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together!<br><br><p>We’re a distributed company with offices in Oslo, Trondheim and Stockholm, hubs in Germany and Japan, as well as some remote colleagues in other locations (a total of 10 countries). We’ll pay for your phone, internet and equipment, as well as your lunch and office snacks. We’ll even pay you for your work! The Covid-19 pandemic forced a lot of companies to change how they think, but for us it confirmed that our remote-friendly and transparent approach goes a long way. We frequently host company wide activities online, like tech talks and demos. The whole company also meets up once or twice per year, and smaller groups meet more often. We also have Monday-kick offs and online gaming groups to keep the workday fun.</p><br>What’s next?<br>If you’re interested in working with us please apply through the link below, or contact ​Theresa for any questions on theresa@wgtwo.com. We’re looking forward to getting to know you!
-]]>
-                            </value>
-                        </jobDescription>
-                                                            </jobDescriptions>
-            
-                            <employmentType>permanent</employmentType>
-            
-                            <seniority>experienced</seniority>
-            
-                            <schedule>full-time</schedule>
-            
-                            <yearsOfExperience>5-7</yearsOfExperience>
-            
-            
-                            <occupation>systems_and_process_engineering</occupation>
-            
-                            <occupationCategory>engineering</occupationCategory>
-            
-                            <createdAt>2020-01-31T17:12:56+00:00</createdAt>
-            
-        </position>
-
-
-    
-        <position>
-            <id>601723</id>
+            <id>961376</id>
                                         <office>Norway - Oslo</office>
-                                        <department>Cloud and Edge Infrastructure</department>
+                                        <department>Customer Success</department>
                                         <recruitingCategory>Permanent Employee ENG</recruitingCategory>
             
-            <name>Security Engineer - Application</name>
+            <name>Service Manager</name>
 
                             <jobDescriptions>
                                                                     <jobDescription>
                             <name>The team and your role </name>
                             <value>
 <![CDATA[
-                                <p><em>Location: Remote/On-site/Hybrid</em><br><br>We are looking for a security engineer with knowledge of modern security practices to join us and be part of our team defending our communication services. <br>While many companies take security for granted, WG2 realizes that the security work we do is vital for our platform and our customers. <br>Because Working Group Two realizes that good security is critical in the current competitive landscape, we have the freedom to take a proactive approach and can plan longer-term and bigger tasks rather than only reacting to immediate needs.</p><p>This is a unique opportunity to help shape modern telecommunications.<br><br><strong>You will</strong></p><ul><li><p>Implement a SAST, DAST, Fuzzing across application and infrastructure services</p></li><li><p>Identify attack vectors across our APIs, Applications, and Telco Services through Penetration Testing and automation</p></li><li><p>Provide security guidance to Engineering and Product teams through threat modeling</p></li><li><p>Manage vulnerabilities across our infrastructure and applications<br><br></p></li></ul><strong>We are looking for someone who</strong><br><br><ul><li><p>Learns quickly and is comfortable with ambiguity</p></li><li><p>Likes to learn about new technologies and acquire new skills </p></li><li><p>Holds themselves and others to a high bar when working with production</p></li><li><p>Is able to design and write high-quality code and configuration in a relevant language (e.g. Golang, Python, Terraform).<br><br></p></li></ul><p><strong>Who you'll work with</strong></p><p>A dedicated security team. </p>
+                                <p>Our vision is to create programmable mobile networks to allow our customers and their end-users to create more valuable and useful products and services. We do this by deploying a programmable core network, making it accessible through developer-friendly APIs, and then creating a marketplace where customers and developers can meet. On the journey there we create a consistent, cloud-based, highly efficient core network delivered as-a-service. We know where we’re going, and with a lot of trust in each other, we’ll pave the way there together.</p><p>We are in an exciting expansion phase and in addition to scaling up all our engineering teams we are growing our world-class <em>Customer Success Team</em>.</p><p>So, if you have a passion for customers and tech, this is a great opportunity to join a strong international team. We are looking for a <strong>Service Manage</strong>r with excellent communication and interpersonal skills, who knows how to build positive and productive working relationships with customers for business growth. You will work in a dedicated Customer Success Team consisting of Service Managers, Delivery Managers, and Technical Support Engineers.</p><p>As our <strong>Service Manager </strong>you will play a key role as the orchestrator of the technical relationship with the customer.</p>This position is based in either of our locations in Oslo, Trondheim, Stockholm, but we are open to remote colleagues. <br><br><br><p>Who are you? We believe you: </p><ul><li><p>Most likely have a solid experience in a customer facing role within telecom. </p></li><li><p>You are familiar with terms like IPSec, Sigtran, SS7, Diameter, SIP, BGP, LTE, UMTS, GSM, EPC, IMS. </p></li><li><p>Deeply understand customer’s end to end solutions and requirements.</p></li><li><p>Prioritize tasks based on customer feedback and business impact.</p></li></ul><br><p>In this role you will: </p><ul><li><p>Drive operational relationships, including periodic check-in calls or meetings to review overall architecture and operational health of our business with the customer. </p></li><li><p>Be the liaison towards Engineering for the coordination of customer requested changes.</p></li><li><p>Oversee service implementation plans and timelines.</p></li><li><p>Track and report business and operational metrics for the assigned accounts. </p></li><li><p>Lead training and technical advice to the customer, in combination with Product Management, Customer Service and Operations organizations.</p></li><li><p>Promote WGTWO service roadmap to assigned accounts to maximize value.</p></li><li><p>Act as first level escalation contact.</p></li><li><p>Act as the customers advocate into WGTWO.</p></li></ul>
 ]]>
                             </value>
                         </jobDescription>
@@ -266,7 +129,7 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
                             <name>Our company culture</name>
                             <value>
 <![CDATA[
-                                <p>What's it like to work at Working Group Two?</p><ul><li><p>We are a small team that values getting things done in a professional manner</p></li><li><p>We encourage curiosity and creativity</p></li><li><p>We aim to create a warm and welcoming work environment</p></li><li><p>We treat our coworkers well and offer competitive benefits to employees</p></li><li><p>We work remotely but have offices in Norway (Oslo and Trondheim) and Sweden, engineering hubs in Germany and Japan, and employees in 11 countries.</p></li><li><p>To learn more about “the way we roll” we suggest you have a quick read through https://www.wgtwo.com/blog/were-all-grownups-here</p></li></ul><br>
+                                <p>What's it like to work at Working Group Two?</p><ul><li><p>We are a small team that values getting things done in a professional manner.</p></li><li><p>We encourage curiosity and creativity.</p></li><li><p>We aim to create a warm and welcoming work environment.</p></li><li><p>We treat our coworkers well and offer competitive benefits to employees.</p></li><li><p>We work remotely, hybrid and on-site, basically the way each prefers, and have offices in Norway (Oslo and Trondheim) and Sweden, engineering hubs in Germany and Japan, and employees in 13 countries.</p></li><li><p>To learn more about “the way we roll” we suggest you have a quick read through <a href="https://www.wgtwo.com/blog/were-all-grownups-here" target="_blank" rel="noreferrer noopener">here.</a></p></li></ul><p><br></p><p><strong>What's next?</strong></p>If you're interested in working with us, please apply though the link below, or contact Theresa (theresa@wgtwo.com) or Marietta (marietta@wgtwo.com) for any questions.
 ]]>
                             </value>
                         </jobDescription>
@@ -280,104 +143,13 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
             
                             <yearsOfExperience>5-7</yearsOfExperience>
             
-                            <keywords>Telco,Infrastructure security,Application security</keywords>
+                            <keywords>IPSec,Sigtran,SS7,Diameter,BGP,EPC,IMS</keywords>
             
-                            <occupation>computer_and_network_security</occupation>
-            
-                            <occupationCategory>it_software</occupationCategory>
-            
-                            <createdAt>2022-02-22T10:13:37+00:00</createdAt>
-            
-        </position>
-
-
-    
-        <position>
-            <id>423396</id>
-                                        <office>Norway - Oslo</office>
-                                        <department>Cloud and Edge Infrastructure</department>
-                                        <recruitingCategory>Permanent Employee ENG</recruitingCategory>
-            
-            <name>Security Engineer – Cloud and Kubernetes</name>
-
-                            <jobDescriptions>
-                                                                    <jobDescription>
-                            <name>The team and your role </name>
-                            <value>
-<![CDATA[
-                                <p><em>Location: Remote/On-site/Hybrid</em><br><br>We are looking for a security engineer with knowledge of modern security practices to join us and be part of our team defending our communication services. While many companies take security for granted, WG2 realizes that the security work we do is vital for our platform and our customers.  Because Working Group Two realizes that good security is critical in the current competitive landscape, we have the freedom to take a proactive approach and can plan longer-term and bigger tasks rather than only reacting to immediate needs.</p><p>This is a unique opportunity to help shape modern telecommunications.</p><h3><span style="font-size:14px;"><strong>You will</strong></span></h3><ul><li><p>Adopt and build security solutions for identifying and preventing misconfigurations across AWS and Kubernetes</p></li><li><p>Make security an integral part of our CI/CD pipeline</p></li><li><p>Provide security guidance to Engineering and Product teams through threat modeling</p></li><li><p>Build security metrics and alerts</p></li></ul><h2><strong><span style="font-size:14px;">We're looking for someone who</span></strong></h2><ul><li><p>Learns quickly and is comfortable with ambiguity</p></li><li><p>Likes to learn about new technologies and acquire new skills </p></li><li><p>Holds themselves and others to a high bar when working with production</p></li><li><p>Is able to design and write high-quality code and configuration in a relevant language (e.g. Golang, Python, Terraform).</p></li></ul><h2><span style="font-size:14px;"><strong><span style="font-family:Arial, Helvetica, sans-serif;">Who you'll work with</span></strong></span></h2><p><br>A dedicated security team.</p><h2><span style="font-size:14px;font-family:Arial, Helvetica, sans-serif;"><strong>What's it like to work at Working Group Two?</strong></span></h2><ul><li><p>We are a small team that values getting things done in a professional manner</p></li><li><p>We encourage curiosity and creativity</p></li><li><p>We aim to create a warm and welcoming work environment</p></li><li><p>We treat our coworkers well and offer competitive benefits to employees</p></li><li><p>We work remotely but have offices in Norway (Oslo and Trondheim) and Sweden, engineering hubs in Germany and Japan, and employees in 11 countries.</p></li><li><p>To learn more about “the way we roll” we suggest you have a quick read through https://www.wgtwo.com/blog/were-all-grownups-here</p></li></ul><br>
-]]>
-                            </value>
-                        </jobDescription>
-                                                                                            <jobDescription>
-                            <name>Our company culture</name>
-                            <value>
-<![CDATA[
-                                If you join us, you’ll get the trust and freedom needed to make a big impact in the telco industry. <br>Since we’re solving telco problems in a modern way, we recruit from various industries and have people that used to work at Telenor, Google, Microsoft, Spotify, <br>AWS among others. We promise that you’ll be surrounded by friendly, motivated and highly skilled coworkers. We have a culture of transparency <br>and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we’re going, and with a lot of trust in each other, we’ll pave the way <br>there together.<br><br>We’re a distributed company with offices in Oslo, Trondheim and Stockholm, a hub in Germany, as well as some remote colleagues in a total of 11 countries. <br>The Covid-19 pandemic forced a lot of companies to change how they think, but for us it confirmed that our remote-friendly and transparent approach goes a long way. 
-]]>
-                            </value>
-                        </jobDescription>
-                                                            </jobDescriptions>
-            
-                            <employmentType>permanent</employmentType>
-            
-                            <seniority>experienced</seniority>
-            
-                            <schedule>full-time</schedule>
-            
-                            <yearsOfExperience>2-5</yearsOfExperience>
-            
-            
-                            <occupation>rf_and_wireless_engineering</occupation>
+                            <occupation>general_and_other_engineering</occupation>
             
                             <occupationCategory>engineering</occupationCategory>
             
-                            <createdAt>2021-08-04T12:21:20+00:00</createdAt>
-            
-        </position>
-
-
-    
-        <position>
-            <id>139167</id>
-                                        <office>Sweden - Stockholm</office>
-                                                    <recruitingCategory>Permanent Employee ENG</recruitingCategory>
-            
-            <name>Software Engineer</name>
-
-                            <jobDescriptions>
-                                                                    <jobDescription>
-                            <name>The team and your role </name>
-                            <value>
-<![CDATA[
-                                <p>We are now looking to welcome an experienced software engineer to join our office in Stockholm, and continue to develop our platform with new key features. </p><p>Most of our components are in-house developed in Java/Kotlin, Go, or Erlang, and are deployed on our self-managed Kubernetes cluster running on AWS. We are however language agnostic and believe in using the right tool for the job. </p><p>We are firmly rooted in having people own their own work. This means that you are allowed a lot of freedom when it comes to planning and which features to build. However, our engineers who develop the code are also responsible for operating the code once in production. We adhere to principles that include the use of continuous integration, continuous delivery, microservices and infrastructure as code. </p><p>We believe you have experience with: </p><ul><li><p>Writing distributed, well designed services in a JVM language such as Kotlin or Java, and at least one other programming language, such as Go, C#, C++, Erlang, Python, Rust or Javascript.</p></li><li><p>Building large scalable solutions. </p></li><li><p>Caring about and shipping quality code.</p></li><li><p>Scalable cloud services (AWS, or other cloud infrastructure providers). </p></li><li><p>It is an added bonus if you have knowledge of the telco industry, telco protocols, VoIP systems or know networking by heart, but it is not required.</p></li></ul>
-]]>
-                            </value>
-                        </jobDescription>
-                                                                                            <jobDescription>
-                            <name>Our company culture</name>
-                            <value>
-<![CDATA[
-                                <p>We are challenging a well-established multi-billion dollar industry, and this is not a trivial task.  In order to do so, we need to continue delivering high-quality solutions on par with the existing standards, while embedding innovation in the way we operate and create value for the end-users. This is why we believe our people and culture is our key differentiator. </p><p>Joining us, you will get a lot of freedom and responsibility to create a big impact in the telco industry and you will be surrounded by friendly colleagues with high expertise. We have a culture of transparency and openness, and oftentimes we call ourselves a “start-up for grown-ups”. We know where we are going, and with a lot of trust in each other, we co-create the path to get there. </p><p>You will be part of a distributed team with main offices in Oslo, Trondheim and Stockholm as well as some remote colleagues in other locations. We believe in doing things together and that is why we frequently host company wide activities like tech talks, demos, and Failure Fridays. We also make sure everyone can get together at an offsite three times a year to have fun, discuss important topics and hack on crazy projects.</p><br>WHAT’S NEXT?<br>If you’re interested in working with us, please apply through the link below, or contact Theresa for any questions on theresa@wgtwo.com. We’re looking forward to getting to know you! 
-]]>
-                            </value>
-                        </jobDescription>
-                                                            </jobDescriptions>
-            
-                            <employmentType>permanent</employmentType>
-            
-                            <seniority>experienced</seniority>
-            
-                            <schedule>full-time</schedule>
-            
-                            <yearsOfExperience>5-7</yearsOfExperience>
-            
-            
-                            <occupation>systems_and_process_engineering</occupation>
-            
-                            <occupationCategory>engineering</occupationCategory>
-            
-                            <createdAt>2019-08-30T10:34:02+00:00</createdAt>
+                            <createdAt>2023-01-10T12:24:21+00:00</createdAt>
             
         </position>
 
@@ -388,7 +160,7 @@ AWS</pre>You don’t have to know everything from Vuetify to SQL. Maybe you’ve
                                         <office>Sweden - Stockholm</office>
                                                     <recruitingCategory>Permanent Employee ENG</recruitingCategory>
             
-            <name>Software engineer -Norway/Sweden/Remote - Europe</name>
+            <name>Software Engineer - Norway/Sweden/Remote - Europe</name>
 
                             <jobDescriptions>
                                                                     <jobDescription>

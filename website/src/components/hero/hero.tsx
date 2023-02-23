@@ -8,51 +8,47 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 function Component() {
   const { i18n } = useDocusaurusContext()
   return (
-    <div className={common.section}>
-      <div className={`${common.container} ${common.splitContainer}`}>
-        <div className={common.text}>
-          <h1 className={styles.titleHeader}>
-            Programmable. <br /> Scalable. <br /> Innovative. <br />
-            This is your new mobile core network.
-            {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
-          </h1>
-          <div
-            className={
-              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
-            }
+    <div className={`${common.section} ${styles.section}`}>
+      <div className={`${common.container} `}>
+        <h1 className={styles.titleHeader}>
+          Plug into the world's mobile core network
+        </h1>
+        <div
+          className={
+            i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+          }
+        >
+          <Translate
+            id="home.hero.subtitle"
+            description="Subtitle for the hero section"
+          >
+            データセンターリソースや
+            、ハードウェアなどシステム立ち上げに必要な先行投資の心配はいりません。またハードウェアやソフトウェアの保障切れによる追加投資も必要ありません。wgtwoのクラウドコアは、続的なコード追加、大幅なコスト削減、そして柔軟性を提供します。シンプルにお使いいただくためにサブスクリプションサービスとして提供され、お客様の成長に合わせて拡張することができます。
+          </Translate>
+        </div>
+        <div className={styles.buttons}>
+          <Link
+            to="/technology"
+            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
           >
             <Translate
-              id="home.hero.subtitle"
-              description="Subtitle for the hero section"
+              id="home.hero.techButton"
+              description="techButton for the hero section"
             >
-              No more boxes, no more end-of-life, no large upfront investments.
-              With wgtwo's cloud-native mobile core you get continuous
-              innovation, reduced costs and real flexibility. To make it really
-              simple for operators – it's delivered as-a-service and grows as
-              you grow.
+              詳しく見る
             </Translate>
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              to="/technology"
-              className={`${common.button} ${common.buttonPrimary}`}
+          </Link>
+          <Link
+            to="/request-demo"
+            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+          >
+            <Translate
+              id="home.hero.contactButton"
+              description="contactButton for the hero section"
             >
-              <Translate
-                id="home.hero.techButton"
-                description="techButton for the hero section"
-              >
-                Our Technology
-              </Translate>
-            </Link>
-            <Link to="/request-demo" className={common.button}>
-              <Translate
-                id="home.hero.contactButton"
-                description="contactButton for the hero section"
-              >
-                Request a Demo
-              </Translate>
-            </Link>
-          </div>
+              sXGPクラウドサービス
+            </Translate>
+          </Link>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import styles from "./security-domain.module.css"
 
 const securityDomains = [
   {
-    name: "Telecommunication Security",
+    name: "sXGP AP",
     description:
       "wgtwo performs threat modeling across its telco services to understand the threats/risks and implement countermeasures to reduce the risk of an event. Additionally, wgtwo leverages best practices identified by GSMA to implement additional controls.",
   },

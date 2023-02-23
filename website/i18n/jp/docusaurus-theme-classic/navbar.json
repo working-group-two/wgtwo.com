@@ -3,6 +3,10 @@
     "message": "Technology",
     "description": "Navbar item with label Technology"
   },
+  "item.label.sXGP": {
+    "message": "sXGP",
+    "description": "Navbar item with label sXGP"
+  },
   "item.label.Product Ecosystem": {
     "message": "Product Ecosystem",
     "description": "Navbar item with label Product Ecosystem"

@@ -1,6 +1,0 @@
-ownership_rules:
-  directory_matching_rules:
-    - name: personio jobs xml file is allowed
-      path: website/personio-jobs.xml
-    - name: blog
-      path: blog/**/*
