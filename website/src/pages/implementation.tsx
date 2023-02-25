@@ -7,6 +7,7 @@ import styles from "./implementation.module.css"
 import { Check } from "lucide-react"
 import Link from "@docusaurus/Link"
 import CONTACTFORM from "../components/contact-form/contact-form"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import Translate from "@docusaurus/Translate"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
@@ -36,8 +37,8 @@ function Component() {
                 </Translate>
               </div>
               <div className={styles.buttons}>
-                <Link
-                  to="/sxgp"
+                <AnchorLink
+                  href="#contact"
                   className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
                 >
                   <Translate
@@ -46,7 +47,7 @@ function Component() {
                   >
                     お問い合わせ
                   </Translate>
-                </Link>
+                </AnchorLink>
               </div>
             </div>
             <Image
@@ -529,16 +530,18 @@ function Component() {
             </div>
             <div className={common.centeredText}>
               <h2 className={styles.ourservice}>サービス導入動画</h2>
-              <iframe
-                width="100%"
-                height="450px"
-                src={`https://www.youtube.com/embed/E7wJTI-1dvQ`}
-              ></iframe>
+              <div className={styles.video_responsive}>
+                <iframe
+                  width="100%"
+                  height="450px"
+                  src={`https://www.youtube.com/embed/KOfughHvC_s`}
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className={`${common.section} ${common.sectionGray}`}>
+        <div id="contact" className={`${common.section} ${common.sectionGray}`}>
           <div className={common.container}>
             <div className={common.centeredText}>
               <h2 className={styles.featureheading}>お問い合わせフォーム</h2>

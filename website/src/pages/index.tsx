@@ -18,8 +18,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 function Index() {
   const { i18n } = useDocusaurusContext()
 
-
-  
   return (
     <Layout title="Working Group Two">
       <div className={common.page}>

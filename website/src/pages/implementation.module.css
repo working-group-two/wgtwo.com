@@ -235,28 +235,35 @@
     font-size: 20px;
     text-align: center;
   }
+
   .priceTierDescription {
     font-size: 15px;
   }
+
   .priceTierDescription span {
     font-size: 15px;
   }
+
   .priceTierFeatures li {
     font-size: 14px;
   }
+
   .ourServiceFeatures li {
     font-size: 12px;
     margin-bottom: 0px;
     column-gap: 15px;
     align-items: flex-start;
   }
+
   .user_icon {
     width: 18px;
     height: 18px;
   }
+
   .ourservice {
     font-size: 20px;
   }
+
   .features {
     display: grid;
     text-align: center;
@@ -553,6 +560,18 @@ div.item_featureGridHeader {
   }
   .section_seven {
     padding: 40px 0;
+  }
+}
+
+.video_responsive {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .video_responsive iframe {
+    height: 270px;
+    width: 100%;
   }
 }
 
