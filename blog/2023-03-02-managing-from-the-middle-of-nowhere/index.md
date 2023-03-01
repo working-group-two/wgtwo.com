@@ -4,7 +4,7 @@ title: Managing from the middle of nowhere
 date: 2023-03-02
 tags: [wfh, management, people, vanvik]
 authors: [kjh]
-image: ./kjh-officeview.png
+image: ./kjh-officeview2.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
