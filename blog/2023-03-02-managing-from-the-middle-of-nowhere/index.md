@@ -10,7 +10,7 @@ import ImgWithCaption from '../components/imgWithCaption'
 
 Picture a secluded spot deep in a Norwegian fjord. As you wander past the main farmhouse, you come across a barn. Inside, there are no animals in sight. Instead of hay and manure, you're greeted by the aroma of freshly made hot chocolate. And there, sitting behind a computer, surrounded by screens and a lightning-fast internet connection, is Karl Johan Heimark.
 
-![View from the office](./kjh-officeview.png)
+![][View from the office](./kjh-officeview.png)
 
 <!--truncate-->
 
@@ -54,6 +54,16 @@ How does he manage a team of engineers from the middle of nowhere?
 
 “As a natural introvert, I've become more comfortable with being an extrovert. I find both talking one on one and to a bigger group a lot easier over video than in person. When we have company settings and I meet everyone, it's not a big deal anymore.”
 
+<ImgWithCaption
+  style={{
+    width: "50%",
+    float: "right",
+    marginLeft:"20px"
+  }}
+  caption="Cats living the good cat life"
+  src={require("!file-loader!./catsofvanvik.png").default}
+  />
+
 “I can’t follow the water cooler chat in the offices, so I'm not necessarily colored by who talks the most in those settings. This makes me feel like I start meetings and one-on-ones with a cleaner sheet than I would in an office setting.”
 
 <ImgWithCaption
@@ -69,16 +79,6 @@ How does he manage a team of engineers from the middle of nowhere?
 “I do miss the dopamine I used to get from coding when I could solve problems quickly. Management means that you think and work with a longer-term perspective. My job is to facilitate and try to make people productive, engaged and happy. I’ve found that having a few old farm buildings to maintain makes for some great distracting physical work where I see the result quickly.”
 
 “Living with only farmers as neighbors I’ve gotten an immense amount of respect for the Norwegian farmer. I get very inspired by the work ethic, year-round planning and all-round skills that goes into keeping a farm running in the Norwegian fjords.”
-
-<ImgWithCaption
-  style={{
-    width: "50%",
-    float: "left",
-    marginLeft:"20px"
-  }}
-  caption="Cats living the good cat life"
-  src={require("!file-loader!./catsofvanvik.png").default}
-  />
 
 “My location impacts me in a few ways. Being close to nature and being able to go for a hike summer or winter is a great way for me to recharge and clear my head. On the other hand, traveling anywhere is at least a half-day effort. It's a balance, and I've learned to appreciate the pros and cons of my location.”
 
