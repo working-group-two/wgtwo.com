@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9486],{47290:function(t){t.exports=JSON.parse('{"permalink":"/jp/blog/tags/trust","page":1,"postsPerPage":9,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
