@@ -8,9 +8,9 @@ authors: [kjh]
 
 import ImgWithCaption from '../components/imgWithCaption'
 
-Picture a secluded spot deep in a Norwegian fjord. As you wander past the main farmhouse, you come across a barn. Inside, there are no animals in sight. Instead of hay and manure, you're greeted by the aroma of freshly made hot chocolate. And there, sitting behind a computer, surrounded by screens and a lightning-fast internet connection, is Karl Johan Heimark.
+![](./kjh-officeview.png)
 
-![View from the office](./kjh-officeview.png)
+Picture a secluded spot deep in a Norwegian fjord. As you wander past the main farmhouse, you come across a barn. Inside, there are no animals in sight. Instead of hay and manure, you're greeted by the aroma of freshly made hot chocolate. And there, sitting behind a computer, surrounded by screens and a lightning-fast internet connection, is Karl Johan Heimark.
 
 <!--truncate-->
 
