@@ -54,6 +54,10 @@ How does he manage a team of engineers from the middle of nowhere?
 
 “As a natural introvert, I've become more comfortable with being an extrovert. I find both talking one on one and to a bigger group a lot easier over video than in person. When we have company settings and I meet everyone, it's not a big deal anymore.”
 
+“I can’t follow the water cooler chat in the offices, so I'm not necessarily colored by who talks the most in those settings. This makes me feel like I start meetings and one-on-ones with a cleaner sheet than I would in an office setting.”
+
+“I do miss the dopamine I used to get from coding when I could solve problems quickly. Management means that you think and work with a longer-term perspective. My job is to facilitate and try to make people productive, engaged and happy. I’ve found that having a few old farm buildings to maintain makes for some great distracting physical work where I see the result quickly.”
+
 <ImgWithCaption
   style={{
     width: "50%",
@@ -63,10 +67,6 @@ How does he manage a team of engineers from the middle of nowhere?
   caption="Cats living the good cat life"
   src={require("!file-loader!./catsofvanvik.png").default}
   />
-
-“I can’t follow the water cooler chat in the offices, so I'm not necessarily colored by who talks the most in those settings. This makes me feel like I start meetings and one-on-ones with a cleaner sheet than I would in an office setting.”
-
-“I do miss the dopamine I used to get from coding when I could solve problems quickly. Management means that you think and work with a longer-term perspective. My job is to facilitate and try to make people productive, engaged and happy. I’ve found that having a few old farm buildings to maintain makes for some great distracting physical work where I see the result quickly.”
 
 “Living with only farmers as neighbors I’ve gotten an immense amount of respect for the Norwegian farmer. I get very inspired by the work ethic, year-round planning and all-round skills that goes into keeping a farm running in the Norwegian fjords.”
 
