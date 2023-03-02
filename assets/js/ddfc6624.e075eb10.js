@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6750],{43529:function(e){e.exports=JSON.parse('{"label":"management","permalink":"/blog/tags/management","allTagsPath":"/blog/tags","count":1}')}}]);

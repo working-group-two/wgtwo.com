@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4786],{14678:function(e){e.exports=JSON.parse('{"label":"vanvik","permalink":"/jp/blog/tags/vanvik","allTagsPath":"/jp/blog/tags","count":1}')}}]);
