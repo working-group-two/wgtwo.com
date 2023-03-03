@@ -36,10 +36,10 @@ function Index() {
       setFormErrorEmail(true)
       setFormError(
         translate({
-          message: "Email address is invalid, try again",
+          message: "Email address is invalid",
           id: "contact.form.invalidEmail",
           description:
-            "Error message when the email address is invalid, try again",
+            "Error message when the email address is invalid",
         })
       )
       return
