@@ -38,7 +38,7 @@ function Index() {
         translate({
           message: "Email address is invalid, try again",
           id: "contact.form.invalidEmail",
-          description: "Error message when the email address is invalid",
+          description: "Error message when the email address is invalid, try again",
         })
       )
       return
