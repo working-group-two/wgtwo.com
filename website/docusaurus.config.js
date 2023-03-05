@@ -68,6 +68,12 @@ module.exports = {
           position: "left",
         },
         {
+          href: "/implementation",
+          target: "_self",
+          label: "implementation",
+          position: "left",
+        },
+        {
           href: "/product-ecosystem",
           target: "_self",
           label: "Product Ecosystem",
@@ -147,6 +153,11 @@ module.exports = {
             {
               label: "Team",
               href: "/team",
+              target: "_self",
+            },
+            {
+              label: "Terms of Use",
+              href: "/terms-of-use",
               target: "_self",
             },
             {

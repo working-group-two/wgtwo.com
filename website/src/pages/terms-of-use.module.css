@@ -1,0 +1,37 @@
+/* お問い合わせフォーム start */
+.container {
+  display: flex;
+  max-width: 1296px;
+  padding: 0 24px;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.pageeHeader {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 160%;
+}
+
+.titleMainHeader {
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.termscontent {
+  margin-bottom: 15xp;
+  width: 100%;
+}
+
+.termscontent p {
+  margin-bottom: 0 !important;
+}
+/* お問い合わせフォーム end */
