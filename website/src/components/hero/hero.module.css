@@ -1,9 +1,9 @@
-.section{
-  background: 0 26%/cover #e2eef7;
+.section {
+  background: 0 26% / cover #e2eef7;
   padding: 120px 0;
 }
 
-.text{
+.text {
   text-align: center;
   align-items: flex-start;
   display: flex;
@@ -11,7 +11,7 @@
   justify-content: center;
 }
 
-.heroTextContainer{
+.heroTextContainer {
   align-items: center;
   max-width: 860px;
 }
@@ -24,12 +24,12 @@
   justify-content: stretch;
 }
 
-.heroButton{
+.heroButton {
   background-color: #1d3148 !important;
 }
 
 .heroButton:hover {
-  background-color: #2f455e!important;
+  background-color: #2f455e !important;
 }
 
 .image {

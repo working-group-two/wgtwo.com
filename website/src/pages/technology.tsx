@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Layout from "@theme/Layout"
 import styles from "./technology.module.css"
-import common from '../css/common.module.css'
+import common from "../css/common.module.css"
 import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list"
 import { Check } from "lucide-react"
 import Multig from "../components/multig/multig"
@@ -90,7 +90,7 @@ function Index() {
 
   return (
     <Layout title="Technology">
-      <div className={common.page}>        
+      <div className={common.page}>
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
