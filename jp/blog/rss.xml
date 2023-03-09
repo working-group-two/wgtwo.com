@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>[Demo] Victor alf - Devpages (#272) Blog</title>
+        <title>Case Studies Redesign (#174) Blog</title>
         <link>https://www.wgtwo.com/jp/blog</link>
-        <description>[Demo] Victor alf - Devpages (#272) Blog</description>
+        <description>Case Studies Redesign (#174) Blog</description>
         <lastBuildDate>Thu, 02 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

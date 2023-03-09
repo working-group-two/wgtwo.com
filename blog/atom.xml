@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/blog</id>
-    <title>[Demo] Victor alf - Devpages (#272) Blog</title>
+    <title>Case Studies Redesign (#174) Blog</title>
     <updated>2023-03-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/blog"/>
-    <subtitle>[Demo] Victor alf - Devpages (#272) Blog</subtitle>
+    <subtitle>Case Studies Redesign (#174) Blog</subtitle>
     <icon>https://www.wgtwo.com/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Managing from the middle of nowhere]]></title>
