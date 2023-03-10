@@ -111,7 +111,7 @@ function Index() {
             paddingTop: "48px",
             paddingBottom: "60px",
             backgroundImage: "url('/img/whirlpool.webp')",
-            display: "none"
+            display: "none",
           }}
         >
           <div className={`${common.container} ${styles.roadmapSection}`}>
