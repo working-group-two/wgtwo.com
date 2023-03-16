@@ -247,9 +247,6 @@ module.exports = {
           editUrl:
             "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
         },
-        googleAnalytics: {
-          trackingID: "UA-114662288-1",
-        },
         theme: {
           customCss: [
             require.resolve("./src/css/footer.css"),
