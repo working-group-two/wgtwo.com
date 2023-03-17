@@ -53,7 +53,7 @@ function Component() {
             <Image
               alt="wgtwo console portal image"
               className={styles.image}
-              img={require("../../static/img/sxgp/online presentation .png")}
+              img={require("../../static/img/sxgp/online_presentation.png")}
             />
           </div>
         </div>
@@ -66,7 +66,7 @@ function Component() {
             <Image
               alt="wgtwo console portal image"
               className={styles.image}
-              img={require("../../static/img/sxgp/Smart phone data_Monochromatic 1.png")}
+              img={require("../../static/img/sxgp/Smart_phone_data_Monochromatic_1.png")}
             />
             <div className={common.text}>
               <h3 className={styles.titleHeader}>
@@ -114,7 +114,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Piggy bank_Monochromatic 1.png")}
+                    img={require("../../static/img/sxgp/Piggy_bank_Monochromatic_1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>
@@ -128,7 +128,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Creative Process_Monochromatic.png")}
+                    img={require("../../static/img/sxgp/Creative_Process_Monochromatic.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>
@@ -152,7 +152,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/User interface_Monochromatic 1.png")}
+                    img={require("../../static/img/sxgp/User_interface_Monochromatic_1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>
@@ -166,7 +166,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Customer Service_Monochromatic.png")}
+                    img={require("../../static/img/sxgp/Customer_Service_Monochromatic.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>
@@ -180,7 +180,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Brainstorming session _Two Color.png")}
+                    img={require("../../static/img/sxgp/Brainstorming_session_Two Color.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>
@@ -351,7 +351,7 @@ function Component() {
                   </div>
                   <Image
                     alt="User Icon"
-                    img={require("../../static/img/sxgp/image 10.png")}
+                    img={require("../../static/img/sxgp/image_10.png")}
                   />
                 </div>
               </div>
@@ -376,7 +376,7 @@ function Component() {
                   </div>
                   <Image
                     alt="User Icon"
-                    img={require("../../static/img/sxgp/SIM_AQUOS_wish 1.png")}
+                    img={require("../../static/img/sxgp/SIM_AQUOS_wish_1.png")}
                   />
                 </div>
               </div>
@@ -430,7 +430,7 @@ function Component() {
 
                   <Image
                     alt="User Icon"
-                    img={require("../../static/img/sxgp/image 21.png")}
+                    img={require("../../static/img/sxgp/image_21.png")}
                   />
 
                   <ul>
@@ -468,7 +468,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Sending emails_Monochromatic 1.png")}
+                    img={require("../../static/img/sxgp/Sending_emails_Monochromatic_1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>お問合せフォーム 送信</div>
@@ -478,12 +478,12 @@ function Component() {
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.desktop_show}
-                  img={require("../../static/img/sxgp/Vector 8.png")}
+                  img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.mobile_show}
-                  img={require("../../static/img/sxgp/Vector 8_mobile.png")}
+                  img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
               </div>
 
@@ -492,7 +492,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/online presentation .png")}
+                    img={require("../../static/img/sxgp/online_presentation.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>確認のご連絡</div>
@@ -502,12 +502,12 @@ function Component() {
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.desktop_show}
-                  img={require("../../static/img/sxgp/Vector 8.png")}
+                  img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.mobile_show}
-                  img={require("../../static/img/sxgp/Vector 8_mobile.png")}
+                  img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
               </div>
 
@@ -516,7 +516,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Card Payment_Monochromatic 1.png")}
+                    img={require("../../static/img/sxgp/Card_Payment_Monochromatic_1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>お支払い</div>
@@ -526,7 +526,7 @@ function Component() {
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.mobile_show}
-                  img={require("../../static/img/sxgp/Vector 8_mobile.png")}
+                  img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
               </div>
 
@@ -535,7 +535,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Startup_Monochromatic 2.png")}
+                    img={require("../../static/img/sxgp/Startup_Monochromatic_2.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>キット送付</div>
@@ -545,12 +545,12 @@ function Component() {
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.desktop_show}
-                  img={require("../../static/img/sxgp/Vector 8.png")}
+                  img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
                   alt="wgtwo console portal image"
                   className={styles.mobile_show}
-                  img={require("../../static/img/sxgp/Vector 8_mobile.png")}
+                  img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
               </div>
 
@@ -559,7 +559,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Team success _Isometric 1.png")}
+                    img={require("../../static/img/sxgp/Team_success_Isometric 1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>サービス開始</div>
