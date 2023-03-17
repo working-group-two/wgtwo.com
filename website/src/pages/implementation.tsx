@@ -559,7 +559,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Team_success_Isometric 1.png")}
+                    img={require("../../static/img/sxgp/Team_success_Isometric_1.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>サービス開始</div>
