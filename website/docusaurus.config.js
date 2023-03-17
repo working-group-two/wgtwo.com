@@ -118,7 +118,7 @@ module.exports = {
             {
               label: "Implementation",
               href: "/implementation",
-              target: "_self"
+              target: "_self",
             },
             {
               label: "Customer Support",

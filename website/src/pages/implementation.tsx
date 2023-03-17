@@ -84,7 +84,8 @@ function Component() {
                     id="sxgp.paragraph1"
                     description="Paragraph for the sXGP section"
                   >
-                    sXGPは1.9 GHz帯の周波数を利用する免許不要のLTE方式で、主にスマートフォンを利用したコミュニケーションサービスに適した規格です。PHSの後継技術としても注目され、構内PHSの置き換えも進んでいます。また音声中心のPHSに比べて、データ通信やIoTなどを同一ネットワークに取り込むことができ、オフィス、倉庫、工場、屋外農場や加工場のようなエリアへの展開も期待されています。
+                    sXGPは1.9
+                    GHz帯の周波数を利用する免許不要のLTE方式で、主にスマートフォンを利用したコミュニケーションサービスに適した規格です。PHSの後継技術としても注目され、構内PHSの置き換えも進んでいます。また音声中心のPHSに比べて、データ通信やIoTなどを同一ネットワークに取り込むことができ、オフィス、倉庫、工場、屋外農場や加工場のようなエリアへの展開も期待されています。
                   </Translate>
                 </p>
                 <p>
@@ -340,7 +341,10 @@ function Component() {
                   </div>
                   <div className={styles.spacer}>
                     詳細は
-                    <a href="http://accuver.jp/products/sxgp-smallcell/" className="">
+                    <a
+                      href="http://accuver.jp/products/sxgp-smallcell/"
+                      className=""
+                    >
                       こちら
                     </a>
                     をご確認ください
@@ -362,7 +366,10 @@ function Component() {
                   </div>
                   <div className={styles.spacer}>
                     詳細は
-                    <a href="https://jp.sharp/products/aquos-wish/simfree/" className="">
+                    <a
+                      href="https://jp.sharp/products/aquos-wish/simfree/"
+                      className=""
+                    >
                       こちら
                     </a>
                     をご確認ください
@@ -397,7 +404,6 @@ function Component() {
                     <li>インカムによるグループ通話 (オプション)</li>
                     <li>クラウドカメラ(オプション)</li>
                     <li>オプションは別契約</li>
-
                   </ul>
                   <div className={styles.content_des}>SMSサービス</div>
                   <div className={styles.content_des}>クラウドPBX機能 ※2</div>
@@ -428,7 +434,10 @@ function Component() {
                   />
 
                   <ul>
-                    <li>GSM Authentication: COMP128v1, COMP128v2 and COMP128v3, MILENAGE (default)</li>
+                    <li>
+                      GSM Authentication: COMP128v1, COMP128v2 and COMP128v3,
+                      MILENAGE (default)
+                    </li>
                     <li>UMTS Authentication: MILENAGE (default)</li>
                     <li>Fixed ICCID (not programmable/writable!)</li>
                     <li>Programmable IMSI</li>
