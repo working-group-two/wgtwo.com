@@ -180,7 +180,7 @@ function Component() {
                   <Image
                     alt="wgtwo console portal image"
                     className={styles.image}
-                    img={require("../../static/img/sxgp/Brainstorming_session_Two Color.png")}
+                    img={require("../../static/img/sxgp/Brainstorming_session_Two_Color.png")}
                   />
                 </div>
                 <div className={styles.featureTitle}>

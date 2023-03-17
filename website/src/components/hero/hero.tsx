@@ -22,8 +22,7 @@ function Component() {
             id="home.hero.subtitle"
             description="Subtitle for the hero section"
           >
-            データセンターリソースや
-            、ハードウェアなどシステム立ち上げに必要な先行投資の心配はいりません。またハードウェアやソフトウェアの保障切れによる追加投資も必要ありません。wgtwoのクラウドコアは、続的なコード追加、大幅なコスト削減、そして柔軟性を提供します。シンプルにお使いいただくためにサブスクリプションサービスとして提供され、お客様の成長に合わせて拡張することができます。
+            Join a league of global telco front-runners in their pursuit of growth and efficiency. By connecting to our borderless core, you will simplify operations, reduce cost by 30-70% and get access to a product marketplace to help you differentiate and build new revenue streams.
           </Translate>
         </div>
         <div className={styles.buttons}>
