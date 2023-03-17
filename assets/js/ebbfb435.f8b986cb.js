@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[5800],{7032:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/telecom","page":1,"postsPerPage":18,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
