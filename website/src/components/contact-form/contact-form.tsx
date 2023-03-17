@@ -45,7 +45,8 @@ function Contact() {
         translate({
           message: "You have to agree to the Terms of Use!",
           id: "contact.form.notAgreedToTerms",
-          description: "Error message when terms of use agreed checkbox is not checked",
+          description:
+            "Error message when terms of use agreed checkbox is not checked",
         })
       )
       return
@@ -144,10 +145,7 @@ function Contact() {
           利用規約
         </Link>
         に同意する
-        <input
-          ref={form.terms_agreed}
-          type="checkbox"
-        />
+        <input ref={form.terms_agreed} type="checkbox" />
       </label>
 
       <button
@@ -162,7 +160,11 @@ function Contact() {
           送信する
         </Translate>
       </button>
-      {(emailError || termsError) && <div className={styles.formError}>{emailError} {termsError}</div>}
+      {(emailError || termsError) && (
+        <div className={styles.formError}>
+          {emailError} {termsError}
+        </div>
+      )}
     </div>
   )
 }
