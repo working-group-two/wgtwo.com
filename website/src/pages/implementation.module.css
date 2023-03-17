@@ -189,7 +189,8 @@
   color: #7da6ba;
 }
 
-.priceTier .altButton, .priceTier_right .altButton {
+.priceTier .altButton,
+.priceTier_right .altButton {
   flex-grow: 0;
 }
 
