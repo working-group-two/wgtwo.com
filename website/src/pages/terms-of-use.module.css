@@ -1,4 +1,8 @@
 /* お問い合わせフォーム start */
+.headerContainer {
+  justify-content: flex-start;
+}
+
 .container {
   display: flex;
   max-width: 1296px;
@@ -9,6 +13,10 @@
   width: 100%;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+.text {
+  max-width: none;
 }
 
 .pageeHeader {
@@ -33,5 +41,18 @@
 
 .termscontent p {
   margin-bottom: 0 !important;
+}
+
+ol {
+  counter-reset: list;
+}
+
+ol > li {
+  list-style: none;
+  counter-increment: list;
+}
+
+ol > li::marker {
+  content: "(" counter(list) ")\a0";
 }
 /* お問い合わせフォーム end */

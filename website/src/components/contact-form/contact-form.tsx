@@ -16,18 +16,21 @@ let form = {
   firstname: React.createRef<HTMLInputElement>(),
   email: React.createRef<HTMLInputElement>(),
   phone_number: React.createRef<HTMLInputElement>(),
+  terms_agreed: React.createRef<HTMLInputElement>(),
   message: React.createRef<HTMLTextAreaElement>(),
   button: React.createRef<HTMLButtonElement>(),
 }
 
 function Contact() {
-  const [formError, setFormError] = useState("")
+  const [emailError, setEmailError] = useState("")
+  const [termsError, setTermsError] = useState("")
 
   function sendMessage() {
-    setFormError("")
+    setEmailError("")
+    setTermsError("")
 
     if (!validEmail(form.email.current.value)) {
-      setFormError(
+      setEmailError(
         translate({
           message: "Email address is invalid",
           id: "contact.form.invalidEmail",
@@ -37,13 +40,34 @@ function Contact() {
       return
     }
 
+    if (form.terms_agreed.current.checked === false) {
+      setTermsError(
+        translate({
+          message: "You have to agree to the Terms of Use!",
+          id: "contact.form.notAgreedToTerms",
+          description: "Error message when terms of use agreed checkbox is not checked",
+        })
+      )
+      return
+    }
+
     message(
-      `Message from wgtwo.com/contact\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nMessage: ${form.message.current.value}`
+      `Message from wgtwo.com/implementation\n
+      Name: ${form.familyname.current.value} ${form.firstname.current.value}\n
+      Email: ${form.email.current.value}\n
+      Phone: ${form.phone_number.current.value}\n
+      Company: ${form.company.current.value}\n
+      Department: ${form.department.current.value}\n
+      Message: ${form.message.current.value}`
     )
 
-    form.name.current.disabled = true
+    form.familyname.current.disabled = true
+    form.firstname.current.disabled = true
     form.email.current.disabled = true
+    form.phone_number.current.disabled = true
     form.company.current.disabled = true
+    form.department.current.disabled = true
+    form.terms_agreed.current.disabled = true
     form.message.current.disabled = true
 
     form.button.current.innerText = "Message Sent!"
@@ -87,7 +111,7 @@ function Contact() {
         className={styles.span2}
       />
       <input
-        className={formError && styles.hasError}
+        className={emailError && styles.hasError}
         ref={form.email}
         placeholder={translate({
           message: "メールアドレス ",
@@ -114,6 +138,18 @@ function Contact() {
         })}
         className={styles.span2}
       />
+
+      <label>
+        <Link to="/terms-of-use" target="_blank" className={styles.termsLink}>
+          利用規約
+        </Link>
+        に同意する
+        <input
+          ref={form.terms_agreed}
+          type="checkbox"
+        />
+      </label>
+
       <button
         ref={form.button}
         onClick={() => sendMessage()}
@@ -126,7 +162,7 @@ function Contact() {
           送信する
         </Translate>
       </button>
-      {formError && <div className={styles.formError}>{formError}</div>}
+      {(emailError || termsError) && <div className={styles.formError}>{emailError} {termsError}</div>}
     </div>
   )
 }

@@ -79,14 +79,22 @@ function Component() {
                     : common.subtitleJp
                 }
               >
-                <Translate
-                  id="sxgp.subtitle"
-                  description="Subtitle for the sXGP section"
-                >
-                  sXGPは1.9
-                  GHz帯の周波数を利用するアンライセンスドLTE方式で、主にスマートフォンを利用したコミュニケーションサービスに適した規格です。PHSの後継技術としても注目され、構内PHSの置き換えも進んでいます。また音声中心のPHSに比べて、データ通信やIoTなどを同一システムに取り込むことができ、オフィス、倉庫、工場、屋外農場や加工場のようなエリアへの展開も期待されています。
-                  一方、現在展開中のsXGPはオンプレミス型が多い中、わたし達はクラウド型のsXGPをパートナーと提案することにより、当規格のさらなる成長を期待しています。
-                </Translate>
+                <p>
+                  <Translate
+                    id="sxgp.paragraph1"
+                    description="Paragraph for the sXGP section"
+                  >
+                    sXGPは1.9 GHz帯の周波数を利用する免許不要のLTE方式で、主にスマートフォンを利用したコミュニケーションサービスに適した規格です。PHSの後継技術としても注目され、構内PHSの置き換えも進んでいます。また音声中心のPHSに比べて、データ通信やIoTなどを同一ネットワークに取り込むことができ、オフィス、倉庫、工場、屋外農場や加工場のようなエリアへの展開も期待されています。
+                  </Translate>
+                </p>
+                <p>
+                  <Translate
+                    id="sxgp.paragraph2"
+                    description="Paragraph 2 for the sXGP section"
+                  >
+                    一方、現在展開中のs構内設置型sXGPは初期投資などの課題もあります。わたしたちはクラウド型のsXGPを提案することにより、当規格をより気軽にご利用いただけるようにサービス化を進めております。
+                  </Translate>
+                </p>
               </div>
             </div>
           </div>
@@ -232,28 +240,31 @@ function Component() {
             <div className={styles.priceTiers}>
               <div className={styles.priceTier}>
                 <div className={styles.priceTier_heading}>
-                  <div className={styles.priceTierTitle}>ご購入の目安</div>
+                  <div className={styles.priceTierTitle}>ご購入の際の目安</div>
                   <div className={styles.priceTierDescription}>
-                    初期コスト（買取）<span>¥150,000</span>
+                    初期コスト（買取）<span>準備中</span>
                   </div>
                   <div className={styles.priceTierDescription}>
-                    ランニングコスト（月額）<span>¥15,000</span>
+                    ランニングコスト（月額）<span>準備中</span>
                   </div>
                 </div>
 
                 <div className={styles.price}>
                   <div className={styles.priceTierFeatures}>
                     <li>
-                      <Check /> sXGP AP 1機
+                      <Check /> WG2クラウドコアβ版ライセンス x3
+                    </li>
+                    <li>
+                      <Check /> sXGP AP 1基
                     </li>
                     <li>
                       <Check /> USIM 3枚
                     </li>
                     <li>
-                      <Check /> Sharp AQUOS 3機
+                      <Check /> Sharp Aquos 3機
                     </li>
                     <li>
-                      <Check /> 初期設定、梱包、発送のサポート
+                      <Check /> 初期設定、梱包、発送サポート
                     </li>
                   </div>
                   <p className={styles.inner_priceTierDescription}>
@@ -261,7 +272,7 @@ function Component() {
                   </p>
                   <a
                     className={`${common.button} ${styles.altButton}`}
-                    href="https://developer.wgtwo.com"
+                    href="#contact"
                     target="_self"
                   >
                     購入する
@@ -273,7 +284,7 @@ function Component() {
                 <div className={styles.priceTier_heading_right}>
                   <div className={styles.priceTierTitle}>1ヶ月トライアル</div>
                   <div className={styles.priceTierDescription}>
-                    トライアル代<span>¥30,000</span>
+                    トライアル代<span>¥50,000</span>
                   </div>
                   <div className={styles.priceTierDescription}>
                     ※初期費用はかかりません
@@ -283,24 +294,24 @@ function Component() {
                 <div className={styles.price}>
                   <div className={styles.priceTierFeatures}>
                     <li>
-                      <Check /> WGTwoクラウドコアβ版ライセンス 3個
-                    </li>
-                    <li>
-                      <Check /> sXGP AP 3枚
+                      <Check /> WG2クラウドコアβ版ライセンス x3
                     </li>
                     <li>
                       <Check /> USIM 3枚
                     </li>
                     <li>
-                      <Check /> Sharp AQUOS 3機
+                      <Check /> sXGP AP 1基
                     </li>
                     <li>
-                      <Check /> 初期設定、梱包、発送のサポート
+                      <Check /> Sharp Aquos 3機
+                    </li>
+                    <li>
+                      <Check /> 初期設定、梱包、発送サポート
                     </li>
                   </div>
                   <a
                     className={`${common.button} ${styles.altButton}`}
-                    href="https://developer.wgtwo.com"
+                    href="#contact"
                     target="_self"
                   >
                     レンタルする
@@ -329,7 +340,7 @@ function Component() {
                   </div>
                   <div className={styles.spacer}>
                     詳細は
-                    <a href="#" className="">
+                    <a href="http://accuver.jp/products/sxgp-smallcell/" className="">
                       こちら
                     </a>
                     をご確認ください
@@ -351,7 +362,7 @@ function Component() {
                   </div>
                   <div className={styles.spacer}>
                     詳細は
-                    <a href="#" className="">
+                    <a href="https://jp.sharp/products/aquos-wish/simfree/" className="">
                       こちら
                     </a>
                     をご確認ください
@@ -373,17 +384,20 @@ function Component() {
                   </div>
                   <div className={styles.content_des}>音声サービス</div>
                   <ul>
-                    <li>441-90</li>
-                    <li>任意のMSISDN</li>
-                    <li>外線接続なし</li>
-                    <li>話したい放題</li>
+                    <li>拠点内・拠点間でのVPN音声サービス (内線)</li>
+                    <li>話したい放題・SMSし放題</li>
+                    <li>外線電話オプション (050番号)</li>
                   </ul>
                   <div className={styles.content_des}>
                     データアクセスサービス
                   </div>
                   <ul>
-                    <li>ギガ放題</li>
-                    <li>インターネット接続サービス ※1</li>
+                    <li>スマホのギガ放題</li>
+                    <li>IoT回線</li>
+                    <li>インカムによるグループ通話 (オプション)</li>
+                    <li>クラウドカメラ(オプション)</li>
+                    <li>オプションは別契約</li>
+
                   </ul>
                   <div className={styles.content_des}>SMSサービス</div>
                   <div className={styles.content_des}>クラウドPBX機能 ※2</div>
@@ -403,7 +417,7 @@ function Component() {
 
               <div className={styles.securityDomain}>
                 <div>
-                  <div className={styles.securityDomainTitle}>UISM</div>
+                  <div className={styles.securityDomainTitle}>USIM</div>
                   <div className={styles.securityDomainDescription}>
                     sysmoISIM-SJA2 SIM + USIM{" "}
                   </div>
@@ -412,6 +426,20 @@ function Component() {
                     alt="User Icon"
                     img={require("../../static/img/sxgp/image 21.png")}
                   />
+
+                  <ul>
+                    <li>GSM Authentication: COMP128v1, COMP128v2 and COMP128v3, MILENAGE (default)</li>
+                    <li>UMTS Authentication: MILENAGE (default)</li>
+                    <li>Fixed ICCID (not programmable/writable!)</li>
+                    <li>Programmable IMSI</li>
+                    <li>Programmable MSISDN</li>
+                    <li>Programmable Ki / K / OP or OPC (OPC default)</li>
+                    <li>GSM TS 11.11 compatibility</li>
+                    <li>64kByte flash size</li>
+                    <li>Java enabled (Card Manager, OTA, STK/SAT)</li>
+                    <li>Card-individual ADM key</li>
+                    <li>Card-individual OTA keys (3DES)</li>
+                  </ul>
                 </div>
               </div>
             </div>

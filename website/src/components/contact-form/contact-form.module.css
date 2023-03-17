@@ -67,6 +67,11 @@
   grid-column: span 2 / auto;
 }
 
+.termsLink {
+  color: rgb(0, 157, 255);
+  text-decoration: underline;
+}
+
 @media (max-width: 600px) {
   .contactMethods {
     grid-template-columns: 1fr 1fr;

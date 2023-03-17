@@ -68,12 +68,6 @@ module.exports = {
           position: "left",
         },
         {
-          href: "/implementation",
-          target: "_self",
-          label: "implementation",
-          position: "left",
-        },
-        {
           href: "/product-ecosystem",
           target: "_self",
           label: "Product Ecosystem",
@@ -120,6 +114,11 @@ module.exports = {
             {
               label: "Console Login",
               href: "https://console.wgtwo.com",
+            },
+            {
+              label: "Implementation",
+              href: "/implementation",
+              target: "_self"
             },
             {
               label: "Customer Support",
