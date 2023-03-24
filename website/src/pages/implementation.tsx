@@ -230,6 +230,14 @@ function Component() {
                   />{" "}
                   APIを活用して自分たちでいろいろ作り込みたい
                 </li>
+                <li>
+                  <Image
+                    alt="User Icon"
+                    className={styles.user_icon}
+                    img={require("../../static/img/sxgp/Vector.png")}
+                  />{" "}
+                  WiFiが使いにくい場所で困っている
+                </li>
               </div>
             </div>
           </div>
@@ -285,7 +293,7 @@ function Component() {
                 <div className={styles.priceTier_heading_right}>
                   <div className={styles.priceTierTitle}>1ヶ月トライアル</div>
                   <div className={styles.priceTierDescription}>
-                    トライアル代<span>¥50,000</span>
+                    トライアル代<span>¥45,000</span>
                   </div>
                   <div className={styles.priceTierDescription}>
                     ※初期費用はかかりません
@@ -389,34 +397,34 @@ function Component() {
                   <div className={styles.securityDomainDescription}>
                     提供するサービス
                   </div>
-                  <div className={styles.content_des}>音声サービス</div>
+                  <div className={styles.content_des}>音声・SMSサービス</div>
                   <ul>
                     <li>拠点内・拠点間でのVPN音声サービス (内線)</li>
                     <li>話したい放題・SMSし放題</li>
-                    <li>外線電話オプション (050番号)</li>
+                    <li>外線電話オプション (050番号) *1</li>
                   </ul>
                   <div className={styles.content_des}>
                     データアクセスサービス
                   </div>
                   <ul>
-                    <li>スマホのギガ放題</li>
+                    <li>SXGP内でのインターネット接続・ギガ放題 *2</li>
                     <li>IoT回線</li>
                     <li>インカムによるグループ通話 (オプション)</li>
                     <li>クラウドカメラ(オプション)</li>
                     <li>オプションは別契約</li>
                   </ul>
-                  <div className={styles.content_des}>SMSサービス</div>
-                  <div className={styles.content_des}>クラウドPBX機能 ※2</div>
+                  <div className={styles.content_des}>クラウドPBX機能 ※3</div>
                   <ul>
                     <li>準備中</li>
                   </ul>
                   <p>
-                    ※1 クラウドPBX連携により会社・部署の代表番号設置が可能
-                    (別途見積もり)
+                    ※1 PBXなしでの1ユーザー1外線番号による外線サービス。準備中。
                   </p>
                   <p>
-                    ※2
-                    sXGP平均スループットをベストエフォートにて提供。著しいデータ利用のIDには月末に追加料金をお願いしています
+                    ※2 sXGP平均スループットをベストエフォートにて提供。著しいデータ利用のIDには月末に追加料金をお願いしています。
+                  </p>
+                  <p>
+                    ※3 クラウドPBX連携により会社・部署の代表番号設置が可能
                   </p>
                 </div>
               </div>
