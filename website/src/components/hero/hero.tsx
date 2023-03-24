@@ -9,43 +9,49 @@ function Component() {
   const { i18n } = useDocusaurusContext()
   return (
     <div className={`${common.section} ${styles.section}`}>
-      <div className={common.container}>
-        <div className={`${common.text} ${styles.heroTextContainer}`}>
-          <h1 className={styles.titleHeader}>
-            Plug into the world's mobile core network
-            {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
-          </h1>
-          <div
-            className={
-              i18n.currentLocale === "en"
-                ? `${common.subtitle} ${styles.subtitle}`
-                : common.subtitleJp
-            }
+      <div className={`${common.container} `}>
+        <h1 className={styles.titleHeader}>
+          Plug into the world's mobile core network
+        </h1>
+        <div
+          className={
+            i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+          }
+        >
+          <Translate
+            id="home.hero.subtitle"
+            description="Subtitle for the hero section"
+          >
+            Join a league of global telco front-runners in their pursuit of
+            growth and efficiency. By connecting to our borderless core, you
+            will simplify operations, reduce cost by 30-70% and get access to a
+            product marketplace to help you differentiate and build new revenue
+            streams.
+          </Translate>
+        </div>
+        <div className={styles.buttons}>
+          <Link
+            to="/technology"
+            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
           >
             <Translate
-              id="home.hero.subtitle"
-              description="Subtitle for the hero section"
+              id="home.hero.techButton"
+              description="techButton for the hero section"
             >
-              Join a league of global telco front-runners in their pursuit of
-              growth and efficiency. By connecting to our borderless core, you
-              will simplify operations, reduce cost by 30-70% and get access to
-              a product marketplace to help you differentiate and build new
-              revenue streams.
+              詳しく見る
             </Translate>
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              to="/contact"
-              className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+          </Link>
+          <Link
+            to="/request-demo"
+            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+          >
+            <Translate
+              id="home.hero.contactButton"
+              description="contactButton for the hero section"
             >
-              <Translate
-                id="home.hero.techButton"
-                description="techButton for the hero section"
-              >
-                Show me how
-              </Translate>
-            </Link>
-          </div>
+              sXGPクラウドサービス
+            </Translate>
+          </Link>
         </div>
       </div>
     </div>
