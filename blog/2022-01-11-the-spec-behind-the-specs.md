@@ -585,19 +585,17 @@ lot of others that operate over character sets.
 | UTF8String                   | 12  | Synonymous with UniversalString at abstract level                                                                                                                                             |
 | NumericString                | 18  | `[0-9 ]`                                                                                                                                                                                      |
 | PrintableString              | 19  | `[A-Za-z0-9'()+,./:=? -]`                                                                                                                                                                     |
-| TelexString (T61String)      | 20  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #6, #87, #102, #103, #106, #107, #126, #144, #150, #153, #156, #164, #165, #168 + space,delete               |
-| VideotexString               | 21  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #1, #13, #72, #73, #87, #89, #102, #108, #126, #128, #129, #144, #150, #153, #164, #165, #168 + space,delete |
-| IA5String                    | 22  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #1, #6 + space,delete                                                                                        |
-| GraphicString                | 25  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) graphical sets (called 'G') + space                                                                               |
-| VisibleString (ISO646String) | 26  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #6 + space                                                                                                   |
-| GeneralString                | 27  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) graphical sets (called 'G'), control characters (called 'C') + space,delete                                       |
+| TelexString (T61String)      | 20  | (ISOReg) reg. #6, #87, #102, #103, #106, #107, #126, #144, #150, #153, #156, #164, #165, #168 + space,delete               |
+| VideotexString               | 21  | (ISOReg)reg. #1, #13, #72, #73, #87, #89, #102, #108, #126, #128, #129, #144, #150, #153, #164, #165, #168 + space,delete |
+| IA5String                    | 22  | (ISOReg)reg. #1, #6 + space,delete                                                                                        |
+| GraphicString                | 25  | (ISOReg) graphical sets (called 'G') + space                                                                               |
+| VisibleString (ISO646String) | 26  | (ISOReg)reg. #6 + space                                                                                                   |
+| GeneralString                | 27  | (ISOReg) graphical sets (called 'G'), control characters (called 'C') + space,delete                                       |
 | UniversalString              | 28  | [ISO10646-1]                                                                                                                                                                                  |
 | BMPString                    | 30  | Basic Multilingual Plane; subtype of UniversalString                                                                                                                                          |
 
 
-[ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf)
-is a pretty good source, it reference most of the registers but not
-all of them as far as I can see.
+ISOReg is a pretty good source, it reference most of the registers but not all of them as far as I can see.
 
 
 I'll list some examples of string types found in our ASN.1 files:
