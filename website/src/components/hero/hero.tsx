@@ -30,28 +30,48 @@ function Component() {
           </Translate>
         </div>
         <div className={styles.buttons}>
-          <Link
-            to="/technology"
-            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
-          >
-            <Translate
-              id="home.hero.techButton"
-              description="techButton for the hero section"
-            >
-              詳しく見る
-            </Translate>
-          </Link>
-          <Link
-            to="/request-demo"
-            className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
-          >
-            <Translate
-              id="home.hero.contactButton"
-              description="contactButton for the hero section"
-            >
-              sXGPクラウドサービス
-            </Translate>
-          </Link>
+          {i18n.currentLocale === "en" && (
+            <>
+              <Link
+                to="/contact"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+              >
+                <Translate
+                  id="home.hero.techButton"
+                  description="techButton for the hero section"
+                >
+                  Show me how
+                </Translate>
+              </Link>
+            </>
+          )}
+
+          {i18n.currentLocale === "jp" && (
+            <>
+              <Link
+                to="/technology"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+              >
+                <Translate
+                  id="home.hero.techButton"
+                  description="techButton for the hero section"
+                >
+                  詳しく見る
+                </Translate>
+              </Link>
+              <Link
+                to="/request-demo"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+              >
+                <Translate
+                  id="home.hero.contactButton"
+                  description="contactButton for the hero section"
+                >
+                  sXGPクラウドサービス
+                </Translate>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </div>
