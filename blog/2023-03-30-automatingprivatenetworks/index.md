@@ -1,6 +1,6 @@
 ---
 slug: automating-private-networks
-title: How automation can make private networks more affordable
+title: Using automation to drive down complexity and increase scalability of private networks
 date: 2023-03-30
 tags: [privatenetworks, aws, automation, saas]
 authors: [yan]
@@ -8,8 +8,6 @@ image: ./yan2.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
-
-![](./yan2.png)
 
 Recently, as any other engineer on the planet, I asked ChatGPT what is needed to build a private 5G network. Here’s what it said. 
 
@@ -25,9 +23,9 @@ Recently, as any other engineer on the planet, I asked ChatGPT what is needed to
   src={require("!file-loader!./chatgpt.png").default}
   />
   
-ChatGPT’s AI-generated response is not far from our vision. At WG2, we’re offering a rebuilt, modern core network delivered as a hosted service. It drives the dual benefits of cost savings and revenue growth for our private network customers. 
+ChatGPT’s AI-generated response is not far from our vision. At WG2, we’re offering a rebuilt, modern core network delivered as a hosted service. It drives the dual benefits of cost savings and revenue growth for our private network customers.  
 
-Case in point: Recently, [we teamed up with Kyocera Mirai Envison](https://www.wgtwo.com/blog/kcme-teams-up-with-wg2-for-private-networks/) to deliver private networks in Japan, and we’re now deploying our first solution in the agricultural sector (link https://www.wgtwo.com/blog/kcme-teams-up-with-wg2-for-private-networks/). 
+Case in point: Recently, [we teamed up with Kyocera Mirai Envison](https://www.wgtwo.com/blog/kcme-teams-up-with-wg2-for-private-networks/) to deliver private networks in Japan, and we’re now deploying our first solution in the agricultural sector 
 
 **In this post, we’ll explore how it would be possible to rationalize costs and reduce the time to onboard a new customer.**
 
@@ -39,9 +37,9 @@ To build a private network yourself, you essentially need:
 * IP addresses - bring your own RFC 1918 addresses, like ChatGPT is recommending. 
 * SIM cards and some phones (that’s probably what ChatGPT refers to as networking equipment). 
 * Network protocols: here, ChatGPT is modest, but you probably want to support protocols: 
-- Some IPSec to connect and secure your RAN equipment back to the core network by protecting the network traffic
-- Some SCTP traffic to actually enable your RAN equipment to communicate with the core 
-- Some GTP traffic to actually transport your Internet traffic from and to your RAN equipment. 
+> * Some IPSec to connect and secure your RAN equipment back to the core network by protecting the network traffic
+> * Some SCTP traffic to actually enable your RAN equipment to communicate with the core 
+> * Some GTP traffic to actually transport your Internet traffic from and to your RAN equipment. 
 * Network hardware and software, and some configuration and administration: this is where WG2 is focusing these days to bring value.  [After testing out](https://www.wgtwo.com/blog/exploring-aws-snowcone/) AWS’s fantastic, little on-premises hardware, the AWS Snowcone, we wanted to enable our customers to enjoy a nearly zero-touch network hardware and software experience.
 
 
@@ -71,7 +69,7 @@ The actual approach is the following:
     marginLeft:"20px"
   }}
   caption="Architecture"
-  src={require("!file-loader!./architecture.png").default}
+  src={require("!file-loader!./architecture2.png").default}
   />
 
 At the end of the automation, within seconds, we obtain those elements and we make them available to the customer. 
@@ -81,7 +79,7 @@ At the end of the automation, within seconds, we obtain those elements and we ma
 * Eventually, if they deploy an edge system and execute a simple set of commands, we can onboard their edge computer - such as AWS Snowcone! If they deploy a local version of our packet gateway, voila, their traffic will be automatically offloaded at the edge using the IP range they have provided us. It should be that easy.
 * In the end, if they want to close the network, no problem. We’ll remove the manifests from our system and the resources will get cleaned from our internal and AWS systems. 
 
-**How realistic is this?** 
+**How realistic is this?**   
 We are not too far from this - this is the expected and targeted user experience. We plan to work on the user journey to facilitate the onboarding of different kinds of users, but the underlying technology that enables them to connect should be the same and is mostly working for some simple network use cases. We are currently looking at customer feedback and trials in their labs to constantly improve our automation and further reduce the cost of deploying and operating private networks. 
 
 
