@@ -45,7 +45,7 @@ function Component() {
                     id="sxgpButton"
                     description="sXGP Button for the hero section"
                   >
-                    お問い合わせ
+                    sXGPクラウドサービス
                   </Translate>
                 </AnchorLink>
               </div>
@@ -93,7 +93,7 @@ function Component() {
                     id="sxgp.paragraph2"
                     description="Paragraph 2 for the sXGP section"
                   >
-                    一方、現在展開中のs構内設置型sXGPは初期投資などの課題もあります。わたしたちはクラウド型のsXGPを提案することにより、当規格をより気軽にご利用いただけるようにサービス化を進めております。
+                    一方、現在展開中の構内設置型sXGPは初期投資などの課題もあります。わたしたちはクラウド型のsXGPを提案することにより、当規格をより気軽にご利用いただけるようにサービス化を進めております。
                   </Translate>
                 </p>
               </div>
