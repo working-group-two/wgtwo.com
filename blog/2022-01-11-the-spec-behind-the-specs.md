@@ -545,14 +545,14 @@ One could lookup object identifiers by visiting this amazing
 `EXTERNAL` represents a value that does not need to be specified as a
 ASN.1 type. It carries information on how the data should be interpreted.
 
-{% raw %}```asn.1
+```asn.1
 Unidirectional {OPERATION:Invokable, OPERATION:Returnable} ::= SEQUENCE {
   dialoguePortion  DialoguePortion OPTIONAL,
   components       ComponentPortion{{Invokable}, {Returnable}}
 }
 
 DialoguePortion ::= [APPLICATION 11] EXPLICIT EXTERNAL
-```{% endraw %}
+```
 
 Here the value `dialoguePortion` will have tag 11 if specified, it is
 then up to the application to decide how to deal with the value.
@@ -563,7 +563,7 @@ Values of the type `REAL` will take a triplet of numbers (m, b, e),
 where m is the mantissa (a signed number), b the base (2 or 10), and e
 the exponent (a signed number).
 
-There are also three special values it can take `PLUS-INFINITY`, 0,
+There are also three special values it can take `PLUS-INFINITY`, `0`,
 and `MINUS-INFINITY`.
 
 ```asn.1
@@ -585,19 +585,22 @@ lot of others that operate over character sets.
 | UTF8String                   | 12  | Synonymous with UniversalString at abstract level                                                                                                                                             |
 | NumericString                | 18  | `[0-9 ]`                                                                                                                                                                                      |
 | PrintableString              | 19  | `[A-Za-z0-9'()+,./:=? -]`                                                                                                                                                                     |
-| TelexString (T61String)      | 20  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #6, #87, #102, #103, #106, #107, #126, #144, #150, #153, #156, #164, #165, #168 + space,delete               |
-| VideotexString               | 21  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #1, #13, #72, #73, #87, #89, #102, #108, #126, #128, #129, #144, #150, #153, #164, #165, #168 + space,delete |
-| IA5String                    | 22  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #1, #6 + space,delete                                                                                        |
-| GraphicString                | 25  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) graphical sets (called 'G') + space                                                                               |
-| VisibleString (ISO646String) | 26  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) reg. #6 + space                                                                                                   |
-| GeneralString                | 27  | [ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf) graphical sets (called 'G'), control characters (called 'C') + space,delete                                       |
+| TelexString (T61String)      | 20  | [ISO-IR] reg. #6, #87, #102, #103, #106, #107, #126, #144, #150, #153, #156, #164, #165, #168 + space,delete               |
+| VideotexString               | 21  | [ISO-IR] reg. #1, #13, #72, #73, #87, #89, #102, #108, #126, #128, #129, #144, #150, #153, #164, #165, #168 + space,delete |
+| IA5String                    | 22  | [ISO-IR] reg. #1, #6 + space,delete                                                                                        |
+| GraphicString                | 25  | [ISO-IR] graphical sets (called 'G') + space                                                                               |
+| VisibleString (ISO646String) | 26  | [ISO-IR] reg. #6 + space                                                                                                   |
+| GeneralString                | 27  | [ISO-IR] graphical sets (called 'G'), control characters (called 'C') + space,delete                                       |
 | UniversalString              | 28  | [ISO10646-1]                                                                                                                                                                                  |
 | BMPString                    | 30  | Basic Multilingual Plane; subtype of UniversalString                                                                                                                                          |
 
 
-[ISOReg](https://www.itscj-ipsj.jp/custom_contents/cms/linkfile/ISO-IR.pdf)
-is a pretty good source, it reference most of the registers but not
-all of them as far as I can see.
+[ISO-IR] (ISO International Register of Coded Character Sets To Be
+Used With Escape Sequences) is a pretty good source, it reference most
+of the registers but not all of them. The
+character-sets are registered with
+[IANA](https://www.iana.org/assignments/character-sets/character-sets.xhtml)
+
 
 
 I'll list some examples of string types found in our ASN.1 files:

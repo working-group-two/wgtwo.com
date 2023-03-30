@@ -124,6 +124,11 @@ module.exports = {
               href: "https://console.wgtwo.com",
             },
             {
+              label: "Implementation",
+              href: "/implementation",
+              target: "_self",
+            },
+            {
               label: "Customer Support",
               href: "https://support.wgtwo.com",
             },
@@ -155,6 +160,11 @@ module.exports = {
             {
               label: "Team",
               href: "/team",
+              target: "_self",
+            },
+            {
+              label: "Terms of Use",
+              href: "/terms-of-use",
               target: "_self",
             },
             {
