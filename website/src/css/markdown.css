@@ -11,12 +11,6 @@
   border-bottom: 2px solid black;
 }
 
-.markdown p,
-li,
-ul {
-  font-size: 18px;
-}
-
 html[data-theme="dark"] .markdown a {
   color: #aef0ff;
 }
