@@ -22,6 +22,14 @@ module.exports = {
     },
   },
   themeConfig: {
+    announcementBar: {
+      id: "announcement-bar",
+      content:
+        '🔐 Working Group Two is <b>ISO 27001:2022</b> certified - <a target="_blank" href="/blog/iso27001">read more</a> 🎉',
+      backgroundColor: "#B2E5FB",
+      textColor: "#2A3033",
+      isCloseable: true,
+    },
     metadata: [
       {
         name: "description",
