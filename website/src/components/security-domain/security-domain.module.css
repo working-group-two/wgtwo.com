@@ -74,7 +74,7 @@ div.securityDomainContainer.securityDomainContainer {
   display: grid;
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 35px;
 }
 
 @media (max-width: 1200px) {
@@ -84,7 +84,7 @@ div.securityDomainContainer.securityDomainContainer {
 }
 
 .securityDomain {
-  background-color: hsla(0, 0%, 100%, 0.05);
+  background-color: #fff;
   padding: 36px;
   border-radius: 8px;
   text-align: center;
