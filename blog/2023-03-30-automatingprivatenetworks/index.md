@@ -56,7 +56,7 @@ In order to rationalize costs and reduce the time to onboard each customer, we d
 
 The actual approach is the following:
 * A manifest for a private network is created - it contains mostly the parameters needed for the network to operate. We focus mostly on the one that the customer will be requesting - i.e. network details (CIDR), network PLMN, tac, etc. These manifests can be created via various means, but a web page and a form can be used. 
-* nThe automaton generates the following elements from the manifest:
+* The automation generates the following elements from the manifest:
 * A public endpoint (set of IP addresses) that the customer need to input as IPSec configuration 
 * A set of certificates to authenticate the IPSec link with our core 
 * A internal, customer specific, MME/AMF IP configuration (set of IP addresses)
