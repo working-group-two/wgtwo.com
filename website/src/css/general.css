@@ -70,6 +70,7 @@ html[data-theme="dark"] .footer--dark {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 0.8rem;
 }
 
 .markdown figure {
