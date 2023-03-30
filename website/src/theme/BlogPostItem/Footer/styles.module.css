@@ -100,6 +100,11 @@
   border: none;
   padding: 0;
   color: grey;
+  font-size: 14px;
+}
+
+.tagsContainer > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 /* Default CSS */
