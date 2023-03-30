@@ -63,16 +63,14 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>ISO 27001</div>
             <div className={styles.featureDescription}>
-              ISO 27001 process is managed with{" "}
-              <Link to="https://www.vanta.com" className={styles.link}>
-                Vanta
-              </Link>{" "}
-              and includes ISO 27001 Annex A controls as a realization of ISO
-              27002. View our{" "}
+              <b>wgtwo</b> is ISO 27001:2022 certified. View our{" "}
               <Link to="https://trust.wgtwo.com" className={styles.link}>
                 Trust Report
               </Link>{" "}
-              to see our controls in action.
+              to see our controls in action. Learn more on our{" "}
+              <Link to="/blog/iso27001" className={styles.link}>
+                blog.
+              </Link>{" "}
             </div>
           </div>
         </div>
