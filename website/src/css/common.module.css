@@ -12,7 +12,20 @@ p a:hover {
 }
 
 /* Page */
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Noto Sans JP", sans-serif;
+}
 .page {
   width: 100%;
   display: flex;
@@ -98,7 +111,7 @@ p a:hover {
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 34px;
   font-weight: 400;
 }
@@ -135,6 +148,9 @@ p a:hover {
 @media (max-width: 600px) {
   div.title {
     font-size: 48px;
+  }
+  .section {
+    padding: 40px 0;
   }
 }
 
