@@ -214,10 +214,14 @@ Additional security controls include:
 - Business continuity and disaster recovery plans
 - Secure auth solution compatible with SAML, OAuth, email, and MFA
 
-### Certification
+### Compliance
 **wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR. Processes exist to monitor our cloud and application infrastructure to these standards and fix any gaps.
 
+### ISO 27001:2022
+The ISO 27001:2022 certification can be downloaded from https://trust.wgtwo.com and more details can be found on our  [blog post](/blog/iso27001).
 
+*ISO Scope Statement*
+> Working Group Two operates a mobile core network platform-as-a-service, enabling its customers to provide mobile telecom services using its core network. In addition, WG2 builds APIs to drive the programmability of the mobile core network. The scope of the ISO/IEC 27001:2022 certification is limited to the Information Security Management System (ISMS) supporting Working Group Two AS’s Software-as-a-Service (SaaS), Web application products, mobile telecom services in accordance with the Statement of Applicability version 1.0 dated 03/09/2023.
 
 ### Auditing
 There exist policies for security practices, standards, and processes within the scope of how **wgtwo** implements a security governance framework. These policies can be shared with authorized parties.
