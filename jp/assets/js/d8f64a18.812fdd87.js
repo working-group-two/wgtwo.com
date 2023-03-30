@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6777],{97819:function(s){s.exports=JSON.parse('{"label":"saas","permalink":"/jp/blog/tags/saas","allTagsPath":"/jp/blog/tags","count":9}')}}]);

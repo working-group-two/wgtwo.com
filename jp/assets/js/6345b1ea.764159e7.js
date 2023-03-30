@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[96],{68563:function(e){e.exports=JSON.parse('{"label":"privatenetworks","permalink":"/jp/blog/tags/privatenetworks","allTagsPath":"/jp/blog/tags","count":1}')}}]);
