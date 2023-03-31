@@ -23,9 +23,7 @@ Recently, as any other engineer on the planet, I asked ChatGPT what is needed to
   src={require("!file-loader!./chatgpt.png").default}
   />
   
-ChatGPT’s AI-generated response is not far from our vision. At WG2, we’re offering a rebuilt, modern core network delivered as a hosted service. It drives the dual benefits of cost savings and revenue growth for our private network customers.  
-
-Case in point: Recently, [we teamed up with Kyocera Mirai Envison](https://www.wgtwo.com/blog/kcme-teams-up-with-wg2-for-private-networks/) to deliver private networks in Japan, and we’re now deploying our first solution in the agricultural sector 
+ChatGPT’s AI-generated response is not far from our vision. At WG2, we’re offering a rebuilt, modern core network delivered as a hosted service. It drives the dual benefits of cost savings and revenue growth for our private network customers. Case in point: Recently, [we teamed up with Kyocera Mirai Envison](https://www.wgtwo.com/blog/kcme-teams-up-with-wg2-for-private-networks/) to deliver private networks in Japan, and we’re now deploying our first solution in the agricultural sector. 
 
 **In this post, we’ll explore how it would be possible to rationalize costs and reduce the time to onboard a new customer.**
 
