@@ -15,9 +15,7 @@ Recently, as any other engineer on the planet, I asked ChatGPT what is needed to
 
 <ImgWithCaption
   style={{
-    width: "50%",
-    float: "middle",
-    marginLeft:"20px"
+    width: "100%",
   }}
   caption="Talking to AI"
   src={require("!file-loader!./chatgpt.png").default}
@@ -62,9 +60,6 @@ The actual approach is the following:
 
 <ImgWithCaption
   style={{
-    width: "50%",
-    float: "middle",
-    marginLeft:"20px"
   }}
   caption="Architecture"
   src={require("!file-loader!./architecture2.png").default}
