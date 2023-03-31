@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3433],{52665:function(s){s.exports=JSON.parse('{"label":"aws","permalink":"/jp/blog/tags/aws","allTagsPath":"/jp/blog/tags","count":5}')}}]);

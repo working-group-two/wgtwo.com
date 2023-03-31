@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2983],{17906:function(e){e.exports=JSON.parse('{"label":"mobile networking","permalink":"/jp/blog/tags/mobile-networking","allTagsPath":"/jp/blog/tags","count":1}')}}]);

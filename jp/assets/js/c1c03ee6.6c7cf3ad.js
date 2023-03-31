@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6907],{78996:function(s){s.exports=JSON.parse('{"label":"snow family","permalink":"/jp/blog/tags/snow-family","allTagsPath":"/jp/blog/tags","count":1}')}}]);
