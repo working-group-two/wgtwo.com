@@ -120,3 +120,6 @@ The telco world is embracing the benefits of the cloudified networks on AWS. Hyb
 
 The AWS Snowcone device has given Working Group Two the ability to quickly and easily create proof-of-concept integrations. Customers can try the WG2 [private mobile network](https://www.wgtwo.com/) features and services and flexibly scale to larger and more capable devices in the AWS Snow Family.
 
+*Note:*
+*This post originally appeared on the [AWS Partner Blog.](https://aws.amazon.com/blogs/apn/how-working-group-two-accelerates-the-creation-of-mobile-networks-with-aws-snow-family/)*
+
