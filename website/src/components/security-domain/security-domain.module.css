@@ -84,7 +84,7 @@ div.securityDomainContainer.securityDomainContainer {
 }
 
 .securityDomain {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
   padding: 36px;
   border-radius: 8px;
   text-align: center;
