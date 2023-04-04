@@ -60,7 +60,7 @@ function Component() {
                 </Translate>
               </Link>
               <Link
-                to="/request-demo"
+                to="/implementation"
                 className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
               >
                 <Translate
