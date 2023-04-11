@@ -3,7 +3,7 @@ slug: tuning-flux
 title: "Tuning flux"
 date: 2023-04-05
 tags: [infrastructure, automation, gitops]
-authors: [annaken]
+authors: [anna-kennedy]
 image: ./annaken.jpg
 ---
 
