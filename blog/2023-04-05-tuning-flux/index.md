@@ -27,7 +27,17 @@ As it turns out, there is a lot of interaction between the controllers, and the 
 * The image-reflector controller polls the registry for new images every minute, but upon discovery of a new image it notifies the  image-automation controller to write the new image tag to git.
 * The source controller polls github for new commits, but when a new commit is discovered the it notifies the kustomize controller to start a new reconciliation.
 
+<ImgWithCaption
+  caption="Correct model - communication between controllers"
+  src={require("!file-loader!./flux-flow-3.png").default}
+  />
+
 To improve performance further, we added a webhook so that a new commit to github would be pushed to the source controller.
+
+<ImgWithCaption
+  caption="Improved model - webhook initiates reconciliation"
+  src={require("!file-loader!./flux-flow-3.png").default}
+  />
 
 Now we only need the image-reflector controller to poll the registry every minute; the other three controllers are event-driven, not interval driven.
 This meant we could increase the interval timings to around an hour, and this would be primarily as a backstop (in case something broke) and to revert any manual changes made to the cluster.
