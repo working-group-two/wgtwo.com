@@ -7,6 +7,8 @@ authors: [anna-kennedy]
 image: ./annaken.jpg
 ---
 
+import ImgWithCaption from '../components/imgWithCaption'
+
 Last year we upgraded from flux v1 to v2 - flux v2 is a full rewrite, splitting the single binary into a number of dedicated controllers to improve performance. We installed flux v2 to each of our clusters, and let it run for a while before revisiting it to see what needed tuning, and what improvements could be made.
 
 <!--truncate-->
