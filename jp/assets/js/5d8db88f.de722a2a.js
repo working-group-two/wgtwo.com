@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1545],{84579:function(o){o.exports=JSON.parse('{"permalink":"/jp/blog/tags/automation","page":1,"postsPerPage":18,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
