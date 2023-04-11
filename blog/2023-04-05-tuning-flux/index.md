@@ -17,6 +17,11 @@ Last year we upgraded from flux v1 to v2 - flux v2 is a full rewrite, splitting 
 
 As we dug down into the documentation, we realised that our mental model of how the controllers worked wasn't the whole picture. We'd been thinking about the four main controllers (image-reflector, image-automation, source and kustomize) as four totally separate entities, and set their "doing-stuff" intervals very low (typically ~1 min) thinking that that would mean changes were deployed quickly.
 
+<ImgWithCaption
+  caption="Incorrect model - no communication between controllers"
+  src={require("!file-loader!./flux-flow-1.png").default}
+  />
+
 As it turns out, there is a lot of interaction between the controllers, and the discovery of a new image or a new git commit initates a workflow that ends up in a kustomize controller reconciliation:
 
 * The image-reflector controller polls the registry for new images every minute, but upon discovery of a new image it notifies the  image-automation controller to write the new image tag to git.
