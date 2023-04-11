@@ -29,7 +29,7 @@ As it turns out, there is a lot of interaction between the controllers, and the 
 
 <ImgWithCaption
   caption="Correct model - communication between controllers"
-  src={require("!file-loader!./flux-flow-3.png").default}
+  src={require("!file-loader!./flux-flow-2.png").default}
   />
 
 To improve performance further, we added a webhook so that a new commit to github would be pushed to the source controller.
