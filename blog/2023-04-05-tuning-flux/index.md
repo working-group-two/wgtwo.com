@@ -17,40 +17,12 @@ Last year we upgraded from flux v1 to v2 - flux v2 is a full rewrite, splitting 
 
 As we dug down into the documentation, we realised that our mental model of how the controllers worked wasn't the whole picture. We'd been thinking about the four main controllers (image-reflector, image-automation, source and kustomize) as four totally separate entities, and set their "doing-stuff" intervals very low (typically ~1 min) thinking that that would mean changes were deployed quickly.
 
-<ImgWithCaption
-  style={{
-    width: "100%",
-  }}
-  caption="Incorrect model - no communication between controllers"
-  src={require("!file-loader!./flux-flow-1.png").default}
-  />
-
 As it turns out, there is a lot of interaction between the controllers, and the discovery of a new image or a new git commit initates a workflow that ends up in a kustomize controller reconciliation:
 
 * The image-reflector controller polls the registry for new images every minute, but upon discovery of a new image it notifies the  image-automation controller to write the new image tag to git.
 * The source controller polls github for new commits, but when a new commit is discovered the it notifies the kustomize controller to start a new reconciliation.
 
-[flux-flow-2](flux-flow-2.png)
-<ImgWithCaption
-  style={{
-    width: "100%",
-  }}
-  caption="Corrected model - communication between controllers"
-  src={require("!file-loader!./flux-flow-2.png").default}
-  />
-
-
 To improve performance further, we added a webhook so that a new commit to github would be pushed to the source controller.
-
-[flux-flow-3](flux-flow-3.png)
-<ImgWithCaption
-  style={{
-    width: "100%",
-  }}
-  caption="Improved flow - webhook removes need for polling"
-  src={require("!file-loader!./flux-flow-3.png").default}
-  />
-
 
 Now we only need the image-reflector controller to poll the registry every minute; the other three controllers are event-driven, not interval driven.
 This meant we could increase the interval timings to around an hour, and this would be primarily as a backstop (in case something broke) and to revert any manual changes made to the cluster.
