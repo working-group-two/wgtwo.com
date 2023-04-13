@@ -17,15 +17,15 @@
   },
   "link.item.label.API Docs": {
     "message": "API Docs",
-    "description": "The label of footer link with label=API Docs linking to https://docs.wgtwo.com"
+    "description": "The label of footer link with label=API Docs linking to https://docs.wg2.com"
   },
   "link.item.label.Console Login": {
     "message": "Console Login",
-    "description": "The label of footer link with label=Console Login linking to https://console.wgtwo.com"
+    "description": "The label of footer link with label=Console Login linking to https://console.wg2.com"
   },
   "link.item.label.Customer Support": {
     "message": "Customer Support",
-    "description": "The label of footer link with label=Customer Support linking to https://support.wgtwo.com"
+    "description": "The label of footer link with label=Customer Support linking to https://support.wg2.com"
   },
   "link.item.label.About": {
     "message": "About",
@@ -84,7 +84,7 @@
     "description": "The label of footer link with label=Contact Us linking to /contact"
   },
   "copyright": {
-    "message": "© 2022 Working Group Two AS",
+    "message": "© 2023 Working Group Two AS",
     "description": "The footer copyright"
   }
 }

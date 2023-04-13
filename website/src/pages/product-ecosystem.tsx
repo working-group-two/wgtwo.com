@@ -206,7 +206,7 @@ function Index() {
             <div className={styles.priceTier}>
               <div className={styles.priceTierTitle}>Developer Portal</div>
               <div className={styles.priceTierDescription}>
-                Register as a developer on the <b>wgtwo</b> Developer Portal to
+                Register as a developer on the <b>WG2</b> Developer Portal to
                 build products leveraging core network events and media streams.
                 <Image
                   alt="Developer Portal site"
@@ -250,7 +250,7 @@ function Index() {
                   border: "0",
                   color: "#fff",
                 }}
-                href="https://www.wgtwo.com"
+                href="https://www.wg2.com"
               >
                 Get Started for Free
               </a>
@@ -274,9 +274,9 @@ function Index() {
               <div className={styles.priceTierTitle}>Storefront</div>
               <div className={styles.priceTierDescription}>
                 Your platform to market your application to customers across{" "}
-                <b>wgtwo</b> operators.
+                <b>WG2</b> operators.
                 <Image
-                  alt="wgtwo storefront"
+                  alt="WG2 storefront"
                   className={styles.image}
                   img={require("../../static/img/storefront.png")}
                 />

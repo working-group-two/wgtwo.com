@@ -30,7 +30,7 @@ function Component() {
               id="home.casestudy.subtitle"
               description="Subtitle for the casestudy section"
             >
-              wgtwo provides the platform with flexible APIs, allowing all
+              WG2 provides the platform with flexible APIs, allowing all
               customer segments to migrate to our core network. To learn more
               about how we are changing the game in the telecommunication space,
               check out the case studies to see how we can help your company.

@@ -15,7 +15,7 @@ let form = {
 
 function CaseStudies() {
   return (
-    <Layout title="wgtwo">
+    <Layout title="WG2">
       <div className={common.page}>
         <div className={common.section}>
           <div className={common.container}>
@@ -23,7 +23,7 @@ function CaseStudies() {
               <div className={common.title}>Industry case studies</div>
               <div className={common.subtitle}>
                 <br />
-                <b>wgtwo</b>'s goal is to drive innovation and growth for your
+                <b>WG2</b>'s goal is to drive innovation and growth for your
                 business.
               </div>
             </div>
@@ -73,7 +73,7 @@ function CaseStudies() {
 
 function sendMessage() {
   message(
-    `Message from wgtwo.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
+    `Message from wg2.com/case-studies\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
   )
 
   form.name.current.disabled = true

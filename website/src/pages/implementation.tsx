@@ -51,7 +51,7 @@ function Component() {
               </div>
             </div>
             <Image
-              alt="wgtwo console portal image"
+              alt="WG2 console portal image"
               className={styles.image}
               img={require("../../static/img/sxgp/online_presentation.png")}
             />
@@ -64,7 +64,7 @@ function Component() {
           </div>
           <div className={`${common.container} ${common.splitContainer}`}>
             <Image
-              alt="wgtwo console portal image"
+              alt="WG2 console portal image"
               className={styles.image}
               img={require("../../static/img/sxgp/Smart_phone_data_Monochromatic_1.png")}
             />
@@ -112,7 +112,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Piggy_bank_Monochromatic_1.png")}
                   />
@@ -126,7 +126,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Creative_Process_Monochromatic.png")}
                   />
@@ -140,7 +140,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Notifications_Monochromatic.png")}
                   />
@@ -150,7 +150,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/User_interface_Monochromatic_1.png")}
                   />
@@ -164,7 +164,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Customer_Service_Monochromatic.png")}
                   />
@@ -178,7 +178,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Brainstorming_session_Two_Color.png")}
                   />
@@ -392,7 +392,7 @@ function Component() {
               <div className={styles.securityDomain}>
                 <div>
                   <div className={styles.securityDomainTitle}>
-                    WGTwoクラウドコア
+                    WG2クラウドコア
                   </div>
                   <div className={styles.securityDomainDescription}>
                     提供するサービス
@@ -473,7 +473,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Sending_emails_Monochromatic_1.png")}
                   />
@@ -483,12 +483,12 @@ function Component() {
 
               <div className={styles.arrow}>
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.desktop_show}
                   img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.mobile_show}
                   img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
@@ -497,7 +497,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/online_presentation.png")}
                   />
@@ -507,12 +507,12 @@ function Component() {
 
               <div className={styles.arrow}>
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.desktop_show}
                   img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.mobile_show}
                   img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
@@ -521,7 +521,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Card_Payment_Monochromatic_1.png")}
                   />
@@ -531,7 +531,7 @@ function Component() {
 
               <div className={styles.arrow}>
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.mobile_show}
                   img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
@@ -540,7 +540,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Startup_Monochromatic_2.png")}
                   />
@@ -550,12 +550,12 @@ function Component() {
 
               <div className={styles.arrow}>
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.desktop_show}
                   img={require("../../static/img/sxgp/Vector_8.png")}
                 />
                 <Image
-                  alt="wgtwo console portal image"
+                  alt="WG2 console portal image"
                   className={styles.mobile_show}
                   img={require("../../static/img/sxgp/Vector_8_mobile.png")}
                 />
@@ -564,7 +564,7 @@ function Component() {
               <div className={styles.feature}>
                 <div className={styles.featureIcon}>
                   <Image
-                    alt="wgtwo console portal image"
+                    alt="WG2 console portal image"
                     className={styles.image}
                     img={require("../../static/img/sxgp/Team_success_Isometric_1.png")}
                   />

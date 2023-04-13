@@ -6,13 +6,13 @@ title: Privacy Notice
 
 <div class="pill">Updated March 24, 2022</div>
 
-Working Group Two will, as part of our business, process personal data. We will do our best to ensure that personal data is handled and processed reassuringly and trustworthily.
+WG2 will, as part of our business, process personal data. We will do our best to ensure that personal data is handled and processed reassuringly and trustworthily.
 
 If you have questions about the processing of your personal data, you can contact us, see our contact details below.
 
 ## 1 RESPONSIBLE FOR THE PROCESSING OF PERSONAL DATA
 
-Working Group Two is responsible for processing personal data described here, i.e. decides why and how the personal data is processed (the data controller).
+WG2 is responsible for processing personal data described here, i.e. decides why and how the personal data is processed (the data controller).
 
 We may also process personal data in other ways mentioned below, but we will inform the personal data that applies in other ways than through this notice.
 
@@ -21,7 +21,7 @@ Our processing as a data controller of personal data is based on the business we
 Contact details for us as data controller:
 
 ```
-Working Group Two AS
+WG2 AS
 Sommerrogata 17
 0255 Oslo
 Norway

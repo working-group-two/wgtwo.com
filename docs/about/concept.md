@@ -17,7 +17,7 @@ sidebar_position: 02
 
 The mobile core has been the brain of modern telecom for decades – but due to excessive complexity it has long been a limiting factor for innovation. Today, the core needs to become a source of innovation and growth, not a constraint in developing your business. 
 
-At **wgtwo** we started our work with that as a premise, and the goal has been to create the technology that allows telecom companies to do more with their technology – and what services they can provide to their end customers.
+At **WG2** we started our work with that as a premise, and the goal has been to create the technology that allows telecom companies to do more with their technology – and what services they can provide to their end customers.
 
 In our view the telecom industry has for too long been limited from carrying out innovative solutions based on constraints within the technical setup of the mobile core.
 

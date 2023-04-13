@@ -55,7 +55,7 @@ export default () => (
             <div className={common.subtitle}>
               <br />
               <b>60+</b> engineers, <b>19+</b> different nationalities make up
-              the <b>wgtwo</b> team. We collectively have spent centuries at
+              the <b>WG2</b> team. We collectively have spent centuries at
               Telenor, Telia, Ice, Google, PWC, Ericsson, Cisco, and more.
             </div>
           </div>

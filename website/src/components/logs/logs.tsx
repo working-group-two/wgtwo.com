@@ -25,7 +25,7 @@ function Component() {
               id="home.logs.subtitle"
               description="Subtitle for the logs section"
             >
-              Telecom operators on the wgtwo platform are able to configure
+              Telecom operators on the WG2 platform are able to configure
               their own subscriptions, giving them the freedom to add the
               products that meet their needs.
             </Translate>
@@ -45,7 +45,7 @@ function Component() {
           </div>
         </div>
         <Image
-          alt="wgtwo console portal image"
+          alt="WG2 console portal image"
           className={styles.image}
           img={require("../../../static/img/console.png")}
         />

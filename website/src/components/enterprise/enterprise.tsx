@@ -28,7 +28,7 @@ function Component() {
               id="home.enterprise.subtitle"
               description="Subtitle for the enterprise section"
             >
-              wgtwo core offers the full set of capabilities related to
+              WG2 core offers the full set of capabilities related to
               authentication, provisioning, voice, messaging and data services -
               transforming your existing business to the next level.
             </Translate>

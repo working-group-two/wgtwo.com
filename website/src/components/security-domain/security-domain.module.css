@@ -55,14 +55,14 @@ div.securityDomainContainer.securityDomainContainer {
 }
 
 .link {
-  color: #fff;
+  color: var(--wg2-international-blue-lighten-1);
   font-weight: 600;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 2px solid var(--wg2-international-blue-lighten-2);
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 0.7);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  color: var(--wg2-international-blue-lighten-2);
+  border-bottom: 2px solid var(--wg2-international-blue-lighten-2);
 }
 
 .hr {
@@ -84,7 +84,7 @@ div.securityDomainContainer.securityDomainContainer {
 }
 
 .securityDomain {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.25);
   padding: 36px;
   border-radius: 8px;
   text-align: center;

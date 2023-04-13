@@ -19,7 +19,7 @@ function Index() {
   const { i18n } = useDocusaurusContext()
 
   return (
-    <Layout title="Working Group Two">
+    <Layout title="WG2">
       <div className={common.page}>
         <Hero />
         <Brands />

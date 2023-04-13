@@ -12,7 +12,7 @@ function Component() {
         <div className={common.text}>
           <div className={styles.title}>Trust is our priority.</div>
           <div className={styles.subtitle}>
-            <b>wgtwo</b> strives to become the most secure mobile telco core
+            <b>WG2</b> strives to become the most secure mobile telco core
             network. In doing so, we would like to share several of our
             implemented controls.
           </div>

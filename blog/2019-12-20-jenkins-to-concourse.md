@@ -6,7 +6,7 @@ tags: [infrastructure, CICD, devops]
 authors: anna-kennedy
 ---
 
-At **wgtwo**, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
+At **WG2**, we try to use CI/CD pipelines to automate all of our repetitive tasks when it comes to code and infrastructure deployment and testing, such as:
 
 <!--truncate-->
 

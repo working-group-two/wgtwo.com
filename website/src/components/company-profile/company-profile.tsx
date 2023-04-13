@@ -13,7 +13,7 @@ const CompanyProfile = () => {
           <table>
             <tr>
               <th>会社名</th>
-              <td>Working Group Two合同会社</td>
+              <td>WG2合同会社</td>
             </tr>
             <tr>
               <th>代表社員</th>

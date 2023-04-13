@@ -19,7 +19,7 @@ function Component() {
           <div className={`${common.container} ${styles.headerContainer}`}>
             <div className={`${common.text} ${styles.text}`}>
               <h1 className={styles.pageHeader}>
-                WGTwo sXGPスターターキット <br />
+                WG2 sXGPスターターキット <br />
                 利用規約
               </h1>
             </div>

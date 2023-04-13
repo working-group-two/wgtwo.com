@@ -2,14 +2,14 @@ const path = require("path")
 const mdxMermaid = require("mdx-mermaid")
 
 module.exports = {
-  title: "Working Group Two",
+  title: "WG2",
   tagline:
-    "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
+    "No more boxes, no more end of life, no large upfront investments. With the WG2 cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
   url: "https://www.wgtwo.com",
   baseUrl: "/",
   favicon: "img/favicons/favicon.ico",
-  organizationName: "working-group-two",
-  projectName: "wgtwo.com",
+  organizationName: "WG2",
+  projectName: "wg2.com",
   deploymentBranch: "gh-pages",
   trailingSlash: "true",
   i18n: {
@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         name: "og:image",
-        content: "/img/wgtwo-logo.png",
+        content: "/img/wg2-logo.png",
       },
       {
         name: "keywords",
@@ -49,10 +49,10 @@ module.exports = {
     prism: {
       additionalLanguages: ["promql", "protobuf"],
     },
-    image: "/img/wgtwo-logo.png",
+    image: "/img/wg2-logo.png",
     navbar: {
       logo: {
-        alt: "wgtwo Logo",
+        alt: "WG2 Logo",
         src: "img/logo.svg",
         srcDark: "img/logo_white.svg",
         target: "_self",
@@ -97,7 +97,7 @@ module.exports = {
     footer: {
       style: "dark",
       logo: {
-        alt: "wgtwo Logo",
+        alt: "WG2 Logo",
         src: "img/logo_white.svg",
         href: "/",
         width: "191px",
@@ -233,7 +233,7 @@ module.exports = {
           path: "../docs",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/working-group-two/wgtwo.com/edit/main/docs/",
+            "https://github.com/working-group-two/wg2.com/edit/main/docs/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           remarkPlugins: [mdxMermaid],
@@ -244,7 +244,7 @@ module.exports = {
           postsPerPage: 18,
           blogSidebarCount: 1000,
           editUrl:
-            "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
+            "https://github.com/working-group-two/wg2.com/edit/main/blog/",
         },
         theme: {
           customCss: [

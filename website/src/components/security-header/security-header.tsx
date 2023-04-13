@@ -10,7 +10,7 @@ function Component() {
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
           <section>
-            <div className={common.pillTitle}>wgtwo Security</div>
+            <div className={common.pillTitle}>WG2 Security</div>
           </section>
 
           <h2 className={common.title}>
@@ -33,7 +33,7 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>GDPR</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> is GDPR compliant and provides Data Processing
+              <b>WG2</b> is GDPR compliant and provides Data Processing
               Agreements (DPAs) with our all of our customers to outline how and
               where your data is processed.
             </div>
@@ -48,7 +48,7 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>AWS Well Architected</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> is committed to adopting AWS key concepts, design
+              <b>WG2</b> is committed to adopting AWS key concepts, design
               principles, and architectural best practices for designing and
               running workloads in the cloud.
             </div>

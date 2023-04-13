@@ -41,7 +41,7 @@ const tweetTemplate = `
   from @workinggrouptwo.
   Here's mine:
   "{text}"
-  https://www.wgtwo.com/techco #TechCo #telcocloud 
+  https://www.wg2.com/techco #TechCo #telcocloud 
 `
 
 function Component() {
@@ -271,7 +271,7 @@ function Component() {
             className={`${common.container} ${common.text} ${styles.contactSection}`}
           >
             If you don't want to take shortcuts but still want to become a
-            TechCo, get in touch with the team at Working Group Two.
+            TechCo, get in touch with the team at WG2.
             <br />
             <Link
               to="/contact"

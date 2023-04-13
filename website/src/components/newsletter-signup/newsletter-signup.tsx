@@ -36,7 +36,7 @@ const NewsletterSignup = ({
         <div className={common.centeredText}>
           <h2>Stay updated</h2>
           <p>
-            Get the latest from Working Group Two. We'll send you news and
+            Get the latest from WG2. We'll send you news and
             updates from time to time.{" "}
           </p>
 

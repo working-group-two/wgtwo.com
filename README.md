@@ -1,9 +1,9 @@
-# Working Group Two (wgtwo.com)
+# WG2 (wg2.com)
 
-![wgtwo.com](
-https://github.com/working-group-two/wgtwo.com/actions/workflows/website-deploy.yml/badge.svg?event=push) (https://www.wgtwo.com)
+![wg2.com](
+https://github.com/working-group-two/wg2.com/actions/workflows/website-deploy.yml/badge.svg?event=push) (https://www.wg2.com)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3dc3b0e4-626a-4e64-ac3c-aa83f11b6790/deploy-status?branch=dev-pages)](https://app.netlify.com/sites/wgtwo-dev/deploys) (https://wgtwo-dev.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3dc3b0e4-626a-4e64-ac3c-aa83f11b6790/deploy-status?branch=dev-pages)](https://app.netlify.com/sites/wg2-dev/deploys) (https://wg2-dev.netlify.app/)
 
 ## Adding content to the website
 <details>
@@ -13,7 +13,7 @@ You can create pull requests directly from the repo - or - from your forked repo
 Clone the repo
 
 ```
-git clone https://github.com/working-group-two/wgtwo.com.git
+git clone https://github.com/working-group-two/wg2.com.git
 ```
 
 Create your new branch
@@ -45,10 +45,10 @@ git push --set-upstream origin yourname/your-branch-name
 <details>
 <summary> Create a Blog Post</summary>
 
-- Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
+- Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wg2.com/tree/main/blog)
   - Name the directory `yyyy-mm-dd-name-of-blog`
   - Add a file called `index.md` and add your content here
-  - Ensure you add a `<!--truncate-->` after the first paragraph of your blog post to truncate the text for when viewing at wgtwo.com/blog. If not, the entire blog post will be displayed
+  - Ensure you add a `<!--truncate-->` after the first paragraph of your blog post to truncate the text for when viewing at wg2.com/blog. If not, the entire blog post will be displayed
   - Add images to this directory
 
 Example simple blog post in `/blog/2021-12-17-log4j-security-vulnerability/index.md`:
@@ -62,7 +62,7 @@ tags: [security, infrastructure, vulnerability]
 authors: [jonny-griffin]
 ---
 
-This will be viewed from wgtwo.com/blog and should be short.
+This will be viewed from wg2.com/blog and should be short.
 
 <!--truncate-->
 
@@ -85,8 +85,8 @@ mtl:
 <details>
 <summary> Create a doc</summary>
 
-- Upload your-doc.md at [docs/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/)
-- Upload images at [docs/images/](https://github.com/working-group-two/wgtwo.com/tree/main/docs/images/)
+- Upload your-doc.md at [docs/](https://github.com/working-group-two/wg2.com/tree/main/docs/)
+- Upload images at [docs/images/](https://github.com/working-group-two/wg2.com/tree/main/docs/images/)
 
 </details>
 
@@ -111,7 +111,7 @@ You can do various types of lists:
 2. Lists
 
 Normal link to a website
-[Description of your link](https://www.wgtwo.com)
+[Description of your link](https://www.wg2.com)
 ```
 
 Images can be inserted with standard markdown image inclusion:
@@ -169,7 +169,7 @@ $  tree -d -L 4
 │   ├── about
 │   ├── case-studies
 │   ├── images
-│   │   └── wgtwo-logos
+│   │   └── wg2-logos
 │   └── technology
 └── website
     ├── src
@@ -213,16 +213,16 @@ $  tree -d -L 4
 <details>
 <summary>Deploy to dev website</summary>
 
-@jonny-wg2 setup the netlify account using his github credentials. https://app.netlify.com/sites/wgtwo-dev/overview 
+@jonny-wgtwo setup the netlify account using his github credentials. https://app.netlify.com/sites/wgtwo-dev/overview 
 
 To work better together and showcase a future PR, we needed the ability to deploy pre-production changes to a development website. Here are the steps required to get your changes live on https://wgtwo-dev.netlify.app/
 
 1. Create a PR with your changes and add the label `devpages`
-2. The [website-dev-pages GH action](https://github.com/working-group-two/wgtwo.com/actions/workflows/website-dev-pages.yml) will build the PR and push it on the [dev-pages branch](https://github.com/working-group-two/wgtwo.com/tree/dev-pages)
+2. The [website-dev-pages GH action](https://github.com/working-group-two/wg2.com/actions/workflows/website-dev-pages.yml) will build the PR and push it on the [dev-pages branch](https://github.com/working-group-two/wg2.com/tree/dev-pages)
 3. Your changes will soon be live on https://wgtwo-dev.netlify.app/. The netlify badge on top will update.
 
-- [example pr using the devpage label](https://github.com/working-group-two/wgtwo.com/pull/131)  
-- [github issue with details](https://github.com/working-group-two/wgtwo.com/issues/124)  
+- [example pr using the devpage label](https://github.com/working-group-two/wg2.com/pull/131)  
+- [github issue with details](https://github.com/working-group-two/wg2.com/issues/124)  
 
 </details>
 

@@ -198,7 +198,8 @@ a:lang(jp) {
 
 .button {
   background-color: transparent;
-  border: 1px solid #eee;
+  /*border: 1px solid var(--wg2-aurora-green-darken-2);*/
+  border: 1px solid rgba(255, 255, 255, 0.7);
   padding: 18px 32px;
   border-radius: 6px;
   font-weight: 600;

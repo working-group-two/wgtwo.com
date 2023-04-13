@@ -2,7 +2,7 @@
 title: Mitsui Knowledge Industry (MKI) to develop private networks business
 ---
 
-# Working Group Two and Mitsui Knowledge Industry (MKI) to develop private networks business
+# WG2 and Mitsui Knowledge Industry (MKI) to develop private networks business
 
 ## PRESS RELEASE
 
@@ -10,7 +10,7 @@ title: Mitsui Knowledge Industry (MKI) to develop private networks business
 
 — Drive the Private NWs Growth with its Fully-Managed Mobile Core NW SaaS —
 
-CEO Erlend Prestgard of Working Group Two As, Oslo, Norway and President Kengo Asano of Mitsui Knowledge Industry Co., Ltd. Minato-ku, Japan, agreed on an MoU on providing WG2’s fully-managed Mobile Core NW SaaS product to accelerate the Private Networks business in the Japanese market.
+CEO Erlend Prestgard of WG2 As, Oslo, Norway and President Kengo Asano of Mitsui Knowledge Industry Co., Ltd. Minato-ku, Japan, agreed on an MoU on providing WG2’s fully-managed Mobile Core NW SaaS product to accelerate the Private Networks business in the Japanese market.
 
 <!--truncate-->
 
@@ -22,9 +22,9 @@ In the Japanese market, there is a clear interest in Private NWs due to the regu
 - MKI will provide WG2’s Mobile Core SaaS as part of its offering as well as reselling it to other integrators to create a larger ecosystem
 - MKI has radio network knowledge, and WG2 provides Mobile Core as a service (SaaS) that radically improves the cost model. With this partnership, both parties will combine those strengths and lift the Private NWs business to the next level.
 
-> “Together with MKI, we make the journey of launching feature-rich private networks simple and affordable. MKI’s strong local presence and Working Group Two’s ability to distill complex core networks into simple-to-use APIs allow customers to launch full-service mobile networks at a small scale – with market-leading affordability,” said Erlend Prestgard, CEO and Co-Founder of Working Group Two.
+> “Together with MKI, we make the journey of launching feature-rich private networks simple and affordable. MKI’s strong local presence and WG2’s ability to distill complex core networks into simple-to-use APIs allow customers to launch full-service mobile networks at a small scale – with market-leading affordability,” said Erlend Prestgard, CEO and Co-Founder of WG2.
 
-## About Working Group Two (wgtwo)
+## About WG2
 
 WG2 has rebuilt the mobile core for simplicity, innovation, and efficiency – leveraging the web-scale playbook and operating models. Today, WG2’s innovation enables MVNO, MNO, and Private Network Operators a secure, scalable, and reliable telco connectivity backbone that scales across all G’s.
 
@@ -32,7 +32,7 @@ Our mission is to create programmable mobile networks to allow our customers and
 
 WG2 is an Advanced Technology Partner of AWS: https://partners.amazonaws.com/partners/0010h00001ZY6fDAAT/Working%20Group%20Two%20As
 
-WG2 Website: https://wgtwo.com
+WG2 Website: https://wg2.com
 
 ### About Mitsui Knowledge Industry (MKI)
 

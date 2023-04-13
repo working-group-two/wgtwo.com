@@ -12,7 +12,7 @@ function Component() {
       <div className={`${common.container} ${common.splitContainer}`}>
         <div className={common.text}>
           <div className={common.pillTitle}>vision</div>
-          <h2 className={common.title}>wgtwo</h2>
+          <h2 className={common.title}>WG2</h2>
           <div
             className={
               i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
@@ -66,7 +66,7 @@ function Component() {
                 id="home.rbe.api.description"
                 description="Description for the API deployment model"
               >
-                Configure your mobile core network with wgtwo APIs for
+                Configure your mobile core network with WG2 APIs for
                 provisioning and configuring an adaptable mobile subscription.
               </Translate>
             </div>

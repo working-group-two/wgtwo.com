@@ -5,7 +5,7 @@ sidebar_label: Content and blogging guidelines
 sidebar_position: 01
 ---
 
-Working Group Two 
+WG2 
 **Content and blogging guidelines** 
 Updated March 21, 2022
 

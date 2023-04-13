@@ -37,7 +37,7 @@
 
 .articleCardContent p {
   display: inline;
-  /* to make --webkit-line-clamp work on Safari: https: //github.com/working-group-two/wgtwo.com/pull/254 */
+  /* to make --webkit-line-clamp work on Safari: https: //github.com/working-group-two/wg2.com/pull/254 */
 }
 
 /* re-format certain elements to better fit the design */

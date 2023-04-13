@@ -7,7 +7,7 @@ authors: holger-ihrig
 ---
 
 In the current DevOps world, our industry relies on the ability to observe and monitorize our infrastructure and
-services. **wgtwo** is no exception here and as we are operating in the TelCo space
+services. **WG2** is no exception here and as we are operating in the TelCo space
 we wanted to know more about the usage patterns of our platform over days, months and even years.
 
 <!--truncate-->

@@ -6,7 +6,7 @@ sidebar_position: 06
 ---
 
 :::info Hi there
-**wgtwo** is a fully remote company with people around the globe. Here are some of our fixed offices. 
+**WG2** is a fully remote company with people around the globe. Here are some of our fixed offices. 
 :::
 
 ## Norway

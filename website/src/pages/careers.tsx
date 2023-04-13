@@ -66,7 +66,7 @@ const Careers = () => {
               </p>
 
               <p>
-                This is the hard problem we want to solve: At Working Group Two,
+                This is the hard problem we want to solve: At WG2,
                 we're building a technology platform and a company culture
                 capable of disrupting the telecom industry - by making
                 connectivity programmable, accessible and affordable.
@@ -173,7 +173,7 @@ const Careers = () => {
             <div className={common.subtitle}>
               <br />
               <b>75+</b> engineers, <b>25+</b> different nationalities make up
-              the <b>wgtwo</b> team. We collectively have spent centuries at
+              the <b>WG2</b> team. We collectively have spent centuries at
               Telenor, Telia, Ice, Google, PWC, Ericsson, Cisco, and more.
             </div>
           </div>

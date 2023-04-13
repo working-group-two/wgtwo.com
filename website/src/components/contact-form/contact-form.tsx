@@ -53,7 +53,7 @@ function Contact() {
     }
 
     message(
-      `Message from wgtwo.com/implementation\n
+      `Message from wg2.com/implementation\n
       Name: ${form.familyname.current.value} ${form.firstname.current.value}\n
       Email: ${form.email.current.value}\n
       Phone: ${form.phone_number.current.value}\n

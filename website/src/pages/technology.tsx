@@ -97,7 +97,7 @@ function Index() {
               <div className={common.title}>Let's dig into our core.</div>
               <div className={common.subtitle}>
                 <br />
-                <b>wgtwo</b> is building a future proof technology that reduces
+                <b>WG2</b> is building a future proof technology that reduces
                 cost and complexity while radically enhancing innovation
                 potential in the telecom industry. Our core is continuously
                 evolving. We improve its security, scalability, redundancy,
@@ -258,7 +258,7 @@ function Index() {
           <div className={styles.questions}>
             <div className={styles.question}>
               <div className={styles.questionQuestion}>
-                Q: What do I gain when migrating my subscribers to wgtwo?
+                Q: What do I gain when migrating my subscribers to WG2?
               </div>
               <div className={styles.answerAnswer}>
                 <u>Operational simplicity</u>: Operators get the services in a
@@ -292,7 +292,7 @@ function Index() {
             </div>
             <div className={styles.question}>
               <div className={styles.questionQuestion}>
-                Q: How many subscribers does wgtwo core support?
+                Q: How many subscribers does WG2 core support?
               </div>
               <div className={styles.answerAnswer}>
                 Our core provides operators with a flexible, affordable, fully
