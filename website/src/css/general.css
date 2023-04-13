@@ -33,28 +33,28 @@
 /* COLORS */
 
 :root {
-  --wg2-aurora-green: #6ADC99;
-  --wg2-aurora-green-lighten-1: #8EE4B1;
-  --wg2-aurora-green-lighten-2: #A6EAC2;
-  --wg2-aurora-green-lighten-3: #BDF0D2;
-  --wg2-aurora-green-lighten-4: #D5F5E2;
-  --wg2-aurora-green-lighten-5: #F9FEFB;
-  --wg2-aurora-green-darken-1: #51A774;
-  --wg2-aurora-green-darken-2: #40845C;
-  --wg2-aurora-green-darken-3: #2F6143;
-  --wg2-aurora-green-darken-4: #1E3E2B;
+  --wg2-aurora-green: #6adc99;
+  --wg2-aurora-green-lighten-1: #8ee4b1;
+  --wg2-aurora-green-lighten-2: #a6eac2;
+  --wg2-aurora-green-lighten-3: #bdf0d2;
+  --wg2-aurora-green-lighten-4: #d5f5e2;
+  --wg2-aurora-green-lighten-5: #f9fefb;
+  --wg2-aurora-green-darken-1: #51a774;
+  --wg2-aurora-green-darken-2: #40845c;
+  --wg2-aurora-green-darken-3: #2f6143;
+  --wg2-aurora-green-darken-4: #1e3e2b;
   --wg2-aurora-green-darken-5: #040906;
 
   --wg2-international-blue: #002199;
-  --wg2-international-blue-lighten-1: #3D56B1;
-  --wg2-international-blue-lighten-2: #667AC2;
-  --wg2-international-blue-lighten-3: #8F9DD2;
-  --wg2-international-blue-lighten-4: #B8C1E2;
-  --wg2-international-blue-lighten-5: #F5F6FB;
+  --wg2-international-blue-lighten-1: #3d56b1;
+  --wg2-international-blue-lighten-2: #667ac2;
+  --wg2-international-blue-lighten-3: #8f9dd2;
+  --wg2-international-blue-lighten-4: #b8c1e2;
+  --wg2-international-blue-lighten-5: #f5f6fb;
   --wg2-international-blue-darken-1: #001974;
-  --wg2-international-blue-darken-2: #00145C;
-  --wg2-international-blue-darken-3: #000F43;
-  --wg2-international-blue-darken-4: #00092B;
+  --wg2-international-blue-darken-2: #00145c;
+  --wg2-international-blue-darken-3: #000f43;
+  --wg2-international-blue-darken-4: #00092b;
   --wg2-international-blue-darken-5: #000106;
 }
 

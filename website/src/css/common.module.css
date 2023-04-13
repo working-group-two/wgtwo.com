@@ -12,9 +12,9 @@ p a:hover {
 }
 
 /* Fonts */
- /** EN **/
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
- /** JP **/
+/** EN **/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+/** JP **/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
 body,
@@ -228,7 +228,7 @@ a:lang(jp) {
 
 .button.buttonPrimary:disabled {
   background-color: var(--wg2-aurora-green-lighten-3);
-  color: #C7B9CD;
+  color: #c7b9cd;
 }
 
 /* Spacers */

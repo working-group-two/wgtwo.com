@@ -66,10 +66,10 @@ const Careers = () => {
               </p>
 
               <p>
-                This is the hard problem we want to solve: At WG2,
-                we're building a technology platform and a company culture
-                capable of disrupting the telecom industry - by making
-                connectivity programmable, accessible and affordable.
+                This is the hard problem we want to solve: At WG2, we're
+                building a technology platform and a company culture capable of
+                disrupting the telecom industry - by making connectivity
+                programmable, accessible and affordable.
               </p>
 
               <p>

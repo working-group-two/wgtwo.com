@@ -1,5 +1,5 @@
 .section {
-  background: 0 26% / cover #D5F5E2;
+  background: 0 26% / cover #d5f5e2;
   padding: 120px 0;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .titleHeader {
-  color: #00145C;
+  color: #00145c;
   font-size: 42px;
   font-weight: 700;
   line-height: 64px;
@@ -52,7 +52,7 @@
 }
 
 .subtitle {
-  color: #00145C;
+  color: #00145c;
   text-align: justify;
   text-align-last: center;
 }

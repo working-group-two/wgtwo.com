@@ -25,9 +25,9 @@ function Component() {
               id="home.logs.subtitle"
               description="Subtitle for the logs section"
             >
-              Telecom operators on the WG2 platform are able to configure
-              their own subscriptions, giving them the freedom to add the
-              products that meet their needs.
+              Telecom operators on the WG2 platform are able to configure their
+              own subscriptions, giving them the freedom to add the products
+              that meet their needs.
             </Translate>
           </div>
           <div className={styles.buttons}>
