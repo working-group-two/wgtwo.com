@@ -28,6 +28,36 @@
   --ifm-link-color: #000;
 }
 
+/* WG2 COLORS */
+
+/* COLORS */
+
+:root {
+  --wg2-aurora-green: #6ADC99;
+  --wg2-aurora-green-lighten-1: #8EE4B1;
+  --wg2-aurora-green-lighten-2: #A6EAC2;
+  --wg2-aurora-green-lighten-3: #BDF0D2;
+  --wg2-aurora-green-lighten-4: #D5F5E2;
+  --wg2-aurora-green-lighten-5: #F9FEFB;
+  --wg2-aurora-green-darken-1: #51A774;
+  --wg2-aurora-green-darken-2: #40845C;
+  --wg2-aurora-green-darken-3: #2F6143;
+  --wg2-aurora-green-darken-4: #1E3E2B;
+  --wg2-aurora-green-darken-5: #040906;
+
+  --wg2-international-blue: #002199;
+  --wg2-international-blue-lighten-1: #3D56B1;
+  --wg2-international-blue-lighten-2: #667AC2;
+  --wg2-international-blue-lighten-3: #8F9DD2;
+  --wg2-international-blue-lighten-4: #B8C1E2;
+  --wg2-international-blue-lighten-5: #F5F6FB;
+  --wg2-international-blue-darken-1: #001974;
+  --wg2-international-blue-darken-2: #00145C;
+  --wg2-international-blue-darken-3: #000F43;
+  --wg2-international-blue-darken-4: #00092B;
+  --wg2-international-blue-darken-5: #000106;
+}
+
 html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -105,7 +135,7 @@ svg[aria-hidden="true"] {
 }
 
 .pill {
-  background-color: #b3e5fc;
+  background-color: var(--wg2-aurora-green-lighten-3);
   color: #141414;
   padding: 2px 16px;
   display: inline-block;

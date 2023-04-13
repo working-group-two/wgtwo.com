@@ -7,7 +7,7 @@
 }
 
 .spacer {
-  background: #b4e6fb;
+  background: var(--wg2-aurora-green-lighten-2);
   flex-shrink: 0;
   margin: 0 120px 0;
   width: 1px;

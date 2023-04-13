@@ -1,5 +1,5 @@
 .section {
-  background: 0 26% / cover #e2eef7;
+  background: 0 26% / cover #D5F5E2;
   padding: 120px 0;
 }
 
@@ -24,14 +24,6 @@
   justify-content: stretch;
 }
 
-.heroButton {
-  background-color: #1d3148 !important;
-}
-
-.heroButton:hover {
-  background-color: #2f455e !important;
-}
-
 .image {
   max-width: 500px;
 }
@@ -52,7 +44,7 @@
 }
 
 .titleHeader {
-  color: #002c59;
+  color: #00145C;
   font-size: 42px;
   font-weight: 700;
   line-height: 64px;
@@ -60,7 +52,7 @@
 }
 
 .subtitle {
-  color: #001f3f;
+  color: #00145C;
   text-align: justify;
   text-align-last: center;
 }
@@ -71,13 +63,6 @@
   gap: 16px;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.heroButton {
-  background-color: #1d3148 !important;
-}
-.heroButton:hover {
-  background-color: #2f455e !important;
 }
 
 .hn {

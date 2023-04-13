@@ -84,7 +84,7 @@ div.technologymetricsContainer.technologymetricsContainer {
 }
 
 .technologymetrics {
-  background-color: hsla(0, 0%, 100%, 0.05);
+  background-color: hsla(0, 0%, 100%, 0.25);
   padding: 36px;
   border-radius: 8px;
   text-align: center;
@@ -109,7 +109,7 @@ div.technologymetricsContainer.technologymetricsContainer {
   line-height: 100%;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #b3e5fc;
+  color: var(--wg2-international-blue);
 }
 
 .technologymetricsDescription {

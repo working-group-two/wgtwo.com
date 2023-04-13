@@ -61,18 +61,18 @@ div.caseStudyContainer.caseStudyContainer {
 }
 
 .link {
-  color: #fff;
+  color: var(--wg2-international-blue-lighten-1);
   font-weight: 600;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 2px solid var(--wg2-international-blue-lighten-2);
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 0.7);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  color: var(--wg2-international-blue-lighten-3);
+  border-bottom: 2px solid var(--wg2-international-blue-lighten-3);
 }
 
 .hr {
-  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+  border-bottom: 1px solid var(--wg2-aurora-green-lighten-2);
   width: 100%;
 }
 
@@ -90,7 +90,7 @@ div.caseStudyContainer.caseStudyContainer {
 }
 
 .caseStudy {
-  background-color: hsla(0, 0%, 100%, 0.05);
+  background-color: hsla(0, 0%, 100%, 0.25);
   padding: 36px;
   border-radius: 8px;
   text-align: center;
@@ -132,7 +132,7 @@ div.caseStudyContainer.caseStudyContainer {
   border: none;
   width: 100%;
   padding: 32px;
-  color: #fff;
+  color: var(--wg2-international-blue);
   font-weight: 600;
   font-size: 16px;
   margin-bottom: -16px;
@@ -145,6 +145,6 @@ div.caseStudyContainer.caseStudyContainer {
 }
 
 .caseStudyButton:hover {
-  box-shadow: inset 100px 0 100px 100px rgb(0 0 0 / 30%);
-  color: rgba(255, 255, 255, 0.7);
+  box-shadow: inset 100px 0 100px 100px var(--wg2-aurora-green-darken-1);
+  color: var(--wg2-international-blue-lighten-5);
 }

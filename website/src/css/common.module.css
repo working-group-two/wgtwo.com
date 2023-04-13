@@ -11,8 +11,12 @@ p a:hover {
   border-bottom: 2px solid black;
 }
 
-/* Page */
+/* Fonts */
+ /** EN **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+ /** JP **/
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+
 body,
 html,
 h1,
@@ -24,8 +28,24 @@ h6,
 p,
 span,
 a {
+  font-family: "Inter", sans-serif;
+}
+
+body:lang(jp),
+html:lang(jp),
+h1:lang(jp),
+h2:lang(jp),
+h3:lang(jp),
+h4:lang(jp),
+h5:lang(jp),
+h6:lang(jp),
+p:lang(jp),
+span:lang(jp),
+a:lang(jp) {
   font-family: "Noto Sans JP", sans-serif;
 }
+
+/* Page */
 .page {
   width: 100%;
   display: flex;
@@ -46,8 +66,8 @@ a {
 }
 
 .section.sectionDark {
-  background-color: #263238;
-  color: #fff;
+  background-color: var(--wg2-aurora-green);
+  color: #001974;
 }
 
 .section.sectionGray {
@@ -123,7 +143,7 @@ a {
 }
 
 .pillTitle {
-  background-color: #b3e5fc;
+  background-color: var(--wg2-aurora-green-lighten-3);
   color: #141414;
   padding: 2px 16px;
   display: inline-block;
@@ -134,7 +154,7 @@ a {
 }
 
 .pillTechnology {
-  background-color: #b3e5fc;
+  background-color: var(--wg2-aurora-green-lighten-3);
   color: #141414;
   padding: 0px 16px;
   /* display: inline-block; */
@@ -198,16 +218,16 @@ a {
 }
 
 .button.buttonPrimary {
-  background-color: #263238;
-  color: #fff;
+  background-color: var(--wg2-aurora-green);
+  color: #001974;
 }
 .button.buttonPrimary:hover {
-  background-color: #495154;
+  background-color: var(--wg2-aurora-green-lighten-1);
 }
 
 .button.buttonPrimary:disabled {
-  background-color: #607d8b;
-  color: #fff;
+  background-color: var(--wg2-aurora-green-lighten-3);
+  color: #C7B9CD;
 }
 
 /* Spacers */

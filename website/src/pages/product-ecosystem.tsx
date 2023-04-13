@@ -217,7 +217,7 @@ function Index() {
 
               <div className={styles.price}>Create your API key today </div>
               <a
-                className={`${common.button} ${styles.altButton}`}
+                className={`${common.button} ${common.buttonPrimary}`}
                 href="https://developer.wgtwo.com"
                 target="_self"
               >

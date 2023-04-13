@@ -1,7 +1,7 @@
 .active,
 .deploymentModel:hover {
-  background-color: #b3e5fc;
-  color: #263238;
+  background-color: var(--wg2-aurora-green-lighten-3);
+  color: var(--wg2-international-blue);
   cursor: pointer;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .deploymentModel {
-  background-color: hsla(0, 0%, 100%, 0.05);
+  background-color: hsla(0, 0%, 100%, 0.25);
   padding: 36px 56px;
   border-radius: 8px;
   max-width: 560px;

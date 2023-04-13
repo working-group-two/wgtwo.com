@@ -44,7 +44,7 @@ function Component() {
         <CaseStudyList length={6} />
       </div>
       <div className={common.container}>
-        <Link to="/case-studies" className={styles.caseStudyButton}>
+        <Link to="/case-studies" className={`${styles.caseStudyButton}`}>
           <Translate
             id="home.casestudy.more"
             description="more for the casestudy section"
