@@ -4,7 +4,7 @@ title: "Tuning flux"
 date: 2023-04-05
 tags: [infrastructure, automation, gitops]
 authors: [anna-kennedy]
-image: ./annaken.jpg
+image: ./flux-flow-3.png
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'
