@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2742],{36850:function(e){e.exports=JSON.parse('{"label":"mobile-operators","permalink":"/blog/tags/mobile-operators","allTagsPath":"/blog/tags","count":1}')}}]);

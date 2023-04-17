@@ -1,5 +1,5 @@
 Contact: mailto:security@wgtwo.com
-Encryption: https://www.wg2.com/.well-known/publickey.txt
-Acknowledgements: https://www.wg2.com/security/responsible-disclosure#security-research-hall-of-fame
-Policy: https://www.wg2.com/security/responsible-disclosure
-Hiring: https://www.wg2.com/jobs
+Encryption: https://www.wgtwo.com/.well-known/publickey.txt
+Acknowledgements: https://www.wgtwo.com/security/responsible-disclosure#security-research-hall-of-fame
+Policy: https://www.wgtwo.com/security/responsible-disclosure
+Hiring: https://www.wgtwo.com/jobs
