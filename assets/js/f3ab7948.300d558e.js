@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7770],{75094:function(s){s.exports=JSON.parse('{"label":"voxist","permalink":"/blog/tags/voxist","allTagsPath":"/blog/tags","count":1}')}}]);

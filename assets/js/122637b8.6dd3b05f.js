@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6646],{42450:function(e){e.exports=JSON.parse('{"label":"elitnet","permalink":"/blog/tags/elitnet","allTagsPath":"/blog/tags","count":1}')}}]);

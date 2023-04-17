@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8917],{82255:function(o){o.exports=JSON.parse('{"label":"innovation","permalink":"/jp/blog/tags/innovation","allTagsPath":"/jp/blog/tags","count":1}')}}]);

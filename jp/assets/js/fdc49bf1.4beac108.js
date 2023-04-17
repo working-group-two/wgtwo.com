@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8014],{1532:function(e){e.exports=JSON.parse('{"label":"onrelay","permalink":"/jp/blog/tags/onrelay","allTagsPath":"/jp/blog/tags","count":1}')}}]);

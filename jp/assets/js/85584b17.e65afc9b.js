@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1078],{96486:function(t){t.exports=JSON.parse('{"label":"vxt","permalink":"/jp/blog/tags/vxt","allTagsPath":"/jp/blog/tags","count":1}')}}]);

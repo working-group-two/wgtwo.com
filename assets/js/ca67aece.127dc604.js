@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6333],{96499:function(o){o.exports=JSON.parse('{"permalink":"/blog/tags/voxist","page":1,"postsPerPage":18,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
