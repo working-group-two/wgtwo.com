@@ -9,7 +9,7 @@ import contact from "./contact.module.css"
 import message from "../util/message"
 import Link from "@docusaurus/Link"
 import { translate } from "@docusaurus/Translate"
-import { validEmail } from "../util/helpers"
+import { validEmail, containsAngleBrackets } from "../util/helpers"
 import ReactTooltip from "react-tooltip"
 
 import FeaturesSidebar from "../features.sidebar"
