@@ -2,8 +2,9 @@
 slug: atos-teams-with-wgtwo
 title: "Atos and Working Group Two to deliver core-as-a-service to mobile operators worldwide"
 date: 2022-09-19
-tags: [saas, operators, core, cloud, partners, iot, private networks]
+tags: [saas, operators, core, cloud, partners, iot, private networks, press release]
 authors: [wgtwo]
+image: ./atosxwgtwo_featured_img.png
 ---
 
 Atos and Working Group Two (wgtwo) are teaming up to provide operators with a simplified, end-to-end mobile network solution. It is based on wgtwo’s 4/5G cloud-native mobile core and on Atos’s full Next Generation Telecom Network portfolio, including cloud computing, edge and Open RAN technologies. Atos and wgtwo will jointly deliver “core-network-as-a-service” solutions. 

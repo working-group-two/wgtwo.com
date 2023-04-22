@@ -4,6 +4,7 @@ title: "Q&A with Stephane: The evolution of the mobile core"
 date: 2022-09-09
 tags: [saas, operators, core, BBS, cloud, virtualization]
 authors: [wgtwo]
+image: ./flower.jpg
 ---
 
 import ImgWithCaption from '../components/imgWithCaption'

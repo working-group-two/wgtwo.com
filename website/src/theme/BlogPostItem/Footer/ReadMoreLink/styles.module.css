@@ -1,0 +1,40 @@
+.readMoreButton {
+  width: 100px;
+  background-color: #f3f7fc;
+  border-bottom-right-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+.readMoreButton:hover {
+  background-color: #e9f2fa;
+}
+
+.readMoreButton > b {
+  color: #034181;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+@media (max-width: 600px) {
+  .readMoreButton {
+    width: 100%;
+    background-color: #eaf1f9;
+    border-bottom-left-radius: 10px;
+    /*border-top: 1px solid #d6dfeb;*/
+    padding: 16px 10px;
+    padding-top: 14px;
+  }
+  .readMoreButton:hover {
+    background-color: #dee9f5;
+  }
+
+  .readMoreButton > b {
+    font-size: 1em;
+  }
+}

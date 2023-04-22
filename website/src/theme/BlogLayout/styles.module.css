@@ -1,0 +1,47 @@
+.blogBackground {
+  background-color: #f7f7f7;
+}
+
+/* BLOG OVERVIEW - CARD LIST VIEW */
+
+.cardListView {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 900px) {
+  .cardListView {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardListView {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
+
+/* SINGLE BLOG POST PAGE VIEW */
+
+.singleBlogPageView {
+}
+
+/* NAV OVERRIDE - NEXT/PREV ARTICLE BTNS */
+.singleBlogPageView > nav > a {
+  background-color: #fefefe;
+}
+
+/* CUSTOM COLUMN VALUES */
+
+.col8 {
+  --ifm-col-width: calc(9 / 12 * 100%);
+}
+.colOffset1 {
+  margin-left: calc(0.5 / 12 * 100%);
+}
+.colOffset2 {
+  margin-left: calc(0.5 / 12 * 100%);
+}

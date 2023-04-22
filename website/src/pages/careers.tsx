@@ -47,7 +47,7 @@ const Careers = () => {
                 world. It is a well-financed and profitable industry that
                 societies fundamentally depend on. But it is not growing. It is
                 not innovating. And it leaves value on the table for other
-                industries to Leverage.
+                industries to leverage.
               </p>
 
               <p>

@@ -41,4 +41,5 @@ Many thanks to the security researchers who have responsibly contributed their f
 
 ## Security Research Hall of Fame
 
-- Rajat Waghade
+- Rajat Waghade (2023)
+- Druvash Jani (2023)

@@ -3,12 +3,12 @@ import common from "../../css/common.module.css"
 import styles from "./technologymetrics.module.css"
 
 const technologyMetrics = [
-  { name: "156.1 million", description: "SMSs" },
-  { name: "321.6 million", description: "voice calls" },
-  { name: "8.3 million", description: "MMSs" },
-  { name: "1.8 petabyte", description: "data upload" },
-  { name: "18.9 petabyte", description: "data download" },
-  { name: "6.3 billion", description: "connectivity events" },
+  { name: "527 million", description: "SMSs" },
+  { name: "354 million", description: "voice calls" },
+  { name: "32 million", description: "MMSs" },
+  { name: "3.07 petabyte", description: "data upload" },
+  { name: "30.1 petabyte", description: "data download" },
+  { name: "418 billion", description: "connectivity events" },
 ]
 
 function Component(props) {

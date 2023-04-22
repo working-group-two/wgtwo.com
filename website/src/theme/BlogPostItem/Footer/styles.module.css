@@ -1,3 +1,114 @@
+/* Blog Overview - Card List View */
+.articleCardFooter {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  border-top: 1px solid rgb(234, 234, 234);
+}
+
+.readMoreContainer {
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 0;
+}
+
+.articleCardFooter > a {
+  display: flex;
+  /* width: 100%; */
+  /* text-align: left; */
+  /* flex-grow: 1; */
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  white-space: nowrap;
+  margin-left: -33px;
+  font-size: 1.2em;
+  margin-top: 9px;
+  padding-bottom: 6px;
+  border-left: 1px solid #dedede;
+  position: relative;
+}
+
+.articleCardFooter > .col--9 {
+  font-size: 0.8em;
+  line-height: 7px;
+  align-self: flex-end;
+}
+
+.articleCardFooter > .text--right > a > b {
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.articleCardFooter > .text--right > a:before {
+  bottom: -11px;
+  right: -21px;
+  width: 120px;
+  height: 60px;
+  background: #f3f7fc;
+  position: absolute;
+  border-bottom-right-radius: 10px;
+  content: "";
+  z-index: 3;
+}
+
+.articleCardFooter > .text--right > a:after {
+  bottom: 6px;
+  right: -2px;
+  position: absolute;
+  border-bottom-right-radius: 10px;
+  content: "Read more";
+  z-index: 7;
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #034181;
+}
+
+/* empty tag to make it available in JSX */
+.tagsContainer {
+}
+
+.tagsContainer > b:first-child {
+  display: none; /* hide "Tags: " label */
+}
+
+.tagsContainer > ul {
+  font-size: 0.8em;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 0px 10px;
+
+  padding: 0 20px !important;
+  padding-left: 30px !important;
+  padding-bottom: 2px !important;
+  margin-left: 0 !important;
+  margin-bottom: 0;
+}
+
+.tagsContainer > ul > li {
+  margin: 0;
+  margin: -4px 0;
+}
+
+.tagsContainer > ul > li > a {
+  border: none;
+  padding: 0;
+  color: grey;
+  font-size: 14px;
+}
+
+.tagsContainer > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+/* Default CSS */
+
 .blogPostFooterDetailsFull {
   flex-direction: column;
 }
@@ -5,6 +116,7 @@
 .sharingSection {
   display: flex;
   justify-content: end;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -12,6 +124,7 @@
   border: 0;
   background: transparent;
   border-radius: 5px;
+  padding: 8px;
 }
 .sharingButton:hover {
   background: rgb(239, 239, 239);
@@ -48,4 +161,28 @@
   margin-right: 10px;
   color: #5b6476;
   fill: #5b6476;
+}
+
+@media (max-width: 600px) {
+  .articleCardFooter {
+    flex-direction: column;
+    height: auto;
+    border-top: none;
+  }
+
+  .tagsContainer {
+    display: none;
+  }
+
+  /*.tagsContainer > ul {
+    padding-top: 8px !important;
+    padding-bottom: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-top: 1px solid rgb(234, 234, 234);
+  }
+
+  .tagsContainer > ul > li > a {
+    color: rgb(176, 176, 176);
+  }*/
 }

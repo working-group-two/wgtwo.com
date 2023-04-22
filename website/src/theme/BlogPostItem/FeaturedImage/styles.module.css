@@ -1,0 +1,26 @@
+.featuredImage {
+  width: 100%;
+  height: 200px;
+  background-color: #181818;
+  /*background: linear-gradient(transparent 62%, #19202aef 80%);*/
+  /* linear-gradient(transparent 57%, #3d4d65d4 90%), */
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 4px solid #242c37cc;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.dottedBorderBottom {
+  border-bottom: 4px dotted white;
+}
+
+.linkClickArea {
+  width: 100%;
+  flex-grow: 1;
+}

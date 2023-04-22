@@ -1,0 +1,19 @@
+.blogNavigationButtons {
+  grid-column: 1 / 4; /* span whole row */
+}
+
+.blogNavigationButtons > a {
+  background-color: #fefefe;
+}
+
+@media (max-width: 900px) {
+  .blogNavigationButtons {
+    grid-column: 1 / 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .blogNavigationButtons {
+    grid-column: auto;
+  }
+}
