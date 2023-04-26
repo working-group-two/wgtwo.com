@@ -44,6 +44,11 @@ function Component() {
     },
     {
       card_number: "02",
+      title: "Interview with hiring manager",
+      content: `-`,
+    },
+    {
+      card_number: "03",
       title: "High level technical interview",
       content: `The goal of this session is to see how you deliver solutions 
       to a real problem. This will be a high level discussion with one of our 
@@ -52,7 +57,7 @@ function Component() {
       `,
     },
     {
-      card_number: "03",
+      card_number: "04",
       title: "Low level technical interview",
       content: `The goal of this session is to look more deeply into one of your 
       areas of expertise. This discussion will be tailored to the role you are
@@ -63,7 +68,7 @@ function Component() {
       `,
     },
     {
-      card_number: "04",
+      card_number: "05",
       title: "Touch base with your recruiter",
       content: `After the interviews we should both reflect and give each other 
       feedback to decide on the next step. If you had a bad day during one of the 
@@ -72,25 +77,7 @@ function Component() {
       `,
     },
     {
-      card_number: "05",
-      title: "Meet one of our founders",
-      content: `The goal of this session is for you to get to know more about our 
-      company and learn more about our culture. Take the time to ask all the 
-      questions you might have as we want this to be a mutually beneficial meeting. 
-      How we do this is up to you, we can meet for a coffee, chat on the phone, or 
-      have lunch. You decide.
-      `,
-    },
-    {
       card_number: "06",
-      title: "Optional - Meet the team",
-      content: `The goal of this meeting is just to meet and greet. There is no 
-      hard agenda, it’s just a pleasant meeting. This typically includes a tour of 
-      the office, and/or lunch with the team (we’re paying!).
-      `,
-    },
-    {
-      card_number: "07",
       title: "All done now what?",
       content: `Now that we both (hopefully) have all the information we need, we will decide if we’re a good fit for each other. This is the time to reach out with any questions you might still have.
 
