@@ -30,11 +30,21 @@ import Card from "./components/card";
 
   <Column>
     <Cards>
-      <Card label="CHALLENGE" title="CKH IOD maintains a multi-country MVNE platform that inherently has complexities and is difficult to scale operationally.">
-        To enable the best service for MVNOs, CKH IOD's original platform had unforeseen complexities reducing the ability to innovate and provide a scalable solution. The aged platform was not able to scale with its growth and required a future-proof mobile core network for its multi-tenancy business model.
+      <Card label="CHALLENGE" title="CKH IOD is a cross-country group unit within the Hutchison conglomerate, with MVNE operations across Europe.">
+        CKH IOD maintained a multi-country MVNE platform that inherently had complexities and was difficult to scale operationally. They sought:
+        <ul>
+          <li>Fast time-to-market</li>
+          <li>Flexibility & innovation</li>
+          <li>Programmability</li>
+        </ul>
       </Card>
-      <Card label="SOLUTION" title="One mobile telco core solution that is secure and future-proof and enables business growth.">
-        Leveraging the wgtwo mobile core telco platform, this cloud-based solution is future-proof to ensure CKH IOD’s business continuity. As growth is important for their solution, the core is flexible to reduce CKH IOD’s vendor portfolio, reduce MVNO onboarding time and enable business growth year-over-year, while offering the latest services such as VoLTE.
+      <Card label="SOLUTION" title="A single, multi-country mobile core solution that is secure and future-proof and enables business growth.">
+        <ul>
+          <li>Efficient integration delivered on time and on budget, launched in summer 2022</li>
+          <li>Reduced costs and complexity of operations by replacing 22 vendors/contracts with 1</li>
+          <li>Ability to add customers and use cases has allowed for revenue growth for CKH-IOD</li>
+          <li>Aggressively adding new countries and customers</li>
+        </ul>
       </Card>
     </Cards>
   </Column>
@@ -42,7 +52,7 @@ import Card from "./components/card";
 </TwoColumnSection>
 
 <GridSection bgColor="#232e33">
-  <Metric title="26 to 5">reduce CKH IOD vendor portfolio</Metric>
+  <Metric title="22 to 1">vendors in the core network</Metric>
   <Metric title="8 months to 8 weeks">time reduction for MVNO onboarding</Metric>
   <Metric title="100%">MVNO growth year-over-year</Metric>
 </GridSection>
