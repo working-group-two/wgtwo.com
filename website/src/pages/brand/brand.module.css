@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body, html, h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: 'Inter' !important;
+}
+
+/* COLORS */
+
+:root {
+  --wg2-aurora-green: #6adc99;
+  --wg2-aurora-green-lighten-1: #8ee4b1;
+  --wg2-aurora-green-lighten-2: #a6eac2;
+  --wg2-aurora-green-lighten-3: #bdf0d2;
+  --wg2-aurora-green-lighten-4: #d5f5e2;
+  --wg2-aurora-green-lighten-5: #f9fefb;
+  --wg2-aurora-green-darken-1: #51a774;
+  --wg2-aurora-green-darken-2: #40845c;
+  --wg2-aurora-green-darken-3: #2f6143;
+  --wg2-aurora-green-darken-4: #1e3e2b;
+  --wg2-aurora-green-darken-5: #040906;
+
+  --wg2-international-blue: #002199;
+  --wg2-international-blue-lighten-1: #3d56b1;
+  --wg2-international-blue-lighten-2: #667ac2;
+  --wg2-international-blue-lighten-3: #010204;
+  --wg2-international-blue-lighten-4: #b8c1e2;
+  --wg2-international-blue-lighten-5: #f5f6fb;
+  --wg2-international-blue-darken-1: #001974;
+  --wg2-international-blue-darken-2: #00145c;
+  --wg2-international-blue-darken-3: #000f43;
+  --wg2-international-blue-darken-4: #00092b;
+  --wg2-international-blue-darken-5: #000106;
+
+  --wg2-aurora-pink: #B53DFF;
+  --wg2-aurora-pink-lighten-1: #C76CFF;
+  --wg2-aurora-pink-lighten-2: #D38BFF;
+  --wg2-aurora-pink-lighten-3: #DEAAFF;
+  --wg2-aurora-pink-lighten-4: #EAC9FF;
+  --wg2-aurora-pink-lighten-5: #FCF7FF;
+  --wg2-aurora-pink-darken-1: #8A2EC2;
+  --wg2-aurora-pink-darken-2: #6D2599;
+  --wg2-aurora-pink-darken-3: #501B70;
+  --wg2-aurora-pink-darken-4: #331147;
+  --wg2-aurora-pink-darken-5: #07020A;
+
+  --wg2-aurora-purple: #2B043E;
+  --wg2-aurora-purple-lighten-1: #664178;
+  --wg2-aurora-purple-lighten-2: #866994;
+  --wg2-aurora-purple-lighten-3: #C7B9CD;
+  --wg2-aurora-purple-lighten-4: #C7B9CD; /* DUPLICATE !!!! */
+  --wg2-aurora-purple-lighten-5: #F7F5F8;
+  --wg2-aurora-purple-darken-1: #29043B;
+  --wg2-aurora-purple-darken-2: #20032E;
+  --wg2-aurora-purple-darken-3: #180222;
+  --wg2-aurora-purple-darken-4: #0F0116;
+  --wg2-aurora-purple-darken-5: #020003;
+}
+
+/* GENERAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 800;
+  letter-spacing: -4px;
+  line-height: 1.1em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 3em;
+  font-weight: 800;
+  letter-spacing: -4px;
+  line-height: 1.1em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: -.4px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  font-size: 1.5em;
+  font-weight: 500;
+  padding-left: 10px
+}
+
+button {
+  border-radius: 12px;
+  padding: 16px;
+  letter-spacing: -.2px;
+
+  font-size: 1.1em;
+  font-weight: 700;
+  font-family: 'Inter';
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  transition: all 300ms ease;
+}
+button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+button:active {
+  transform: scale(0.98);
+  transition: all 100ms ease;
+}
+
+.py_2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.py_3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pt_3 {
+  padding-top: 30px;
+}
+.pt_4 {
+  padding-top: 40px;
+}
+
+.fw_300 {
+  font-weight: 300;
+}
+
+:target {
+  scroll-margin-top: 100px;
+}
+
+
+/* PAGE CSS */
+
+.topNav {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.topNav .topNavContainer {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topNavContainer .navLogo {
+  width: 80px;
+  margin-top: -5px; /* centering the logo */
+}
+
+.topNavContainer .navButtons .navButton {
+  color: var(--wg2-international-blue);
+  padding: 0px 12px;
+  font-weight: 600;
+}
+.topNavContainer .navButtons .navButton:hover {
+  color: var(--wg2-aurora-green);
+  text-decoration: underline;
+}
+
+.topNavContainer .navRight .navText {
+  color: black;
+  font-weight: 500;
+}
+
+
+section {
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main section:first-of-type {
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.multiColumn {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+.multiColumn > * {
+  flex: 1;
+}
+
+.paragraphColumn {
+  max-width: 800px;
+}
+
+.noGap {
+  gap: 0px;
+}
+.gap40 {
+  gap: 40px;
+}
+
+.sectionGreen {
+  background-color: var(--wg2-aurora-green);
+  color: var(--wg2-international-blue);
+}
+.sectionBlue {
+  background-color: var(--wg2-international-blue);
+  color: var(--wg2-aurora-green);
+}
+.sectionWhite {
+  background-color: white;
+  color: var(--wg2-international-blue);
+}
+.sectionPink {
+  background-color: var(--wg2-aurora-pink);
+  color: var(--wg2-international-blue);
+}
+.sectionPurple {
+  background-color: var(--wg2-aurora-purple);
+  color: var(--wg2-aurora-pink);
+}
+.sectionGrey {
+  background-color: #546e7a;
+  color: white;
+}
+
+.colorButtons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.fourColumnGrid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.btnTextDark {
+  color: #111111;
+}
+.btnTextWhite {
+  color: white;
+}
+
+.downloadLink a {
+  color: var(--wg2-aurora-green);
+  text-decoration: underline;
+
+  display: flex;
+  gap: 10px;
+}
+.downloadLink a > div.downloadLinkIconContainer {
+  width: 50px;
+}
+.downloadLinkIconContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background-color: white;
+  color: #6c8a95;
+}
+.footer p {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .contactSection {
+    text-align: center;
+    gap: 25px !important;
+  }
+}
