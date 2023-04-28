@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-body, html, h1, h2, h3, h4, h5, h6, p, span, a {
-  font-family: 'Inter' !important;
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Inter" !important;
 }
 
 /* COLORS */
@@ -31,28 +41,28 @@ body, html, h1, h2, h3, h4, h5, h6, p, span, a {
   --wg2-international-blue-darken-4: #00092b;
   --wg2-international-blue-darken-5: #000106;
 
-  --wg2-aurora-pink: #B53DFF;
-  --wg2-aurora-pink-lighten-1: #C76CFF;
-  --wg2-aurora-pink-lighten-2: #D38BFF;
-  --wg2-aurora-pink-lighten-3: #DEAAFF;
-  --wg2-aurora-pink-lighten-4: #EAC9FF;
-  --wg2-aurora-pink-lighten-5: #FCF7FF;
-  --wg2-aurora-pink-darken-1: #8A2EC2;
-  --wg2-aurora-pink-darken-2: #6D2599;
-  --wg2-aurora-pink-darken-3: #501B70;
+  --wg2-aurora-pink: #b53dff;
+  --wg2-aurora-pink-lighten-1: #c76cff;
+  --wg2-aurora-pink-lighten-2: #d38bff;
+  --wg2-aurora-pink-lighten-3: #deaaff;
+  --wg2-aurora-pink-lighten-4: #eac9ff;
+  --wg2-aurora-pink-lighten-5: #fcf7ff;
+  --wg2-aurora-pink-darken-1: #8a2ec2;
+  --wg2-aurora-pink-darken-2: #6d2599;
+  --wg2-aurora-pink-darken-3: #501b70;
   --wg2-aurora-pink-darken-4: #331147;
-  --wg2-aurora-pink-darken-5: #07020A;
+  --wg2-aurora-pink-darken-5: #07020a;
 
-  --wg2-aurora-purple: #2B043E;
+  --wg2-aurora-purple: #2b043e;
   --wg2-aurora-purple-lighten-1: #664178;
   --wg2-aurora-purple-lighten-2: #866994;
-  --wg2-aurora-purple-lighten-3: #C7B9CD;
-  --wg2-aurora-purple-lighten-4: #C7B9CD; /* DUPLICATE !!!! */
-  --wg2-aurora-purple-lighten-5: #F7F5F8;
-  --wg2-aurora-purple-darken-1: #29043B;
-  --wg2-aurora-purple-darken-2: #20032E;
+  --wg2-aurora-purple-lighten-3: #c7b9cd;
+  --wg2-aurora-purple-lighten-4: #c7b9cd; /* DUPLICATE !!!! */
+  --wg2-aurora-purple-lighten-5: #f7f5f8;
+  --wg2-aurora-purple-darken-1: #29043b;
+  --wg2-aurora-purple-darken-2: #20032e;
   --wg2-aurora-purple-darken-3: #180222;
-  --wg2-aurora-purple-darken-4: #0F0116;
+  --wg2-aurora-purple-darken-4: #0f0116;
   --wg2-aurora-purple-darken-5: #020003;
 }
 
@@ -81,7 +91,7 @@ h3 {
 p {
   font-size: 1.5em;
   font-weight: 500;
-  letter-spacing: -.4px;
+  letter-spacing: -0.4px;
   line-height: 1.6em;
   margin: 0;
 }
@@ -97,17 +107,17 @@ ul {
 ul li {
   font-size: 1.5em;
   font-weight: 500;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 button {
   border-radius: 12px;
   padding: 16px;
-  letter-spacing: -.2px;
+  letter-spacing: -0.2px;
 
   font-size: 1.1em;
   font-weight: 700;
-  font-family: 'Inter';
+  font-family: "Inter";
 
   border: none;
   outline: none;
@@ -149,7 +159,6 @@ button:active {
   scroll-margin-top: 100px;
 }
 
-
 /* PAGE CSS */
 
 .topNav {
@@ -157,7 +166,7 @@ button:active {
   height: 100px;
   background-color: white;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +200,6 @@ button:active {
   color: black;
   font-weight: 500;
 }
-
 
 section {
   padding: 40px;
