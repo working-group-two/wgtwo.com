@@ -16,7 +16,7 @@ let form = {
 function CaseStudies() {
   return (
     <Layout title="wgtwo">
-      <div className={common.page}>
+      <div className={common.page} style={{display: 'none'}}>
         <div className={common.section}>
           <div className={common.container}>
             <div className={common.centeredText}>
