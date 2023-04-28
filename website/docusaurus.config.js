@@ -73,7 +73,7 @@ module.exports = {
           label: "Product Ecosystem",
           position: "left",
         },
-        {
+        /*{
           label: "Showcase",
           position: "left",
           type: "dropdown",
@@ -83,7 +83,7 @@ module.exports = {
             { label: "CKH IOD", href: "/showcase/ckh-iod" },
             { label: "MKI", href: "/showcase/mki" },
           ],
-        },
+        },*/
         {
           href: "/careers/",
           activeBasePath: "/careers/",
