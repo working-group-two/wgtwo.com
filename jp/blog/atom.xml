@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/jp/blog</id>
-    <title>Tech Features Upgraded! (#215) Blog</title>
+    <title>Brand Page (#318) Blog</title>
     <updated>2023-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/jp/blog"/>
-    <subtitle>Tech Features Upgraded! (#215) Blog</subtitle>
+    <subtitle>Brand Page (#318) Blog</subtitle>
     <icon>https://www.wgtwo.com/jp/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Meet the trailblazing product developers that help mobile operators differentiate and innovate - on WG2's platform]]></title>
