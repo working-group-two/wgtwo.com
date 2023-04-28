@@ -5,7 +5,7 @@ module.exports = {
   title: "Working Group Two",
   tagline:
     "No more boxes, no more end of life, no large upfront investments. With the wgtwo cloud native mobile core we offer continuous innovation, continuous development, scalability and flexibility. And to make it really simple for operators – delivered as a managed SaaS telecommunication network.",
-  url: "https://www.wgtwo.com/",
+  url: "https://www.wgtwo.com",
   baseUrl: "/",
   favicon: "img/favicons/favicon.ico",
   organizationName: "working-group-two",
@@ -35,7 +35,7 @@ module.exports = {
       },
       {
         name: "og:image",
-        content: "/img/wgtwo-logo-white-bg.png",
+        content: "/img/wgtwo-logo.png",
       },
       {
         name: "keywords",
@@ -49,7 +49,7 @@ module.exports = {
     prism: {
       additionalLanguages: ["promql", "protobuf"],
     },
-    image: "/img/wgtwo-logo-white-bg.png",
+    image: "/img/wgtwo-logo.png",
     navbar: {
       logo: {
         alt: "wgtwo Logo",
@@ -127,8 +127,18 @@ module.exports = {
               href: "https://console.wgtwo.com",
             },
             {
+              label: "Implementation",
+              href: "/implementation",
+              target: "_self",
+            },
+            {
               label: "Customer Support",
               href: "https://support.wgtwo.com",
+            },
+            {
+              label: "Privacy Notice",
+              href: "/privacy",
+              target: "_self",
             },
           ],
         },
@@ -156,12 +166,17 @@ module.exports = {
               target: "_self",
             },
             {
+              label: "Terms of Use",
+              href: "/terms-of-use",
+              target: "_self",
+            },
+            {
               label: "Careers",
               href: "/careers",
               target: "_self",
             },
             {
-              label: "gk.wgtwo.com 合同会社",
+              label: "wgtwo.com/jp 合同会社",
               href: "https://www.wgtwo.com/jp",
             },
           ],
@@ -180,13 +195,13 @@ module.exports = {
               target: "_self",
             },
             {
-              label: "Trust Report",
-              href: "https://trust.wgtwo.com",
+              label: "Responsible Disclosure",
+              href: "/security/responsible-disclosure",
+              target: "_self",
             },
             {
-              label: "Privacy Notice",
-              href: "/privacy",
-              target: "_self",
+              label: "Trust Report",
+              href: "https://trust.wgtwo.com",
             },
           ],
         },
@@ -237,12 +252,10 @@ module.exports = {
         blog: {
           path: "../blog",
           showReadingTime: true,
+          postsPerPage: 18,
           blogSidebarCount: 1000,
           editUrl:
             "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
-        },
-        googleAnalytics: {
-          trackingID: "UA-114662288-1",
         },
         theme: {
           customCss: [
@@ -256,6 +269,12 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      require.resolve("docusaurus-gtm-plugin"),
+      {
+        id: "GTM-N4969FH",
+      },
+    ],
     [
       "@docusaurus/plugin-ideal-image",
       {

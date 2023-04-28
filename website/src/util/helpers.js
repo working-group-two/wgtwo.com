@@ -1,5 +1,6 @@
 module.exports = {
   validEmail: email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email),
+  containsAngleBrackets: string => /[<>]+/.test(string),
   slugify: text =>
     text
       .toString()

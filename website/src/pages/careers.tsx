@@ -47,7 +47,7 @@ const Careers = () => {
                 world. It is a well-financed and profitable industry that
                 societies fundamentally depend on. But it is not growing. It is
                 not innovating. And it leaves value on the table for other
-                industries to Leverage.
+                industries to leverage.
               </p>
 
               <p>
@@ -134,7 +134,7 @@ const Careers = () => {
               image={require("../../static/img/careers/VictoriaHicks.jpg")}
               name="Victoria Hicks"
               title="Head of People"
-              email="victoria@wgtwo.com"
+              email="hicks@wgtwo.com"
             />
             <ContactCard
               image={require("../../static/img/careers/TheresaGuanio.jpg")}
@@ -172,7 +172,7 @@ const Careers = () => {
           <div className={common.centeredText}>
             <div className={common.subtitle}>
               <br />
-              <b>60+</b> engineers, <b>19+</b> different nationalities make up
+              <b>75+</b> engineers, <b>25+</b> different nationalities make up
               the <b>wgtwo</b> team. We collectively have spent centuries at
               Telenor, Telia, Ice, Google, PWC, Ericsson, Cisco, and more.
             </div>

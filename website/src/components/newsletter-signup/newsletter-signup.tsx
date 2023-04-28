@@ -4,7 +4,11 @@ import Link from "@docusaurus/Link"
 import Head from "@docusaurus/Head"
 import React from "react"
 
-const NewsletterSignup = ({ onBlogPost = false, hidden = false }) => {
+const NewsletterSignup = ({
+  onBlogPost = false,
+  hidden = false,
+  className = "",
+}) => {
   if (hidden) {
     if (onBlogPost) return null
 
@@ -15,7 +19,7 @@ const NewsletterSignup = ({ onBlogPost = false, hidden = false }) => {
     <div
       className={`${!onBlogPost && common.section} ${styles.newsletterSignup} ${
         onBlogPost && styles.onBlog
-      }`}
+      } ${className}`}
     >
       <div
         className={`${common.container} ${

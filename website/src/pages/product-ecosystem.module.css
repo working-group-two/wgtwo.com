@@ -1,3 +1,226 @@
+/* ROADMAP CSS */
+
+.roadmapSection {
+  flex-direction: column;
+  gap: 50px;
+}
+
+.roadmapContainer {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "title1 title2 title3 title4"
+    "items1 items2 items3 items4";
+  gap: 16px;
+}
+
+/* grid item areas */
+.productsOnRadarTitle {
+  grid-area: title1;
+}
+.backlogTitle {
+  grid-area: title2;
+}
+.comingSoonTitle {
+  grid-area: title3;
+}
+.liveTitle {
+  grid-area: title4;
+}
+
+.productsOnRadar {
+  grid-area: items1;
+}
+.backlog {
+  grid-area: items2;
+}
+.comingSoon {
+  grid-area: items3;
+}
+.live {
+  grid-area: items4;
+}
+/**/
+
+.roadmapColumnTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #555555;
+  margin-bottom: 10px;
+}
+.roadmapColumnTitle h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.titleIcon {
+  width: 16px;
+  flex-shrink: 0;
+  vertical-align: sub;
+  margin-right: 5px;
+  color: grey;
+}
+
+.offCenterBalance {
+  width: 16px;
+  flex-shrink: 0;
+}
+
+.roadmapItemContainer {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.roadmapItemContainer .itemBtn {
+  width: 100%;
+  font-size: 0.85em;
+  font-weight: 500;
+  font-family: var(--aa-font-family);
+  text-align: left;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 4px;
+  background-color: white;
+  padding: 10px 15px;
+  margin: 3px 0px;
+  border-left: 5px solid rgb(202, 202, 202);
+  box-shadow: 0px 2px 3px #c7c7c740;
+  cursor: pointer;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+.roadmapItemContainer .itemBtn:hover {
+  background-color: rgb(240, 240, 240);
+  border-top-color: rgb(180, 180, 180);
+  border-bottom-color: rgb(180, 180, 180);
+  border-right-color: rgb(180, 180, 180);
+}
+
+.live .itemBtn {
+  border-left-color: rgb(84, 207, 92);
+}
+.comingSoon .itemBtn {
+  border-left-color: #4cabe7;
+}
+.backlog .itemBtn {
+  border-left-color: rgb(205, 183, 233); /* #92d8c3; */
+}
+.productsOnRadar .itemBtn {
+  border-left-color: rgb(240, 193, 127);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+/* override ReactTooltip styling with custom */
+.tooltipStyling {
+  transition: opacity 150ms ease-out !important;
+  background: #263238 !important;
+  color: white !important;
+  box-shadow: 0px 3px 10px rgba(138, 138, 138, 0.602);
+}
+.tooltipStyling::after {
+  background-color: #263238 !important;
+}
+/***/
+
+.tooltipContent {
+  max-width: 300px;
+}
+
+.tooltipTitle {
+  font-weight: bold;
+}
+.tooltipDescription {
+  line-height: 1.4em;
+  margin-top: 1px;
+}
+.tooltipSmallText {
+  margin: 6px 0;
+  display: block;
+  color: #ccc;
+}
+
+/* fix margin between list items */
+.scrollbar > div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6px;
+}
+
+.scrollbar {
+  border-bottom: 2px solid #cfcfcf95;
+  padding-bottom: 1px;
+}
+
+.modalDialog {
+  min-width: 400px;
+  max-width: 600px;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.modalContent {
+  width: 95%;
+}
+.modalText {
+  margin-bottom: 0.5em;
+}
+.modalLink {
+  color: #1872ff;
+}
+
+.roadmapCTAGrid {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 1fr;
+
+  border: 1px solid #d1dde3;
+  border-radius: 7px;
+  padding: 30px;
+
+  box-shadow: 0px 5px 20px #63727921;
+  background: #f8f8f8;
+}
+
+.roadmapCTAColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.roadmapCTAColumn:nth-child(odd) {
+  border-right: 4px dotted #d1dde3;
+  padding-right: 24px;
+}
+.roadmapCTAColumn:nth-child(even) {
+  padding-left: 24px;
+}
+
+.roadmapCTATitle {
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.roadmapCTAText {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.roadmapCTABtn {
+  flex-grow: 0;
+}
+
+/*****/
+
 .priceTiers {
   display: grid;
   margin: 0 auto;
@@ -44,12 +267,12 @@
 }
 
 .altButton {
-  background-color: #607d8b !important;
-  border: 0 !important;
+  background-color: #607d8b;
+  border: 0;
   color: #fff;
 }
 .altButton:hover {
-  background-color: #7d96a3 !important;
+  background-color: #7d96a3;
   color: #fff;
 }
 
@@ -113,10 +336,121 @@ div.featureGridHeader {
 /* Responsiveness */
 
 @media (max-width: 900px) {
+  .roadmapContainer {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "title1 title2"
+      "items1 items2"
+      "title3 title4"
+      "items3 items4";
+  }
+  .roadmapColumnTitle {
+    margin-top: 10px;
+  }
+
   .priceTiers {
     grid-template-columns: 1fr;
   }
   .questions {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .roadmapCTAGrid {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .roadmapCTAColumn:nth-child(odd) {
+    border-right: none;
+    padding-right: 0;
+
+    border-bottom: 4px dotted #d1dde3;
+    padding-bottom: 36px;
+  }
+  .roadmapCTAColumn:nth-child(even) {
+    padding-left: 0;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 512px) {
+  .roadmapContainer {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title1"
+      "items1"
+      "title2"
+      "items2"
+      "title3"
+      "items3"
+      "title4"
+      "items4";
+  }
+  .roadmapColumnTitle {
+    font-size: 1.5em;
+  }
+
+  .modalDialog {
+    max-width: 90%;
+    min-width: 0;
+  }
+}
+
+/* GENERAL MODAL CSS */
+.modalOverlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modalDialogSlideIn {
+  animation: 200ms ease 0s 1 normal none running modalSlideIn !important;
+}
+.modalDialogFadeOut {
+  animation: 200ms ease 0s 1 normal none running modalFadeOut !important;
+}
+
+.modalOverlayFadeIn {
+  animation: 200ms ease 0s 1 normal none running overlayFadeIn !important;
+}
+.modalOverlayFadeOut {
+  animation: 200ms ease 0s 1 normal none running overlayFadeOut !important;
+}
+
+@keyframes modalSlideIn {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes modalFadeOut {
+  0% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.96);
+    opacity: 0;
+  }
+}
+
+@keyframes overlayFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes overlayFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

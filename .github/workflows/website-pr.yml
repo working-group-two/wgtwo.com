@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - main
+      - 'pr-auto-commit-prettier'
     paths:
       - "docs/**"
       - "blog/**"
@@ -14,12 +15,24 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'website skip')"
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v2
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: actions/cache@v3
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - name: Prettier & Build & Test for broken links
         run: |
-          cd website 
-          yarn && yarn prettier:check && yarn build && yarn links:test
+          cd website
+          # install prettier
+          yarn
+          # run yarn prettier and commit back to github if fixes are required
+          yarn prettier
+          if [ -n "$(git status --porcelain)" ]; then
+            git config --global user.name 'GitHub Action'
+            git config --global user.email 'github-action@users.noreply.github.com'
+            git commit -am "[Prettier] Fix formatting"
+            git push
+          fi
+          yarn && yarn build && yarn links:test

@@ -2,6 +2,16 @@
   font-size: 0.9rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.containerCardView {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 0px !important;
+  margin-bottom: 15px !important;
 }
 
 .dateContainer {
@@ -10,6 +20,10 @@
 }
 
 .iconsContainer {
+}
+
+.noIcons {
+  display: none;
 }
 
 .button {
@@ -41,4 +55,17 @@
 .spacer {
   margin-left: 8px;
   color: #dce2ec;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+  /* Card View */
+  .containerCardView {
+    padding: 0 25px;
+  }
+
+  .container .dateContainer {
+    flex-direction: column;
+    font-size: 0.8em;
+  }
 }

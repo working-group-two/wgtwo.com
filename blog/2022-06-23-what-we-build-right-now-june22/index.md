@@ -4,6 +4,7 @@ title: "What we're building on the platform right now: 5GSA, 5GNSA, OCS, content
 date: 2022-06-23
 tags: [saas, operators, 5g, ocs, vonr, volte, pbx, building-now]
 authors: [tor-odland]
+image: ./teamtalking.jpg
 ---
 
 Our global mobile core platform is rapidly evolving. Here's what the team is building right now.

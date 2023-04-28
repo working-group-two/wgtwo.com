@@ -1,0 +1,37 @@
+.avatarContainer {
+  flex-direction: row-reverse;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.avatarPhoto {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avatarName,
+.avatarName > a {
+  color: rgb(247, 247, 247);
+  text-align: right;
+  font-weight: 500;
+  font-size: 0.95em;
+}
+
+.avatarSubtitle {
+  color: #929292;
+
+  font-size: 0.7em;
+  line-height: 1em;
+  text-align: right;
+  padding-bottom: 2px;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-break: anywhere; /* force ellipsis */
+}
+
+.avatarSubtitle {
+  color: rgb(207, 207, 207);
+}

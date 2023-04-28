@@ -8,51 +8,70 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 function Component() {
   const { i18n } = useDocusaurusContext()
   return (
-    <div className={common.section}>
-      <div className={`${common.container} ${common.splitContainer}`}>
-        <div className={common.text}>
-          <h1 className={styles.titleHeader}>
-            Programmable. <br /> Scalable. <br /> Innovative. <br />
-            This is your new mobile core network.
-            {/* <span className={`${styles.ak} ${styles.hn} ${styles.ah} ${styles.av} ${styles.ab}`}>Mobile core network.</span> */}
-          </h1>
-          <div
-            className={
-              i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
-            }
+    <div className={`${common.section} ${styles.section}`}>
+      <div className={`${common.container} `}>
+        <h1 className={styles.titleHeader}>
+          Plug into the world's mobile core network
+        </h1>
+        <div
+          className={
+            i18n.currentLocale === "en" ? common.subtitle : common.subtitleJp
+          }
+        >
+          <Translate
+            id="home.hero.subtitle"
+            description="Subtitle for the hero section"
           >
-            <Translate
-              id="home.hero.subtitle"
-              description="Subtitle for the hero section"
-            >
-              No more boxes, no more end-of-life, no large upfront investments.
-              With wgtwo's cloud-native mobile core you get continuous
-              innovation, reduced costs and real flexibility. To make it really
-              simple for operators – it's delivered as-a-service and grows as
-              you grow.
-            </Translate>
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              to="/technology"
-              className={`${common.button} ${common.buttonPrimary}`}
-            >
-              <Translate
-                id="home.hero.techButton"
-                description="techButton for the hero section"
+            Join a league of global telco front-runners in their pursuit of
+            growth and efficiency. By connecting to our borderless core, you
+            will simplify operations, reduce cost by 30-70% and get access to a
+            product marketplace to help you differentiate and build new revenue
+            streams.
+          </Translate>
+        </div>
+        <div className={styles.buttons}>
+          {i18n.currentLocale === "en" && (
+            <>
+              <Link
+                to="/contact"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
               >
-                Our Technology
-              </Translate>
-            </Link>
-            <Link to="/request-demo" className={common.button}>
-              <Translate
-                id="home.hero.contactButton"
-                description="contactButton for the hero section"
+                <Translate
+                  id="home.hero.techButton"
+                  description="techButton for the hero section"
+                >
+                  Show me how
+                </Translate>
+              </Link>
+            </>
+          )}
+
+          {i18n.currentLocale === "jp" && (
+            <>
+              <Link
+                to="/technology"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
               >
-                Request a Demo
-              </Translate>
-            </Link>
-          </div>
+                <Translate
+                  id="home.hero.techButton"
+                  description="techButton for the hero section"
+                >
+                  詳しく見る
+                </Translate>
+              </Link>
+              <Link
+                to="/implementation"
+                className={`${common.button} ${common.buttonPrimary} ${styles.heroButton}`}
+              >
+                <Translate
+                  id="home.hero.contactButton"
+                  description="contactButton for the hero section"
+                >
+                  sXGPクラウドサービス
+                </Translate>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </div>

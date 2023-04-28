@@ -78,10 +78,17 @@ export default function BlogPostItemHeaderInfo({ className }) {
   const { siteConfig } = useDocusaurusContext()
   const baseUrl = siteConfig.url
 
-  const { metadata } = useBlogPost()
+  const { metadata, isBlogPostPage } = useBlogPost()
   const { date, formattedDate, readingTime } = metadata
   return (
-    <div className={clsx(styles.container, "margin-vert--md", className)}>
+    <div
+      className={clsx(
+        { [styles.container]: isBlogPostPage },
+        { [styles.containerCardView]: !isBlogPostPage },
+        "margin-vert--md",
+        className
+      )}
+    >
       <div className={styles.dateContainer}>
         <Date date={date} formattedDate={formattedDate} />
         {typeof readingTime !== "undefined" && (
@@ -91,7 +98,12 @@ export default function BlogPostItemHeaderInfo({ className }) {
           </>
         )}
       </div>
-      <div className={styles.iconsContainer}>
+      <div
+        className={clsx({
+          [styles.iconsContainer]: isBlogPostPage,
+          [styles.noIcons]: !isBlogPostPage,
+        })}
+      >
         <button
           className={styles.button}
           onClick={() => onLinkedinClick(baseUrl, metadata)}

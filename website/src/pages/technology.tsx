@@ -10,7 +10,7 @@ import contact from "./contact.module.css"
 import message from "../util/message"
 import Link from "@docusaurus/Link"
 import { translate } from "@docusaurus/Translate"
-import { validEmail } from "../util/helpers"
+import { validEmail, containsAngleBrackets } from "../util/helpers"
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
@@ -21,11 +21,20 @@ let form = {
 
 function Index() {
   const [formError, setFormError] = useState("")
+  const [formErrorName, setFormErrorName] = useState(false)
+  const [formErrorEmail, setFormErrorEmail] = useState(false)
+  const [formErrorMessage, setFormErrorMessage] = useState(false)
 
   function sendMessage() {
     setFormError("")
+    setFormErrorName(false)
+    setFormErrorEmail(false)
+    setFormErrorMessage(false)
+
+    // ERROR CHECK 1: INVALID EMAIL
 
     if (!validEmail(form.email.current.value)) {
+      setFormErrorEmail(true)
       setFormError(
         translate({
           message: "Email address is invalid",
@@ -35,6 +44,37 @@ function Index() {
       )
       return
     }
+
+    // ERROR CHECK 2: ANGLE BRACKETS < > IN ANY FIELD
+
+    let angleBracketErrorHit = false
+
+    if (containsAngleBrackets(form.name.current.value)) {
+      setFormErrorName(true)
+      angleBracketErrorHit = true
+    }
+    if (containsAngleBrackets(form.email.current.value)) {
+      setFormErrorEmail(true)
+      angleBracketErrorHit = true
+    }
+    if (containsAngleBrackets(form.message.current.value)) {
+      setFormErrorMessage(true)
+      angleBracketErrorHit = true
+    }
+
+    if (angleBracketErrorHit) {
+      setFormError(
+        translate({
+          message: "Text cannot contain < or >",
+          id: "contact.form.angleBracketsInField",
+          description: "Error message when a text field contains < or >",
+        })
+      )
+
+      return
+    }
+
+    // SEND MESSAGE
 
     message(
       `New question from Technology page!\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
@@ -275,16 +315,22 @@ function Index() {
               <div className={common.subtitle}>We love to tell you more!</div>
             </div>
             <div className={contact.form}>
-              <input ref={form.name} placeholder="Name" />
               <input
-                className={formError && contact.hasError}
+                className={formErrorName ? contact.hasError : ""}
+                ref={form.name}
+                placeholder="Name"
+              />
+              <input
+                className={formErrorEmail ? contact.hasError : ""}
                 ref={form.email}
                 placeholder="Email address"
               />
               <input
+                className={`${formErrorMessage ? contact.hasError : ""} ${
+                  contact.span2
+                }`}
                 ref={form.message}
                 placeholder="Message"
-                className={contact.span2}
               />
               <button
                 ref={form.button}

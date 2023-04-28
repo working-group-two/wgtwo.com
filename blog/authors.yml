@@ -110,3 +110,18 @@ odd-trondrud:
   name: Odd Trondrud
   title: Developer
   image_url: /img/author-photos/ot.jpg
+
+db:
+  name: Džiugas Baltrūnas
+  title: Software Engineer
+  url: https://www.linkedin.com/in/dziugas/
+  image_url: /img/author-photos/db.jpeg
+  
+kjh:
+  name: Karl Johan Sande Heimaark
+  title: Engineering Manager
+  url: https://www.linkedin.com/in/karljohanheimark/
+  image_url: /img/author-photos/kjh.jpeg
+  
+  
+  

@@ -70,13 +70,14 @@ html[data-theme="dark"] .footer--dark {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 0.8rem;
 }
 
 .markdown figure {
   text-align: center;
 }
 
-.docs-wrapper {
+.docs-wrapper .main-wrapper {
   width: 100%;
   max-width: 1296px;
   margin: 0 auto;

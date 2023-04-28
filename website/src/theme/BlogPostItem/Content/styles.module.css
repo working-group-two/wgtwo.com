@@ -1,0 +1,53 @@
+.articleCardContent {
+  padding: 0px 30px;
+  margin-bottom: 26px;
+  margin-top: 0px;
+  padding-bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  min-height: 110px;
+  background: #ffffff;
+  /* border-top: 1px solid #e9e9e9; */
+}
+
+/* re-format certain elements to better fit CARD VIEW */
+
+.articleCardContent img {
+  display: none;
+}
+
+.articleCardContent > :first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.articleCardContent ul {
+  padding-left: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+}
+
+.articleCardContent li {
+  display: inline;
+}
+
+.articleCardContent p {
+  display: inline;
+  /* to make --webkit-line-clamp work on Safari: https: //github.com/working-group-two/wgtwo.com/pull/254 */
+}
+
+/* re-format certain elements to better fit the design */
+.articleContent img {
+  border-radius: 5px;
+}
+
+/* Card View - Mobile View */
+@media (max-width: 600px) {
+  .articleCardContent {
+    padding: 0 25px;
+  }
+}

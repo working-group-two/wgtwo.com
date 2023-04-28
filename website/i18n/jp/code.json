@@ -64,7 +64,7 @@
     "description": "Description for the support feature"
   },
   "home.hero.subtitle": {
-    "message": "データセンターリソースや 、ハードウェアなどシステム立ち上げに必要な先行投資の心配はいりません。またハードウェアやソフトウェアの保障切れによる追加投資も必要ありません。wgtwoのクラウドコアは、続的なコード追加、大幅なコスト削減、そして柔軟性を提供します。シンプルにお使いいただくためにサブスクリプションサービスとして提供され、お客様の成長に合わせて拡張することができます。",
+    "message": "データセンターリソースや、ハードウェアなどシステム立ち上げに必要な先行投資の心配はいりません。またハードウェアやソフトウェアの保障切れによる追加投資も必要ありません。wgtwoのクラウドコアは、続的なコード追加、大幅なコスト削減、そして柔軟性を提供します。シンプルにお使いいただくためにサブスクリプションサービスとして提供され、お客様の成長に合わせて拡張することができます。",
     "description": "Subtitle for the hero section"
   },
   "home.hero.techButton": {
@@ -72,7 +72,7 @@
     "description": "techButton for the hero section"
   },
   "home.hero.contactButton": {
-    "message": "お問い合わせ",
+    "message": "sXGPクラウドサービス",
     "description": "contactButton for the hero section"
   },
   "home.logs.subtitle": {
@@ -378,5 +378,9 @@
   "contact.form.button": {
     "message": "送信",
     "description": "Button for the contact form"
+  },
+  "newsletter.title": {
+    "message": "Newsletter",
+    "description": "Title for the newsletter signup page"
   }
 }
