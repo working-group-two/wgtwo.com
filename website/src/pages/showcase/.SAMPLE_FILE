@@ -1,0 +1,78 @@
+---
+slug: page-url
+title: Title
+description: Write the description here that will be shown under /showcase page, where all the companies are shown
+advancedPage: true
+---
+
+[comment]: # (ignore the lines below, but keep them)
+
+import TwoColumnSection from "./components/twocolumnsection";
+import Column from "./components/column";
+
+import BigTitle from "./components/bigTitle";
+import Cards from "./components/cardContainer";
+import Card from "./components/card";
+
+import GridSection from "./components/gridsection";
+import Metric from "./components/metric";
+
+import ResourcesSection from "./components/resourcessection";
+import Resource from "./components/resource";
+
+import Section from "./components/section";
+import Quote from "./components/quote";
+
+[comment]: # (ignore the lines above, they just need to be there)
+
+[comment]: # (MAIN SECTION)
+
+<TwoColumnSection>
+
+  <Column sticky>
+    <BigTitle pillText="MVNO" titleText="Company Name" logoUrl="/img/company_name.png">
+      Write whatever you want about the company here.
+      To use the logo url above, you need to upload the logo under website/static/img/
+    </BigTitle>
+  </Column>
+
+  <Column>
+    <Cards>
+      <Card label="CHALLENGE" title="Title of Card">
+        CHALLENGE text
+      </Card>
+      <Card label="SOLUTION" title="Title of Card">
+        Solution text
+      </Card>
+    </Cards>
+  </Column>
+  
+</TwoColumnSection>
+
+
+[comment]: # (METRICS)
+
+<GridSection bgColor="#232e33">
+  <Metric title="3">french hens</Metric>
+  <Metric title="2">turtle doves</Metric>
+  <Metric title="1">partridge in a pear tree</Metric>
+</GridSection>
+
+
+[comment]: # (RESOURCES)
+
+<ResourcesSection>
+  <Resource title="Website" link="https://google.com">Visit the official page</Resource>
+  <Resource title="Title" link="https://link.com"><em>Resource text</em></Resource>
+</ResourcesSection>
+
+
+[comment]: # (QUOTE)
+
+<Section bgColor="#f6f6f6">
+  <Quote>
+    The soul becomes dyed with the color of its thoughts
+  </Quote>
+</Section>
+
+[comment]: # (Just remove any unwanted sections, or rearrange at will)

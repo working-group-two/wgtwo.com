@@ -1,0 +1,45 @@
+.splitContainer {
+  display: grid !important;
+  grid-template-columns: 2fr 3fr;
+  align-items: start !important;
+}
+
+.sectionStyle {
+  padding-bottom: 70px !important;
+}
+
+@media (max-width: 1200px) {
+  div.splitContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch !important;
+    padding: 0 60px;
+  }
+
+  .sectionStyle {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  div.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  div.splitContainer {
+    padding: 0 24px;
+  }
+}
+
+/* Override default MDX style */
+h2 {
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0 !important;
+}

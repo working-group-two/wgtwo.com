@@ -1,0 +1,16 @@
+h2 {
+  margin-bottom: 40px !important;
+}
+
+@media (max-width: 800px) {
+  .sectionStyle {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerStyle {
+    padding: 0 40px;
+  }
+}

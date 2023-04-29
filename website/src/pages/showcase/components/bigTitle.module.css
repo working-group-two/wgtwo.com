@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  margin-bottom: var(--ifm-heading-margin-bottom);
+}
+
+.header h2 {
+  margin: 0 !important;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 80px;
+}
+
+@media (max-width: 512px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .logoContainer {
+    display: block;
+  }
+}
