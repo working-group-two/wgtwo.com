@@ -1,0 +1,49 @@
+.deploymentModels a {
+  font-weight: 600;
+  color: white;
+}
+
+.deploymentModelText {
+  color: #b0c2c8;
+}
+
+.deploymentModels {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+.deploymentModel {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  padding: 36px 56px;
+  border-radius: 8px;
+  max-width: 560px;
+  min-width: 100%;
+  transition: 0.4s;
+}
+
+.deploymentModelLabel {
+  color: #cad9e2;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.deploymentModelTitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: var(--ifm-heading-line-height);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 512px) {
+  div.deploymentModel {
+    padding: 36px 36px !important;
+  }
+}
