@@ -818,7 +818,7 @@ export default () => (
       <h1>The good stuff!</h1>
 
       <h3 className={`${styles.downloadLink} ${styles.fw_300}`}>
-        <a href="#">
+        <a href="https://drive.google.com/drive/folders/1gm13n5gH7qRm2jDe9bSRBydNc9xMGBjv">
           Download all WG2 logos
           <div className={styles.downloadLinkIconContainer}>
             <img src={require("!file-loader!./link-icon.svg").default} />
