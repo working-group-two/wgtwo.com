@@ -1,0 +1,88 @@
+.link {
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.hr {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.showcases {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 1200px) {
+  div.showcases {
+    grid-template-columns: 1fr;
+  }
+}
+
+.showcase {
+  background-color: hsla(0, 0%, 100%, 0.05);
+  padding: 36px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.showcaseImage {
+  width: 100%;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.showcaseImage img {
+  border-radius: 8px;
+}
+
+.showcaseTitle {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.showcaseDescription {
+  margin-bottom: 12px;
+}
+
+.showcaseLink {
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.showcaseButton {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 32px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: -16px;
+  cursor: pointer;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.showcaseButton:hover {
+  box-shadow: inset 100px 0 100px 100px rgb(0 0 0 / 30%);
+  color: rgba(255, 255, 255, 0.7);
+}
