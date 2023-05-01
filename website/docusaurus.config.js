@@ -8,8 +8,8 @@ module.exports = {
   url: "https://www.wgtwo.com",
   baseUrl: "/",
   favicon: "img/favicons/favicon.ico",
-  organizationName: "WG2",
-  projectName: "wg2.com",
+  organizationName: "working-group-two",
+  projectName: "wgtwo.com",
   deploymentBranch: "gh-pages",
   trailingSlash: "true",
   i18n: {
@@ -244,7 +244,7 @@ module.exports = {
           path: "../docs",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/working-group-two/wg2.com/edit/main/docs/",
+            "https://github.com/working-group-two/wgtwo.com/edit/main/docs/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           remarkPlugins: [mdxMermaid],
@@ -255,7 +255,7 @@ module.exports = {
           postsPerPage: 18,
           blogSidebarCount: 1000,
           editUrl:
-            "https://github.com/working-group-two/wg2.com/edit/main/blog/",
+            "https://github.com/working-group-two/wgtwo.com/edit/main/blog/",
         },
         theme: {
           customCss: [
