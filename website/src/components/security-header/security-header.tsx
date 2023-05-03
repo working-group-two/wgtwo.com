@@ -63,7 +63,14 @@ function Component() {
             </div>
             <div className={styles.featureTitle}>ISO 27001</div>
             <div className={styles.featureDescription}>
-              <b>wgtwo</b> is ISO 27001:2022 certified. View our{" "}
+              <b>wgtwo</b> is ISO 27001:2022{" "}
+              <Link
+                to="https://www.iafcertsearch.org/certification/62873d54-4083-5367-b443-5cface48c6a8"
+                className={styles.link}
+              >
+                certified
+              </Link>{" "}
+              . View our{" "}
               <Link to="https://trust.wgtwo.com" className={styles.link}>
                 Trust Report
               </Link>{" "}
