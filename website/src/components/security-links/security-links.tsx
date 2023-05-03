@@ -19,6 +19,12 @@ function Component() {
         </div>
         <div className={`${common.container} ${styles.SecurityDomainList}`}>
           <Link
+            to="https://www.iafcertsearch.org/certification/62873d54-4083-5367-b443-5cface48c6a8"
+            className={`${common.button} ${common.buttonPrimary}`}
+          >
+            View our ISO 27001:2022 Certification
+          </Link>
+          <Link
             to="/docs/technology/security-whitepaper"
             className={`${common.button} ${common.buttonPrimary}`}
           >
