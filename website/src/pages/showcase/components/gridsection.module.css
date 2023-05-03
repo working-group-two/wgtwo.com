@@ -1,0 +1,29 @@
+.sectionStyle {
+  padding: 60px 0;
+}
+
+/* credit: https://stackoverflow.com/a/61240964/3705191 */
+.gridContainer {
+  display: grid !important;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 0;
+  align-items: start !important;
+}
+
+@media (max-width: 600px) {
+  .gridContainer {
+    display: flex !important;
+    align-items: center !important;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch !important;
+  }
+
+  .sectionStyle {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+}

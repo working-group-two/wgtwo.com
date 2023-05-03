@@ -15,9 +15,9 @@ export default function BlogLayout(props) {
           {/* <BlogSidebar sidebar={sidebar} /> */}
           <main
             className={clsx("col", {
-              "col--8": isBlogPostPage,
-              "col--offset-1": toc && isBlogPostPage,
-              "col--offset-2": !toc && isBlogPostPage,
+              [styles.col8]: isBlogPostPage,
+              [styles.colOffset1]: toc && isBlogPostPage,
+              [styles.colOffset2]: !toc && isBlogPostPage,
               [styles.cardListView]:
                 isListView === true || isTagsPostPage === true,
               [styles.singleBlogPageView]: isBlogPostPage,

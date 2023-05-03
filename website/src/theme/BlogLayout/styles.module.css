@@ -33,3 +33,15 @@
 .singleBlogPageView > nav > a {
   background-color: #fefefe;
 }
+
+/* CUSTOM COLUMN VALUES */
+
+.col8 {
+  --ifm-col-width: calc(9 / 12 * 100%);
+}
+.colOffset1 {
+  margin-left: calc(0.5 / 12 * 100%);
+}
+.colOffset2 {
+  margin-left: calc(0.5 / 12 * 100%);
+}

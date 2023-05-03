@@ -43,7 +43,7 @@ git push --set-upstream origin yourname/your-branch-name
 
 
 <details>
-<summary> Create a Blog</summary>
+<summary> Create a Blog Post</summary>
 
 - Add a directory for the new blog post here [blog/](https://github.com/working-group-two/wgtwo.com/tree/main/blog)
   - Name the directory `yyyy-mm-dd-name-of-blog`

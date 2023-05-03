@@ -45,7 +45,7 @@ function Component() {
                     id="sxgpButton"
                     description="sXGP Button for the hero section"
                   >
-                    sXGPクラウドサービス
+                    お問い合わせ
                   </Translate>
                 </AnchorLink>
               </div>
