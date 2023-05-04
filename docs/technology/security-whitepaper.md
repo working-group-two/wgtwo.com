@@ -218,7 +218,7 @@ Additional security controls include:
 **wgtwo** security program aligns with industry security and privacy standards, such as ISO 27001, CIS, NIST, GSMA, and GDPR. Processes exist to monitor our cloud and application infrastructure to these standards and fix any gaps.
 
 ### ISO 27001:2022
-The ISO 27001:2022 certification can be downloaded from https://trust.wgtwo.com, viewed from the IAF portal https://www.iafcertsearch.org/certification/62873d54-4083-5367-b443-5cface48c6a8, and more details can be found on our [blog post](/blog/iso27001).
+The ISO 27001:2022 certification can be downloaded from https://trust.wgtwo.com, viewed from the IAF portal https://www.iafcertsearch.org/certified-entity/b173f6b7-3418-5050-875b-e513ecaece42, and more details can be found on our [blog post](/blog/iso27001).
 
 *ISO Scope Statement*
 > Working Group Two operates a mobile core network platform-as-a-service, enabling its customers to provide mobile telecom services using its core network. In addition, WG2 builds APIs to drive the programmability of the mobile core network. The scope of the ISO/IEC 27001:2022 certification is limited to the Information Security Management System (ISMS) supporting Working Group Two AS’s Software-as-a-Service (SaaS), Web application products, mobile telecom services in accordance with the Statement of Applicability version 1.0 dated 03/09/2023.
