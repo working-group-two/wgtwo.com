@@ -222,6 +222,10 @@ module.exports = {
               target: "_self",
             },
             {
+              label: "YouTube",
+              href: "https://www.youtube.com/@workinggrouptwo2286",
+            },
+            {
               label: "Twitter",
               href: "https://twitter.com/workinggrouptwo",
             },
