@@ -32,18 +32,24 @@ a.avatar__photo-link {
 
 .articleContainer {
   background-color: white;
-  border: 1px solid #c9ced7;
-  border-radius: 10px;
-  padding: 35px 50px;
-  padding-bottom: 40px;
+  border: 1px solid #f1f2f4;
+  border-radius: 2px;
+  padding: 75px 90px 40px;
+  padding-bottom: 50px;
   box-shadow: 0px 5px 20px #a6b8c661;
 }
 
 /* Mobile View */
+@media (max-width: 900px) {
+  /* Blog Post Page View */
+  .articleContainer {
+    padding: 50px 60px 20px 60px;
+  }
+}
 @media (max-width: 600px) {
   /* Blog Post Page View */
   .articleContainer {
-    padding: 15px 20px; /*25px 30px;*/
+    padding: 30px 40px 30px 40px;
   }
 
   .articleContainer h1 {
