@@ -5,26 +5,26 @@ tags: [telco,diameter,credit-control,charging]
 authors: [seba]
 ---
 
-Sorry for the click-bait title, I couldn't resist.
+Sorry for the click-bait title, I couldn't resist.  
 
 In this blog post I will describe online charging and go in depth on
 the Credit-Control message, what it is used for, what it contains, and
-where it sent.
+where it is sent.
 
 <!--truncate-->
 
 # What is charging?
 
-If you (as a user of telephone services aka subscriber) want to make a
+If you (as a user of telephone services, aka subscriber) want to make a
 phone call, send SMS or use data services, then your operator wants to
 know that you are able to pay for that action. This is called
 charging, the method of collecting and checking the number of used
 service units.
 
-There is also the concept of billing that often goes hand in hand;
+There is also the concept of billing that often goes hand in hand:
 Invoicing you for those charged services units.
 
-There are multiple plans which you can happen, for instance you might
+There are multiple plans which you can have, for instance you might
 have a prepaid SIM-card where you top up your saldo in advance, or you
 might have a subscription plan which allows for some services for a
 fixed price.
@@ -34,11 +34,11 @@ in two ways. Either they are using offline charging, or an online
 charging system.
 
 Offline charging cannot affect user sessions in real time, it
-calculates the charging records after the session finished and updates
+calculates the charging records after the session is finished and updates
 the user's values. For instance you might get the invoice after the
 month finishes with the cost of your usage.  In order to send the
-invoice the operator need to collect records of the user's usage,
-these records are called Charging Detail Records, and ackronymed CDRs.
+invoice, the operator need to collect records of the user's usage,
+these records are called Charging Detail Records, and acronymed CDRs.
 The CDRs are sent from all the parts of the network that handles the
 user's session. For instance the SMSGW node is collecting CDRs for
 SMS-usage, a PGW for Data-usage, etc.
@@ -46,7 +46,7 @@ SMS-usage, a PGW for Data-usage, etc.
 The other way is to have a online charging setup, where all the telco
 nodes need to ask for credits at the moment the user is using the
 services. The system that gets the request is called an Online
-Charging System, or OCS in telco-lingo, and recides at the operator
+Charging System, or OCS in telco-lingo, and resides at the operator
 control.  It is called online charging because it can actively affect
 the user session in real time, i.e. block or allow user actions based
 on the values and calculations in the OCS. The different systems sends
@@ -77,13 +77,13 @@ used up?
 This picture shows how you the subscriber and the OCS are located in
 the network. Your phone connects to the antennas of the visiting
 network. The visiting network is the network that owns the antennas
-and spectrums, aka mobile network operator or MNO. In Sweden it is one
+and spectrums, aka mobile network operator or MNO. In Sweden, it is one
 of Telia, Tele2, Telenor, or Tre. In Germany it is Telekom, O2, or
 Vodafone. Wikipedia has
 [lists](https://en.wikipedia.org/wiki/List_of_mobile_network_operators#By_region)
 if you want to check your country's MNOs.
 
-When using one of the services provided a bunch of requests are sent
+When using one of the services provided, a bunch of requests are sent
 from the visiting network to your home network, i.e. your operators
 network. This network *could* be the same network as the visiting
 network, but it doesn't have to. For instance if you have a Telenor
@@ -92,7 +92,7 @@ you could be in Telekoms network roaming if in Germany, or you could
 have a Vimla SIM-card, which is an Swedish MVNO (virtual operator;
 meaning they don't have their own licence for the radio bands, but
 they have an agreement with Telenor to use their network.). It gets
-complicated quick and I've only mentioned the visiting and home
+complicated quickly and I've only mentioned the visiting and home
 network (there are others, e.g. interrogating network).
 
 Between the networks there are nodes called Sigtran Transfer Point
@@ -111,7 +111,7 @@ make it possible for a home network to receive updates of it's users
 actions. As an example, when you start a call, the visiting network
 will use CAMEL to send an InitialDP (user has entered a detection
 point) message to the home network. The home network will then respond
-with either Continue or Connect (if it accept the action) which let's
+with either Continue or Connect (if it accept the action) which lets
 the user and visiting network to continue to set up the call, or the
 home network can send a ReleaseCall message which denies the call to
 be set up (or disconnects if the call is already set up).
@@ -256,10 +256,10 @@ but I'm already tired.
 
 # Summary
 
-Online charging as a concept is great to have in the portfolio I
-believe. My concern is that some of the telco protocols seems to be
+Online charging as a concept is great to have in the portfolio, I
+believe. My concern is that some of the telco protocols seem to be
 have written by the same people behind the AUTOSAR specification.
-Ambiguous, hard to understand, to many fields and different
+Ambiguous, hard to understand, too many fields and different
 interfaces, and vendors that does different things on top of it to get
 their things to work...
 
