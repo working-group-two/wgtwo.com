@@ -7,4 +7,4 @@ techFeaturePage: true
 
 # CGNAT
 
-Carrier-grade NAT (CGNAT) is a type of Network address translation for use in IPv4 network design.
+Carrier-Grade NAT (also known as CGN) is a NAT-based logical function used to share the same IPv4 address among several subscribers.
