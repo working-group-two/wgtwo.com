@@ -7,4 +7,5 @@ techFeaturePage: true
 
 # AMF
 
-The Authentication Management Field (AMF) is a 16 bit value which is used to set the acceptable synchronization window in both the UE (User Equipment) and the network.
+The Access and Mobility Management Function (AMF) is one of the control plane network functions (NF) of the 5G core network (5GC). 
+The 5G AMF, is an evolution of 4G MME, continuing with the Control Plane and User Plane Separation, and with further simplifications like moving the Sessions Management functions to the SMF and, providing common SBA interfaces.
