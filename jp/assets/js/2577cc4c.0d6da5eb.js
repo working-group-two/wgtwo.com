@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[9368],{87854:function(e){e.exports=JSON.parse('{"label":"Forward-SM","permalink":"/jp/blog/tags/forward-sm","allTagsPath":"/jp/blog/tags","count":1}')}}]);

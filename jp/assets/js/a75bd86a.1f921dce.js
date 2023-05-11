@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[1558],{71121:function(t){t.exports=JSON.parse('{"label":"credit-control","permalink":"/jp/blog/tags/credit-control","allTagsPath":"/jp/blog/tags","count":1}')}}]);

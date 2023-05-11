@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8868],{41257:function(e){e.exports=JSON.parse('{"label":"telco","permalink":"/blog/tags/telco","allTagsPath":"/blog/tags","count":5}')}}]);
