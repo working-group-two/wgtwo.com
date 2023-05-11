@@ -115,18 +115,6 @@
   overflow-x: hidden;
 }
 
-/* override ReactTooltip styling with custom */
-.tooltipStyling {
-  transition: opacity 150ms ease-out !important;
-  background: #263238 !important;
-  color: white !important;
-  box-shadow: 0px 3px 10px rgba(138, 138, 138, 0.602);
-}
-.tooltipStyling::after {
-  background-color: #263238 !important;
-}
-/***/
-
 .tooltipContent {
   max-width: 300px;
 }
