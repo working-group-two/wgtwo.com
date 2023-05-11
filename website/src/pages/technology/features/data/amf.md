@@ -1,7 +1,7 @@
 ---
 slug: amf
 title: AMF
-tags: [4G, 5G]
+tags: [5G]
 techFeaturePage: true
 ---
 
