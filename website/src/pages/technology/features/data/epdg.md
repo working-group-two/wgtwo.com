@@ -7,4 +7,4 @@ techFeaturePage: true
 
 # ePDG
 
-The evolved Packet Data Gateways (ePDG) general responsibilities include IP address management, support for MIP (Mobile IP), QoS enforcement, lawful intercept and security.
+The evolved Packet Data Gateways (ePDG) is responsible for interworking between the EPC and untrusted non-3GPP networks that require secure access, such as a WiFi.
