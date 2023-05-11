@@ -7,4 +7,6 @@ techFeaturePage: true
 
 # GGSN/PGW
 
-Gateway GPRS Support Node (GGSN) is part of the core network that connects GSM-based 3G networks to the Internet. The GGSN, sometimes known as a wireless router, works in tandem with the Serving GPRS Support Node (SGSN) to keep mobile users connected to the Internet and IP-based applications.
+The gateway GPRS support node (GGSN) is one of two components of the GPRS PS domain. The GGSN together with the SGSN handle packet transmissions between the GPRS network and external packet-switched networks, such as the Internet
+
+The Packet Data Network Gateway (PDN Gateway, also PGW) provides connectivity from the User Equipment (UE) to external packet data networks (PDNs) by being its point of exit and entry of traffic.
