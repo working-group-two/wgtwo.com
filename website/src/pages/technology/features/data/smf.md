@@ -1,10 +1,9 @@
 ---
 slug: smf
 title: SMF
-tags: [4G, 5G]
+tags: [5G]
 techFeaturePage: true
 ---
 
 # SMF
-
-Service Management Function (SMF) is the set of processes in an IN (Intelligent Network) that support the management of user and/or network information including service data and Service Logic programs that are required for the proper operation of a service.
+The Session Management Function (SMF) is one of the Control Plane Network Functions (NF) of the 5G core network (5GC). The SMF is responsible for the session management with the supported individual functions on a per-session basis.
