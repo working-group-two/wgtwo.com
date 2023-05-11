@@ -1,0 +1,36 @@
+.sectionStyle {
+  padding-top: 50px;
+}
+
+.gridContainer {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+  align-items: start !important;
+}
+
+/* TODO: mobile responsive grids!!! */
+
+h2.title {
+  color: #232e33;
+  margin-bottom: 50px !important;
+}
+
+@media (max-width: 1200px) {
+  .sectionStyle {
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 900px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}

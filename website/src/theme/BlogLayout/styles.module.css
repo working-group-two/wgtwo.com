@@ -1,5 +1,5 @@
 .blogBackground {
-  background-color: #f7f7f7;
+  background-color: #eff3f6;
 }
 
 /* BLOG OVERVIEW - CARD LIST VIEW */
@@ -27,6 +27,7 @@
 /* SINGLE BLOG POST PAGE VIEW */
 
 .singleBlogPageView {
+  animation: fadeUp 200ms ease;
 }
 
 /* NAV OVERRIDE - NEXT/PREV ARTICLE BTNS */
@@ -44,4 +45,15 @@
 }
 .colOffset2 {
   margin-left: calc(0.5 / 12 * 100%);
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  0% {
+    opacity: 0.2;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+  }
 }

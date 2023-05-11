@@ -22,6 +22,14 @@ module.exports = {
     },
   },
   themeConfig: {
+    announcementBar: {
+      id: "announcement-bar",
+      content:
+        '🔐 Working Group Two is <b>ISO 27001:2022</b> certified - <a target="_blank" href="/blog/iso27001">read more</a> 🎉',
+      backgroundColor: "#B2E5FB",
+      textColor: "#2A3033",
+      isCloseable: true,
+    },
     metadata: [
       {
         name: "description",
@@ -73,6 +81,17 @@ module.exports = {
           label: "Product Ecosystem",
           position: "left",
         },
+        /*{
+          label: "Showcase",
+          position: "left",
+          type: "dropdown",
+          to: "/showcase",
+          items: [
+            { label: "Vimla", href: "/showcase/vimla" },
+            { label: "CKH IOD", href: "/showcase/ckh-iod" },
+            { label: "MKI", href: "/showcase/mki" },
+          ],
+        },*/
         {
           href: "/careers/",
           activeBasePath: "/careers/",
@@ -201,6 +220,10 @@ module.exports = {
               label: "Media & Analysts",
               href: "/docs/about/media-and-analysts",
               target: "_self",
+            },
+            {
+              label: "YouTube",
+              href: "https://www.youtube.com/@workinggrouptwo2286",
             },
             {
               label: "Twitter",
