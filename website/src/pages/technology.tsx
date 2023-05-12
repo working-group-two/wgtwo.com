@@ -146,9 +146,12 @@ function Index() {
           }}
         >
           <div className={common.container} style={{ gap: "0" }}>
-            <div style={{ textAlign: "center" }}>
-              <h1>Telco Functionality Solving Your Usecase</h1>
+            <div className={common.centeredText}>
+              <div className={common.title}>
+                Telco Functionality Solving Your Usecase
+              </div>
               <div className={common.subtitle}>
+                <br />
                 Our system offers a comprehensive solution that includes
                 functions covering traditional network interfaces and use-cases.
                 We provide detailed information on the exposed interfaces to
