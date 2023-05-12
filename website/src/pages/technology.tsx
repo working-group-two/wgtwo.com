@@ -147,21 +147,13 @@ function Index() {
         >
           <div className={common.container} style={{ gap: "0" }}>
             <div style={{ textAlign: "center" }}>
-              <h1>Features</h1>
-              <p>
-                <MousePointer
-                  size={16}
-                  color="#999"
-                  style={{ marginRight: "5px" }}
-                />
-                Hover over features for quick definitions.
-                <MousePointerClick
-                  size={19}
-                  color="#999"
-                  style={{ margin: "0 5px" }}
-                />
-                Click for more details
-              </p>
+              <h1>Telco Functionality Solving Your Usecase</h1>
+              <div className={common.subtitle}>
+                Our system offers a comprehensive solution that includes
+                functions covering traditional network interfaces and use-cases.
+                We provide detailed information on the exposed interfaces to
+                ensure seamless integration with existing networks.
+              </div>
             </div>
             <div className={styles.featureListGrid}>
               {FeaturesSidebar.map((category, index) => {
