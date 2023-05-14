@@ -111,12 +111,6 @@ export default [
           "The Domain Name System(DNS) translates Domain Names into corresponding IP Addresses for example websites and Email addresses are translated into HTTPS URL or SMTP.",
       },
       {
-        name: "ePDG",
-        href: "/epdg",
-        tooltipText:
-          "The evolved Packet Data Gateways (ePDG) general responsibilities include IP address management, support for MIP (Mobile IP), QoS enforcement, lawful intercept and security.",
-      },
-      {
         name: "CGNAT",
         href: "/cgnat",
         tooltipText:
@@ -252,8 +246,10 @@ export default [
           "A Diameter Routing Agent (DRA) provides real-time routing capabilities to ensure that messages are routed among the correct elements in a network.",
       },
       {
-        name: "DEA",
-        href: "/dea",
+        name: "SCP",
+        href: "/scp",
+        tooltipText:
+          "A Service Communication Proxy (SCP) provides real-time message forwarding and routing capabilities to a 5G network.",
       },
       {
         name: "SS7 Firewall",
