@@ -6,7 +6,7 @@ tags: [telco,diameter,credit-control,charging]
 authors: [seba]
 ---
 
-Sorry for the click-bait title, I couldn't resist.  
+Sorry for the click-bait title, I couldn't resist.
 
 In this blog post I will describe online charging and go in depth on
 the Credit-Control message, what it is used for, what it contains, and
@@ -266,6 +266,11 @@ their things to work...
 
 (Sorry for being harsh to the people designing this, it's probably not
 that easy).
+
+The issue is that this interface is not expected to be an interconnect
+interface, meaning the operator owns the OCS system and can decide to
+send whatever works internal in their own network for their own use
+cases.
 
 What I would've liked is to split the messages and applications. 3GPP
 online charging to get a separate application-id from base diameter
