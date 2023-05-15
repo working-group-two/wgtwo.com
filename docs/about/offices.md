@@ -27,8 +27,8 @@ Norway
 ```
 Working Group Two
 c/o Digs
-Krambugata 2
-7011 Trondheim
+Beddingen 8, 
+7014 Trondheim
 Norway
 ```
 
