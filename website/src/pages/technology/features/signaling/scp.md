@@ -10,7 +10,7 @@ techFeaturePage: true
 A Service Communication Proxy (SCP) provides real-time message
 forwarding and routing capabilities to a 5G network.
 
-# Capabilities
+## Capabilities
 
 - 5G SA
 - Congestion control
