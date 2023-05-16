@@ -750,7 +750,14 @@ export default () => (
       className={`${styles.sectionGreen} ${styles.gap40}`}
       id="typography"
     >
-      <h1>Typography</h1>
+      <div className={styles.typographyHeading}>
+        <h1>Typography</h1>
+
+        <a className={styles.roundedBtnBlue} href="https://fonts.google.com/specimen/Inter" target="_blank">
+          Google Fonts Page
+        </a>
+      </div>
+
       <h1 className={styles.fw_300}>Inter</h1>
 
       <div className={styles.paragraphColumn}>

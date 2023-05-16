@@ -277,6 +277,25 @@ section {
   color: white;
 }
 
+.typographyHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roundedBtnBlue {
+  color: var(--wg2-international-blue);
+  font-weight: 500;
+  padding: 15px 20px;
+  border: 2px solid var(--wg2-international-blue);
+  border-radius: 5px;
+  transition: background-color 100ms ease, color 100ms ease;
+}
+.roundedBtnBlue:hover {
+  background-color: var(--wg2-international-blue);
+  color: white;
+}
+
 .downloadLink a {
   color: var(--wg2-aurora-green);
   text-decoration: underline;
