@@ -136,7 +136,7 @@ export default [
         name: "DNS",
         href: "/dns",
         tooltipText:
-          "The Domain Name System (DNS) translates Domain Names into corresponding IP Addresses for example websites and Email addresses are translated into HTTPS URL or SMTP.",
+          "The Domain Name System(DNS) translates Domain Names into corresponding IP Addresses for example websites and Email addresses are translated into HTTPS URL or SMTP.",
       },
       {
         name: "CGNAT",
@@ -272,6 +272,12 @@ export default [
         href: "/dra",
         tooltipText:
           "A Diameter Routing Agent (DRA) provides real-time routing capabilities to ensure that messages are routed among the correct elements in a network.",
+      },
+      {
+        name: "SCP",
+        href: "/scp",
+        tooltipText:
+          "A Service Communication Proxy (SCP) provides real-time message forwarding and routing capabilities to a 5G network.",
       },
       {
         name: "SS7 Firewall",
