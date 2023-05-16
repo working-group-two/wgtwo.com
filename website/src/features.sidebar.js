@@ -13,7 +13,12 @@ export default [
         tooltipText:
           "The short message service center (SMSC) is the portion of a mobile phone network that handles text message operations. It is responsible for receiving, storing, routing and forwarding SMS messages from mobile handsets. It is also referred to as a short message service -- service center (SMS-SC).",
       },
-      { name: "SMS Router", href: "/sms-router" },
+      {
+        name: "SMS Router",
+        href: "/sms-router",
+        tooltipText:
+          "An SMS router is a software component in a telecommunications network that manages the routing and delivery of Short Message Service (SMS) messages between mobile devices and applications. SMS routers act as intermediaries between SMS gateways and mobile network operators, and they are responsible for ensuring that SMS messages are delivered to the correct recipient.",
+      },
       {
         name: "SMS GW",
         href: "/sms-gw",
@@ -40,18 +45,6 @@ export default [
       },
       { name: "MMSC-GW", href: "/mmsc-gw" },
       {
-        name: "Voicemail",
-        href: "/voicemail",
-        tooltipText:
-          "Voicemail is an electronic system that allows a user to send and store voice messages.",
-      },
-      {
-        name: "SMSF (roadmap)",
-        href: "/smsf",
-        tooltipText:
-          "The short message service function SMSF supports the transfer of SMS over NAS. The SMSF will conduct subscription checking and relay between the device and the SMSC.",
-      },
-      {
         name: "SMPP GW",
         href: "/smpp-gw",
         tooltipText:
@@ -65,12 +58,47 @@ export default [
     color: "#4e6ab6",
     type: "category",
     items: [
-      { name: "G-MSC", href: "/g-msc" },
+      {
+        name: "Voicemail",
+        href: "/voicemail",
+        tooltipText:
+          "Voicemail service is a telecommunications feature that allows callers to leave voice messages when the person they are calling is unavailable or does not answer the phone.",
+      },
+      {
+        name: "G-MSC",
+        href: "/g-msc",
+        tooltipText:
+          'G-MSC stands for "Gateway Mobile Switching Center". It is a component in the Global System for Mobile Communications (GSM) network that provides call control and switching functions between the mobile network and the public switched telephone network (PSTN). The G-MSC acts as an interface between the mobile network and the PSTN, and it provides functions such as call routing, call setup and teardown, and call transfer. The G-MSC is responsible for routing incoming calls to the appropriate mobile subscriber and for routing outgoing calls from the mobile subscriber to the appropriate destination. It is a critical component of the GSM network and is essential for enabling mobile subscribers to make and receive calls to and from the PSTN.',
+      },
+      {
+        name: "MRFC",
+        href: "/mrfc",
+        tooltipText:
+          "The MRFC is a component in the IMS architecture that controls media resources in real-time during multimedia communications sessions. It manages resources such as codecs, echo cancellers, and other media processing functions.",
+      },
+      {
+        name: "MRFP",
+        href: "/mrfp",
+        tooltipText:
+          "The MRFP is a component in the IMS architecture that performs media processing functions such as audio and video transcoding, mixing, and playback. It is responsible for encoding, decoding, and streaming media content during multimedia communications sessions.",
+      },
+      {
+        name: "P/I/S-SCSCF Proxy/Interrogating/Serving",
+        href: "/p-i-s-scscf",
+        tooltipText:
+          "Serving Call Session Control Function. It is a component in the IP Multimedia Subsystem (IMS) architecture used in telecommunications networks. The P/I/S-SCSCF provides session control and routing for voice and multimedia communications, and it acts as an intermediary between the user and the network.",
+      },
       {
         name: "SBC",
         href: "/sbc",
         tooltipText:
           "A session border controller (SBC) is a network element deployed to protect SIP based VoIP networks.",
+      },
+      {
+        name: "TAS",
+        href: "/tas",
+        tooltipText:
+          "A TAS is a software application that provides services to enable voice communications over IP-based networks. It is typically used in telecommunications networks to provide features such as call forwarding, voicemail, and interactive voice response (IVR) systems.",
       },
       {
         name: "MTAS/SCC-AS",
@@ -109,12 +137,6 @@ export default [
         href: "/dns",
         tooltipText:
           "The Domain Name System(DNS) translates Domain Names into corresponding IP Addresses for example websites and Email addresses are translated into HTTPS URL or SMTP.",
-      },
-      {
-        name: "ePDG",
-        href: "/epdg",
-        tooltipText:
-          "The evolved Packet Data Gateways (ePDG) general responsibilities include IP address management, support for MIP (Mobile IP), QoS enforcement, lawful intercept and security.",
       },
       {
         name: "CGNAT",
@@ -252,8 +274,10 @@ export default [
           "A Diameter Routing Agent (DRA) provides real-time routing capabilities to ensure that messages are routed among the correct elements in a network.",
       },
       {
-        name: "DEA",
-        href: "/dea",
+        name: "SCP",
+        href: "/scp",
+        tooltipText:
+          "A Service Communication Proxy (SCP) provides real-time message forwarding and routing capabilities to a 5G network.",
       },
       {
         name: "SS7 Firewall",
@@ -271,6 +295,8 @@ export default [
       {
         name: "Radius",
         href: "/radius",
+        tooltipText:
+          "Remote Authentication Dial-In User Service (RADIUS) is a protocol used for providing centralized authentication, authorization, and accounting (AAA) management for users who connect and use network resources. RADIUS is commonly used in enterprise networks and internet service provider (ISP) environments to manage user access to network resources.",
       },
       {
         name: "PCEF",
