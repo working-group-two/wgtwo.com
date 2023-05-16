@@ -1,0 +1,11 @@
+.ccravps tr:nth-child(12),
+.ccravps tr:nth-child(13),
+.ccravps tr:nth-child(17),
+.ccravps tr:nth-child(19),
+.ccravps tr:nth-child(21),
+.ccravps tr:nth-child(22),
+.ccravps tr:nth-child(25),
+.ccravps tr:nth-child(28),
+.ccravps tr:nth-child(31) { color: red; }
+
+
