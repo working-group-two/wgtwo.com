@@ -10,6 +10,9 @@ import MDXContent from "@theme/MDXContent"
 import TOC from "@theme/TOC"
 import common from "@site/src/css/common.module.css"
 import styles from "./styles.module.css"
+
+import CustomPageContainer from "./CustomPageContainer" // Location of CustomPageContainer
+
 export default function MDXPage(props) {
   const { content: MDXPageContent } = props
   const {
@@ -35,6 +38,14 @@ export default function MDXPage(props) {
           </main>
         </Layout>
       </HtmlClassNameProvider>
+    )
+  } else if (MDXPageContent.metadata.frontMatter.techFeaturePage) {
+    const toc = MDXPageContent.toc
+    const tags = MDXPageContent.metadata.frontMatter.tags
+    return (
+      <CustomPageContainer toc={toc} tags={tags}>
+        <MDXPageContent />
+      </CustomPageContainer>
     )
   } else {
     return (

@@ -65,7 +65,7 @@ function Component() {
             <div className={styles.featureDescription}>
               <b>wgtwo</b> is ISO 27001:2022{" "}
               <Link
-                to="https://www.iafcertsearch.org/certification/62873d54-4083-5367-b443-5cface48c6a8"
+                to="https://www.iafcertsearch.org/certified-entity/b173f6b7-3418-5050-875b-e513ecaece42"
                 className={styles.link}
               >
                 certified

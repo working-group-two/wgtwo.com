@@ -9,6 +9,7 @@
 
 .form input,
 .form textarea {
+  width: 100%;
   padding: 16px 32px;
   border: 1px solid #aaa;
   border-radius: 8px;
