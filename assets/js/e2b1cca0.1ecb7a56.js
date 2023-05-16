@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3252],{10027:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/diameter","page":1,"postsPerPage":18,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
