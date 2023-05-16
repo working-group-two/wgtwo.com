@@ -269,43 +269,6 @@ function Index() {
                 </li>
               </div>
             </div>
-
-            <div className={styles.priceTier}>
-              <div className={styles.priceTierTitle}>Storefront</div>
-              <div className={styles.priceTierDescription}>
-                Your platform to market your application to customers across{" "}
-                <b>wgtwo</b> operators.
-                <Image
-                  alt="wgtwo storefront"
-                  className={styles.image}
-                  img={require("../../static/img/storefront.png")}
-                />
-              </div>
-              <div className={styles.price}>Find a new app today</div>
-              <a
-                className={`${common.button} ${common.buttonPrimary}`}
-                href="https://storefront.wgtwo.com"
-                target="_self"
-              >
-                Storefront
-              </a>
-              <div className={styles.priceTierFeatures}>
-                <li>
-                  <CheckCircle2 /> Application Market for your telco
-                  subscription
-                </li>
-                <li>
-                  <CheckCircle2 /> Approved and secure applications
-                </li>
-                <li>
-                  <CheckCircle2 /> Let your subscribers self service on products
-                </li>
-                <li>
-                  <CheckCircle2 /> Let your subscribers add products when buying
-                  a SIM, and/or let them add more products later
-                </li>
-              </div>
-            </div>
           </div>
         </div>
 

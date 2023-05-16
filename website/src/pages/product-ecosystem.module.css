@@ -309,7 +309,7 @@ div.featureGridHeader {
 /** Disable self service Tier for now */
 
 .priceTiers {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .priceTier:nth-of-type(2) {
   display: none;
