@@ -35,7 +35,7 @@ import Card from "./components/card";
         <ul>
           <li>Fast time-to-market</li>
           <li>Flexibility & innovation</li>
-          <li>Programmability</li>
+          <li>Automation and programmability</li>
         </ul>
       </Card>
       <Card label="SOLUTION" title="A single, multi-country mobile core solution that is secure and future-proof and enables business growth.">
@@ -43,7 +43,6 @@ import Card from "./components/card";
           <li>Efficient integration delivered on time and on budget, launched in summer 2022</li>
           <li>Reduced costs and complexity of operations by replacing 22 vendors/contracts with 1</li>
           <li>Ability to add customers and use cases has allowed for revenue growth for CKH-IOD</li>
-          <li>Aggressively adding new countries and customers</li>
         </ul>
       </Card>
     </Cards>
@@ -58,7 +57,7 @@ import Card from "./components/card";
 </GridSection>
 
 <ResourcesSection>
-  <Resource title="hthkh.com" link="https://www.hthkh.com/en/global/home.php">Visit the official page of CHK IOD</Resource>
+  <Resource title="ckhiod.com" link="https://ckhiod.com/">Visit the official page of CHK IOD</Resource>
   <Resource title="Press Release" link="https://www.wgtwo.com/blog/ckh-iod-wg2-public-cloud/"><em>Published 2021-12-01</em></Resource>
 </ResourcesSection>
 
