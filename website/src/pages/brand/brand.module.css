@@ -186,6 +186,10 @@ button:active {
   margin-top: -5px; /* centering the logo */
 }
 
+.topNavContainer .navButtons {
+  padding: 0 30px;
+}
+
 .topNavContainer .navButtons .navButton {
   color: var(--wg2-international-blue);
   padding: 20px 12px;
@@ -320,9 +324,29 @@ section {
   font-weight: 600;
 }
 
-@media (max-width: 600px) {
-  .contactSection {
-    text-align: center;
-    gap: 25px !important;
+/* RESPONSIVENESS */
+
+@media (max-width: 1000px) {
+  .navButton {}
+}
+
+@media (max-width: 800px) {
+  .multiColumn {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .colorButtons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .typographyHeading {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .roundedBtnBlue {
+    width: 100%;
   }
 }
