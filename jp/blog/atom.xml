@@ -15,7 +15,7 @@
         <summary type="html"><![CDATA[Sorry for the click-bait title, I couldn't resist.]]></summary>
         <content type="html"><![CDATA[<p>Sorry for the click-bait title, I couldn't resist.</p><p>In this blog post I will describe online charging and go in depth on
 the Credit-Control message, what it is used for, what it contains, and
-where it is sent.</p><h1>What is charging?</h1><p>If you (as a user of telephone services, aka subscriber) want to make a
+where it is sent.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-charging">What is charging?<a href="#what-is-charging" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2><p>If you (as a user of telephone services, aka subscriber) want to make a
 phone call, send SMS or use data services, then your operator wants to
 know that you are able to pay for that action. This is called
 charging, the method of collecting and checking the number of used
@@ -67,7 +67,7 @@ have a Vimla SIM-card, which is an Swedish MVNO (virtual operator;
 meaning they don't have their own licence for the radio bands, but
 they have an agreement with Telenor to use their network.). It gets
 complicated quickly and I've only mentioned the visiting and home
-network (there are others, e.g. interrogating network).</p><p>Between the networks there are nodes called Sigtran Transfer Point
+network (there are others, e.g. interrogating network).</p><p>Between the networks there are nodes called Signal Transfer Point
 (STP) or Diameter Relay Agents (DRA), depending on which technology
 you use. Their purpose are to connect between networks and route
 messages between nodes. You can think of it as routers with advance
@@ -89,7 +89,7 @@ third party, a partner with us and our customer, and so there are DRAs
 connecting the third party network with our network as well.</p><p>The home network will apply online charging by sending
 Credit-Control-Request messages to the OCS, which will lookup the
 subscriber and the subscribers credits, and set the corresponding
-pricing.</p><h1>What is the problem?</h1><p>Disclaimer: These are all my personal thoughts, and there are probably
+pricing.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-the-problem">What is the problem?<a href="#what-is-the-problem" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2><p>Disclaimer: These are all my personal thoughts, and there are probably
 reasons the interface and messages are designed the way they are, that
 I yet don't grasp.</p><p>In my opinion there are too many different usages and definitions for
 the Credit-Control message, it is to general and reused in too many
@@ -138,7 +138,7 @@ each other. The same goes for the comparison of the
 sub-specifications, e.g. 3GPP TS 32.260 for IP multimedia subsystem
 (IMS) charging, and 3GPP TS 32.276 for Voice Call Services (VCS)
 charging; they are similar but not compatible.</p><p>We've just scratched the surface of these messages and applications,
-but I'm already tired.</p><h1>Summary</h1><p>Online charging as a concept is great to have in the portfolio, I
+but I'm already tired.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a href="#summary" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading">​</a></h2><p>Online charging as a concept is great to have in the portfolio, I
 believe. My concern is that some of the telco protocols seem to be
 have written by the same people behind the AUTOSAR specification.
 Ambiguous, hard to understand, too many fields and different
