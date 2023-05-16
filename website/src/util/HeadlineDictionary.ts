@@ -62,7 +62,6 @@ export const nouns = [
   "CI/CD/CT ",
   "HSP",
   "Network Wide Provisioning",
-  "ePDG",
   "PCF",
   "Realtime Billing Gateway",
   "API Gateway",

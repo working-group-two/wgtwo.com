@@ -111,12 +111,6 @@ export default [
           "The Domain Name System(DNS) translates Domain Names into corresponding IP Addresses for example websites and Email addresses are translated into HTTPS URL or SMTP.",
       },
       {
-        name: "ePDG",
-        href: "/epdg",
-        tooltipText:
-          "The evolved Packet Data Gateways (ePDG) general responsibilities include IP address management, support for MIP (Mobile IP), QoS enforcement, lawful intercept and security.",
-      },
-      {
         name: "CGNAT",
         href: "/cgnat",
         tooltipText:
