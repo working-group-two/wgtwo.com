@@ -128,7 +128,6 @@ Overall, we're pretty pleased with Concourse. There are a few features we're eag
 
 [twitter](https://twitter.com/test)
 
-[broken-link](https://example.com/broken-link-dsadkladsadlkasjd)
 
 
 ## References
