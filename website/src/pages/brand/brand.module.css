@@ -188,7 +188,7 @@ button:active {
 
 .topNavContainer .navButtons .navButton {
   color: var(--wg2-international-blue);
-  padding: 0px 12px;
+  padding: 20px 12px;
   font-weight: 600;
 }
 .topNavContainer .navButtons .navButton:hover {
