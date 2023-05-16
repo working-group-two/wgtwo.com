@@ -327,7 +327,8 @@ section {
 /* RESPONSIVENESS */
 
 @media (max-width: 1000px) {
-  .navButton {}
+  .navButton {
+  }
 }
 
 @media (max-width: 800px) {
