@@ -753,7 +753,11 @@ export default () => (
       <div className={styles.typographyHeading}>
         <h1>Typography</h1>
 
-        <a className={styles.roundedBtnBlue} href="https://fonts.google.com/specimen/Inter" target="_blank">
+        <a
+          className={styles.roundedBtnBlue}
+          href="https://fonts.google.com/specimen/Inter"
+          target="_blank"
+        >
           Google Fonts Page
         </a>
       </div>
