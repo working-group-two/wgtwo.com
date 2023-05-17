@@ -12,8 +12,8 @@
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "fetch-personio-jobs": "curl https://wgtwo.jobs.personio.de/xml -o personio-jobs.xml",
-    "links:check": "linkinator -r http://localhost:3000",
-    "links:check:json": "linkinator -r --format JSON http://localhost:3000 | jq '.links | .[] | select(.state | contains(\"BROKEN\"))'",
+    "links:check": "linkinator --config linkinator.config.json -r http://localhost:3000",
+    "links:check:json": "linkinator --config linkinator.config.json -r --format JSON http://localhost:3000 | jq '.links | .[] | select(.state | contains(\"BROKEN\"))'",
     "links:test": "start-server-and-test serve 3000 links:check"
   },
   "dependencies": {
