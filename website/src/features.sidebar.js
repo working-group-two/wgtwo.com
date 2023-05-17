@@ -166,6 +166,7 @@ export default [
   },
   {
     label: "Connectivity",
+    icon: "Plugzap",
     color: "#3456be",
     type: "category",
     items: [
@@ -233,6 +234,7 @@ export default [
   },
   {
     label: "Charging",
+    icon: "Zap",
     color: "#3e5cce",
     type: "category",
     items: [
@@ -258,6 +260,7 @@ export default [
   },
   {
     label: "Signaling",
+    icon: "Radio",
     color: "#117a9b",
     type: "category",
     items: [
@@ -289,6 +292,7 @@ export default [
   },
   {
     label: "Policy",
+    icon: "Network",
     color: "#3371b8",
     type: "category",
     items: [

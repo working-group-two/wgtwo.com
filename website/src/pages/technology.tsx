@@ -21,9 +21,11 @@ import {
   Check,
   ChevronRight,
   Info,
-  MousePointer,
-  MousePointerClick,
+  PlugZap,
   Asterisk,
+  Zap,
+  Radio,
+  Network,
 } from "lucide-react"
 
 let form = {
@@ -331,6 +333,18 @@ function FeatureItemsColumn({
         break
       case "binary":
         Icon = Binary
+        break
+      case "plugzap":
+        Icon = PlugZap
+        break
+      case "zap":
+        Icon = Zap
+        break
+      case "radio":
+        Icon = Radio
+        break
+      case "network":
+        Icon = Network
         break
     }
 

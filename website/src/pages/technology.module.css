@@ -55,11 +55,11 @@
 
 .featureListContainer h4 {
   margin-bottom: -12px;
-  margin-left: 8px;
   background: white;
   position: relative;
   width: fit-content;
   padding: 0 10px;
+  padding-left: 18px;
   font-size: 1.4em;
 }
 
@@ -71,8 +71,7 @@
   height: 100%;
   border-top: 3px solid #a4b5c1; /* #77858c; */
   border-radius: 2px;
-  padding: 15px;
-  padding-bottom: 0px;
+  padding-left: 15px;
   padding-top: 20px;
   margin: 0;
 }
