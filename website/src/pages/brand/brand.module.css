@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-body,
-html,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-a {
+.brandPage
+.brandPage h1,
+.brandPage h2,
+.brandPage h3,
+.brandPage h4,
+.brandPage h5,
+.brandPage h6,
+.brandPage p,
+.brandPage span,
+.brandPage a {
   font-family: "Inter" !important;
 }
 
@@ -72,7 +71,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+.brandPage h1 {
   font-size: 5em;
   font-weight: 800;
   letter-spacing: -4px;
@@ -80,7 +79,7 @@ h1 {
   margin: 0;
 }
 
-h3 {
+.brandPage h3 {
   font-size: 3em;
   font-weight: 800;
   letter-spacing: -4px;
@@ -88,7 +87,7 @@ h3 {
   margin: 0;
 }
 
-p {
+.brandPage p {
   font-size: 1.5em;
   font-weight: 500;
   letter-spacing: -0.4px;
@@ -96,21 +95,21 @@ p {
   margin: 0;
 }
 
-img {
+.brandPage img {
   display: block;
 }
 
-ul {
+.brandPage ul {
   margin-top: 20px;
 }
 
-ul li {
+.brandPage ul li {
   font-size: 1.5em;
   font-weight: 500;
   padding-left: 10px;
 }
 
-button {
+.brandPage button {
   border-radius: 12px;
   padding: 16px;
   letter-spacing: -0.2px;
@@ -126,42 +125,43 @@ button {
 
   transition: all 300ms ease;
 }
-button:hover {
+.brandPage button:hover {
   opacity: 0.8;
   transform: translateY(-2px);
 }
-button:active {
+.brandPage button:active {
   transform: scale(0.98);
   transition: all 100ms ease;
 }
 
-.py_2 {
+.brandPage .py_2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.py_3 {
+.brandPage .py_3 {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.pt_3 {
+.brandPage .pt_3 {
   padding-top: 30px;
 }
-.pt_4 {
+.brandPage .pt_4 {
   padding-top: 40px;
 }
 
-.fw_300 {
+.brandPage .fw_300 {
   font-weight: 300;
 }
 
-:target {
+/** fix scroll top offset **/
+.brandPage :target {
   scroll-margin-top: 100px;
 }
 
 /* PAGE CSS */
 
-.topNav {
+.brandPage .topNav {
   width: 100%;
   height: 100px;
   background-color: white;
@@ -173,7 +173,7 @@ button:active {
   position: fixed;
 }
 
-.topNav .topNavContainer {
+.brandPage .topNav .topNavContainer {
   width: 100%;
   padding: 0 50px;
   display: flex;
@@ -181,31 +181,31 @@ button:active {
   align-items: center;
 }
 
-.topNavContainer .navLogo {
+.brandPage .topNavContainer .navLogo {
   width: 80px;
   margin-top: -5px; /* centering the logo */
 }
 
-.topNavContainer .navButtons {
+.brandPage .topNavContainer .navButtons {
   padding: 0 30px;
 }
 
-.topNavContainer .navButtons .navButton {
+.brandPage .topNavContainer .navButtons .navButton {
   color: var(--wg2-international-blue);
   padding: 20px 12px;
   font-weight: 600;
 }
-.topNavContainer .navButtons .navButton:hover {
+.brandPage .topNavContainer .navButtons .navButton:hover {
   color: var(--wg2-aurora-green);
   text-decoration: underline;
 }
 
-.topNavContainer .navRight .navText {
+.brandPage .topNavContainer .navRight .navText {
   color: black;
   font-weight: 500;
 }
 
-section {
+.brandPage section {
   padding: 40px;
 
   display: flex;
@@ -213,81 +213,81 @@ section {
   gap: 24px;
 }
 
-.main section:first-of-type {
+.brandPage.main section:first-of-type {
   margin-top: 100px;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-.multiColumn {
+.brandPage .multiColumn {
   display: flex;
   flex-direction: row;
   gap: 48px;
 }
-.multiColumn > * {
+.brandPage .multiColumn > * {
   flex: 1;
 }
 
-.paragraphColumn {
+.brandPage .paragraphColumn {
   max-width: 800px;
 }
 
-.noGap {
+.brandPage .noGap {
   gap: 0px;
 }
-.gap40 {
+.brandPage .gap40 {
   gap: 40px;
 }
 
-.sectionGreen {
+.brandPage .sectionGreen {
   background-color: var(--wg2-aurora-green);
   color: var(--wg2-international-blue);
 }
-.sectionBlue {
+.brandPage .sectionBlue {
   background-color: var(--wg2-international-blue);
   color: var(--wg2-aurora-green);
 }
-.sectionWhite {
+.brandPage .sectionWhite {
   background-color: white;
   color: var(--wg2-international-blue);
 }
-.sectionPink {
+.brandPage .sectionPink {
   background-color: var(--wg2-aurora-pink);
   color: var(--wg2-international-blue);
 }
-.sectionPurple {
+.brandPage .sectionPurple {
   background-color: var(--wg2-aurora-purple);
   color: var(--wg2-aurora-pink);
 }
-.sectionGrey {
+.brandPage .sectionGrey {
   background-color: #546e7a;
   color: white;
 }
 
-.colorButtons {
+.brandPage .colorButtons {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
 }
-.fourColumnGrid {
+.brandPage .fourColumnGrid {
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
-.btnTextDark {
+.brandPage .btnTextDark {
   color: #111111;
 }
-.btnTextWhite {
+.brandPage .btnTextWhite {
   color: white;
 }
 
-.typographyHeading {
+.brandPage .typographyHeading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.roundedBtnBlue {
+.brandPage .roundedBtnBlue {
   color: var(--wg2-international-blue);
   font-weight: 500;
   padding: 15px 20px;
@@ -295,31 +295,31 @@ section {
   border-radius: 5px;
   transition: background-color 100ms ease, color 100ms ease;
 }
-.roundedBtnBlue:hover {
+.brandPage .roundedBtnBlue:hover {
   background-color: var(--wg2-international-blue);
   color: white;
 }
 
-.downloadLink a {
+.brandPage .downloadLink a {
   color: var(--wg2-aurora-green);
   text-decoration: underline;
 
   display: flex;
   gap: 10px;
 }
-.downloadLink a > div.downloadLinkIconContainer {
+.brandPage .downloadLink a > div.downloadLinkIconContainer {
   width: 50px;
 }
-.downloadLinkIconContainer > img {
+.brandPage .downloadLinkIconContainer > img {
   width: 100%;
   height: 100%;
 }
 
-.footer {
+.brandPage .footer {
   background-color: white;
   color: #6c8a95;
 }
-.footer p {
+.brandPage .footer p {
   font-size: 1em;
   font-weight: 600;
 }
@@ -327,27 +327,27 @@ section {
 /* RESPONSIVENESS */
 
 @media (max-width: 1000px) {
-  .navButton {
+  .brandPage .navButton {
   }
 }
 
 @media (max-width: 800px) {
-  .multiColumn {
+  .brandPage .multiColumn {
     flex-direction: column;
     gap: 28px;
   }
 
-  .colorButtons {
+  .brandPage .colorButtons {
     display: flex;
     flex-direction: column;
   }
 
-  .typographyHeading {
+  .brandPage .typographyHeading {
     flex-direction: column;
     gap: 40px;
   }
 
-  .roundedBtnBlue {
+  .brandPage .roundedBtnBlue {
     width: 100%;
   }
 }

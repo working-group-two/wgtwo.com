@@ -6,32 +6,34 @@ function copyText(txt) {
 }
 
 export default () => (
-  <div className={styles.main}>
+  <div className={`${styles.brandPage} ${styles.main}`}>
     <div className={styles.topNav}>
       <div className={styles.topNavContainer}>
         <div className={styles.navLogo}>
-          <img src={require("!file-loader!./logo.svg").default} />
+          <a href="#home_bp">
+            <img src={require("!file-loader!./logo.svg").default} />
+          </a>
         </div>
         <div className={styles.navButtons}>
-          <a href="#thename" className={styles.navButton}>
+          <a href="#thename_bp" className={styles.navButton}>
             The name
           </a>
-          <a href="#logo" className={styles.navButton}>
+          <a href="#logo_bp" className={styles.navButton}>
             Logo
           </a>
-          <a href="#color" className={styles.navButton}>
+          <a href="#color_bp" className={styles.navButton}>
             Color
           </a>
-          <a href="#typography" className={styles.navButton}>
+          <a href="#typography_bp" className={styles.navButton}>
             Typography
           </a>
-          <a href="#toneofvoice" className={styles.navButton}>
+          <a href="#toneofvoice_bp" className={styles.navButton}>
             Tone of Voice
           </a>
-          <a href="#downloads" className={styles.navButton}>
+          <a href="#downloads_bp" className={styles.navButton}>
             Downloads
           </a>
-          <a href="#ourstory" className={styles.navButton}>
+          <a href="#ourstory_bp" className={styles.navButton}>
             Our story
           </a>
         </div>
@@ -41,7 +43,7 @@ export default () => (
       </div>
     </div>
 
-    <section className={`${styles.sectionGreen}`} id="home">
+    <section className={`${styles.sectionGreen}`} id="home_bp">
       <div className={styles.multiColumn}>
         <h1>Welcome to WG2's brand guidelines</h1>
         <p>
@@ -55,7 +57,7 @@ export default () => (
       </div>
     </section>
 
-    <section className={`${styles.sectionWhite}`} id="thename">
+    <section className={`${styles.sectionWhite}`} id="thename_bp">
       <h1>The name</h1>
       <div className={styles.multiColumn}>
         <p>
@@ -73,7 +75,7 @@ export default () => (
       </div>
     </section>
 
-    <section className={`${styles.sectionBlue}`} id="logo">
+    <section className={`${styles.sectionBlue}`} id="logo_bp">
       <h1>Logo</h1>
       <div className={styles.multiColumn}>
         <p>
@@ -171,7 +173,7 @@ export default () => (
       </div>
     </section>
 
-    <section className={`${styles.sectionWhite}`} id="color">
+    <section className={`${styles.sectionWhite}`} id="color_bp">
       <h1>Color</h1>
     </section>
 
@@ -748,7 +750,7 @@ export default () => (
 
     <section
       className={`${styles.sectionGreen} ${styles.gap40}`}
-      id="typography"
+      id="typography_bp"
     >
       <div className={styles.typographyHeading}>
         <h1>Typography</h1>
@@ -799,7 +801,7 @@ export default () => (
 
     <section
       className={`${styles.sectionPink} ${styles.gap40}`}
-      id="toneofvoice"
+      id="toneofvoice_bp"
     >
       <h1>Tone of Voice</h1>
 
@@ -825,7 +827,7 @@ export default () => (
       </div>
     </section>
 
-    <section className={`${styles.sectionBlue} ${styles.gap40}`} id="downloads">
+    <section className={`${styles.sectionBlue} ${styles.gap40}`} id="downloads_bp">
       <h1>The good stuff!</h1>
 
       <h3 className={`${styles.downloadLink} ${styles.fw_300}`}>
@@ -838,7 +840,7 @@ export default () => (
       </h3>
     </section>
 
-    <section className={`${styles.sectionWhite}`} id="ourstory">
+    <section className={`${styles.sectionWhite}`} id="ourstory_bp">
       <h1 style={{ color: "var(--wg2-aurora-green)" }}>Our story</h1>
 
       <div className={styles.multiColumn}>
