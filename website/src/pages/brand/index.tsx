@@ -827,7 +827,10 @@ export default () => (
       </div>
     </section>
 
-    <section className={`${styles.sectionBlue} ${styles.gap40}`} id="downloads_bp">
+    <section
+      className={`${styles.sectionBlue} ${styles.gap40}`}
+      id="downloads_bp"
+    >
       <h1>The good stuff!</h1>
 
       <h3 className={`${styles.downloadLink} ${styles.fw_300}`}>
