@@ -149,9 +149,7 @@ function Index() {
         >
           <div className={common.container} style={{ gap: "0" }}>
             <div className={common.centeredText}>
-              <div className={common.title}>
-                An all-inclusive platform
-              </div>
+              <div className={common.title}>An all-inclusive platform</div>
               <div className={common.subtitle}>
                 <br />
                 Our system offers a comprehensive solution that includes
