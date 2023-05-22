@@ -1,29 +1,27 @@
-const client = require('@sendgrid/mail');
-const {
-  SENDGRID_APIKEY,
-} = process.env;
+const client = require("@sendgrid/mail")
+const { SENDGRID_APIKEY } = process.env
 
 exports.handler = async function (event, context, callback) {
-  const { message, senderEmail, senderName } = event.queryStringParameters;
-  client.setApiKey(SENDGRID_APIKEY);
+  const { message, senderEmail, senderName } = event.queryStringParameters
+  client.setApiKey(SENDGRID_APIKEY)
 
   const data = {
     to: "salawa5024@duscore.com",
     from: "noreply@wgtwo.com",
     subject: `New message from ${senderName} (${senderEmail})`,
     html: message,
-  };
+  }
 
   try {
-    await client.send(data);
+    await client.send(data)
     return {
       statusCode: 200,
-      body: 'Message sent',
-    };
+      body: "Message sent",
+    }
   } catch (err) {
     return {
       statusCode: err.code,
       body: JSON.stringify({ msg: err.message }),
-    };
+    }
   }
-};
+}
