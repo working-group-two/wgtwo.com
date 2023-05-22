@@ -150,7 +150,7 @@ function Index() {
           <div className={common.container} style={{ gap: "0" }}>
             <div className={common.centeredText}>
               <div className={common.title}>
-                Telco Functionality Solving Your Usecase
+                An all-inclusive platform
               </div>
               <div className={common.subtitle}>
                 <br />
