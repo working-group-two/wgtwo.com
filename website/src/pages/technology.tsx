@@ -21,9 +21,11 @@ import {
   Check,
   ChevronRight,
   Info,
-  MousePointer,
-  MousePointerClick,
+  PlugZap,
   Asterisk,
+  Zap,
+  Radio,
+  Network,
 } from "lucide-react"
 
 let form = {
@@ -147,9 +149,7 @@ function Index() {
         >
           <div className={common.container} style={{ gap: "0" }}>
             <div className={common.centeredText}>
-              <div className={common.title}>
-                Telco Functionality Solving Your Usecase
-              </div>
+              <div className={common.title}>An all-inclusive platform</div>
               <div className={common.subtitle}>
                 <br />
                 Our system offers a comprehensive solution that includes
@@ -331,6 +331,18 @@ function FeatureItemsColumn({
         break
       case "binary":
         Icon = Binary
+        break
+      case "plugzap":
+        Icon = PlugZap
+        break
+      case "zap":
+        Icon = Zap
+        break
+      case "radio":
+        Icon = Radio
+        break
+      case "network":
+        Icon = Network
         break
     }
 
