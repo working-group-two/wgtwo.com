@@ -37,7 +37,7 @@ function Contact() {
       setFormErrorEmail(true)
       setFormError(
         translate({
-          message: "Email address is invalid",
+          message: "Email address is invalid. Please use a company email.",
           id: "contact.form.invalidEmail",
           description: "Error message when the email address is invalid",
         })
