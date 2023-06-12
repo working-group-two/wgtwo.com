@@ -55,7 +55,7 @@ function Index() {
       setFormErrorEmail(true)
       setFormError(
         translate({
-          message: "Email address is invalid",
+          message: "Email address is invalid. Please use your company email.",
           id: "contact.form.invalidEmail",
           description: "Error message when the email address is invalid",
         })
