@@ -6,7 +6,8 @@ import Link from "@docusaurus/Link"
 
 //import { frontMatter as Vimla } from "./vimla.md"
 import { frontMatter as CKH_IOD } from "./ckh-iod.md"
-//import { frontMatter as MKI } from "./mki.md"
+import { frontMatter as MKI } from "./mki.md"
+import { frontMatter as Mobi } from "./mobi.md"
 
 const showcases = [
   /*{
@@ -33,7 +34,7 @@ const showcases = [
     ),
     slug: CKH_IOD.slug,
   },
-  /*{
+  {
     name: "MKI",
     description: (
       <Translate
@@ -44,7 +45,19 @@ const showcases = [
       </Translate>
     ),
     slug: MKI.slug,
-  },*/
+  },
+  {
+    name: "Mobi",
+    description: (
+      <Translate
+        id="home.casestudy.smalloperators.description"
+        description="Description for the small operators case study"
+      >
+        {Mobi.description}
+      </Translate>
+    ),
+    slug: Mobi.slug,
+  },
 ]
 
 function Component(props) {

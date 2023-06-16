@@ -1,6 +1,6 @@
 ---
 slug: ckh-iod
-title: Case Studies - CKH IOD
+title: Showcase - CKH IOD
 description: CKH IOD maintains a multi-country MVNE platform. CKH IOD's original platform had unforeseen complexities reducing the ability to innovate and provide a scalable solution. The aged platform was not able to scale with its growth and required a future-proof mobile core network for its multi-tenancy business model.
 advancedPage: true
 ---
