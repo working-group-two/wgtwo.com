@@ -3,7 +3,6 @@ import Layout from "@theme/Layout"
 import styles from "./technology.module.css"
 import common from "../css/common.module.css"
 import TechnologyMetricList from "../components/technologymetrics/technologymetrics-list"
-import { Check } from "lucide-react"
 import Multig from "../components/multig/multig"
 import Ourservice from "../components/ourservice/ourservice"
 import contact from "./contact.module.css"
@@ -11,6 +10,23 @@ import message from "../util/message"
 import Link from "@docusaurus/Link"
 import { translate } from "@docusaurus/Translate"
 import { validEmail, containsAngleBrackets } from "../util/helpers"
+import ReactTooltip from "react-tooltip"
+
+import FeaturesSidebar from "../features.sidebar"
+
+import {
+  MessageSquare,
+  PhoneCall,
+  Binary,
+  Check,
+  ChevronRight,
+  Info,
+  PlugZap,
+  Asterisk,
+  Zap,
+  Radio,
+  Network,
+} from "lucide-react"
 
 let form = {
   name: React.createRef<HTMLInputElement>(),
@@ -18,6 +34,8 @@ let form = {
   message: React.createRef<HTMLInputElement>(),
   button: React.createRef<HTMLButtonElement>(),
 }
+
+const basePathToFeatures = "/technology/features/"
 
 function Index() {
   const [formError, setFormError] = useState("")
@@ -37,7 +55,7 @@ function Index() {
       setFormErrorEmail(true)
       setFormError(
         translate({
-          message: "Email address is invalid",
+          message: "Email address is invalid. Please use your company email.",
           id: "contact.form.invalidEmail",
           description: "Error message when the email address is invalid",
         })
@@ -121,126 +139,39 @@ function Index() {
         </div>
         <Multig />
 
-        <div className={common.container}>
-          <div className={styles.featureGrid}>
-            <div className={styles.featureGridHeader}>Messaging</div>
-            <div className={styles.featureGridHeader}>Voice</div>
-            <div className={styles.featureGridHeader}>Data</div>
-
-            <div>SMSC</div>
-            <div>G-MSC</div>
-            <div>GGSN/PGW</div>
-
-            <div>SMS router</div>
-            <div>SBC</div>
-            <div>S-GW</div>
-
-            <div>SMS GW</div>
-            <div>MTAS/SCC-AS</div>
-            <div>MME</div>
-
-            <div>SMPP GW</div>
-            <div>MRF</div>
-            <div>DNS</div>
-
-            <div>IP-SM-GW</div>
-            <div>XCAP</div>
-            <div>ePDG</div>
-
-            <div>MMS proxy</div>
-            <div>LI-GW</div>
-            <div>CGNAT</div>
-
-            <div>MMSC</div>
-            <div>SCP/IM-SSF</div>
-            <div>AMF</div>
-
-            <div>MMSC-GW</div>
-            <div>WebRTC</div>
-            <div>SMF</div>
-
-            <div>Voicemail</div>
-            <div>ePDG</div>
-            <div>UPF</div>
-
-            <div>SMSF (roadmap)</div>
-            <div>VoNR (roadmap)</div>
-            <No />
-
-            <div className={styles.featureGridHeader}>Connectivity</div>
-            <div className={styles.featureGridHeader}>Charging</div>
-            <div className={styles.featureGridHeader}>Signaling</div>
-
-            <div>HLR/HSS</div>
-            <div>Charging gateway</div>
-            <div>STP</div>
-
-            <div>UDR</div>
-            <div>Real-time billing gateway</div>
-            <div>DRA</div>
-
-            <div>
-              <Link className={styles.link} to="/docs/technology/auc">
-                AuC
-              </Link>
+        <div
+          className={common.section}
+          style={{
+            marginTop: "0px",
+            paddingTop: "80px",
+            paddingBottom: "120px",
+          }}
+        >
+          <div className={common.container} style={{ gap: "0" }}>
+            <div className={common.centeredText}>
+              <div className={common.title}>An all-inclusive platform</div>
+              <div className={common.subtitle}>
+                <br />
+                Our system offers a comprehensive solution that includes
+                functions covering traditional network interfaces and use-cases.
+                We provide detailed information on the exposed interfaces to
+                ensure seamless integration with existing networks.
+              </div>
             </div>
-            <div>CHF</div>
-            <div>DEA</div>
-
-            <div>UDM</div>
-            <No />
-            <div>
-              <Link
-                className={styles.link}
-                to="/docs/technology/security-whitepaper#ss7-firewall"
-              >
-                SS7 Firewall
-              </Link>
+            <div className={styles.featureListGrid}>
+              {FeaturesSidebar.map((category, index) => {
+                return (
+                  <FeatureItemsColumn
+                    categoryLabel={category.label}
+                    color={category.color}
+                    iconName={category.icon}
+                    items={category.items}
+                    tooltipId="leftTip"
+                    key={index}
+                  />
+                )
+              })}
             </div>
-
-            <div>AUSF</div>
-            <No />
-            <No />
-
-            <div>AAA</div>
-            <No />
-            <No />
-
-            <div>AAA proxy</div>
-            <No />
-            <No />
-
-            <div>MNP/ENUM</div>
-            <No />
-            <No />
-
-            <div>XCAP</div>
-            <No />
-            <No />
-
-            <div>Entitlement server</div>
-            <No />
-            <No />
-
-            <div className={styles.featureGridHeader}>Policy</div>
-            <div className={styles.featureGridHeader}>Support</div>
-            <div className={styles.featureGridHeader}>API´s</div>
-
-            <div>Radius</div>
-            <div>Orchestration and automation</div>
-            <div>APIs for developers</div>
-
-            <div>PCEF</div>
-            <div>Monitoring and alerting</div>
-            <div>Develop platform for 3rd party developers</div>
-
-            <div>PCRF</div>
-            <div>Customer service tools and portals</div>
-            <div>Storefront for operators</div>
-
-            <div>PCF</div>
-            <div>24/7 Level 3 On-call</div>
-            <No />
           </div>
         </div>
 
@@ -346,6 +277,23 @@ function Index() {
           </div>
         </div>
       </div>
+
+      <ReactTooltip
+        id="topTip"
+        place="top"
+        type="dark"
+        effect="solid"
+        delayShow={0}
+        className={`${common.tooltipStyling} ${styles.tooltipStyling}`}
+      />
+      <ReactTooltip
+        id="leftTip"
+        place="left"
+        type="dark"
+        effect="solid"
+        delayShow={0}
+        className={`${common.tooltipStyling} ${styles.tooltipStyling}`}
+      />
     </Layout>
   )
 }
@@ -363,3 +311,94 @@ function Yes() {
 }
 
 export default Index
+
+function FeatureItemsColumn({
+  categoryLabel,
+  color,
+  iconName,
+  items,
+  tooltipId,
+}) {
+  let Icon = ChevronRight
+
+  if (iconName)
+    switch (iconName.toLowerCase()) {
+      case "messagesquare":
+        Icon = MessageSquare
+        break
+      case "phonecall":
+        Icon = PhoneCall
+        break
+      case "binary":
+        Icon = Binary
+        break
+      case "plugzap":
+        Icon = PlugZap
+        break
+      case "zap":
+        Icon = Zap
+        break
+      case "radio":
+        Icon = Radio
+        break
+      case "network":
+        Icon = Network
+        break
+    }
+
+  return (
+    <div className={styles.featureListContainer}>
+      <h4 style={{ color }}>
+        <Icon /> {categoryLabel}
+      </h4>
+      <ul className={styles.featureList}>
+        {items &&
+          items.map((item, index) => {
+            return (
+              <li key={index} data-tip={item.tooltipText} data-for={tooltipId}>
+                <LinkToFeature category={categoryLabel} item={item} />
+              </li>
+            )
+          })}
+      </ul>
+    </div>
+  )
+}
+
+// If href is defined return <Link>, else return non-link element <div>
+function LinkToFeature({ children, category, item }) {
+  const categorySlug = category.toLowerCase()
+
+  const InfoIcon = item.tooltipText ? (
+    <Info className={styles.featureInfoIcon} />
+  ) : (
+    <></>
+  )
+
+  if (item.href)
+    return (
+      <Link
+        href={`${basePathToFeatures}${categorySlug}${item.href}`}
+        className={styles.featureItemLink}
+      >
+        <div className={styles.featureBtnIcons}>
+          <ChevronRight className={styles.featureViewIcon} />
+        </div>
+        <span>{item.name}</span>
+        <div className={styles.featureBtnIcons}>
+          {/*<Plus className={styles.featureAddIcon} />*/}
+          {InfoIcon}
+        </div>
+      </Link>
+    )
+  else
+    return (
+      <div className={styles.featureItemNonLink}>
+        <div className={styles.featureBtnIcons}>
+          <Asterisk className={styles.featureViewIcon} />
+        </div>
+        <span>{item.name}</span>
+        <div className={styles.featureBtnIcons}>{InfoIcon}</div>
+      </div>
+    )
+}
