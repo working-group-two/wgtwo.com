@@ -24,7 +24,7 @@ import Card from "./components/card";
 <TwoColumnSection>
 
   <Column sticky>
-    <BigTitle pillText="MVNO/MNO" logoUrl="/img/mobi-logo-white-showcase.jpg">
+    <BigTitle pillText="MVNO/MNO" logoUrl="/img/mobi-logo-picture-showcase.png">
     </BigTitle>
   </Column>
 
