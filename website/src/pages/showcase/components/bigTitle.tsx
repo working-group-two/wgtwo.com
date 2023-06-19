@@ -9,7 +9,7 @@ function Component({ pillText, logoUrl, children }) {
 
   return (
     <div>
-      <div className={common.pillTitle}>{pillText}</div>
+      <div className={`${common.pillTitle} ${styles.pill}`}>{pillText}</div>
       <div className={styles.header}>
         <div className={styles.logoContainer}>{logo}</div>
       </div>
