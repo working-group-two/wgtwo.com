@@ -1,6 +1,6 @@
 ---
 slug: mki
-title: Case Studies - MKI
+title: Showcase - MKI
 description: Traditionally private networks require on-premise deployments such as PBX solutions. These integrations of radio spectrum and maintaining the infrastructure require detailed experience. Lastly, once deployed these integrations weren't evolved with later features requested by customers and not being implemented. This ultimately made it difficult for PKI to build new businesses on top of the private network domain.
 advancedPage: true
 ---
@@ -31,10 +31,10 @@ import Card from "./components/card";
   <Column>
     <Cards>
       <Card label="CHALLENGE" title="Deploying new private networks is time-consuming and requires strong technical knowledge.">
-        Traditionally private networks require on-premise deployments such as PBX solutions. These integrations of radio spectrum and maintaining the infrastructure require detailed experience. Lastly, once deployed these integrations weren't evolved with later features requested by customers and not being implemented. This ultimately made it difficult for PKI to build new businesses on top of the private network domain.
+        Traditionally private networks require on-premise deployments. These integrations of the radio spectrum and the maintenance of the infrastructure require detailed experience. Lastly, once deployed these integrations weren't evolved with later features requested by customers and not being implemented. This ultimately made it difficult for MKI to build new businesses on top of the private network domain.
       </Card>
-      <Card label="SOLUTION" title="5g cloud-based private network deployable anywhere.">
-        wgtwo enabled MKI to simplify the financial and operational aspects of the mobile system allowing business growth. The cloud-base private network can be scaled with MKI’s customer portfolio. VoLTE, 5g, and leading security are just a few of the services offered within the private network package.
+      <Card label="SOLUTION" title="LTE/5G cloud-based private network deployable anywhere.">
+        WG2 enabled MKI to simplify the financial and operational aspects of the mobile system allowing business growth. The cloud-based private network can be scaled with MKI’s customer portfolio. On top of it, each deployment leverages the WG2 platform to get access to VoLTE/VoNR, network APIs, a carrier grade infrastructure and a leading security, to name a few of the private network features.
       </Card>
     </Cards>
   </Column>
@@ -55,6 +55,6 @@ import Card from "./components/card";
 
 <Section bgColor="#f6f6f6">
   <Quote>
-    Our 5G Starter Kit selects Working Group Two, which provides a fully managed SaaS-type 5G core. Since there is no need of 5G Core related equipment, integration and construction in the customer environment, it gives a very short Time-to-Market. It also provides various APIs for developers, which can be used to create further added value for local 5G.
+    Our 5G Starter Kit leverages Working Group Two’s fully managed 5G core, delivered as-a-service. Since there is no need for 5G Core-related equipment, integration and construction in the customer environment, the time-to-market is drastically reduced. Working Group Two also provides various APIs for developers, which can be used to create further added value for local 5G services.
   </Quote>
 </Section>

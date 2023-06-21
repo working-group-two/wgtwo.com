@@ -1,6 +1,11 @@
+.pill {
+  position: absolute;
+  top: -50px;
+}
+
 .header {
   display: flex;
-  margin-bottom: var(--ifm-heading-margin-bottom);
+  /*margin-bottom: var(--ifm-heading-margin-bottom);*/
 }
 
 .header h2 {
@@ -11,12 +16,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
 }
 
 .logo {
-  max-width: 300px;
-  max-height: 80px;
+  /*max-width: 300px;
+  max-height: 80px;*/
+  border-radius: 15px;
 }
 
 @media (max-width: 512px) {
