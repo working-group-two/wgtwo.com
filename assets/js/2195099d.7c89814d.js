@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2296],{3558:function(e){e.exports=JSON.parse('{"label":"voice over 4G","permalink":"/blog/tags/voice-over-4-g","allTagsPath":"/blog/tags","count":1}')}}]);

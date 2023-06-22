@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7135],{25870:function(o){o.exports=JSON.parse('{"permalink":"/jp/blog/tags/iot","page":1,"postsPerPage":18,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

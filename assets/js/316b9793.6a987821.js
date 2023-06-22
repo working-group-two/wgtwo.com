@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2411],{17800:function(t){t.exports=JSON.parse('{"label":"iot","permalink":"/blog/tags/iot","allTagsPath":"/blog/tags","count":2}')}}]);
