@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[6147],{24463:function(e){e.exports=JSON.parse('{"label":"volte","permalink":"/blog/tags/volte","allTagsPath":"/blog/tags","count":3}')}}]);

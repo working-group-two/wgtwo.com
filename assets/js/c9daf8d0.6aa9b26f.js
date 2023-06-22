@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4803],{7475:function(e){e.exports=JSON.parse('{"label":"voice over LTE","permalink":"/blog/tags/voice-over-lte","allTagsPath":"/blog/tags","count":1}')}}]);
