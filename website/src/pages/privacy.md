@@ -4,7 +4,7 @@ title: Privacy Notice
 
 # Privacy Notice
 
-<div class="pill">Updated March 24, 2022</div>
+<div class="pill">Updated June 24, 2023</div>
 
 Working Group Two will, as part of our business, process personal data. We will do our best to ensure that personal data is handled and processed reassuringly and trustworthily.
 
@@ -178,6 +178,8 @@ You will find information about your rights and how to contact the Norwegian Dat
 
 Should there be a change in our services or changes in the regulations on the processing of personal data, it may change the information you have provided here. You will find the updated privacy notice readily available on our website.
 
+**Google Analytics**
+
 We use cookies and services related to Google Analytics. Google Analytics is a web analytics service offered by Google that tracks and reports website traffic enabling us to track and monitor the use of our webpage. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
 The following cookies are used:
@@ -189,5 +191,11 @@ The following cookies are used:
 All cookies expire after 12 months.
 
 You can opt-out of having made your activity on the website available to Google Analytics by disabling cookies in your browser, see above for instructions.
+
+**Hotjar**
+
+We use Hotjar, a web analytics service, to improve our website. Hotjar collects anonymous data on user behavior, such as clicks and scrolling. This information helps us enhance our site's usability. This data is aggregated and anonymized, meaning it cannot be personally identified. By using our website, you agree to Hotjar's data collection practices.
+
+You can opt-out of having made your activity on the website available to Hotjar by disabling cookies in your browser, see above for instructions.
 
 For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [https://www.google.com/intl/en/policies/privacy/](https://www.google.com/intl/en/policies/privacy/)
