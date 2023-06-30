@@ -81,17 +81,18 @@ module.exports = {
           label: "Product Ecosystem",
           position: "left",
         },
-        /*{
+        {
           label: "Showcase",
           position: "left",
           type: "dropdown",
-          to: "/showcase",
+          /*to: "/showcase",*/
           items: [
-            { label: "Vimla", href: "/showcase/vimla" },
             { label: "CKH IOD", href: "/showcase/ckh-iod" },
             { label: "MKI", href: "/showcase/mki" },
+            { label: "Mobi", href: "/showcase/mobi" },
+            { label: "Telenor Connexion", href: "/showcase/telenorconnexion" },
           ],
-        },*/
+        },
         {
           href: "/careers/",
           activeBasePath: "/careers/",
