@@ -27,7 +27,7 @@ import Card from "./components/card";
 
   <Column sticky>
     <h2 className={styles.mb20}>Telenor Connexion</h2>
-    <BigTitle logoUrl="/img/telenorconnexion-showcase.jpg">
+    <BigTitle pillText="IoT" logoUrl="/img/telenorconnexion-showcase.jpg">
     </BigTitle>
   </Column>
 
