@@ -87,10 +87,10 @@ module.exports = {
           type: "dropdown",
           /*to: "/showcase",*/
           items: [
-            { label: "CKH IOD", href: "/showcase/ckh-iod" },
-            { label: "MKI", href: "/showcase/mki" },
-            { label: "Mobi", href: "/showcase/mobi" },
-            { label: "Telenor Connexion", href: "/showcase/telenorconnexion" },
+            { label: "Mobi (MVNO/MNO)", href: "/showcase/mobi" },
+            { label: "CKH IOD (MVNE)", href: "/showcase/ckh-iod" },
+            { label: "Telenor Connexion (IoT)", href: "/showcase/telenorconnexion" },
+            { label: "MKI (Private Networks)", href: "/showcase/mki" },
           ],
         },
         {
