@@ -31,10 +31,10 @@ import Card from "./components/card";
   <Column>
     <Cards>
       <Card label="CHALLENGE" title="Deploying new private networks is time-consuming and requires strong technical knowledge.">
-        Traditionally private networks require on-premise deployments. These integrations of the radio spectrum and the maintenance of the infrastructure require detailed experience. Lastly, once deployed these integrations weren't evolved with later features requested by customers and not being implemented. This ultimately made it difficult for MKI to build new businesses on top of the private network domain.
+        Traditionally private networks require on-premise deployments. These integrations of the radio spectrum and the maintenance of the infrastructure require detailed experience. Lastly, once deployed these integrations weren't evolved with later features requested by customers and not being implemented. This ultimately made it difficult for any stakeholders to build new businesses on top of the private network domain.
       </Card>
       <Card label="SOLUTION" title="LTE/5G cloud-based private network deployable anywhere.">
-        WG2 enabled MKI to simplify the financial and operational aspects of the mobile system allowing business growth. The cloud-based private network can be scaled with MKI’s customer portfolio. On top of it, each deployment leverages the WG2 platform to get access to VoLTE/VoNR, network APIs, a carrier grade infrastructure and a leading security, to name a few of the private network features.
+        WG2 enabled MKI to simplify the financial and operational aspects of the mobile system allowing their unique offering. The cloud-based private network can be scaled with MKI’s customer portfolio. On top of it, our initiative to enable zero-touch private networks deployment allows MKI to support both cloud-based and on-premise UPF flexibly, but kept as simple.
       </Card>
     </Cards>
   </Column>
