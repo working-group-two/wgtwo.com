@@ -8,6 +8,7 @@ import Link from "@docusaurus/Link"
 import { frontMatter as CKH_IOD } from "./ckh-iod.md"
 import { frontMatter as MKI } from "./mki.md"
 import { frontMatter as Mobi } from "./mobi.md"
+import { frontMatter as TelenorConnexion } from "./telenorconnexion.md"
 
 const showcases = [
   /*{
@@ -57,6 +58,18 @@ const showcases = [
       </Translate>
     ),
     slug: Mobi.slug,
+  },
+  {
+    name: "Telenor Connexion",
+    description: (
+      <Translate
+        id="home.casestudy.smalloperators.description"
+        description="Description for the small operators case study"
+      >
+        {TelenorConnexion.description}
+      </Translate>
+    ),
+    slug: TelenorConnexion.slug,
   },
 ]
 
