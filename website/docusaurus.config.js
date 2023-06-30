@@ -81,17 +81,21 @@ module.exports = {
           label: "Product Ecosystem",
           position: "left",
         },
-        /*{
+        {
           label: "Showcase",
           position: "left",
           type: "dropdown",
-          to: "/showcase",
+          /*to: "/showcase",*/
           items: [
-            { label: "Vimla", href: "/showcase/vimla" },
-            { label: "CKH IOD", href: "/showcase/ckh-iod" },
-            { label: "MKI", href: "/showcase/mki" },
+            { label: "Mobi (MVNO/MNO)", href: "/showcase/mobi" },
+            { label: "CKH IOD (MVNE)", href: "/showcase/ckh-iod" },
+            {
+              label: "Telenor Connexion (IoT)",
+              href: "/showcase/telenorconnexion",
+            },
+            { label: "MKI (Private Networks)", href: "/showcase/mki" },
           ],
-        },*/
+        },
         {
           href: "/careers/",
           activeBasePath: "/careers/",
