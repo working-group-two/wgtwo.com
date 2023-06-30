@@ -89,7 +89,10 @@ module.exports = {
           items: [
             { label: "Mobi (MVNO/MNO)", href: "/showcase/mobi" },
             { label: "CKH IOD (MVNE)", href: "/showcase/ckh-iod" },
-            { label: "Telenor Connexion (IoT)", href: "/showcase/telenorconnexion" },
+            {
+              label: "Telenor Connexion (IoT)",
+              href: "/showcase/telenorconnexion",
+            },
             { label: "MKI (Private Networks)", href: "/showcase/mki" },
           ],
         },
