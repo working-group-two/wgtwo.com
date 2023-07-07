@@ -17,7 +17,7 @@ module.exports = {
     locales: ["en", "jp"],
     localeConfigs: {
       en: {
-        label: "English"
+        label: "English",
       },
       jp: {
         label: "日本語",
@@ -125,7 +125,7 @@ module.exports = {
         {
           type: "localeDropdown",
           position: "right",
-          className: "localeDropdown"
+          className: "localeDropdown",
         },
       ],
     },
