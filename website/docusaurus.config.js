@@ -16,6 +16,9 @@ module.exports = {
     defaultLocale: "en",
     locales: ["en", "jp"],
     localeConfigs: {
+      en: {
+        label: "English"
+      },
       jp: {
         label: "日本語",
       },
@@ -114,6 +117,15 @@ module.exports = {
           label: "Talk to us",
           position: "right",
           className: "sign-up",
+        },
+        {
+          type: "search",
+          position: "right",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+          className: "localeDropdown"
         },
       ],
     },

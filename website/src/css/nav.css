@@ -106,3 +106,8 @@ html[data-theme="dark"] .menu {
 .dropdown > .navbar__link:after {
   display: none;
 }
+
+.localeDropdown {
+  font-size: 0.8em;
+  font-weight: 500;
+}
