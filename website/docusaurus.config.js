@@ -17,10 +17,10 @@ module.exports = {
     locales: ["en", "jp"],
     localeConfigs: {
       en: {
-        label: "English",
+        label: "🇬🇧",
       },
       jp: {
-        label: "日本語",
+        label: "🇯🇵",
       },
     },
   },
