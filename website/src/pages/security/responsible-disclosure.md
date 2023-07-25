@@ -1,23 +1,14 @@
----
-title: Responsible Disclosure
----
-
 # Responsible Disclosure
 
-<div class="pill">Updated November 14, 2022</div>
+<div class="pill">Updated July 25, 2023</div>
 
-If you believe you have discovered a vulnerability in a Working Group Two product please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information.
+If you believe you have discovered a vulnerability in a Working Group Two product, please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information.
 
 ## Services in scope
 
 In principle, any Working Group Two owned web service that handles reasonably sensitive user data is intended to be in scope. This includes virtually all the content in the following domains:
 
-- `*.wgtwo.com`
-
-On the flip side, the program has the following important exclusions to keep in mind:
-
-- `*.dev.wgtwo.com`
-- `\*.sandbox.*.wgtwo.com`
+- `*.wgtwo.com/*`
 
 ## Qualifying vulnerabilities
 
@@ -28,9 +19,25 @@ Any design or implementation issue that substantially affects the confidentialit
 - Authentication or authorization flaws
 - Server-side code execution bugs
 
+### Services out of scope
+
+On the flip side, the program has the following important exclusions to keep in mind:
+
+- `www.wgtwo.com`
+- `*.dev.wgtwo.com`
+- `*.sandbox.*.wgtwo.com`
+
+The Responsible Disclosure program does not consider the following vulnerabilities to be in scope:
+
+- Clickjacking or any other UI redressing attacks
+- Denial of Service (DoS) Attacks
+- Brute-Force Attacks
+- Social Engineering Attacks
+- Spamming or Phishing Attacks
+
 ## Responsible Disclosure Policy
 
-Safety and data security is of utmost priority for Working Group Two. If you are a security researcher and have discovered a security vulnerability in our code base, application, or API, we appreciate your help in disclosing it to us in a responsible manner.
+Safety and data security are of utmost priority for Working Group Two. If you are a security researcher and have discovered a security vulnerability in our code base, application, or API, we appreciate your help in disclosing it to us in a responsible manner.
 
 - Please refrain from requesting compensation for reporting vulnerabilities.
 - We will acknowledge receipt of your vulnerability report and send you regular updates about our progress.
@@ -43,3 +50,5 @@ Many thanks to the security researchers who have responsibly contributed their f
 
 - Rajat Waghade (2023)
 - Druvash Jani (2023)
+
+*Please note that this Responsible Disclosure program will be regularly updated to adapt to the evolving security landscape and to address any potential changes in the services or scope of vulnerabilities.*
