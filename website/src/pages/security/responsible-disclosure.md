@@ -1,3 +1,7 @@
+---
+title: Responsible Disclosure
+---
+
 # Responsible Disclosure
 
 <div class="pill">Updated July 25, 2023</div>
