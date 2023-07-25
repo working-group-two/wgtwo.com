@@ -55,4 +55,4 @@ Many thanks to the security researchers who have responsibly contributed their f
 - Rajat Waghade (2023)
 - Druvash Jani (2023)
 
-*Please note that this Responsible Disclosure program will be regularly updated to adapt to the evolving security landscape and to address any potential changes in the services or scope of vulnerabilities.*
+_Please note that this Responsible Disclosure program will be regularly updated to adapt to the evolving security landscape and to address any potential changes in the services or scope of vulnerabilities._
