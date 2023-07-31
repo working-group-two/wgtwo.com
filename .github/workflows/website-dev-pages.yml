@@ -40,3 +40,4 @@ jobs:
         with:
           branch: dev-pages
           folder: website/build
+          clean-exclude: netlify
