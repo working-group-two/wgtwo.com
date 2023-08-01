@@ -284,12 +284,6 @@ Problem is that both `erl_tidy` and `katana_code` have multiple issues
 with macros. It is hard to process format code which include macros
 without preprocessing the macros.
 
-## [eryngii](https://github.com/shiguredo/eryngii)
-
-This was a project I found in github. It is written in oCaml, and has
-been archived by it's owner. I really do not want to install oCaml, so
-I just leave it here as a reference.
-
 ## [elvis](https://github.com/inaka/elvis)
 
 This is a bonus; it is not a formatter but a linter.
