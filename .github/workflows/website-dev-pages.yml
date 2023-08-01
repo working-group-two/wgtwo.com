@@ -1,0 +1,45 @@
+name: PR Previewer (Dev Site)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "blog/**"
+      - "website/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'devpages')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Replace Title with PR Name
+        run: |
+          num="${{ github.event.pull_request.number }}"
+          title="${{ github.event.pull_request.title }}"
+          sed -Ei "0,/title:/{s/title:.*\"(.*)\"/title: \"$title (#$num)\"/}" website/docusaurus.config.js
+
+      - name: Prettier & Build Website
+        run: |
+          cd website
+          yarn install && yarn prettier
+          yarn buildDevpage
+
+      - name: Deploy Website 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: dev-pages
+          folder: website/build
+          clean-exclude: |
+            netlify.toml
+            netlify
