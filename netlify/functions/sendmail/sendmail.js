@@ -3,7 +3,7 @@ const { SENDGRID_APIKEY } = process.env
 
 exports.handler = async function (event, context, callback) {
   const { message, senderEmail, senderName } = event.queryStringParameters
-  //client.setApiKey(SENDGRID_APIKEY)
+  client.setApiKey(SENDGRID_APIKEY)
 
   const data = {
     to: "lalomaf902@mliok.com",
@@ -13,7 +13,7 @@ exports.handler = async function (event, context, callback) {
   }
 
   try {
-    //await client.send(data)
+    await client.send(data)
     return {
       statusCode: 200,
       body: JSON.stringify(data),
