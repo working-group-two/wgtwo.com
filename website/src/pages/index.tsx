@@ -21,6 +21,7 @@ function Index() {
   return (
     <Layout title="Working Group Two">
       <div className={common.page}>
+        <p>TESTING</p>
         <Hero />
         <Brands />
         <RBE />
