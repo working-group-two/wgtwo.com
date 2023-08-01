@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.wgtwo.com/jp/blog</id>
-    <title>[TEST] Form Sendmail Netlify testing (#388) Blog</title>
+    <title>Update Language Switch CSS (#386) Blog</title>
     <updated>2023-06-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.wgtwo.com/jp/blog"/>
-    <subtitle>[TEST] Form Sendmail Netlify testing (#388) Blog</subtitle>
+    <subtitle>Update Language Switch CSS (#386) Blog</subtitle>
     <icon>https://www.wgtwo.com/jp/img/favicons/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[WG2 to deliver voice over 4G (VoLTE) for IoT solutions]]></title>
@@ -1038,8 +1038,7 @@ for transmitting data canonically, e.g. used by security applications.
 EXER or Extended XER is used when "stylish" features is wanted, and
 adds possibility to extend the encoder for instance when wanting to
 insert processing instructions or comments into the XML.</p><p>JER is used when transmitting JSON in accordance to the format
-specified in
-<a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-404/" target="_blank" rel="noopener noreferrer">ECMA-404</a>.</p><p>There are probably a bunch of others as well, but these are the ones
+specified in ECMA 404. </p><p>There are probably a bunch of others as well, but these are the ones
 that have a specification.</p><table><thead><tr><th>ITU-T number</th><th>Name</th></tr></thead><tbody><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.690" target="_blank" rel="noopener noreferrer">X.690</a></td><td>ASN.1 encoding rules: Specification of Basic Encoding Rules (BER), Canonical Encoding Rules (CER) and Distinguished Encoding Rules (DER)</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.691" target="_blank" rel="noopener noreferrer">X.691</a></td><td>ASN.1 encoding rules: Specification of Packed Encoding Rules (PER)</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.692" target="_blank" rel="noopener noreferrer">X.692</a></td><td>ASN.1 encoding rules: Specification of Encoding Control Notation (ECN)</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.693" target="_blank" rel="noopener noreferrer">X.693</a></td><td>ASN.1 encoding rules: XML Encoding Rules (XER)</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.694" target="_blank" rel="noopener noreferrer">X.694</a></td><td>ASN.1 encoding rules: Mapping W3C XML schema definitions into ASN.1</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.695" target="_blank" rel="noopener noreferrer">X.695</a></td><td>ASN.1 encoding rules: Registration and application of PER encoding instructions</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.696" target="_blank" rel="noopener noreferrer">X.696</a></td><td>ASN.1 encoding rules: Specification of Octet Encoding Rules (OER)</td></tr><tr><td><a href="https://www.itu.int/rec/T-REC-X/recommendation.asp?lang=en&amp;parent=T-REC-X.697" target="_blank" rel="noopener noreferrer">X.697</a></td><td>ASN.1 encoding rules: Specification of JavaScript Object Notation Encoding Rules (JER)</td></tr></tbody></table><h1>Final words</h1><p>Congratulations for making through this blog post. You deserve a
 medal, and I hope this can help you understand the complexity and
 greatness of ASN.1.</p><p>We have gone through the <strong>basics</strong> of ASN.1, there are still a lot of
