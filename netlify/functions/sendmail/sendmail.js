@@ -1,5 +1,5 @@
-const client = require("@sendgrid/mail")
-const { SENDGRID_APIKEY } = process.env
+/*const client = require("@sendgrid/mail")
+const { SENDGRID_APIKEY } = process.env*/
 
 exports.handler = async function (event, context, callback) {
   const { message, senderEmail, senderName } = event.queryStringParameters
