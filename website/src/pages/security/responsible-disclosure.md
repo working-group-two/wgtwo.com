@@ -4,7 +4,7 @@ title: Responsible Disclosure
 
 # Responsible Disclosure
 
-<div class="pill">Updated July 25, 2023</div>
+<div class="pill">Updated August 7, 2023</div>
 
 If you believe you have discovered a vulnerability in a Working Group Two product, please report it. Visit https://www.wgtwo.com/.well-known/security.txt for contact information.
 
@@ -54,5 +54,6 @@ Many thanks to the security researchers who have responsibly contributed their f
 
 - Rajat Waghade (2023)
 - Druvash Jani (2023)
+- [Armanul Miraz](https://twitter.com/aoxsin) (2023)
 
 _Please note that this Responsible Disclosure program will be regularly updated to adapt to the evolving security landscape and to address any potential changes in the services or scope of vulnerabilities._
