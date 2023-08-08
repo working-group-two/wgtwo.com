@@ -142,6 +142,12 @@ const Careers = () => {
               title="Talent Lead"
               email="theresa@wgtwo.com"
             />
+            <ContactCard
+              image={require("../../static/img/careers/Marietta.jpg")}
+              name="Marietta"
+              title="Recruiter"
+              email="marietta@wgtwo.com"
+            />
           </div>
           <div className={common.centeredText}>
             <Link
