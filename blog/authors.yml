@@ -94,6 +94,12 @@ erlend-prestgard:
   url: https://www.linkedin.com/in/erlend-prestgard-ab47101/
   image_url: /img/author-photos/ep.jpg
 
+werner-eriksen:
+  name: Werner Eriksen
+  title: CTO
+  url: https://www.linkedin.com/in/wernereriksen/
+  image_url: /img/author-photos/we.jpeg
+
 jonny-griffin:
   name: Jonny Griffin
   title: Security Tech Lead
