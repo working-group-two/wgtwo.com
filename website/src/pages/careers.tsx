@@ -144,7 +144,7 @@ const Careers = () => {
             />
             <ContactCard
               image={require("../../static/img/careers/Marietta.jpg")}
-              name="Marietta"
+              name="Marietta Wasilewska"
               title="Recruiter"
               email="marietta@wgtwo.com"
             />
