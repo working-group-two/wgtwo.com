@@ -6,7 +6,7 @@ exports.handler = async function (event, context, callback) {
   client.setApiKey(SENDGRID_APIKEY)
 
   const data = {
-    to: "lalomaf902@mliok.com",
+    to: "woratir520@backva.com",
     from: "noreply@wgtwo.com",
     subject: `New message from ${senderName} (${senderEmail})`,
     html: message,
