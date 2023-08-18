@@ -76,7 +76,7 @@ exports.handler = async function (event, context, callback) {
     await client.send(data)
     return {
       statusCode: 200,
-      body: JSON.stringify({ msg: "Melding sendt" ),
+      body: JSON.stringify({ msg: "Melding sendt" }),
     }
   } catch (err) {
     return {
