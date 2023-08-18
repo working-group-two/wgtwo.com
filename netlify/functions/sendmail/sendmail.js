@@ -68,8 +68,8 @@ exports.handler = async function (event, context, callback) {
   const data = {
     to: senderEmail,
     from: "sales@wgtwo.com",
-    subject: `New message from ${senderName} (${senderEmail})`,
-    html: message,
+    subject: `We have received your message`,
+    html: htmlTemplate,
   }
 
   try {
