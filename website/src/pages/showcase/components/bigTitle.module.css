@@ -1,8 +1,3 @@
-.pill {
-  position: absolute;
-  top: -50px;
-}
-
 .header {
   display: flex;
   /*margin-bottom: var(--ifm-heading-margin-bottom);*/
@@ -32,5 +27,12 @@
 
   .logoContainer {
     display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pill {
+    position: absolute;
+    top: -50px;
   }
 }

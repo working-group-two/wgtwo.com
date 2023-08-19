@@ -1348,8 +1348,7 @@ adds possibility to extend the encoder for instance when wanting to
 insert processing instructions or comments into the XML.
 
 JER is used when transmitting JSON in accordance to the format
-specified in
-[ECMA-404](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/).
+specified in ECMA 404. 
 
 There are probably a bunch of others as well, but these are the ones
 that have a specification.

@@ -84,11 +84,6 @@ export default () => (
                 </a>
               </div>
               <div>
-                <a href="https://www.cisco.com" target="_blank">
-                  <img alt="Cisco" src="/img/cisco.png" />
-                </a>
-              </div>
-              <div>
                 <a href="https://www.digitalalpha.net/" target="_blank">
                   <img alt="Digital Alpha" src="/img/digital-alpha-logo.png" />
                 </a>

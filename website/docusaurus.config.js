@@ -17,10 +17,10 @@ module.exports = {
     locales: ["en", "jp"],
     localeConfigs: {
       en: {
-        label: "🇬🇧",
+        label: "English",
       },
       jp: {
-        label: "🇯🇵",
+        label: "日本語",
       },
     },
   },
@@ -28,7 +28,7 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '🔐 Working Group Two is <b>ISO 27001:2022</b> certified - <a target="_blank" href="/blog/iso27001">read more</a> 🎉',
+        '<b>Cisco announces intent to acquire Working Group Two</b> - <a target="_blank" href="/blog/cisco-intends-to-acquire-wg2">read more →</a>',
       backgroundColor: "#B2E5FB",
       textColor: "#2A3033",
       isCloseable: true,

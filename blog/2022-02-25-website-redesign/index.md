@@ -26,7 +26,7 @@ This blog post illustrates my approach to taking the content of our existing web
 
 #### Background
 
-I recently [listened to a podcast](https://open.spotify.com/episode/0MIeRQGAUcVW2qx2YrO7nn?si=c5d127ab6181434d) about a CEO making her biggest mistake - not promoting within her company. She was pressured into hiring an external CEO to fill her position while she could focus on leading the design initiatives. Long story short, this was her biggest mistake and she learned that promoting people from within the company leads to better results.
+I recently listened to a podcast about a CEO making her biggest mistake - not promoting within her company. She was pressured into hiring an external CEO to fill her position while she could focus on leading the design initiatives. Long story short, this was her biggest mistake and she learned that promoting people from within the company leads to better results.
 
 Outsourcing the design of our website, this podcast made it clear to me why it failed to show the true identity of **wgtwo**. What we needed was a clear storyline, dialogue, and understanding of the Insider to simplify and structure the content, giving the viewer an intuitive understanding. 
 
