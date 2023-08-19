@@ -86,7 +86,9 @@ function RequestDemo() {
     // SEND MESSAGE
 
     message(
-      `Message from wgtwo.com/request-demo\nName: ${form.name.current.value} \nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nNumber of Subscribers: ${form.subscriptionCount.current.value}\nMessage - Most Interested in: ${form.message.current.value}`
+      `Message from wgtwo.com/request-demo\nName: ${form.name.current.value} \nEmail: ${form.email.current.value}\nCompany: ${form.company.current.value}\nNumber of Subscribers: ${form.subscriptionCount.current.value}\nMessage - Most Interested in: ${form.message.current.value}`,
+      form.name.current.value,
+      form.email.current.value
     )
 
     form.company.current.disabled = true

@@ -76,7 +76,9 @@ function Index() {
     // SEND MESSAGE
 
     message(
-      `Message from wgtwo.com/security\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`
+      `Message from wgtwo.com/security\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`,
+      form.name.current.value,
+      form.email.current.value
     )
 
     form.name.current.disabled = true

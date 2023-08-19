@@ -59,7 +59,9 @@ function Contact() {
       Phone: ${form.phone_number.current.value}\n
       Company: ${form.company.current.value}\n
       Department: ${form.department.current.value}\n
-      Message: ${form.message.current.value}`
+      Message: ${form.message.current.value}`,
+      form.familyname.current.value,
+      form.email.current.value
     )
 
     form.familyname.current.disabled = true
