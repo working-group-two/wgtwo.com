@@ -60,6 +60,7 @@ function Contact() {
       Company: ${form.company.current.value}\n
       Department: ${form.department.current.value}\n
       Message: ${form.message.current.value}`,
+      form.message.current.value,
       form.familyname.current.value,
       form.email.current.value
     )

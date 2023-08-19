@@ -77,6 +77,7 @@ function Index() {
 
     message(
       `Message from wgtwo.com/security\nName: ${form.name.current.value}\nEmail: ${form.email.current.value}\nMessage: ${form.message.current.value}`,
+      form.message.current.value,
       form.name.current.value,
       form.email.current.value
     )

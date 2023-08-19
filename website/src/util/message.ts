@@ -1,4 +1,6 @@
-export default function sendMessage(message: string, fromName: string, fromEmail: string) {
+export default function sendMessage(message: string, rawMessage: string, fromName: string, fromEmail: string) {
+  // `message` includes all the form field data, while `rawMessage` only includes the actual message
+  
   /* Send Slack notification: */
   fetch(
     atob(
