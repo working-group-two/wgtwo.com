@@ -15,6 +15,6 @@ export default function sendMessage(message: string, rawMessage: string, fromNam
   /* Send confirmation mail to user (via Netlify and SendGrid): */
   const url = "aHR0cHM6Ly93Z3R3by1kZXYubmV0bGlmeS5hcHAvLm5ldGxpZnkvZnVuY3Rpb25zL3NlbmRtYWlsPw==";
   fetch(
-    `${atob(url)}senderEmail=${fromEmail}&senderName=${fromName}&message=${message}`
+    `${atob(url)}senderEmail=${fromEmail}&senderName=${fromName}&message=${rawMessage}`
   )
 }
