@@ -14,7 +14,7 @@ import BlogPostPaginator from "@theme/BlogPostPaginator"
 import BlogPostPageMetadata from "@theme/BlogPostPage/Metadata"
 import TOC from "@theme/TOC"
 
-import { ProgressBar } from '@nadfri/react-scroll-progress-bar';
+import { ProgressBar } from "@nadfri/react-scroll-progress-bar"
 
 function BlogPostPageContent({ sidebar, children }) {
   const { metadata, toc } = useBlogPost()
@@ -37,11 +37,7 @@ function BlogPostPageContent({ sidebar, children }) {
         ) : undefined
       }
     >
-      <ProgressBar
-        color1="#edf6fa"
-        color2="#93ddff"
-        position="fixed"
-        />
+      <ProgressBar color1="#edf6fa" color2="#93ddff" position="fixed" />
       <BlogPostItem>{children}</BlogPostItem>
 
       {(nextItem || prevItem) && (
