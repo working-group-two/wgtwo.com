@@ -14,7 +14,10 @@
 }
 
 /* Footer 2nd column, "Careers" item: */
-.footer__links > .footer__col:nth-of-type(2) > .footer__items > .footer__item:nth-of-type(6):after {
+.footer__links
+  > .footer__col:nth-of-type(2)
+  > .footer__items
+  > .footer__item:nth-of-type(6):after {
   content: "HIRING";
   background-color: #b3e5fc;
   color: #003162;
