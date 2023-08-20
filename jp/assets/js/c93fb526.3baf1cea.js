@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8431],{84183:function(e){e.exports=JSON.parse('{"permalink":"/jp/blog/tags/security","page":1,"postsPerPage":18,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

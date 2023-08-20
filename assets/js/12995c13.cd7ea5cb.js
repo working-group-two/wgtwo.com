@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[794],{57258:function(s){s.exports=JSON.parse('{"label":"acquisition","permalink":"/blog/tags/acquisition","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[7660],{56497:function(o){o.exports=JSON.parse('{"permalink":"/jp/blog/tags/acquisition","page":1,"postsPerPage":18,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[8942],{59937:function(o){o.exports=JSON.parse('{"permalink":"/jp/blog/tags/cisco","page":1,"postsPerPage":18,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
