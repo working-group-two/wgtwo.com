@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[3943],{536:function(e){e.exports=JSON.parse('{"label":"cloud-native","permalink":"/blog/tags/cloud-native","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[2570],{83991:function(e){e.exports=JSON.parse('{"label":"mvne","permalink":"/jp/blog/tags/mvne","allTagsPath":"/jp/blog/tags","count":1}')}}]);
