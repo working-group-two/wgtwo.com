@@ -284,7 +284,7 @@ function Index() {
               <div className={styles.price}>Find a new app today</div>
               <div
                 className={`${common.button} ${common.buttonPrimary}`}
-                style={{background: '#aaaaaa'}}
+                style={{ background: "#aaaaaa" }}
               >
                 Storefront
               </div>
