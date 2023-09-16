@@ -20,11 +20,6 @@ https://developer.wgtwo.com
 Telecom operators on the **wgtwo** platform are able to configure their own subscriptions, giving them the freedom to add the products that meets their needs.  
 https://console.wgtwo.com
 
-#### Storefront
-
-Your platform to market your application to customers across **wgtwo** operators.  
-https://storefront.wgtwo.com
-
 #### Softphone
 
 Imagine making a GSM call through your browser.  
