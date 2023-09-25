@@ -282,13 +282,12 @@ function Index() {
                 />
               </div>
               <div className={styles.price}>Find a new app today</div>
-              <a
+              <div
                 className={`${common.button} ${common.buttonPrimary}`}
-                href="https://storefront.wgtwo.com"
-                target="_self"
+                style={{ background: "#aaaaaa" }}
               >
                 Storefront
-              </a>
+              </div>
               <div className={styles.priceTierFeatures}>
                 <li>
                   <CheckCircle2 /> Application Market for your telco
