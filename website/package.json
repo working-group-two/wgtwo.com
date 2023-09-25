@@ -24,6 +24,7 @@
     "@docusaurus/plugin-ideal-image": "^2.1.0",
     "@docusaurus/preset-classic": "^2.1.0",
     "@img-comparison-slider/react": "^7.4.3",
+    "@nadfri/react-scroll-progress-bar": "^0.2.3",
     "@szhsin/react-menu": "^3.2.0",
     "@types/node-fetch": "^3.0.3",
     "classnames": "^2.2.6",
