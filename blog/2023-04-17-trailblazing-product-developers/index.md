@@ -15,7 +15,7 @@ Trailblazing product developers like OnRelay, ElitNet, Voxist and more help mobi
 
 ### **OnRelay - mobile switchboard**
 
-[OnRelay](https://www.onrelay.com/) is building a world-class, software-based **PBX** (mobile switchboard), available to all operators on WG2's platform. In [this video](https://www.youtube.com/watch?v=WYrVzKNpntQ), Marie Wold talks about who their dream customer is, and more. 
+OnRelay is building a world-class, software-based **PBX** (mobile switchboard), available to all operators on WG2's platform. In [this video](https://www.youtube.com/watch?v=WYrVzKNpntQ), Marie Wold talks about who their dream customer is, and more. 
 
 [![OnRelay talks about their PBX on WG2's platform](./video-thumbnail.png)](https://www.youtube.com/watch?v=WYrVzKNpntQ)
 
