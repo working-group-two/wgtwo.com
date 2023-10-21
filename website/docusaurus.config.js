@@ -28,10 +28,10 @@ module.exports = {
     announcementBar: {
       id: "announcement-bar",
       content:
-        '<b>Cisco announces intent to acquire Working Group Two</b> - <a target="_blank" href="/blog/cisco-intends-to-acquire-wg2">read more →</a>',
-      backgroundColor: "#B2E5FB",
-      textColor: "#2A3033",
-      isCloseable: true,
+        '<a class="announcementBarLinkContainer" target="_blank" href="https://blogs.cisco.com/news/cisco-announces-intent-to-acquire-working-group-two"><img src="/img/cisco.png"><b>Working Group Two is now part of Cisco</b><span class="separator"> | </span><span>Learn more →</span></a>',
+      backgroundColor: "#000000",
+      textColor: "#b8b8b8",
+      isCloseable: false,
     },
     metadata: [
       {
@@ -291,6 +291,7 @@ module.exports = {
             require.resolve("./src/css/general.css"),
             require.resolve("./src/css/markdown.css"),
             require.resolve("./src/css/nav.css"),
+            require.resolve("./src/css/announcement-bar.css"),
           ],
         },
       },
