@@ -26,7 +26,6 @@ Norway
 
 ```
 Working Group Two
-c/o Digs
 Beddingen 8
 7014 Trondheim
 Norway
