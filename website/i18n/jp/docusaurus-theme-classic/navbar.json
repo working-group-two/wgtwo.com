@@ -11,10 +11,6 @@
     "message": "Product Ecosystem",
     "description": "Navbar item with label Product Ecosystem"
   },
-  "item.label.Join the Team 🎉": {
-    "message": "Join the Team 🎉",
-    "description": "Navbar item with label Join the Team 🎉"
-  },
   "item.label.Blog": {
     "message": "Blog",
     "description": "Navbar item with label Blog"
