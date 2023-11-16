@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkworking_group_two_website=self.webpackChunkworking_group_two_website||[]).push([[4131],{18597:function(e){e.exports=JSON.parse('{"name":"plugin-personio-jobs","id":"default"}')}}]);
