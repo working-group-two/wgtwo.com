@@ -164,5 +164,3 @@ mind the extra load they will generate on timer users.
 There are many options to export application state to the data tier layer. Timers are often part of that
 state. Above we showed how to apply Kafka primitives to achieve a goal of making application "stateless" even
 if the state is using timers. It has its costs and benefits.
-
-Check out openings on the [Careers page](/careers/) if you’re interested in building the future Telco backbone.

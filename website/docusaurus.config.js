@@ -100,12 +100,6 @@ module.exports = {
           ],
         },
         {
-          href: "/careers/",
-          activeBasePath: "/careers/",
-          label: "Join the Team 🎉",
-          position: "right",
-        },
-        {
           href: "/blog/",
           activeBasePath: "/blog/",
           label: "Blog",
@@ -196,8 +190,7 @@ module.exports = {
             },
             {
               label: "Careers",
-              href: "/careers",
-              target: "_self",
+              href: "https://jobs.cisco.com",
             },
             {
               label: "wgtwo.com/jp 合同会社",
@@ -331,22 +324,6 @@ module.exports = {
             from: ["/docs"],
           },
         ],
-      },
-    ],
-    [
-      path.resolve(__dirname, "plugins/personio-jobs.js"),
-      {
-        jobsOverviewRoute: {
-          path: "/jobs",
-          component: path.resolve(
-            __dirname,
-            "src/pages/jobs/_jobs-overview.tsx"
-          ),
-        },
-        jobRoute: {
-          basePath: "/careers/job/",
-          component: path.resolve(__dirname, "src/pages/jobs/_job.tsx"),
-        },
       },
     ],
   ],

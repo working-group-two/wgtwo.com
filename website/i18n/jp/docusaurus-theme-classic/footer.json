@@ -45,7 +45,7 @@
   },
   "link.item.label.Careers": {
     "message": "Careers",
-    "description": "The label of footer link with label=Careers linking to /careers"
+    "description": "The label of footer link with label=Careers linking to https://jobs.cisco.com"
   },
   "link.item.label.gk.wgtwo.com 合同会社": {
     "message": "gk.wgtwo.com 合同会社",
@@ -84,7 +84,7 @@
     "description": "The label of footer link with label=Contact Us linking to /contact"
   },
   "copyright": {
-    "message": "© 2022 Working Group Two AS",
+    "message": "© 2023 Working Group Two AS",
     "description": "The footer copyright"
   }
 }

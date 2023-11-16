@@ -100,8 +100,7 @@ export default () => (
               Interested in joining our growing team?
             </h2>
             <Link
-              to="/jobs"
-              target="_self"
+              to="https://jobs.cisco.com"
               className={`${common.button} ${common.buttonPrimary} ${styles.button}`}
             >
               View open positions
