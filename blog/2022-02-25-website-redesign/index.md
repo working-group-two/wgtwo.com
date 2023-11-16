@@ -332,7 +332,7 @@ As mentioned in the Internal audience, I needed to cater to personas inside our 
 - For the techy to make a website that could be customizable, secure, scale, and use APIs - react is also an industry standard. In addition, I wanted something that generated just plain HTML so I could host on GitHub without an issue.
 
 :::tip The tech
-* React/Typescript - Scalable modern framework that allows for complex API calls. For example, it came in handy for creating our [Careers Page](/careers)
+* React/Typescript - Scalable modern framework that allows for complex API calls. For example, it came in handy for creating our Careers Page
 * https://docusaurus.io - native support for markdown allowing for a rich blog (which is what you are reading today!)
 * Github and GH Actions for hosting, building, and collaborating
 :::
