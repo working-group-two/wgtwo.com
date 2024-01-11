@@ -12,7 +12,6 @@ import Translate, { translate } from "@docusaurus/Translate"
 import { validEmail, containsAngleBrackets } from "../util/helpers"
 import ReactTooltip from "react-tooltip"
 
-
 import FeaturesSidebar from "../features.sidebar"
 
 import {
