@@ -4,6 +4,7 @@
     "https://(www.)?linkedin.com.*",
     "https://(www.)?wgtwo.com.*",
     "https://(www.)?github.com/working-group-two/wgtwo.com/edit/.*",
-    "https://(www.)?twitter.com.*"
+    "https://(www.)?twitter.com.*",
+    "https://(www.)?ccamobile.org.*"
   ]
 }
