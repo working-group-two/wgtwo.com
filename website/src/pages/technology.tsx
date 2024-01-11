@@ -8,9 +8,10 @@ import Ourservice from "../components/ourservice/ourservice"
 import contact from "./contact.module.css"
 import message from "../util/message"
 import Link from "@docusaurus/Link"
-import { translate } from "@docusaurus/Translate"
+import Translate, { translate } from "@docusaurus/Translate"
 import { validEmail, containsAngleBrackets } from "../util/helpers"
 import ReactTooltip from "react-tooltip"
+
 
 import FeaturesSidebar from "../features.sidebar"
 
@@ -243,37 +244,18 @@ function Index() {
               <div className={common.title}>
                 You still have a question in mind?
               </div>
-              <div className={common.subtitle}>We love to tell you more!</div>
             </div>
-            <div className={contact.form}>
-              <input
-                className={formErrorName ? contact.hasError : ""}
-                ref={form.name}
-                placeholder="Name"
-              />
-              <input
-                className={formErrorEmail ? contact.hasError : ""}
-                ref={form.email}
-                placeholder="Email address"
-              />
-              <input
-                className={`${formErrorMessage ? contact.hasError : ""} ${
-                  contact.span2
-                }`}
-                ref={form.message}
-                placeholder="Message"
-              />
-              <button
-                ref={form.button}
-                onClick={() => sendMessage()}
-                className={`${common.button} ${common.buttonPrimary} ${contact.span2}`}
+            <Link
+              to="/contact"
+              className={`${common.button} ${common.buttonPrimary}`}
+            >
+              <Translate
+                id="home.cta.contact"
+                description="contact for the cta section"
               >
-                Submit your message
-              </button>
-              {formError && (
-                <div className={contact.formError}>{formError}</div>
-              )}
-            </div>
+                Request a Demo
+              </Translate>
+            </Link>
           </div>
         </div>
       </div>
