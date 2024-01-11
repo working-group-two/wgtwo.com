@@ -120,7 +120,8 @@ function Contact() {
                   id="contact.subtitle"
                   description="Subtitle for the contact section"
                 >
-                  Please contact your Cisco representative for further information
+                  Please contact your Cisco representative for further
+                  information
                 </Translate>
               </div>
             </div>
