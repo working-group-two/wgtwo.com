@@ -120,88 +120,13 @@ function Contact() {
                   id="contact.subtitle"
                   description="Subtitle for the contact section"
                 >
-                  Questions, feature requests, and ideas welcome!
+                  Please contact your Cisco representative for further
+                  information
                 </Translate>
               </div>
             </div>
           </div>
-          <div className={common.container}>
-            <div className={styles.contactMethods}>
-              <a href="mailto:contact@wgtwo.com">
-                <Mail /> Email us at contact@wgtwo.com
-              </a>
-              <Link to="/request-demo">
-                <Calendar /> Schedule a demo
-              </Link>
-              <a href="https://support.wgtwo.com" target="_blank">
-                <HelpCircle /> Open a support ticket
-              </a>
-              <Link to="/docs/about/offices">
-                <Building /> Meet us in person
-              </Link>
-            </div>
-          </div>
-
-          <div className={common.container}>
-            <div className={styles.form}>
-              <input
-                className={formErrorCompany ? styles.hasError : ""}
-                ref={form.company}
-                placeholder={translate({
-                  message: "Company",
-                  id: "contact.form.company",
-                  description: "Placeholder for the company field",
-                })}
-              />
-              <input
-                className={formErrorEmail ? styles.hasError : ""}
-                ref={form.email}
-                placeholder={translate({
-                  message: "Work email address",
-                  id: "contact.form.email",
-                  description: "Placeholder for the email field",
-                })}
-              />
-              <input
-                className={`${formErrorName ? styles.hasError : ""} ${
-                  styles.span2
-                }`}
-                ref={form.name}
-                placeholder={translate({
-                  message: "Name",
-                  id: "contact.form.name",
-                  description: "Placeholder for the name field",
-                })}
-              />
-              <textarea
-                className={`${formErrorMessage ? styles.hasError : ""} ${
-                  styles.span2
-                }`}
-                ref={form.message}
-                placeholder={translate({
-                  message: "Your message",
-                  id: "contact.form.message",
-                  description: "Placeholder for the message field",
-                })}
-              />
-              <button
-                ref={form.button}
-                onClick={() => sendMessage()}
-                className={`${common.button} ${common.buttonPrimary} ${styles.span2}`}
-              >
-                <Translate
-                  id="contact.form.button"
-                  description="Button for the contact form"
-                >
-                  Send message
-                </Translate>
-              </button>
-              {formError && <div className={styles.formError}>{formError}</div>}
-            </div>
-          </div>
         </div>
-
-        <NewsletterSignup />
       </div>
     </Layout>
   )
